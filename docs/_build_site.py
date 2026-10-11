@@ -1345,7 +1345,7 @@ PAGES = [
          quote='潮城由莫擎宇獨立。我軍亦光復汕頭。後莫率大隊來，令我退出鎮守府&hellip;'),
     dict(slug='sunintercepts', label='Sun Yat-sen wires', year='1916&ndash;17', y=1916.3, place='Shanghai &harr; Tokyo', st='solved', stt='solved',
          title='Sun Yat-sen&rsquo;s intercepted telegrams, 1916&ndash;17',
-         blurb='The telegrams of Sun&rsquo;s circle copied for the Japanese Foreign Ministry, which could not decode them. Condenser keys of the Swatow telegram&rsquo;s family were recovered from the telegrams themselves and decode fifty-six telegrams of 1916 and Sun&rsquo;s exchange with Dai Jitao of 1917, in whole or in part. Sun&rsquo;s later 文密 code is not decoded.',
+         blurb='The telegrams of Sun&rsquo;s circle copied for the Japanese Foreign Ministry, which could not decode them. Condenser keys of the Swatow telegram&rsquo;s family were recovered from the telegrams themselves and decode fifty-six telegrams of 1916 and Sun&rsquo;s exchange with Dai Jitao of 1917, in whole or in part. The two later 1916 systems were decoded by Brice Dudout in October 2026; the June 1917 telegrams are open.',
          quote='克強言外務省意先生宜緩赴青島。 &middot; Tokyo to Shanghai, 26 May 1916',
          rights='Telegram images: JACAR'),
     dict(slug='huangxing', label='Huang Xing', year='1916', y=1916.5, place='China / Japan', st='solved', stt='solved',

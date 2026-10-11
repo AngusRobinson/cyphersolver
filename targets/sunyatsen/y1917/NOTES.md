@@ -139,7 +139,7 @@ do not read in the March key, and are not strictly consonant–vowel. Transcript
 later attempt:
 
 ```
-0509: Lidajysamy vemucayri mevecafema(u) pokelutazi riyecafafi cymefymeca madamymiri pujihokehe  Sunwen
+0509: Lidajysamy vemucäyri mevecafema(u) pokelutazi riyecafafi cymefymeca madamymiri pujihokehe  Sunwen
 0511: Mukoacyobe myzoasdoke catejidoke yokigeleyi liriopen duricidule kohokycuee kuxomifumu hutadyny(y)go
       capakazuye mycykafevu damoumhosy cydicapayo benyzoac hinucuge rifyjabo(?) mahykagica fegajiriby
       jomoaxfojy micycoteco fuhodijige cafemigymu pokycekige rudubyrijo jorinimafy fojylisiby mikypomice

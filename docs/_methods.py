@@ -148,7 +148,7 @@ PAGE_METHOD = {
     'huangxing': (ADJ_PT, 'partial', 'The Foreign Ministry filed its decode with the telegram (JACAR frame 0247); aligning '
                   'it with the cipher identified the three-kana-per-character scheme. The rest of the code book needs a second telegram.'),
     'sunintercepts': (CT, 'partial', 'The condenser keys of the Swatow family (consonants rotated, vowel order changed) were '
-                      'recovered from the telegrams themselves; there is no decode in the file. Some telegrams use a different system and are open.'),
+                      'recovered from the telegrams themselves; there is no decode in the file. The July-November 1916 telegrams, in two other systems, were decoded by Brice Dudout (Oct 2026); the June 1917 ones are open.'),
     'reserva12': (DECIPH, 'complete', 'Xavier de Salas printed a full decipherment in 1931 (Estudis Universitaris Catalans 16); '
                   'it was found and checked against the image.'),
     'beale': (NA, 'n/a', 'Beale Paper no. 1 is judged a fabrication; a book-cipher scan over Project Gutenberg found no key text.'),

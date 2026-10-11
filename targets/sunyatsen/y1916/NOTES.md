@@ -93,17 +93,58 @@ ill; he died on 31 October. The Japanese clerk's own kanji glosses on the form d
 
 ## Not read / open
 
-* **Sun's own 文密 code (six vowels).** From July 1916 (090000 fr. 0416: Tokyo → 中華新報 Shanghai, prefix 轉文羣轉滇督;
-  Tokyo → 軍務院 Zhaoqing, prefix **文密**) to June 1917 (`../y1917`), some of Sun's traffic uses ten-letter words
-  with *y* as a sixth vowel and *w* as a consonant. It is not in the five-vowel family, and a six-vowel version of the
-  family (`../y1917/fam6.py`, ~200 000 keys) finds nothing above z 4.1. The 文密 prefix names it as a distinct code.
+* **The July–November 1916 systems** were decoded by Brice Dudout in October 2026. See "Outside decipherment" below.
+  This file earlier called them one "文密 code (six vowels)". That was wrong: there are two systems, and the 文密
+  prefix belongs to the five-vowel one.
 * Five Tokyo → Junzaburo telegrams of late May with no "Thirtyseventh" prefix. Three are 8 words long, and one
-  exists as a typed copy, so misreading is ruled out. The Ylchang telegrams of 29–30 May use *w* as a consonant. These
-  are probably the same 文密 system.
+  exists as a typed copy, so misreading is ruled out. The Ylchang telegrams of 29–30 May use *w* as a consonant.
+  Dudout reports that they do not decode in his two grids either.
 * A few groups in most long telegrams, flagged [?] in the transcripts.
 * **The Swatow telegram's operator original is not in B03050088300 or B03050088400.** Every Latin-letter form in
   both files was read, and the kana forms (088300 fr. 0441–0458) are domestic. None comes from Swatow. The copy filed
   in B03050738800 remains the only one found, and its three garbled tail groups stay unresolved.
+
+## Outside decipherment: Brice Dudout, July–November 1916 (received 11 Oct 2026)
+
+Brice Dudout emailed on 11 Oct 2026 with readings of the July–November 1916 traffic. His readings, transcriptions
+and solver are at https://bdudout.github.io/wenmi/ and https://github.com/bdudout/wenmi (CC BY 4.0). The traffic is
+in two systems, and he calls the two grids G0 and Y0. Both number the syllables consonant by consonant, with the vowel
+order reversed on every second consonant. A pair of syllables gives one standard telegraph code, with no additive.
+
+* **G0**, five vowels. This is Tokyo → 軍務院 (Zhaoqing, then Canton), June–September 1916, frames 0348, 0386, 0406,
+  0415, 0416b, 0455b and 0462. The 20 consonants run h g f d c b z y x w v t s r q p n m l k (with w and y, without j).
+  The value is 5·i plus the rank of the vowel in a e i o u, counted backwards on odd i (ha 00 … hu 04, gu 05 … ga 09).
+  Dudout held 0406 out of the fitting.
+* **Y0**, six vowels (y is a vowel). This is Tokyo → Yunnan (Tang Jiyao, the provincial assembly, the finance office)
+  and Shanghai (中華新報), July–November 1916, frames 0413, 0416a, 0449, 0455a, 0467, 0473, 0489a, 0494, 0496 and 0498.
+  The consonants are b d f g h k l m n p r s t v w x z, in alphabetical order. The value is 6 × rank plus the rank of
+  the vowel in y u o i e a, counted backwards on odd ranks. The cells ze and za, 100 and 101, are unused. Dudout
+  anchored the grid on the clear twin 0489b and held out 0496a, which reports Cai E's death.
+
+**Checked here, 11 Oct 2026.** Both checks used our own JACAR PDFs and transcriptions made blind from the forms,
+not from his files. The frame offsets are 089900 → 0329, 090000 → 0388, 090100 → 0447 and 090200 → 0503.
+
+* **0489a**, 5 Nov 1916, to 0781 4206 6511 唐督軍 yunnanfu, 9 words. The text reads
+  `Cg gyrotatapo fobawahavo rodunifubu kyhary`. Y0 gives 擬[7777]號南歸謹聞伸歌, and 8 of the 9 codes are exact.
+  十 (0577) needs ta → ba. The clear twin 0489b goes to 4164 ···· ·585 yunnanfu (省議會 according to Dudout; only 4164 省 is
+  clean on the form) and reads
+  0577 5714 6386 4453 2588 2608 2107 3329 0135 2960 = 十號起程月末抵滇伸歌. The sender's address field on both forms
+  reads **青山南町四ノ二一 関方 趙伸**, which identifies 伸 as Zhao Shen, care of Seki, directly on the form. Frame 0388
+  has a kana delivery form to アヲヤマミナミマチ セキマサヲ.
+* **0416b**, 19 Jul 1916, Tokyo → 6511 0523 7108 5128 1989 (軍務院肇慶) Canton, 16 words. It begins with the clear
+  2429 1378 文密, followed by `fazihipego wezelucuna hamodarodo vorokesiya rodugoluro xoxotuhica hematemiba
+  giheyuxifa`. G0 gives 報傳取消日人態度遽變[確]否速示俾便行檄 伸 [皓], with two one-letter emendations: x→r
+  (4315 確) and i→e (4110 皓). 皓 is the rhyme-day code for the 19th, which matches the form's date.
+* **The correction.** The six-vowel telegram on the same frame, 0416a to 0022 5478 2450 1032 中華新報 Shanghai, opens
+  with the clear 6567 2429 5028 6567 3329 4206 = 轉文羣轉滇督, then `Cg`. So 文密 is the prefix of the G0 channel. We had
+  attached it to the six-vowel system and lumped the two together. `../y1917/fam6.py` could not have found either grid,
+  because it was run only on 0509/0511 and never reversed the vowel order on alternate consonants.
+* **Not checked here:** his other ~15 readings, including 0496a (Cai E) and 0406.
+* **Possible slip in his 0406:** 誕意 is probably 誠意. In G0, 6130 and 6134 differ by za/zu.
+
+We adopt none of his readings as our own. The site page (`docs/sunintercepts.html`, section 07) credits him and shows
+only the two telegrams checked here. If his readings are used beyond that, `outcome.method` for that part is "read
+from existing decipherment", found 11 Oct 2026.
 
 ## Files
 
