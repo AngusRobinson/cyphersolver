@@ -16,17 +16,22 @@ each with natural-language controls poured into the Voynich folio skeleton (same
 
 Method choices are stated in the Markdown report.  All output is unvalidated until user review.
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import sys, os, re, math, json, random, time
 from collections import Counter, defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, 'data', 'ZL3b-n.words.tsv')
 RES = os.path.join(HERE, 'results')
-SCR = r'C:\Users\DANIEL~1.BOU\AppData\Local\Temp\claude\C--Users-Daniel-Bourdeau-cipher\bfb7c2bf-254a-4a86-b088-f16d86b54a8f\scratchpad\t50'
+SCR = _CORP
 CORPORA = {
     'latin': os.path.join(SCR, 'corp_la_33849.txt'),
     'english': os.path.join(SCR, 'corp_en_1342.txt'),
-    'italian': r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\vatican5\corpus_it.txt',
+    'italian': _IT,
 }
 SECTION_NAMES = {'H': 'herbal', 'A': 'astro', 'B': 'biological', 'C': 'cosmological', 'P': 'pharma',
                  'S': 'stars/recipes', 'T': 'text', 'Z': 'zodiac'}

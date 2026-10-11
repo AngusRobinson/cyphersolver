@@ -76,8 +76,13 @@ Statistics (identical code path for every corpus)
   * Shuffle null: symbols shuffled inside each word (a3.shuffle_within), reported for the syllable
     tokenisations.
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import sys, re, json, math, random, collections, pathlib, time
-BASE = pathlib.Path(r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich')
+BASE = pathlib.Path(_HERE)
 sys.path.insert(0, str(BASE))
 import a1_charstats as A1
 import a3_wordgrammar as A3

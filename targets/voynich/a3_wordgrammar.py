@@ -20,11 +20,16 @@ MERGE (applied left to right, longest first):
 Words containing '?', '@nnn;' codes, apostrophes, digits, or letters outside the basic EVA set
 {a c d e f g h i k l m n o p q r s t y} are dropped.
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import re, json, random, collections, math, pathlib, sys, time
 
-BASE = pathlib.Path(r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich')
-CORP = pathlib.Path(r'C:\Users\DANIEL~1.BOU\AppData\Local\Temp\claude\C--Users-Daniel-Bourdeau-cipher\bfb7c2bf-254a-4a86-b088-f16d86b54a8f\scratchpad\t50')
-IT_CORPUS = pathlib.Path(r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\vatican5\corpus_it.txt')
+BASE = pathlib.Path(_HERE)
+CORP = pathlib.Path(_CORP)
+IT_CORPUS = pathlib.Path(_IT)
 RES = BASE / 'results'; RES.mkdir(exist_ok=True)
 
 EVA_OK = set('acdefghiklmnopqrsty')

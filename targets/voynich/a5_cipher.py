@@ -25,12 +25,17 @@ Method summary (every choice is deliberate and stated):
     unigram unk mass plus a character-bigram spelling cost (trained on the training fold).
     Also reported: lzma / bz2 compressed size of the space-separated text.
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import collections, csv, json, math, os, pathlib, re, sys, unicodedata, lzma, bz2
 
-HERE = pathlib.Path(r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich')
+HERE = pathlib.Path(_HERE)
 RES = HERE / 'results'; RES.mkdir(exist_ok=True)
-CORP = pathlib.Path(r'C:\Users\DANIEL~1.BOU\AppData\Local\Temp\claude\C--Users-Daniel-Bourdeau-cipher\bfb7c2bf-254a-4a86-b088-f16d86b54a8f\scratchpad\t50')
-IT_FILE = pathlib.Path(r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\vatican5\corpus_it.txt')
+CORP = pathlib.Path(_CORP)
+IT_FILE = pathlib.Path(_IT)
 LANGS = ['la', 'it', 'de', 'en', 'fr', 'da']
 LOG2 = math.log2
 

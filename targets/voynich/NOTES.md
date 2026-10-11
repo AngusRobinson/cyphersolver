@@ -11,6 +11,94 @@ marked with an asterisk. Two independent baseline scripts (`baseline.py`, `basel
 the agents ran reproduce the a1/a2 headline numbers (h2 2.32 raw EVA without spaces, Zipf slope -1.04,
 adjacent repeats 0.81%).
 
+## 0. October 2026 update (11 Oct): b1-b4 folded in, c1-c3 added, site page rewritten
+
+Prompted by RBA's post "Not deciphering the Voynich manuscript" (goflaw.substack.com, 22 Sept 2026) and
+Ilya A.'s note on it (constructed languages, Markov generators as charts, Lindemann & Bowern's alphabet-size
+figure). Sections 1-8 below are the September adjudication; where October changed a statement, this section
+says so and the site page (docs/voynich.html) carries the corrected text.
+
+**Reproduction.** The September corpora lived in a scratchpad on another machine. `fetch_corpora.py` now
+re-downloads them (the 38 Gutenberg ids named in the old results; voynich.nu transliterations with browser
+headers; ZL is still version 3b of 13/05/2025 and parses to the committed TSV line for line). The Italian
+control (git-ignored `vatican5/corpus_it.txt`) had been rebuilt with its documents in another order; the
+September sample begins at character 10,375,656 ("cumque predictus fcrdiuandu s rex ..."), so the script
+freezes a copy from there into `data/corpora/corpus_it.txt` and every script's `_IT` points to it. With that,
+b1, b2, b3 and b4 reproduce every committed value (b3/b4 differ only in float rounding and runtime). All
+scripts had hard-coded paths to the other machine; a header now defines `_HERE/_CORP/_EXT/_IT` locally.
+
+**Verification of b1-b4** (separate agents, `v_b1.py`-`v_b3.py`, reports in `results/v_b*.md`; `v_b4.py` run
+for the first time, `results/v_b4.json`):
+- b1 confirmed. Correction: the CV-syllable rows match Voynich h2 by token shape (a random C/V/CV generator
+  gives 2.10-2.16), not by language; Aeneid syllable pair-violation 0.192 is a tail artefact (0.255 on
+  lengths 1-5). Section 2's gap (syllabic writing, uncertain spaces) counts as tested: neither reproduces
+  Voynichese for Latin or Italian. Glyph groups spelling syllables inside word tokens stays in (a).
+- **Parse defect (all scripts).** `parse_ivtff.py` deletes the 740 `<->` marks between glyphs (drawing
+  interruptions; they behave like word spaces), gluing 655 false compounds, and drops 394 `{..}` ligature
+  groups with their glyphs. Fixed: h2 unchanged (merged 2.635 -> 2.646), pair violation 0.160 -> 0.145, merged
+  length variance 2.48 -> 2.12, hapax 69.5 -> 67.7% (inside the single-book language range: drop "hapax above
+  every language"). Not yet propagated; next step is a full re-run on a corrected parser.
+- b2 confirmed numerically; three readings overturned. Picture-text MI excess 0.088 is only 1.3-1.5x a
+  compilation of different works (the fair control), and it follows the gathering, not the drawing (quire O:
+  z 0.4; hand+gathering fixed: 0.003 bit). Adjacency: a no-continuity model already gives 0.84 of the 0.81
+  ratio; Voynich continuity is smaller than the books' across the volume, within their range inside hand+
+  section, present within quires for every text, and breaks at each change of scribe. MZ height measures
+  heterogeneity (a Latin window running into the editor's notes gives 0.31).
+- b3 confirmed (20 items re-implemented, within 0.2%; Naibbe port faithful, shipped file = naibbe.py v1,
+  52-card deck). Corrections: not pre-registered (battery and results in one commit); autocopist and Naibbe
+  FAIL Zipf; autocopist glyph-entropy excess 0.4-0.6 bit, and it overshoots the MZ peak (0.47) rather than
+  lacking it; Naibbe divcom short 16 not 17; tolerance tighter than sampling noise on 6 items (candidates
+  still miss by 7-18 SE); JSD halves and MZ height reward the A+B mixture. Naibbe's missing long-range
+  structure is the cipher's (plaintext 0.10 -> letter units 0.02 -> ciphertext 0.004). A Pliny-then-Dante
+  Naibbe hybrid still drifts 0.003 against 0.063.
+- b4 re-run identical; v_b4 agrees (h2 2.311, h3 2.068, folio bootstrap 2.27-2.33, A/B p 0.002 at 500 perms,
+  cross-word glyph MI excess 0.169).
+
+**c1 (comparators, `c1_comparators.py`, results/c1.md).** h2 under both conventions, every text cut to 34,116
+tokens. Lindemann & Bowern count the space: ZL with space 2.117 raw / 2.509 merged against their 2.114 /
+2.475, so the two conventions agree and must not be mixed. Their Appendix B is in `data/lb2021_wikipedia_h2.tsv`
+(311 rows; lowest Hawaiian 2.765). With the space: Voynich EVA 2.12-2.14, Currier 2.35, merged 2.51, v101 2.53;
+Toki Pona 2.334 (15 letters); Hawaiian Bible 1868 spelling 2.589; Setswana 2.652, Maori 2.656, Tongan 2.705;
+Lojban 2.977, Swahili 2.980, Volapuk 3.091, Esperanto 3.108; 11 European languages 3.164-3.489. Without the
+space Hawaiian 1868 (2.850) is below merged ZL (2.870) and v101 (2.897). So the absolute h2 is reachable by a
+small alphabet with rigid syllables; at equal alphabet size (within 20%) the gap is still 0.33-0.54 bit, and on
+h2/h1 (no space) every Voynich transliteration (0.60-0.71) is below every natural language (>= 0.75; Toki Pona
+0.751). The CV languages fail word length (3.1-3.8), vocabulary growth (TTR 0.04-0.09 vs 0.21), hapax and
+predictability (7-9x). b3 battery: Markov chains trained on Voynich 17/22/25 of 37 (fits, not hypotheses;
+order 3 fails only the above-word items), Swahili and Esperanto 13, Vulgate 12, low-h2 languages 8-9, Toki Pona
+8, Lojban 9, Latin-trained chains 7-9, random glyphs 6. Positional lock does not exclude Polynesian (Hawaiian
+0.655 vs 0.644): correct b3's "natural language excluded by positional lock" to European languages. Zipf at
+10,053 tokens: Voynich -0.99, random glyphs -0.87, Latin-trained order-1 chain -0.92; pooled human gibberish
+-0.63 with 85% hapax, so the page's old "Zipf and hapax are reproduced by human gibberish" was wrong for the
+pooled sample (corrected on the page).
+
+**c3 (real period ciphers, `c3_period.py`, data/period/ built by its `_extract.py` from this project's own
+targets).** 17 datasets, 18,604 signs, 1400-1490 (Mantua R1854 1428-30, Siena Concistoro 2308, Sforza BnF it.
+1583 1446, Buda 1490, ...). h2 without spaces against 300 random same-length windows. Every transcribed
+ciphertext of >= 250 signs sits 0.85-2.2 bits above Voynichese and -0.3 to +0.9 bit from Latin of the same
+length; homophonic letters sit 0.24-0.62 bit above their own plaintext. benedict1399 is re-enciphered from
+Puig's printed text (excluded from the chart). Homophonic/nomenclator chancery ciphers of a European language:
+excluded.
+
+**Corrections to sections below.** 4.2: hapax "above every language" falls with the parse fix. 5 (Live b):
+"no implementation has been run at manuscript length" is out of date: the autocopist matches 9/37. 5 (Live c):
+tested for Latin/Italian, now disfavoured. 7 items 1 (battery), 3 (illustration MI) and 4 (re-tokenisation)
+are done (b3, b2, b1). 8 "Not checked" higher-order entropies, bootstrap, MZ, topic models, adjacency: done
+(b4, b2). The two figures in two forms: merged h2 2.870 (a1 merge2 list) vs 2.646 (a4 list), both no space;
+adjacency 0.907% within lines vs 0.82% across line breaks.
+
+**RBA's post, compared.** Same transliteration and same character result (h2 2.07 vs 2.12 with space; Latin
+3.36). Its Markov-chain h2 match is circular (a chain trained on Voynich reproduces h2 by construction). Its
+"Zipf exponent 1.854, first report" looks like the frequency-distribution exponent, not the rank slope
+(-1.04 here, Landini 2001). Its GRU masking effect (0.0055 nats, Latin ~0, Timm generator 0.007) is the
+self-citation signal; our a4 shows most of it survives a within-page shuffle (0.238 of 0.269) and the
+order-dependent part is Danish-verse sized (+0.031 vs +0.024). Its controls lack a within-page shuffle,
+verse and a formulaic genre; that test is listed as open on the page.
+
+**Still open.** Full re-run on a corrected parser; hybrid generator built to pass the battery; manuscript-length
+human gibberish; RBA's masking test with the missing controls; f/p rules and line effects as alphabet-neutral
+battery items; blind key test for any claimed key.
+
 ## 1. Verdict and confidence
 
 **Established, and not disputed by anyone serious (L).** The object is a genuine early-15th-century codex:
@@ -277,9 +365,12 @@ live. All output is unvalidated until review.
 
 ## Files
 
-`parse_ivtff.py` (IVTFF to TSV), `data/ZL3b-n.words.tsv` (the parsed main transliteration; the raw files
-are fetched from voynich.nu/data with browser headers, the server refuses plain curl), `baseline.py`,
-`baseline2.py`, `a1_charstats.py` to `a6_structure.py`, `v_a1.py` to `v_a6.py`, `results/` (JSON and
-Markdown per analysis and per verification, plus generator samples), `NOTES_draft.md` (the synthesis
-agent's draft this file was edited from), `SOURCES.md` (the five literature sweeps with strengths and
-sources).
+`fetch_corpora.py` (downloads every comparison corpus and transliteration into git-ignored folders and
+freezes the Italian sample; run it first), `parse_ivtff.py` (IVTFF to TSV; see the parse defect in section 0),
+`data/ZL3b-n.words.tsv` (the parsed main transliteration), `baseline.py`, `baseline2.py`, `a1_charstats.py` to
+`a6_structure.py`, `v_a1.py` to `v_a6.py`, `b1_segmentation.py` to `b4_robustness.py`, `v_b1.py` to `v_b4.py`,
+`c1_comparators.py`, `c3_period.py` (data in `data/period/`, built by `data/period/_extract.py`),
+`c2_charts.py` (writes the inline SVG charts into docs/voynich.html), `data/lb2021_wikipedia_h2.tsv`
+(Lindemann & Bowern 2021 Appendix B), `results/` (JSON and Markdown per analysis and per verification, plus
+generator samples), `NOTES_draft.md` (the synthesis agent's draft this file was edited from), `SOURCES.md`
+(the five literature sweeps with strengths and sources).

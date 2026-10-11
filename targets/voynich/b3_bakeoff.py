@@ -17,14 +17,19 @@ Corpora (all as pages -> lines -> words, EVA / Latin lowercase a-z only)
 The battery, the scored items and the match rule are written in BATTERY_TEXT below and in section 0 of
 results/b3.md; they were fixed before any score was computed.
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import sys, os, re, json, math, random, collections, statistics, time, csv, unicodedata
 
-BASE = r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich'
+BASE = _HERE
 sys.path.insert(0, BASE)
 import a4_selfcitation as a4
 
 OUT = os.path.join(BASE, 'results')
-SCR = r'C:\Users\DANIEL~1.BOU\AppData\Local\Temp\claude\C--Users-Daniel-Bourdeau-cipher\bfb7c2bf-254a-4a86-b088-f16d86b54a8f\scratchpad'
+SCR = _EXT
 NAIBBE_DIR = os.path.join(SCR, 'naibbe', 'out')
 GIB_DIR = os.path.join(SCR, 'gaskell_voynich', 'data', 'gib')
 

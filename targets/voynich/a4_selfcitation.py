@@ -27,12 +27,17 @@ What it does
      (OLS log f vs log r, ranks 1..1000), hapax fraction (types and tokens), word length mean / variance,
      adjacent identical-token rate; raw EVA and glyph-merged EVA for Voynichese and generators.
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import sys, os, re, json, math, random, collections, statistics, time
 
-BASE = r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich'
+BASE = _HERE
 ZL = os.path.join(BASE, 'data', 'ZL3b-n.words.tsv')
-CORP = r'C:\Users\DANIEL~1.BOU\AppData\Local\Temp\claude\C--Users-Daniel-Bourdeau-cipher\bfb7c2bf-254a-4a86-b088-f16d86b54a8f\scratchpad\t50'
-IT = r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\vatican5\corpus_it.txt'
+CORP = _CORP
+IT = _IT
 OUT = os.path.join(BASE, 'results')
 os.makedirs(OUT, exist_ok=True)
 AZ = re.compile(r'^[a-z]+$')

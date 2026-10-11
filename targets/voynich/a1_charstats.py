@@ -54,14 +54,19 @@ Statistics (all logs base 2)
     languages/controls are reported at 150,000 letters (spaces excluded from the count) and at the letter
     count of Voynich ZL Currier A, so that A can be compared like with like.
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import csv, math, json, os, sys, random, collections, pathlib, re
 
-HERE = pathlib.Path(r"C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich")
+HERE = pathlib.Path(_HERE)
 DATA = HERE / "data"
 RES = HERE / "results"
 RES.mkdir(exist_ok=True)
-CORP = pathlib.Path(r"C:\Users\DANIEL~1.BOU\AppData\Local\Temp\claude\C--Users-Daniel-Bourdeau-cipher\bfb7c2bf-254a-4a86-b088-f16d86b54a8f\scratchpad\t50")
-IT_CORPUS = pathlib.Path(r"C:\Users\Daniel.Bourdeau\cipher\cyphersolver\vatican5\corpus_it.txt")
+CORP = pathlib.Path(_CORP)
+IT_CORPUS = pathlib.Path(_IT)
 
 TARGET = 150_000
 

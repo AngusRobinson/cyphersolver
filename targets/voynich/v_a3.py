@@ -13,8 +13,13 @@ Checks:
  9. Rugg generator fitted to Latin (does the 3-column generator lower ANY corpus to ~0.12?)
 10. one-edit fraction re-implemented (brute Levenshtein on a sample) vs a3 numbers
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import re, json, random, collections, pathlib, sys, time
-sys.path.insert(0, r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich')
+sys.path.insert(0, _HERE)
 import a3_wordgrammar as A   # read-only reuse of loaders / grammar functions
 
 BASE = A.BASE; RES = BASE / 'results'; RES.mkdir(exist_ok=True)

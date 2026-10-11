@@ -12,8 +12,13 @@ Checks:
   E. reproduce BPE step-12, null-removal for 'h' and 'o', info-budget bits for Voynich raw & Italian.
   F. plug-in bias sanity: h2 on halves of the sample.
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import collections, csv, json, math, pathlib, re, sys, unicodedata, time
-HERE = pathlib.Path(r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich')
+HERE = pathlib.Path(_HERE)
 sys.path.insert(0, str(HERE))
 import a5_cipher as A   # reuse its loaders so we test exactly its sample
 RES = HERE / 'results'; RES.mkdir(exist_ok=True)

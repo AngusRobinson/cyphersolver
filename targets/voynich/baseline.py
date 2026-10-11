@@ -1,9 +1,14 @@
 """baseline.py -- independent anchor numbers: h0/h1/h2 of the ZL letter stream (EVA raw and merged glyphs,
 with and without word spaces) against Latin, Italian, German, English of the same size."""
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import math, collections, re, pathlib, glob, sys
 sys.stdout.reconfigure(encoding='utf-8')
 HERE = pathlib.Path(__file__).parent
-CORP = r'C:/Users/DANIEL~1.BOU/AppData/Local/Temp/claude/C--Users-Daniel-Bourdeau-cipher/bfb7c2bf-254a-4a86-b088-f16d86b54a8f/scratchpad/t50'
+CORP = _CORP
 rows = [l.rstrip('\n').split('\t') for l in open(HERE / 'data/ZL3b-n.words.tsv', encoding='utf-8')][1:]
 words = [w for r in rows if r[2] == 'P' for w in r[9].split() if '?' not in w and re.fullmatch(r'[a-z]+', w)]
 MERGE = ['ckh', 'cth', 'cph', 'cfh', 'iiin', 'iin', 'sh', 'ch', 'ee', 'qo']
@@ -41,7 +46,7 @@ def corpus(lang):
     text = re.sub(r'[^a-zäöüßæøå]+', ' ', text)
     return [list(w) for w in text.split()]
 for lang in ['la', 'de', 'en', 'fr', 'da']: report(f'{lang} (Gutenberg)', corpus(lang))
-it = open(HERE.parent / 'targets/vatican5/corpus_it.txt', encoding='utf-8').read().split()
+it = open(pathlib.Path(_IT), encoding='utf-8').read().split()
 report('it (Nuntiaturberichte)', [list(w) for w in it])
 # Latin without vowels
 lat = corpus('la'); report('la without vowels', [[c for c in w if c not in 'aeiouy'] or ['x'] for w in lat])

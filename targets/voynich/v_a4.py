@@ -16,8 +16,13 @@ point is to check the numbers, but recomputes the critical quantities independen
   7. autocopist fidelity: share of generated tokens that are real ZL word types
 Writes results/v_a4.json and results/v_a4.md.
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import sys, os, re, json, math, random, collections, statistics, time
-BASE = r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich'
+BASE = _HERE
 sys.path.insert(0, BASE)
 import a4_selfcitation as A
 

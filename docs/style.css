@@ -821,3 +821,32 @@ ul.list.cattop .pr{font-family:var(--display);font-size:1.15rem;color:var(--gold
 .gloss dt .st{margin-right:.5rem;vertical-align:.1em}
 .gloss dd{margin:.3rem 0 0 0;color:var(--ink2)}
 .gloss dd a{white-space:nowrap}
+
+/* Voynich charts (targets/voynich/c2_charts.py). Reference data-viz palette, slots 1-5, validated against both site
+   surfaces (adjacent pairs; the scatter uses slots 1-3 only, which pass all-pairs). Light mode needs the direct
+   labels and the tables beside each chart (contrast below 3:1 for slots 2-5). */
+.vchart{--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;--s5:#d55181;--gridc:rgba(233,228,216,.09);--axisc:rgba(233,228,216,.35);
+  display:block;width:100%;height:auto;margin:1.4rem 0 .3rem;font-family:var(--mono)}
+:root[data-theme="light"] .vchart{--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;--s5:#e87ba4;--gridc:rgba(31,27,20,.08);--axisc:rgba(31,27,20,.35)}
+.vchart text{fill:var(--muted);font-size:11px}
+.vchart .lab{fill:var(--ink2)}
+.vchart .ttl{fill:var(--ink);font-size:12px}
+.vchart .grp{fill:var(--gold);font-size:10px;letter-spacing:.06em;text-transform:uppercase}
+.vchart .grid{stroke:var(--gridc)}
+.vchart .axis{stroke:var(--axisc)}
+.vchart .band{fill:var(--s1);opacity:.12}
+.vchart .bg{fill:var(--muted);opacity:.4}
+.vchart .s1{fill:var(--s1);stroke:var(--s1)} .vchart .s2{fill:var(--s2);stroke:var(--s2)} .vchart .s3{fill:var(--s3);stroke:var(--s3)}
+.vchart .s4{fill:var(--s4);stroke:var(--s4)} .vchart .s5{fill:var(--s5);stroke:var(--s5)} .vchart .ink{fill:var(--ink2);stroke:var(--ink2)}
+.vchart circle.s1:not(.hollow),.vchart circle.s2:not(.hollow),.vchart circle.s3:not(.hollow),.vchart circle.s4:not(.hollow),
+.vchart circle.s5:not(.hollow),.vchart rect.s2:not(.hollow),.vchart path.s3:not(.hollow){stroke:var(--bg);stroke-width:1.5}
+.vchart .hollow{fill:var(--bg);stroke-width:1.6}
+.vchart .ring{fill:none;stroke:var(--ink2);stroke-width:1.2}
+.vchart .line{fill:none;stroke-width:2}
+.vchart .hit{fill:transparent;stroke:none}
+.vchart .pt:hover circle:not(.hit),.vchart .pt:hover rect,.vchart .pt:hover path{stroke:var(--ink);stroke-width:2}
+.vchart .cell{fill:var(--panel2)} .vchart .cell.on{fill:var(--s1)}
+.vchart .cell:hover{stroke:var(--ink);stroke-width:1.5}
+.vfig{margin:0 0 1.4rem;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.vfig .vchart{min-width:620px}
+.vfig figcaption{color:var(--muted);font-size:.9rem;margin-top:.2rem}

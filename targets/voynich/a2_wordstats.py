@@ -47,13 +47,18 @@ METHOD CHOICES (all explicit):
   Levenshtein distance exactly 1; and the same two rates after a seeded random shuffle of the token
   sequence (expected value under random adjacency, 5 shuffles averaged).
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import re, json, math, random, collections, pathlib, glob, sys
 
 HERE = pathlib.Path(__file__).resolve().parent
 DATA = HERE / 'data'
 RES = HERE / 'results'; RES.mkdir(exist_ok=True)
-T50 = pathlib.Path(r'C:\Users\DANIEL~1.BOU\AppData\Local\Temp\claude\C--Users-Daniel-Bourdeau-cipher\bfb7c2bf-254a-4a86-b088-f16d86b54a8f\scratchpad\t50')
-IT_FILE = pathlib.Path(r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\vatican5\corpus_it.txt')
+T50 = pathlib.Path(_CORP)
+IT_FILE = pathlib.Path(_IT)
 
 # ---------------------------------------------------------------- Voynich loading
 MERGE = [('cfh', 'F'), ('ckh', 'K'), ('cph', 'P'), ('cth', 'T'), ('iiin', 'M'), ('iin', 'N'), ('eee', 'W'),

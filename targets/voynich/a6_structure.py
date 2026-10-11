@@ -5,11 +5,16 @@
 (4) section-specific 'topic' words (chi-square + KL) calibrated against natural language and shuffled text
 Pure Python 3.12, no third-party packages. Writes results/a6.json and results/a6.md
 """
+import os as _os  # local paths (the September 2026 scripts hard-coded another machine)
+_HERE = _os.path.dirname(_os.path.abspath(__file__))
+_CORP = _os.path.join(_HERE, 'data', 'corpora')  # corp_<lang>_<gutenberg id>.txt, see fetch_corpora.py
+_EXT = _os.path.join(_HERE, 'data', 'external')  # third-party data (Naibbe, Gaskell & Bowern)
+_IT = _os.path.join(_CORP, 'corpus_it.txt')  # vatican5 OCR corpus from the September sample's first words (fetch_corpora.py)
 import collections, math, random, re, json, pathlib, itertools
 random.seed(6)
-ROOT = pathlib.Path(r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\voynich')
-SCR = pathlib.Path(r'C:\Users\DANIEL~1.BOU\AppData\Local\Temp\claude\C--Users-Daniel-Bourdeau-cipher\bfb7c2bf-254a-4a86-b088-f16d86b54a8f\scratchpad\t50')
-IT = pathlib.Path(r'C:\Users\Daniel.Bourdeau\cipher\cyphersolver\vatican5\corpus_it.txt')
+ROOT = pathlib.Path(_HERE)
+SCR = pathlib.Path(_CORP)
+IT = pathlib.Path(_IT)
 OUT = ROOT / 'results'; OUT.mkdir(exist_ok=True)
 R = {}   # results dict
 MD = []  # markdown lines
