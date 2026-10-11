@@ -7,8 +7,9 @@ the Emser Werke (*Nylon und Napalm*, 2022), and Klaus Schmeh posted them on Face
 they concerned "wool business" in Spain; Bochsler doubts that, given his ties to Franco's side. Salamanca was
 Franco's headquarters in January 1937.
 
-**Status: in progress (30 Sept 2026).** The second telegram (160 letters) is now in hand and transcribed (below), and
-a joint attack on both telegrams is under way; the rest of this section is the state after the September sessions.
+**Status: in progress (11 Oct 2026).** The second telegram (160 letters) is now in hand and transcribed (below). The
+archive file has been read in full (no key), and a key-phrase dictionary attack on both telegrams found nothing
+(Fourth session, below). The rest of this section is the state after the September sessions.
 
 **Before 30 Sept: not solved, and set aside.** No plaintext has been recovered. The cipher is a transposition of what
 looks like telegraphic Spanish. Every transposition family that a single 615-letter message can be tested for
@@ -188,13 +189,68 @@ nothing. 540 width pairs, every second key enumerated; best stride score −2.69
 w1 = 2–41:* **nothing.** 360 width pairs; best pairing score −2.24, best first-key reading −5.49 per quadgram at width 41,
 noise level (`dt/exhaust_mixed3_w2_2-10_w1_2-41.txt`, 4.9 h on five threads).
 
+## Fourth session (11 Oct 2026): the archive file and a key-phrase dictionary
+
+**Prior work.** Javier Fuentes's public repository `jfuentesibanez/sentinel-blume-salamanca` (last pushed
+3 Oct 2026) reports no plaintext or key after eighteen phases of synthetic IDP experiments. It supplies the
+archival source: Swiss Federal Archives **E4320B#1974/47#277** (*Spanische Revolution (Passvisas etc.)*),
+subdossier 0000066, digitised and public (IIIF manifest
+`recherche.bar.admin.ch/recherche/files/manifests/0000/0357/8609/3578609.json`). Bochsler's note 44 records a
+failed 2020 decipherment attempt by Peter Heinzmann, Carlo Matteotti, Patrick Liniger and Kandiah Viveksanth;
+their report was not found online.
+
+**The dossier (all 42 images read).** Cover "Hunziker Hans, Osswald Viktor u. Werner (Super-Beton-Rohr f.
+Fliegerbomben f. Spanien)"; the PTT covering letter of 15 Jan 1937 sending "2 Abschriften von chiffrierten
+Telegrammen von Zürich nach Salamanca"; the two telegrams (canvases 9 and 13 of Unterlagen 0000072; the red
+note on no. 1 names Viktor Oswald, b. 15.11.1909, Burgos); Werner Oswald's interrogation of 28 Apr 1937;
+Hans Hunziker's of 12 May 1937; Hunziker's letter to Oswald in Burgos (20 Apr 1937) and his bomb-casing
+brochure and photographs. Werner says the telegrams were sent and signed by his brother **Viktor M. Oswald**,
+then passing through Zurich, about reopening an office in Nationalist Spain and a **wool** deal to unfreeze
+Swiss export credits, kept from **Hisma** (Seville) until it had been put to the authorities in **Burgos**; he
+says he does not know the content and does not hold the key ("da ich selbst mit meinem Bruder nicht chiffriert
+verkehre"). The Hunziker bomb business dates from April–May 1937, after the telegrams. **No key, no
+decipherment and no third ciphertext are in the dossier.**
+
+**Context key phrases.** 95 names and words from the file and the period (BLUME, SALAMANCA, OSWALD,
+VIKTOROSWALD, PATVAG, HOVAG, HUNZIKER, BURGOS, HISMA, SANSEBASTIAN, ARRIBAESPANA, BAHNHOFSTRASSE …) as every
+ordered (K1, K2) pair in all four conventions, on both telegrams: best −6.30 per quadgram, noise.
+
+**Dictionary attack on the second key** (`dt/Dict.cs`, `dict2.exe dictk2`). A phrase fixes K2 and w2; undo it,
+score the intermediate by IDP (by the lag-w1 bigram score for the columns-then-rows convention) for every
+w1 from 8 to 40, and express that as a z-score against 300 random keys of the same geometry; T2's z is added at
+half weight. Unlike local search, this needs no gradient, so it reaches the long keys. Plants (`mkplant.py`):
+
+| plant | K2 | z (T1) | next best of 30,000 phrases |
+|---|---|---|---|
+| forward, 13 × 21 | UNAGRANDEYLIBREPATRIA | **21.2** | 5.2 |
+| rows-then-columns, 14 × 17 | CIELOAZULDEMADRID | **14.3** | 5.1 |
+| columns-then-rows, 25 × 12 | PUERTADELSOL | **11.0** | 4.6 |
+
+With K2 known, K1 annealing read the first plant at −3.99 per quadgram. Real telegrams:
+
+* 2,650,989 words and 1–3-word phrases from the Spanish, German, French, Italian, English, Latin and Portuguese
+  corpora (`keys_big.txt`, rebuilt by `dt/mkkeys.py`), three conventions: best z = 7.4
+  (`dictk2_big_real.txt`, `dictk2_big_conv2_real.txt`).
+* 3,980,982 Spanish and German 3–5-word phrases of 12–26 letters (`keys_phr45.txt`), three conventions:
+  best z = 7.9 (`dictk2_phr45_real.txt`).
+* K1 annealed under the nine best candidates: −5.67 to −6.39 per quadgram, all noise.
+
+So the second key is not a dictionary word or a common phrase from these corpora, in any of the three
+conventions the lag scan leaves open.
+
+**Forward double columnar, w2 = 11, exhaustive** (`dict2.exe exhaust ../ct1.txt 2 41 11 11 12 21 1`, 7.6 h on
+21 threads). Planted 30 × 11 control (`exhaustplant_30x11.txt`): true second key **rank 1 of 39,916,800**, read at
+−4.34 per quadgram (*…llamada por otro rodrigo…*). Real telegram (`exhaust_fwd_w2_11_w1_2-41.txt`): best
+pairing score −2.23, best first-key reading −5.51 per quadgram at width 41, noise. **Nothing.**
+
 ## What is left, and why it stops here
 
 | region | status |
 |---|---|
 | forward double columnar, w2 ≤ 10, w1 ≤ 41 | excluded by exhaustive second-key search |
-| forward double columnar, w2 = 11 | feasible (40 M keys × 40 widths, about 3 h on 22 cores); not run |
-| forward double columnar, both keys ≥ 12 | **open**; no method proven on plants at 615 letters |
+| forward double columnar, w2 = 11, w1 ≤ 41 | excluded by exhaustive second-key search (11 Oct 2026) |
+| second key a word or common 1–5-word phrase, w1 8–40, all three open conventions | excluded by the dictionary attack (11 Oct 2026) |
+| forward double columnar, both keys ≥ 12, second key not a dictionary phrase | **open**; no method proven on plants at 615 letters (w2 = 12 by enumeration would take ~90 h here) |
 | forward, w1 ≥ 42 | open; the first-key stage fails on plants with fewer than 15 rows |
 | all reversed-direction and single systems | excluded by the lag scan |
 
@@ -215,7 +271,9 @@ What would break it:
 2. **A crib.** The letter counts promise *pesetas*, *kilos*, *punto*, spelled numbers, and the firm's own
    names (*HOVAG*, the Holzverzuckerungs-AG at Ems, fits the letters; *Oswald* does not: there is no w).
    With a known 8–10-letter word and known widths the two keys can be pinned by hand.
-3. **The key phrases themselves**, if the Federal Police file records the system (Bochsler's book may say).
+3. **The key phrases themselves.** The Federal Police file does not record them (dossier read in full,
+   11 Oct 2026), and they are not words or common phrases (dictionary attack, same day). Viktor Oswald's own
+   papers, or the recipient's in Salamanca, are the only places left where the key could survive.
 
 ## Files
 
@@ -226,6 +284,10 @@ What would break it:
 * `dt/Idp2.cs` — divide-and-conquer solver: `sa` / `hc` local search, `exhaust` enumeration, `IDP_INV=0|1|2`
   for the three conventions, `bench`, `plant`, `exhaustplant`. Build with .NET Framework
   `csc.exe -o+ -out:idp6.exe Idp2.cs`; needs `../q4_es.bin` (from `export_q4.py`).
+* `dt/Dict.cs` (`dict2.exe`) — key-phrase attack: `dictk2 LIST CT1 CT2 W1MIN W1MAX THREADS ZMIN CONVS`, `dictpair`
+  (all keyword pairs, full decrypt), `k1 CT KEY2 W1 CONV` (anneal K1 under a phrase K2); otherwise the `Idp2` modes.
+  `dt/mkplant.py` makes plants in conventions 0, 2, 3; `dt/mkkeys.py` rebuilds the phrase lists (not committed, ~90 MB);
+  `dt/keys_small.txt` the context words; `dt/dictk2_*_real.txt` the results.
 * `dt/probe.py`, `dt/probe2.py` — the landscape probe (score against number of swaps from the true key).
 * `dt/run_*.txt`, `dt/idp*_plant*.txt`, `dt/plant_*.txt`, `dt/exhaust_*.txt` — run logs.
 

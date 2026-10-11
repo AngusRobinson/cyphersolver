@@ -184,12 +184,50 @@
    "kind": "transcription",
    "what": "Second telegram transcribed: 32 groups, 160 letters (ct2.txt); its SHA-256 equals the one Bean gave, so the reading agrees with his letter for letter. IC 0.071 and a Spanish-like letter mix: another transposition.",
    "result": "worked"
+  },
+  {
+   "date": "2026-10-11",
+   "kind": "literature search",
+   "what": "Prior-work check: Javier Fuentes's public repository jfuentesibanez/sentinel-blume-salamanca (to 3 Oct 2026) reports no plaintext or key; it gives the archival source, Swiss Federal Archives E4320B#1974/47#277 (Spanische Revolution (Passvisas etc.), subdossier 0000066), and notes a failed 2020 attempt by Heinzmann, Matteotti, Liniger and Viveksanth (Bochsler, Nylon und Napalm, note 44).",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-11",
+   "kind": "access",
+   "what": "All 42 images of BAR subdossier 0000066 fetched through its public IIIF manifest: PTT covering letter 15 Jan 1937, the two telegrams, the interrogation of Werner Oswald 28 Apr 1937 (sender = his brother Viktor M. Oswald, b. 15 Nov 1909, then in Burgos/San Sebastian; wool exports and compensation business, Hisma, Burgos; Werner denies having the key), and the Hunziker spun-concrete aerial-bomb file (Apr-May 1937). No key, no decipherment and no further ciphertext in the dossier.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-11",
+   "kind": "solver",
+   "what": "Key-phrase test: 95 context words and names (BLUME, SALAMANCA, OSWALD, VIKTOR, PATVAG, HUNZIKER, BURGOS, HISMA, ARRIBAESPANA, ...) tried as every ordered (K1, K2) pair in all four double-columnar conventions on both telegrams. Best -6.30 per quadgram (noise).",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-10-11",
+   "kind": "control",
+   "what": "Dictionary attack on the second key (dt/Dict.cs, mode dictk2): each candidate phrase gives a column order, the telegram is un-transposed by it, and the IDP pairing score (lag score for the columns-then-rows convention) is turned into a z-score against 300 random keys of the same width, for every w1 8-40, on both telegrams. Plants: 21-letter K2 phrase found at z1 = 21.2 (forward), 17-letter at z1 = 14.3 (rows-then-columns), 12-letter at z1 = 11.0 (columns-then-rows), against a noise ceiling near 5.5 for 30,000 keys; with K2 known, K1 annealing read the plant at -3.99 per quadgram.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-11",
+   "kind": "solver",
+   "what": "Real telegrams: 2,650,989 words and 1-3-word phrases (Spanish, German, French, Italian, English, Latin, Portuguese corpora) in all three conventions, and 3,980,982 Spanish and German 3-5-word phrases of 12-26 letters in all three. Best z1 = 7.9 (noise tail for ~10^9 tests); K1 annealed under the eight best K2 candidates reads -5.67 to -6.39 per quadgram (noise).",
+   "result": "ruled out"
+  },
+  {
+   "date": "2026-10-11",
+   "kind": "solver",
+   "what": "Forward double columnar, second key of 11 enumerated exhaustively (39,916,800 keys) for w1 2-41, twelve best per width carried to K1 annealing. Plant 30 x 11: true key ranked 1 and read at -4.34 per quadgram. Real telegram: best -5.51 per quadgram (w1 = 41), noise.",
+   "result": "ruled out"
   }
  ],
  "outcome": {
   "method": "not solved",
   "method_basis": "Ciphertext-only attacks on telegram 1 (615 letters) excluded every single-message transposition family testable on planted controls; the remaining double columnar with long keys is out of reach without the second telegram or a crib.",
-  "contribution": ["transcription"],
+  "contribution": [
+   "transcription"
+  ],
   "class": "not read",
   "fraction_read": 0,
   "grades": "unknown",
