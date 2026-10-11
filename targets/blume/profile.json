@@ -220,6 +220,18 @@
    "kind": "solver",
    "what": "Forward double columnar, second key of 11 enumerated exhaustively (39,916,800 keys) for w1 2-41, twelve best per width carried to K1 annealing. Plant 30 x 11: true key ranked 1 and read at -4.34 per quadgram. Real telegram: best -5.51 per quadgram (w1 = 41), noise.",
    "result": "ruled out"
+  },
+  {
+   "date": "2026-10-11",
+   "kind": "control",
+   "what": "Lag-scan controls re-run with each text's own shuffle baseline: the earlier plant z values (5.5-9.1 for forward double) were an artefact of letter mix, since a random permutation of Spanish scored 6.5 on the old scale. Corrected peaks: random 3.0-5.2, forward double 2.9-5.1, mixed 3.2-6.3, forward single 26-61 3.3-4.4, reversed single 22-26, reversed double 8.9-18.5; telegram 3.9. The scan still excludes the reversed-direction systems but gives no evidence against forward double, and never covered forward single columnar at wide widths.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-11",
+   "kind": "solver",
+   "what": "Forward single columnar, widths 21-80: column-path search at width 41 (plant -4.44, telegram -5.76) and bigram annealing with quadgram ranking at every width (plants read at 25, 33, 38, 41, 45; fail at 57, 72). Telegram best -5.62 for widths 21-45.",
+   "result": "ruled out"
   }
  ],
  "outcome": {

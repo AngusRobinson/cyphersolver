@@ -116,8 +116,10 @@ both orders, tests every one of these keyed systems for every width, with no key
 
 Planted controls (reversed-direction double transposition, 19 × 8, 23 × 9, 17 × 29) light up at exactly
 lag w1 × w2 with **z = 22.0, 21.0 and 11.1**. The real telegram never exceeds **z = 3.3** at any lag, which is
-what the maximum of 1,198 noise values looks like. This excludes single columnar at any width, in either
-direction, and reversed-direction double columnar for every width pair with w1 × w2 below about 560. (The
+what the maximum of 1,198 noise values looks like. This excludes reversed-direction single columnar at any
+width and reversed-direction double columnar for every width pair with w1 × w2 below about 560. (**Corrected
+11 Oct 2026:** it does *not* exclude forward single columnar, rows written and columns read, at wide widths;
+see the correction below.) (The
 two-key reversed-direction annealing run that was in progress when the session opened was stopped as
 redundant once this was seen.) The two mixed conventions (rows then columns, columns then rows) do not put
 neighbours at one fixed lag; they are covered by the exhaustive searches below.
@@ -132,6 +134,29 @@ plant in 40 fell to 1.4. The telegram's 3.3 therefore sits at about the 3rd to 5
 forward double transposition of Spanish at those widths produces: mild evidence, not proof, that either the
 plaintext is further from Spanish prose than our proxy or the system is not a plain double columnar
 transposition at all.
+
+**Correction (11 Oct 2026): the previous paragraph is an artefact.** `lagscan.py` takes its baseline (mean and
+spread of the lag-1 score) from shuffles of *the telegram's* letters and applies it to every plant. A plant made
+from different prose has a different letter mix, so its z measures that mix, not transposition structure: a
+**random permutation** of Spanish prose scores median 6.5 (5.0–8.6) on the same scale, as high as the double
+transpositions. With each text's baseline taken from its own shuffles (`lagdist2.py`), the peaks are:
+
+| system (Spanish prose plants) | max z, min–median–max |
+|---|---|
+| random permutation | 3.0 – 4.4 – 5.2 |
+| forward double, 13–25 × 13–25 | 2.9 – 4.1 – 5.1 |
+| columns-then-rows, 13–25 | 3.2 – 4.3 – 6.3 |
+| rows-then-columns, 13–25 | 3.2 – 3.9 – 4.8 |
+| forward single columnar, 13–25 | 3.5 – 4.9 – 7.5 |
+| forward single columnar, 26–61 | 3.3 – 4.0 – 4.4 |
+| reversed single columnar, 13–61 | **22.0** – 23.5 – 26.3 |
+| reversed double, 13–25 × 13–25 | **8.9** – 15.0 – 18.5 |
+| **telegram** | **3.9** |
+
+So the scan does exclude the reversed-direction systems, as stated, but it says nothing for or against forward
+double columnar or the mixed conventions: their peaks are indistinguishable from a shuffle. It also cannot see
+forward single columnar at wide widths. That family had rested on the scan above width 20 (the annealer failed its
+width-41 plant), so it was open until the direct search of 11 Oct (Fourth session).
 
 ### Double columnar, forward direction (rows written, columns read, twice), the German *Doppelwürfel*
 
@@ -238,6 +263,15 @@ With K2 known, K1 annealing read the first plant at −3.99 per quadgram. Real t
 So the second key is not a dictionary word or a common phrase from these corpora, in any of the three
 conventions the lag scan leaves open.
 
+**Forward single columnar at wide widths, which the lag scan never covered** (see the correction under "The lag
+scan"). `colpath.py` treats a complete rectangle as a path through its columns: at width 41 (615 = 15 × 41) a
+plant reads at −4.44 with long correct runs, the telegram at −5.76. `dict3.exe single` anneals the key on the
+bigram score of the whole decryption, then ranks by quadgrams, at every width 21–80 (16 restarts × 1.5 M steps).
+Plants: width 25 read in full (−3.92), 33 at −4.57, 38 at −4.18, 41 at −4.58, 45 at −4.56 (partial readings);
+57 and 72 fail (−4.99, −5.16). Telegram (`single_21-80_real.txt`): best −5.62 for widths 21–45, rising
+smoothly to −5.25 at width 78 (spurious). **Excluded for widths 21–45**; 46 and above are not reachable with
+this search, but a key phrase of 46 letters or more is improbable.
+
 **Forward double columnar, w2 = 11, exhaustive** (`dict2.exe exhaust ../ct1.txt 2 41 11 11 12 21 1`, 7.6 h on
 21 threads). Planted 30 × 11 control (`exhaustplant_30x11.txt`): true second key **rank 1 of 39,916,800**, read at
 −4.34 per quadgram (*…llamada por otro rodrigo…*). Real telegram (`exhaust_fwd_w2_11_w1_2-41.txt`): best
@@ -252,7 +286,8 @@ pairing score −2.23, best first-key reading −5.51 per quadgram at width 41, 
 | second key a word or common 1–5-word phrase, w1 8–40, all three open conventions | excluded by the dictionary attack (11 Oct 2026) |
 | forward double columnar, both keys ≥ 12, second key not a dictionary phrase | **open**; no method proven on plants at 615 letters (w2 = 12 by enumeration would take ~90 h here) |
 | forward, w1 ≥ 42 | open; the first-key stage fails on plants with fewer than 15 rows |
-| all reversed-direction and single systems | excluded by the lag scan |
+| all reversed-direction systems | excluded by the lag scan (still valid after the 11 Oct correction) |
+| forward single columnar | excluded to width 45 (annealing to 20, direct search 21–45, 11 Oct); 46+ unproven |
 
 The open region is exactly where practice puts the answer. German-trained users of the *Doppelwürfel*
 were told to take two key phrases of 15 to 25 letters each, and a Swiss firm dealing with Franco's Germans

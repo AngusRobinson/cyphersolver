@@ -439,6 +439,37 @@ static class Dict
             foreach (var r in res.OrderByDescending(x => x.Item1).Take(30)) Console.WriteLine(r.Item2);
             return;
         }
+        if (a[0] == "single" || a[0] == "singleplant")
+        {   // single CT WMIN WMAX RESTARTS ITERS THREADS | singleplant PLAIN OFFSET W RESTARTS ITERS THREADS
+            int[] ct, pt = null; int wmin, wmax, ai;
+            if (a[0] == "single") { ct = ToInts(File.ReadAllText(a[1])); wmin = int.Parse(a[2]); wmax = int.Parse(a[3]); ai = 4; }
+            else { var t = ToInts(File.ReadAllText(a[1])); pt = t.Skip(int.Parse(a[2])).Take(615).ToArray(); wmin = wmax = int.Parse(a[3]); ct = Encrypt(pt, 615, RandPerm(wmin, new Random(77)), wmin); ai = 4; }
+            int rs = int.Parse(a[ai]); long its = long.Parse(a[ai + 1]); int th = int.Parse(a[ai + 2]); int n = ct.Length;
+            var jobs = new List<Tuple<int, int>>(); for (int w = wmin; w <= wmax; w++) for (int r = 0; r < rs; r++) jobs.Add(Tuple.Create(w, r));
+            var res = new List<Tuple<double, double, int, int[]>>(); object lk = new object();
+            Parallel.ForEach(jobs, new ParallelOptions { MaxDegreeOfParallelism = th }, j =>
+            {
+                int w = j.Item1; var rnd = new Random(j.Item1 * 1000 + j.Item2);
+                Func<int[], double> f = k => { var P = UndoF(ct, n, k, w); long tt = 0; for (int i = 0; i + 1 < n; i++) tt += B2[P[i] * 26 + P[i + 1]]; return tt / 1000.0 / (n - 1); };
+                int[] o = RandPerm(w, rnd), c = new int[w]; double cur = f(o), bs = cur; int[] bk = (int[])o.Clone();
+                double T0 = 0.02, T1 = 0.0002;
+                for (long it = 0; it < its; it++)
+                {
+                    double T = T0 * Math.Pow(T1 / T0, (double)it / its);
+                    Mutate(o, c, w, rnd); double v = f(c);
+                    if (v >= cur || rnd.NextDouble() < Math.Exp((v - cur) / T)) { cur = v; var tmp = o; o = c; c = tmp; if (cur > bs) { bs = cur; bk = (int[])o.Clone(); } }
+                }
+                var P2 = UndoF(ct, n, bk, w); double q = Q4Score(P2, n);
+                lock (lk) { res.Add(Tuple.Create(q, bs, w, bk)); }
+            });
+            foreach (var g in res.GroupBy(x => x.Item3).OrderBy(g => g.Key))
+            {
+                var b = g.OrderByDescending(x => x.Item1).First(); var P = UndoF(ct, n, b.Item4, b.Item3);
+                string acc = ""; if (pt != null) { int ok = 0; for (int i = 0; i < n; i++) if (P[i] == pt[i]) ok++; acc = " right " + ok; }
+                Console.WriteLine("w {0,2} q4 {1:F3} bg {2:F3}{3} {4}", b.Item3, b.Item1, b.Item2, acc, Str(P, 70));
+            }
+            return;
+        }
         if (a[0] == "k1")
         {   // k1 CT KEY2 W1 CONV : anneal key1 after undoing a keyword key2
             var ct = ToInts(File.ReadAllText(a[1])); int n = ct.Length; var o2 = KeyOrder(a[2]); int w1 = int.Parse(a[3]); int conv = int.Parse(a[4]);
