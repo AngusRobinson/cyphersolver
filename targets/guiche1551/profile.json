@@ -132,19 +132,19 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "22 distinct signs, sign 3 at 16%: a simple substitution suspected.",
    "result": "worked",
    "date": "2026-09-21"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "Free many-to-one annealer with the fr-1530 model: collapsed onto i/x.",
    "result": "failed",
    "date": "2026-09-21"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis"],
    "what": "Permutation annealer (swap moves), 16 restarts: best run read 'le conte sainctefiore est mal satisfaict'.",
    "result": "worked",
    "date": "2026-09-21"
@@ -162,7 +162,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "plaintext matching"],
    "what": "Seure letters (nos. 39-44): ~2,000 signs, homophonic plus nomenclator, no decipherment; left open as too large for this pass.",
    "result": "partial",
    "date": "2026-09-21"
@@ -174,7 +174,7 @@
    "date": "2026-09-30"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Seen on the image while checking, not yet applied: a 24-sign cipher run after 'qu'il advisera' is missing from guiche_ct.txt and gives 'a la pratique qu'aves entendu' with the key; the sign transcribed t in L3 and in '+arna+e' is a plain cross distinct from the barred r, and read as b gives 'l'ambassadeur' and 'sieur Barnabe Adorne'; F c gives ss in 'ambassadeur' and 'aussi' (L12). Needs a re-transcription pass.",
    "result": "partial",
    "date": "2026-09-30"
@@ -184,17 +184,16 @@
    "kind": "reading",
    "what": "La Guiche f. 60v re-read on the Gallica image to fill the quotation gaps for Lasry's list: the missing 24-sign run after 'qu'il advisera' transcribed (L2x) and read 'a la pratique qu'aves entendu' with the key unchanged; the plain cross split from the barred cross as b ('l'ambassadeur', 'Barnabe Adorne' x2); ff+c = ss ('aussi'); 'du service' in L10; the four-dot sign after 'mal satisfaict de' transcribed, one occurrence, conjectured 'l'Empereur' (grade I) from the count's imperial service; clear bridge lines read so the reading runs from the Sienese envoy to Santa Fiora.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 430 tokens, 23 types, fr-1530-despatches order 4: reading -2.612 per letter; random keys -6.746 (z 6.6); key annealed onto shuffled ciphertext best -3.679 (mean -3.704, z 31.2); annealer on the real text -2.589. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1530-despatches", "file": "validation.tsv", "tokens": 430, "types": 23, "tokens_per_type": 18.7, "score": -2.612, "nulls": {"random keys": {"n": 200, "mean": -6.746, "sd": 0.63, "max": -5.081, "z": 6.6, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.704, "sd": 0.035, "max": -3.679, "z": 31.2, "p": 0.1429}}, "power": -2.589, "verdict": "pass", "notes": "claimed per-occurrence score -2.612; polyphony 0.0; 1 unread tokens left out; annealer on the real text from random keys reached -2.589"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The La Guiche letter (fr. 3138 f. 60v) has no decipherment anywhere; its 22-sign substitution was broken by swap annealing with a French 5-gram model and finished by hand from context; the Noailles marginal decipherment in fr. 3151 belongs to a different letter and was not used.",
   "contribution": ["transcription", "key recovered", "catalogue correction"],
   "class": "read in part",
   "fraction_read": 0.17,
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency", "statistical test"],
   "notes": "La Guiche read in part; Noailles read at the time; Seure open. fraction_read 0.17 is an estimate by cipher signs from the notes (La Guiche about 350 of 406, Noailles about 150 signs read at the time only in part, Seure about 2,000 signs none), not a measurement.",
   "gaps": [
    {

@@ -187,7 +187,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "Frequencies and repeats of each piece (analyze.py).",
    "result": "worked"
   },
@@ -199,25 +199,25 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing", "language-model scoring"],
    "what": "Hill-climb on (a) with Dutch and French quadgram LMs, bijective and homophonic, 8 restarts: best -4.71 per quad, Dutch-looking fragments only.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "(a) as a plain alphabetical key on 10-33 with any rotation or reversal.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "contextual inference"],
    "what": "(c) 'the king' for the 4-sign word forces an impossible name pattern; unresolvable at 16 symbols.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "(d) cribs like 'horse' and 'hang' in the rich clear frame fit many assignments equally well.",
    "result": "failed"
   },

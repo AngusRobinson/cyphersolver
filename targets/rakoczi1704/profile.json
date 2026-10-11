@@ -214,7 +214,7 @@
     },
     {
       "date": "2026-09-21",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["contextual inference"],
       "what": "Direction reversed for R852/R912/R922: Rakoczi is the recipient; R852 names Groffey in the third person.",
       "result": "worked"
     },
@@ -244,7 +244,7 @@
     },
     {
       "date": "2026-09-21",
-      "kind": "solver",
+      "kind": "solver", "technique": ["EM alignment", "key matching", "plaintext matching"],
       "what": "Rebuilt the R483 syllabic key by hard-EM alignment of 168 cipher lines with the interlinear: 224 codes; key reproduces 70% of the clerk letters.",
       "result": "partial"
     },

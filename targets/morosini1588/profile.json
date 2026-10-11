@@ -170,7 +170,7 @@
   },
   {
    "date": "2026-09-19",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring"],
    "what": "Wrote decrypt.py: beam search over 1-3 digit segmentations with the Italian 5-gram model, nomenclator for dotted codes.",
    "result": "worked"
   },

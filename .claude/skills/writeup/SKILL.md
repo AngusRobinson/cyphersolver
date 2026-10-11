@@ -234,6 +234,8 @@ three are data files you edit by hand; each is a few lines, and skipping one lea
 - `targets/<folder>/profile.json`: run the `/profile <folder>` skill. It records the cipher parameters, the challenge
   conditions, the solution steps and the outcome in fixed fields for the LLM-performance paper.
   `python docs/_check_profile.py <folder>` must print `result: valid`.
+  If the project recovered the key, run `python docs/_validate.py <folder> --write` (or `--na "reason"`); the checker
+  requires a validation verdict on every recovered key.
 - `decode_updates/queue.json` (targets read from DECODE records): queue the DECODE edits so they can be sent once
   the account has write access. `python decode_updates/queue.py add <folder>` pre-fills the records from the
   profile and their current DECODE status; fill each TODO: `proposed` status (Decrypted only if the whole letter

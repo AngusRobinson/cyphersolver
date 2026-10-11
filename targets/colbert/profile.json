@@ -104,7 +104,7 @@
   },
   {
    "date": "2026-09-16",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Shared groups and phrases show b and c are one key.",
    "result": "worked"
   },
@@ -116,7 +116,7 @@
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "statistical test"],
    "what": "Monotone annealer on strict and looser alphabetical designs with matched controls: controls read, target fails.",
    "result": "ruled out"
   }

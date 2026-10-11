@@ -112,12 +112,12 @@
    "result": "worked"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "5 as word separator (92 of 102 runs even); 8 never in second position of a dinome.",
    "result": "worked"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "One-letter-per-group annealing in Italian, French, Latin.",
    "result": "failed"
   },
@@ -127,7 +127,7 @@
    "result": "worked"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Injective letters+syllables nomenclator annealer produced circostanze, intendendosi, indirizzata.",
    "result": "partial"
   },
@@ -148,12 +148,13 @@
   },
   {
    "date": "2026-09-30",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Open code groups 8093 8102 8131 8136 revisited for Lasry's quotation: interpolation anchored at the code start 8000 (fitted start 7996-8005) plus Colonia and the firm anchors narrows 8093 to ce- (cenno 8093-8097) and 8102 to ch-ci, 8131/8136 to early d; the sense words (volonta, mente, desiderio, ordine, comando, commissione, beneplacito; presa for 8136) are all excluded by position; corpus search found no phrase fitting both windows. Groups left open; d'assai for 8131 noted as a sense conjecture only.",
    "result": "failed"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 376 tokens, 75 types, it-modern order 4: reading -2.36 per letter; random keys -5.261 (z 5.9); key annealed onto shuffled ciphertext best -2.653 (mean -2.721, z 5.2); annealer on the real text -2.251. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "it-modern", "file": "validation.tsv", "tokens": 376, "types": 75, "tokens_per_type": 5.01, "score": -2.36, "nulls": {"random keys": {"n": 200, "mean": -5.261, "sd": 0.494, "max": -3.611, "z": 5.9, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.721, "sd": 0.069, "max": -2.653, "z": 5.2, "p": 0.1429}}, "power": -2.251, "verdict": "pass", "notes": "claimed per-occurrence score -2.36; polyphony 0.0; 11 unread tokens left out; annealer on the real text from random keys reached -2.251"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The letters-and-syllables nomenclator was broken by annealing on the printed 1848 cryptogram, with words pinned and the alphabetical 8XXX code read by hand; no earlier solution existed (Cipherbrain 2014 unsolved, Spada and Il Labaro give none).",
   "contribution": [
@@ -162,10 +163,7 @@
   "class": "read",
   "fraction_read": "unknown",
   "grades": "unknown",
-  "verification": [
-   "historical consistency",
-   "key confirms"
-  ],
+  "verification": ["historical consistency", "key confirms", "statistical test"],
   "notes": "11 code groups open, including the date of the earlier letter."
  }
 }

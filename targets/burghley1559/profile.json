@@ -134,7 +134,7 @@
    "result": "failed"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "From context (Arran's secret passage through London to Cecil, late Aug 1559), ② = the Earl of Arran and '+ H oo' a sum of money.",
    "result": "worked"
   },

@@ -112,12 +112,12 @@
    "result": "worked"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "contextual inference"],
    "what": "Unassigned or misfitting groups set from context and alphabetical order: 63 = se (also fixes two places in Lasry's R121 text), 03 = chi, 8061 = qual, 8099 = zion, 8700 = anno.",
    "result": "worked"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "8107 (between 8099 and 8140 Camera; a name in A-Ca, perhaps America) left open.",
    "result": "failed"
   },
@@ -125,18 +125,17 @@
    "kind": "literature search",
    "what": "Web search for an edition of Lucini's 1767 despatches: none found.",
    "result": "failed"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 77 tokens, 36 types, it-modern order 4: reading -1.86 per letter; random keys -3.639 (z 5.8); key annealed onto shuffled ciphertext best -1.816 (mean -1.872, z 0.3); annealer on the real text -1.728. Verdict: underdetermined.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "it-modern", "file": "validation.tsv", "tokens": 77, "types": 36, "tokens_per_type": 2.14, "score": -1.86, "nulls": {"random keys": {"n": 200, "mean": -3.639, "sd": 0.305, "max": -2.911, "z": 5.8, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -1.872, "sd": 0.044, "max": -1.816, "z": 0.3, "p": 0.5714}}, "power": -1.728, "verdict": "underdetermined", "notes": "claimed per-occurrence score -1.86; polyphony 0.0; 1 unread tokens left out; annealer on the real text from random keys reached -1.728"}, 
   "method": "read with known key",
   "method_basis": "Lasry's key, rebuilt from sibling R121 and attached to R120's own DECODE record (DOC_R120_D3314, Oct 2020), was applied to MEG's digit transcription; R120's own passage had not been decrypted before.",
   "contribution": ["key extended or corrected", "sender or date identified"],
   "class": "read",
   "fraction_read": 0.99,
   "grades": "unknown",
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency"],
   "notes": "81 of 82 cipher tokens given a value; 8107 open. The sentence continues on the next leaf, not imaged."
  }
 }

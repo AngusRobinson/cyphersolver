@@ -503,31 +503,31 @@
   },
   {
    "date": "2026-09-17",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding"],
    "what": "Word-aware decoder (wdec.py) tried against the character decoder on f. 143: no gain; residue is transcription.",
    "result": "failed"
   },
   {
    "date": "2026-09-17",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["crib testing", "contextual inference"],
    "what": "ff. 196 and 201 identified as one despatch enciphered twice, with clear head and foot cribs.",
    "result": "worked"
   },
   {
    "date": "2026-09-17",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "f. 18 cipher / f. 19 clear decipherment pair found and verified (14 = que, 52 = plustost); labelled glyph exemplars mined from it.",
    "result": "worked"
   },
   {
    "date": "2026-09-17",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Confusable figures measured at 0.91-0.93 correlation: not separable by shape, reading is polyphonic.",
    "result": "worked"
   },
   {
    "date": "2026-09-17",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "crib testing"],
    "what": "readleaf.py (segment, match exemplars, beam-decode) recovers about 70% of plaintext characters on the crib leaf; exemplars do not transfer to f. 143's hand.",
    "result": "partial"
   },
@@ -557,7 +557,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "Claimed ff. 123-124 and f. 110 were two further ciphers, from figure-frequency profiles; a 'rouergue' pattern on f. 79r gave five values for 'Cipher-2'.",
    "result": "failed"
   },
@@ -587,7 +587,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "statistical test"],
    "what": "f. 110: automated glyph segmentation and clustering (fails its control on f. 154), seeded solve (moves 23 of 27 labels off the key), cold solve (-2.27 per figure, no continuous French).",
    "result": "failed"
   },

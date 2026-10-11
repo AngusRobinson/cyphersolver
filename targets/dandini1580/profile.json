@@ -135,13 +135,13 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Homophonic annealing on a naive 2-digit tokenisation of R72. Free assignment collapsed to a constant string; fixed-multiset swaps did not converge (misaligned tokens).",
    "result": "failed",
    "date": "2026-09-21"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Swap annealing of letter values on the DP parse, nomenclator words fixed as plaintext, Italian 4-grams from it-renaissance. Readable Italian at once: 'la voce et l'opinione della pratica ... con la monaca e uscita tanto publica'.",
    "result": "worked",
    "date": "2026-09-21"

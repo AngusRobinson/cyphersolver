@@ -98,13 +98,13 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "frequency analysis", "language-model scoring"],
    "what": "Many-to-one annealing on de-1500s without word spaces: letter-frequency noise only.",
    "result": "failed",
    "date": "2026-09-22"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment", "plaintext matching"],
    "what": "EM alignment of gloss 'das kann dieses orths selber observiren' to cipher line 3; inconsistent mappings.",
    "result": "failed",
    "date": "2026-09-22"
@@ -122,13 +122,13 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Annealing with word spaces, '12' as one unit, seeded und/under; produced 'entschuldigt', 'damit ich', 'underthenigst'.",
    "result": "worked",
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching", "contextual inference"],
    "what": "Fixed 5=a, q=m, D=l, 2=s, X=b by context; then M=w, 8=o from the gloss.",
    "result": "worked",
    "date": "2026-09-22"
@@ -156,9 +156,10 @@
    "what": "Correction reported while quotations were pulled for Lasry's list, checked on the scan at 3x: the first three signs of line 9 (F 6 12), marked unread as blotted, are clear and give 'ser' with the key unchanged, so 'die|ser ue st ung' = 'dieser Vestung' (9 = u/v) replaces the conjecture 'dieser [sachen]'; in line 11 the signs hidden by '...' after 'nochmals' give 's a l er' with a doubling bar on the triangle, so 'nochmals allerunderthenigst und underthenigst'. 14 of 538 signs unread (was 17).",
    "result": "worked",
    "date": "2026-09-30"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 524 tokens, 21 types, de-1640s order 4: reading -2.212 per letter; random keys -5.481 (z 5.6); key annealed onto shuffled ciphertext best -3.479 (mean -3.55, z 31.6); annealer on the real text -2.179. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "de-1640s", "file": "validation.tsv", "tokens": 524, "types": 21, "tokens_per_type": 24.95, "score": -2.212, "nulls": {"random keys": {"n": 200, "mean": -5.481, "sd": 0.58, "max": -4.351, "z": 5.6, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.55, "sd": 0.042, "max": -3.479, "z": 31.6, "p": 0.1429}}, "power": -2.179, "verdict": "pass", "notes": "claimed per-occurrence score -2.204; polyphony 0.002; 14 unread tokens left out; annealer on the real text from random keys reached -2.179"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The substitution was rebuilt by homophonic annealing against a 1500s German model, seeded with repeated 'und'/'under' patterns; the contemporary interlinear gloss on cipher lines 1-4 of R4500 served as the control and fixed two values (M = w, 8 = o).",
   "contribution": ["transcription", "key recovered"],
@@ -167,10 +168,7 @@
   "fraction_read": 0.974,
   "fraction_read_method": "measured",
   "fraction_read_source": "reading_tokens.txt: 538 cipher signs (12 joined = one), 14 marked ? unread",
-  "verification": [
-   "contemporary decipherment",
-   "historical consistency"
-  ],
+  "verification": ["contemporary decipherment", "historical consistency", "statistical test"],
   "gaps": [
    {
     "item": "end of cipher line 1 (~9 signs)",

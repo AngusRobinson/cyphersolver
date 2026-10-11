@@ -125,13 +125,13 @@
   },
   {
    "date": "2026-10-01",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "The clear instruction of 13 April 1648 (f. 21r) asks that Santibal come with Mercy: the name sign (a boxed dot, twice) is the Conde de Saint-Ibal.",
    "result": "worked"
   },
   {
    "date": "2026-10-01",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis", "contextual inference"],
    "what": "'rfsucmarero mayor' with 5 2 = r o is 'su camarero mayor'; the run before it is the chief chamberlain's name, Conrad von Burgstorf (Burgsdorff), Oberkammerherr of Brandenburg (copurad lon burgstorf).",
    "result": "worked"
   },
@@ -143,7 +143,7 @@
   },
   {
    "date": "2026-10-01",
-   "kind": "solver",
+   "kind": "solver", "technique": ["frequency analysis"],
    "what": "Word-frequency search over v04 ('no la dire?t non y si i u?'): code 15 any letter, one re-segmented, substituted or deleted token; best 'no la direct- y si una sera mas conveniente' moves two glyphs; not accepted.",
    "result": "failed"
   },
@@ -152,9 +152,10 @@
    "kind": "verification",
    "what": "Substance matches the print calendar (3,000 infantry from Brandenburg for a corps in Flanders); the siblings give the cast and the clerk's spellings; every cipher run reads in Spanish.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 527 tokens, 32 types, es-golden-age order 4: reading -2.202 per letter; random keys -5.039 (z 7.3); key annealed onto shuffled ciphertext best -3.21 (mean -3.233, z 34.9); annealer on the real text -2.896. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "es-golden-age", "file": "validation.tsv", "tokens": 527, "types": 32, "tokens_per_type": 16.47, "score": -2.202, "nulls": {"random keys": {"n": 200, "mean": -5.039, "sd": 0.388, "max": -4.162, "z": 7.3, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.233, "sd": 0.03, "max": -3.21, "z": 34.9, "p": 0.1429}}, "power": -2.896, "verdict": "pass", "notes": "claimed per-occurrence score -2.162; polyphony 0.006; 2 unread tokens left out; annealer on the real text from random keys reached -2.896"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "NoAutopilot recovered the key by annealing on Spanish n-grams and reading the runs, with no plaintext and no existing key (issue 16); this session verified the transcription against the images, removed four non-codes, and identified the name sign and the chamberlain from the clear sibling instructions.",
   "contribution": [
@@ -176,10 +177,7 @@
    "M": 27,
    "I": 498
   },
-  "verification": [
-   "historical consistency",
-   "independent clear copy"
-  ],
+  "verification": ["historical consistency", "independent clear copy", "statistical test"],
   "notes": "First break: the contributor's (NoAutopilot); the corrections and the identifications are ours. Not read in full: eight tokens of v04 and the letters lost at the trimmed edge of f. 22v. independent clear copy = the sibling instructions of 8 Feb and 13 Apr 1648, which give the same cast and the sentence for the name sign, not a copy of this text.",
   "gaps": [
    {

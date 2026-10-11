@@ -99,7 +99,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Template 'For Mr [name] these' and additive offset tested.",
    "result": "ruled out"
   },

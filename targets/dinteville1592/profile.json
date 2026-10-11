@@ -126,7 +126,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Found f. 128, a sibling Dinteville letter in the same signs with interlinear decipherment.",
    "result": "worked"
   },
@@ -138,7 +138,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "plaintext matching"],
    "what": "One-sign-one-letter homophonic mapping with up to three null types, aligned to the interlinear (align.py).",
    "result": "failed"
   },
@@ -156,7 +156,7 @@
   },
   {
    "date": "2026-10-06",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "PR #24: gloss re-read as 'dessendre a Gennes' (not 'dascendre a Geneve'); align.py test then gives exactly one key, only the leading double bar null.",
    "result": "worked"
   },
@@ -195,9 +195,10 @@
    "kind": "verification",
    "what": "Found f128_signs.txt used plain D for the tailed delta (a) in four places, so f. 128 decoded f for a with the final key; corrected D -> D+ in f128_signs.txt and key_f128.tsv after checking the image. f. 128-only key on f. 130 now -2.11/letter, 71% in words.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 514 tokens, 37 types, fr-1600-letters order 4: reading -1.992 per letter; random keys -5.039 (z 7.6); key annealed onto shuffled ciphertext best -2.979 (mean -3.035, z 25.2); annealer on the real text -2.414. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1600-letters", "file": "validation.tsv", "tokens": 514, "types": 37, "tokens_per_type": 13.89, "score": -1.992, "nulls": {"random keys": {"n": 200, "mean": -5.039, "sd": 0.401, "max": -4.199, "z": 7.6, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.035, "sd": 0.041, "max": -2.979, "z": 25.2, "p": 0.1429}}, "power": -2.414, "verdict": "pass", "notes": "claimed per-occurrence score -1.871; polyphony 0.078; 8 unread tokens left out; annealer on the real text from random keys reached -2.414"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "Key rebuilt from the contemporary interlinear decipherment of the sibling letter f. 128 by outside contributor Alex Zarco (PR #24), completing NoAutopilot's published partial key; verified here (re-run controls, image spot-checks, 1882 print of f. 128).",
   "first_break": false,
@@ -214,13 +215,7 @@
    "open": 0,
    "total": 0
   },
-  "verification": [
-   "matched control",
-   "contemporary decipherment",
-   "independent clear copy",
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["matched control", "contemporary decipherment", "independent clear copy", "key confirms", "historical consistency", "statistical test"],
   "gaps": [
    {
     "item": "l. 4, four signs after l'emporter",

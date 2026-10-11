@@ -129,7 +129,7 @@
       "result": "worked"
     },
     {
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing", "contextual inference"],
       "what": "Contemporary sources identify the negotiation, the opposing plenipotentiaries, the proposed five-million-guilder settlement, and Fagel and D'Yvoy's short German journey immediately after the letter. This strongly constrains the subject but does not uniquely determine the 128 code groups.",
       "result": "partial"
     },

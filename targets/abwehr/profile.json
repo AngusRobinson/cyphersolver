@@ -92,25 +92,25 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "IC 0.0398 over 924 letters excludes monoalphabetic, transposition and ABC-Verfahren.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing", "repeat/pattern analysis", "language-model scoring", "statistical test"],
    "what": "Periodic Vigenere/Beaufort/variant Beaufort, periods 1-26, quadgram hill-climb in three languages against shuffled controls.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["statistical test"],
    "what": "Ciphertext autokey offsets 1-40, standard-tableau running key and Gronsfeld tested by likelihood against true running-key controls.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "statistical test"],
    "what": "Letter counts against simulated Enigma output: p = 0.0003, any Enigma excluded; no depth between messages.",
    "result": "ruled out"
   },

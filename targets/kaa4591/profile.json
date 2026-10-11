@@ -481,13 +481,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Constrained homophonic annealing with de-modern on R9424",
    "result": "failed"
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "Built de-1500s model from 145 Deutsches Textarchiv prints 1472-1609; annealing on R9416 f.263 (3150 signs) gave running German (Pressburg talks, Gritti)",
    "result": "worked"
   },
@@ -505,7 +505,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "simulated annealing", "plaintext matching"],
    "what": "R9427 gloss aligned: 'ewr F.G.' anchors the R9409/R9410 system; pinned annealing on R9410 and R9409",
    "result": "partial"
   },
@@ -523,7 +523,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Annealing with nulls allowed on R9424, R9367, R9410",
    "result": "failed"
   },
@@ -571,13 +571,13 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "beam/DP decoding", "repeat/pattern analysis", "language-model scoring", "key matching"],
    "what": "Per-letter key re-learned: Baum-Welch on a letter-trigram HMM (de-1500s) seeded with the R9407 key, Dirichlet prior to the seed, then word-beam decode and 4 rounds of re-estimation from the beam output (sysA2/run.py); merges c# = ck (R9408), w3v before F.G. = eur. Lexical share R9408 0.875, R9409 0.840, R9410 0.864, R9413 0.848, R9427 0.847. A pooled key over all five letters did no better than per-letter keys; LAM 1.0 slightly better than 0.6.",
    "result": "worked"
   },
   {
    "date": "2026-10-02",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Per-letter keys show new merged look-alikes not split on the images: R9408 y = t and r (undotted γ coded y), R9408/R9427 4 = e and i (4 vs open ч as on R9407), R9409 ç+ = f/v, sch, da; R9413 Z mostly i, also u and e.",
    "result": "partial"
   },
@@ -589,13 +589,13 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "Values forced by context in the readings: R9409 Ŧ = l, ç = s, ç+ = f/v, 7o/ço = h, ð = ich, Θ = n, ʝ = und; R9408 my = m, R = und, d = r; R9413 k = ich, d = r, Mj = m, ro = h, J+ = sch; R9427 R = und, nn = w, β = sch/f; all: Q = l/ll besides g, a lone β and a# are nulls. R9408 is signed Weinmaister, Ofen 8 Feb 1534; R9413 addressed to secretary Waisenfelder.",
    "result": "worked"
   },
   {
    "date": "2026-10-02",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment"],
    "what": "Supervised re-key from the hand readings (sysA2/supkey.py) and re-decode: lexical share fell (R9408 0.838, R9410 0.847, R9413 0.838, R9427 0.817), so the EM keys stand.",
    "result": "failed"
   },
@@ -631,7 +631,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "solver",
+   "kind": "solver", "technique": ["automated search (unspecified)"],
    "what": "Splits applied from the readings (sysA2/applysplit.py: R9408 380 signs, R9409 9) and regraded: strict measure R9408 0.814 -> 0.812, R9409 0.721 -> 0.724; machine decrypts 0.875 -> 0.870, 0.840 -> 0.842. No unread words opened.",
    "result": "failed"
   },
@@ -643,7 +643,7 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "beam/DP decoding"],
    "what": "sysA2/fill.py: unread spans located by wildcard alignment, decoded by a lexicon-only beam over sign values attested in the pooled hand readings (per-hand weighted), with second-occurrence checks.",
    "result": "partial"
   },
@@ -655,7 +655,7 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "K word sign = King Ferdinand from context (Hieronymus of Zara sent to the Turk; Hungarian lords holding with K at Pressburg; the Württemberg war against K). 4#o ligature = auch.",
    "result": "worked"
   },
@@ -670,9 +670,10 @@
    "kind": "reading",
    "what": "Final reading rounds: R9413 no further gain (94.3%); R9427 84.3%, R9410 f.244r 86.1%, R9408 92.0%; overall 89.3% (6132/6827). Stopped: nothing further passes the acceptance rules; no letter at 95%.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 13910 tokens, 70 types, de-1500s order 4: reading -2.671 per letter; polyphonic: 13% of read tokens differ from their type's commonest value. Verdict: not applicable.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "de-1500s", "file": "validation.tsv", "tokens": 13910, "types": 70, "tokens_per_type": 198.71, "score": -2.671, "nulls": {}, "verdict": "not applicable", "notes": "polyphonic: 13% of read tokens differ from their type's commonest value"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "Most of what is read comes from keys rebuilt from contemporary glosses in the same key volume: System B (Łaski letters R9322, R9323, R9417) from 153 interlinear gloss pairs, System A′ (R9408-R9413, R9427) from the gloss on R9427, improved on the sibling R9407 and re-learned per letter (2 Oct 2026); R9325 was read with key R9324 filed a few folios earlier, and R9416 f. 263 was broken ciphertext-only.",
   "contribution": [
@@ -684,11 +685,7 @@
   "class": "read in part",
   "fraction_read": 0.893,
   "notes": "Read: R9325, R9322, R9417; mostly R9323; R9416 f.262 at the time; R9416 f.263 broken (working decrypt). System A′ letters read in part with the R9407 key re-learned per letter (2 Oct 2026): R9408 88.9%, R9409 80.9%, R9410 f.244r 83.9% and ff.246-247 (Latin, King John, Buda 30 June 1534) 82.9%, R9413 86.0%, R9427 77.3% of words. Open: R9424, R9367; R9319 blocked (cover letters not imaged); R9291 is a key fragment. 5 Oct 2026: System A′ letters at R9413 94.3%, R9408 91.8%, R9410 ff.246-247 88.9%, R9409 87.2%, R9410 f.244r 85.8%, R9427 82.6% of words (89.0% overall); K = Ferdinand.",
-  "verification": [
-   "contemporary decipherment",
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["contemporary decipherment", "key confirms", "historical consistency"],
   "key": "partial",
   "gaps": [
    {

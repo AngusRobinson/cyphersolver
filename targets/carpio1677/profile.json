@@ -74,12 +74,13 @@
  },
  "solution": [
   {"date": "2026-09-19", "kind": "access", "what": "Fetched DECODE R1002-R1011 images and DECODE's DOC_*.txt ciphertext transcriptions with the stored cookie.", "result": "worked"},
-  {"date": "2026-09-19", "kind": "statistics", "what": "parse.py token counts over the ten transcriptions; n, r, s (20, 24, 25) the commonest tokens.", "result": "worked"},
+  {"date": "2026-09-19", "kind": "statistics", "technique": ["frequency analysis"], "what": "parse.py token counts over the ten transcriptions; n, r, s (20, 24, 25) the commonest tokens.", "result": "worked"},
   {"date": "2026-09-19", "kind": "key from source", "what": "Lined the 4 Sept letter (R1010) up against its marginal decipherment; the key structure (letters 9-30, syllables 31-60, struck table, disguised letter pairs, code words) followed.", "result": "worked"},
   {"date": "2026-09-19", "kind": "reading", "what": "Applied the rebuilt key (dec.py) to all ten transcriptions, including R1004 and R1005 listed as non-decrypted.", "result": "worked"},
-  {"date": "2026-09-19", "kind": "verification", "what": "Faint marginal decipherments on R1004 and R1005 found and compared; they agree with the key reading. The key reproduces the other eight margins.", "result": "worked"}
+  {"date": "2026-09-19", "kind": "verification", "what": "Faint marginal decipherments on R1004 and R1005 found and compared; they agree with the key reading. The key reproduces the other eight margins.", "result": "worked"},
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 3366 tokens, 192 types, es-golden-age order 4: reading -2.259 per letter; random keys -4.152 (z 8.2); key annealed onto shuffled ciphertext best -2.63 (mean -2.655, z 29.8); annealer on the real text -2.559. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "es-golden-age", "file": "validation.tsv", "tokens": 3366, "types": 192, "tokens_per_type": 17.53, "score": -2.259, "nulls": {"random keys": {"n": 200, "mean": -4.152, "sd": 0.23, "max": -3.454, "z": 8.2, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.655, "sd": 0.013, "max": -2.63, "z": 29.8, "p": 0.1429}}, "power": -2.559, "verdict": "pass", "notes": "claimed per-occurrence score -2.259; polyphony 0.0; 138 unread tokens left out; annealer on the real text from random keys reached -2.559"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The syllabic nomenclator was rebuilt by lining up the 4 Sept letter (R1010) with its contemporary marginal decipherment and then applied to all ten DECODE transcriptions; the reported text is the key's output, checked against the margins (the faint margins on R1004/R1005 were found after the key had read them).",
   "contribution": ["key recovered", "catalogue correction"],
@@ -90,7 +91,7 @@
   "fraction_read_source": "read/R*.raw.txt, all ten letters: cipher tokens (3504); every {..} and [..] counted unread (136), including {8}=o and [e]=lle and DECODE's inserted margin words; nonsense syllables from DECODE slips not detectable and counted read",
   "codes_open": {"open": 1, "total": "unknown", "tokens_open": 8},
   "grades": "unknown",
-  "verification": ["contemporary decipherment", "key confirms", "historical consistency"],
+  "verification": ["contemporary decipherment", "key confirms", "historical consistency", "statistical test"],
   "notes": "Key rebuilt here from the letters with the marginal decipherments (complete, contemporary) in hand, so attack is archive decipherment rather than cryptanalysis. Open in the key: struck 14 and a few struck numbers ([55], [25], [80], ...); three code words conjectural. The eight margin letters are summarised from the machine reading, not edited line by line."
  }
 }

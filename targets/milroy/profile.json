@@ -45,7 +45,7 @@
  "solution": [
   {"date": "2026-09-14", "kind": "literature search", "what": "cryptiana's unsolved list (fetched 2026-09-14) marks the item Solved by Richard Bean with Claude Opus 5, 2026.", "result": "worked"},
   {"date": "2026-09-14", "kind": "verification", "what": "Spot check on Milroy's copy: 'imboden by to forward' is column 6 rows 1-4 downward and 'what is if' column 1 rows 3-1 upward, consistent with Bean's grid.", "result": "worked"},
-  {"date": "2026-09-14", "kind": "solver", "what": "Blind word-bigram search over all 6-column routes (route.py) did not converge: unreliable transcription, nulls and code words. Not pursued.", "result": "failed"}
+  {"date": "2026-09-14", "kind": "solver", "technique": ["automated search (unspecified)"], "what": "Blind word-bigram search over all 6-column routes (route.py) did not converge: unreliable transcription, nulls and code words. Not pursued.", "result": "failed"}
  ],
  "outcome": {
   "method": "read with known key",

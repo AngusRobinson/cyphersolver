@@ -121,13 +121,13 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring"],
    "what": "Beam search over each label's key values under the fr-1600-letters order-5 model (beam2.py).",
    "result": "worked"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "beam/DP decoding"],
    "what": "Consistent-assignment anneal, one value per label (consist.py): collapsed homophones, worse than the beam.",
    "result": "failed"
   },

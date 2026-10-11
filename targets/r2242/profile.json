@@ -208,7 +208,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Word signs from context, pooled with R1892: Lambda = dat (M, three R1892 contexts agree), slashed/crossed Lambda = dat, infinity = daar (M, 'daar ... van voorstellen'), < = naar, check-over-bar = zonder (M), crossed e = zijn (M), X = weinig, crossed x = al, & = Engeland, + = mogelyk, crossed diamond = voor, Y-crossbar = ik, crossed Y = dez-.",
    "result": "partial"
   },
@@ -226,25 +226,25 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Remaining single signs tried and not adopted: plain Delta (Staaten / zyde each fit one context), T-bar and S-stroke ('goeds', 'kan'), psi and H-loop on p4 l8, %, C-hook, crossed o, V-with-cross, H-with-P, dagger, square/vertical brackets, x mark, Delta-with-tail, P.S. signs.",
    "result": "failed"
   },
   {
    "date": "2026-10-02",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["statistical test"],
    "what": "Measured with apply.py --measure and measure_sense.py (nl-modern, 13-char window > -4.3, calibrated on p1 and letter-shuffled controls): tokens given a value 95.2% -> 97.9% (1,015/1,037); tokens read as sense 86.0% -> 94.6% (981/1,037).",
    "result": "worked"
   },
   {
    "date": "2026-10-03",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "statistical test"],
    "what": "Sense measure made strict and fairer (measure_sense.py): STRICT=1 counts I-grade sign values as unread; a token also passes inside an attested 6+-letter word (lang/ nl corpus + Gedenkstukken I-II OCR, fetch_gedenkstukken.py); y scored as ij for Dutch. Letter-shuffled control passes 8.4% (max 12.2%), unchanged by the word check.",
    "result": "worked"
   },
   {
    "date": "2026-10-03",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["frequency analysis", "contextual inference"],
    "what": "Grades re-examined under a forced-context rule (M = several contexts agree or grammar admits one word): script L uit, phi Frankrijk, crossed Y dez-, slashed/crossed Lambda dat, Y-crossbar ik, crossed x al, < naar upgraded to M; X weinig, & Engeland, + mogelyk, crossed diamond voor stay I and count unread.",
    "result": "worked"
   },
@@ -256,13 +256,13 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["language-model scoring"],
    "what": "Read as sense, strict: 941/1,037 = 90.7% (HEAD transcription, 30 Sept signs) -> 940 (2 Oct, LM only) -> 953 (+word check) -> 979 (+forced upgrades) -> 994/1,037 = 95.9% (+y as ij). With I values: 1,000/1,037 = 96.4%.",
    "result": "worked"
   },
   {
    "date": "2026-10-03",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Gaps re-sorted: signs occurring twice (Delta, %, crossed diamond) stay open-codes; the nineteen true singletons are blocked by no-key-material (one context cannot fix a word sign).",
    "result": "partial"
   }

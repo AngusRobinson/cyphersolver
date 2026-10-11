@@ -190,7 +190,7 @@
    "result": "ruled out"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Read 'in all LVZLTL' as ARMADA/ARMATA from context.",
    "result": "failed"
   },
@@ -225,7 +225,7 @@
    "result": "partial"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["repeat/pattern analysis", "contextual inference"],
    "what": "Candidate-set word solver (solve.py): each sign a set of letters from signs.tsv, readings scored against a 1588 CSP Foreign word list with Elizabethan spelling normalised and up to 1-2 edits; over 22 transcribed runs it confirms these/terms, armada, action, captain, letters, charge; long runs on ff. 88 and 92 find no words, pointing to transcription errors.",
    "result": "partial"
   },
@@ -238,17 +238,16 @@
    "kind": "reading",
    "what": "Solver loops on deskewed lines of ff. 88, 92, 96v with leads from harley287 READING and CSP Foreign 1588 (Semple to Scotland): Italians, Antonio, deliverd, divers, number of, within France, servants, priests, Portugals(?), Bruges(?).",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 100 tokens, 22 types, en-modern order 4: reading -4.345 per letter; Verdict: too short.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-modern", "file": "validation.tsv", "tokens": 100, "types": 22, "tokens_per_type": 4.55, "score": -4.345, "nulls": {}, "verdict": "too short", "notes": "claimed per-occurrence score -2.065; polyphony 0.18; 166 unread tokens left out; annealer on the real text from random keys reached n/a"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The alphabet was rebuilt sign by sign from the contemporary interlinear decipherments of sibling Cobham letters in the same volume, Harley 287 (f. 75 R8488, f. 79 R8489, f. 89 R8493), then applied to ff. 80, 88, 92 with a word-candidate solver.",
   "contribution": ["transcription", "key recovered", "catalogue correction"],
   "class": "read in part",
   "fraction_read": 0.35,
-  "verification": [
-   "contemporary decipherment"
-  ],
+  "verification": ["contemporary decipherment"],
   "notes": "Sign inventory and codes fixed from glossed siblings; about a third of cipher words read (H/M); remaining runs have polyphonic or unglossed signs.",
   "gaps": [
    {

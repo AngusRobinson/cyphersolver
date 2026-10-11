@@ -326,25 +326,25 @@
   },
   {
    "date": "2026-09-19",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "Free homophonic annealing (symbol -> letter/CV bigram/null) with a German 5-gram model on R3813.",
    "result": "failed"
   },
   {
    "date": "2026-09-19",
-   "kind": "solver",
+   "kind": "solver", "technique": ["frequency analysis"],
    "what": "Same with a letter-frequency (KL) penalty.",
    "result": "failed"
   },
   {
    "date": "2026-09-19",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "plaintext matching"],
    "what": "From the glosses: 41-100 are consonant+vowel signs, two consonants per ten (reverse alphabet), units o i e a; 1-40 and signs are single letters.",
    "result": "worked"
   },
   {
    "date": "2026-09-19",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "plaintext matching"],
    "what": "Structured annealer (one consonant per half, one value per single sign) seeded with 17 gloss values, on R3811-R3813, then all records.",
    "result": "worked"
   },
@@ -374,7 +374,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["language-model scoring", "key matching"],
    "what": "R3813 'x' is a separate crossed-f sign = ta (LM better on R3813, worse on R3812 if applied there); split out as #f-cross.",
    "result": "worked"
   },
@@ -386,7 +386,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["simulated annealing", "language-model scoring", "statistical test"],
    "what": "alpha re-valued m -> sa (Salvius, caesaris, universal-); looped variant split out as #a-loop = m on 28 image-checked tokens; LM better on every letter vs baseline.",
    "result": "worked"
   },
@@ -395,19 +395,16 @@
    "kind": "transcription",
    "what": "Clear text transcribed: R4645 Banér copies (to Lüneburg 10 Jan 1639; to Lower Saxon envoys 29 Jan 1639); R4734 endorsement shows the addressee is Count Schwarzenberg.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 22728 tokens, 133 types, de-1640s order 4: reading -2.378 per letter; random keys -4.857 (z 8.3); key annealed onto shuffled ciphertext best -3.206 (mean -3.213, z 131.9); annealer on the real text -2.781. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "de-1640s", "file": "validation.tsv", "tokens": 22728, "types": 133, "tokens_per_type": 170.89, "score": -2.378, "nulls": {"random keys": {"n": 200, "mean": -4.857, "sd": 0.299, "max": -4.207, "z": 8.3, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.213, "sd": 0.006, "max": -3.206, "z": 131.9, "p": 0.1429}}, "power": -2.781, "verdict": "pass", "notes": "claimed per-occurrence score -2.403; polyphony 0.0; 22 unread tokens left out; annealer on the real text from random keys reached -2.781"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The key was rebuilt from the contemporary interlinear decipherment on p. 1 of the 17 Jan 1639 letter (R3811) and extended by homophonic solving with a German LM across all nine letters.",
   "contribution": ["transcription", "key recovered", "sender or date identified"],
   "class": "read in part",
   "fraction_read": 0.999,
-  "verification": [
-   "contemporary decipherment",
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["contemporary decipherment", "key confirms", "historical consistency", "statistical test"],
   "notes": "Key complete; all nine letters deciphered after a checked second transcription pass (21 Sept 2026, ~360 tokens corrected, 56 skipped lines restored); residual garble in lines where the image does not decide the digits, and in Latin passages. Checks: the R3811 interlinear glosses agree with the key; R3811 matches Mírka's 2012 summary; clear text continues the deciphered sense.",
   "gaps": [
    {

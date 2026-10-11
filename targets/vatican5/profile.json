@@ -119,13 +119,13 @@
   },
   {
    "date": "2026-09-14",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Mutual-information diagnostics: digit 4 behaves as a null/word separator, 8 and 5 never end words, dotted digits mostly 7/2/0. The null diagnosis was wrong (Klee: 4 = o, 9 = null).",
    "result": "failed"
   },
   {
    "date": "2026-09-14",
-   "kind": "solver",
+   "kind": "solver", "technique": ["language-model scoring"],
    "what": "C# lattice solver (polyphonic singles, dotted singles, 2- and 3-digit codes; 5-gram LM + KL + MDL + word coverage) on the real text: no convergent key.",
    "result": "failed"
   },
@@ -143,7 +143,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis", "language-model scoring"],
    "what": "Exact bi/trigram partition likelihood, annealing 21 letters over 9 digits (polyphonic single-digit model), Italian: 24 runs, 24 different keys, chance-level agreement.",
    "result": "failed"
   },
@@ -155,25 +155,25 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis", "language-model scoring"],
    "what": "Plaintext Spanish: 12 runs under a Don Quijote trigram model, no convergence.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Two-digit syllables on a fixed phase (vowel slots {2,0,7,5} after the Meister key-1 dot rule): no even/odd difference.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Word-final enrichment and frequency mass put the vowel-bearing digits at {7,0,3,1}. Wrong under Klee's key (7=n, 0=s, 3=m, 1=u/v).",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["repeat/pattern analysis"],
    "what": "Partition search constrained to vowels {7,0,3,1} (vc.py): 24 runs, agreement 0.861 against chance 0.799.",
    "result": "failed"
   },
@@ -185,13 +185,13 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["automated search (unspecified)"],
    "what": "Lattice solver with --null=4 --vowdig=7031 --consdig=85269: Italian-looking decodes but no convergence across four seeds; the word-coverage metric shown to be gameable.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "One key across all pages (chi-squared), doubled digits suppressed, 27 and 80 as dominant word-final units, 441 repeated 7-grams, BPE units mostly one to three digits: diagnosed a variable-length syllabic code with nomenclature. The one-key and one/two-digit-unit findings fit Klee's key; the syllabic/nomenclature reading did not.",
    "result": "partial"
   },
@@ -203,7 +203,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Global two-digit grid tested in three phasings (gphase.py): none exists; units are variable-length.",
    "result": "worked"
   },
@@ -227,7 +227,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "EM alignment", "beam/DP decoding", "statistical test"],
    "what": "EM segmentation into one- and two-digit units (41 types, incl. 80, 57, 27, 03, 73) then unit-level annealing (usolve.py): fails on real text and on its synthetic control; oracle shows a pre-fixed segmentation caps the score.",
    "result": "failed"
   },

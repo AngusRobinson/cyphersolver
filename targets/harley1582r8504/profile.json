@@ -104,9 +104,10 @@
    "what": "Applied harley1582r8500 key: E=p x=i h=n 6=e II=s; Pi and rho by context r, c: princes.",
    "result": "worked",
    "date": "2026-09-22"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 7 tokens, 7 types, en-modern order 4: reading -1.753 per letter; Verdict: too short.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-modern", "file": "validation.tsv", "tokens": 7, "types": 7, "tokens_per_type": 1.0, "score": -1.753, "nulls": {}, "verdict": "too short", "notes": "claimed per-occurrence score -1.753; polyphony 0.0; 0 unread tokens left out; annealer on the real text from random keys reached n/a"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The single seven-sign word ('princes') was read with the Stafford-Walsingham key rebuilt in harley1582r8500 from the f. 72r decipherment (R8501) and R8502 glosses in the same volume, two values taken from context.",
   "contribution": ["transcription", "sender or date identified"],
@@ -118,10 +119,7 @@
    "total": 0,
    "tokens_open": 0
   },
-  "verification": [
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["key confirms", "historical consistency"],
   "gaps": [],
   "notes": "Single word read; two sign values from context."
  }

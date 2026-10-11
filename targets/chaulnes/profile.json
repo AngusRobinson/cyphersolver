@@ -53,11 +53,11 @@
  },
  "solution": [
   {"date": "2026-09-15", "kind": "transcription", "what": "Verified all nine cipher passages against the page images; two corrections (523, 456).", "result": "worked"},
-  {"date": "2026-09-15", "kind": "statistics", "what": "Frequencies, repeats and step-10 chains place the code in the Croissy ten-column design.", "result": "worked"},
+  {"date": "2026-09-15", "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"], "what": "Frequencies, repeats and step-10 chains place the code in the Croissy ten-column design.", "result": "worked"},
   {"date": "2026-09-15", "kind": "literature search", "what": "Searched Recueil des instructions Rome II, Gérin 1870, 1877, 1894, Google Books phrases, DECODE for a printed plaintext or key.", "result": "failed"},
   {"date": "2026-09-15", "kind": "control", "what": "Built a 300-group matched control with a random code of the same design.", "result": "worked"},
-  {"date": "2026-09-15", "kind": "solver", "what": "Annealer v1-v4: recovers 4-12% of the control and wrong keys score within noise of the true one; real-letter output is fluent nonsense.", "result": "failed"},
-  {"date": "2026-09-15", "kind": "hypothesis", "what": "Scored alphabetical letter-block hypotheses on the low-code bursts: none fits.", "result": "ruled out"}
+  {"date": "2026-09-15", "kind": "solver", "technique": ["simulated annealing", "statistical test"], "what": "Annealer v1-v4: recovers 4-12% of the control and wrong keys score within noise of the true one; real-letter output is fluent nonsense.", "result": "failed"},
+  {"date": "2026-09-15", "kind": "hypothesis", "technique": ["key-structure hypothesis"], "what": "Scored alphabetical letter-block hypotheses on the low-code bursts: none fits.", "result": "ruled out"}
  ],
  "outcome": {
   "method": "not solved",

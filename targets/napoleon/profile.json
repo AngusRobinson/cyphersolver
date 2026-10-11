@@ -87,7 +87,7 @@
  "solution": [
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "325 groups, 207 distinct, 64 % hapax, flat occupancy over about 1200 entries: no frequency signal.",
    "result": "ruled out"
   },

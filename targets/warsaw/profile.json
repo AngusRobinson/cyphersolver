@@ -104,25 +104,25 @@
  "solution": [
   {
    "date": "2026-09-16",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["simulated annealing"],
    "what": "Figures 12-33 show a monoalphabetic Italian profile; a and m annealed as symbols fall to one vowel, so read as nulls.",
    "result": "worked"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "SAT/constraint solving", "language-model scoring"],
    "what": "5-gram annealing on the numbers alone, six seeds, with and without distinct-core constraint.",
    "result": "partial"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding"],
    "what": "Unigram word-segmentation scorer.",
    "result": "failed"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "exhaustive search", "language-model scoring"],
    "what": "5-gram + dictionary coverage annealer converges on one key from random and seeded starts.",
    "result": "worked"
   },
@@ -152,7 +152,7 @@
   },
   {
    "date": "2026-09-30",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "key matching", "plaintext matching"],
    "what": "Code groups revisited for Lasry's quotation: continuous conjectural reading with every group glossed (I), new glosses {03} = poi and {04} = pero, [223][159] = sua promessa; one-part alphabetical order of the three-figure code tested: it would exclude Regina (100), Serenissimi (123), ancora (151) and questa (160) and give 160 cotesta, 159 concessione/cortesia, 120 Cardinale; not decidable (the two-figure syllables are not alphabetical, no value confirmed). Leads: DECODE R1409 (f.178) possible sibling, R1392-R1406 keys, behind login.",
    "result": "partial"
   },
@@ -170,7 +170,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring", "statistical test"],
    "what": "R1409 ciphertext-only: two-figure groups annealed as a free homophonic letter cipher (order-4 LM + unigram KL), Italian and German, against a shuffled control; then every symbol free to be a letter or a common pair. Italian real -2.61 vs shuffled -2.85/char, German degenerate; no readable text. R1409 left unread (outside this target).",
    "result": "failed"
   },
@@ -191,9 +191,10 @@
    "kind": "reading",
    "what": "[120] now has two contexts, 'fra li altri honori che [120] mi fece in Nicolspurg' and 'tal uolonta di [120]', both fitting the addressee's title; the foot-of-page docket reads '... Card. Dietrichstein', the addressee in Italian practice, confirming the §4 inference. Measured: 442 tokens, 110 nulls, 332 significant, 16 unread (the ten code groups in 14 occurrences plus {03} {04}) = 95.2% of significant tokens read; lm.best_language on the read words: it-modern first.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 426 tokens, 43 types, it-cinquecento order 4: reading -1.943 per letter; random keys -4.877 (z 6.4); key annealed onto shuffled ciphertext best -2.847 (mean -2.871, z 29.6); annealer on the real text -2.505. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 426, "types": 43, "tokens_per_type": 9.91, "score": -1.943, "nulls": {"random keys": {"n": 200, "mean": -4.877, "sd": 0.459, "max": -3.521, "z": 6.4, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.871, "sd": 0.031, "max": -2.847, "z": 29.6, "p": 0.1429}}, "power": -2.505, "verdict": "pass", "notes": "claimed per-occurrence score -1.943; polyphony 0.0; 16 unread tokens left out; annealer on the real text from random keys reached -2.505"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "An Italian 5-gram plus dictionary annealer converged on a key that turned out to be in plain alphabetical order on odd and even figures, confirmed against shuffled-ciphertext controls; letter pairs and syllables were then read from context in Tomokiyo's transcription.",
   "contribution": [
@@ -203,11 +204,7 @@
   ],
   "class": "read",
   "fraction_read": 0.952,
-  "verification": [
-   "historical consistency",
-   "key confirms",
-   "matched control"
-  ],
+  "verification": ["historical consistency", "key confirms", "matched control", "statistical test"],
   "notes": "Every spelled word reads; 12 code/small groups (16 tokens) glossed, not read. Addressee from the docket (Card. Dietrichstein); sender unnamed. R1409 is not a sibling (different system, unread).",
   "fraction_read_method": "measured",
   "fraction_read_source": "decode.py tokens (ct.txt with the two image corrections): 332 non-null tokens, 16 code/small-group tokens counted unread",

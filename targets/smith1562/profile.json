@@ -770,7 +770,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["key matching"],
    "what": "Two agents deciphered the passages sign by sign with key R9261; new variant: double bar = i.",
    "result": "partial"
   },
@@ -782,7 +782,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Located 20 Oct 1562 in Forbes ii 122 (CSP F. 5 no. 880) and 4 Nov 1563 in CSP F. 6 no. 1366; resolved 'garden'/'side'/'chamillion' and 'La Rochelle'. 31 Jan 1562/3 advertisements not found in print; only (2) 'queen of Navarre' read.",
    "result": "worked"
   },

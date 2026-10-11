@@ -127,37 +127,37 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis", "contextual inference"],
    "what": "IC 0.0699 and bigram-repeat test identify a transposition; letter profile suggests telegraphic Spanish.",
    "result": "worked"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "exhaustive search", "repeat/pattern analysis", "contextual inference"],
    "what": "Rail fence, skip, route transpositions (exhaustive) and single columnar to width 20 (annealing), all validated on plants.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-16",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["statistical test"],
    "what": "Lag scan excludes single columnar at any width and reversed-direction double columnar (w1 x w2 below ~560); controls z 11-22, telegram max z 3.3.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis"],
    "what": "Full-key double-transposition annealing, same key to 30 and two keys to 16 x 16.",
    "result": "failed"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing"],
    "what": "IDP local search on the second key; fails on plants at 615 letters.",
    "result": "failed"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["exhaustive search"],
    "what": "Exhaustive second-key enumeration, w2 <= 10, forward and both mixed conventions; proven on plants to 41 x 8 and 30 x 10.",
    "result": "ruled out"
   },
@@ -169,7 +169,7 @@
   },
   {
    "date": "2026-09-30",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "Lag scan re-run on the corrected text: maximum z = 3.4 (was 3.3) at the same lags; index of coincidence 0.0695 (was 0.0699). The errors were substitutions, so no letter moved and the earlier exclusions stand.",
    "result": "ruled out"
   },
@@ -199,7 +199,7 @@
   },
   {
    "date": "2026-10-11",
-   "kind": "solver",
+   "kind": "solver", "technique": ["exhaustive search", "language-model scoring", "contextual inference"],
    "what": "Key-phrase test: 95 context words and names (BLUME, SALAMANCA, OSWALD, VIKTOR, PATVAG, HUNZIKER, BURGOS, HISMA, ARRIBAESPANA, ...) tried as every ordered (K1, K2) pair in all four double-columnar conventions on both telegrams. Best -6.30 per quadgram (noise).",
    "result": "ruled out"
   },
@@ -211,13 +211,13 @@
   },
   {
    "date": "2026-10-11",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring", "contextual inference"],
    "what": "Real telegrams: 2,650,989 words and 1-3-word phrases (Spanish, German, French, Italian, English, Latin, Portuguese corpora) in all three conventions, and 3,980,982 Spanish and German 3-5-word phrases of 12-26 letters in all three. Best z1 = 7.9 (noise tail for ~10^9 tests); K1 annealed under the eight best K2 candidates reads -5.67 to -6.39 per quadgram (noise).",
    "result": "ruled out"
   },
   {
    "date": "2026-10-11",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "exhaustive search", "language-model scoring"],
    "what": "Forward double columnar, second key of 11 enumerated exhaustively (39,916,800 keys) for w1 2-41, twelve best per width carried to K1 annealing. Plant 30 x 11: true key ranked 1 and read at -4.34 per quadgram. Real telegram: best -5.51 per quadgram (w1 = 41), noise.",
    "result": "ruled out"
   },
@@ -229,7 +229,7 @@
   },
   {
    "date": "2026-10-11",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "exhaustive search", "language-model scoring"],
    "what": "Forward single columnar, widths 21-80: column-path search at width 41 (plant -4.44, telegram -5.76) and bigram annealing with quadgram ranking at every width (plants read at 25, 33, 38, 41, 45; fail at 57, 72). Telegram best -5.62 for widths 21-45.",
    "result": "ruled out"
   }

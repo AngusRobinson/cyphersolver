@@ -127,7 +127,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring"],
    "what": "Beam decoder with the it-cinquecento LM resolving 3/9 and 0/8 look-alikes, then 7/8 added; f. 93r reads through.",
    "result": "worked",
    "date": "2026-09-21"

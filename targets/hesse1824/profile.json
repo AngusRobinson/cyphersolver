@@ -102,13 +102,13 @@
    "date": "2026-09-28"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Anmerkung: key letters bcdefg written continuously over the cipher, plaintext at the table's left edge, pairs for the first word.",
    "result": "worked",
    "date": "2026-09-28"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "The pairs fit shifts +2..+7 for b..g in a 25-letter alphabet without j.",
    "result": "worked",
    "date": "2026-09-28"
@@ -120,19 +120,19 @@
    "date": "2026-09-28"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Per-line and per-word phase search: 'beantworte diese fragen', 'paul follen', 'america', 'fries oken', 'merkliche folgen' at shifted phases.",
    "result": "partial",
    "date": "2026-09-28"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring"],
    "what": "Beam decoder allowing phase slips, scored with the de-modern n-gram model.",
    "result": "failed",
    "date": "2026-09-28"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "'de 4ette' = de Wette: the digit 4 is w under g (21+7 = 28); the cipher columns run on past z into digits, which take key letters.",
    "result": "worked",
    "date": "2026-09-28"
@@ -150,7 +150,7 @@
    "date": "2026-09-28"
   }
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "verdict": "not applicable", "notes": "periodic Vigenere (period 6): the key is six shifts, not a substitution table, so a test that refits one value per sign does not apply"}, 
   "class": "read",
   "key": "recovered",
   "method": "key recovered based on adjacent plaintext",

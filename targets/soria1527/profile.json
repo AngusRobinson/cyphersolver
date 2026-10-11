@@ -87,7 +87,7 @@
    "result": "worked"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Recognised the three-letter code groups (xip, yed, zog, sub, pic) as Soria's 1523 key B from soria1523.",
    "result": "worked"
   },

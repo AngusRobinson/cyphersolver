@@ -146,7 +146,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["exhaustive search", "repeat/pattern analysis", "language-model scoring"],
    "what": "Remaining run signs and the dateline enumerated over key values and nulls and scored with fr-1600-letters (enum_readings.py), then one- and two-edit variants (edits.py): no convincing French.",
    "result": "failed"
   },
@@ -158,7 +158,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "The glossed sibling aligned with the key gave the writer's glyph forms: Ŧ = p, capital F = et, 1 = d, 0/⊕ = e, 0 = s, 2/z one shape, ◊ = a.",
    "result": "worked"
   },

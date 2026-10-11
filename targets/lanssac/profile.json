@@ -344,19 +344,19 @@
   },
   {
    "date": "2026-09-17",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "key matching", "plaintext matching"],
    "what": "Glossed sibling f. 154v l. 1 'car je n'ay pas cinquante' fixed 12 signs and showed Tomokiyo's row shifted.",
    "result": "worked"
   },
   {
    "date": "2026-09-17",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Passage 2 of f. 124 read by hand against its gloss 'pour le moins esté retenu'.",
    "result": "worked"
   },
   {
    "date": "2026-09-17",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "Pinned 5-gram annealer over the whole transcription filled the free signs.",
    "result": "worked"
   },
@@ -410,7 +410,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Outer-margin glosses of f. 154v and f. 156v, which survive whole, used as cribs; inner-margin fragments of ff. 154r/156r used as checks.",
    "result": "worked"
   },
@@ -422,19 +422,19 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching", "contextual inference"],
    "what": "Key extended from context and glosses: Gf = me, Ng = qu, Nb = il, obul = bien, Pi2 = x/y, Co = o, vo = l'Empereur, 5 = n, M/Mx/sq = x, 4 = b confirmed.",
    "result": "worked"
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Tried the session-1 value N = p and session-2 N = a for the barred N on ff. 154-156: neither fits; there it reads il.",
    "result": "failed"
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key matching"],
    "what": "Tried to read the 11-sign group after 'de la Valaquie' (f. 154r l. 15) and the 4-sign group after 'vaivode' with the key and variant values; no French word.",
    "result": "failed"
   },
@@ -464,25 +464,25 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Outer-margin decipherment of f. 156v aligned line by line with the pass-2 tokens; read 'voient enclos de deux si puissantz roys comme ilz seront', 'demanderont qu'il ameine quatre mil gascons', 'faire mettre en ordre les galleres pour pouvoir servir', 'toute la noblesse crie pour avoir ung roy'.",
    "result": "worked"
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key matching", "plaintext matching"],
    "what": "New values from pass 2: Mu = u/qu (Tomokiyo's u), Ne = est, Gq = qu, Bf = f ('mon frere' for the gloss 'monsieur'), qq = par; Gf generalised to me/nous.",
    "result": "worked"
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching"],
    "what": "Tried to read the gloss 'cependant', 'estoit ennemy', 'ensemble afin', 'de ceste nation' sign by sign on f. 156v: the cipher groups do not match; the gloss paraphrases at these points.",
    "result": "failed"
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Rechecked f. 124 'despuis' with the barred N = il of ff. 154-156: gives 'desiluis', no French; the f. 124 sign is a different barred-N form; 'despuis' (N = p) stands.",
    "result": "ruled out"
   },
@@ -530,7 +530,7 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Barred-N forms separated on all pages: barred N = il throughout ff. 154-156; f. 124 looped form stays p (despuis); f. 160 'N = a' was a misread tall T (re-read on c307).",
    "result": "worked"
   },
@@ -566,7 +566,7 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key matching", "plaintext matching"],
    "what": "Tried to read the f. 164 word sign Mc (subject of 'a despendu trente mil escus'): not in the key or Tomokiyo's table, gloss cut; left open.",
    "result": "failed"
   },
@@ -581,9 +581,10 @@
    "kind": "control",
    "what": "Raw first-value decode vs shuffles for ff. 160/164/174: -2.26/-2.11/-1.94 per char vs -3.8 to -4.3.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1842 tokens, 73 types, fr-1600-letters order 4: reading -1.997 per letter; random keys -4.815 (z 8.3); key annealed onto shuffled ciphertext best -2.912 (mean -2.947, z 46.2); annealer on the real text -2.06. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1600-letters", "file": "validation.tsv", "tokens": 1842, "types": 73, "tokens_per_type": 25.23, "score": -1.997, "nulls": {"random keys": {"n": 200, "mean": -4.815, "sd": 0.34, "max": -3.84, "z": 8.3, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.947, "sd": 0.021, "max": -2.912, "z": 46.2, "p": 0.1429}}, "power": -2.06, "verdict": "pass", "notes": "claimed per-occurrence score -1.931; polyphony 0.038; 217 unread tokens left out; annealer on the real text from random keys reached -2.06"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The key was rebuilt from the contemporary marginal decipherments beside the cipher on f. 124 and its sibling f. 154v in the same volume (BnF fr. 4735), cut by the gutter on the microfilm, with a pinned annealer filling the rest; Tomokiyo's published table was checked and found shifted.",
   "contribution": [
@@ -597,11 +598,7 @@
   "fraction_read_source": "Measured over the documents with a sign-level count: f. 124 96/100 (reading.txt) and, 2 Oct 2026, f. 154r 439/454, f. 154v 206/224, f. 156r 307/316, f. 156v 569/645 (measure.py over ct_f154*.txt, ct_f156*.txt; NOTES section 9): 1617/1739 = 0.930. The election letters ff. 160, 164, 174 were deciphered in substance in session 2 but have no measured count, so they are not in it. Extent partial under the read bar: the letter to Catherine (ff. 156r-v) is 876/961 = 91.2%, below 95%, though every unread sign has an outside blocker.",
   "key": "recovered",
   "grades": "unknown",
-  "verification": [
-   "contemporary decipherment",
-   "matched control",
-   "historical consistency"
-  ],
+  "verification": ["contemporary decipherment", "matched control", "historical consistency", "statistical test"],
   "notes": "Measured per letter (measure.py --letters, 3 Oct 2026): f. 124 96/100; to Anjou 24 Apr ff. 154r-v 660/677 = 97.5%; to Catherine 24 Apr ff. 156r-v 921/961 = 95.8%; f. 160 91/91; f. 164 203/207 = 98.1%; f. 174 123/123; all 2094/2159 = 97.0%. 65 open tokens: gutter-cut line ends, single signs, one unkeyed word sign (f. 164). ff. 182-189 (9 May) are clear.",
   "gaps": [
    {

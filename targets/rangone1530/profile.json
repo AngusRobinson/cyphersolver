@@ -141,7 +141,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "51 types, flat top frequencies (19,19,16,14,13): homophonic.",
    "result": "worked",
    "date": "2026-09-22"
@@ -153,7 +153,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "frequency analysis", "language-model scoring"],
    "what": "Homophonic annealing against it-cinquecento 5-gram (solve.py): degenerate 'iiii' optimum, then pseudo-Italian with no consensus after adding a frequency penalty.",
    "result": "failed",
    "date": "2026-09-22"
@@ -165,7 +165,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Incremental-delta annealer (solve2.py), 40 restarts x 2M moves: one restart at -1.97 reads 'malissimo satisfato di lui', 'mandato a dirlo al signore Cesare', 'il Fregoso', 'una pratica di lei mi dispiacera'; perturbed restarts return to it.",
    "result": "worked",
    "date": "2026-09-22"
@@ -177,7 +177,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Hand corrections from words: 6=h, tailed sign=f (oferte), D=b (ben disposte), vt null; three look-alike sign pairs split after re-inspection.",
    "result": "worked",
    "date": "2026-09-22"
@@ -189,7 +189,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing", "exhaustive search"],
    "what": "Word-aware scoring (spaced.py): coordinate ascent and pair brute force over the rare signs; no alternative beats noise, null option deletes letters.",
    "result": "failed",
    "date": "2026-09-22"
@@ -202,7 +202,7 @@
   },
   {
    "date": "2026-09-30",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["frequency analysis", "plaintext matching"],
    "what": "A1 'instantia [y S] de ven[i]re': the cipher has no separate 'a' after instantia; y S conjectured 'me' (grade I, from the clear lead-in 'caso acaduto mi'), printed '[a m]e'. A2 'o[y] le mie': every single-letter value for y tried by hand, none gives Italian; left open. Counts unchanged.",
    "result": "partial"
   },
@@ -217,9 +217,10 @@
    "kind": "control",
    "what": "The old 87.9% was a hand count by phrase (e.g. 7 signs for A2's one open sign y). New measure.py counts per sign, a sign read only inside a corpus word (it-cinquecento corpora, >=3 hits) or a listed spelling: 245/264 = 92.8% (A 134/149 = 89.9%, B 111/115 = 96.5%). Below 95%: A6 (12 signs) is the block.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 260 tokens, 51 types, it-cinquecento order 4: reading -2.162 per letter; random keys -3.88 (z 6.8); key annealed onto shuffled ciphertext best -2.433 (mean -2.464, z 17.2); annealer on the real text -2.404. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 260, "types": 51, "tokens_per_type": 5.1, "score": -2.162, "nulls": {"random keys": {"n": 200, "mean": -3.88, "sd": 0.254, "max": -3.215, "z": 6.8, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.464, "sd": 0.018, "max": -2.433, "z": 17.2, "p": 0.1429}}, "power": -2.404, "verdict": "pass", "notes": "claimed per-occurrence score -2.079; polyphony 0.012; 4 unread tokens left out; annealer on the real text from random keys reached -2.404"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The homophonic key was rebuilt ciphertext-only from this letter (fr. 3070 f. 81) and a same-cipher sibling found here (fr. 3082 f. 42, via Tomokiyo's Clairambault references); no prior reading exists (Tomokiyo lists both as undeciphered).",
   "contribution": [
@@ -230,9 +231,7 @@
   "class": "read in part",
   "fraction_read": 0.928,
   "grades": "unknown",
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency", "statistical test"],
   "notes": "Both passages concern Cesare Fregoso, Rangone's brother-in-law: Venice's offers to him (A) and his action 'con spada et cappa' (B). Open signs occur once each; the two letters are all the ciphertext known.",
   "key": "partial",
   "codes_open": {

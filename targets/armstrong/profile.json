@@ -126,7 +126,7 @@
    "result": "worked"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "First reading took the subject as 'S.' = Skipwith with 1394 a null.",
    "result": "failed"
   },
@@ -171,7 +171,7 @@
   },
   {
    "date": "2026-09-16",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Reran the pencil score over all 393 roll-13 frames; it does not locate the annotated frames beyond the first page of a decoded despatch.",
    "result": "failed"
   },
@@ -213,7 +213,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "608 is u/v, not 'va' alone: Gusta-v-us, Fo-u-ch-é, excl-u-de, fra-u-d (17 Feb 1810 pencil 'fraud'), act-u-al-ly; 773 = ea (sp-ea-k, 5 Mar) so the first Bonaparte in 22 Feb (773) is a slip for 723 bo, written correctly four lines later.",
    "result": "worked"
   },
@@ -237,7 +237,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["contextual inference"],
    "what": "Measured per-despatch share with despatches.py (shares.txt): H/C-known 64-79%; with M, inferred and this session's 160 additions: 15 Feb 100%, 22 Feb 98.2%, 5 Mar 94.4%, 27 Dec 89.3%, 13 Aug 92.6%, 25 Oct 90.9%, 1810 three 100%. The additions are context inferences ('?') checked against slot order, not independent confirmations.",
    "result": "worked"
   },
@@ -273,7 +273,7 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["contextual inference"],
    "what": "Measured two ways per despatch (despatches.py: known = independently attested value; reads as sense = known or context-forced and fitting the English, minus sense972.json spans and weak additions). After: known 76-100 %, sense 95.2-100 % for 13 of 14 items; 26 Mar 1808 (5 groups) 80 %.",
    "result": "worked"
   },
@@ -282,9 +282,10 @@
    "kind": "literature search",
    "what": "The 1804-07 printed decoded despatches were not re-read against roll-13 group lists in this session.",
    "result": "failed"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1581 tokens, 539 types, en-modern order 4: reading -2.032 per letter; random keys -3.11 (z 11.7); key annealed onto shuffled ciphertext best -2.243 (mean -2.254, z 18.1); annealer on the real text -2.233. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-modern", "file": "validation.tsv", "tokens": 1581, "types": 539, "tokens_per_type": 2.93, "score": -2.032, "nulls": {"random keys": {"n": 200, "mean": -3.11, "sd": 0.092, "max": -2.918, "z": 11.7, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.254, "sd": 0.012, "max": -2.243, "z": 18.1, "p": 0.1429}}, "power": -2.233, "verdict": "pass", "notes": "claimed per-occurrence score -2.018; polyphony 0.01; 6 unread tokens left out; annealer on the real text from random keys reached -2.233"}, 
   "method": "key recovered based on plaintext from external sources",
   "method_basis": "The 1808 postscript (LoC Madison Papers) was read from a codebook rebuilt out of a State Department clerk's pencil decodes over Armstrong's 1806-07 despatches on NARA microfilm M34 roll 13, merged with Tomokiyo's partial table from the 4 May 1806 known-plaintext letter, with the remaining groups inferred from their alphabetical slot.",
   "contribution": [
@@ -303,10 +304,7 @@
    "tokens_open": 0
   },
   "grades": "unknown",
-  "verification": [
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["key confirms", "historical consistency", "statistical test"],
   "notes": "48 of 49 groups read as sense (fraction_coherent 48/49); the 49th is a probable slip. By distinct group in NOTES: 29 H/C (pencil decodes or Tomokiyo's known plaintext, including 1320 like), 12 slot-inferred, 555 emended; decode972.py marks ?/* but does not separate H from C, so grades are not counted. The first commit (2026-09-14) carries no model trailer; later ones Claude Fable 5.1. 2026-10-02: the table was extended (additions972.tsv, ~160 context values) and applied to 13 further despatches/runs of 1807-1810 (despatches.py, inventory.tsv); the profile outcome still describes the 30 Aug 1808 postscript. 2026-10-03: pencil decodes on roll 13/14 read; per-despatch known/sense shares in NOTES and shares.txt."
  }
 }

@@ -140,7 +140,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis", "contextual inference"],
    "what": "Place run 248:88:46:47:96:52:7:57 = 'Scotland' from context (assistance next spring, Glencairn rising); unverified, grade M.",
    "result": "partial"
   }

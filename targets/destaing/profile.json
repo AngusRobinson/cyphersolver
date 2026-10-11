@@ -86,7 +86,7 @@
  "solution": [
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Counted 217 numbers, 105 distinct, max 597: a ~600-element code.",
    "result": "worked"
   },

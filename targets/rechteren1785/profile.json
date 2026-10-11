@@ -62,7 +62,7 @@
  "solution": [
   {"date": "2026-09-21", "kind": "literature search", "what": "Checked repo notes (deswart1782: Rechteren key missing) and de Leeuw 2000, which cites this letter for letter-opening in Russia without printing it.", "result": "failed"},
   {"date": "2026-09-21", "kind": "access", "what": "Fetched the DECODE record page, five images and the 2020 transcription with the stored cookie.", "result": "worked"},
-  {"date": "2026-09-21", "kind": "solver", "what": "Applied the provisional R2051 and R2052 Rechteren-family keys (marks dropped) to the 424 groups.", "result": "failed"},
+  {"date": "2026-09-21", "kind": "solver", "technique": ["key matching"], "what": "Applied the provisional R2051 and R2052 Rechteren-family keys (marks dropped) to the 424 groups.", "result": "failed"},
   {"date": "2026-09-21", "kind": "reading", "what": "Read images 5448-5449 from the scans: headed 'Ont cyfferde Missive', same dates and Secreet as the cipher; transcribed the 310-word decipherment.", "result": "worked"},
   {"date": "2026-09-21", "kind": "verification", "what": "Margin numbers of the decipherment (688, 107, 94.., 34..) match the last groups of cipher rows 1-4.", "result": "worked"}
  ],

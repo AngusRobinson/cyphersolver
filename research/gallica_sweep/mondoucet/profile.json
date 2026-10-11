@@ -179,19 +179,19 @@
   },
   {
    "date": "2026-09-17",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "repeat/pattern analysis", "contextual inference", "statistical test"],
    "what": "Four aligners, each validated on synthetic controls, run on the two pairs.",
    "result": "failed"
   },
   {
    "date": "2026-09-17",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["beam/DP decoding", "frequency analysis", "language-model scoring", "plaintext matching"],
    "what": "1.3-1.4 glyphs per letter even on the glossed pair; later traced to a segmenter artefact (hand counts give one glyph per letter).",
    "result": "partial"
   },
   {
    "date": "2026-09-17",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment", "frequency analysis", "plaintext matching"],
    "what": "Hand glyph transcription of 16 July ff. 62r-62v anchored on the interlinear glosses ('pouvez', 'leur délivrance', 'au 30') and the f. 64 decipherment; anchored HMM alignment gave homophone counts, fixed by hand.",
    "result": "worked"
   },
@@ -239,13 +239,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["EM alignment", "statistical test"],
    "what": "Split the a class into round a and open alpha on f135r, f137r and 4 Jan; re-alignment gives alpha = r only; control 77.5% -> 78.3%.",
    "result": "worked"
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["statistical test"],
    "what": "Alpha marked on all five 9 Sept pages (key1573_split2.json, round a = l/y/i); control 79.0%; tryalt constrained pass kept 4 of 11 image-ambiguous alternatives on 4 Jan; best reading 55-60% of letters. Ciphertext-only plateau.",
    "result": "partial"
   },
@@ -263,7 +263,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["frequency analysis", "statistical test"],
    "what": "Retry: 13 July re-decoded with key2 + alpha = r (1573 counts) and with key1573_split2 directly (hand/decode_retry.py). Control on the 16 July block, not held out: 60.3% -> 61.1% (alpha = r), 56.2% (1573 key), chance 12-15%. 13 July glyphs in stretches reading as sense: ~8% lenient, ~1% strict (hand/decode_retry.txt).",
    "result": "failed"
   }

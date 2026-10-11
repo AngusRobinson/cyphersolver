@@ -93,7 +93,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "R7930 turned out to be only the cover of a Palm-Visconti letter plus a 1-500 French/Italian nomenclator worksheet; the letter itself is not imaged. R7928 is a Windischgraetz-Starhemberg key fragment.",
    "result": "worked"
   },
@@ -111,7 +111,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring", "plaintext matching"],
    "what": "Simulated annealing on letter values with de-modern 5-grams, codes drawn from a word/syllable list, gloss values pinned; 6+6+6 restarts.",
    "result": "failed"
   },
@@ -123,7 +123,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis", "plaintext matching"],
    "what": "Longer annealing (12 restarts x 250k moves) with six gloss pins: scores scattered -1985 to -2022, no two runs agree.",
    "result": "failed"
   },

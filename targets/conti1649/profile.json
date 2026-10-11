@@ -164,7 +164,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "plaintext matching"],
    "what": "Rebuilt the no. 43 key from glosses and layout: interleaved alphabets, syllable blocks of five, underline reverses, nulls 99-250.",
    "result": "worked"
   },

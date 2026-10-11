@@ -114,25 +114,25 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "One-sign-per-letter homophonic annealing with word spaces: gibberish (-4.2/char).",
    "result": "failed",
    "date": "2026-09-22"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "z followed by o in 262 of 283 cases: 'zo' taken as one unit; most frequent words Tzox, Wx, Wxm, hx.",
    "result": "worked",
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["simulated annealing"],
    "what": "Seeded Tzox=que, Wx/Wxm=le/les, hx=de; annealer read 'les derniers advertissemens', 'les affaires de pardeça'.",
    "result": "worked",
    "date": "2026-09-22"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "simulated annealing"],
    "what": "Aligned decrypted words with the French they must be: entendu (r=n, io=u), avoir, ordinairement (s3=r), souloit (nn=s); reran the annealer with these units (-3.2/char).",
    "result": "worked",
    "date": "2026-09-22"
@@ -172,9 +172,10 @@
    "kind": "literature search",
    "what": "Lasry review (email 25 Sept 2026): Lasry wrote that he had independently solved it in 2023 (improved Feb 2026) but never published it; kept in the ciphertext-only list with that note.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 7830 tokens, 50 types, fr-1530-despatches order 4: reading -2.264 per letter; random keys -5.162 (z 4.1); key annealed onto shuffled ciphertext best -3.007 (mean -3.029, z 43.3); annealer on the real text -2.657. Verdict: weak.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1530-despatches", "file": "validation.tsv", "tokens": 7830, "types": 50, "tokens_per_type": 156.6, "score": -2.264, "nulls": {"random keys": {"n": 200, "mean": -5.162, "sd": 0.71, "max": -3.697, "z": 4.1, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.029, "sd": 0.018, "max": -3.007, "z": 43.3, "p": 0.1429}}, "power": -2.657, "verdict": "weak", "notes": "claimed per-occurrence score -2.037; polyphony 0.046; 384 unread tokens left out; annealer on the real text from random keys reached -2.657"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The homophonic cipher with two-stroke units of BnF fr. 3157 item 67 (ff. 152r-156v) was broken from the images alone: 'zo' taken as one unit from statistics, probable short words (que, le, les, de) seeded into an annealer, then words aligned against the French they had to be; no decipherment, key or edition exists.",
   "contribution": [
@@ -186,9 +187,7 @@
   "fraction_read": 0.989,
   "fraction_read_method": "measured",
   "fraction_read_source": "reading_152r-154r.txt + reading_154v-156v.txt against ciphertext.txt: 16 words marked [..] out of 1,715 cipher words (108 more read with a marked emendation).",
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency"],
   "key": "recovered",
   "codes_open": {
    "open": 0,

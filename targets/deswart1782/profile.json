@@ -159,7 +159,7 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Aligned the 1784-86 plain/cipher pairs R2032, R2051 and R2052 to rebuild the missing first key of R1040. The transfers cover 2-3% and give no prose.",
    "result": "failed"
   },

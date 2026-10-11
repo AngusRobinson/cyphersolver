@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-09-16",
-      "kind": "statistics",
+      "kind": "statistics", "technique": ["frequency analysis"],
       "what": "Figure distribution rules out N.11 and matches the 1577-78 Zifra Prima type.",
       "result": "worked"
     },
@@ -153,7 +153,7 @@
     },
     {
       "date": "2026-09-16",
-      "kind": "solver",
+      "kind": "solver", "technique": ["simulated annealing", "statistical test"],
       "what": "Same annealers on the target give vowel or syllable soup, no separation from shuffles.",
       "result": "failed"
     },
@@ -177,7 +177,7 @@
     },
     {
       "date": "2026-10-09",
-      "kind": "solver",
+      "kind": "solver", "technique": ["hill climbing", "language-model scoring"],
       "what": "Zifra Prima with base letters permuted and per-base offsets (coordinate ascent, it-cinquecento LM): only nomenclator-word strings, no text.",
       "result": "failed"
     },
@@ -189,7 +189,7 @@
     },
     {
       "date": "2026-10-09",
-      "kind": "statistics",
+      "kind": "statistics", "technique": ["statistical test"],
       "what": "First-pass digit statistics show systematic misreading (7 read as 2, 8 as 0, 3/5/8 confused); with those re-readings the Zifra Prima decodes frequent tokens to the commonest units and passages read as Italian; syllable-usage correlation p=0.0008 vs structured null.",
       "result": "worked"
     },
@@ -201,7 +201,7 @@
     },
     {
       "date": "2026-10-09",
-      "kind": "solver",
+      "kind": "solver", "technique": ["EM alignment", "beam/DP decoding", "language-model scoring"],
       "what": "beam.py: per-token Viterbi over digit-confusion variants with the Zifra Prima, it-cinquecento 5-gram with optional word spaces, EM-estimated confusion costs; machine draft Italian in long stretches (draft_beam_v1.txt).",
       "result": "partial"
     },
@@ -225,7 +225,7 @@
     },
     {
       "date": "2026-10-09",
-      "kind": "solver",
+      "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring", "plaintext matching", "manual reconstruction"],
       "what": "dec.py: noisy-channel decoder (digit/base confusion model and code prior estimated from the 721 hand-read tokens, Venetian 5-gram LM, vectorised Viterbi beam over whole pieces, skip option, per-token margins). Leave-one-page-out calibration against the hand reading: 644/721 = 89.3% agreement by value vs 65.9% identity baseline and 73.8% at beam.py's weights.",
       "result": "worked"
     },
@@ -237,7 +237,7 @@
     },
     {
       "date": "2026-10-09",
-      "kind": "solver",
+      "kind": "solver", "technique": ["beam/DP decoding"],
       "what": "Free decoding of ff.35v-36v gives Italian fragments but no continuous sense (dec_out/, view.py); the decoder alone does not read those pages.",
       "result": "failed"
     },
@@ -249,7 +249,7 @@
     },
     {
       "date": "2026-10-09",
-      "kind": "crib",
+      "kind": "crib", "technique": ["beam/DP decoding", "crib testing", "language-model scoring", "contextual inference"],
       "what": "fit.py/refit.py: crib fit of proposed Italian line texts (hand reading, decoder drafts, context) onto the first-pass tokens; a token is read only outside gaps with channel log-prob >= -5; 74 lines re-read (texts_reread.txt).",
       "result": "worked"
     },

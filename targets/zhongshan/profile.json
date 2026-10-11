@@ -95,7 +95,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "He Mi as the standard code through a condenser (the Sun Yat-sen route).",
    "result": "ruled out"
   }

@@ -225,7 +225,7 @@
   },
   {
    "date": "2026-09-17",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Revol letters found to be in the Court key no. 60, not no. 46; the 27 Aug copy is in clear.",
    "result": "worked"
   },

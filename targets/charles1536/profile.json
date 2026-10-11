@@ -66,8 +66,8 @@
   {"kind": "access", "what": "DECODE metadata for R9952/R9957 via the API; 38 images fetched with the shared cookie.", "result": "worked"},
   {"kind": "literature search", "what": "Viewed all pages: R9952 is a different letter (Cremona 1543), deciphered in the margins and on ff. 13-14.", "result": "worked"},
   {"kind": "transcription", "what": "Two subagents transcribed the R9957 cipher passages, pp. 1-9 and 10-18.", "result": "partial"},
-  {"kind": "crib", "what": "Found the contemporary decipherment of the pp. 16-17 cipher on pp. 17-18 and two interlinear glosses on p. 16; read the decipherment.", "result": "worked"},
-  {"kind": "solver", "what": "Hard-EM monotone aligner (from balbases1677) of the p. 16-17 tokens against the decipherment.", "result": "failed"},
+  {"kind": "crib", "technique": ["crib testing", "plaintext matching"], "what": "Found the contemporary decipherment of the pp. 16-17 cipher on pp. 17-18 and two interlinear glosses on p. 16; read the decipherment.", "result": "worked"},
+  {"kind": "solver", "technique": ["EM alignment", "plaintext matching"], "what": "Hard-EM monotone aligner (from balbases1677) of the p. 16-17 tokens against the decipherment.", "result": "failed"},
   {"kind": "literature search", "what": "Tomokiyo cryptiana page (cached copy) lists R9957 as deciphered and printed in Luo 2021 p. 287, cipher AGS Estado leg. 1.1.1 doc. 169, and R9952 as deciphered in the margin.", "result": "worked"}
  ],
  "outcome": {

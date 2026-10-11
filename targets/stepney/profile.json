@@ -112,12 +112,12 @@
    "result": "ruled out"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "Group ranges suggest letters/syllables/words tiers; one repeat only.",
    "result": "partial"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "Context cribs for the two passages; unverifiable with 24 groups.",
    "result": "failed"
   }

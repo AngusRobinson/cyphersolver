@@ -28,6 +28,7 @@ import _check_writeup as cw                              # target_dirs(), readme
 
 SCHEMA = json.loads((ROOT / 'profile.schema.json').read_text(encoding='utf-8'))
 UNKNOWN = 'unknown'
+TECHNIQUE_KINDS = ('solver', 'hypothesis', 'crib')      # steps that must say how they attacked the cipher
 
 # ---------------------------------------------------------------------------
 # a small JSON Schema subset (type, enum, const, required, properties, items, additionalProperties,
@@ -99,6 +100,13 @@ def check(folder, quiet=False):
     if prof.get('target') not in (folder, UNKNOWN): errors.append(f'target: {prof.get("target")!r} is not the folder name {folder!r}')
     if isinstance(prof.get('outcome'), dict) and 'method' not in prof['outcome'] and folder.split('/')[-1] not in cw.FAMOUS:
         errors.append('outcome.method: required (George Lasry\'s outcome categories; python docs/_classify_outcomes.py proposes one)')
+    for i, s in enumerate(prof.get('solution', []) if isinstance(prof.get('solution'), list) else []):
+        if isinstance(s, dict) and s.get('kind') in TECHNIQUE_KINDS and not s.get('technique'):
+            errors.append(f'solution[{i}].technique: required on a {s["kind"]} step (annealing, hill climbing, crib testing, '
+                          f'key-structure hypothesis ...; profile.schema.json lists them)')
+    v = prof.get('outcome', {}).get('verification') if isinstance(prof.get('outcome'), dict) else None
+    if isinstance(v, list) and 'statistical test' in v and 'validation' not in prof['outcome']:
+        errors.append('outcome.verification: "statistical test" needs outcome.validation (python docs/_validate.py <folder> --write)')
     for i, d in enumerate(prof.get('documents', [])):          # a measured count must still match its file
         ln = d.get('length', {}) if isinstance(d, dict) else {}
         if ln.get('measured') is True:

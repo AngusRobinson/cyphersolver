@@ -103,7 +103,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["crib testing", "repeat/pattern analysis", "contextual inference"],
    "what": "Context: the truce of Majano expired 16 July 1435 and was extended; run 2 before 'es continuada daci a Tots Sants' = 'la treua [ab Castella]' as the leading crib.",
    "result": "partial"
   },
@@ -151,7 +151,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "crib testing", "language-model scoring"],
    "what": "Annealing, one sign = one letter, Catalan quadgram model, with and without the 1429 look-alike values and cribs (la treua, treua, tregua, castella, M z = es): every crib heavily penalised, output gibberish.",
    "result": "failed"
   },

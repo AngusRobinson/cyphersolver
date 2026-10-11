@@ -152,6 +152,8 @@
     "properties": {
      "date": {"type": "string"},
      "kind": {"type": "string", "enum": ["access", "transcription", "statistics", "hypothesis", "crib", "solver", "control", "sibling key", "key from source", "prediction", "reading", "verification", "literature search"]},
+     "technique": {"type": "array", "minItems": 1, "items": {"type": "string", "enum": ["simulated annealing", "hill climbing", "EM alignment", "beam/DP decoding", "SAT/constraint solving", "exhaustive search", "crib testing", "key-structure hypothesis", "frequency analysis", "repeat/pattern analysis", "language-model scoring", "key matching", "plaintext matching", "contextual inference", "statistical test", "manual reconstruction", "automated search (unspecified)", "other"]},
+      "description": "How the step attacked the cipher (George Lasry's request: annealing, hill climbing, crib testing, hypotheses about the key structure ...). Required on steps of kind solver, hypothesis and crib; optional elsewhere. Steps recorded before October 2026 were labelled by rule from their text (docs/_backfill_techniques.py)."},
      "what": {"type": "string"},
      "result": {"type": "string", "enum": ["worked", "partial", "failed", "ruled out"]}
     }
@@ -190,7 +192,19 @@
     "fraction_coherent": {"type": "number", "minimum": 0, "maximum": 1, "description": "Share of the enciphered text whose reading makes sense, when it differs materially from fraction_read (e.g. a complete key over a noisy transcription)."},
     "grades": {"type": "object", "properties": {"H": {"type": "integer"}, "C": {"type": "integer"}, "M": {"type": "integer"}, "I": {"type": "integer"}},
      "description": "Counts of readings by grade, README Conventions."},
-    "verification": {"type": "array", "items": {"type": "string", "enum": ["matched control", "independent clear copy", "contemporary decipherment", "key confirms", "historical consistency", "none"]}},
+    "verification": {"type": "array", "items": {"type": "string", "enum": ["matched control", "independent clear copy", "contemporary decipherment", "key confirms", "historical consistency", "statistical test", "none"]}},
+    "validation": {"type": "object", "required": ["date", "verdict"],
+     "description": "Result of docs/_validate.py: the reading's n-gram score against two nulls, random keys of the same structure and the same key refitted to a shuffled ciphertext (the overfitting test).",
+     "properties": {
+      "date": {"type": "string"}, "model": {"type": "string"}, "file": {"type": "string"},
+      "tokens": {"type": "integer"}, "types": {"type": "integer"}, "tokens_per_type": {"type": "number"},
+      "score": {"type": "number", "description": "Mean natural-log probability per plaintext letter of the reading under key K (lang/lm.py, order 4, no spaces)."},
+      "nulls": {"type": "object", "additionalProperties": {"type": "object", "properties": {
+        "n": {"type": "integer"}, "mean": {"type": "number"}, "sd": {"type": "number"}, "max": {"type": "number"},
+        "z": {"type": "number"}, "p": {"type": "number"}}}},
+      "power": {"type": "number", "description": "Best score of the same annealer from random keys on the real ciphertext."},
+      "verdict": {"type": "string", "enum": ["pass", "weak", "fail", "underdetermined", "too short", "not applicable"], "description": "underdetermined: not a pass, and the annealer on the real ciphertext beats the reading, so the letter model cannot discriminate on this text. not applicable: the test cannot be run on this reading (transposition, no token alignment, non-alphabetic plaintext); notes says why."},
+      "notes": {"type": "string"}}},
     "gaps": {"type": "array", "description": "For 'read in part': every unread piece and why it stays unread (mirrors NOTES.md '## Remaining gaps').",
      "items": {"type": "object", "required": ["item", "blocker"], "properties": {
       "item": {"type": "string"},

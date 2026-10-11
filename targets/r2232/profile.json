@@ -97,7 +97,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Tested the key on the ciphered year/place and signature of image 1: 'en 1791, à Berlin', 'Wolff'.",
    "result": "worked",
    "date": "2026-09-21"
@@ -113,17 +113,16 @@
    "what": "Decoded mechanically; corrected a few one-place slips from context into reading.txt.",
    "result": "worked",
    "date": "2026-09-21"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1045 tokens, 105 types, fr-modern order 4: reading -2.135 per letter; random keys -6.805 (z 15.2); key annealed onto shuffled ciphertext best -3.642 (mean -3.698, z 41.8); annealer on the real text -3.571. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-modern", "file": "validation.tsv", "tokens": 1045, "types": 105, "tokens_per_type": 9.95, "score": -2.135, "nulls": {"random keys": {"n": 200, "mean": -6.805, "sd": 0.308, "max": -5.891, "z": 15.2, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.698, "sd": 0.037, "max": -3.642, "z": 41.8, "p": 0.1429}}, "power": -3.571, "verdict": "pass", "notes": "claimed per-occurrence score -2.135; polyphony 0.0; 20 unread tokens left out; annealer on the real text from random keys reached -3.571"}, 
   "method": "read with known key",
   "method_basis": "The key is on the next DECODE record, R2233, at the same inventory number: Wolff's own covering letter of 8 Sept 1801 sending 'la clef ci-jointe' for the 25 July letter; it decoded the letter on the first pass.",
   "contribution": ["transcription"],
   "class": "read",
   "fraction_read": 0.97,
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency", "statistical test"],
   "notes": "Every group has a value; a few one-place slips corrected from context; two clear passages summarised, not transcribed."
  }
 }

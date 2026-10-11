@@ -122,7 +122,7 @@
     },
     {
       "date": "2026-09-23",
-      "kind": "solver",
+      "kind": "solver", "technique": ["simulated annealing", "crib testing"],
       "what": "Python homophonic annealing failed; constrained pronostico crib also failed and rejected. C# annealing, 250 restarts each on joined, dots-collapsed and split/dots-collapsed variants. Only split variant produced coherent spans: dizen que el mundo..., el rey, ...escudero, paresce que anda...",
       "result": "partial"
     },
@@ -149,9 +149,10 @@
       "kind": "verification",
       "what": "Decoder roundtrip reproduces saved literal runs; measured 125 tokens, 35 types, I=119 M=6. No external key or independent decipherment verifies the solution.",
       "result": "worked"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 125 tokens, 35 types, es-golden-age order 4: reading -1.887 per letter; random keys -5.211 (z 6.7); key annealed onto shuffled ciphertext best -2.56 (mean -2.668, z 9.9); annealer on the real text -2.466. Verdict: pass.", "result": "worked"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "es-golden-age", "file": "validation.tsv", "tokens": 125, "types": 35, "tokens_per_type": 3.57, "score": -1.887, "nulls": {"random keys": {"n": 200, "mean": -5.211, "sd": 0.493, "max": -3.965, "z": 6.7, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.668, "sd": 0.079, "max": -2.56, "z": 9.9, "p": 0.1429}}, "power": -2.466, "verdict": "pass", "notes": "claimed per-occurrence score -1.887; polyphony 0.0; 0 unread tokens left out; annealer on the real text from random keys reached -2.466"}, 
     "method": "key recovered from ciphertext-only",
     "method_basis": "The key was rebuilt from the ciphertext alone by C# homophonic annealing over a Spanish order-5 model after image re-segmentation; no external plaintext or key was found or used.",
     "contribution": ["transcription", "key recovered", "catalogue correction"],
@@ -169,9 +170,7 @@
       "total": 0,
       "tokens_open": 0
     },
-    "verification": [
-      "none"
-    ],
+    "verification": ["statistical test"],
     "notes": "Complete proposed reading, 95.2% excluding M. Key reconstructed only for used signs; no independent confirmation. Name segmentation and shorter passage syntax remain uncertain."
   }
 }

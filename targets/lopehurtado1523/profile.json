@@ -320,7 +320,7 @@
     },
     {
       "date": "2026-09-21",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["key-structure hypothesis"],
       "what": "Same cipher as the 1522 Hurtado letters (targets/lopehurtado/): the code groups ton, zar, xul, rab, taf, yub, teg, xug recur on every leaf.",
       "result": "worked"
     },
@@ -332,13 +332,13 @@
     },
     {
       "date": "2026-09-21",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "contextual inference"],
       "what": "Tried R9667's bound 'Claro' leaf as a crib: it is mirrored and docketed 'Del abbad de Najera a dos de mayo', so it belongs to another letter. Transcribed the six cipher runs; codes only give fragments (a request for benefices for the Pope's servants); 4ʃL∂8ɛ probable 'provea'.",
       "result": "failed"
     },
     {
       "date": "2026-09-21",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing", "frequency analysis", "repeat/pattern analysis"],
       "what": "Aligned R9846 ff. 130r-130v cipher (38 lines) against the contemporary clear on f. 133r, clause for clause. 105 values (65 confirmed, 40 probable) in key_1524.tsv; most of the homophonic letter alphabet recovered from exact-count spelled runs; 1522 letter values 4=n, 8=e, 7=a, m=o re-confirmed; 25 1522 codes re-confirmed. Contradictions: L sits as r (1522: i), tef in a 'nec-' slot (1522: paz).",
       "result": "worked"
     },
@@ -353,18 +353,16 @@
       "kind": "reading",
       "what": "Applied the key to R9869, R9866, R9868. Dates fixed from subscriptions: 28 Mar, 28 Feb, 20 Mar 1524; R9866 and R9868 to Gattinara. R9869 ~2/3 reads, R9868 f.430r mostly, R9866 a quarter to a third. New: barred m = f (confirmed), tef = nec- confirmed three times (1522: paz).",
       "result": "partial"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 2868 tokens, 150 types, es-golden-age order 4: reading -2.148 per letter; random keys -3.719 (z 6.1); key annealed onto shuffled ciphertext best -2.509 (mean -2.517, z 29.4); annealer on the real text -2.196. Verdict: pass.", "result": "worked"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "es-golden-age", "file": "validation.tsv", "tokens": 2868, "types": 150, "tokens_per_type": 19.12, "score": -2.148, "nulls": {"random keys": {"n": 200, "mean": -3.719, "sd": 0.257, "max": -3.176, "z": 6.1, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.517, "sd": 0.013, "max": -2.509, "z": 29.4, "p": 0.1429}}, "power": -2.196, "verdict": "pass", "notes": "claimed per-occurrence score -2.148; polyphony 0.0; 198 unread tokens left out; annealer on the real text from random keys reached -2.196"}, 
     "method": "key recovered based on adjacent plaintext",
     "method_basis": "The key was rebuilt by aligning the clerk's clear of the first third of the 5 Feb 1524 letter, bound with it on f. 133r of the same record (R9846), against its cipher, starting from the project's 1522 Lope Hurtado key; the Bergenroth CSP abstracts (nos. 548, 617) were not used as cribs.",
     "contribution": ["transcription", "key recovered", "key extended or corrected", "sender or date identified", "catalogue correction"],
     "class": "read in part",
     "fraction_read": 0.45,
-    "verification": [
-      "contemporary decipherment",
-      "key confirms"
-    ],
+    "verification": ["contemporary decipherment", "key confirms", "statistical test"],
     "notes": "Two letters already abstracted by Bergenroth (CSP Spain ii 548, 617). Key rebuilt from R9846's bound clear; six uncribbed letters read in part (about a quarter to two thirds each). Limited by ~30 unknown codes and look-alike signs at DECODE resolution.",
     "gaps": [
       {

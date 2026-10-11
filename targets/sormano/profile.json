@@ -169,7 +169,7 @@
   },
   {
    "date": "2026-09-17",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Aligned nos. 65 and 66, which encipher different passages, as a mutual crib.",
    "result": "worked"
   },

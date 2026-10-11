@@ -104,7 +104,7 @@
  "solution": [
   {
    "date": "2026-09-14",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "'la', 'd'autres', 'd'elle ... elle' (tilde = doubling), 'Brassac', 'l'ambassade' placed beside clear words.",
    "result": "worked"
   },

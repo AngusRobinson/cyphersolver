@@ -253,7 +253,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Interlinear glosses (Ludovic, union, a, n) give anchors; the values rise with the alphabet.",
    "result": "worked"
   },
@@ -391,7 +391,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching", "contextual inference"],
    "what": "Four name signs not on the f. 103r panel named from the gloss (prince de Conty, Messieurs de Montmorency, Cardinal de Bourbon; the B4 sign, gloss 'duc de Lorraine', not read). 183 'estre' + n t taken as 'estant' (the gloss).",
    "result": "partial"
   },
@@ -433,7 +433,7 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis", "language-model scoring"],
    "what": "Nos. 24/25/60: unknown letter values bracketed between known neighbours by the alphabetical order (52 h-i, 62 l-n, 92 s-v, 94 u-v, 95 u-z), all 240 combinations scored with fr-1600-letters over the ten runs, codes left out (anneal_twodigit.py). Best 52 i, 62 n, 92 u/v, 95 y ('de Launan', '...audovic'); none verifies on a second occurrence (92's second occurrence gives 'le [99] y u a v [05] i s'). Not accepted; 63/104 unchanged.",
    "result": "failed"
   },
@@ -445,12 +445,13 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["exhaustive search", "language-model scoring", "contextual inference"],
    "what": "Writer's-slip test: every key word one digit from 340, and from the B2/B4 groups, substituted. 348 voir (and 341 tenir) makes A6 grammatical ('et voir le lieu ou il le pourra mettre'), a conjecture not counted (the office read tabour; the figure is a clear 340). B2 '6 lam 340' and B4 '28 25 202' give no sense with any neighbour. The character LM does not separate the candidates.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 233 tokens, 94 types, fr-1600-letters order 4: reading -1.94 per letter; random keys -3.058 (z 9.2); key annealed onto shuffled ciphertext best -2.062 (mean -2.09, z 9.0); annealer on the real text -2.002. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1600-letters", "file": "validation.tsv", "tokens": 233, "types": 94, "tokens_per_type": 2.48, "score": -1.94, "nulls": {"random keys": {"n": 200, "mean": -3.058, "sd": 0.122, "max": -2.763, "z": 9.2, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.09, "sd": 0.017, "max": -2.062, "z": 9.0, "p": 0.1429}}, "power": -2.002, "verdict": "pass", "notes": "claimed per-occurrence score -1.94; polyphony 0.0; 15 unread tokens left out; annealer on the real text from random keys reached -2.002"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The two-digit alphabet of fr. 3623 nos. 24/25/60 was rebuilt from a few interlinear glosses on nos. 25 and 60 plus its alphabetical order, and the no. 55 groups from the interlinear decipherment of Lauriere's letter no. 10 in the same volume fr. 3625; no. 23 reads with its own key slip bound in at f. 36r. Laurière's no. 55 was then read in full with his own key sheet (Tomokiyo's Nevers key no. 57, fr. 3995 ff. 102-103), identified by an outside contributor (issue 13) and checked here.",
   "contribution": [
@@ -468,11 +469,7 @@
    "tokens_open": 14
   },
   "grades": "unknown",
-  "verification": [
-   "key confirms",
-   "contemporary decipherment",
-   "historical consistency"
-  ],
+  "verification": ["key confirms", "contemporary decipherment", "historical consistency", "statistical test"],
   "notes": "No. 23 read in full from its key; nos. 24/25/60 about three quarters of runs read; no. 55 19 of 86 groups from no. 10's glosses; no. 78 open. fraction_read 0.45 is an estimate from the notes (cipher tokens: about 70 of 104 two-digit figures, 19 of 86 no. 55 groups, no. 23 codes all, no. 78 none), not a measurement. Measured 21 Sept 2026: 0.418 (was 0.45 estimated). codes_open = the word codes of the nos. 24/25/60 table (12 = de read; 16, 17, 19, 39, 89, 99 open); no. 55's syllabic groups (67 of 86 open) not counted there. 29 Sept 2026: no. 55 read in full with key no. 57 (issue 13); fraction 0.755. 2 Oct 2026: fr. 3985 f. 58 (Laverriere, Poissy, 12 Aug 1593; Tomokiyo's letter for key no. 57) deciphered with key no. 57, 222 of 248 tokens (89.5%); fraction 0.833. 3 Oct 2026: f. 58 second pass 235/248 (94.8%); fraction 0.863. 3 Oct third pass (two-digit bracketed search, dictionaries, slip test): no counted change.",
   "gaps": [
    {

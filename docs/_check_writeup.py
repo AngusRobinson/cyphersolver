@@ -303,6 +303,14 @@ def check_slug(slug):
             meets, why = read_bar(folder)          # not `ok`: that is the result flag item() maintains
             item(meets, f'{folder}: "read" meets the read bar (README Conventions)' + ('' if meets else ': ' + '; '.join(why)),
                  warn=any(w.startswith('no numeric') for w in why))
+    # a key recovered by the project is checked against chance and overfitting (docs/_validate.py, Lasry Oct 2026)
+    for folder in sorted(folders):
+        try: out = json.loads(read(tdir(folder) / 'profile.json') or '{}').get('outcome') or {}
+        except ValueError: out = {}
+        if out.get('class') in ('read', 'read in part') and str(out.get('method', '')).startswith('key recovered'):
+            verdict = (out.get('validation') or {}).get('verdict')
+            item(bool(verdict), f'{folder}: recovered key validated statistically (python docs/_validate.py {folder} --write, '
+                 f'or --na "reason")' + (f': {verdict}' if verdict else ''))
     for folder in sorted(folders):
         part, probs, _ = partial_problems(folder)
         if part:

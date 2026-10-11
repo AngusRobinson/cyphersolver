@@ -46,7 +46,7 @@
  "solution": [
   {"kind": "access", "what": "Downloaded R8871 and companion R8870 images from DECODE with the session cookie.", "result": "worked", "date": "2026-09-21"},
   {"kind": "transcription", "what": "Transcribed 77 three-character groups of f. 3r.", "result": "worked", "date": "2026-09-21"},
-  {"kind": "statistics", "what": "76/77 groups distinct; character IoC x 35 about 1.12, near flat.", "result": "worked", "date": "2026-09-21"},
+  {"kind": "statistics", "technique": ["frequency analysis"], "what": "76/77 groups distinct; character IoC x 35 about 1.12, near flat.", "result": "worked", "date": "2026-09-21"},
   {"kind": "sibling key", "what": "Viewed all 26 DECODE key records of Add MS 32280 (R8890, R8894-R8919) for a trigram letter code.", "result": "failed", "date": "2026-09-21"}
  ],
  "outcome": {

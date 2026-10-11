@@ -144,19 +144,19 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["simulated annealing", "beam/DP decoding", "key-structure hypothesis"],
    "what": "Tested pair and self-delimiting ([1-4]*[5-0], [1-5]*[6-0]) segmentations; homophonic annealing gave no Italian.",
    "result": "failed"
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["beam/DP decoding"],
    "what": "Found rare digits 0/7/8/9 fixed mod 3 within lines: 3-digit groups; DP segmentation to 612 groups, 211 distinct.",
    "result": "worked"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "statistical test"],
    "what": "Monotone (ordered syllabary) annealer, 12 seeds, clean Italian 4-gram; synthetic ordered control recovered in part, real text not.",
    "result": "failed"
   },
@@ -168,7 +168,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Free letter-per-code and letter/syllable annealers, 14 seeds: seed-dependent overfit gibberish.",
    "result": "failed"
   },

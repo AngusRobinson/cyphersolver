@@ -47,7 +47,7 @@
  },
  "solution": [
   {"date": "2026-09-21", "kind": "access", "what": "DECODE record page and 11 page images fetched with the cookie", "result": "worked"},
-  {"date": "2026-09-21", "kind": "hypothesis", "what": "Read the heading and signature: a clear memorandum by W. Loeschner, Vienna, 1 July 1816, amending the cipher-key instruction", "result": "worked"},
+  {"date": "2026-09-21", "kind": "hypothesis", "technique": ["contextual inference"], "what": "Read the heading and signature: a clear memorandum by W. Loeschner, Vienna, 1 July 1816, amending the cipher-key instruction", "result": "worked"},
   {"date": "2026-09-21", "kind": "verification", "what": "Zoomed on the number lines (opening 9): each code group has its plaintext written above it (le Roi d'Espagne vient de nommer ... M. le Duc de San Carlos ...)", "result": "worked"}
  ],
  "outcome": {

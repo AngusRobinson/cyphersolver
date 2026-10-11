@@ -102,7 +102,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Boxed digit after a word = cover-name marker (R8361 digges_codes inventory); nothing to decipher.",
    "result": "worked",
    "date": "2026-09-22"

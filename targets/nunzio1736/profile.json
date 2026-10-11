@@ -392,13 +392,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["plaintext matching"],
    "what": "Parsed the aligned decipherment (9,001 tokens incl. nulls): the key values no four-digit group; 166 distinct groups, 708 tokens, unread. Text read 90.6%.",
    "result": "worked"
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "contextual inference"],
    "what": "Tried the 364D alphabetical-bracket method; the 1736 nomenclator is not alphabetical (1222 -mente, 1245 -zione, 1882 Spagna, 1935 V.S.), so values must come from context alone.",
    "result": "failed"
   },

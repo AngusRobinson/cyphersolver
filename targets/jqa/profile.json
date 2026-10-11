@@ -161,7 +161,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["statistical test"],
    "what": "Worked out the code's structure: alphabetical blocks of about 50 numbers, shuffled, whole words in 1-100.",
    "result": "worked"
   },
@@ -197,13 +197,13 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Transcribed 39 coded blocks of 1811 despatches (frames 0005-0132) and aligned them with the plaintext Ford printed from the Department's decipherments (Writings vol. 4) using align.py, checked by eye: 589 C and 270 M pairs in ford_pairs*.tsv.",
    "result": "worked"
   },
   {
    "date": "2026-09-22",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis", "contextual inference"],
    "what": "Merged all sources into one table (consolidate.py, overrides.tsv for 40 disputed numbers): 962 numbers, 391 H, 241 C, 311 M, 19 I. The alphabetical order holds only in short runs.",
    "result": "worked"
   },
@@ -233,7 +233,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "plaintext matching"],
    "what": "Coded blocks of eight despatches Oct 1811-Sept 1812 transcribed and aligned with Ford vol. 4; No. 95 aligned against the Department's clear copy on 0230-0232 (1,926 pairs; ford1812_pairs*.tsv): 996 = fri (friendship), 1457+ = ll (Chancellor), 83 = opposition, 1061 = cu, 588 = tled.",
    "result": "worked"
   },
@@ -245,7 +245,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "contextual inference"],
    "what": "Alphabetical-slot inferences (grade I) for the remaining groups: 1403 ib and 350 fl (in-fl-ex-ib-ly, inflexibly), 1309 bat (battle of Friedland), 426 negotiate, 1540 along; 927 pire from context only.",
    "result": "partial"
   },
@@ -263,7 +263,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Five more 1811-1812 despatches aligned with Ford (Nos. 71, 72, 74, 75, 81; ford1812_pairs_b.tsv): JQA's own 'un-im-pa-ir-ed' in No. 83 (1477 1424 1102 1435 520) and his catchword 1102 show that No. 88's 1112 1433 are copying slips; the phrase reads 'had not been impaired'. 1185, 1508 not found; 570 = tol(d) confirmed four more times.",
    "result": "worked"
   },
@@ -272,9 +272,10 @@
    "kind": "reading",
    "what": "measure.py: 380 of 390 groups read as sense (0.974): gap88 133/133, rem88 247/257; open: 7 gutter-cut groups (needs the original), 1508, 1185, 570.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 380 tokens, 207 types, en-modern order 4: reading -1.962 per letter; random keys -2.897 (z 9.0); key annealed onto shuffled ciphertext best -1.989 (mean -2.005, z 3.5); annealer on the real text -2.002. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-modern", "file": "validation.tsv", "tokens": 380, "types": 207, "tokens_per_type": 1.84, "score": -1.962, "nulls": {"random keys": {"n": 200, "mean": -2.897, "sd": 0.104, "max": -2.647, "z": 9.0, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.005, "sd": 0.012, "max": -1.989, "z": 3.5, "p": 0.1429}}, "power": -2.002, "verdict": "pass", "notes": "claimed per-occurrence score -1.962; polyphony 0.0; 10 unread tokens left out; annealer on the real text from random keys reached -2.002"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "JQA's own code was rebuilt mainly from the State Department clerk's interlinear decodes on frames of the same NARA M35 reel (0182-0247, including the rest of No. 88 on frame 0206), supplemented by Ford's printed decipherments of other 1811-12 despatches (external) and alphabetical-slot inference.",
   "contribution": ["transcription", "key recovered"],
@@ -294,10 +295,7 @@
    "M": 28,
    "I": 18
   },
-  "verification": [
-   "contemporary decipherment",
-   "historical consistency"
-  ],
+  "verification": ["contemporary decipherment", "historical consistency", "statistical test"],
   "gaps": [
    {
     "item": "rem88 seven groups with lost digits (142x, 21x, 15xx, 11xx, 10xx, 55x, 13xx), cut by the binding gutter on the microfilm of frame 0207",

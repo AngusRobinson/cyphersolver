@@ -100,7 +100,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "Survey of all 85 leaves (three agents) locating every cipher run: f. 1r, ff. 5v-6r, 6v, 7r-22r, 9r, 44v, 46r-v, 54r-61r, 79ar, 91v, 93r.",
    "result": "worked"
   },
@@ -118,13 +118,13 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Key B: f. 6v aligned glyph by glyph (seg.py) against Wattenbach's printed invocation; 19 values; f. 91v found to be the same set in abc order.",
    "result": "worked"
   },
   {
    "date": "2026-09-18",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Set C: 11 letters fixed from the catalogue's f. 93r reading 'in dem caichen' and Wattenbach's f. 1r l. 1 'Das ist ein abc'; s and t from one word each.",
    "result": "partial"
   }

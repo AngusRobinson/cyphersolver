@@ -31,7 +31,12 @@ reader could check against the folder. Rules:
    reading used it. Check NOTES' prior-work section and the README row.
 6. **Solution steps in order, failures included.** One step per distinct move: access, transcription,
    statistics, hypothesis, crib, solver, control, sibling key, key from source, prediction, reading,
-   verification, literature search. Dates where the notes or git give them.
+   verification, literature search. Dates where the notes or git give them. Steps of kind solver, hypothesis
+   and crib carry `technique`, a list from the schema (simulated annealing, hill climbing, EM alignment,
+   beam/DP decoding, SAT/constraint solving, exhaustive search, crib testing, key-structure hypothesis, frequency
+   analysis, repeat/pattern analysis, language-model scoring, key matching, plaintext matching, contextual
+   inference, statistical test, manual reconstruction, automated search (unspecified)): name what the step actually
+   ran, so the paper can say which techniques the model used (Lasry, Oct 2026).
 7. **Outcome** uses one fixed class. `fraction_read` is the share of enciphered tokens given a value; count it
    from the reading file when there is one, otherwise "unknown". `grades` counts H/C/M/I readings only when the
    reading marks them. Set `fraction_read_method` ("measured" or "estimated") and `fraction_read_source` (file and
@@ -43,6 +48,13 @@ reader could check against the folder. Rules:
    its blocker (`no-key-material`, `too-short`, `illegible`, `needs-physical-access`, `open-codes`), copied from
    the `## Remaining gaps` section of NOTES.md (writeup skill, section 0a). The write-up checker rejects a partial
    outcome without them.
+
+8. **Statistical validation.** A reading whose key the project recovered (`outcome.method` "key recovered ...")
+   is checked against chance and overfitting: write `validation.tsv` (cipher token TAB reading, one per line;
+   format in `docs/_validate.py`), then `python docs/_validate.py <folder> --write`. It records
+   `outcome.validation`, a verification step, and "statistical test" in `outcome.verification` on a pass. Where the
+   test cannot run (transposition, no token alignment, non-alphabetic plaintext) record why with
+   `--na "reason"`. Never edit the reading to make it pass; a weak or fail verdict is a finding.
 
 Keep `system.summary` to one sentence. Put prose in the `notes` fields, and keep those short: NOTES.md stays
 the narrative.

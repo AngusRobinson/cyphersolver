@@ -222,19 +222,19 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment", "plaintext matching", "statistical test"],
    "what": "Aligned the six R9898 marginal decipherments: v em = cierto, li = mi, le = me, net = halla (not toma), lec = -mos, yol = aqui, sud = datario, Jac = obliga-, cap = tem-, nuh = grande.",
    "result": "worked"
   },
   {
    "date": "2026-10-02",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "Used CSP 636's English abstract as a topic crib for R9873: fed = rey de Francia (the pension; 'send a person under honest colour'), xir = cardenal, lot = nuncio, pof = exercito; values taken only where a second Spanish context agreed.",
    "result": "partial"
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Cross-letter context: ruc/rus = dicho (pair of rad = dicha; 'el dicho datario', 'los dichos quatro mill ducados'), cuq = tengo, tig = contra, kuc = liga, yod/quf = amigo/enemigo, and the name Micer Agostino Foyeta; hay = aunque (tentative).",
    "result": "partial"
   },
@@ -258,7 +258,7 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Pass 17: pooled the open groups of R9873, R9898 and R9660 into one concordance (84 groups in two or more letters) and took values that read in every occurrence (cas tiene, var agora, rac dize, pam/Jir paga, xoc socorr-, leg mucho, sur/luc parte, len/lon buen-, 3ar aca, yer Florencia, gig quisie-, nuf gente and ~15 single-context ones); all tentative.",
    "result": "partial"
   },
@@ -285,9 +285,10 @@
    "kind": "reading",
    "what": "Re-measured: R9873 92.8% (strict 87.8%), R9898 79.8% (strict 77.9%); the 95% target was not reached.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 3617 tokens, 206 types, es-golden-age order 4: reading -2.169 per letter; random keys -3.449 (z 6.3); key annealed onto shuffled ciphertext best -2.421 (mean -2.434, z 34.3); annealer on the real text -2.167. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "es-golden-age", "file": "validation.tsv", "tokens": 3617, "types": 206, "tokens_per_type": 17.56, "score": -2.169, "nulls": {"random keys": {"n": 200, "mean": -3.449, "sd": 0.203, "max": -2.946, "z": 6.3, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.434, "sd": 0.008, "max": -2.421, "z": 34.3, "p": 0.1429}}, "power": -2.167, "verdict": "pass", "notes": "claimed per-occurrence score -2.119; polyphony 0.053; 1936 unread tokens left out; annealer on the real text from random keys reached -2.167"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The code values were rebuilt by aligning deciphered sibling letters in the same RAH Salazar A-31 volume (ff. 138/140, 170-172, 322-324, R9893 f. 483/485) and other Sessa letters of 1523-25 with their contemporary clears; the rebuilt key was then applied to ff. 128-131.",
   "contribution": [
@@ -305,9 +306,7 @@
    "tokens_open": 2
   },
   "grades": "unknown",
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency", "statistical test"],
   "notes": "Residue of f. 128 after pass 16: vo, per, the clause 'los m-re que r-ido'; hay = aunque tentative. R9873 (14 Apr 1524) and R9898 (24 Feb 1525) transcribed and read in part in the same key (pass 16); R9898's marginal decipherments (missed in pass 12) supplied about 15 values. Pass 17 (3 Oct): pooled open groups across R9873/R9898/R9660; R9873 92.8% (strict 87.8%), R9898 79.8% (strict 77.9%); 95% not reached.",
   "gaps": [
    {

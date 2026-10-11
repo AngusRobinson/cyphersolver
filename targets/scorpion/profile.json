@@ -117,13 +117,13 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "Repeat distances: S5 period 16; S1 weak period 5.",
    "result": "worked"
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Unicity: key information exceeds text redundancy for both (ratios 1.11, 1.18).",
    "result": "worked"
   },

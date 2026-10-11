@@ -92,19 +92,19 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Symbol counts; o only after n, 'non' twice, digits 4 and 5 absent.",
    "result": "worked"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Simple-substitution annealing in ten languages under six reading conventions, both transcriptions.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Dotted strokes as word separators, scored with a spaced model.",
    "result": "failed"
   },
@@ -116,7 +116,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["repeat/pattern analysis", "language-model scoring"],
    "what": "300-restart reruns on the strongest languages; ceiling -2.8 per letter, no better.",
    "result": "ruled out"
   }

@@ -91,7 +91,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Identified pages as Walsingham's letter-book: Leicester, Burghley 7 Nov, Walsingham to Smith and to Burghley 27 Nov 1572.",
    "result": "worked",
    "date": "2026-09-22"
@@ -115,13 +115,13 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Codes [7], [9], H and the nine-sign letter run: no consistent value.",
    "result": "failed",
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Inventoried boxed codes in Digges 1571-73; 'Glasco [9]'/'Glasco [g]' show a box after a word marks a cover-name, so [9]/[7] after Florence, Rome, Glasgow are markers.",
    "result": "partial",
    "date": "2026-09-22"

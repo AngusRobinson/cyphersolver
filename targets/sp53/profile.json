@@ -142,19 +142,19 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["statistical test"],
    "what": "Alphabetical-block letter cipher in English, French, Latin; controls solved.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "statistical test"],
    "what": "Unstructured homophonic annealing; matched controls not solved.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Numbers are glyph labels; nos. 78 and 79 share one key, pooled to 1151 tokens.",
    "result": "partial"
   },
@@ -172,7 +172,7 @@
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["automated search (unspecified)"],
    "what": "No. 78 and no. 79 under the new pipeline in five languages; pooling scores worse, same-key claim withdrawn.",
    "result": "failed"
   },

@@ -108,13 +108,13 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "IC 0.075 in both sections (language-like), but the zodiac table and the recipe lists have different letter profiles (q 17% vs <2%, h 3% vs 10%); Sukhotin puts q as the main vowel in one and r in the other.",
    "result": "partial"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "One-to-one monoalphabetic annealing against Italian and Latin, with and without word division, q/g split and merged, sections together and apart: best -4.0 per char (gibberish).",
    "result": "ruled out"
   },
@@ -126,19 +126,19 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Homophonic (many-to-one) annealing; Caesar and Trithemius progressive shifts per entry over five alphabets; Vigenere periods 2-7 restarting or running; reversed words; alternate-letter nulls.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["simulated annealing", "repeat/pattern analysis"],
    "what": "Alberti cipher disk (lowercase ring with k, y, h, &; capitals R and V inside the runs as index letters): Alberti's published ring per segment, then an unknown ring with 19 per-segment offsets annealed jointly.",
    "result": "failed"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["repeat/pattern analysis", "contextual inference"],
    "what": "Word-pattern solver over ~170 Italian substance, number and weight words: no consistent key; Virgo 'pqyqpqsqst' and the 'qrqr'/'lrqrlr' shapes fit no substance name.",
    "result": "failed"
   },

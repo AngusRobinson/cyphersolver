@@ -301,7 +301,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Add MS 18982 ff. 51-52 (R8433, 'Bristoll', non-decrypted) identified as Arthur Trevor to Rupert, Bristol 8 April 1645, with ~60 cipher groups of the same shape as Maurice's (letters <100, words 100+): a possible same-family key, not yet broken.",
    "result": "partial"
   },
@@ -319,7 +319,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "crib",
+   "kind": "crib", "technique": ["simulated annealing", "crib testing", "repeat/pattern analysis"],
    "what": "Homophonic annealing (en-1640s) on R8433's letter runs with 'chester'/'bristol' fixed on the 7-letter run and with no crib; box letter tables applied.",
    "result": "failed"
   },

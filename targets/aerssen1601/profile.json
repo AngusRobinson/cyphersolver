@@ -170,9 +170,10 @@
       "kind": "verification",
       "what": "Supplied corrections distinguish qF=po from qT=qui and correct target to plain 42; list A supplies two qF attestations and a third 42. Codex recount: 59/61 once, 58/61 twice; no longer a clean holdout.",
       "result": "worked"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 68 tokens, 39 types, fr-1600-letters order 4: reading -1.884 per letter; random keys -3.084 (z 6.0); key annealed onto shuffled ciphertext best -1.822 (mean -1.894, z 0.2); annealer on the real text -1.72. Verdict: underdetermined.", "result": "partial"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1600-letters", "file": "validation.tsv", "tokens": 68, "types": 39, "tokens_per_type": 1.74, "score": -1.884, "nulls": {"random keys": {"n": 200, "mean": -3.084, "sd": 0.199, "max": -2.609, "z": 6.0, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -1.894, "sd": 0.063, "max": -1.822, "z": 0.2, "p": 0.5714}}, "power": -1.72, "verdict": "underdetermined", "notes": "claimed per-occurrence score -1.884; polyphony 0.0; 4 unread tokens left out; annealer on the real text from random keys reached -1.72"}, 
     "class": "read in part",
     "key": "partial",
     "method": "key recovered based on adjacent plaintext",
@@ -197,10 +198,7 @@
       "M": 2,
       "I": 3
     },
-    "verification": [
-      "contemporary decipherment",
-      "historical consistency"
-    ],
+    "verification": ["contemporary decipherment", "historical consistency"],
     "gaps": [
       {
         "item": "25 May code 47'",

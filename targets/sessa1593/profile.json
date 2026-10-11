@@ -217,7 +217,7 @@
   },
   {
    "date": "2026-09-19",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis", "key matching"],
    "what": "No. 68's figures run far higher and the leaf carries three-letter word groups, so it is the Feria-Mansfeld cipher, as Tomokiyo's citation of f. 145 says, not the cipher of the other three.",
    "result": "worked"
   },
@@ -313,13 +313,13 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "hill climbing"],
    "result": "failed",
    "what": "Unconstrained hill-climb of all numbers (anneal68.py) collapsed onto que (score -1.59, nonsense); rejected."
   },
   {
    "date": "2026-10-05",
-   "kind": "solver",
+   "kind": "solver", "technique": ["crib testing", "repeat/pattern analysis", "language-model scoring", "contextual inference"],
    "result": "partial",
    "what": "Constrained fill of the numbers missing from keyM (fill68.py): 57 = li accepted (top candidate, gain far above median; peligro, aliento). 64 (ha by context) not separated from na by the LM, left unread; 31, 77, 81, 95 and the 200/800 T groups undetermined. Cribs Feria, Mansfeld, Liga fit no syllable run; Paris and Su Magestad are in clear."
   },

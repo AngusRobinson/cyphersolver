@@ -424,7 +424,7 @@
   },
   {
    "date": "2026-09-19",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Aligned the first R9844 cipher lines with the clear: code groups sub, yed, xab, xin, xud, si, tef, zeb and a dozen letter values.",
    "result": "partial"
   },
@@ -454,19 +454,19 @@
   },
   {
    "date": "2026-09-19",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Sign counts showed ~25 signs, word division kept, lone 'f' 10x (=y), c followed by T 43x (a c+T ligature).",
    "result": "worked"
   },
   {
    "date": "2026-09-19",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Simulated-annealing substitution solver with a 4-gram model of Danvila's 1520-21 Castilian documents; 'f'=y fixed; found the key-A alphabet (liga general, cinco mil infantes, exercito) from random starts; c+T merged as d.",
    "result": "worked"
   },
   {
    "date": "2026-09-19",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["statistical test"],
    "what": "Hand refinement: alpha=o, q=o (lone q = que), 9/p=a, z=e, e/n=s, c=n, 2=l, code leh=en.",
    "result": "worked"
   },
@@ -520,7 +520,7 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "language-model scoring", "contextual inference", "statistical test"],
    "result": "worked",
    "what": "Wrote measure/measure.py: the unit is one cipher sign or one code group. Key-A letters are aligned line by line (difflib) between the mechanical key-A decrypt of keyA_june.txt / keyA_r9492_v2.txt (measure/deca.py) and hand readings (measure/r_june.txt, r_july.txt); key-B letters are hand-aligned word by word with their units (measure/kb_*.txt). A unit counts as read only if every word it carries is unbracketed and passes a sense test: in a Castilian lexicon (Quijote, Vasto memorias, Danvila 1520-21; c/z, u/b, f/h variants and enclitics allowed), a proper name, or a 6+ letter word the es-golden-age LM scores >= -1.9/char (gibberish of the same letters scores -4 to -7). Context-only code values are bracketed and count unread. Per-letter LM of the read text is -1.3 to -1.8/char against shuffled controls of -5.8 to -6.0."
   },
@@ -544,7 +544,7 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "result": "worked",
    "what": "The clear text at the foot of R9491 f.441r ('se a detenido este vergantin y Lorenzo Mormino esperando los despachos de Milan') fixed 'xip c7yhr 2Fc4Qyr' = Lorenço Mormino and yif = este (it had been read 'dos')."
   },
@@ -571,9 +571,10 @@
    "kind": "verification",
    "result": "worked",
    "what": "Measured (measure/measure.py): June (key A) 809/813 = 99.5%; July body (key A) 1127/1150 = 98.0%; July post data (key B) 271/274 = 98.9%; 20 July to Gattinara 476/529 = 90.0%; 26 July (R9494-96) 328/357 = 91.9%; 13 Aug 401/410 = 97.8%; overall 3,412/3,533 units = 96.6%. 210 key-A units read through homophone/polyphone variants the mechanical table does not hold (P = a/g, 7 = i/b, cT = d/nt) count read because the word is forced."
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1804 tokens, 39 types, es-golden-age order 4: reading -2.005 per letter; random keys -5.453 (z 9.0); key annealed onto shuffled ciphertext best -3.459 (mean -3.472, z 137.0); annealer on the real text -1.999. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "es-golden-age", "file": "validation.tsv", "tokens": 1804, "types": 39, "tokens_per_type": 46.26, "score": -2.005, "nulls": {"random keys": {"n": 200, "mean": -5.453, "sd": 0.384, "max": -4.552, "z": 9.0, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.472, "sd": 0.011, "max": -3.459, "z": 137.0, "p": 0.1429}}, "power": -1.999, "verdict": "pass", "notes": "claimed per-occurrence score -1.896; polyphony 0.023; 159 unread tokens left out; annealer on the real text from random keys reached -1.999"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "Split entry (Lasry, 25 Sept 2026: classify by the primary achievement, split mixed cases). Primary: key A, which carries the June letter and the body of the July letter (R9488-R9490, R9492-R9493), was broken from the ciphertext alone by simulated annealing with a Castilian 4-gram model plus hand fixes, with no key or crib. Second part: key B (from late July: R9491, the R9492 post data, R9494-R9498) was rebuilt from an external plaintext, the court's decipherment of Soria's 30 Dec 1523 letter R9844 (Salazar 9/30).",
   "contribution": [
@@ -584,10 +585,7 @@
   "class": "read",
   "fraction_read": 0.966,
   "grades": "unknown",
-  "verification": [
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["key confirms", "historical consistency", "statistical test"],
   "notes": "Read under the 95% rule (5 Oct 2026, measured 96.6%). The two short key-B letters of 20 and 26 July stay at 90-92%: their open groups are single-occurrence key-B codes (taf, tu, zib, sib, tac, xif, tad, te, per, tep, zu, tol ...) with no attestation in the R9844 crib, the duplicates or print. Key-A codes rip (4x), pur (3x), qed (2x), dus (2x), cop (1x) unread: context suggests Venetians, V. Magestad, Swiss, but there is no second source.",
   "gaps": [
    {

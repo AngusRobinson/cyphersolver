@@ -115,13 +115,13 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "Cribs from the clear context: 'la protection', 'vostre', signature b-a-r-o-? (Baron).",
    "result": "worked"
   },
   {
    "date": "2026-09-18",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring", "contextual inference"],
    "what": "Annealed unread glyphs in their clear-text context under a French 6-gram LM (solve.py); groups too short, only the signature 'baron' stabilises.",
    "result": "partial"
   },
@@ -169,7 +169,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["key matching"],
    "what": "Constrained word search over C, I and V2 with the extended key (fr-gutenberg lexicon, up to 2 broken values).",
    "result": "partial"
   },
@@ -193,7 +193,7 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "solver",
+   "kind": "solver", "technique": ["exhaustive search", "repeat/pattern analysis", "contextual inference"],
    "what": "Lexicon search for patterns ??egre, ???gre, vo?pa??s, ?o?a??s; nothing fits both the values and the context.",
    "result": "ruled out"
   }

@@ -106,7 +106,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis", "plaintext matching"],
    "what": "First try: the gloss 'villequier' covers only the six line-end signs; did not fit ten letters.",
    "result": "failed",
    "date": "2026-09-21"

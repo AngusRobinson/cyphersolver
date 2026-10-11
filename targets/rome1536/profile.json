@@ -318,7 +318,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key matching", "contextual inference"],
    "what": "Identified the catalogue's 'unknown sender' as the cardinal de Mâcon from Tomokiyo's description of the volume and from the clear signatures on R4239, R4240 and R4247",
    "result": "worked"
   },
@@ -360,7 +360,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Found that the f. 85 cipher (R4248) is not Mâcon's but a second fr. 3053 cipher, deciphered in clear at the time on f. 86, and read the passage from that",
    "result": "worked"
   },
@@ -402,7 +402,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["beam/DP decoding", "language-model scoring"],
    "what": "Segmented and clustered 1,262 glyphs by shape: the readers' single alias for the barred crosses is four or five distinct key signs (O, U/V, P, F, M); LM lattice decoding over old aliases cut CER 14.4% -> 9.2% on ground-truth lines",
    "result": "worked"
   },
@@ -414,7 +414,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Dupuy 44 companion letter transcribed as a content crib; confirmed 'Vitelle' at the end of R4235 passage D; its proposed 'que luy a fait faire' rejected by the signs",
    "result": "partial"
   },

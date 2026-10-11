@@ -63,13 +63,13 @@
   {"date": "2026-09-21", "kind": "literature search", "what": "Tomokiyo's Venetian cipher page: Busta 30 records R1870/R1872/R1873 covered, R1874 not.", "result": "failed"},
   {"date": "2026-09-21", "kind": "access", "what": "Fetched the 16 images and DECODE transcription with the stored cookie.", "result": "worked"},
   {"date": "2026-09-21", "kind": "transcription", "what": "Re-grouped DECODE's digit transcription; read 'b' as 6 and DECODE's 13/21 as the period 5 (checked against sibling R1862).", "result": "worked"},
-  {"date": "2026-09-21", "kind": "solver", "what": "Letter-level homophonic annealing, it-cinquecento 5-gram, 4+4 restarts.", "result": "failed"},
+  {"date": "2026-09-21", "kind": "solver", "technique": ["simulated annealing", "language-model scoring"], "what": "Letter-level homophonic annealing, it-cinquecento 5-gram, 4+4 restarts.", "result": "failed"},
   {"date": "2026-09-21", "kind": "control", "what": "Same solver on a synthetic Italian homophonic cipher of equal size: solved exactly.", "result": "worked"},
-  {"date": "2026-09-21", "kind": "hypothesis", "what": "Prefix classes as nulls; last two digits as the letter.", "result": "failed"},
+  {"date": "2026-09-21", "kind": "hypothesis", "technique": ["key-structure hypothesis"], "what": "Prefix classes as nulls; last two digits as the letter.", "result": "failed"},
   {"date": "2026-09-21", "kind": "literature search", "what": "Dated the letter from clear text (La Rochelle, Piet Heyn, Spinola in Madrid); matched CSP Venice 21 no. 515, Mocenigo, Madrid 26 Oct 1628.", "result": "worked"},
   {"date": "2026-09-21", "kind": "reading", "what": "Identified images 8955-8959 as the contemporary decipherment (paragraph numbers 6-9; Cottington passage of CSP 515 on 8958).", "result": "worked"},
   {"date": "2026-09-21", "kind": "verification", "what": "Paragraph marks 6499 split the cipher into paragraphs 6/7 at ~2 letters per group; 'conte di Olivares' group run at 26/71/92% vs 25/70/91% of the plaintext.", "result": "worked"},
-  {"date": "2026-09-21", "kind": "solver", "what": "Hard-EM alignment of cipher groups to the decipherment, with Olivares anchors, to rebuild the key.", "result": "failed"}
+  {"date": "2026-09-21", "kind": "solver", "technique": ["EM alignment", "plaintext matching"], "what": "Hard-EM alignment of cipher groups to the decipherment, with Olivares anchors, to rebuild the key.", "result": "failed"}
  ],
  "outcome": {
   "method": "read from existing decipherment",

@@ -115,19 +115,19 @@
  "solution": [
   {
    "date": "2026-09-15",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "AATHUT +11 = LLESFE from ALLES FERTIG: map carries German shifted -11 in Morse; predicted mark sequences for candidate wordings.",
    "result": "worked"
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "Unrolled four tram bands and measured run lengths: ordinary tram-line fill, not Morse.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "'French shorthand' points to Duployé, supporting the 2020 Arras reading over the Stolze-Schrey one.",
    "result": "partial"
   },

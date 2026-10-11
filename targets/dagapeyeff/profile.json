@@ -87,7 +87,7 @@
  "solution": [
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Confirmed the 5x5 Polybius pair structure; 18 of 25 cells used.",
    "result": "worked"
   },
@@ -99,31 +99,31 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "statistical test"],
    "what": "Best-case chi-squared 34.1 vs English 95th percentile 13.0; 0 of 3000 English samples as bad.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing", "repeat/pattern analysis", "statistical test"],
    "what": "Columnar transposition hill-climb on digram repeats, 4-28 columns, against shuffled controls.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["exhaustive search"],
    "what": "Book's null rule swept at every period and offset.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "statistical test"],
    "what": "Non-bijective (homophonic/polyphonic) annealing; degenerates, no better than shuffles.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis", "language-model scoring"],
    "what": "Other plaintext languages, periodicity (IC by period), n-gram repetition.",
    "result": "ruled out"
   }

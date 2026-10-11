@@ -162,13 +162,13 @@
     },
     {
       "date": "2026-09-18",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing", "EM alignment", "repeat/pattern analysis", "plaintext matching"],
       "what": "Read the three unglossed long runs sign by sign with glosses as seeds and key for alignment: MADONNA [È] PURE FEMINA E SOSPETOSA (fixed by two O signs five apart), PARENTI [E] CITADINI, ACOMANDINO A LUI.",
       "result": "worked"
     },
     {
       "date": "2026-09-18",
-      "kind": "solver",
+      "kind": "solver", "technique": ["repeat/pattern analysis"],
       "what": "Subagent harvest of sibling runs to test the new sign values; cut off twice by usage limits.",
       "result": "failed"
     },
@@ -216,13 +216,13 @@
     },
     {
       "date": "2026-09-24",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing", "plaintext matching"],
       "what": "Aligned gloss letters to signs (LA NOVELLA, ANDARONO, TANTE E TALI, NON CONTENTERA MAI, VENUTA A IMOLA, MODIGLANA x2, D'ORIUOLO, PROMETTERE, FILIPPO, MANDATO, SALVO[CON]DOTTO, VENNE): 9 = N, +o = O, ⊀ = T, ɤ = A, ʃ = M, ʒπ = O fixed by glosses; 14 more values probable; ▼ a null.",
       "result": "worked"
     },
     {
       "date": "2026-09-24",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing", "frequency analysis", "repeat/pattern analysis", "plaintext matching"],
       "what": "Tried to align eleven further glossed runs (21-1, 21-14, 21-28, 91-1b, 91-3, 91-6, 91-7, 92-2/3, 92-4 start, 92-5, 92-6): glosses faint, partly blotted or not matching sign counts.",
       "result": "failed"
     },

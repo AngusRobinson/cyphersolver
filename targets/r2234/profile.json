@@ -103,13 +103,13 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Whole section D under alphabet D: line 1 reads ('depuis le 12 juillet'), line 2 does not.",
    "result": "failed",
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "All five alphabets on lines 2-5: G, L, N, R read in turn; one alphabet per line, cycling from the section capital.",
    "result": "worked",
    "date": "2026-09-21"
@@ -119,17 +119,16 @@
    "what": "Whole letter decrypted and corrected for transcription slips into reading.txt.",
    "result": "worked",
    "date": "2026-09-21"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1207 tokens, 113 types, fr-modern order 4: reading -2.599 per letter; random keys -7.231 (z 12.1); key annealed onto shuffled ciphertext best -3.604 (mean -3.675, z 28.7); annealer on the real text -3.113. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-modern", "file": "validation.tsv", "tokens": 1207, "types": 113, "tokens_per_type": 10.68, "score": -2.599, "nulls": {"random keys": {"n": 200, "mean": -7.231, "sd": 0.384, "max": -6.385, "z": 12.1, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.675, "sd": 0.037, "max": -3.604, "z": 28.7, "p": 0.1429}}, "power": -3.113, "verdict": "pass", "notes": "claimed per-occurrence score -2.08; polyphony 0.082; 107 unread tokens left out; annealer on the real text from random keys reached -3.113"}, 
   "method": "read with known key",
   "method_basis": "The key sheet R2235 (five alphabets) is filed in the same KHA inventory number and the DECODE record note points to it; the project found the one-alphabet-per-line cycling rule and decrypted the whole letter.",
   "contribution": ["transcription"],
   "class": "read",
   "fraction_read": 1.0,
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency", "statistical test"],
   "notes": "Every cipher letter has a value; a few words stay unresolved because of transcription slips, signature not read."
  }
 }

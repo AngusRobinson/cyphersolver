@@ -90,13 +90,13 @@
  "solution": [
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["statistical test"],
    "what": "Permutation test of line-length differences: the line pairing is structural (no random re-pairing in 100,000 comes as close).",
    "result": "worked"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "repeat/pattern analysis"],
    "what": "Positional rule: consonant-initial words begin in the 8 May half, vowel-initial mostly in the 20 May half.",
    "result": "worked"
   },
@@ -108,7 +108,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["contextual inference"],
    "what": "Open-vocabulary search over 30,000 words, with and without names; new exact readings for lines 18, 21, 14.",
    "result": "partial"
   },
@@ -120,7 +120,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["statistical test"],
    "what": "Latin vocabulary search on line 29 (control: line 17 returns QUI FIT first).",
    "result": "failed"
   },
@@ -132,7 +132,7 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring", "statistical test"],
    "what": "Phrase-level search (beam.py): letter-by-letter plaintext under the lang en-modern 5-gram, vocabulary-constrained, on lines 5, 6, 9, 12, 14, 19, 21, 23, 26, 29. Controls (7, 18, 3) come out on top; every open line gives junk.",
    "result": "failed"
   },

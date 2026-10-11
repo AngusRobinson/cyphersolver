@@ -212,19 +212,19 @@
   },
   {
    "date": "2026-09-19",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Blind frequency analysis of the transcription: 94% of groups in a contiguous band 1-22, commonest value 14.5%, sparse values above the band - a simple substitution with a small nomenclator, not the assumed homophonic system.",
    "result": "worked"
   },
   {
    "date": "2026-09-19",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "crib testing", "statistical test"],
    "what": "Blind known-plaintext alignment of the transcription against the Brienne clear text placed 12 groups against a shuffled-cipher control of mean 8.2 and p95 11 - at the noise floor, because the transcription mis-split 9 7 as 97 and homophony was wrongly assumed.",
    "result": "failed"
   },
   {
    "date": "2026-09-19",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "The old Harlay piece numbers on each leaf (224, 226, 247, 251) matched to Berger de Xivrey's citations, which give a clear copy in fonds Brienne 13 = NAF 6984 for each; the four copies located on the images by heading and preamble.",
    "result": "worked"
   },

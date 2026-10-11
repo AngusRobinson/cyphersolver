@@ -137,7 +137,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Margin glosses 'sins', 'desracine' at f.142 passage (9) match 'il rallie les siens ... desraciner du tout l'evangile' in the Villefranche letter of 12 Jan (Forbes ii 272-274), not the 2 Jan Meur letter: R9238 = CSP vi no. 76, read at the time.",
    "result": "worked"
   },
@@ -161,7 +161,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis", "language-model scoring"],
    "what": "Homophonic annealing with the shared lang dense 5-gram models (French, English): collapsed to runs of e/s; the model over-scores unseen repeats ('eeee' -0.26/char).",
    "result": "failed"
   },
@@ -173,25 +173,25 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "anneal3.py on R9241 in French and English, with and without nulls: no language (about -9.8/char).",
    "result": "failed"
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "anneal3.py with Italian (Renaissance), Spanish (Quijote) and Latin corpora: no language.",
    "result": "failed"
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["language-model scoring"],
    "what": "Two tokens per letter: token parity within each passage is flat, so the hypothesis is not supported.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "anneal3.py SYL=1: tokens map to a letter or one of 30 French bigrams; no language.",
    "result": "failed"
   },
@@ -203,7 +203,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "anneal3.py on qm2_tokens.txt (French, English, French with nulls): no language.",
    "result": "failed"
   },

@@ -113,25 +113,25 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Aligned the contemporary plaintext solutions of same-key Bourdeaux dispatches R1944 and R1946 (1801) with their ciphertext; mark-sensitive matches give 51~ van, 279 en, 153 Paul, 222= niet, 43~ zyne, 304~ wegens, 380~ de in R2034.",
    "result": "partial"
   },
   {
    "date": "2026-09-20",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "key matching"],
    "what": "Sillem 1890 quotes 'zoo wonderlijk' from same-key R1942 (no. 12, 5 July 1803); the unique adjacent pair 907^ 934\" gives zoo and wonderlijk.",
    "result": "partial"
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment", "repeat/pattern analysis", "key matching"],
    "what": "Transcribed all 187 groups of same-key R1945 (3 Feb 1801) and set them against its 152-word contemporary solution. Only one base+mark group (222=) is shared with R2034's meaningful part. The one-to-one alignment drifts (repeated groups 273~, 733~, 916=, 977= fall on different words), so no new R2034 value can be fixed.",
    "result": "failed"
   },
   {
    "date": "2026-09-21",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Checked whether values within each marked series are alphabetical, using R1946's recovered pairs (e.g. ~ series: 297 Men, 370 Heer, 500 dat, 580 de, 733 zeer, 884 waar). They are not, so page-order/monotone-alphabet attacks do not apply.",
    "result": "ruled out"
   },
@@ -155,7 +155,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "key matching"],
    "what": "Transcribed same-key R1946 (202 groups) and R1944 (115 groups) in full and aligned them with their contemporary solutions; R1946 aligns one-to-one to word 150, confirmed by 153= Paul and 222= niet.",
    "result": "worked"
   },
@@ -167,7 +167,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Looked up every R2034 group in the four same-key transcriptions: 222- niet and 394 handen (R1946, high), 58 brengen (R1944, medium); 907^ zoo / 934\" wonderlijk kept as a conjecture from Sillem.",
    "result": "partial"
   },

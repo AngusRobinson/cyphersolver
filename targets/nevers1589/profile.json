@@ -90,7 +90,7 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Swept every Sept-Oct 1589 piece in the volume for the ciphered originals.",
    "result": "ruled out"
   }

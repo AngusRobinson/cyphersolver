@@ -120,19 +120,19 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "Free homophonic anneal under the French 5-gram: collapses to e/s text.",
    "result": "failed"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "key matching"],
    "what": "Anneal of unknown labels only with Tomokiyo values fixed: nothing readable.",
    "result": "failed"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding"],
    "what": "Polyphonic beam over conflated shapes: words appear (presence, chapitre, chanoines, archidiacre brulart, postulation, lansquenetz, parme, elbeuf).",
    "result": "partial"
   },
@@ -144,7 +144,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "beam/DP decoding", "contextual inference"],
    "what": "Word Viterbi with lexicon and bigrams plus hard-EM on value sets: content identified (Reims chapter postulation, Saint-Remi, Elbeuf ransom, Parma).",
    "result": "worked"
   },
@@ -168,7 +168,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Extra codes from the readings: ʒ+Ձ = cardinal, d with superscript t = il, ce-ligature = pour, ʒ = du/le, bb = leur; key_v2 to key_v5.",
    "result": "worked"
   },

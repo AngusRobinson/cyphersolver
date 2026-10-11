@@ -131,13 +131,13 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["crib testing", "language-model scoring", "plaintext matching"],
    "what": "One sign per letter against the printed crib: windowed consistency test, fixed-pair (two signs per letter) test, parity test.",
    "result": "failed"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "EM alignment", "crib testing", "plaintext matching"],
    "what": "EM alignment and simulated annealing (letter or null per sign type) against the 148-letter printed crib: best 63 errors; the crib was only half the plaintext.",
    "result": "failed"
   },

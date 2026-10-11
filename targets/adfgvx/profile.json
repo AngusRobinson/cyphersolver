@@ -109,13 +109,13 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing"],
    "what": "Norbert's block-edit method reimplemented; re-derives 7 solved pages blind and finds the 22-24 Nov partial.",
    "result": "worked"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing"],
    "what": "Two block edits against fifteen keys on the ten open messages; CHI key on the two page-153 messages.",
    "result": "failed"
   },

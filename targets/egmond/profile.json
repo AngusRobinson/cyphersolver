@@ -112,13 +112,13 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "solver",
+      "kind": "solver", "technique": ["automated search (unspecified)"],
       "what": "Initial probe failed because numba and targets/ducroc/frn5.npy were absent. Replaced it with NumPy and the existing 24-symbol period-French model research/gallica_sweep/mondoucet/f1573/fr5.npy. Corrected an initial model-dimension mismatch.",
       "result": "failed"
     },
     {
       "date": "2026-09-20",
-      "kind": "solver",
+      "kind": "solver", "technique": ["beam/DP decoding", "repeat/pattern analysis", "language-model scoring"],
       "what": "Many-to-one substitution collapsed to repeated letters under the conditional language model. Switched to a bijective 24-letter permutation; 12 seeds at 40000 proposals each on separate/dd/ee/both segmentation variants did not produce readable French. This does not rule out substitution because transcription and token boundaries are provisional.",
       "result": "failed"
     },
@@ -136,7 +136,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "solver",
+      "kind": "solver", "technique": ["automated search (unspecified)"],
       "what": "Reversing the provisional three-line transcription yielded no readable French under the same model. Does not exclude systems or readings under a corrected transcription.",
       "result": "failed"
     },
@@ -148,7 +148,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["key-structure hypothesis"],
       "what": "Tested separating provisional ee pairs into c-like and e-like forms. The global replacement did not yield readable French; occurrence-level checking remains necessary.",
       "result": "failed"
     },
@@ -166,7 +166,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "solver",
+      "kind": "solver", "technique": ["automated search (unspecified)"],
       "what": "German and Italian probes on the original opening, French probes on revised opening and independent address, and compound-stroke variants all lacked a coherent reading. Scores not calibrated across languages.",
       "result": "failed"
     },
@@ -184,13 +184,13 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["key-structure hypothesis"],
       "what": "Tested paired-D and paired-D/CE null hypotheses on opening and six-line draft; no sustained readable output. Shortened scores are not direct evidence for null status.",
       "result": "failed"
     },
     {
       "date": "2026-09-20",
-      "kind": "solver",
+      "kind": "solver", "technique": ["frequency analysis"],
       "what": "Tested many-to-one French substitution on six-line compound-stroke variant, penalizing divergence from average model next-letter distribution. Produced fragments but no coherent or verified reading; no plaintext accepted.",
       "result": "failed"
     },
@@ -202,7 +202,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "solver",
+      "kind": "solver", "technique": ["automated search (unspecified)"],
       "what": "Full-text compound and null variants produced sustained French fragments; prior short probes failed.",
       "result": "partial"
     },
@@ -232,7 +232,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "statistics",
+      "kind": "statistics", "technique": ["contextual inference"],
       "what": "Standard checker measures corrected body plus both insertions at 726 signs, 27 draft labels; aliases prevent treating the latter as historical alphabet size.",
       "result": "partial"
     },
@@ -259,9 +259,10 @@
       "kind": "control",
       "what": "Lasry review (email 25 Sept 2026): not a first break (Lasry 2023, key on cryptiana GL.htm), so it is dropped from the ciphertext-only list sent to Klaus Schmeh; method unchanged, marked independent re-solution on the site.",
       "result": "worked"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 774 tokens, 47 types, fr-1530-despatches order 4: reading -1.964 per letter; random keys -6.289 (z 5.8); key annealed onto shuffled ciphertext best -3.046 (mean -3.116, z 27.1); annealer on the real text -2.028. Verdict: pass.", "result": "worked"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1530-despatches", "file": "validation.tsv", "tokens": 774, "types": 47, "tokens_per_type": 16.47, "score": -1.964, "nulls": {"random keys": {"n": 200, "mean": -6.289, "sd": 0.745, "max": -4.648, "z": 5.8, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.116, "sd": 0.042, "max": -3.046, "z": 27.1, "p": 0.1429}}, "power": -2.028, "verdict": "pass", "notes": "claimed per-occurrence score -1.964; polyphony 0.0; 0 unread tokens left out; annealer on the real text from random keys reached -2.028"}, 
     "method": "key recovered from ciphertext-only",
     "method_basis": "The graphic substitution of BnF fr. 3015 no. 8 was broken from a new transcription of the Gallica images by language-model annealing with compound-stroke and null variants, then audited line by line; independent re-solution: Lasry had solved it in 2023 (cryptiana GL.htm section 2), found only afterwards.",
     "contribution": [
@@ -270,9 +271,7 @@
     ],
     "class": "read",
     "fraction_read": 1.0,
-    "verification": [
-      "none"
-    ],
+    "verification": ["statistical test"],
     "notes": "Every transcribed sign has a proposed letter or null value; this is coverage, not 100% confidence. Left-bar x and blotted date u remain M; anomalous literal spellings retained. Internal body/address consistency only, no independent key or clear copy.",
     "first_break": false
   }

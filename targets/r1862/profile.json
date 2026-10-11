@@ -122,7 +122,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "repeat/pattern analysis", "plaintext matching"],
    "what": "Soft-EM forward-backward alignment of R1874 code groups (DECODE transcription, 5-forms unmerged: '21'=51, '13'=53) to the decipherment, 5 segment pairs, 2,398 groups; first run with nulls allowed collapsed, rerun with 1-4 letters per group converged.",
    "result": "worked"
   },
@@ -158,7 +158,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing", "language-model scoring"],
    "what": "LM hill-climb over key values for weak/unknown groups.",
    "result": "failed"
   },
@@ -176,7 +176,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "The word codes are alphabetical within each prefix row's blocks (53: papa 47, part 73, per 74, piu 77, qual 84, quel 87, ques 88), which brackets every open code.",
    "result": "worked"
   },
@@ -215,9 +215,10 @@
    "what": "P1 L07-08 re-checked on the image: 5349 read as papali from its alphabetical place after 5347 papa (I); 6202 'bi' before 'instanza' read as a one-digit slip for 6222 'pi' = più (I). Key file unchanged.",
    "result": "partial",
    "date": "2026-09-30"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1268 tokens, 153 types, it-cinquecento order 4: reading -1.965 per letter; random keys -3.023 (z 12.3); key annealed onto shuffled ciphertext best -2.332 (mean -2.349, z 38.8); annealer on the real text -2.291. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 1268, "types": 153, "tokens_per_type": 8.29, "score": -1.965, "nulls": {"random keys": {"n": 200, "mean": -3.023, "sd": 0.086, "max": -2.789, "z": 12.3, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.349, "sd": 0.01, "max": -2.332, "z": 38.8, "p": 0.1429}}, "power": -2.291, "verdict": "pass", "notes": "claimed per-occurrence score -1.959; polyphony 0.005; 12 unread tokens left out; annealer on the real text from random keys reached -2.291"}, 
   "method": "key recovered based on plaintext from external sources",
   "method_basis": "The key was rebuilt here by EM alignment of a different letter, DECODE R1874 (Mocenigo, Madrid, ASVe Busta 30), with its contemporary decipherment, and then applied to R1862 (Busta 27, Rome), where about 30 word codes were added from context and alphabetical order and three values corrected.",
   "contribution": [
@@ -234,11 +235,7 @@
    "M": 0,
    "I": 0
   },
-  "verification": [
-   "key confirms",
-   "historical consistency",
-   "matched control"
-  ],
+  "verification": ["key confirms", "historical consistency", "matched control", "statistical test"],
   "notes": "Key rebuilt from the sibling R1874 by EM alignment, then extended from context and from the alphabetical order of the word band. 99.1% of the code-group tokens have a value. Share reading as sense: 0.95 measured line by line against a period Italian model with neighbour context (measure.py), 0.92 by a stricter 25-character sliding window (measure_tok.py), 0.96 by a hand audit token by token. The clerk's own one-digit encipherment slips are recorded in key_over.json _slips and read through, as his spelling slips (sivoia, germinia, voro) are.",
   "gaps": [
    {

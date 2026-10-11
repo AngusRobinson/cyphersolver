@@ -123,7 +123,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Homophonic anneal, free and constrained, 24+30 restarts: best restarts disagree; underdetermined.",
    "result": "failed"
   },

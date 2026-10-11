@@ -413,7 +413,7 @@
    "date": "2026-09-28"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "frequency analysis"],
    "what": "Homophonic annealing of f. 3 alone against de-1640s, with and without a letter-frequency penalty.",
    "result": "failed",
    "date": "2026-09-28"
@@ -425,19 +425,19 @@
    "date": "2026-09-28"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Annealing ff. 3+12+18 (1,575 groups): all four restarts converged on the same key and German text (das ich auch noch nit weiss ... garnisonen ... contributiones vom platten lande).",
    "result": "worked",
    "date": "2026-09-28"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Letter signs valued from context: N/D ch, Y/G ei, Z/O st, W/P ss, L/A tt, R/C/E/M mm, X/j/J sch, H ll, S/F au, T/B ff, Q ai; single figures are numerals.",
    "result": "worked",
    "date": "2026-09-28"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Digit table re-annealed and polished over all pages with the signs fixed: 23, 40, 75 corrected; rare groups 14, 17, 20, 33, 85 assigned.",
    "result": "worked",
    "date": "2026-09-28"
@@ -455,13 +455,13 @@
    "date": "2026-09-28"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Codes valued from context: 128 Cöln, 130 Hamburg, 188 die Staaten, 253 Regiment, 273 Compagnien (grade I).",
    "result": "partial",
    "date": "2026-09-28"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "frequency analysis", "repeat/pattern analysis"],
    "what": "f. 12 letter-cipher block: many-to-one and null-allowing annealing in German, Latin, French, Italian and Dutch; periodic IC for periods 1-15; Caesar shifts; HCPortal letter keys 2 and 105.",
    "result": "failed",
    "date": "2026-09-28"
@@ -507,9 +507,10 @@
    "kind": "literature search",
    "what": "Integrated inspected documentary findings and their limits: Geyso p.99 n.2 paraphrases an uninspected Malsburg letter of 16 November 1636 concerning Melander and authority; retention letters complicate an actual-dismissal hypothesis. Koblenz 47/4400 is a catalogue lead for cipher codes, not an inspected matching key. No values for 43, 45 or LL established.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 9506 tokens, 119 types, de-1640s order 4: reading -2.066 per letter; random keys -5.639 (z 15.0); key annealed onto shuffled ciphertext best -3.662 (mean -3.692, z 52.7); annealer on the real text -2.423. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "de-1640s", "file": "validation.tsv", "tokens": 9506, "types": 119, "tokens_per_type": 79.88, "score": -2.066, "nulls": {"random keys": {"n": 200, "mean": -5.639, "sd": 0.238, "max": -5.024, "z": 15.0, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.692, "sd": 0.031, "max": -3.662, "z": 52.7, "p": 0.1429}}, "power": -2.423, "verdict": "pass", "notes": "claimed per-occurrence score -2.073; polyphony 0.0; 230 unread tokens left out; annealer on the real text from random keys reached -2.423"}, 
   "class": "read in part",
   "key": "partial",
   "method": "key recovered from ciphertext-only",
@@ -544,10 +545,7 @@
    "total": 45,
    "tokens_open": 193
   },
-  "verification": [
-   "matched control",
-   "historical consistency"
-  ],
+  "verification": ["matched control", "historical consistency", "statistical test"],
   "gaps": [
    {
     "item": "about 40 numerical three-digit codes and name signs (193 tokens)",

@@ -269,19 +269,19 @@
    "date": "2026-10-09"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis"],
    "what": "Free many-to-one homophonic annealing (de-1740s, order 5, unigram prior) on the 642 run tokens then available.",
    "result": "failed",
    "date": "2026-10-09"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "Run endings 19 43, 21 45, 20 44, 19 55 and the clustering of frequent numbers suggest homophones on consecutive numbers in alphabetical order.",
    "result": "worked",
    "date": "2026-10-09"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis"],
    "what": "Annealing only the 23 block boundaries of an alphabetical key over 1-84 (monotone.py): best restart gives blocks of three from a=7-9; 'der Baron Kleinburg alhier', 'correspondenz', 'seiner proposition'.",
    "result": "worked",
    "date": "2026-10-09"
@@ -305,7 +305,7 @@
    "date": "2026-10-09"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching", "contextual inference"],
    "what": "Code values from context: 189 = Baron Schenck, 190 = King of Sweden, 150 = King Augustus, 100 = the Imperial court; 208 = 'der Kayser' from the recipient's gloss. The other 72 codes left open.",
    "result": "partial",
    "date": "2026-10-09"
@@ -329,25 +329,25 @@
    "date": "2026-10-09"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching", "contextual inference"],
    "what": "The recipient's gloss in R7493 re-read: 'der' over the sign o. and 'von Kayser' over '5 83': o. = der, 5 = von, 83 = der Kayser; the earlier 208 = der Kayser withdrawn.",
    "result": "worked",
    "date": "2026-10-09"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "190 = Charles XII withdrawn (the King of Sweden is named in clear in the same letter; 190 is an imperial minister); 204 = Schweden from 'zu timide wegen 204' and 'jalousie'.",
    "result": "partial",
    "date": "2026-10-09"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "repeat/pattern analysis"],
    "what": "Alphabetical order of the nomenclator: the 500s rise with the alphabet (509 Friede < 513 Ordre < 515 Progressen < 519 Reise < 524 Urlaub), bounding 502 Abreise, 518 Recommendation, 521 Resolution; the 100s-200s are not one alphabetical run (204 Schweden breaks it), so no person was valued from position.",
    "result": "partial",
    "date": "2026-10-09"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching", "contextual inference"],
    "what": "Dotted signs as a word code: o. = der (gloss), L. = und, f. = bey, b. = von dem; d., e., g., c., m., p., oo, ooo, oj, 3., 2. left open (no single value fits their contexts).",
    "result": "partial",
    "date": "2026-10-09"
@@ -371,7 +371,7 @@
    "date": "2026-10-09"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "language-model scoring", "plaintext matching"],
    "what": "R7484 pass 3: code 76 = ferman from two glosses, the f band and R7476; 'stambulscy'; LM scoring and the embassy literature (Perłakowski 2020) gave nothing for the rest: 96.5%.",
    "result": "partial",
    "date": "2026-10-09"
@@ -389,13 +389,14 @@
    "date": "2026-10-09"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "R7476 pass 7: candidate words (Ottoman/Tatar offices, Latin, Swedish and Polish names, old Polish spellings) aligned to the code bands with at most one slip per word and scored with lang/ pl-modern: 7 tokens accepted ('od Porty', 'renuebat', 'rzeczy(?)'), the rest rejected as needing letters the code does not give: 94.9% (1,538 of 1,621), 2 tokens short of 95%.",
    "result": "partial",
    "date": "2026-10-09"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 630 tokens, 60 types, de-1740s order 4: reading -2.341 per letter; random keys -6.259 (z 11.0); key annealed onto shuffled ciphertext best -3.448 (mean -3.544, z 17.9); annealer on the real text -2.502. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "de-1740s", "file": "validation.tsv", "tokens": 630, "types": 60, "tokens_per_type": 10.5, "score": -2.341, "nulls": {"random keys": {"n": 200, "mean": -6.259, "sd": 0.356, "max": -5.127, "z": 11.0, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.544, "sd": 0.067, "max": -3.448, "z": 17.9, "p": 0.1429}}, "power": -2.502, "verdict": "pass", "notes": "claimed per-occurrence score -2.333; polyphony 0.003; 52 unread tokens left out; annealer on the real text from random keys reached -2.502"}, 
   "class": "read in part",
   "key": "partial",
   "method": "key recovered from ciphertext-only",
@@ -421,11 +422,7 @@
    "C": 46,
    "I": 27
   },
-  "verification": [
-   "contemporary decipherment",
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["contemporary decipherment", "key confirms", "historical consistency", "statistical test"],
   "parts": [
    {
     "label": "Vienna to Baron Schenck, 1706",

@@ -203,13 +203,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "R4306 IoC 0.078 (monoalphabetic); '34 42' x31.",
    "result": "partial"
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis", "language-model scoring"],
    "what": "Simple-substitution and homophonic annealing of R4306 over quadgram models in nl, de, la, fr, sv, en, it, es, pt, da; first runs collapsed to e/n strings until a search bug (free changes propagating by swaps) and a backoff-model artefact were fixed.",
    "result": "failed"
   },
@@ -221,7 +221,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Homophonic Latin annealing of R4284 (8 x 250k), also over 4-number bands.",
    "result": "failed"
   },
@@ -263,12 +263,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Homophonic and substitution Latin annealing of R4282, with and without the written word divisions.",
    "result": "failed"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 914 tokens, 89 types, de-1640s order 4: reading -2.421 per letter; random keys -6.338 (z 15.2); key annealed onto shuffled ciphertext best -3.647 (mean -3.707, z 28.5); annealer on the real text -3.232. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "de-1640s", "file": "validation.tsv", "tokens": 914, "types": 89, "tokens_per_type": 10.27, "score": -2.421, "nulls": {"random keys": {"n": 200, "mean": -6.338, "sd": 0.258, "max": -5.571, "z": 15.2, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.707, "sd": 0.045, "max": -3.647, "z": 28.5, "p": 0.1429}}, "power": -3.232, "verdict": "pass", "notes": "claimed per-occurrence score -2.404; polyphony 0.004; 23 unread tokens left out; annealer on the real text from random keys reached -3.232"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The Bremen 1631 band key (R4330-R4331) was rebuilt by aligning the contemporary interlinear glosses (about 80% of groups) with their numbers, then completed from unglossed words and the six-column grid pattern.",
   "contribution": ["transcription", "key recovered", "sender or date identified", "catalogue correction"],
@@ -278,10 +279,7 @@
   "fraction_read_source": "_check_profile --measure on the four transcribed documents: bremen_transcription.txt (GLOSS lines removed, --digits) 955 figures, all given a value in bremen_decoded.txt (residue = transcription slips); r4306_v2.txt 465, r4284_transcription.txt 822, r4282_transcription.txt ~1000 signs (letters, [..] clear Latin excluded), all unread; 955/~3240. Rusdorff and E 708 records not in documents[] and not counted",
   "key": "partial",
   "grades": "unknown",
-  "verification": [
-   "contemporary decipherment",
-   "key confirms"
-  ],
+  "verification": ["contemporary decipherment", "key confirms", "statistical test"],
   "notes": "Bremen 1631 (2 of the 14 records) read in full; R4282, R4284, R4306 attempted and open; Rusdorff 1628 (5) and E 708 June 1633 (4, glossed at the time) not worked. fraction_read 0.3 is measured over the four documents' transcriptions (Bremen 955 figures read of ~3240 cipher tokens); key partial = Bremen band key recovered, none for R4282/R4284/R4306.",
   "gaps": [
    {

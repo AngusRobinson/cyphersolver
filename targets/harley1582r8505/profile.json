@@ -112,7 +112,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Identified the document from its clear text: the French memoir 'L'Estat du Roy de Navarre & de son party en France', written after 1580, on Navarre's standing, places, gentlemen and alliances. DECODE had no title, no date, no author and gave the language as English.",
    "result": "worked"
   },
@@ -130,13 +130,13 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "IC 0.0398 over 3,630 tokens and Sukhotin's vowel test: consistent with a homophonic alphabet of about 50 signs, not with a syllabary (the commonest sign carries 8.7% of the text).",
    "result": "worked"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "frequency analysis", "language-model scoring"],
    "what": "Homophonic annealing with a 1530-1600 French LM (order 4/5, no spaces) and a unigram-frequency penalty, up to 20 restarts x 400k moves, whole text and page by page.",
    "result": "failed"
   },
@@ -148,7 +148,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "beam/DP decoding"],
    "what": "The corrected annealer on the real text produced French immediately; basin hopping and a word-segmentation objective recovered the whole alphabet.",
    "result": "worked"
   },
@@ -187,9 +187,10 @@
    "kind": "reading",
    "what": "f. 263v lines 3.18-3.24 re-read on the image and re-decoded sign by sign with key.json to give one continuous run with its clear context (Italian engineer at Lisbon, whose letters came into the writer's hands; the Lorraine marriage 'pour le rejoindre avec [c]este maison ennemie de la chrestienté e[t] particulierement de l'estat d'Angleterre', 'ceu[s] de Guise en Escosse'); one transcription sign corrected (3.23 b -> T), clear words re-read; key unchanged.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 3551 tokens, 57 types, fr-1600-letters order 4: reading -2.265 per letter; random keys -4.815 (z 7.4); key annealed onto shuffled ciphertext best -3.082 (mean -3.101, z 59.1); annealer on the real text -2.352. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1600-letters", "file": "validation.tsv", "tokens": 3551, "types": 57, "tokens_per_type": 62.3, "score": -2.265, "nulls": {"random keys": {"n": 200, "mean": -4.815, "sd": 0.345, "max": -4.003, "z": 7.4, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.101, "sd": 0.014, "max": -3.082, "z": 59.1, "p": 0.1429}}, "power": -2.352, "verdict": "pass", "notes": "claimed per-occurrence score -2.265; polyphony 0.0; 95 unread tokens left out; annealer on the real text from random keys reached -2.352"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The homophonic sign alphabet of R8505 was rebuilt by annealing against a 1530-1600 French model after a synthetic control exposed solver faults; no key or decipherment exists on DECODE, in Tomokiyo or in print.",
   "contribution": ["transcription", "key recovered", "catalogue correction"],
@@ -203,10 +204,7 @@
    "total": 10,
    "tokens_open": 14
   },
-  "verification": [
-   "historical consistency",
-   "key confirms"
-  ],
+  "verification": ["historical consistency", "key confirms", "statistical test"],
   "gaps": [
    {
     "item": "the ten nomenclator numbers (6, 21, 26, 36, 51, 57, 72, 81, 99, 721)",

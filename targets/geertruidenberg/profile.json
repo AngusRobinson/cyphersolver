@@ -178,7 +178,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis", "language-model scoring"],
    "what": "Torcy 690 groups, 285 types, IC 0.0042, two repeated trigrams: an 800+ value homophonic two-part code, too sparse for a ciphertext-only rebuild; Villars 173 groups too short.",
    "result": "failed"
   }

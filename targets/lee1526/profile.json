@@ -347,13 +347,13 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Used L&P iv 3028's quotations of the 8 April original as a crib for R8533: 85.7% then 86.4% counted.",
    "result": "partial",
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference", "statistical test"],
    "what": "Third pass: ÷ with bar = them, Ⱶ = the Emperor, # = would, the 'marquis' group = INACHUS; 414/457 (90.6%). Name signs and underlined clusters stay open.",
    "result": "partial",
    "date": "2026-09-21"

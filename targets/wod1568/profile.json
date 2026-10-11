@@ -131,13 +131,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment", "exhaustive search"],
    "what": "Exhaustive alignment of the Bain phrase (letters, nulls, syllable signs; forward and reversed; all substrings) against the line.",
    "result": "failed"
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching"],
    "what": "R2988 margin tested as mirror or inverted script.",
    "result": "ruled out"
   },
@@ -149,7 +149,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["key matching"],
    "what": "Subagent decryption of R2988 main text with Tomokiyo Cipher 1 key; crops misaligned, lines 1-5 only.",
    "result": "partial"
   },
@@ -161,7 +161,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching", "contextual inference"],
    "what": "Margin identified as a separate text dated '8 … 1559' with a starred insertion block; likely Throckmorton's copy of his 8 July despatch (CSP For. i 947/950).",
    "result": "partial"
   },
@@ -173,13 +173,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["plaintext matching"],
    "what": "Margin transcribed (~405 signs, 217 groups, ~80 sign+dot forms, mean group length 1.87, half the groups single signs).",
    "result": "worked"
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["crib testing"],
    "what": "Letter-substitution rejected on group-length statistics; word-sign shorthand/code with no key or crib, so no statistical attack.",
    "result": "failed"
   },

@@ -103,25 +103,25 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis", "language-model scoring"],
    "what": "IoC 1.07, no repeated trigrams; periodic IoC weak peaks at 5, 10, 15.",
    "result": "worked",
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Monoalphabetic annealing (capped and injective) in en, fr, de, nl, it, es and la.",
    "result": "ruled out",
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["automated search (unspecified)"],
    "what": "Vigenere, Beaufort and variant at periods 5 and 10, with the f. 40 tally order as the alphabet.",
    "result": "failed",
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis"],
    "what": "Quagmire-type anneal (unknown sign alphabet + periodic shifts), periods 5 and 10, fr and en.",
    "result": "failed",
    "date": "2026-09-22"

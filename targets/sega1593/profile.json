@@ -149,7 +149,7 @@
   },
   {
    "date": "2026-09-17",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment", "statistical test"],
    "what": "Line-by-line alignment of f. 186v and f. 189 against the Lisieux text versus a shuffled control: no verbatim shared passage.",
    "result": "failed"
   }

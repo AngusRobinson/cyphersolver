@@ -194,13 +194,13 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "frequency analysis", "language-model scoring", "statistical test"],
    "what": "R1890 ciphertext-only homophonic anneal (symbol->letter, la 5-gram + frequency term), 16x4M and 60x10M restarts; control on synthetic 786-token Latin homophonic recovered 99.7%.",
    "result": "failed"
   },
   {
    "date": "2026-10-09",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "statistical test"],
    "what": "R1890 letter groups = their own vowel (pli=i, op=o ...).",
    "result": "failed"
   },
@@ -212,13 +212,13 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring", "key matching"],
    "what": "R1890 with R1889 key fixed: free-value anneal of unknown symbols over letters/bigrams/trigrams suggested numbers in vowel series (48=no, 51=re, 53=ro ...).",
    "result": "partial"
   },
   {
    "date": "2026-10-09",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "statistical test"],
    "what": "R1890 family anneal: each letter-group/number family = one consonant + AEIOU vowel; all top restarts converge on the same syllabary (40s=l/n/r+v, pl?=t+v, ?p=c+v, c?=m+v, h?=d+v, t?s=b+v, ?n=s+v, ?u=p+v, m?=f+v, ?t=g+v, g?=h+v).",
    "result": "worked"
   },
@@ -242,19 +242,19 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "R1887 family anneal (consonant + shown vowel per letter-group family, rest free): collapsed to bare vowels; with consonants forced, Latin-like but not converged.",
    "result": "failed"
   },
   {
    "date": "2026-10-09",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "R1887 last cipher passage = the following clear words promovere haud dedignetur; fixes 5 families and 11 signs.",
    "result": "worked"
   },
   {
    "date": "2026-10-09",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "crib testing"],
    "what": "R1887 anneal with the crib fixed converges on the remaining families (f?r=c+v, ?c=v+s, p?n=l+v, s?l=b+v, t?s=s+v, l?s=g+v, ?r=f+v) and most signs.",
    "result": "worked"
   },
@@ -266,7 +266,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "solver",
+   "kind": "solver", "technique": ["language-model scoring"],
    "what": "LM span search over value options for the open 16-token R1887 span (span1887.py): fragments only.",
    "result": "failed"
   },
@@ -284,7 +284,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring", "contextual inference"],
    "what": "Last attempt on the two open R1887 pieces (crisdus, 16-token span before negotium): every attested value per sign, group vowels fixed, pruned to la-gutenberg word segmentations and ranked by the la LM in context (gap1887.py); crops re-viewed. 571 and 1,704 candidates, none fits the sentence.",
    "result": "failed"
   },
@@ -293,9 +293,10 @@
    "kind": "literature search",
    "what": "research/top50/NOTES.md and README corrected: Ernst 2017 (Top 50 #27) concerns Ferdinand III to Leopold Wilhelm 1640/41, not the Brussels letters.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1244 tokens, 112 types, la order 4: reading -2.023 per letter; random keys -4.505 (z 12.6); key annealed onto shuffled ciphertext best -2.969 (mean -3.007, z 31.5); annealer on the real text -2.883. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "la", "file": "validation.tsv", "tokens": 1244, "types": 112, "tokens_per_type": 11.11, "score": -2.023, "nulls": {"random keys": {"n": 200, "mean": -4.505, "sd": 0.196, "max": -4.031, "z": 12.6, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.007, "sd": 0.031, "max": -2.969, "z": 31.5, "p": 0.1429}}, "power": -2.883, "verdict": "pass", "notes": "claimed per-occurrence score -1.993; polyphony 0.009; 1 unread tokens left out; annealer on the real text from random keys reached -2.883"}, 
   "class": "read in part",
   "key": "partial",
   "method": "key recovered based on adjacent plaintext",
@@ -337,11 +338,7 @@
    "total": 250,
    "tokens_open": 22
   },
-  "verification": [
-   "independent clear copy",
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["independent clear copy", "key confirms", "historical consistency", "statistical test"],
   "gaps": [
    {
     "item": "R1887 P2.02 crisdus (6 tokens)",

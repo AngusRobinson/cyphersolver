@@ -262,17 +262,17 @@
    "result": "worked"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment"],
    "what": "Monotone EM alignment of V1920 against Somogyi's text from a uniform start.",
    "result": "failed"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Ciphertext-only homophonic anneal over the 1520-21 corpus with a 16th-c. Italian 4-gram model and a unigram penalty; fragments like scritti, regno, Ungaria.",
    "result": "partial"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "simulated annealing", "EM alignment"],
    "what": "EM alignment seeded by the anneal key: 714 letters aligned on V1920 and R1138, 90% consistent; homophonic key.",
    "result": "worked"
   },
@@ -282,17 +282,17 @@
    "result": "partial"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Ciphertext-only anneal on Cistarelli's R1137 with consensus fixing; phrases only (lettere per, presto, non se poteria, dua milla).",
    "result": "partial"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "R1128's 1519 two-tier system: R1133 transcribed in full (1327 columns) and aligned with its 1882 decipherment 7c; one letter per column, homophonic (c/7=o, m/n=r, x/7=t ...); bracket-L signs are nomenclator words ([d][s][&] = de vostra maesta).",
    "result": "partial"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Language-model anneal over the 1519 columns with 9 fixed values; R1128 (21% code words) not read.",
    "result": "failed"
   },
@@ -322,7 +322,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["EM alignment", "key-structure hypothesis", "frequency analysis", "contextual inference"],
    "what": "Lone o as a null ruled out: context forces o = h ('ha', 'ch'a', 'che') and o = u ('qui', 'suo', 'quantunque'), matching the EM counts (o 28, h 13, u 10) and V1920 'che' = PHI o y; oo = b ('beni', R1139 'debito'); z+ = q and x+ = q; EL = f ('oficio'); K = et (M).",
    "result": "worked"
   },
@@ -352,7 +352,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "frequency analysis", "repeat/pattern analysis", "language-model scoring", "statistical test"],
    "what": "beam21.py: beam decoder over key21_counts priors plus the V1921 values (lone o = h/u/null, oo = b, z+/x+ = q, EL/AMP = p/f, K = t/et), it-cinquecento order 5 without spaces, off-key letters allowed at a penalty and flagged; run on R1139 and R1136 (beam21_out.txt).",
    "result": "partial"
   },
@@ -424,25 +424,25 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "crib",
+   "kind": "crib", "technique": ["simulated annealing", "beam/DP decoding", "crib testing", "statistical test"],
    "what": "R1137 crib test (r1137_crib.py, ORDER 5, 20 restarts base, 4 windows x 3 restarts x 80k per word, word-level segmentation rerank): cribs custode, agria, alfonso, debito, buda, episcopato give anneal gains -57 to -348 (mean -169), six control words -49 to -363 (mean -172); best word score is a control. No crib lands.",
    "result": "failed"
   },
   {
    "date": "2026-10-03",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["beam/DP decoding", "contextual inference"],
    "what": "R1139 '4 8 1 7' and '1 7' tested as letters with no prior (beam drops them) and as numerals ('gubernator de 4817', '17'): no date, sum or word fits; graded as code groups with no code list.",
    "result": "failed"
   },
   {
    "date": "2026-10-03",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["statistical test"],
    "what": "Look-alike sign tabulation over R1136, R1139, V1920, R1138, V1921 (lookalike21.py): CE = o (55/72), xp = q (6/6) accepted; c (o5 e4 c3), QB vs 8, AMP vs EL (EL p8 d7) show no consistent split; R1136 re-decoded with the union priors: no new phrase.",
    "result": "partial"
   },
   {
    "date": "2026-10-03",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "Name and phrase cribs (namecrib21.py): Vestigia people (Dragfi, Batthyany, Montelini, Perenyi), offices, places and all of Somogyi's R1138/V1920 phrases against R1136/R1139 windows; only already-read words fit; no new placement.",
    "result": "failed"
   },
@@ -454,12 +454,13 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["beam/DP decoding", "language-model scoring"],
    "what": "Pen-shape step (shapes21.py): blob segmentation aligned to tokens crops QB correctly in 13/31 cases, EL 1/8, 8 0/3; QB has two forms (figure-8, stem with cross-bar) but the LM value per occurrence does not follow the form; plain c is a distinct form with no consistent value; no shape class carries a value, so no re-decode; R1139 89.7 %, R1136 66.9 % unchanged.",
    "result": "failed"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 161 tokens, 42 types, it-cinquecento order 4: reading -2.534 per letter; random keys -4.548 (z 6.6); key annealed onto shuffled ciphertext best -2.442 (mean -2.541, z 0.1); annealer on the real text -2.405. Verdict: underdetermined.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 161, "types": 42, "tokens_per_type": 3.83, "score": -2.534, "nulls": {"random keys": {"n": 200, "mean": -4.548, "sd": 0.307, "max": -3.676, "z": 6.6, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.541, "sd": 0.066, "max": -2.442, "z": 0.1, "p": 0.4286}}, "power": -2.405, "verdict": "underdetermined", "notes": "claimed per-occurrence score -2.255; polyphony 0.037; 5 unread tokens left out; annealer on the real text from random keys reached -2.405"}, 
   "method": "key recovered based on plaintext from external sources",
   "method_basis": "The 1520-21 homophonic key was rebuilt by EM-aligning the ciphertext of V1920 and R1138 with W. Somogyi's printed decipherments (Scriptorium VI, 2025), seeded by a ciphertext-only anneal, and then used to read R1139 and R1136 in part and V1921 (2 Oct 2026, 97.0 %); R1129-R1135 were already read (1882 clear copies) and R1128/R1137 stay open.",
   "contribution": [
@@ -468,9 +469,7 @@
    "catalogue correction"
   ],
   "class": "read in part",
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency"],
   "notes": "Key verified by reproducing Somogyi's plaintext (90% of aligned signs). R1139 and R1136 read in part; R1128 and R1137 open. fraction_read estimated from the notes (R1139 and R1136 phrases only, R1137 fragments, R1128 unread; R1129-R1135, R1138 read by others), not measured. key partial: the 1520-21 sign key is rebuilt (89.6% on Somogyi's cribs) but R1128's two-tier system and R1137's numeric key are not. R1138 marked read (Somogyi 2025). V1921 (no. 12, not on DECODE) read 2 Oct 2026: 161/166 signs (97.0 %), read_v1921.md; lone o = h/u, oo = b, z+/x+ = q added to the key. Pass 3 (2 Oct 2026, pass3_r1136_r1139.md): R1139 83.8 %, R1136 59.4 % of decoded letters inside claimed phrases. Pass 4 (2 Oct 2026): R1136 66.9 %, R1139 88.7 %; R1128 factorised rebuild failed; R1137 crib test negative, transcription noise 14 %. Pass 5 (3 Oct 2026): R1139 89.7 %, R1136 66.9 %; look-alike tabulation and crib tests in pass3_r1136_r1139.md.",
   "gaps": [
    {

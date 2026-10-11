@@ -131,9 +131,10 @@
       "kind": "verification",
       "what": "Second Codex review: 264/278 with gemelte; 263/278 excluding later hands; 265/278 only with selve and later-hand genomen. Same-code support 241/278.",
       "result": "partial"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 563 tokens, 160 types, nl-modern order 4: reading -2.631 per letter; random keys -3.672 (z 9.3); key annealed onto shuffled ciphertext best -2.5 (mean -2.554, z -2.6); annealer on the real text -2.42. Verdict: underdetermined.", "result": "partial"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "nl-modern", "file": "validation.tsv", "tokens": 563, "types": 160, "tokens_per_type": 3.52, "score": -2.631, "nulls": {"random keys": {"n": 200, "mean": -3.672, "sd": 0.112, "max": -3.355, "z": 9.3, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.554, "sd": 0.03, "max": -2.5, "z": -2.6, "p": 1.0}}, "power": -2.42, "verdict": "underdetermined", "notes": "claimed per-occurrence score -2.631; polyphony 0.0; 1 unread tokens left out; annealer on the real text from random keys reached -2.42"}, 
     "class": "read in part",
     "key": "partial",
     "method": "key recovered based on adjacent plaintext",
@@ -152,9 +153,7 @@
       "open": 1,
       "tokens_open": 1
     },
-    "verification": [
-      "historical consistency"
-    ],
+    "verification": ["historical consistency"],
     "gaps": [
       {
         "item": "Twelve residual I tokens (c324, d210, e274, o211, p113, p122, s254, t218, v111, v274, w141, w204), plus g121 when gemelte is retained, and unread s439",

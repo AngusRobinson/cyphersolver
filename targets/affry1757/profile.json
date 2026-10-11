@@ -198,22 +198,22 @@
    "result": "partial"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Group-frequency cosine between letters splits the series into three codes (A Jan-Feb 1757, B Apr 1757-Jan 1758, C R1071).",
    "result": "worked"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Numeric clustering of the 100 most frequent groups tested for a one-part (ordered) code: 23 adjacent pairs vs 15 random.",
    "result": "failed"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis"],
    "what": "Bussemaker's verbatim 19 July 1757 passage placed in R1054 by the repeat 800 698 = 'des précautions' (13 groups apart vs 12 words); word-and-syllable code confirmed.",
    "result": "worked"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Bussemaker's 22 Jul and 1 Apr sentences: 'le danger de la religion' = 878 1117 813 1138 583 578 found in R1070 and R1054.",
    "result": "partial"
   },
@@ -223,12 +223,12 @@
    "result": "failed"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["crib testing", "language-model scoring"],
    "what": "Coordinate-ascent LM solver (char 5-gram, corpus = clear parts of the letters + Coquelle) over group->string assignments from the crib seeds.",
    "result": "failed"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["EM alignment", "crib testing"],
    "what": "Local hard-EM aligner (cribalign.py) of the 19 Jul crib against R1054: second half aligned (des précautions, L.H.P., malgré, sagesse).",
    "result": "partial"
   },
@@ -253,7 +253,7 @@
    "result": "worked"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "R1071 (to Stainville, Aug 1757) tested against the key: nonsense, a different code.",
    "result": "failed"
   },
@@ -268,7 +268,7 @@
    "result": "worked"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "key matching"],
    "what": "Open groups pooled over all letters (pool.py); 18 values forced by every occurrence added in key_X.tsv (1096 ir, 823 gra, 630 lui, 990 dit, 336 facil, 520 faire, 1102 Ecosse, 597 et, 303 la Gouvernante ...). 970, 869, 109/651, 731/708, 1191 and others left open: more than one word fits.",
    "result": "partial"
   },
@@ -276,9 +276,10 @@
    "kind": "reading",
    "what": "Re-measured with measure_sense.py: undeciphered letters 0.749 -> 0.824 of groups read as sense (R1072 0.661 -> 0.888, R1067 0.661 -> 0.791, R1074 0.702 -> 0.747, R1064 0.766 -> 0.808); all groups 0.823, 0.890 without R1071. 95% unreachable: R1071 (7.6% of groups) is in another code with no key.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 5587 tokens, 625 types, fr-modern order 4: reading -2.096 per letter; random keys -2.798 (z 13.2); key annealed onto shuffled ciphertext best -2.127 (mean -2.136, z 4.3); annealer on the real text -2.126. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-modern", "file": "validation.tsv", "tokens": 5587, "types": 625, "tokens_per_type": 8.94, "score": -2.096, "nulls": {"random keys": {"n": 200, "mean": -2.798, "sd": 0.053, "max": -2.638, "z": 13.2, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.136, "sd": 0.009, "max": -2.127, "z": 4.3, "p": 0.1429}}, "power": -2.126, "verdict": "pass", "notes": "claimed per-occurrence score -2.107; polyphony 0.0; 233 unread tokens left out; annealer on the real text from random keys reached -2.126"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The code key (651 groups) was rebuilt by aligning Lyonet's contemporary clear decipherments of eight letters (R1052, R1053, R1062, R1063, R1065, R1066, R1069, R1075), imaged among the same DECODE records, with their ciphers; nine undeciphered letters of the same series were then read with it. Bussemaker's 1906 printed extracts served as a crib and check.",
   "contribution": [
@@ -296,10 +297,7 @@
    "tokens_open": 1784
   },
   "grades": "unknown",
-  "verification": [
-   "contemporary decipherment",
-   "historical consistency"
-  ],
+  "verification": ["contemporary decipherment", "historical consistency", "statistical test"],
   "notes": "Read in part under the read bar: 0.82 of all code groups measured as sense (0.89 without R1071); R1071 is in another code and unread, which alone caps the target at 0.924; remaining open groups are codes several words fit and homophone clashes in the voted key.",
   "gaps": [
    {

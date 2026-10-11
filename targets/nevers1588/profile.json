@@ -132,7 +132,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Ciphertext-only homophonic anneals (solve.py, solve2.py, solve3.py; letter, null-i and i-as-space variants, unigram penalty, 8 restarts of 200k steps): e/n/t collapse, no French.",
    "result": "failed"
   },
@@ -144,7 +144,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "f. 131 (4 June 1588, same hand) has interlinear decipherments; aligning 'conte de Brissac' and 'quelques mutins d'entr'eux' showed signs are one character or 1+character and gave ~15 values.",
    "result": "worked"
   },
@@ -192,7 +192,7 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["beam/DP decoding"],
    "what": "First segmentation of G04 as '1n'=i, '1e'=i (key.md signs) left 'quesi' without l and 'perissoi' without t.",
    "result": "failed"
   },
@@ -210,12 +210,13 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis", "language-model scoring"],
    "what": "fr-1600-letters LM on the runs as read: -1.56 per char (real text -1.1 to -1.8); 33/33 words read as French, 30/33 in the fr-henri4 corpus vocabulary (Caterine, perissoit, perist are not).",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 464 tokens, 44 types, fr-1600-letters order 4: reading -2.141 per letter; random keys -5.261 (z 8.2); key annealed onto shuffled ciphertext best -3.016 (mean -3.115, z 15.5); annealer on the real text -2.599. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1600-letters", "file": "validation.tsv", "tokens": 464, "types": 44, "tokens_per_type": 10.55, "score": -2.141, "nulls": {"random keys": {"n": 200, "mean": -5.261, "sd": 0.379, "max": -4.504, "z": 8.2, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.115, "sd": 0.063, "max": -3.016, "z": 15.5, "p": 0.1429}}, "power": -2.599, "verdict": "pass", "notes": "claimed per-occurrence score -1.875; polyphony 0.06; 13 unread tokens left out; annealer on the real text from random keys reached -2.599"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "The key was built from the interlinear decipherments on f. 131 of the same volume (BnF fr. 3976), a 4 June 1588 letter by the same informant in the same cipher ('conte de Brissac', 'quelques mutins d'entr'eux'), then extended run by run from the clear context of f. 62.",
   "contribution": [
@@ -234,9 +235,6 @@
    "total": 10,
    "tokens_open": "unknown"
   },
-  "verification": [
-   "historical consistency",
-   "contemporary decipherment"
-  ]
+  "verification": ["historical consistency", "contemporary decipherment", "statistical test"]
  }
 }

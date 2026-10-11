@@ -106,17 +106,17 @@
    "result": "failed"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Rosicrucian pigpen (shape = cell of three letters, mark = position), all layouts.",
    "result": "ruled out"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "SAT/constraint solving", "repeat/pattern analysis", "language-model scoring"],
    "what": "Joint word-pattern constraint search under five mark policies, and trigram annealing.",
    "result": "failed"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "plaintext matching", "contextual inference"],
    "what": "Names from the calendar text (prior, knox, whytlaw, norham castle) placed on repeated words.",
    "result": "failed"
   }

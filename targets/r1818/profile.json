@@ -102,7 +102,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Tested whether the sheet is plain Swedish in an old cursive hand: the letter runs do not read as Swedish, German or Latin, and invented signs and numerals are mixed in; it is a cipher.",
    "result": "ruled out",
    "date": "2026-09-22"
@@ -114,7 +114,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "Repeated units in the sample ('F S , ʒCt' x2, 'y S ,'/'v S ,' x3, 'bʒa' x4, 'Nr' x4) suggest word signs beside a letter substitution.",
    "result": "partial",
    "date": "2026-09-22"

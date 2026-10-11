@@ -105,7 +105,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "102 groups, 67 distinct: too short for ciphertext-only attack.",
    "result": "ruled out"
   }

@@ -81,7 +81,7 @@
   {"date": "2026-09-19", "kind": "literature search", "what": "Politische Correspondenz vol. 8 on archive.org searched by date: no. 5263 to Michell, 28 Dec 1751, opens with R1957's clear opening word for word.", "result": "worked"},
   {"date": "2026-09-19", "kind": "verification", "what": "anchors.py: repeated groups fall in the print's order at matching relative positions (1064 Vienne x4, 4310 Sardaigne x3, 3042 dessein, 545 avec, 4364 faire, 87 encore); 550 groups for 438 words.", "result": "worked"},
   {"date": "2026-09-19", "kind": "transcription", "what": "R1955 (the other letter of the same date, ministerial rescript) transcribed in full: 362 groups.", "result": "worked"},
-  {"date": "2026-09-19", "kind": "statistics", "what": "R1955 vs R1957: 19 shared distinct groups, chance collisions; 296 distinct in 362, commonest group 5 times: large homophonic code with nothing for ciphertext-only analysis.", "result": "ruled out"},
+  {"date": "2026-09-19", "kind": "statistics", "technique": ["frequency analysis"], "what": "R1955 vs R1957: 19 shared distinct groups, chance collisions; 296 distinct in 362, commonest group 5 times: large homophonic code with nothing for ciphertext-only analysis.", "result": "ruled out"},
   {"date": "2026-09-19", "kind": "literature search", "what": "Printed or online decipherment of R1955 sought; the ministerial rescripts are not in the Politische Correspondenz; none found.", "result": "failed"},
   {"date": "2026-09-19", "kind": "sibling key", "what": "DECODE R1953 (von der Hellen to the King, 4 Jan 1752) checked as a sibling of R1955: different, smaller code.", "result": "failed"}
  ],

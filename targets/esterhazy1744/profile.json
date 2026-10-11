@@ -109,7 +109,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "157 distinct of 176 groups; values 7-1737 and 3018-3297, spread evenly over the hundreds; six groups under 100. A code of about 2,000 entries with almost every group seen once.",
    "result": "worked"
   },
@@ -127,7 +127,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Ciphertext-only attack not run: 176 groups from a code of about 2,000 entries, 89% of them distinct, give nothing for a solver to fit. Needs the other five documents or the 1744 key.",
    "result": "failed"
   }

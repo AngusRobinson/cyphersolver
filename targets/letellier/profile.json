@@ -94,7 +94,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["exhaustive search", "key-structure hypothesis", "language-model scoring"],
    "what": "Alphabetical CV syllabary per class with one offset each; exhaustive offsets -20..79 scored by quadgrams; best is noise.",
    "result": "ruled out"
   }

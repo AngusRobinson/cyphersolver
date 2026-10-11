@@ -241,13 +241,13 @@
   },
   {
    "date": "2026-09-17",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "No. 93 f. 118r segmented and clustered: sign alphabet plus CVC groups; code initials point to the Gran cifra.",
    "result": "worked"
   },
   {
    "date": "2026-09-17",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "No. 93 as plain homophonic letter stream, annealed against Spanish 5-grams.",
    "result": "ruled out"
   },
@@ -295,7 +295,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "result": "partial",
    "what": "No. 92 recto ll. 8-11 re-read with Sanuto's terms as cribs (cruciata, jubileo, precedence, paid victuals): none present; the re-read settled zie = parescer (zie+RIA 'pareceria tener'), vog = acatamiento, zer read as zec = mas, and ll. 8-11 now read in sense."
   }

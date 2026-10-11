@@ -163,7 +163,7 @@
    "result": "failed"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Tried all 23 alphabet shifts on five readings of the signs (yamyud, yamymd, yanyud, yamynd, iamiud) and plain abbreviation (initials, closing formula): nothing.",
    "result": "failed"
   }

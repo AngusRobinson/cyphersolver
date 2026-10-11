@@ -91,7 +91,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Identified the pages as Walsingham's letter-book: Burghley to Walsingham, Westminster 5 July 1572 (DECODE pages in reverse order).",
    "result": "worked",
    "date": "2026-09-22"
@@ -121,7 +121,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis", "contextual inference"],
    "what": "Applied r8361's rule (box after a word marks a cover-name) to 'Milan [4]'; [2], [5], monogram, A, F and the run m o R d A get no value.",
    "result": "failed",
    "date": "2026-09-22"

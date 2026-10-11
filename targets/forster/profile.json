@@ -99,7 +99,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "207 tokens, 34 symbols, IC 0.047; not a regular Stuart key.",
    "result": "worked"
   },
@@ -117,7 +117,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["statistical test"],
    "what": "Blind recovery from ciphertext using word boundaries: 31 of 34 symbols, with six matched controls.",
    "result": "worked"
   }

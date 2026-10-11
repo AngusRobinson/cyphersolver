@@ -103,13 +103,13 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["EM alignment", "plaintext matching"],
    "what": "French lines are an interlinear decipherment; build key by aligning them to the figures (letter EM per line, global, with boundary priors; word-level EM).",
    "result": "failed",
    "date": "2026-09-21"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "Line-offset overlap test and repeat/frequency statistics: figures are a real code (183 types/471, repeated 6-gram) but not the text above them.",
    "result": "worked",
    "date": "2026-09-21"
@@ -121,7 +121,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key matching"],
    "what": "Issue #28 (yuanyi-350) reported that Tomokiyo's published 1710 table reads the letter if the 471 groups are concatenated instead of read line by line.",
    "result": "worked",
    "date": "2026-10-09"

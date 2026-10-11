@@ -122,7 +122,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "=7h= = Bourbon, from context (the 'condition' of Monsieur de =7h=, the enterprise against France).",
    "result": "worked",
    "date": "2026-09-21"

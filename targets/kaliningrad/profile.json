@@ -81,7 +81,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["crib testing"],
    "what": "Observed the alphabet (no j p q x y) and primed consonants matching Russian transliteration; dotted initialism groups noted as a possible crib.",
    "result": "partial"
   }

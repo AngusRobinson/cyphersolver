@@ -95,7 +95,7 @@
   },
   {
    "date": "2026-09-16",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis", "statistical test"],
    "what": "Block shown to be a permutation of 1-52; rank correlation, consecutive runs and rising sequences against shuffles and riffle models.",
    "result": "worked"
   },
@@ -107,7 +107,7 @@
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["automated search (unspecified)"],
    "what": "Six ordered-key readings of the block (sequence and inverse, both alphabets, zero groups as breaks) give no English.",
    "result": "ruled out"
   }

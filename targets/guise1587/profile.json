@@ -148,19 +148,19 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "Seeded simulated annealing, one letter per label, fr-1600-letters 5-gram: drifted to pseudo-French because labels merge distinct key signs.",
    "result": "failed"
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Closing formula 'vous baise tres humblement les mains' fixed A, U, M, T, R signs.",
    "result": "worked"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "contextual inference"],
    "what": "Beam search with per-label candidate sets from the key: most of f. 142 comes out as French.",
    "result": "worked"
   },
@@ -178,7 +178,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring", "contextual inference"],
    "what": "Beam search with widened candidate sets and 5-gram LM (bl2.py): recovers conservation, conciliation, ferme fondement, cinq cens hommes.",
    "result": "worked"
   },
@@ -208,7 +208,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["repeat/pattern analysis", "contextual inference"],
    "what": "Candidate-class phrase search over French corpora for the last unread runs (iusques icy, arrester, cherchions, faisant estat, en quoy, defaire).",
    "result": "worked"
   },

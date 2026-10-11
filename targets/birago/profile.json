@@ -117,43 +117,43 @@
   },
   {
    "date": "2026-09-16",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "statistical test"],
    "what": "Variable-length prefix and suffix figure codes with null letters, tested against controls.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-16",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Two-digit letters with marked code groups: 75 pairings, 228 tokens over 62 symbols.",
    "result": "partial"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring", "statistical test"],
    "what": "5-gram annealing up to 120 x 400k restarts and 4M-step slow anneals; fails matched controls at this homophony.",
    "result": "failed"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["statistical test"],
    "what": "Word-level objective ranks the truth first on controls but the search does not find it; consensus across restarts empty.",
    "result": "failed"
   },
   {
    "date": "2026-09-16",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Structured homophony (offsets, shared digits) collapse rules.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-16",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "statistical test"],
    "what": "Polyphonic single figures (Lucca type), method reads its control 3/3.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "contextual inference", "statistical test"],
    "what": "Syllabic two-digit alphabet annealer; fails its control, not validated.",
    "result": "failed"
   },

@@ -93,8 +93,8 @@
  "solution": [
   {"date": "2026-09-22", "kind": "literature search", "what": "Repo and web search for R4502 / Andreae cipher; no decipherment found under that description.", "result": "failed"},
   {"date": "2026-09-22", "kind": "access", "what": "Fetched DECODE record, metadata and 8 public images; identified the item as a printed copy of the Chymische Hochzeit, not a letter.", "result": "worked"},
-  {"date": "2026-09-22", "kind": "hypothesis", "what": "The p.95 and p.97 inscriptions are the texts the page boy speaks on pp.96 and 98; tested as a simple substitution.", "result": "worked"},
-  {"date": "2026-09-22", "kind": "crib", "what": "Aligned BEGRABEN, FRAW, GLUCK, FRUCHT, BAUMS etc.; built a 19-sign table consistent over both inscriptions.", "result": "worked"},
+  {"date": "2026-09-22", "kind": "hypothesis", "technique": ["key-structure hypothesis"], "what": "The p.95 and p.97 inscriptions are the texts the page boy speaks on pp.96 and 98; tested as a simple substitution.", "result": "worked"},
+  {"date": "2026-09-22", "kind": "crib", "technique": ["crib testing"], "what": "Aligned BEGRABEN, FRAW, GLUCK, FRUCHT, BAUMS etc.; built a 19-sign table consistent over both inscriptions.", "result": "worked"},
   {"date": "2026-09-22", "kind": "literature search", "what": "DTA and 12koerbe omit the inscriptions; crcsite.org (Foxcroft 1690) footnotes all four, sign lines as 1378 and 1459.", "result": "worked"},
   {"date": "2026-09-22", "kind": "verification", "what": "decode.py over ciphertext.txt reproduces both German texts; date lines checked structurally against 1378/1459 (M, CCCC, IX, XX, V visible).", "result": "partial"}
  ],

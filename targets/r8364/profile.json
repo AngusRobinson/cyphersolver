@@ -96,7 +96,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Identified f. 419 as Walsingham's letter-book; the cipher letter as Burghley to Walsingham, Feb 1572/3.",
    "result": "worked",
    "date": "2026-09-22"
@@ -114,7 +114,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "contextual inference"],
    "what": "Place-name cribs for the 7-sign run, pooled with the R8361 run's shared signs; no unique alphabet.",
    "result": "failed",
    "date": "2026-09-22"
@@ -126,7 +126,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["frequency analysis"],
    "what": "Reopened: Digges p. 245 (Walsingham to Smith, Sept 1572) prints ~90 cipher signs, so the letter-book's cipher corpus is far larger than the earlier 25-sign count.",
    "result": "worked",
    "date": "2026-09-22"
@@ -156,20 +156,20 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Aligned the port group across five copies in four letters (Digges pp. 301, 303, 313, 327; Harley R8363, R8364): six signs, constant 1st and 3rd; with the Vespasian F VI catalogue entry for a ship kept waiting at St Valery (Dec 1572), read VALERY.",
    "result": "worked",
    "date": "2026-09-22"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis"],
    "what": "Retried the nine-sign run with the partial alphabet (H = E) and cribs (passport, safe conduct, the Queene, Lord Seton, the Regent).",
    "result": "failed",
    "date": "2026-09-22"
   },
   {
    "date": "2026-09-30",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis", "contextual inference"],
    "what": "Person codes around the port re-examined for the quotation list (30 Sept): tt (subject of 'imagined') supplied as [they] and the lone 3 in 'if 3 should so do' as [Glasgow], both by sense only (grade I); no key, no second occurrence; nine-sign run still unread.",
    "result": "partial"
   },
@@ -178,9 +178,10 @@
    "what": "Adam Wright (email, 1 Oct 2026) pointed to the Folger Elizabethan Court Day by Day 1573, which summarises this letter under 29 Jan 1573 (after Read 1960, pp. 94-95). Aligned with our transcription: Davison = Maisonfleur, Hall = the Queen, Glasgow = Alencon (not James Beaton), [9] and tt = Alencon, the last gentleman = La Mole; 3 unresolved.",
    "result": "worked",
    "date": "2026-10-01"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 12 tokens, 8 types, en-modern order 4: reading -2.386 per letter; Verdict: too short.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-modern", "file": "validation.tsv", "tokens": 12, "types": 8, "tokens_per_type": 1.5, "score": -2.386, "nulls": {}, "verdict": "too short", "notes": "claimed per-occurrence score -2.386; polyphony 0.0; 14 unread tokens left out; annealer on the real text from random keys reached n/a"}, 
   "method": "key recovered based on plaintext from external sources",
   "method_basis": "The six-sign place name was read as (St) Valery by aligning five copies of the same homophonic group in four letters (Digges 1655 and Harley 260) with the BL catalogue entry for Cotton Vespasian F VI item 111, a French letter asking for a ship to wait at St Valery.",
   "contribution": [
@@ -192,9 +193,7 @@
   "fraction_read": 0.23,
   "fraction_read_method": "measured",
   "fraction_read_source": "cipher_tokens.txt, cipher tokens: the 6-sign port read of 26 tokens",
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency"],
   "grades": {
    "M": 6
   },

@@ -136,13 +136,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring", "contextual inference"],
    "what": "Homophonic annealing with it-cinquecento, clear text as context: unconstrained, capped homophones, nulls allowed, then one-to-one swaps (solver verified on a 400-letter synthetic cipher). All nonsense or degenerate.",
    "result": "failed"
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Word-pattern search on repeats (FpBHcdSp x2, 8zBprJFp x2, xJpg x4): FpBHcdSp fits 'uisconti' but the other repeats contradict that key.",
    "result": "ruled out"
   },

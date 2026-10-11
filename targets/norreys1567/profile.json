@@ -134,17 +134,17 @@
    "result": "worked"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching", "contextual inference"],
    "what": "Name signs Xr, Ec, fk recur in 9 Feb and 24 Feb in the calendar's order Protestants / Prince / Admiral; Lesley and Scotland fit 6 Feb groups 1 and 4.",
    "result": "partial"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment"],
    "what": "Aligned 'the Protestants' and 'and England' in the 4 June passage; conflicts with the 6 Feb alignment (s: = e vs a).",
    "result": "partial"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["SAT/constraint solving", "plaintext matching"],
    "what": "Backtracking assignment of groups to calendar vocabulary under a consistent sign map.",
    "result": "failed"
   },
@@ -182,9 +182,10 @@
    "kind": "reading",
    "what": "Target 9 Mar 1568 settled: (1) French King name sign restored (H, same sign as 6 Feb 5/13, 9 Feb 5); (2) 'a t ? l' not read, 'Pope' and 'Catholic' rejected on Cabala p.152 (crossed arrowhead is not p); (3) Queen of Scots? by position (I).",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 85 tokens, 40 types, en-modern order 4: reading -2.538 per letter; random keys -3.11 (z 3.3); key annealed onto shuffled ciphertext best -2.006 (mean -2.045, z -15.7); annealer on the real text -1.985. Verdict: underdetermined.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-modern", "file": "validation.tsv", "tokens": 85, "types": 40, "tokens_per_type": 2.12, "score": -2.538, "nulls": {"random keys": {"n": 200, "mean": -3.11, "sd": 0.172, "max": -2.576, "z": 3.3, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.045, "sd": 0.031, "max": -2.006, "z": -15.7, "p": 1.0}}, "power": -1.985, "verdict": "underdetermined", "notes": "claimed per-occurrence score -2.538; polyphony 0.0; 4 unread tokens left out; annealer on the real text from random keys reached -1.985"}, 
   "method": "read with known key",
   "method_basis": "The key is Tomokiyo's published reconstruction of the Cecil-Norris cipher of 1567-70 (cryptiana elizabeth.htm, from the Cabala 1663 'Postscript'), found during the attempt after crib searches against CSP Foreign viii failed, and applied to the Norreys extracts in Forbes's file (Add MS 4136).",
   "contribution": ["transcription", "sender or date identified", "catalogue correction"],
@@ -193,9 +194,7 @@
   "fraction_read_method": "measured",
   "fraction_read_source": "reading.md: cipher signs of the 9 Mar 1568 target, 2 of 6 read (item 1 name sign H, item 3 name sign I; the four signs of item 2 unread). Siblings (work/tomokiyo_apply.out): 38 of 51 groups read, the 13 garbled groups listed in gaps counted unread.",
   "key": "partial",
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency"],
   "notes": "Sibling readings verified against CSP Foreign viii summaries and a shuffle control; target item 1 French King (H), item 2 not read, item 3 Queen of Scots? (I). fraction_read 0.33 is measured on the target 9 Mar 1568 extract only (2 of 6 signs).",
   "gaps": [
    {

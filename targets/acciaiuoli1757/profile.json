@@ -114,12 +114,12 @@
    "result": "worked"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Contemporary decipherments on R197-R199 aligned with the cipher: 25 nomenclator codes fixed (Re, Regina, Spagna, tutto, molto, ministri ...).",
    "result": "worked"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Further codes from context (2740 prim-, 2530 chirurgo, 2394 conte, 2743 principessa).",
    "result": "partial"
   },

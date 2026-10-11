@@ -57,7 +57,7 @@
  },
  "solution": [
   {"date": "2026-09-18", "kind": "access", "what": "Fetched the Gallica IIIF manifest of fr. 3669 and the openings for pieces 24-27; fixed canvas = folio + 5 on ff. 70 and 73.", "result": "worked"},
-  {"date": "2026-09-18", "kind": "hypothesis", "what": "Catalogue task: check whether no. 26 is the decipherment of no. 25.", "result": "worked"},
+  {"date": "2026-09-18", "kind": "hypothesis", "technique": ["plaintext matching"], "what": "Catalogue task: check whether no. 26 is the decipherment of no. 25.", "result": "worked"},
   {"date": "2026-09-18", "kind": "verification", "what": "Clear text of nos. 25 and 26 compared: identical word for word; cipher runs fall after the same clear words; groups match at the two points checked (run 1 opening, run 3 ending). No group-for-group identity claimed.", "result": "worked"},
   {"date": "2026-09-18", "kind": "reading", "what": "Transcribed the letter with the interlinear decipherment of no. 26 for each cipher run (ct/letter_13feb1626.md); two proper names and 'Soubise' uncertain, a few glossed stretches left as '…'.", "result": "partial"}
  ],

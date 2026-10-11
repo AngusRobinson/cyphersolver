@@ -130,19 +130,19 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Octastich measured on Schmeh's 272 numbers and called a book cipher by shape; judged unattackable without the key text.",
    "result": "failed"
   },
   {
    "date": "2026-09-16",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "The poem names its key text (Exskybalauron): number k indexes a word on physical page k of The Jewel.",
    "result": "worked"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment"],
    "what": "DP alignment of Schmeh's defective 272 numbers against TCP pages.",
    "result": "partial"
   },
@@ -184,19 +184,19 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Old 0.788 counted any decoded letter; new measure_sense.py counts exact or within-2 first-occurrence support for the reading's letter: octastich 274/285 = 0.961, overall with distich 274/349 = 0.785.",
    "result": "worked"
   },
   {
    "date": "2026-10-05",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Distich as word indices into the octastich reading and the Decagram verse (alone and concatenated).",
    "result": "ruled out"
   },
   {
    "date": "2026-10-05",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Fetched the 1834 Works text; distich as word- and letter-index keys into the six-line verse, Parva peto couplet (Latin and English), octastich reading and Decagram verse, alone and concatenated both orders: 76 decodes, best -6.76/char vs -5.09 English.",
    "result": "ruled out"
   }

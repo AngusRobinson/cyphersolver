@@ -98,7 +98,7 @@
       "result": "worked"
     },
     {
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["key-structure hypothesis"],
       "what": "Visual distinction between triple-angle M and double-angle N suggests PRIMA MATERIA. Double cross in last line likely FF, yielding OFFEN. Testing all signs next.",
       "result": "partial"
     },
@@ -123,7 +123,7 @@
       "result": "worked"
     },
     {
-      "kind": "statistics",
+      "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
       "what": "docs/_check_profile.py --measure transcription.txt: 79 tokens, 19 distinct; IC 0.0727. Deterministic replay assigns 79; ledger flags line 3 position 8 only.",
       "result": "worked"
     },
@@ -131,9 +131,10 @@
       "kind": "reading",
       "what": "All five lines read. VOM and OFFEN complete prior work; GEFAE remains literal, with Gefaess explicitly conjectural. 78/79 coherent without emendation.",
       "result": "worked"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 79 tokens, 19 types, de-1640s order 4: reading -2.144 per letter; Verdict: too short.", "result": "partial"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "de-1640s", "file": "validation.tsv", "tokens": 79, "types": 19, "tokens_per_type": 4.16, "score": -2.144, "nulls": {}, "verdict": "too short", "notes": "claimed per-occurrence score -2.144; polyphony 0.0; 0 unread tokens left out; annealer on the real text from random keys reached n/a"}, 
     "method": "key recovered based on plaintext from external sources",
     "method_basis": "Anne-Simone Rous's partial decipherment, published in Korn 2023 note 41 and found before the attack, was used as a crib; the substitution was completed and corrected against the original image (PRIMA MATERIA, VOM, OFFEN).",
     "contribution": ["transcription", "key extended or corrected"],
@@ -152,9 +153,7 @@
       "I": 78,
       "M": 1
     },
-    "verification": [
-      "none"
-    ],
+    "verification": ["none"],
     "notes": "Internal substitution consistency and German syntax; no independent plaintext or archive key. Rous partial reading used before attack. All occurring signs read; literal GEFAE preserved, Gefaess conjectural. Alchemical interpretation and annotation date/author remain unknown."
   }
 }

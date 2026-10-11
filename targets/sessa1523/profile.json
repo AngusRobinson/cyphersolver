@@ -133,7 +133,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "repeat/pattern analysis"],
    "what": "Recognised the cipher as the sessa1524 nomenclator from recurring code groups.",
    "result": "worked"
   },
@@ -163,7 +163,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Checked the R9660 margin notes as cribs: they are copyist insertions of omitted text, not decipherments.",
    "result": "failed"
   },
@@ -178,9 +178,10 @@
    "kind": "reading",
    "what": "R9660 read in part: ~57% of tokens resolve; ~150 code groups open with no decipherment on DECODE to value them.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 2004 tokens, 139 types, es-golden-age order 4: reading -2.273 per letter; random keys -3.661 (z 6.5); key annealed onto shuffled ciphertext best -2.319 (mean -2.341, z 5.0); annealer on the real text -2.215. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "es-golden-age", "file": "validation.tsv", "tokens": 2004, "types": 139, "tokens_per_type": 14.42, "score": -2.273, "nulls": {"random keys": {"n": 200, "mean": -3.661, "sd": 0.213, "max": -3.126, "z": 6.5, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.341, "sd": 0.014, "max": -2.319, "z": 5.0, "p": 0.1429}}, "power": -2.215, "verdict": "pass", "notes": "claimed per-occurrence score -2.136; polyphony 0.086; 1562 unread tokens left out; annealer on the real text from random keys reached -2.215"}, 
   "method": "read after matching with key from external sources",
   "method_basis": "The Sessa-Charles V key the project had rebuilt in sessa1524 from the court's decipherments in RAH Salazar A-31 was recognised here by recurring code groups and applied to the A-27 letters, with R9665's margin note and interlinear decipherments as checks.",
   "contribution": [
@@ -192,9 +193,7 @@
   "class": "read in part",
   "fraction_read": 0.55,
   "grades": "unknown",
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency", "statistical test"],
   "notes": "R9665 read in full (glosses + key). R9660 transcribed in full, ~57% of its tokens read (estimate from the transcription files). Four letters (R9661-R9664) read at the time and calendared by Bergenroth; R9666 clear.",
   "gaps": [
    {

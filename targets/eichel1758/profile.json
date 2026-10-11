@@ -108,13 +108,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["key matching"],
    "what": "Applied key R594, as DECODE's note suggests.",
    "result": "failed"
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["repeat/pattern analysis"],
    "what": "Scored the transcriptions of 21 SP 106 and Prussian key records for coverage of the letter's groups; R596's null rules (numbers with 7, set ranges) match the letter's pattern.",
    "result": "worked"
   },

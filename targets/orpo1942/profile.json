@@ -123,12 +123,12 @@
    "result": "worked"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Discriminators show the seven 27 Feb parts share one key (970 letters).",
    "result": "worked"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["exhaustive search"],
    "what": "Single encipherment, all line lengths and pair orders.",
    "result": "ruled out"
   },
@@ -138,7 +138,7 @@
    "result": "failed"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["SAT/constraint solving"],
    "what": "z3 SAT with 20-37 known pairs.",
    "result": "failed"
   },
@@ -148,7 +148,7 @@
    "result": "worked"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment"],
    "what": "Key-free alignment of Hanyok's A115 text to its ciphertext over many spellings and layouts.",
    "result": "failed"
   }

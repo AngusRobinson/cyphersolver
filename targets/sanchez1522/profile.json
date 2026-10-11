@@ -149,7 +149,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "statistics",
+      "kind": "statistics", "technique": ["key matching"],
       "what": "Transcribed Tomokiyo's nomenclator to key_codes.tsv and tested its ordering: codes are C1(16) x V(5) x C3(9) and sorting by (C1, C3, V) puts the plaintext in alphabetical order, so unassigned codes are bracketed by their neighbours.",
       "result": "worked"
     },
@@ -179,7 +179,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
       "what": "Checked whether the Lope Hurtado de Mendoza letters of the same group use Sánchez's cipher. R9648 f. 260v gives code groups ending in p and z (tep, tap, xulz), finals absent from Sánchez's third-position inventory {b c d f g h l m n}; so his key is a third member of the family, not Sánchez's. Whether it is Juan Manuel's is not settled.",
       "result": "worked"
     },
@@ -197,7 +197,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["key-structure hypothesis", "key matching"],
       "what": "Settled the notation: pol9 = pol (mi) + the letter sign for l = 'mil' (the l sign reads as a g in this hand); g-y + lal (publica) = 'republica'; the opening nulls are padded with the meaningless clear words 'como' and 'quien', which is what Tomokiyo's 'como quierr' note under the nulls column means.",
       "result": "worked"
     },
@@ -209,7 +209,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["EM alignment", "beam/DP decoding", "key-structure hypothesis", "repeat/pattern analysis"],
       "what": "Two findings from that alignment: code groups are used for syllables as well as whole words (nuf is 'no' the adverb and the last syllable of cami-no), so one-group-one-word segmentation fails; and the lookalike signs separate as B = m (camino), curly-q = r (ahora), bold-infinity = g, which is the largest source of error in reading the spelled runs at DECODE's resolution.",
       "result": "worked"
     },
@@ -245,7 +245,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["key-structure hypothesis", "repeat/pattern analysis", "language-model scoring"],
       "what": "Corrected the model of the writing, which was the real blocker: everything is written in ordinary latin-looking cursive, with three-letter trigrams as nomenclator codes and single letters/short runs as the substitution alphabet (n=a, y=e, g=r, o/x=x, #=o, ao=p, m=u/v, z=c, B=m, 9=l, q-double-bar=s). Verified on R9605 f. 39r l. 1 against the clerk's plaintext: cig vu-o-y n dom pud ho veg = 'Ya dixe a vuestra magestad que el'.",
       "result": "worked"
     },

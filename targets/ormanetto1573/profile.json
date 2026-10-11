@@ -115,7 +115,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["simulated annealing", "key-structure hypothesis"],
    "what": "Simple/homophonic substitution over three sign sets, Spanish and Italian 4-gram annealing.",
    "result": "failed",
    "date": "2026-09-21"
@@ -127,7 +127,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Dandini-frame structure (2-digit letters with even second digit, 3 digits + mark as codes); pair-parity test per line.",
    "result": "ruled out",
    "date": "2026-09-21"
@@ -151,7 +151,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["simulated annealing", "key-structure hypothesis"],
    "what": "Polyphonic digit = two letters with unknown pairs, annealed; also with 1 as null and 0 as letter.",
    "result": "failed",
    "date": "2026-09-21"
@@ -163,7 +163,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["simulated annealing", "key-structure hypothesis"],
    "what": "Pooled R116 with R118 (1,660 signs; 4t = barred 4) and reran the polyphonic annealer.",
    "result": "failed",
    "date": "2026-09-21"
@@ -181,7 +181,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["simulated annealing", "key-structure hypothesis"],
    "what": "Spanish royal-cipher syllabic structure (base digit + dot/mark vowel indicator), annealed in Spanish and Italian.",
    "result": "failed",
    "date": "2026-09-21"
@@ -223,7 +223,7 @@
    "date": "2026-10-05"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "Checked how the 0.90 was measured: it was AJ's count of words (112 of 139 non-code words ordinary Italian), code groups left out and nothing measured per token or for sense. Wrote measure.py: every cipher token (digits and word-end strokes) counted, a word read only if its letter runs split into words attested in the it-renaissance + it-nunziature corpora (cipher spelling) or its code value is adopted; on DECODE's unchanged transcription: 1,248/1,324 = 94.3%.",
    "result": "worked",
    "date": "2026-10-05"
@@ -235,7 +235,7 @@
    "date": "2026-10-05"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Open codes pooled across R116 and R118: 32, 2̇88, 84, 42, 53 occur once each in R116 and not at all in R118's reading; 3̇22 is Italia twice (after 47/93 tutta) but stands where 'per' is wanted in 'che sia [3̇22] alterarla'. No second context; left open.",
    "result": "failed",
    "date": "2026-10-05"

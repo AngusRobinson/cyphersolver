@@ -225,7 +225,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["key-structure hypothesis", "plaintext matching", "contextual inference", "statistical test"],
       "what": "Informant title may read alphabetically dom: compare its d with adjacent da, comma-shaped o with como, and final 4 with m. Francesco d'Aragona is a contextual candidate, not an established decipherment. R1101 control inspection did not resolve X; connective-word guesses were not accepted.",
       "result": "partial"
     },
@@ -620,7 +620,7 @@
       "result": "partial"
     }
   ],
-  "outcome": {
+  "outcome": {"validation": {"date": "2026-10-11", "verdict": "not applicable", "notes": "no sign-level transcription in the folder; only plaintext editions and anchor words"}, 
     "method": "key recovered based on adjacent plaintext",
     "method_basis": "The key was built by aligning R1101 with its contemporary clear copy 7a and R1104 with its decipherment 13a, both in the same ASMo Ambasciatori Ungheria b. 1/9 file (found on Vestigia), then applied to R1102 and R1103, which have no clear copy.",
     "contribution": ["transcription", "key recovered"],

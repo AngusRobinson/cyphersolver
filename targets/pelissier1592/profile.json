@@ -115,7 +115,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing", "frequency analysis"],
    "what": "Re-deriving the key by letter-frequency hill-climbing on the noisy transcription collapsed to an all-e attractor.",
    "result": "failed"
   },

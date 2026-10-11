@@ -125,7 +125,7 @@
   },
   {
    "date": "2026-09-17",
-   "kind": "solver",
+   "kind": "solver", "technique": ["automated search (unspecified)"],
    "what": "Blind cluster-to-letter solver in session 1 collapses to a degenerate map.",
    "result": "failed"
   },
@@ -137,7 +137,7 @@
   },
   {
    "date": "2026-09-17",
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing", "language-model scoring"],
    "what": "Shape-constrained hill-climb over 70/140 clusters with a 6-gram LM gives draft5, about 86 % of letters right.",
    "result": "partial"
   },

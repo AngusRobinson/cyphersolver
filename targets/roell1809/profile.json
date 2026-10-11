@@ -132,7 +132,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Parsed 2,585 groups (931 distinct, to ~3,300); top group ~1%: heavily homophonic, frequent groups spread, not one-part.",
    "result": "worked"
   },
@@ -156,7 +156,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "French and 'Monsieur' fit Van Dedem to chargé Testa rather than Röell; no clear counterpart found.",
    "result": "unknown"
   }

@@ -485,7 +485,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "plaintext matching"],
    "what": "R795 only 83.9% in key: 251 groups 323-740. Compared with the contemporary interlinear: the decipherer skips them, so nulls.",
    "result": "worked"
   },
@@ -521,7 +521,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Annealed R731 as transcribed, without dots, without swash strokes, reversed: best -10.1/4-gram, no Hungarian.",
    "result": "failed"
   },
@@ -533,7 +533,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "repeat/pattern analysis", "contextual inference"],
    "what": "decode2.py: split run-together groups, re-join split groups, 3-digit >322 as nulls (R823 clear numerals), 220 = a from context.",
    "result": "worked"
   },

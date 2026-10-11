@@ -233,7 +233,7 @@
     },
     {
       "date": "2026-09-18",
-      "kind": "solver",
+      "kind": "solver", "technique": ["simulated annealing", "language-model scoring", "contextual inference"],
       "what": "N.73: Spanish 5-gram annealing with groups split, whole, and as context breaks.",
       "result": "failed"
     },
@@ -272,9 +272,10 @@
       "kind": "transcription",
       "what": "N.60 re-transcribed from the images (v2, 11,592 tokens): old '2' = & (y), &2 = x; flort liga, fiy favor, fuy exercito, mat obligado added. q/q1 split applied to N.45 and N.57 (151 q checked, 69 -> q1). Token coverage N.45 0.984, N.57 0.976, N.60 0.948; sense words 0.858/0.865/0.824. gz, phi, reg, goi still open; pp. 7-15 of N.60 read only at 2x.",
       "result": "partial"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 21747 tokens, 234 types, es-golden-age order 4: reading -2.09 per letter; random keys -3.69 (z 9.0); key annealed onto shuffled ciphertext best -2.588 (mean -2.596, z 75.0); annealer on the real text -2.228. Verdict: pass.", "result": "worked"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "es-golden-age", "file": "validation.tsv", "tokens": 21747, "types": 234, "tokens_per_type": 92.94, "score": -2.09, "nulls": {"random keys": {"n": 200, "mean": -3.69, "sd": 0.178, "max": -3.213, "z": 9.0, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.596, "sd": 0.007, "max": -2.588, "z": 75.0, "p": 0.1429}}, "power": -2.228, "verdict": "pass", "notes": "claimed per-occurrence score -2.186; polyphony 0.0; 792 unread tokens left out; annealer on the real text from random keys reached -2.228"}, 
     "method": "key recovered based on adjacent plaintext",
     "method_basis": "The nomenclator was rebuilt by aligning N.46 and N.52BIS, sibling letters in the same Vich file (AHN Estado 8715) that carry the clerk's decipherment on the following leaves, with their cipher; N.45, N.57 and N.60 were then read and filled in the rest.",
     "contribution": [
@@ -307,10 +308,7 @@
       "open": 259,
       "tokens_open": 995
     },
-    "verification": [
-      "key confirms",
-      "historical consistency"
-    ],
+    "verification": ["key confirms", "historical consistency", "statistical test"],
     "notes": "N.45, N.57, N.60 read with about 3-8% of groups unread (5-14% counting garbled stretches); N.73 not read. fraction_read measured roughly: 12,213 of 13,381 decoded tokens in N.45/N.57/N.60 not bracketed, over those plus the 3,177 tokens of unread N.73 (0.74)."
   }
 }

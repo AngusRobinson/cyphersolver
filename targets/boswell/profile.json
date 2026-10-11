@@ -141,12 +141,12 @@
    "result": "worked"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Free 24-letter row annealed for periods 20-32; over-fits at 106 letters, not decisive.",
    "result": "failed"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "The four graphic signs are word-signs introduced inline: good, Cousin, Master, us.",
    "result": "worked"
   },

@@ -98,7 +98,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "Repeats show homophone frames (712 49/80/848/548 113); 778 (8%) is not a word separator.",
    "result": "worked",
    "date": "2026-09-22"
@@ -116,13 +116,13 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Homophonic letter annealer, de-modern order 5, clear words fixed, 8 seeds x 3M; best -2.05/char, gibberish. French/Swedish/Italian worse.",
    "result": "failed",
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Alphabetical-syllabary monotone annealer adapted from swieten1757, German inventory, 8 seeds: word salad.",
    "result": "failed",
    "date": "2026-09-22"

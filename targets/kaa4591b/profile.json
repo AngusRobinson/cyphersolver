@@ -169,7 +169,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "R9403: e and r swapped (⋇ = e, X = r), variant sign shapes; DAG word sign = King John",
    "result": "worked"
   },
@@ -199,13 +199,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "R9415 P1 l.3 gloss 'incrementum' seeded the key",
    "result": "worked"
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "beam/DP decoding", "language-model scoring"],
    "what": "R9415 annealing with the la model, then beam search (solve.py, beam.py)",
    "result": "worked"
   },
@@ -223,13 +223,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "R9414 P1 l.6-8 gloss gave the first values of system G",
    "result": "worked"
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "beam/DP decoding", "language-model scoring"],
    "what": "R9414 annealing and de-1500s beam (beam2.py) - about 50% read",
    "result": "partial"
   },
@@ -241,7 +241,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["exhaustive search"],
    "what": "gapfill.py one-edit lexicon search over unread R9414 words",
    "result": "partial"
   },
@@ -265,12 +265,13 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "language-model scoring"],
    "what": "Joint LM scoring (de-1500s) of the unkeyed barred-d sign over its five R9414 places, all letters and 23 digraphs/short words, plus the large Psi word sign (proposed 'Mt.'); siblings R9403, R9415, System B key and sperantio1534 checked for both signs",
    "result": "failed"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 3869 tokens, 33 types, de-1500s order 4: reading -2.249 per letter; random keys -6.676 (z 6.2); key annealed onto shuffled ciphertext best -3.639 (mean -3.69, z 54.4); annealer on the real text -2.399. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "de-1500s", "file": "validation.tsv", "tokens": 3869, "types": 33, "tokens_per_type": 117.24, "score": -2.249, "nulls": {"random keys": {"n": 200, "mean": -6.676, "sd": 0.718, "max": -4.951, "z": 6.2, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.69, "sd": 0.026, "max": -3.639, "z": 54.4, "p": 0.1429}}, "power": -2.399, "verdict": "pass", "notes": "claimed per-occurrence score -1.971; polyphony 0.043; 746 unread tokens left out; annealer on the real text from random keys reached -2.399"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "For R9415 and R9414 (the larger part of the text) the keys of two new homophonic systems were seeded from the contemporary interlinear glosses on each letter ('incrementum' on R9415 P1 l.3; R9414 P1 l.6-8) and completed by annealing and beam search; R9403 was read with the System B key rebuilt from glosses elsewhere in the same volume (kaa4591).",
   "contribution": [
@@ -288,10 +289,7 @@
    "total": 4,
    "tokens_open": 10
   },
-  "verification": [
-   "contemporary decipherment",
-   "historical consistency"
-  ],
+  "verification": ["contemporary decipherment", "historical consistency", "statistical test"],
   "notes": "R9403 and R9415 pass the read bar; R9414 is at 92.2%; overall 94.6%. Keys rebuilt for all three (G has ambiguous homophones).",
   "gaps": [
    {

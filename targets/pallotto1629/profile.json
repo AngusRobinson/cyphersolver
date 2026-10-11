@@ -898,31 +898,31 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "statistical test"],
    "what": "Aligned the opening of R286 against the known opening of Nr. 153 as two-digit codes: 27 letters align exactly (HORICEVUTALARISPOSTADATAMII) with two repeat confirmations, 38=T and 23=I. Read at the time as roughly a 1-in-180 coincidence; the later run-length control shows 27 is BELOW the chance baseline of 36-39 for this material, so it is not evidence.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-20",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "crib testing"],
    "what": "Ran banded DP EM aligners over the whole of R286 against a hand-corrected 3,359-letter crib of Nr. 153, with two-digit codes plus one-/three-digit resync operations for transcription slips; best code-to-letter consistency about 55%, against a 20% naive baseline.",
    "result": "partial"
   },
   {
    "date": "2026-09-20",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "Tested for a fixed code width: index of coincidence and positional digit distributions by phase for two- and three-digit codes across all 28 ciphertexts. No phase preference at all.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-20",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "Fixed-multiset simulated annealing over the 100 two-digit codes on 5,000 codes, scored by a space-free Italian 5-gram model built here; -3.54 log-prob per character against -1.5 for real Italian.",
    "result": "failed"
   },
   {
    "date": "2026-09-20",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Tested a syllabic two-digit nomenclator by aligning codes to plaintext spans of one to four letters; every well-attested code collapsed to a single letter, so no syllable table.",
    "result": "ruled out"
   },
@@ -958,25 +958,25 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["beam/DP decoding", "frequency analysis", "repeat/pattern analysis", "statistical test"],
    "what": "Repeat spectrum over all 112,805 digits against an iid control with the same digit frequencies: repeated substrings of length 8 number 28,519 against 91, length 10 number 12,109 against 1, and there are 39 repeated 24-digit strings where chance gives none. A well-made homophonic cipher cannot produce this, so the system uses deterministic code groups - a code or nomenclator in which a word or syllable is always written the same way. BPE segmentation gives 266 token types over 44,816 tokens, mean 2.5 digits, lengths 1-7: syllable-scale and not fixed width. This is the one positive structural finding.",
    "result": "worked"
   },
   {
    "date": "2026-09-20",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["SAT/constraint solving", "crib testing", "key-structure hypothesis", "repeat/pattern analysis", "statistical test"],
    "what": "Polyphonic one-digit-per-letter: the repeat spectra of R286 and the crib match at about 1:1 (3,570 digits, 3,359 letters), so tested the reverse constraint that equal letters force equal digits. Longest consistent letter-to-digit run 17 letters against shuffled controls of 18, 19, 18. Also tested BPE tokens as word codes by whether a repeated token lands on the same plaintext word: 16 of 74 token types against controls of 13, 12, 13. Both chance.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-20",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "plaintext matching"],
    "what": "Found a far better crib source in DECODE's own transcriptions, which I had only skimmed: ~640 <CLEARTEXT> annotations across the 28 files and <PLAINTEXT> lines in five of them (R286, R305, R308, R309, R313), DECODE's mark for a decipherment written on the document. Most of these despatches are mixed letters - short ciphered runs embedded in clear Italian - not wholly enciphered texts, which is why a Kiewning-based crib could never have matched them. R308 reads 'Non sono [41 digits] circa il particolare de [...]' with the gloss 'restati piu contenti della risolutione' written above the figures; verified against DECODE's 1523x2088 scan.",
    "result": "worked"
   },
   {
    "date": "2026-09-20",
-   "kind": "solver",
+   "kind": "solver", "technique": ["SAT/constraint solving", "exhaustive search", "crib testing", "repeat/pattern analysis", "plaintext matching"],
    "what": "Solved the R308 crib exhaustively (41 digits, 34 letters) under every simple model: fixed widths 1-3; deterministic letter code with groups of 1-2 and 1-3 digits (exact enumeration via the length identity, exact.py); 2-digit groups against syllables of 1-3 letters, both with the two-way deterministic constraint (4.0M nodes) and allowing homophones (7.3M nodes). Zero solutions in every case. So either the gloss does not align exactly to that digit run, or the system is more complex than any of these.",
    "result": "failed"
   },

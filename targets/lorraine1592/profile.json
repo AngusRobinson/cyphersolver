@@ -102,7 +102,7 @@
  "solution": [
   {
    "date": "2026-09-18",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Verify step: looked for the ciphered originals of the January intercepts in fr. 3621; no. 22 is a plaintext decipherment only, no cipher in the volume to pair it with.",
    "result": "ruled out"
   },
@@ -126,7 +126,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Homophonic annealer (solve.py) against a Montaigne 4-gram model on the clustered glyphs: -2.78/char against -1.85 for real French.",
    "result": "failed"
   },
@@ -150,7 +150,7 @@
   },
   {
    "date": "2026-09-18",
-   "kind": "solver",
+   "kind": "solver", "technique": ["crib testing"],
    "what": "Search on the manuscript: key stable across seeds and under a locked crib, -2.10/char; words produced unprompted (munitions, prisonniers, secours, quartiers, conserver la plaine).",
    "result": "worked"
   },
@@ -174,7 +174,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "The 18 Sept key's values pair reciprocally (a/i, o/r, d/q, n/s); tested as an 11-pair reciprocal alphabet a/i b/p c/f d/q e/t g/u l/y m/z n/s o/r h/x with the transcription's c split into e (t) and c (f), B into b (p) and h (x), dots = doubled letter, ae = null: lowercase-only decode turns into French (infiniment mal satisfait du peu d'execution; conserver la plaine).",
    "result": "worked"
   },
@@ -186,7 +186,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "Nomenclator figures from context: 31 = ma (com-31-nder, de-31-nde, 31 resolution), 139 = vous (chemins, 139 tiendres), 145 = me (affin que 141 ne 145 delaissent); the other 11 figures unassigned.",
    "result": "partial"
   },
@@ -228,25 +228,25 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Figure 141 pooled over its three occurrences: 141+m(z) 'qu'ilz avoient fait', 141+J(s) 'qu'ils connoissent', 'affin qu'ils ne me delaissent': 141 = qu'il.",
    "result": "worked"
   },
   {
    "date": "2026-10-05",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "λ, γ, U, π, m̄ as nulls: of 37 occurrences all but two stand between complete words and the sentence reads without them (faire U passer, faire γ æ passer, fauldra λπ le remettre, satisfait m̄ du peu).",
    "result": "worked"
   },
   {
    "date": "2026-10-05",
-   "kind": "solver",
+   "kind": "solver", "technique": ["language-model scoring"],
    "what": "Joint coordinate-ascent solve of 17 special signs (single letters, nulls or common words) under fr-1600-letters on the whole text: the optimum changes with the per-char length penalty (1.6/2.0/2.4) and fills the text with 'pour'/'de'; per-sign lexicon test non-discriminating.",
    "result": "failed"
   },
   {
    "date": "2026-10-05",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Context values ŧ/m̄/α + 'ien' = bien/rien/combien, E = la, 98 = ville: each fits some occurrences but not all, or other words fit equally; not counted.",
    "result": "failed"
   },
@@ -255,9 +255,10 @@
    "kind": "verification",
    "what": "measure_reread.py on the 5 Oct file: 861/1,102 = 0.781; fragments quelq, auld+is, promes fail the lexicon check and were downgraded to M: final 844/1,102 = 0.766 (letters 0.771, figures 24/38); measure_sense.py 787/1,102 = 0.714.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 823 tokens, 68 types, fr-1600-letters order 4: reading -1.635 per letter; random keys -4.932 (z 6.7); key annealed onto shuffled ciphertext best -2.752 (mean -2.841, z 27.0); annealer on the real text -2.321. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1600-letters", "file": "validation.tsv", "tokens": 823, "types": 68, "tokens_per_type": 12.1, "score": -1.635, "nulls": {"random keys": {"n": 200, "mean": -4.932, "sd": 0.495, "max": -3.967, "z": 6.7, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.841, "sd": 0.045, "max": -2.752, "z": 27.0, "p": 0.1429}}, "power": -2.321, "verdict": "pass", "notes": "claimed per-occurrence score -1.635; polyphony 0.0; 279 unread tokens left out; annealer on the real text from random keys reached -2.321"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The reciprocal letter-pair key was recovered by iterated local search on the eye transcription with no key known anywhere (DECODE, Tomokiyo, fr. 3995 key sheets ruled out); the page's clear text (Chasteauvillain) served only as a check, and three figures were read from context.",
   "contribution": [
@@ -281,10 +282,7 @@
    "M": 74,
    "I": 184
   },
-  "verification": [
-   "matched control",
-   "historical consistency"
-  ],
+  "verification": ["matched control", "historical consistency", "statistical test"],
   "gaps": [
    {
     "item": "Special signs ŧ, ⊙ (where not s), α, ꝗ, E, figure-4, Z, V and the words they sit in (about 60 tokens)",

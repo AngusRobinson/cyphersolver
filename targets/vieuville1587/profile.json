@@ -108,7 +108,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Whole letter a cipher: ruled out; most is clear French in a hasty hand, with ciphered runs inserted.",
    "result": "ruled out"
   },
@@ -138,13 +138,13 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["statistical test"],
    "what": "Raw transcription scored as French: -5.67/char vs shuffled -7.86 and real French ~-1.5; not clear French as transcribed.",
    "result": "partial"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Homophonic substitution anneal with unigram-KL penalty (solve2.py), 8 restarts: best -4.53/char, no French.",
    "result": "failed"
   },
@@ -162,7 +162,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Merged confusable glyph classes (u/n/m/w, e/c/r) and re-ran the anneal: best -4.76/char, no French.",
    "result": "failed"
   },
@@ -186,7 +186,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["exhaustive search", "repeat/pattern analysis", "language-model scoring", "contextual inference"],
    "what": "runs.py: every key-16 reading of runs A (18 signs), B (8), C (7) with ambiguous glyphs expanded, scored with fr-1530-despatches alone and inside the clear context: no French (best 'si et rou essance de si', 'sie de lan', 'requelae').",
    "result": "failed"
   },

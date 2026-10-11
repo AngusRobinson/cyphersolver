@@ -100,13 +100,13 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "key matching"],
    "what": "Applied the R8503 values (6 null, D=v, h=l ...): no sense.",
    "result": "failed",
    "date": "2026-09-22"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "plaintext matching"],
    "what": "f. 73r (R8502) glosses Junius, Cambray, Balagny, Germany over the same cipher words: runs 1, 2 and 4 matched.",
    "result": "worked",
    "date": "2026-09-22"
@@ -128,9 +128,10 @@
    "what": "Read runs: Junius sonne / from Cambraye / credit with Balagny / Balagny / mayntayne.",
    "result": "worked",
    "date": "2026-09-22"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 57 tokens, 18 types, en-modern order 4: reading -2.88 per letter; Verdict: too short.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-modern", "file": "validation.tsv", "tokens": 57, "types": 18, "tokens_per_type": 3.17, "score": -2.88, "nulls": {}, "verdict": "too short", "notes": "claimed per-occurrence score -2.565; polyphony 0.035; 3 unread tokens left out; annealer on the real text from random keys reached n/a"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "Stafford's letter key was rebuilt by aligning the f. 71 runs (R8501) with their contemporary decipherment on f. 72r and the glossed words on f. 73r (R8502), both in the same volume, Harley MS 1582.",
   "contribution": ["transcription", "key recovered", "sender or date identified"],
@@ -142,10 +143,7 @@
    "total": 0,
    "tokens_open": 0
   },
-  "verification": [
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["key confirms", "historical consistency"],
   "gaps": [],
   "notes": "All five runs read as sense; four sign values from context only."
  }

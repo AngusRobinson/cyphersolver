@@ -138,7 +138,7 @@
  "solution": [
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "Line-final glyphs of the verse repeat in couplets (9 of 10), AABB rhyme scheme.",
    "result": "worked"
   },
@@ -156,25 +156,25 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Unit comparison: glyphs per line fit French syllables only.",
    "result": "worked"
   },
   {
    "date": "2026-09-15",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment", "repeat/pattern analysis", "statistical test"],
    "what": "No. 10 as encoding of the clear poem below it (isomorph alignment vs planted control).",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Verse as any 20-line window of 28 French verse volumes, Delille's Aeneid V, and Moore/Stoddart English sources.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["statistical test"],
    "what": "'Monograph' reading: each glyph a stack of letter marks; real order no better than shuffled.",
    "result": "failed"
   },

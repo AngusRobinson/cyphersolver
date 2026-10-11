@@ -175,19 +175,19 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Tested the key note's claim that nomenclator elements are four digits with prefix 4, by diffing Lasry's concatenated token stream against the original transcription of 346:1.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-20",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Parsed Lasry's 104 aligned line pairs into a token inventory: confirmed 6 as word separator, every 2x pair as a null, 61 plaintext codes, and 95 three-digit nomenclator elements, none of them solved. Established that 6 occurs inside no code, so word boundaries are certain.",
    "result": "worked"
   },
   {
    "date": "2026-09-20",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "repeat/pattern analysis"],
    "what": "Position-indexed beam search over the digit stream, resolving the two-versus-three-digit choice under an Italian character model with incremental DenseLM scoring.",
    "result": "worked"
   },
@@ -199,7 +199,7 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "solver",
+   "kind": "solver", "technique": ["language-model scoring"],
    "what": "Interpolated it-cinquecento with a 7,693-character in-domain model built from the clerk's clear passages and Lasry's plaintext of the letters not under test.",
    "result": "worked"
   },
@@ -223,7 +223,7 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Aligned the reading against the interlinear to read nomenclator meanings off it; 22 elements caught a witness fragment.",
    "result": "partial"
   },
@@ -247,25 +247,25 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "solver",
+   "kind": "solver", "technique": ["repeat/pattern analysis"],
    "result": "worked",
    "what": "Decoded each letter as one stream instead of line by line (run2.py): codes run across line ends, so the wraps had produced noise digits. fraction_read 0.914 -> 0.931 with no new value."
   },
   {
    "date": "2026-10-05",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching", "contextual inference"],
    "result": "worked",
    "what": "17 nomenclator elements fixed from the full-resolution interlinear, the margin gloss and pooled contexts across Lasry's four letters + R75/R84: 315 S.E. (Richelieu), 411 V.S., 938 Monsieur, 988 negotio, 338 stato, 441 bene, 481 pero, 493 questa, 439 ancora, 470 hor, 488 quale, 857 Germania, 334 Sueco, 104 Svedesi, 129 Regno, 454 grandi, 127 Imperiali. 0.931 -> 0.954."
   },
   {
    "date": "2026-10-05",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "plaintext matching"],
    "result": "worked",
    "what": "Raised the decoder penalty for a code met in Lasry's letters but still unvalued (-5): it had beaten real letters by emitting a cheap space (R75 l.7 'per assicurar' read 'pera<957>mi<970>ar'). With the re-transcriptions 0.958 (R75 0.962, R84 0.953); interlinear letter agreement on R75 0.775 -> 0.828."
   },
   {
    "date": "2026-10-05",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching", "contextual inference"],
    "result": "failed",
    "what": "491 (5 tokens) tested as 'Goto' (interlinear l.16): fails its contexts in Lasry's letters. 497, 998, 328 pooled across all six letters: no single value fits. Left open."
   }

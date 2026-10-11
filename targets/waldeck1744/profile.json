@@ -117,7 +117,7 @@
    "result": "worked"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis", "contextual inference"],
    "what": "Frequencies, repeats, shared contexts: flat profile (top group 2%), 879.144.X.126 x4 with X = 90/7/7/924 and a struck 9 corrected to 7 (homophones), no immediate repeats, codes under 100 used twice as often.",
    "result": "worked"
   },
@@ -132,12 +132,12 @@
    "result": "failed"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "Letter-level annealer with the 1740s 5-gram on the real text: best -1107.5, restarts disagree, no German.",
    "result": "failed"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "frequency analysis"],
    "what": "One-part (alphabetical) code: token-mass KS test against German syllabary usage rejects natural order over 1-999 (0.192 vs random 0.077) and over 100-999 (0.149).",
    "result": "failed"
   },
@@ -147,12 +147,12 @@
    "result": "failed"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "statistical test"],
    "what": "Column-numbered one-part code as in the Hessian keys (units digit = column), cyclic orders and multiplicative numberings: no better fit than random numberings.",
    "result": "failed"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "repeat/pattern analysis", "statistical test"],
    "what": "Monotone annealers (after swieten1757/msolve.py) with free codes under 100, per-digit chains, Hessian remap, heat-bath sampling: stall below the truth on alphabetical controls; fragment soup on the real text.",
    "result": "failed"
   },
@@ -162,7 +162,7 @@
    "result": "worked"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "New Year wish implied by the reply ('zu dem angetretenen neuen Jahre', fitting the line-1 hyphen if groups were letters): cannot be placed in a two-part code with unknown unit boundaries.",
    "result": "failed"
   }

@@ -137,7 +137,7 @@
    "result": "partial"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring", "contextual inference"],
    "what": "Beam search over each sign's candidate letters from the key reading, scored with fr-1600-letters.",
    "result": "failed"
   },
@@ -153,7 +153,7 @@
   "contribution": ["transcription"],
   "class": "not read",
   "fraction_read": 0,
-  "verification": "unknown",
+  "verification": ["none"],
   "notes": "Closed: key photo partial, reply of 9 Dec 1610 paraphrases only; 72 4 79 = [Conchine?] le pape avec is tentative. Reopen with Lasry's R2077 decryption or a BnF fr. 3642 image."
  }
 }

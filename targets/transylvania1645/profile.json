@@ -272,7 +272,7 @@
   },
   {
    "date": "2026-09-23",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "50 deterministic annealing restarts with hu-modern quadgrams (attack.py); stable readable Hungarian at restart 2, including kiralynak, szandekaban, hadakozni, szomszedorszagokat; transcription errors remain.",
    "result": "partial"
   },
@@ -284,7 +284,7 @@
   },
   {
    "date": "2026-09-23",
-   "kind": "solver",
+   "kind": "solver", "technique": ["language-model scoring"],
    "what": "Independent 50-restart hu-modern quadgram probes on R4937 and R4942 extracts yielded Hungarian fragments but wrong or transcription-confounded key assignments. R4941 quadgram and quintgram probes did not yield coherent reading.",
    "result": "partial"
   },
@@ -308,17 +308,16 @@
   },
   {
    "date": "2026-09-23",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "noisy_probe.py proposes only penalized glyph-confusion corrections to provisional R4936 transcription; outputs are unverified hypotheses and not a completed reading.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 23 tokens, 14 types, hu-modern order 4: reading -2.835 per letter; Verdict: too short.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "hu-modern", "file": "validation.tsv", "tokens": 23, "types": 14, "tokens_per_type": 1.64, "score": -2.835, "nulls": {}, "verdict": "too short", "notes": "claimed per-occurrence score -2.835; polyphony 0.0; 0 unread tokens left out; annealer on the real text from random keys reached n/a"}, 
   "class": "read in part",
   "key": "partial",
-  "verification": [
-   "none"
-  ],
+  "verification": ["none"],
   "notes": "In progress: R4940 cipher expressions read, others unverified or untranscribed. No group completion or novelty claim.",
   "method": "key recovered from ciphertext-only",
   "method_basis": "Hungarian letter substitution recovered by quadgram annealing on R4936 (hu-modern model); R4940 cipher spans (23 letters) read with the shared alphabet family; the other nine records are unread or unverified."

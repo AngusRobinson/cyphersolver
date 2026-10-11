@@ -887,7 +887,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "Frequency and repeat count: 208 distinct groups in 331 over a ~2,500-group code, repeated multi-group phrases; too little text for a ciphertext-only attack.",
    "result": "ruled out"
   },
@@ -902,7 +902,7 @@
    "result": "failed"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching"],
    "what": "Neighbouring 'Decrypted' records of busta 2337 checked for the same code: R9569, R9571 and R9589 (1823) share it and carry interlinear glosses; R9590 (1830) is another code.",
    "result": "worked"
   },
@@ -912,7 +912,7 @@
    "result": "worked"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "plaintext matching"],
    "what": "Glosses aligned group by group: about 110 values, syllabic and word-level, homophonic; 5-figure groups fall where the gloss has nothing (nulls); local alphabetical runs noticed.",
    "result": "worked"
   },
@@ -922,12 +922,13 @@
    "result": "partial"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["language-model scoring", "contextual inference"],
    "what": "Per-group candidate scoring with the it-modern 5-gram LM over known neighbours (length bonus, then PMI): no discrimination between candidates.",
    "result": "failed"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 4482 tokens, 260 types, it-modern order 4: reading -1.831 per letter; random keys -2.472 (z 7.4); key annealed onto shuffled ciphertext best -1.84 (mean -1.86, z 2.1); annealer on the real text -1.811. Verdict: underdetermined.", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "it-modern", "file": "validation.tsv", "tokens": 4482, "types": 260, "tokens_per_type": 17.24, "score": -1.831, "nulls": {"random keys": {"n": 200, "mean": -2.472, "sd": 0.086, "max": -2.248, "z": 7.4, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -1.86, "sd": 0.014, "max": -1.84, "z": 2.1, "p": 0.1429}}, "power": -1.811, "verdict": "underdetermined", "notes": "claimed per-occurrence score -1.831; polyphony 0.0; 4946 unread tokens left out; annealer on the real text from random keys reached -1.811"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "About 110 code values were aligned from the contemporary interlinear decipherments on R9566 p. 3 and the 1823 siblings R9569, R9571, R9589 in the same ASNa busta 2337, then extended by hand from repeated contexts.",
   "contribution": ["transcription", "key recovered", "sender or date identified"],
@@ -942,9 +943,7 @@
    "tokens_open": 5853
   },
   "grades": "unknown",
-  "verification": [
-   "contemporary decipherment"
-  ],
+  "verification": ["contemporary decipherment"],
   "notes": "fraction_read = share of main-code groups in the target letters of catalogue 166 and 167 with any key value (key.tsv grades G/X/I; about a third of the values are unconfirmed inferences). No letter reads through; sender/recipient, dates and code structure established. Remeasured 21 Sept 2026 over all 27 documents: 0.429 (was 0.447). Having a value is not reading: no letter reads through. R9569/R9571/R9589 marked read on their contemporary interlinear decipherments.",
   "gaps": [
    {

@@ -228,7 +228,7 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Calibrated the key on this scribe's shapes against the line-by-line margin decipherment of the sibling letter f. 57 (13 Aug 1563, view 38); its first ciphered line reads 'que les princes', fixing p, r, i, n, c and e.",
    "result": "worked"
   },
@@ -264,7 +264,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding", "language-model scoring", "contextual inference"],
    "what": "Wrote lattice.py: beam decoder over per-glyph candidate values under the fr-1530-despatches model (lang/), so homophone choices are made by the language model, not by eye.",
    "result": "worked"
   },
@@ -282,7 +282,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Colbert 390 p.138 (same hand as p.139): aligned its contemporary margin decipherment against the cipher; fixed ℌ=r, ƀ=e, ſſ=o, 9=m/n, z=a/p, ⊥⊥=pour, ca=faire for this hand.",
    "result": "worked"
   },
@@ -318,13 +318,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Aligned the margin decipherments of fr. 3181 f.57 and f.58 (same hand as f.55) sign by sign (fr3181_glossed.md): ᑲ=e (never s), ʃʃ=le, ‡̲=con, u̲=pour, ∠=vous; f.55 now about 80% secure, 11% probable. The f.57 margin reads 'par France', not 'par Ferrare'.",
    "result": "worked"
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Harvested glossed passages elsewhere in Colbert 390 (pp.189/199, 221-231, 241; colbert390_glossed.md): N=l, ♯=y, €=f, plain ℊ=u, ‖=plus, pl=bien, h=b; the other signs blocking p.139 and c392 occur in no gloss found. pp.241-305 are in the f.52 hand, not f.55's.",
    "result": "partial"
   },
@@ -342,7 +342,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Full decipherments aligned: Colbert 390 p.317/p.313 (ẟ=com, W=ss, π=h, Ꝫ=p) and p.117-118/p.120-121 (ẟ+superscript = code word, ẟa=Allemaigne; 7=nous; ⊥⊥=pour); 1564 glossed pp.339-349 (∂ˡ=Metz). Applied to p.139 (~65%) and Colbert 392 (~85%).",
    "result": "partial"
   },

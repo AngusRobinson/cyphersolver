@@ -1,0 +1,10 @@
+# model: en-modern
+# source: ciphertext.txt + plaintext.txt (NOTES Reading table, key from targets/harley1582r8500/key.tsv)
+# note: one ciphered word in a clear letter
+E	p
+Π	r
+x	i
+h	n
+ρ	c
+6	e
+II	s

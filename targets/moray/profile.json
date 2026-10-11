@@ -93,7 +93,7 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "Counts, IC, repeats; 'r 17 10' = the tried and not preferred.",
    "result": "worked"
   },
@@ -105,25 +105,25 @@
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Homophonic annealing under Scots, English, French and Latin models.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Nulls, separators and merged variant families tested.",
    "result": "ruled out"
   },
   {
    "date": "2026-09-15",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["statistical test"],
    "what": "Rare symbols as word codes; matched control shows the test has no power.",
    "result": "failed"
   },
   {
    "date": "2026-09-15",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "Twenty words and names dragged over 730 placements; none supported.",
    "result": "failed"
   }

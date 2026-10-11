@@ -120,7 +120,7 @@
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Letter-layer anneal on the target, six seeds: unrelated fragments, no agreement.",
    "result": "failed"
   },

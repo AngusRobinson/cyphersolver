@@ -113,12 +113,12 @@
    "result": "worked"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "18 = qu (qualche, quel, questo), 55 = gli (ma egli), 67 = g (grat-) from context.",
    "result": "worked"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "45 9441 43 (before -te divinis), 9336 9485 (before di Tournai), 9356, 76: no second occurrence to confirm any value; left open.",
    "result": "failed"
   }

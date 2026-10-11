@@ -91,7 +91,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Identified ff. 112v-113r as Walsingham letter-book: Walsingham to Burghley 25 June 1571 (cipher) and Elizabeth to Walsingham (clear).",
    "result": "worked",
    "date": "2026-09-22"
@@ -109,7 +109,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Pattern check: ABCDEFAFF fits no English word under one-to-one substitution.",
    "result": "failed",
    "date": "2026-09-22"

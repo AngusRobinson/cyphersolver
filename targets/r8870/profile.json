@@ -95,7 +95,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "463 distinct, 257 hapax, max 1647: flat large code.",
    "result": "worked",
    "date": "2026-09-21"

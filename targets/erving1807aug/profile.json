@@ -123,7 +123,7 @@
   },
   {
    "date": "2026-10-04",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "key matching"],
    "what": "Aligned every group with the Founders text at its place (aligned.txt, 1,145 groups) and built the key (414 rows); values carried to every other occurrence and tested there.",
    "result": "worked"
   },
@@ -144,9 +144,10 @@
    "kind": "verification",
    "what": "Adversarial review by OpenAI Codex (codex_review/): confirmed but overstated; 716 tokens (62.5%) with outside support, 908 (79.3%) with recurrence or outside support; 53 sampled groups match the images; conservative sensitivity count 1,081/1,147 = 94.25%.",
    "result": "partial"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1107 tokens, 390 types, en-modern order 4: reading -2.009 per letter; random keys -3.061 (z 11.0); key annealed onto shuffled ciphertext best -2.145 (mean -2.157, z 16.8); annealer on the real text -2.097. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-modern", "file": "validation.tsv", "tokens": 1107, "types": 390, "tokens_per_type": 2.84, "score": -2.009, "nulls": {"random keys": {"n": 200, "mean": -3.061, "sd": 0.095, "max": -2.861, "z": 11.0, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.157, "sd": 0.009, "max": -2.145, "z": 16.8, "p": 0.1429}}, "power": -2.097, "verdict": "pass", "notes": "claimed per-occurrence score -1.967; polyphony 0.041; 38 unread tokens left out; annealer on the real text from random keys reached -2.097"}, 
   "class": "read",
   "key": "partial",
   "method": "key recovered based on plaintext from external sources",
@@ -166,10 +167,7 @@
    "tokens_open": 9
   },
   "grades": "unknown",
-  "verification": [
-   "key confirms",
-   "historical consistency"
-  ],
+  "verification": ["key confirms", "historical consistency", "statistical test"],
   "gaps": [
    {
     "item": "code group 633 ('his [?] intrigues')",

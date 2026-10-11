@@ -179,13 +179,13 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "plaintext matching"],
    "what": "R3697 third pass: the decipherer's glosses used as cribs on the struck runs ('au marchant', 'ung sansacque cy prochain', 'amiablement pour la charge qu'il a de Vesprim'); struck runs from about 20% to 40%; 'soubz umbre de marchandise', 'fus adverty, meu de coniecture' read.",
    "result": "partial",
    "date": "2026-09-22"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "f. 25r r8-r9 read as '... Anthon[e] de Le[yve] de luy tenir le guet' (Antonio de Leyva, governor of Milan); not secured by the signs.",
    "result": "partial",
    "date": "2026-09-22"
@@ -215,7 +215,7 @@
    "date": "2026-10-05"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["plaintext matching", "contextual inference"],
    "what": "5 Oct 2026: C2 middle signs (W ɦ ‡ ot ω ot x z q ꝏ ot ‡ / ꝏ ʒ 7 ‡ ot ꝏ L 4 p / / ω ot) tested against gloss-led candidates (de ses maistres, grand credit, du Turc); none fits the recorded shapes; r8 'a pr[...]' retested with ∂ = a and ∂ɜ = r (a paie / a prevenu / a prié): no fit.",
    "result": "failed",
    "date": "2026-10-05"

@@ -95,7 +95,7 @@
    "result": "worked"
   },
   {
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Record is composite: Throckmorton (41)-(54), Somer (1)-(10) signed J. Somer, Smith (11)-(17). \"Lomer\" = Somer.",
    "result": "worked"
   },
@@ -110,7 +110,7 @@
    "result": "worked"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Applied R9262 values to passage (1): \"from the French ambassador advertised the same\", matching CSP §3.",
    "result": "worked"
   }

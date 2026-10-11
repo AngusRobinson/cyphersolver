@@ -92,13 +92,13 @@
  "solution": [
   {
    "date": "2026-09-15",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Syllable statistics: Yamada's 20 consonants, rare u pointing to a vowel-major table.",
    "result": "worked"
   },
   {
    "date": "2026-09-15",
-   "kind": "solver",
+   "kind": "solver", "technique": ["exhaustive search", "language-model scoring"],
    "what": "Brute force of the systematic condenser family scored by a Chinese character LM; winner 49 points clear.",
    "result": "worked"
   },
@@ -122,12 +122,12 @@
   },
   {
    "date": "2026-09-30",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["beam/DP decoding", "contextual inference"],
    "what": "Tail re-examined as a Morse transmission slip (the received sheet is clean, so the errors are the telegraph's): p (.--.) = a (.-) + n (-.) with the letter space lost, so ropezpo = ro pe za no = 返港 'returns to Hong Kong'. A Morse re-division search (morse_tail.py) of zpo gives four valid codes at one space change (港, 砉, 彼, 嫗); only 港 fits. The last word ngobunibai gives no sensible decoding with up to four space changes; 翼□ (5068) one-letter and one-element Morse slips give no word or known name.",
    "result": "worked"
   }
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "verdict": "not applicable", "notes": "plaintext is Chinese (telegraph code); no letter model"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The condenser table (20 consonants rotated to start at l, vowels e a i o u, numbered column-major) was deduced from the ciphertext by analogy with Yamada's known tables, then read through the standard Chinese telegraph code; Tomokiyo's attempts with Yamada's own tables had failed.",
   "contribution": [

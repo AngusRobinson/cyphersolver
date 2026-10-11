@@ -187,7 +187,7 @@
   },
   {
    "date": "2026-09-23",
-   "kind": "crib",
+   "kind": "crib", "technique": ["EM alignment", "crib testing", "repeat/pattern analysis"],
    "what": "Known-plaintext alignment of two runs against Puig's italics: line 1-2 'cum duce Burgundie' after a dotted-V sign for the King of Aragon, line 8 'et presertim scribe qu...'. Consistent values u = cb (3x), e = delta (4x), s = T (2x), m = t (2x), d = double cross (2x), c/i = o, b = T-bar; one clash.",
    "result": "partial"
   },
@@ -211,7 +211,7 @@
   },
   {
    "date": "2026-09-23",
-   "kind": "crib",
+   "kind": "crib", "technique": ["EM alignment", "crib testing", "repeat/pattern analysis", "language-model scoring"],
    "what": "Known-plaintext alignment over all cipher runs of the plate (lines 1-6, 8-17, 23-25), word by word against Puig's italics. One sign per letter emerges: a hook, b T-bar, c/i/o o, d double cross, e delta, f flagged sigma, g 4-shape, h 2-shape, l looped d, m footed epsilon, n, p inverted T, q double-barred upright, r upright, s T, t c', u/v cb, x alpha-shape; dotted V = King of Aragon (4x). The first session's clash was a misread of joined strokes.",
    "result": "worked"
   },

@@ -96,25 +96,25 @@
  "solution": [
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Unconstrained homophonic annealing, 16 restarts; converges on a non-Italian optimum.",
    "result": "failed"
   },
   {
    "date": "2026-09-16",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "key matching"],
    "what": "Tomokiyo's crib 'Al principe di' taken literally needs 17 = i and n.",
    "result": "partial"
   },
   {
    "date": "2026-09-16",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "crib testing"],
    "what": "Eight consistent crib letters fixed, other 16 figures annealed; all six seeds agree on Italian.",
    "result": "worked"
   },
   {
    "date": "2026-09-16",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "contextual inference"],
    "what": "Polyphony 17 = i/n, 19 = t/s read off the contexts.",
    "result": "worked"
   },
@@ -153,19 +153,17 @@
    "kind": "verification",
    "what": "Polyphony withdrawn after G. Lasry's review: 19 is s (six times, s has no other figure); the three places needing t are encipherment slips (19 in both places of Transiuania on the image). Key table and page corrected.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 231 tokens, 24 types, it-cinquecento order 4: reading -2.043 per letter; random keys -4.124 (z 8.1); key annealed onto shuffled ciphertext best -2.865 (mean -2.922, z 18.0); annealer on the real text -2.75. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 231, "types": 24, "tokens_per_type": 9.62, "score": -2.043, "nulls": {"random keys": {"n": 200, "mean": -4.124, "sd": 0.257, "max": -3.539, "z": 8.1, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.922, "sd": 0.049, "max": -2.865, "z": 18.0, "p": 0.1429}}, "power": -2.75, "verdict": "pass", "notes": "claimed per-occurrence score -1.993; polyphony 0.017; 0 unread tokens left out; annealer on the real text from random keys reached -2.75"}, 
   "method": "key recovered based on plaintext from external sources",
   "method_basis": "The key was rebuilt by annealing with eight letters fixed from Tomokiyo's published partial decipherment 'Al principe di trenti...' (cryptiana variable2.htm), found before the attempt; the clear frame of the letter was not seen until the second session.",
   "contribution": ["key recovered", "transcription", "catalogue correction"],
   "class": "read",
   "fraction_read": 1.0,
   "grades": "unknown",
-  "verification": [
-   "matched control",
-   "historical consistency"
-  ],
+  "verification": ["matched control", "historical consistency", "statistical test"],
   "notes": "Transcription corrected against the DECODE images 22 Sept 2026 (ten 17->14); 17 is not polyphonic; 19 = s, its three t-contexts are the writer's encipherment slips (G. Lasry, 21 Sept 2026: no polyphony here). Odd spellings ogn, Transiuania look like the writer's. Speaker Koniecpolski per the clear frame."
  }
 }

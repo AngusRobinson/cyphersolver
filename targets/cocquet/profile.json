@@ -88,7 +88,7 @@
   },
   {
    "date": "2026-09-16",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["repeat/pattern analysis"],
    "what": "Gate measurement: about 160 glyphs over 40-50 units in nine runs, the du Croc regime, below threshold.",
    "result": "partial"
   },

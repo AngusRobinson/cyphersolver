@@ -115,7 +115,7 @@
    "date": "2026-09-21"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Aligned the Italian note under the cipher as its plaintext: 43 distinct tokens for 60 letters.",
    "result": "failed",
    "date": "2026-09-21"

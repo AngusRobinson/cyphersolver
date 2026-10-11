@@ -185,13 +185,13 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Compared R1026 and R1027 group inventories; they share 49 groups and therefore use the same code system.",
    "result": "worked"
   },
   {
    "date": "2026-09-20",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Separated R1893 as a different system because its three-digit groups carry systematic per-digit marks absent from the earlier dispatches.",
    "result": "worked"
   },
@@ -221,13 +221,13 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["beam/DP decoding"],
    "what": "Resolved each J+ as any digit by beam search with a French 6-gram model (hellen1752 corpus); 105 groups resolved, both letters read.",
    "result": "worked"
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["crib testing"],
    "what": "Assessed R1893 (696 marked three-digit tokens, 513 distinct) for ciphertext-only attack; code too large for the text, no key or crib found.",
    "result": "failed"
   }

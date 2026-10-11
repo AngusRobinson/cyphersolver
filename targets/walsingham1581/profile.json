@@ -67,7 +67,7 @@
   },
   {
    "date": "2026-09-23",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "EM alignment", "language-model scoring"],
    "what": "Compared key to manuscript and attempted numeric-label alignment and language-model solving. French 5-gram homophonic annealing (48 restarts x 10M) and English passes gave nonsense; no label-to-glyph concordance could be fixed from the short published opening.",
    "result": "failed"
   }

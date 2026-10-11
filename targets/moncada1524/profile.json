@@ -126,7 +126,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "repeat/pattern analysis", "plaintext matching"],
    "what": "EM alignment of each run against the printed plaintext (em_align.py; sign emits 0-2 letters, letters may be skipped, printed gap free) gave the homophonic key; finished by hand in KEY.md.",
    "result": "worked"
   },

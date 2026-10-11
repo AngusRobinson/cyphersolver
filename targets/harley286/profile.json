@@ -106,7 +106,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis", "contextual inference"],
    "what": "Hand crib on recurring words: 'plena luna', 'convulsio(nem)', 'difficil-'; with Latin month names and numerals this gave most of the alphabet.",
    "result": "worked"
   },
@@ -133,9 +133,10 @@
    "kind": "reading",
    "what": "Pass 2 on re-crops at 3x: meos, amplexus, incidebat, tres, sperabam, convul-sum confirmed letter by letter; 277 of 287 words read.",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1263 tokens, 32 types, la order 4: reading -2.287 per letter; random keys -5.456 (z 5.1); key annealed onto shuffled ciphertext best -2.851 (mean -2.881, z 36.0); annealer on the real text -2.244. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "la", "file": "validation.tsv", "tokens": 1263, "types": 32, "tokens_per_type": 39.47, "score": -2.287, "nulls": {"random keys": {"n": 200, "mean": -5.456, "sd": 0.619, "max": -3.919, "z": 5.1, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.881, "sd": 0.016, "max": -2.851, "z": 36.0, "p": 0.1429}}, "power": -2.244, "verdict": "pass", "notes": "claimed per-occurrence score -2.222; polyphony 0.063; 113 unread tokens left out; annealer on the real text from random keys reached -2.244"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The alphabet was rebuilt from probable words guessed from the slip's subject ('plena luna', 'convulsio', 'difficil-', Latin month names and numerals), then checked against Julian weekdays, moon phases and D'Ewes's Autobiography; no plaintext of the slip exists anywhere.",
   "contribution": ["transcription", "key recovered", "sender or date identified"],
@@ -144,10 +145,7 @@
   "fraction_read": 0.965,
   "fraction_read_method": "measured",
   "fraction_read_source": "targets/harley286/transcription.tsv, cipher words (unread and total columns): 277/287; 12 further words doubtful",
-  "verification": [
-   "historical consistency",
-   "key confirms"
-  ],
+  "verification": ["historical consistency", "key confirms", "statistical test"],
   "codes_open": {
    "open": 0,
    "total": 0,

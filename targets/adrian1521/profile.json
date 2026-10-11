@@ -139,7 +139,7 @@
    "what": "Rey de Inglaterra corrected to the King of Portugal (Manuel I, d. 13 Dec 1521) from the cipher and the letter's content.",
    "result": "worked"
   },
-  {"date": "2026-09-30", "kind": "hypothesis", "what": "Gap [suf] re-examined for the quotation list (30 Sept): the line reads Log fun per suf =δ roc t= pex, so Gredilla's 'que no' is the single m-n group per and two spelled signs follow suf; 'en coyuntura muy peligro-sa a los negocios' fits the code blocks only if the δ-like sign is a, but it is y in 'pierde y sentirá'. Left as a guess (I), not put in the text.", "result": "partial"}
+  {"date": "2026-09-30", "kind": "hypothesis", "technique": ["simulated annealing"], "what": "Gap [suf] re-examined for the quotation list (30 Sept): the line reads Log fun per suf =δ roc t= pex, so Gredilla's 'que no' is the single m-n group per and two spelled signs follow suf; 'en coyuntura muy peligro-sa a los negocios' fits the code blocks only if the δ-like sign is a, but it is y in 'pierde y sentirá'. Left as a guess (I), not put in the text.", "result": "partial"}
  ],
  "outcome": {
   "method": "key recovered based on plaintext from external sources",

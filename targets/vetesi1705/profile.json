@@ -114,7 +114,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "repeat/pattern analysis", "plaintext matching"],
    "what": "Hard-EM alignment of cipher runs with DECODE's transcription of the glosses (align.py) to rebuild the key: too noisy, 154/373 groups in mismatched runs; key not rebuilt.",
    "result": "failed"
   }

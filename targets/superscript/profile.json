@@ -244,7 +244,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Established the system: consonant-row glyph + superscript syllable digit, bare glyphs single letters, nulls, codes.",
    "result": "worked"
   },
@@ -262,7 +262,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "contextual inference"],
    "what": "Extended the key from R8613's own context and the L&P 3291 summary (conditiones, duraturam, parcendum pro liberatione filiorum, milliones, colloquia ...).",
    "result": "worked"
   },
@@ -292,7 +292,7 @@
   },
   {
    "date": "2026-10-09",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
    "what": "One-token-one-letter homophonic anneal on R8572 with the it-cinquecento 4-gram model: no Italian (-2.9/char, restarts disagree).",
    "result": "failed"
   },
@@ -325,9 +325,10 @@
    "kind": "reading",
    "what": "With h = s (as in R8476), u8 = o, Q1 = i and nulls xi14, Z9, ɔ10, Z2: 'Et si pinguiores eis offerret conditiones' and 'nisi hec eos spes nutriret'; R8613 measured at 797 of 814 tokens (97.9%).",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 3906 tokens, 384 types, it-cinquecento order 4: reading -2.038 per letter; random keys -3.348 (z 12.5); key annealed onto shuffled ciphertext best -2.524 (mean -2.534, z 59.1); annealer on the real text -2.481. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 3906, "types": 384, "tokens_per_type": 10.17, "score": -2.038, "nulls": {"random keys": {"n": 200, "mean": -3.348, "sd": 0.105, "max": -3.117, "z": 12.5, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.534, "sd": 0.008, "max": -2.524, "z": 59.1, "p": 0.1429}}, "power": -2.481, "verdict": "pass", "notes": "claimed per-occurrence score -2.029; polyphony 0.021; 19 unread tokens left out; annealer on the real text from random keys reached -2.481"}, 
   "method": "key recovered based on plaintext from external sources",
   "method_basis": "R8613 had no decipherment; its key was rebuilt from three other letters in the same cipher whose decipherments are in print (St.P. VI 552, L&P iv 5282) or interlined (R8590), then extended from R8613's own context.",
   "parts": [
@@ -359,10 +360,7 @@
   "fraction_read": 0.965,
   "fraction_read_method": "measured",
   "fraction_read_source": "R8613: r8613_reading.txt, 814 cipher tokens (r8613_cipher.txt), 17 unread -> 797 (97.9%); R8572: gilino/reading_r8572.txt, 2,989 significant tokens, 9 unread + ~108 in doubtful words -> 2,872 (96.1%); combined 3,669 of 3,803 = 0.965.",
-  "verification": [
-   "historical consistency",
-   "key confirms"
-  ],
+  "verification": ["historical consistency", "key confirms", "statistical test"],
   "gaps": [
    {
     "item": "R8613 P1 l1: 3 tokens (c; b t7)",

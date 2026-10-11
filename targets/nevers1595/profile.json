@@ -97,13 +97,13 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis", "repeat/pattern analysis"],
    "what": "Sign counts: 1 (112), 2 (92), o (74); 1 is followed by another figure in 87% of cases; '2o' 33 times, '41' 14 times; few repeats longer than 4 signs.",
    "result": "partial"
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "frequency analysis", "language-model scoring", "statistical test"],
    "what": "Homophonic anneal (fr-1600-letters, order 5), units = two-digit 1x/2x plus single signs; collapsed to 'iiii' (Roman numerals in the corpus), then with a letter-frequency penalty: no French (-2.5/unit). (anneal.py was later shown too weak: it fails its own control.)",
    "result": "failed"
   },
@@ -139,7 +139,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Anneal with every sign a unit (glyph mode): no French (-2.8/unit).",
    "result": "failed"
   },
@@ -163,7 +163,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["automated search (unspecified)"],
    "what": "hsolve.py on the letter under six unit models (every sign; 1x/2x pairs; every figure pair; 1+sign; decade collapse; no. 65 design with 10/20.. nulls and >=65 codes): best -2.54 to -3.13 per window, restarts disagree, no French.",
    "result": "failed"
   },
@@ -175,7 +175,7 @@
   },
   {
    "date": "2026-09-22",
-   "kind": "solver",
+   "kind": "solver", "technique": ["automated search (unspecified)"],
    "what": "hsyl.py on the letter: no French (-2.16/char).",
    "result": "failed"
   },

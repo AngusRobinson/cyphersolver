@@ -439,7 +439,7 @@
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["simulated annealing", "language-model scoring"],
       "what": "Homophonic simulated annealing (homsolve.py, it-cinquecento and la order-4 LMs, unigram KL prior) on R4794: no convergence, restarts disagree.",
       "result": "failed"
     },
@@ -451,7 +451,7 @@
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["simulated annealing", "frequency analysis", "repeat/pattern analysis", "language-model scoring"],
       "what": "Homophonic annealing on no. 6, 8 restarts x 200k iterations, Italian and Latin: no convergence (-2.66 / -2.64 per char, gibberish); IC x types 1.93, few repeats beyond trigrams ('p p W' 7x, 'SS 3 W' 5x).",
       "result": "failed"
     },
@@ -469,19 +469,19 @@
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["language-model scoring"],
       "what": "wordsolve.py (spaced it-cinquecento LM, order 4/5, 10 x 300k) on no. 14 without cribs: stuck on pseudo-Italian.",
       "result": "failed"
     },
     {
       "date": "2026-09-24",
-      "kind": "crib",
+      "kind": "crib", "technique": ["simulated annealing", "crib testing", "repeat/pattern analysis"],
       "what": "Hand crib on the recurring words '8 6 RR IB VB Q' = nostra/vostra, 'RR IB EQ IB 6' = stato, 'Y 6 RR IB VB' = vostr-: re-anneal gives Italian ('del nostro stato e dela nostra cita', 'considerano', 'carlo', 'toscana').",
       "result": "worked"
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["simulated annealing", "frequency analysis"],
       "what": "homsolve2.py (staged order 3->4 anneal, frequency-seeded restarts, swap moves) on no. 14 with NO crib reaches the same key and better score (-3991 on the corrected transcription).",
       "result": "worked"
     },
@@ -493,13 +493,13 @@
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["automated search (unspecified)"],
       "what": "No. 20: homsolve.py Italian/Latin, with and without f/o^n as nulls, and with f as word divider; homsolve2.py Latin: no convergence.",
       "result": "failed"
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["simulated annealing"],
       "what": "No. 11 (Acciaiuoli 1478, 409 tokens, 44 signs, 'PLUS O' merged): homophonic anneal Italian, no convergence.",
       "result": "failed"
     },
@@ -511,7 +511,7 @@
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["automated search (unspecified)"],
       "what": "homsolve2 words=1 on no. 25: Latin fails; Italian gives the key unaided (Radichondoli, Chasole, Laiaticho, 'provedere di pane vino biada'); hand fixes H=h, Y=m.",
       "result": "worked"
     },
@@ -535,7 +535,7 @@
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["crib testing", "repeat/pattern analysis"],
       "what": "No. 17 (1528, 282 tokens): homsolve2 Italian 40 restarts; best runs throw up 'pitiliano', 'questo', 'cardinal', 'pratica' but no coherent text; crib Pitiliano fixed: no convergence (too short for 40+ signs).",
       "result": "failed"
     },
@@ -553,13 +553,13 @@
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["automated search (unspecified)"],
       "what": "No. 20 + no. 23 (4,900 tokens): homsolve2 Italian/Latin/Catalan/Spanish, order 3-4-5, with f-groups (f o^n, f a, f o) merged as units, with superscripted signs as nulls, with o as null: no convergence.",
       "result": "failed"
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["repeat/pattern analysis", "contextual inference"],
       "what": "Bigram-capable solver (sylsolve.py: a sign may stand for a letter or one of 40 Italian bigrams), validated on a synthetic cipher, run on nos. 6, 24 and 23: no convergence.",
       "result": "failed"
     },
@@ -571,7 +571,7 @@
     },
     {
       "date": "2026-09-24",
-      "kind": "solver",
+      "kind": "solver", "technique": ["language-model scoring", "key matching"],
       "what": "No. 18 (1,456 tokens, 211 point-divided Latin cipher words, 30 signs): homsolve2 words=1 with the Latin LM recovers the key unaided (Siena-Empire treaty articles, Ponte a Valiano, Florentines).",
       "result": "worked"
     },
@@ -586,9 +586,10 @@
       "kind": "verification",
       "what": "No. 25 L03 'presa' re-checked on the DECODE image for the quotation list: second sign X (r) certain, excluding 'spesa'; blotted first sign has the looped-cross shape of Q (p), not PHI. 'senza altra presa fare' kept (p M, rest H); the opening through 'sarano a Radichondoli' reads continuously.",
       "result": "worked"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1316 tokens, 55 types, it-cinquecento order 4: reading -2.13 per letter; random keys -4.39 (z 7.4); key annealed onto shuffled ciphertext best -2.905 (mean -2.928, z 69.1); annealer on the real text -2.52. Verdict: pass.", "result": "worked"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 1316, "types": 55, "tokens_per_type": 23.93, "score": -2.13, "nulls": {"random keys": {"n": 200, "mean": -4.39, "sd": 0.307, "max": -3.767, "z": 7.4, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.928, "sd": 0.012, "max": -2.905, "z": 69.1, "p": 0.1429}}, "power": -2.52, "verdict": "pass", "notes": "claimed per-occurrence score -2.039; polyphony 0.027; 661 unread tokens left out; annealer on the real text from random keys reached -2.52"}, 
     "method": "key recovered from ciphertext-only",
     "method_basis": "No. 14 and no. 25: keys recovered ciphertext-only (homsolve2, no crib needed); no. 4: key rebuilt from an alphabet fragment and glosses on the letter; nos. 8, 10, 13 read at the time; no. 12 decrypted per DECODE R1858. No. 18: key recovered ciphertext-only (Latin).",
     "contribution": [
@@ -602,9 +603,7 @@
     "fraction_read": 0.22,
     "fraction_read_method": "estimated",
     "fraction_read_source": "tokens in words read as sense: no. 25 477/496, no. 18 1,271/1,459, no. 14 ~757/1,291, no. 4 114/144, over ~13,400 cipher tokens transcribed",
-    "verification": [
-      "historical consistency"
-    ],
+    "verification": ["historical consistency", "statistical test"],
     "gaps": [
       {
         "item": "no. 1 (1421), nos. 2, 26, 27, 28",

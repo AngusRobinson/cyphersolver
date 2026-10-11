@@ -161,13 +161,13 @@
     },
     {
       "date": "2026-09-23",
-      "kind": "solver",
+      "kind": "solver", "technique": ["hill climbing", "repeat/pattern analysis"],
       "what": "Tested 63 greedy one/two-digit prefix partitions. Unrestricted homophonic scoring collapsed to repeated letters; constrained swaps produced no coherent text. Testing point-delimited pairs next.",
       "result": "failed"
     },
     {
       "date": "2026-09-23",
-      "kind": "solver",
+      "kind": "solver", "technique": ["hill climbing", "beam/DP decoding"],
       "what": "Swept 1566 retained forward/backward greedy prefix segmentations on the frozen initial draft; six pair variants and pointed-six null variants gave no coherent manuscript plaintext.",
       "result": "failed"
     },
@@ -179,7 +179,7 @@
     },
     {
       "date": "2026-09-23",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing", "contextual inference"],
       "what": "Imposed hypothetical mais...jamais, then ne/ni, in point-delimited pair parses of May. No coherent extension; all crib mappings rejected as unvalidated.",
       "result": "failed"
     },
@@ -209,7 +209,7 @@
     },
     {
       "date": "2026-10-07",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing"],
       "what": "AngusRobinson (PR #20): guessed three similar figure strings as l'empereur / empereur, giving one- and two-figure units with homophones and 6 = word space.",
       "result": "worked"
     },
@@ -236,9 +236,10 @@
       "kind": "literature search",
       "what": "Web search for a prior reading (Cryptiana, Nevers/l'Abbé 1577): none found.",
       "result": "failed"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 534 tokens, 28 types, fr-1530-despatches order 4: reading -2.269 per letter; random keys -6.422 (z 7.4); key annealed onto shuffled ciphertext best -3.53 (mean -3.613, z 22.1); annealer on the real text -2.269. Verdict: pass.", "result": "worked"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1530-despatches", "file": "validation.tsv", "tokens": 534, "types": 28, "tokens_per_type": 19.07, "score": -2.269, "nulls": {"random keys": {"n": 200, "mean": -6.422, "sd": 0.561, "max": -4.698, "z": 7.4, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.613, "sd": 0.061, "max": -3.53, "z": 22.1, "p": 0.1429}}, "power": -2.269, "verdict": "pass", "notes": "claimed per-occurrence score -2.269; polyphony 0.0; 2 unread tokens left out; annealer on the real text from random keys reached -2.269"}, 
     "method": "key recovered from ciphertext-only",
     "method_basis": "AngusRobinson (PR #20) recovered the numerical homophonic key from the ciphertext with a probable word (l'empereur) suggested by context; no external plaintext or existing key was used. Checked here against the images and with a shuffle control.",
     "contribution": [
@@ -250,11 +251,7 @@
     "fraction_read": 0.996,
     "fraction_read_method": "measured",
     "fraction_read_source": "reading_pr20.txt via decode_pr20.py: 534 of 536 cipher tokens (word spaces included) read; 2 blotted figures restored from context.",
-    "verification": [
-      "matched control",
-      "historical consistency",
-      "key confirms"
-    ],
+    "verification": ["matched control", "historical consistency", "key confirms", "statistical test"],
     "gaps": [
       {
         "item": "f64r03, f64r08: one figure each under a blot",

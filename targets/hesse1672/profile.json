@@ -119,7 +119,7 @@
    "date": "2026-10-09"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "plaintext matching"],
    "what": "Margin gloss 'disgustirt und erta?in holstein' tried against passage 1 with doubled capitals as nulls and as letters.",
    "result": "failed",
    "date": "2026-10-09"
@@ -155,7 +155,7 @@
    "date": "2026-10-09"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["language-model scoring"],
    "what": "de-1640s LM search over the five open signs (e r t a d) allowing up to two copy slips.",
    "result": "failed",
    "date": "2026-10-09"
@@ -167,19 +167,19 @@
    "date": "2026-10-09"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["contextual inference"],
    "what": "Glyph look-alike search (search_glyph.py): each of the five signs replaced by digit look-alikes (1/7, 2/7, 3/5/8, 6/0/8, 4/9) or the key's stem-and-loop syllable signs, up to two changes, scored with de-1640s in context 'Totaliter disgustirt und ___ in Holstein'.",
    "result": "failed",
    "date": "2026-10-09"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["hill climbing"],
    "what": "Free-cell search (search_free2.py): 117 and BB free over letters and syllables, since the 1672 table differs from 1666 at 55; no convincing word.",
    "result": "failed",
    "date": "2026-10-09"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["EM alignment", "contextual inference"],
    "what": "Corpus alignment (search_vocab.py): every er-/ver-/ir-/ex-/ent- word of the DTA 1470-1770 corpora aligned to the signs with column-slip and look-alike costs; best candidates need two or more changes.",
    "result": "failed",
    "date": "2026-10-09"

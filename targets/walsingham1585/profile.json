@@ -82,10 +82,10 @@
   {"date": "2026-09-21", "kind": "key from source", "what": "Name code built from the calendar's bracketed glosses (19, 24, 39, 40), no. 106 (20 = Morton) and sense in Wotton's drafts (10, 11, 36).", "result": "partial"},
   {"date": "2026-09-21", "kind": "reading", "what": "Working transcriptions of R4840 and R4844 with numbers glossed.", "result": "partial"},
   {"date": "2026-09-21", "kind": "literature search", "what": "Looked for Wotton's sign-alphabet key on DECODE and in Tomokiyo's Elizabethan cipher pages; none found.", "result": "failed"},
-  {"date": "2026-09-21", "kind": "crib", "what": "Looked for cribs to the R4844 sign words; the interlinear decipherment is blotted out and Wotton's drafts carry no sign text. About 120 signs judged too few to break ciphertext-only.", "result": "failed"},
+  {"date": "2026-09-21", "kind": "crib", "technique": ["crib testing", "plaintext matching"], "what": "Looked for cribs to the R4844 sign words; the interlinear decipherment is blotted out and Wotton's drafts carry no sign text. About 120 signs judged too few to break ciphertext-only.", "result": "failed"},
   {"date": "2026-09-30", "kind": "transcription", "what": "R4840 f. 163 ll. 4-9 re-read on the image for the quotation list (30 Sept): cut after 'towards him' read as 'with the [courage] to procure the practice of 27 and 40, which as he professeth doth greatly [abuse] you, being altogether bent to [ruin] 11 course ... at 3 devotion' (M); old 'overthrow 11' corrected; 28/29/36 glosses not firmed (CSP Scotland viii unreachable, Wotton R4842 has no use of them).", "result": "partial"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "verdict": "not applicable", "notes": "clear letters with about 40 two-digit name codes (one name each) and an unread 14-word sign run; no letter-level cipher reading to test"}, 
   "method": "key recovered based on plaintext from external sources",
   "method_basis": "The two-digit name code was rebuilt mainly from the bracketed glosses in CSP Scotland viii (1914) nos. 40, 41, 65, 106 (19 Arran, 24 Farnihurst, 39 Gray, 40 Justice Clerk, 20 Morton, 10 the King), supplemented by sense in Wotton's drafts R4841-R4843 in the same volume; the letters are otherwise in clear.",
   "contribution": ["transcription", "key recovered"],

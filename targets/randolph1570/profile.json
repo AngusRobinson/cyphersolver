@@ -66,9 +66,9 @@
   {"kind": "literature search", "what": "Tomokiyo's Elizabethan cipher pages: no Randolph-Sussex key.", "result": "failed"},
   {"kind": "literature search", "what": "Boyd CSP Scotland iii on archive.org: no. 339 abstracts the letter (Edinburgh 5 July 1570) from Sussex's clear copy.", "result": "worked"},
   {"kind": "transcription", "what": "Token transcription of the five cipher runs from zoomed crops.", "result": "partial"},
-  {"kind": "crib", "what": "Aligned Boyd's abstract with word lengths: unto, course, and, to, conscien(ce), confidence, home cumming, souldiers may be continewed in pay.", "result": "worked"},
-  {"kind": "solver", "what": "Unconstrained homophonic anneal (en-1640s, word divisions): produced 'murderers and traitors', 'regent', 'whome ... conscience they thinke them selues ... unto'.", "result": "partial"},
-  {"kind": "solver", "what": "Anneal with crib words pinned to fill the ~25 open words: did not converge (merged sign classes).", "result": "failed"},
+  {"kind": "crib", "technique": ["crib testing"], "what": "Aligned Boyd's abstract with word lengths: unto, course, and, to, conscien(ce), confidence, home cumming, souldiers may be continewed in pay.", "result": "worked"},
+  {"kind": "solver", "technique": ["simulated annealing"], "what": "Unconstrained homophonic anneal (en-1640s, word divisions): produced 'murderers and traitors', 'regent', 'whome ... conscience they thinke them selues ... unto'.", "result": "partial"},
+  {"kind": "solver", "technique": ["simulated annealing", "crib testing"], "what": "Anneal with crib words pinned to fill the ~25 open words: did not converge (merged sign classes).", "result": "failed"},
   {"kind": "sibling key", "what": "Swept DECODE records of the same volume: R4932 (f. 278) is the contemporary decipherment of f. 277.", "result": "worked"},
   {"kind": "reading", "what": "Transcribed the f. 278 glosses and checked them against the f. 277 cipher; all five runs read, three gloss words doubtful.", "result": "worked"}
  ],

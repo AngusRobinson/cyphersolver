@@ -786,13 +786,13 @@
   },
   {
    "date": "2026-09-20",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "Compared the filed key against the corpus: 268 four-digit entries against 399 four-digit groups in use, leaving 189 groups without a value in 715 tokens, 11.0% of all nomenclator usage.",
    "result": "worked"
   },
   {
    "date": "2026-09-20",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "repeat/pattern analysis", "contextual inference"],
    "what": "The key is alphabetical in runs, so every unvalued group has a bracket from its nearest valued neighbours; combined with contexts from the 84,961-token corpus this should fix most of them without cryptanalysis.",
    "result": "worked"
   },

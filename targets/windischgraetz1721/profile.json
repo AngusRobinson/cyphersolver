@@ -114,7 +114,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "contextual inference"],
    "what": "Tried to fix open nomenclator codes (78, 103, 182, 205...) from context; none secure.",
    "result": "failed"
   },
@@ -138,7 +138,7 @@
   },
   {
    "date": "2026-10-05",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["key-structure hypothesis", "contextual inference"],
    "what": "Bracketed the 19 open codes in the alphabetical nomenclator against every context (182 nicht, 131 haben, 172 mit, 205 Rialp ...); proposals only, not counted as read.",
    "result": "partial"
   },

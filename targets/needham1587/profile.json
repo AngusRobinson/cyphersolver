@@ -101,7 +101,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing", "EM alignment", "repeat/pattern analysis", "plaintext matching"],
    "what": "Gloss-to-sign alignment gave e, n, o, r, s, t, h, w, m, a, d, v, i, y; showed that dot position (below vs inside) distinguishes letters.",
    "result": "worked"
   },
@@ -125,7 +125,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["repeat/pattern analysis"],
    "what": "Line A read 'want of intelligence', line D 'whether there was any bridge'; recognised the alphabet runs a-i, k-s, t-z through the three grids.",
    "result": "worked"
   },
@@ -140,9 +140,10 @@
    "kind": "verification",
    "what": "Content matches the calendared same-day despatch (bridge across the haven of Sluys, fireship).",
    "result": "worked"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 211 tokens, 21 types, en-1640s order 4: reading -2.487 per letter; random keys -6.534 (z 5.9); key annealed onto shuffled ciphertext best -3.583 (mean -3.723, z 11.0); annealer on the real text -3.272. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-1640s", "file": "validation.tsv", "tokens": 211, "types": 21, "tokens_per_type": 10.05, "score": -2.487, "nulls": {"random keys": {"n": 200, "mean": -6.534, "sd": 0.686, "max": -4.441, "z": 5.9, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.723, "sd": 0.112, "max": -3.583, "z": 11.0, "p": 0.1429}}, "power": -3.272, "verdict": "pass", "notes": "claimed per-occurrence score -2.487; polyphony 0.0; 4 unread tokens left out; annealer on the real text from random keys reached -3.272"}, 
   "method": "key recovered based on adjacent plaintext",
   "method_basis": "Contemporary interlinear glosses on the same pages ('advise', 'enemyes', 'campe nor the towne', 'Burgrave') gave most letter values, and the alphabetical layout of the three-grid pigpen fixed the rest.",
   "contribution": ["transcription", "key recovered", "sender or date identified"],
@@ -154,10 +155,7 @@
    "H": 44,
    "M": 1
   },
-  "verification": [
-   "contemporary decipherment",
-   "historical consistency"
-  ],
+  "verification": ["contemporary decipherment", "historical consistency", "statistical test"],
   "gaps": [
    {
     "item": "Line G word 3, b????ed",

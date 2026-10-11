@@ -238,7 +238,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "hypothesis",
+   "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Metadata 'author: Lord Threr?' read as the addressee; BL catalogue identifies Stowe MS 166 as Edmondes's papers.",
    "result": "worked"
   },
@@ -250,7 +250,7 @@
   },
   {
    "date": "2026-09-21",
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "f. 50: frequent words taken as the/of/to; then 'difficulties', 'empeachement' on f. 109v fixed most letters.",
    "result": "worked"
   },
@@ -346,7 +346,7 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "statistics",
+   "kind": "statistics", "technique": ["frequency analysis"],
    "what": "reading.txt + measure.py: 1023/1035 cipher signs read = 98.8% (11 person code signs, 1 unexplained sign)",
    "result": "worked"
   },
@@ -355,9 +355,10 @@
    "kind": "literature search",
    "what": "Person signs: HMC Salisbury IV and Birch 1749 (searched 30 Sept) print no decipherment naming them; CSP Foreign/List and Analysis 1592-94 not online; Butler pages blocked",
    "result": "failed"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 126 tokens, 19 types, en-1640s order 4: reading -2.279 per letter; random keys -6.414 (z 5.7); key annealed onto shuffled ciphertext best -3.372 (mean -3.552, z 7.6); annealer on the real text -2.443. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-1640s", "file": "validation.tsv", "tokens": 126, "types": 19, "tokens_per_type": 6.63, "score": -2.279, "nulls": {"random keys": {"n": 200, "mean": -6.414, "sd": 0.72, "max": -4.898, "z": 5.7, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.552, "sd": 0.167, "max": -3.372, "z": 7.6, "p": 0.1429}}, "power": -2.443, "verdict": "pass", "notes": "claimed per-occurrence score -1.866; polyphony 0.048; 0 unread tokens left out; annealer on the real text from random keys reached -2.443"}, 
   "method": "key recovered from ciphertext-only",
   "method_basis": "The simple substitution was broken from frequent cipher words guessed as 'the', 'of', 'to' and then 'difficulties', 'empeachement' on f. 109v, with no printed or glossed plaintext in hand. Butler 1913, which prints five of the six letters deciphered, was found on 2026-09-30, after the reading, so this is an independent re-solution of a published decipherment (see conditions.prior_solution).",
   "contribution": [
@@ -376,9 +377,7 @@
   ],
   "fraction_read": 0.988,
   "grades": "unknown",
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency", "statistical test"],
   "notes": "Every cipher line read; measured 98.8% of 1035 signs. Person signs 9, n, 4̇, £, £2, o unconfirmed. Butler 1913 prints R7770-R7773 and R7775 deciphered, found after the reading; compared by page word counts only. Classed read on 3 Oct 2026 (write-up update): 98.8% measured, only the person code signs and one sign open, no key material for them.",
   "fraction_read_method": "measured",
   "fraction_read_source": "measure.py over reading.txt (3 Oct 2026): 1023 of 1035 cipher signs read (one sign = one letter in this simple substitution); 11 person code signs and 1 unexplained sign not read; 99.9% excluding the person signs. Earlier figure 0.89-0.95 was an estimate.",

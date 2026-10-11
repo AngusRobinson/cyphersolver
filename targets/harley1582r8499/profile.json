@@ -103,7 +103,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing", "statistical test"],
    "what": "Blind homophonic annealing (en-1640s): first solver collapsed (model artefact on 'eeee'); rewritten incremental annealer solved synthetic controls, but not R8499.",
    "result": "failed",
    "date": "2026-09-22"
@@ -121,13 +121,13 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "solver",
+   "kind": "solver", "technique": ["simulated annealing"],
    "what": "Nulls removed, key codes and letter values pinned, rest annealed: partial English (Compiegne, the rebels, the Constable, fair words, the pensions, the Low Countries, the resolution taken between the Constable and Carew).",
    "result": "partial",
    "date": "2026-09-22"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Direct reading of p1.02 against the key: 'Compiegne and spake of ... with your highness the rebels with the Constable'.",
    "result": "worked",
    "date": "2026-09-22"
@@ -175,7 +175,7 @@
    "date": "2026-09-22"
   },
   {
-   "kind": "crib",
+   "kind": "crib", "technique": ["crib testing"],
    "what": "Full nomenclator tested against every unread stretch: few codes fit; whole letter 75.0% firm, 89.5% incl. tentative (v7).",
    "result": "partial",
    "date": "2026-09-22"
@@ -209,9 +209,10 @@
    "what": "Full-resolution image re-transcription of unread stretches: p2.25 name read as 'Brimstane, a Scot' (13 of 15 signs); p1.24 '(fy)ve hundrid' tentative; p1.13 run confirmed on the image and still unread after an LM brute force; Stafford 1586 key (harley1582r8500) found to be a different system. Sense 68.9% (final_v9.txt).",
    "result": "partial",
    "date": "2026-10-05"
-  }
+  },
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 2876 tokens, 212 types, en-1640s order 4: reading -2.332 per letter; random keys -3.575 (z 10.7); key annealed onto shuffled ciphertext best -2.529 (mean -2.543, z 12.9); annealer on the real text -2.385. Verdict: pass.", "result": "worked"}
  ],
- "outcome": {
+ "outcome": {"validation": {"date": "2026-10-11", "model": "en-1640s", "file": "validation.tsv", "tokens": 2876, "types": 212, "tokens_per_type": 13.57, "score": -2.332, "nulls": {"random keys": {"n": 200, "mean": -3.575, "sd": 0.117, "max": -3.293, "z": 10.7, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.543, "sd": 0.016, "max": -2.529, "z": 12.9, "p": 0.1429}}, "power": -2.385, "verdict": "pass", "notes": "claimed per-occurrence score -2.187; polyphony 0.054; 273 unread tokens left out; annealer on the real text from random keys reached -2.385"}, 
   "method": "read after matching with key from external sources",
   "method_basis": "The key is DECODE R354 (TNA SP 106/2 f. 162, 'France 1554'), a key filed in another series and not tied to the Wotton letter; the project matched its names and signs to R8499 and applied and corrected it over eight passes.",
   "contribution": [
@@ -227,9 +228,7 @@
    "total": "unknown",
    "tokens_open": "unknown"
   },
-  "verification": [
-   "historical consistency"
-  ],
+  "verification": ["historical consistency", "statistical test"],
   "gaps": [
    {
     "item": "~31% of non-null signs unread, tentative or not sense (p1.13, p1.24, p6.13-14, p3.14, rare codes, Ie)",

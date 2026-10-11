@@ -341,7 +341,7 @@
   "solution": [
     {
       "date": "2026-09-20",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["key-structure hypothesis"],
       "what": "Established in the sanchez1522 session that these nine records are not in Sanchez's cipher: his codes end strictly in b c d f g h l m n, Hurtado's take finals p and z.",
       "result": "worked"
     },
@@ -359,7 +359,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing", "plaintext matching"],
       "what": "Found that R9644 carries both the ciphered letter (ff. 238-239) and a full contemporary clear version (f. 242), headed 'Claro' section by section and keyed to the cipher by marginal letters A, B, C.",
       "result": "worked"
     },
@@ -389,7 +389,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing", "repeat/pattern analysis"],
       "what": "Found the start of the clear version on f. 241 ('Al Rey - de Lope Hurtado, de Roma, del primero de noviembre', then Claro, then lettered sections), so the clear runs ff. 241-242 and covers the cipher of ff. 238-239 from its start.",
       "result": "worked"
     },
@@ -437,7 +437,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing"],
       "what": "Found that R9648 (Non-decrypted) carries the same matter as R9644's clear - 'pregunte a su S.' and 'le avia embiado la carta de v. Mt y q esperava saber lo de Yngalaterra' stand in the clear on its leaves, answering to section C of the R9644 plaintext. Hurtado sent his despatches in duplicate, so one clear version serves both, and R9644's plaintext cribs R9648 as well.",
       "result": "worked"
     },
@@ -509,7 +509,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "crib",
+      "kind": "crib", "technique": ["crib testing"],
       "what": "Found that R9650 also has its own full clear version, on f. 272, headed 'Al Rey - De Lope Hurtado de ...' exactly as R9644's. So there are TWO complete cribs covering two different letters. R9650's brings vocabulary the first lacks - franceses, Italia, dinero, Leon, yglesia, Hieronymo Adorno, don Joan Manuel, visorey de Napoles, posta - which are exactly the content nouns the key is short of. It also gives the letters' subject independently of the cipher: the French determined to come into Italy and sending a great sum of money to Lyon, the Pope to do what he can, Adorno having intercepted letters, the archbishop of Bari the channel to the Emperor.",
       "result": "worked"
     },
@@ -623,7 +623,7 @@
     },
     {
       "date": "2026-10-02",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["crib testing", "key-structure hypothesis", "repeat/pattern analysis", "contextual inference"],
       "what": "Hypothesis that the groups standing right after the run opener Ꮒ are nulls: ʃta, ɡʇo/ɣ̊ʇ/ʑto, ʆ∂, yt, yω. Tested against the one crib that covers such a run (R9649 f. 268: nothing for 'Ꮒ yω ʃta') and against sentence closure in R9634 (14r13, 14v07, 14v14, 14v17, 15r20, 15v07) and R9646 (runs 4 and 5). Holds in every context; ʃta confirmed, the others probable.",
       "result": "worked"
     },
@@ -707,7 +707,7 @@
     },
     {
       "date": "2026-10-03",
-      "kind": "solver",
+      "kind": "solver", "technique": ["exhaustive search"],
       "what": "New wordmatch.py: expands each unread spelled word over the set of letters each sign has been read as in this hand and looks every expansion up in a Spanish lexicon (Quijote, Vasto memorias, Gutenberg Spanish). Accepted only where the sentence also takes the word: sostener, tenia, ser, vio, vivo (R9634), real, hara (R9645). No match for R9646's or R9656's unread words, i.e. each holds a misread sign.",
       "result": "partial"
     },
@@ -728,9 +728,10 @@
       "kind": "reading",
       "what": "Decoded with the pooled key and checked against the faded f. 335r copy: f. 334v 'que esta muy sospechoso (z&∂⊃8ɣ3&∂m, exact) el papa que de alla (zub) se le haya mandado (ϯ74xHo9&, exact) lo que ha fecho' read in full; f. 334r adds no quiere el papa, que hara el papa, me ha dicho, de perder, la cosa del mundo que mas, de lo que truxiere. 177/225 = 78.7% read as sense (was 61.2%). Ten spelled runs still give no word.",
       "result": "partial"
-    }
-  ],
-  "outcome": {
+    },
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 86 tokens, 47 types, es-golden-age order 4: reading -2.031 per letter; random keys -3.463 (z 6.3); key annealed onto shuffled ciphertext best -1.956 (mean -2.019, z -0.3); annealer on the real text -1.916. Verdict: underdetermined.", "result": "partial"}
+   ],
+  "outcome": {"validation": {"date": "2026-10-11", "model": "es-golden-age", "file": "validation.tsv", "tokens": 86, "types": 47, "tokens_per_type": 1.83, "score": -2.031, "nulls": {"random keys": {"n": 200, "mean": -3.463, "sd": 0.226, "max": -2.855, "z": 6.3, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.019, "sd": 0.037, "max": -1.956, "z": -0.3, "p": 0.5714}}, "power": -1.916, "verdict": "underdetermined", "notes": "claimed per-occurrence score -2.031; polyphony 0.0; 3 unread tokens left out; annealer on the real text from random keys reached -1.916"}, 
     "method": "key recovered based on adjacent plaintext",
     "method_basis": "The key was rebuilt by aligning the cipher of R9644 (ff. 238-239) with the clerk's full contemporary clear version bound in the same record (ff. 241-242, 'Claro', keyed by marginal letters A-C), then with the second clear version in R9650 (f. 272); the 1524 alphabet from lopehurtado1523 (itself rebuilt here) was applied back only as a later check.",
     "contribution": [
@@ -740,10 +741,7 @@
     ],
     "class": "read in part",
     "fraction_read": 0.76,
-    "verification": [
-      "contemporary decipherment",
-      "key confirms"
-    ],
+    "verification": ["contemporary decipherment", "key confirms"],
     "notes": "Unpublished cipher, opened 2026-09-20. TWO records carry the clerk's own full contemporary clear version - R9644 (ff. 241-242, in lettered sections keyed to the cipher) and R9650 (f. 272) - and R9648 is R9644's duplicate. R9652 carries no cipher at all - DECODE's 'partially decrypted' is wrong, the leaf is entirely in the clear - and is read complete too. Those four letters are therefore READ COMPLETE as to content (read_r9644.md, read_r9650.md): the Pope Adrian VI temporising between Charles V and Francis I, the French resolved to come into Italy with a great sum of money to Lyon, Hieronymo Adorno's intercepted letters, the Pope's parsimony and his unpaid household, the peace track through the archbishop of Bari. The CIPHER is read in part: 47 CODE values fixed against that plaintext and 29 probable (the 10 substitution-alphabet signs were downgraded to probable on 20 Sept after an 8x zoom showed signs that must be different letters looking near-identical at the zoom they were read at; the code groups, being plain latin trigrams that cross-check, are unaffected), kept apart in a confidence column and audited for conflicts. The key reads outside its own evidence - two thirds of tokens on sight in R9648 and R9650, and 'el papa' unaided in R9656, which has no clear version and no duplicate. Open: the five records with no clear version (R9634, R9645, R9646, R9649, R9656), and a word-perfect edition of any ciphered leaf, which needs the substitution alphabet - all ten alphabet signs probable after the 8x zoom on perdido, the rest limited by per-glyph discrimination on these scans. 2026-10-02: R9634 (Genoa, 13 Sept 1522, Adorno's Provence plan) transcribed and read in part, 71% of tokens measured; R9646 80%; R9649 read in full from its own clear f. 268 (it had been listed as uncribbed). New: ɋ = r, plural z after codes, yob ducado, xu gente, nulls after the opener Ꮒ (ʃta confirmed). Retry 2026-10-02: R9645 73% (re-transcribed, f. 243r = Ferrara capitulation terms), R9656 61% (regraded), R9634 71%; ɣto null and xu = gente confirmed on R9645's glosses. 2026-10-03: fraction_read 0.74 = tokens read as sense over the five measured uncribbed-or-own-clear letters R9634, R9645, R9646, R9649, R9656 (1557/2104); the cribbed R9644/R9648/R9650 are read complete as to content via their clear versions. 2026-10-03 (later): R9656 re-transcribed, 61% -> 79%; fraction_read 0.76 (1603/2115 over the five measured letters).",
     "gaps": [
       {

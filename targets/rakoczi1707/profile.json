@@ -123,7 +123,7 @@
     },
     {
       "date": "2026-09-20",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["contextual inference"],
       "what": "Attributed the unsigned report to Philippe Groffey from the key heading, subject, and diplomatic role.",
       "result": "partial"
     },
@@ -141,7 +141,7 @@
     },
     {
       "date": "2026-10-05",
-      "kind": "hypothesis",
+      "kind": "hypothesis", "technique": ["contextual inference"],
       "what": "Added 89 = Et (three places, gap between 88 M and 90 N) and 12 context-forced one-figure corrections (118 es for 128, 298 ni for 248, etc.), grade C.",
       "result": "worked"
     },
