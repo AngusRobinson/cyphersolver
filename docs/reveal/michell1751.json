@@ -1,0 +1,95 @@
+{
+ "slug": "michell1751",
+ "anchor": "cabinet",
+ "title": "Berlin, 28 December 1751: \"son dessein sur la Pologne\"",
+ "caption": "Frederick II to Michell, the Hague copy, Koninklijk Huisarchief, Prins Willem V inv. 198 (DECODE R1957), decoded with the cabinet key rebuilt by WAINUT (PR #29).",
+ "unit": "code groups",
+ "key_note": "Key values from WAINUT's extended cabinet key (179 values); groups marked ? have no value in it (the print has poursuivre son ... intention there).",
+ "tokens": [
+  {
+   "g": "258",
+   "p": "de"
+  },
+  {
+   "g": "9",
+   "p": "ce"
+  },
+  {
+   "g": "3220",
+   "p": "cote"
+  },
+  {
+   "g": "6147",
+   "p": "la"
+  },
+  {
+   "g": "1220",
+   "p": "a"
+  },
+  {
+   "g": "363",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "3013",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "3418",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "1?5",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "700",
+   "p": "dessein"
+  },
+  {
+   "g": "3042",
+   "p": "sur"
+  },
+  {
+   "g": "6147",
+   "p": "la"
+  },
+  {
+   "g": "1900",
+   "p": "Pologne"
+  },
+  {
+   "g": "64",
+   "p": "ainsi"
+  },
+  {
+   "g": "2414",
+   "p": "mon"
+  },
+  {
+   "g": "764",
+   "p": "?",
+   "cls": "unk"
+  },
+  {
+   "g": "304",
+   "p": "est"
+  },
+  {
+   "g": "169",
+   "p": "que"
+  },
+  {
+   "g": "2382",
+   "p": "vous"
+  },
+  {
+   "g": "6154",
+   "p": "devez"
+  }
+ ]
+}

@@ -9256,6 +9256,34 @@
      "reading_not_needed": true
     }
    }
+  },
+  "michell1751": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/michell1751.html",
+   "key": {
+    "cabinet_v2": "targets/michell1751/key1751/key_cabinet_v2_final.tsv (WAINUT, PR #29: King-to-Michell cabinet code 1751, 179 values, from NA 1.10.29 inv. 5177 + PC 8)",
+    "envoy": "Michell's envoy code, rebuilt from the contemporary Dutch decipherments on DECODE R1050/R1051 (targets/michell1751/key1751/scripts/envoy_key.py)",
+    "lang": "FR"
+   },
+   "cite": "Politische Correspondenz Friedrichs des Grossen 8 (1882) no. 5263",
+   "fields": {},
+   "records": {
+    "R1957": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Frederick II to Michell, Berlin 28 Dec 1751 (immediate letter). Plaintext printed in Politische Correspondenz 8 (1882) no. 5263 from the minute. Cabinet code shared with six King-to-Michell letters in Nationaal Archief 1.10.29 (Fagel) inv. 5177 (PC 8 nos. 5169, 5197, 5208, 5227, 5231, 5253); key rebuilt by WAINUT (179 values, 381 of 548 groups). Plaintext language: French.",
+     "reading": "targets/michell1751/NOTES.md",
+     "transcription": "targets/michell1751/key1751/R1957_tx.txt",
+     "sent": false
+    },
+    "R1955": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Partially decrypted",
+     "note": "Ministerial rescript to Michell of the same day, not in print. In the code of Michell's own reports to the King (as decrypted on R1050/R1051), not the cabinet code of R1957: 95 of 360 groups (26.4%) decoded, fragments only. A contemporary decipherment may be in Nationaal Archief 1.01.50 inv. 159 (not digitised). Plaintext language: French.",
+     "reading": "targets/michell1751/NOTES.md",
+     "transcription": "targets/michell1751/transcription_r1955.txt",
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

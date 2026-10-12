@@ -17,7 +17,8 @@ code groups, a clear date line and a copied signature:
 
 Groups run from 2 to 6472, written with a point between them. A few groups are underlined (single, double or triple
 strokes: 533, 2102, 206, 211, 362, 4013 …); two corrections are written above the line (759 over a struck group, 5760 over
-a struck 5760-like group). Full transcription in `transcription.txt` (ciphertext only in `ct.txt`).
+a struck 5760-like group). Full transcription in `transcription.txt` (ciphertext only in `ct.txt`; `ct.txt` corrected 12 Oct 2026 for 27 groups
+where 0 was read for the theta-shaped 8, list in `ct_corrections.tsv`, old file `ct_2026-09-19.txt`).
 
 ## Why it is PC 5263
 
@@ -36,10 +37,11 @@ a struck 5760-like group). Full transcription in `transcription.txt` (ciphertext
    | 545 | avec | 3 | 0.024 |
    | 4364 | faire | 6 | 0.039 |
    | 4310 | Sardaigne | 3 | 0.039 |
-   | 3042 | dessein | 3 | 0.043 |
+   | 3042 | dessein (corrected 12 Oct: *sur*; *dessein* = 700, the group before it) | 3 | 0.043 |
    | 87 | encore | 3 | 0.017 |
 
-   Other probable equivalents from local context: 169 = *de* (11×), 47 = *roi* (in *le roi de Sardaigne* = 16 140 47 169
+   Other probable equivalents from local context (corrected 12 Oct 2026, see the review section at the end: 169 = *que*,
+   47 probably *affaire*, *et suis* = 15 144, 1555 1550 the opening pair): 169 = *de* (11×), 47 = *roi* (in *le roi de Sardaigne* = 16 140 47 169
    4310, and 3279 47 twice for *le roi* before *d'Angleterre*), 1555 1550 = *et suis*. 1900 fits *Pologne* by position
    (3×, gap 0.046) but 4366 (4×) also sits near *Pologne*; not settled.
 
@@ -59,7 +61,7 @@ ministerial one (R1955) and this immediate one, both intercepted and copied in T
 
 ## Open
 
-- The code is not reconstructed; a full alignment of the 550 groups to the print would give most of a Prussian 1751
+- (Superseded 12 Oct 2026: WAINUT rebuilt the code, 179 values, see below.) The code is not reconstructed; a full alignment of the 550 groups to the print would give most of a Prussian 1751
   nomenclator (numbers up to ~6500, homophones for common words). Worth doing if other Prussian ciphers of 1750–52
   come up.
 - R1955 (the ministerial letter) is in a different code; the ministerial rescripts are not in the *Politische
@@ -252,3 +254,32 @@ listed above, the contemporary Dutch decipherments (the Lyonet lead) are the one
   digital edition with `pc_html2txt.py` and `build_pc_michell.py` (git-ignored).
 - `scripts/`: `decode.py`, `common.py`, `lcs_test.py`, `eval_blind.py`, `envoy_key.py`, `coherence.py`, `circular.py`,
   `pc_html2txt.py`, `build_pc_michell.py`, `compare_tx.py`. Files derived from DECODE transcriptions and the full PC volumes are git-ignored.
+
+## Review of PR #29 and corrections (Bourdeau, 12 Oct 2026)
+
+Reviewed and merged with Claude Opus 5.5. Checks re-run here:
+
+- Blind test re-run with `lcs_test.py` on a `pc_michell.json` built from our own archive.org OCR of PC 8-9 (not the
+  Trier text WAINUT used): 168 decoded words, LCS 121 against 477 print words; shuffles mean 58.9, max 65; the 12
+  control letters at shuffle level. `eval_blind.py`: 142 confirmed, 9 partial, 6 contradicted, 24 not checkable.
+- v2 gives a value to 381 of 548 groups of `R1957_tx.txt` (69.5%), confirmed.
+- The LF hash of `key_cabinet_v1_frozen.tsv` matches `frozen_keys.sha256`. That v1 was fixed before R1957 was
+  transcribed rests on WAINUT's frozen hash and their private commit history (16:07 and 21:29, 11 Oct), which is not
+  public; the PR arrived as one commit.
+- Spot checks: Fagel 100R (3 Dec) decoded with v2 follows PC 5227 in order ("savoir exactement si le roi de Sardaigne
+  entre ... entre les cours de Vienne et de Madrid ... afin d'en être bien ..."); 099R (7 Dec) follows PC 5231 ("ainsi
+  que vous marquez que la ... à Londres que le roi de Sardaigne entre comme ... dans la négociation qui se traite").
+  These letters trained v2, so this shows consistency, not independence.
+
+Corrections to our 19 Sept anchors, accepted from WAINUT's key: 3042 = *sur*, not *dessein* (700 3042 la 1900 =
+*dessein sur la Pologne*, twice; the two groups sit side by side, hence the positional match); 169 = *que*, not *de*
+(22 occurrences in 5 letters); 47 probably *affaire*; 1555 1550 is the opening pair and *et suis* is 15 144; 1900 =
+Pologne and 4366 = *le*, which settles the Pologne question above. 1064, 545, 4364, 87 confirmed; 4310 is the phrase
+group *le roi de Sardaigne*.
+
+`ct.txt`: 27 groups corrected from 0 to 8 (`ct_corrections.tsv`); with them, v2 gives a value to 373 of its 550 groups
+(357 before). The other eight differences with `R1957_tx.txt` are left as they were.
+
+Outcome: R1957 stays read from existing decipherment (the print), complete; the cabinet key is a partial key recovered
+from external plaintext (WAINUT); R1955 is read in part, 95 of 360 groups (26.4%), fragments only, with outside
+blockers (no further decipherments of Michell's reports online; NA 1.01.50 inv. 159 not digitised).

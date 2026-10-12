@@ -7,7 +7,7 @@
 <meta name="description" content="A numerical cipher letter of Frederick II of Prussia to his resident in London, Louis Michell, dated Berlin 28 December 1751 and intercepted in The Hague (Koninklijk Huisarchief, Prins Willem V inv. 198; DECODE R1957, listed with no decipherment). Its clear opening and signature, its length and the order of its repeated code groups identify it as no. 5263 of the Politische Correspondenz Friedrichs des Grossen, printed in 1882 from the minute. The text is taken from that print; the code was not rebuilt. The letter is the King's secret order to find out whether London knew of an Austro-Russian plan to put Prince Charles of Lorraine on the Polish throne.">
 <link rel="stylesheet" href="style.css?v=20261009a">
 <meta name="date" content="2026-09-19">
-<meta name="last-modified" content="2026-09-24">
+<meta name="last-modified" content="2026-10-12">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -45,16 +45,19 @@
 <div class="parties"><figure class="party sender"><img src="portrait_frederick-ii.jpg" alt="Frederick II" title="Frederick II: Portrait, Anton Graff. Wikimedia Commons, public domain." loading="lazy"><figcaption><span class="role">from</span>Frederick II</figcaption></figure></div><!-- /parties -->
   <p class="sub">The Hague, Koninklijk Huisarchief, archive of Prince William V, inv. 198 &middot; two pages, French, 550 code groups between a clear opening and a clear date line &middot; DECODE R1957, <span data-term-ok>&ldquo;non-decrypted&rdquo;</span> (no decipherment on the record) &middot; catalogue item 215</p>
   <p class="sub">The Dutch opened the Prussian King&rsquo;s post to London and copied the ciphered letters. The King&rsquo;s minute of this one was printed in Berlin in 1882. The text here is taken from that print, matched to the Hague copy by its clear opening, its length and the positions of repeated code groups. The code itself was not rebuilt.</p>
-  <p class="meta">Daniel Bourdeau &middot; posted <time datetime="2026-09-19">19 September 2026</time> &middot; updated <time datetime="2026-09-24">24 September 2026</time></p>
-<p class="outcome">Method: <a href="glossary.html#deciph">read from existing decipherment</a> &middot; Extent: complete</p><!-- /outcome -->
+  <p class="meta">Daniel Bourdeau &middot; posted <time datetime="2026-09-19">19 September 2026</time> &middot; updated <time datetime="2026-10-12">12 October 2026</time></p>
+<p class="outcome">Method &middot; R1957 text, the printed concept matched to the Hague copy (Bourdeau): <a href="glossary.html#deciph">read from existing decipherment</a> (complete) &middot; The King-to-Michell cabinet code of 1751 (WAINUT): <a href="glossary.html#extpt">key recovered based on plaintext from external sources</a> (partial) &middot; R1955 in Michell's envoy code (WAINUT): <a href="glossary.html#extkey">read after matching with key from external sources</a> (partial)</p><!-- /outcome -->
 <div class="seal solved" aria-hidden="true"><span>deciphered copy</span></div>
 </section>
 
 <main>
-<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#letter">The letter and its copy</a><a href="#match">Why it is Politische Correspondenz no. 5263</a><a href="#reading">What the letter says</a><a href="#open">What remains uncertain</a><a href="#sources">Sources</a></nav>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#letter">The letter and its copy</a><a href="#match">Why it is Politische Correspondenz no. 5263</a><a href="#reading">What the letter says</a><a href="#cabinet">The cabinet key, tested blind</a><a href="#open">What remains uncertain</a><a href="#sources">Sources</a></nav>
 <div class="callout">
 <strong>Summary.</strong> DECODE holds two cipher letters of Frederick II to his London resident Louis Michell, both dated Berlin 28 December 1751, both intercepted and copied in The Hague for the Stadtholder&rsquo;s cabinet. The catalogue took up the second of them (R1957), listed on DECODE with no decipherment and nothing known of its content. Its clear opening, &ldquo;J&rsquo;ai re&ccedil;u votre d&eacute;p&ecirc;che du 14<sup>e</sup> de ce mois&rdquo;, is word for word the opening of no. 5263 in volume 8 of the <em>Politische Correspondenz Friedrichs des Grossen</em> (1882), printed from the King&rsquo;s minute. The cipher&rsquo;s length fits the print (550 groups for 438 words), and its repeated groups fall in the same order and at the same places as the print&rsquo;s repeated words: 1064 is <em>Vienne</em> at all four of its places, 4310 <em>Sardaigne</em> at all three, 3042 <em>dessein</em>, 545 <em>avec</em>, 87 <em>encore</em>. The letter is Frederick&rsquo;s secret order to find out whether London knew of an Austro-Russian plan to make Prince Charles of Lorraine the next King of Poland, and to report on it to him alone, with no copy to his own foreign department. The other letter of that day (R1955) is the ministerial one, in a different code; it is not in print. The Prussian code is not rebuilt beyond the anchors.
-<em>Status: text from the 1882 print, matched to the cipher by position; the code was not rebuilt. Open: the full code table; R1955.</em>
+<em>Status: text from the 1882 print, matched to the cipher by position. Cabinet code rebuilt by WAINUT (179 values, 69.5% of R1957&rsquo;s groups); R1955 deciphered in part, 95 of 360 groups (26.4%).</em>
+</div>
+<div class="callout">
+<strong>Contributed.</strong> The cabinet key and the partial reading of R1955 are the work of <a href="https://github.com/WAINUTAI">WAINUT</a>, a Dutch AI company, done with Claude Opus 5.5 on 11&ndash;12 October 2026 and contributed as <a href="https://github.com/dbourdeau/cyphersolver/pull/29">pull request #29</a>. Their match of R1957 with no. 5263 was made independently of ours. Reviewed and re-run here on 12 October 2026.
 </div>
 
 <h2 id="letter"><span class="num">01</span> The letter and its copy</h2>
@@ -73,9 +76,9 @@
 <tr><td>545</td><td>avec</td><td>3</td><td>0.024</td></tr>
 <tr><td>4364</td><td>faire</td><td>6</td><td>0.039</td></tr>
 <tr><td>4310</td><td>Sardaigne</td><td>3</td><td>0.039</td></tr>
-<tr><td>3042</td><td>dessein</td><td>3</td><td>0.043</td></tr>
+<tr><td>3042</td><td>dessein (corrected: <em>sur</em>; see &sect;04)</td><td>3</td><td>0.043</td></tr>
 </tbody></table>
-<p>Local context agrees. <em>&hellip;que le roi de Sardaigne entre comme partie contractante&hellip;</em> sits at the start as 16&nbsp;140&nbsp;47&nbsp;169&nbsp;4310, giving 169 = <em>de</em> (the commonest group, 11 times) and 47 = <em>roi</em>. 3279&nbsp;47 recurs twice later, where the print has <em>le roi d&rsquo;Angleterre</em>. The first two groups, 1555&nbsp;1550, stand for <em>et suis</em>. A different text would not put these six words in this order at these places.</p>
+<p>Local context agrees. <em>&hellip;que le roi de Sardaigne entre comme partie contractante&hellip;</em> sits at the start as 16&nbsp;140&nbsp;47&nbsp;169&nbsp;4310, giving 169 = <em>de</em> (the commonest group, 11 times) and 47 = <em>roi</em> (both corrected by the rebuilt key, &sect;04: 169 is <em>que</em>, 47 probably <em>affaire</em>). 3279&nbsp;47 recurs twice later, where the print has <em>le roi d&rsquo;Angleterre</em>. The first two groups, 1555&nbsp;1550, stand for <em>et suis</em>. A different text would not put these six words in this order at these places.</p>
 
 <h2 id="reading"><span class="num">03</span> What the letter says</h2>
 <p>The text below is as printed from the minute. The letter sent may differ in small points of wording.</p>
@@ -84,18 +87,24 @@
 <p>Au surplus, marquez-moi encore si vous croyez que le syst&egrave;me pacifique d&rsquo;&agrave; pr&eacute;sent du minist&egrave;re d&rsquo;Angleterre se soutiendra encore et pour combien de temps [&hellip;]. Faites-moi votre rapport l&agrave;-dessus, mais observez qu&rsquo;il faut que vous ne le fassiez sur tout ce que dessus qu&rsquo;&agrave; moi seul imm&eacute;diatement, sans en faire des doubles au d&eacute;partement des affaires &eacute;trang&egrave;res. [&hellip;]</p></blockquote>
 <p>Frederick agrees that Sardinia will join the Austro-Spanish treaty being negotiated at Madrid. He has learned in secret that Vienna and St Petersburg mean to make Prince Charles of Lorraine the next King of Poland, and he reads Austria&rsquo;s Italian neutrality as clearing the ground for it. Michell is to find out whether London knows of the plan. The King suspects that Maria Theresa&rsquo;s new cessions to Sardinia were made on George II&rsquo;s advice, with Poland as her compensation. Michell is also to judge how long the English ministry&rsquo;s peaceful course will last if George II lives a few more years. His report is to go to the King alone, not to the department. Last, he is to say whether George II grieved for the Queen of Denmark, who died on 19 December, and whether the Duke of Cumberland&rsquo;s dangerous illness had troubled him. The order to report to the King alone explains why two letters went to Michell that day. It also shows that the ministerial channel was not the one Frederick trusted with this, though the Dutch copied both.</p>
 
-<h2 id="open"><span class="num">04</span> What remains uncertain</h2>
+<h2 id="cabinet"><span class="num">04</span> The cabinet key, tested blind</h2>
+<figure class="creveal" data-src="reveal/michell1751.json"></figure>
+<p>Six more letters from the King to Michell in the same code, of November and December 1751, survive in Dutch copies in the Nationaal Archief (1.10.29, Fagel, inv. 5177). Their minutes are printed as nos. 5169, 5197, 5208, 5227, 5231 and 5253. WAINUT aligned the six with the print and got a key of 72 values, then fixed it by a SHA-256 hash before transcribing R1957. Decoded with that key alone, R1957 gives 168 whole words. Their longest common subsequence with no. 5263 is 123 words. When the same words are shuffled 500 times, the mean is 58.9 and the highest is 65. Twelve other letters to Michell score at shuffle level. We re-ran the test on our own OCR of the print and got 121 against the same 58.9 and 65.</p>
+<p>Whether the test was blind rests on WAINUT&rsquo;s frozen hash, which matches the key file in the pull request. The commits that put the key before the transcription are in their private history, which is not public. With R1957 added, the key has 179 values and gives a value to 381 of R1957&rsquo;s 548 groups (69.5%). The extended key has not been tested on a letter held out from it.</p>
+<p>The key corrects two of our anchors. 3042 is <em>sur</em>, not <em>dessein</em>: <em>dessein</em> is 700, and 700&nbsp;3042 stands for <em>dessein sur</em> before <em>la Pologne</em>, which is why 3042 matched <em>dessein</em> by position. 169 is <em>que</em>, not <em>de</em>. 1900 is <em>Pologne</em> and 4366 is <em>le</em>. WAINUT&rsquo;s transcription also showed that ours had read the copyist&rsquo;s theta-shaped 8 as 0 in 27 groups. These are now corrected in <code>ct.txt</code>.</p>
+<p>R1955 is not in the cabinet code: the key gives values to only 2.8&ndash;5.6% of its groups. Instead it is in the code of Michell&rsquo;s own reports to the King, whose contemporary Dutch decipherments (DECODE R1050, R1051) give a table of 271 values. That table decodes 95 of R1955&rsquo;s 360 groups (26.4%). These are fragments only, and adjacent decoded words form French word pairs more often than chance (p = 0.001).</p>
+
+<h2 id="open"><span class="num">05</span> What remains uncertain</h2>
 <ul>
-<li>The code is not rebuilt. Aligning all 550 groups with the print would yield most of a Prussian nomenclator of 1751 (numbers up to about 6,500, with several numbers for common words). Only the anchors above are established: 1064, 4310, 3042, 545, 87, 4364 (H, from position across every occurrence), 169 = <em>de</em> and 47 = <em>roi</em> (C, from local context).</li>
-<li><em>Pologne</em>: 1900 fits by position (three times, largest gap 0.046), but 4366 (four times) also sits near it. Not settled.</li>
-<li>The print follows the minute. Small differences in the letter as sent cannot be seen until the code is rebuilt.</li>
-<li>R1955, the ministerial letter of the same day, is in another code and is not in the <em>Politische Correspondenz</em>, which prints the King&rsquo;s own letters. It has not been decrypted.</li>
+<li>167 of R1957&rsquo;s 548 groups have no value in the extended key; most are one-off syllables of spelled words and names. The extended key needs a held-out letter.</li>
+<li>The print follows the minute. Small differences in the letter as sent show only where the extended key gives values.</li>
+<li>R1955, the ministerial letter of the same day, is in another code and is not in the <em>Politische Correspondenz</em>, which prints the King&rsquo;s own letters. It is in Michell&rsquo;s envoy code and is deciphered in part (26.4%). The rest needs more decipherments of his reports (probably KHA A31-1181, not online) or a contemporary decipherment of R1955 (possibly Nationaal Archief 1.01.50 inv. 159, not digitised).</li>
 </ul>
 
 <!-- replay:start -->
 <figure class="sreplay" data-src="steps/michell1751.json"></figure>
 <!-- replay:end -->
-<h2 id="sources"><span class="num">05</span> Sources</h2>
+<h2 id="sources"><span class="num">06</span> Sources</h2>
 <ul>
 <li>Koninklijk Huisarchief, The Hague, archive of Prince William V, inv. 198: <a href="https://de-crypt.org/decrypt-web/RecordsView/1957">DECODE R1957</a> (two images, login) and <a href="https://de-crypt.org/decrypt-web/RecordsView/1955">DECODE R1955</a>.</li>
 <li><em>Politische Correspondenz Friedrich&rsquo;s des Grossen</em>, vol. 8 (Berlin: Duncker, 1882), no. 5263, pp. 576&ndash;577, &ldquo;Nach dem Concept&rdquo;: <a href="https://archive.org/details/politischecorres08freduoft">Internet Archive</a>.</li>
@@ -107,6 +116,7 @@
   <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0 &middot; Manuscript images: Koninklijk Huisarchief, The Hague, via DECODE</span>
   <nav aria-label="Footer"><a href="index.html">Overview</a><a href="esterhazy1744.html" rel="prev">&larr; Esterh&aacute;zy box 636, 1744 1744</a><a href="hellen1752.html" rel="next">Hellen 1752–1763 1752&ndash;63 &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
+<script src="cipher-reveal.js?v=f00596e5" defer></script>
 <script src="solve-replay.js?v=20261009a" defer></script>
 <script src="zoom.js?v=20261009a" defer></script>
 <script src="site.js?v=20261009a"></script>

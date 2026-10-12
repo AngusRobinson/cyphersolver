@@ -107,6 +107,7 @@
   "francis needham to walsingham, before sluys, 28 july 1587": "2026-09-21",
   "frater elias’s lumen luminum, c. 1525 (beinecke mellon ms 29, decode r2877)": "2026-09-22",
   "frederick the great to louis michell, berlin, 28 december 1751": "2026-09-19",
+  "frederick the great’s cabinet code of 1751, rebuilt by wainut": "2026-10-12",
   "from warsaw, 24 december 1627": "2026-09-16",
   "from warsaw, 24 december 1627 (decode r1408)": "2026-10-02",
   "galeazzo visconti to angelo bolano and to francis i, october 1528 and june 1529": "2026-09-22",
@@ -821,8 +822,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "2fbaeaa5867c",
-   "updated": "2026-10-11"
+   "hash": "2b582ae0101b",
+   "updated": "2026-10-12"
   },
   "indus": {
    "first": "2026-09-24",
@@ -1001,8 +1002,8 @@
   },
   "michell1751": {
    "first": "2026-09-19",
-   "hash": "9baa19df5a0d",
-   "updated": "2026-09-24"
+   "hash": "73e99a71eff0",
+   "updated": "2026-10-12"
   },
   "moncada1524": {
    "first": "2026-09-22",
@@ -1661,8 +1662,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "68796cde3b9d",
-   "updated": "2026-10-11"
+   "hash": "74d57aa1de8f",
+   "updated": "2026-10-12"
   },
   "yard1699": {
    "first": "2026-09-18",
