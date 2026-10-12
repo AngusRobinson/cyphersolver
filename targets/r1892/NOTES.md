@@ -209,6 +209,107 @@ The LM ranks short function words first wherever context is thin; with neighbour
 only a few letters, so the scores do not separate candidates. No value was adopted, and p2 stays 816/900 = 90.7%
 (letter 1,860/1,954 = 95.2%, strict).
 
+## Additions from an independent reading (12 Oct 2026, contributed by WAINUT)
+
+**Status: proposals, not adopted (review 12 Oct 2026).** None of the values or splits below is in `apply.py`,
+the key, the Remaining gaps or the outcome. The strongest are zo, zulks, ik and the second dat sign (shape match with
+R2242 signs fixed by its p1 clear text); UE and zal rest on context only, as do all values of the second table.
+
+WAINUT (a Dutch AI company, https://github.com/WAINUTAI) deciphered R1892 and the cipher of R2242 on 11-12 Oct 2026, working with Claude Opus 5.5
+subagents. It did not know this repository then: its sign list was finished before the repository was found. It
+recovered the same square. The square and every reading above are Bourdeau's (21 Sept - 3 Oct 2026); Lasry reports an
+unpublished solution of 2021, and De Leeuw (2000, p. 35, n. clxxv) already noted that "for what was left of the
+Dutch army a variant of the Mirabeau was chosen". This section lists only where the two readings differ. Grades as above (H, M, I).
+
+**Method.** Every sign occurrence in R1892 and R2242 was cropped from the full-resolution images and the crops were
+grouped by shape; values come from context. A first, blind pass valued the signs while the 14 signs fixed by R2242's
+p1 clear text were masked. Of those 14, the 5 values given confidence 0.3 or more were right (4 of them at 0.5 or
+more), and the 9 given less were wrong (one of them listed the right value as an alternative). "Blind" below is the
+confidence a value had in that pass, before the clear text was shown; "-" means the value was set afterwards.
+
+**1. One label, two shapes.** In `transcription_p2.txt` several labels cover two different shapes on the image.
+Lines below are lines of that file. Split this way, the hook, the H and the zich/te/ik values that the 3 Oct joint
+scoring could not settle become regular:
+
+| label here (lines) | shape on the image | value | grade | contexts | blind |
+|---|---|---|---|---|---|
+| H at 15, 20, 21 (twice); hook at 4 | the I-beam (short bar, horizontal, short bar), which is the sign R2242's p1 clear text gives as zo/zoo, and this folder's bar-H = zoo (line 9) | zo | M | "antwoord te laaten, [zo] is het my voorgekomen"; "dat zulks [zo]u[de] gebeuren"; "[zo] kan UE wel verzeekert zyn"; "my niets [zo]u[de] hebben kunnen engageeren"; "[zo] [zal] W. in dat geval ook" | 0.85 |
+| H at 4, 5, 7, 8 | a long stroke into a double bar | (zouden?) | open | always before an infinitive ("[H] (w)illen laaten", "[H] willen aangesteld", "[H] willen geemployeerd", "[H] [S]en aangeeven"); once the I-beam places are removed, nothing contradicts zouden | 0.15 |
+| gamma at 6, 10, 20 | the curl that R2242's p1 clear text gives as zulks (ɣ there) | zulks, not zich | M | "dezelve [zulks] op de volgende wyze"; "alleen [zulk]e te [?] die hun ... niet aangeboden hebben"; "dat [zulks] zoude gebeuren" | 0.4 |
+| gamma at 3 | a similar curl | open | | "die [?] vrywillig": zich and zulks both possible | - |
+| gamma at 7 | a plain Y, as Y at line 10 | open | | | - |
+| G (7 times: 8, 12, 13, 16, 17, 21, 24) | a C with an inner loop | UE (the addressee), not ik | M | "bepaalde dagen, [dat] [UE] alsdan [uit] dezelve de keus [zal] maaken"; "[zal] [UE] ... kunnen plaatsen"; "wat [UE] in dit cyffer [zal] vinden"; "[dat] [UE] wist wat in boovenstaande geval te doen"; "[dat] [ik] [UE] myn eerste brief ... geschreeven heb"; "[zo] kan [UE] wel verzeekert zyn"; "waar[aan] [UE] [ze]dert myn vertrek bloodgesteld is geweest" (third person verb) | 0.7 |
+| Y-cross at 17, 18, 22; Y at 13 | a Y with a crossbar and a curl | ik | M | "schryf [ik] [uit] naam [van] myn vader"; "[dat] [ik] [UE] myn eerste brief"; "toen zoude [ik] my zeeker niet voorgesteld hebben"; "[dat] [ik] alsdan noch veel liever te Nienburg gebleeven was"; R2242 "[ik] vreese" (Y with crossbar = ik there) | 0.75 |
+| hook at 8, 16, 17, 20, 21, 22; cross at 7 | a λ whose right leg is flat (7 times); Λ = dat is a different, upright shape | dat (a second sign for dat) | M | "kunnen dat weeten, [dat] de geene die hier ..."; "bepaalde dagen, [dat] UE alsdan"; "voorgekomen ... [dat] UE wist"; "reeds ... weeken [dat] ik UE myn eerste brief"; "vooruit te [?] [dat] zulks zoude gebeuren"; "verzeekert zyn [dat] my niets zoude ..."; "te ondernee[men], [dat] ik alsdan ... gebleeven was" | 0.85 |
+| c-symbol (5 times: 4, 6, 9, 12, 13) | one shape, a c with a tail | zal, not te | M | each clause needs a finite verb: "[zo] [zal] W. in dat geval ook"; "alle heeren officieren [zal] W. kunnen dat weeten"; "dat UE alsdan ... de keus [zal] maaken"; "[zal] UE ... kunnen plaatsen"; "wat UE in dit cyffer [zal] vinden" | 0.55 |
+| phi at 9, 13; psi at 20 | one shape, a looped stem | uit | M | "alsdan [uit] dezelve de keus"; "schryf ik [uit] naam van myn vader"; "ras voor[uit] te [?]" (vooruit zien); the heading "[uit] Hampton Court" (2 below) | 0.65 |
+| check at 13 | a loop with a check stroke | van | M | "uit naam [van] myn vader" | 0.6 |
+| slash at 11, 16, 24 | a stroke with a dot in it, the shape of f = aan at 8, 11 and 18 | aan | M (11, 24), I (16) | "genoeg [aan]bie[de]n"; "onaangenaamheeden waar[aan] UE ..."; "voorgekomen [aan][?] te zyn" | 0.45-0.9 |
+| slash at 6 | a stroke with a heavy dot at its lower end, a different sign | open | | | - |
+
+The following values rest on context alone (grade I; the strict measure counts them unread):
+
+| label here (lines) | value | contexts | blind |
+|---|---|---|---|
+| cf (4 times: 15, 16, 19, 21) | zyn | "voorstellingen die daarover gedaan [zyn]"; "wel verzeekert [zyn] dat"; "aan[?] te [zyn] dat UE wist"; line 19 ("nog hier te [8] en [zyn] om op antwoord te wagten") reads awkwardly. R2242's crossed e = zijn is a similar shape | 0.5 |
+| 8 at 15 (the shape is R2242's ∞ = daar, not the 8 of lines 9 and 19) | daar | "voorstellingen die [daar][over] gedaan zyn" | - |
+| psi at 15 | over | "die daar[over] gedaan zyn"; R2242 p4 l8 "hier[ψ] omstandig antwoort", the same trident | - |
+| delta at 6 | kan | "[?]en [kan] dezelve zulks op de volgende wyze"; R2242 twice (see there) | - |
+| cross at 20 | mogelyk | "indien het my ook [mogelyk] geweest, ras vooruit te [?]" | 0.5 |
+| I at 18, and H at p1 L23 (the same shape) | Engeland / Angleterre | "myn eerste brief [Z] myn aankomst in [Engeland] geschreeven heb"; p1 "ne point mettre sur le compte pour l'[Angleterre] la dépense pour mon logement". If R2242's & = Engeland also holds, the key has two signs for England, and one of the two values is probably wrong | 0.3-0.6 |
+
+**2. Transcription.** All of these were checked on the full-resolution image of p2.
+- **Heading.** The line above transcription line 1 is not in `transcription_p2.txt`. It reads: "Het volgende schrijft
+  [dot-dash] bij missive van dag d° deser [phi = uit] 34 43 25 45 11 22 32 51 22 42 52 11 in het Hollandsch met
+  Cijffer:". The pairs give **"uit Hampton Court"**, the residence of William V's family in England. Line 1 opens with
+  a two-dot stroke (the aan sign of "aanbieden" and "aankomst") before ⊙, so it reads "**[aan] [de]n generaal
+  Bentinck**". On that reading the copyist's heading says that the Prince wrote the following, by a letter of that day
+  from Hampton Court, in Dutch in cipher, *to* General Bentinck. Bentinck is then the addressee, not a person named in
+  the letter. The dot-dash sign is the writer in both copyist headings (p1 "dans la [lettre] du [dot-dash] en date
+  du ..."); we do not have its value.
+- **Line 13, end:** 25 13 32 **33** 43 31 65 52 = "myn **vader**", not "nader". The fourth pair is 3 over 3. The
+  sentence is "wat UE in dit cyffer zal vinden, schryf ik uit naam van myn vader" (p1: "Mon père").
+- **Line 20:** the clear word is "geweest" (not "gewenst?"). It is followed by 52 43 44 = "ras": "indien het my ook
+  [mogelyk] geweest, ras [voor][uit] te [?] [dat] [zulks] [zo]u[de] gebeuren".
+- **Line 24** (the "page 2 line 24 middle" listed as illegible under Remaining gaps): 31 65 52 11 | 25 13 32 | 33 65
+  52 11 52 65 23 | 35 15 22 22 31 | 41 65 44 11 65 15 31 | 55 44 | 41 65 12 65 65 44 11 = "[?]dert myn vertrek blood
+  gesteld is geweest". The two digit rows give 35 digits each and pair up in order; this hand writes a small closed 3
+  that looks like 0. In context: "de onaangenaamheeden waar[aan] [UE] [ze]dert myn vertrek bloodgesteld is geweest,
+  had willen mededeelen". The sign before "dert" (8-cross here) we read as ze- (I).
+
+**3. Coverage measured, and the limit of the measure.** `wainut/relabel_p2.py` writes `wainut/transcription_p2_wainut.txt`
+(the labels of table 1 split, no digit changed) and `wainut/transcription_p2_wainut_tr.txt` (the same, plus the
+three digit re-readings of 2). Both files are derived from `../transcription_p2.txt` and are regenerated by
+`python relabel_p2.py`. `wainut/apply.py` is `../apply.py` with the values above added. Measured from
+`targets/r1892/wainut` with `STRICT=1 python ../../r2242/measure_sense.py . nl-modern <file>` (nl-modern, I values
+unread, Gedenkstukken word list fetched):
+
+| p2 | coverage: tokens passing the sense test |
+|---|---|
+| `../transcription_p2.txt`, this folder's values | 816/900 = 90.7% |
+| labels split, values of table 1 | 843/900 = 93.7% |
+| plus the three re-readings | 859/903 = 95.1% |
+
+With I values counted (STRICT=0) the last row is 875/903 = 96.9%. **Control:** with the added values permuted at
+random among the added signs (`WAINUT_SHUFFLE=1` to `5`, STRICT=0), the same file scores 875-878/903. The measure
+passes any value that looks like Dutch. So these rows show how many more tokens now have a value; they do not show
+that the values are right. The evidence for each value is in the contexts above and, for zo, zulks and ik, in the match
+of shape with R2242's signs.
+
+**Review controls (12 Oct 2026, `../review_control.py`).** (a) Leave-one-out: removing any one added M value from
+the strict measure costs only 1-8 tokens (UE 8, zal/zulks/dat 7, uit 5, ik/aan 4, zo 3, van 1). (b) Per-occurrence
+ranking: at each of the 47 occurrences of an added sign, the line was scored by the nl-modern LM with each of 62
+candidate words (the added values plus common Dutch function words); the proposed value ranks first at only 5 of 47
+(zulks 60-62 everywhere, UE 44-59, zal 7-54; zo 1, 1, 6, 8, 60; ik 1, 2, 22, 46; dat mostly top 10). The LM total
+favours short words, so this does not refute the values either. Neither the coverage gain nor the LM supports them;
+the evidence is the shape matches and the grammar of each context, which is why they stay proposals. Image check
+in review: the heading digit run (34 43 25 45 11 22 32 51 ...) and the line 24 pairs agree with
+`img/rot_IMG_R1892_I9359_P2.jpg`; line 13 was not checked.
+
+**Residual risk.** The shape splits rest on our crops; they should be checked on `img/rot_*` before anything is
+adopted. Two signs for dat (Λ and the flat-legged λ) is our inference; R2242's slashed and crossed Λ are a similar case.
+"UE" could equally be "u": either way the sign is the addressee. The values of the second table are context only.
+
 ## Remaining gaps
 - recurring word signs on p2 (⊣H 9, hook 7, slash 5, cf 4, Y-cross 4, 8 4, S 3, Y 3, psi 2, phi 2, 7 2, cross 2, bar 2) - blocker: open-codes; jointly scored across all occurrences 3 Oct 2026 (solve_signs.py), no candidate fits every occurrence; 8 = zijn kept at I
 - eleven signs that occur once (3, 8-cross, 9, A, I, Z, check, circle-cross, delta, x on p2; dash on p1) - blocker: no-key-material; a single context cannot fix a word sign, and there is no key sheet, sibling occurrence or printed text

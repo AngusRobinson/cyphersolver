@@ -6,15 +6,19 @@
 # A word is counted as read when its decrypt differs from the regular word by at most one letter.
 # measure.py checks that the marks add nothing to the decrypt and counts the shares.
 #
-# The letter runs f. 243 -> f. 241. f. 242 is a second copy of f. 243 (its cq-cv taken over from f. 243, see hand_p2.txt).
+# The letter runs f. 243 -> f. 241. Corrected 12 Oct 2026 (WAINUT, PR #30): f. 242 (image P2) is NOT a second copy; it is
+# the same leaf as f. 243 (P3) photographed with the flap down, so the p2 lines below re-transcribe f. 243 and check the
+# transcription only. Regularised column revised after WAINUT: 'du voiage' (p3.c2-c3), 'Mo-sieur' (p1.c16-c17), code
+# signs split into [67], [6] and the circled sign [@]; their c12 '[se]ruice du [67] et du uos[tre]' is a conjecture.
+# The marked decrypts (from hand_p*.txt) are unchanged.
 #
 # f. 243 (p. 3), hand_p3.txt (v3 'c7' and 'c12' are a stain and the head of c11, not columns)
 p3.c0  | ie ne pouuois receuoi d | je ne pouvois recevoir d'
 p3.c1  | un ennuy plus sensible | un ennuy plus sensible,
-p3.c2  | ayant <_> appris que du<n>ri | ayant [..] appris que du mari-
+p3.c2  | ayant <_> appris que du<n>ri | ayant [..] appris que du voi- [WAINUT; hand_p3 'nri']
 p3.c3  | age de ce gentilhomme | -age de ce gentilhomme
 p3.c4  | lequel salua dernierement | lequel salua dernierement
-p3.c5  | {_n} de la part de {_} mon maitre | [name] de la part de [name] mon maistre,
+p3.c5  | {_n} de la part de {_} mon maitre | [67] de la part de [6] mon maistre,
 p3.c6  | <_>us auies creu quelqu | vous aviés creu quelqu-
 p3.c8  | chose au preiudice | -es choses au prejudice
 p3.c9  | de lentiere affection que | de l'entiere affection que
@@ -25,7 +29,7 @@ p3.c14 | nce uous eussies congnu pr | -nce, vous eussiés congnu par
 p3.c15 | luy que ie ne cheris rien | luy que je ne cheris rien
 p3.c16 | tant que les occasions de uous | tant que les occasions de vous
 p3.c17 | en tesmoingner des effets | en tesmoigner des effets.
-p3.c18 | iescris a {_} ce que ce gentil | J'escris a [name] ce que ce gentil-
+p3.c18 | iescris a {_} ce que ce gentil | J'escris a [@] ce que ce gentil-
 p3.c19 | homme alloet fairc par dela | -homme alloit faire par dela,
 p3.c20 | et uous supplie tres hunblem | et vous supplie tres humblem[ent],
 p3.c21 | monsieur me continuer lhonneur | Monsieur, me continuer l'honneur
@@ -35,9 +39,9 @@ p3.c23 | croire que ie uous honnor | croire que je vous honnor-
 # f. 241 (p. 1), hand_p1.txt: the end of the letter, subscription and dateline
 p1.c0  | et cheris ce qui se peut sy | -e et cheris ce qui se peut. S'y
 p1.c1  | uous trouuies a propos de | vous trouviés a propos de
-p1.c2  | disposer {_} denuoier ledit | disposer [name] d'envoier ledit
-p1.c3  | {_} de la paru de sa maieste uers | [name] de la part de Sa Majesté vers
-p1.c4  | {_} pour se reiouir de sa | [name] pour se resjouir de sa
+p1.c2  | disposer {_} denuoier ledit | disposer [67] d'envoier ledit
+p1.c3  | {_} de la paru de sa maieste uers | [@] de la part de Sa Majesté vers
+p1.c4  | {_} pour se reiouir de sa | [6] pour se resjouir de sa
 p1.c5  | sante apres la longue | santé apres la longue
 p1.c6  | maladie quil a eu iemass | maladie qu'il a eue, je m'ass-
 p1.c7  | eure que les personnes que | -eure que les personnes que
@@ -45,16 +49,16 @@ p1.c8  | uous aimes nen seroint marie | vous aimés n'en seroint marris,
 p1.c9  | et de mon foste ie lur ou | et de mon costé je leur ou-
 p1.c10 | uriray mon coeur de tout ce | -vriray mon coeur de tout ce
 p1.c11 | que ie iuieray estre du | que je jugeray estre du
-p1.c12 | <b_ruiledu> {_} et du <uoii> | [..] [67] et du [..],
+p1.c12 | <b_ruiledu> {_} et du <uoii> | [..] [67] et du [..], (WAINUT conjecture: du [se]rvice du [67] et du vos[tre])
 p1.c13 | uous coniurant me faire la <_> | vous conjurant me faire la
 p1.c14 | faueur dasseurer sa maieso | faveur d'asseurer Sa Majesté
 p1.c15 | du zele que iay a son tr<_> | du zele que j'ay a son tr[es]
 p1.c16 | hunble seruice estant mo | humble service, estant, Mo[nsieur],
-p1.c17 | <bienr> uostre tres hunble e | [..] vostre tres humble e[t]
-p1.c18 | fidel seruiteur {nicle} | fidel serviteur [signature, read "Nicle"]
+p1.c17 | <bienr> uostre tres hunble e | [sieur, WAINUT] vostre tres humble e[t]
+p1.c18 | fidel seruiteur {nicle} | fidel serviteur [signature, read "Nicle"; WAINUT "Ville"; open]
 p1.c19 | de nancy l<_> {_} decembre | De Nancy le [day] decembre
 #
-# f. 242 (p. 2), hand_p2.txt: copy of f. 243; [flap] signs (under the pasted flap) are not counted
+# f. 242 (p. 2), hand_p2.txt: image P2, the same leaf as f. 243 with the flap down (not a copy); [flap] signs (under the pasted flap) are not counted
 p2.ca  | <_> eceuoir | [je ne pouvois r]ecevoir
 p2.cb  | <_> ensible | [un ennuy plus s]ensible
 p2.cc  | <_> <uecuuai> | [ayant appris q]ue du mari-

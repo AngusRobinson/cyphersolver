@@ -92,7 +92,7 @@
     "by": "llm from images",
     "source": "DECODE images",
     "image_quality": "good",
-    "notes": "second copy of f. 243, line for line; top of six columns under the paper flap; cq-cv collated against f. 243. Token count from _check_profile --measure includes the column labels and line-end marks."
+    "notes": "image P2: the same leaf as f. 243 photographed with the flap folded down, not a second copy (corrected 12 Oct 2026, WAINUT PR #30); its transcription checks hand_p3.txt only. Earlier note: second copy of f. 243, line for line; top of six columns under the paper flap; cq-cv collated against f. 243. Token count from _check_profile --measure includes the column labels and line-end marks."
    },
    "read": "read"
   }
@@ -147,7 +147,10 @@
  "solution": [
   {
    "date": "2026-09-19",
-   "kind": "solver", "technique": ["exhaustive search"],
+   "kind": "solver",
+   "technique": [
+    "exhaustive search"
+   ],
    "what": "Pencil flap key and all grid orientations/dot orders tested",
    "result": "failed"
   },
@@ -159,7 +162,10 @@
   },
   {
    "date": "2026-09-19",
-   "kind": "solver", "technique": ["simulated annealing"],
+   "kind": "solver",
+   "technique": [
+    "simulated annealing"
+   ],
    "what": "Homophonic annealing (hc3.py) lands on French; anchors fixed by hand",
    "result": "worked"
   },
@@ -201,7 +207,10 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "hypothesis", "technique": ["key-structure hypothesis"],
+   "kind": "hypothesis",
+   "technique": [
+    "key-structure hypothesis"
+   ],
    "what": "F2 = l/h polyphone, prompted by f. 241 c0 'etclerisce' after f. 243's last word 'honnor-': gives 'honnore et cheris ce qui', and on f. 243 'gentilhomme', 'choses', 'homme', 'l'honeur' without breaking 'plus sensible'",
    "result": "worked"
   },
@@ -213,13 +222,19 @@
   },
   {
    "date": "2026-10-02",
-   "kind": "statistics", "technique": ["language-model scoring"],
+   "kind": "statistics",
+   "technique": [
+    "language-model scoring"
+   ],
    "what": "measure.py on reading.txt: signs read as sense f. 241 86.5%, f. 243 81.7%, letter (ff. 243+241) 728/867 = 84.0%; duplicate f. 242 73.5% of visible signs. lm.best_language: fr-1600-letters first (-2.1/char) on both pages",
    "result": "partial"
   },
   {
    "date": "2026-10-02",
-   "kind": "solver", "technique": ["automated search (unspecified)"],
+   "kind": "solver",
+   "technique": [
+    "automated search (unspecified)"
+   ],
    "what": "Low-resolution reading of corner shapes on f. 242 cq/cr/cn confused open sides (C/F/I, B/D); independent reading abandoned there and the f. 243 signs adopted after collation",
    "result": "failed"
   },
@@ -261,19 +276,72 @@
   },
   {
    "date": "2026-10-03",
-   "kind": "solver", "technique": ["simulated annealing", "hill climbing", "language-model scoring"],
+   "kind": "solver",
+   "technique": [
+    "simulated annealing",
+    "hill climbing",
+    "language-model scoring"
+   ],
    "what": "Joint hill-climb of all sign values over the three pages with fr-1600-letters (anneal.py): score -2.106 -> -2.002/char, but it turns B2 g->s (gentilhomme, longue, tesmoigner) and K2 h->d (humble, honnor); LM-only over-fitting on 1300 signs. Only F*1 = l kept",
    "result": "partial"
   },
   {
    "date": "2026-10-03",
-   "kind": "statistics", "technique": ["contextual inference"],
+   "kind": "statistics",
+   "technique": [
+    "contextual inference"
+   ],
    "what": "measure.py: letter 843/882 = 95.6% read as sense (97.1% excluding 14 code/name signs); f. 243 98.3%, f. 241 92.5%. Before: 84.0%",
    "result": "worked"
   },
-  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 843 tokens, 35 types, fr-1600-letters order 4: reading -2.007 per letter; random keys -5.815 (z 5.7); key annealed onto shuffled ciphertext best -2.967 (mean -3.009, z 30.4); annealer on the real text -2.032. Verdict: pass.", "result": "worked"}
+  {
+   "date": "2026-10-11",
+   "kind": "verification",
+   "technique": [
+    "statistical test",
+    "language-model scoring"
+   ],
+   "what": "Statistical validation (docs/_validate.py): 843 tokens, 35 types, fr-1600-letters order 4: reading -2.007 per letter; random keys -5.815 (z 5.7); key annealed onto shuffled ciphertext best -2.967 (mean -3.009, z 30.4); annealer on the real text -2.032. Verdict: pass.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-12",
+   "kind": "verification",
+   "what": "Outside contribution reviewed (WAINUT, PR #30; done separately with Claude Opus 5.5 subagents, not counted as this project's work): their independent key and transcription agree on all 20 shared signs, 95.4% same dot count over 849 aligned signs. Their claim that images P2 and P3 are one leaf (flap down / lifted) checked on the DECODE images and confirmed, so f. 242 is not a second copy and the P2/P3 agreement checked the transcription only. Adopted 'voiage' (f. 243 c2), 'sieur' (f. 241 c17) and the split of code signs into [67], [6], [@]; c12 'service du [67] et du vostre' kept as a conjecture; signature Nicle/Ville open; persons (Henri de Livron, marquis de Ville; Charles IV; Charles I; Earl of Holland; Dec 1629) recorded as a hypothesis, CSP Venice XXI note checked online",
+   "result": "worked"
+  }
  ],
- "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1600-letters", "file": "validation.tsv", "tokens": 843, "types": 35, "tokens_per_type": 24.09, "score": -2.007, "nulls": {"random keys": {"n": 200, "mean": -5.815, "sd": 0.672, "max": -4.116, "z": 5.7, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.009, "sd": 0.033, "max": -2.967, "z": 30.4, "p": 0.1429}}, "power": -2.032, "verdict": "pass", "notes": "claimed per-occurrence score -1.901; polyphony 0.015; 39 unread tokens left out; annealer on the real text from random keys reached -2.032"}, 
+ "outcome": {
+  "validation": {
+   "date": "2026-10-11",
+   "model": "fr-1600-letters",
+   "file": "validation.tsv",
+   "tokens": 843,
+   "types": 35,
+   "tokens_per_type": 24.09,
+   "score": -2.007,
+   "nulls": {
+    "random keys": {
+     "n": 200,
+     "mean": -5.815,
+     "sd": 0.672,
+     "max": -4.116,
+     "z": 5.7,
+     "p": 0.005
+    },
+    "shuffled refit": {
+     "n": 6,
+     "mean": -3.009,
+     "sd": 0.033,
+     "max": -2.967,
+     "z": 30.4,
+     "p": 0.1429
+    }
+   },
+   "power": -2.032,
+   "verdict": "pass",
+   "notes": "claimed per-occurrence score -1.901; polyphony 0.015; 39 unread tokens left out; annealer on the real text from random keys reached -2.032"
+  },
   "method": "key recovered from ciphertext-only",
   "method_basis": "The homophonic pigpen key was built by annealing (hc3.py) on a hand transcription of f. 243 until French emerged, then fixed with guessed anchors ('monsieur', 'vous supplie'); the pencil key on the flap was tested and rejected, and no prior solution was found at the time; Lasry later reported it decoded by Sheila Richards in Secret Writings (1973), so this is an independent re-solution.",
   "contribution": [
@@ -283,8 +351,11 @@
   ],
   "class": "read",
   "fraction_read": 0.956,
-  "verification": ["historical consistency", "statistical test"],
-  "notes": "All three pages transcribed. The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243. Written at Nancy in December by a client ('vostre tres humble et fidel serviteur', signature read 'Nicle') to a 'Monsieur'; it concerns the marriage of 'ce gentilhomme', an envoy to congratulate 'Sa Majesté' on recovering from a long illness, and assurances of zeal for the King's service. Classed read on 3 Oct 2026 (write-up update): the letter is 95.6% read as sense and every open piece is blocked from outside (blots and a stain on f. 241, no second copy or better image; name signs with no key; f. 242 a copy of f. 243, whose text f. 243 gives at 98.3%).",
+  "verification": [
+   "historical consistency",
+   "statistical test"
+  ],
+  "notes": "All three pages transcribed. The letter runs f. 243 -> f. 241; f. 242 (image P2) is the same leaf as f. 243 with the flap down, not a copy (corrected 12 Oct 2026 after WAINUT, PR #30). Written at Nancy in December by a client ('vostre tres humble et fidel serviteur', signature read 'Nicle') to a 'Monsieur'; it concerns the journey ('voiage', WAINUT reading) of 'ce gentilhomme', an envoy to congratulate 'Sa Majesté' on recovering from a long illness, and assurances of zeal for the King's service. Classed read on 3 Oct 2026 (write-up update): the letter is 95.6% read as sense and every open piece is blocked from outside (blots and a stain on f. 241, no second copy or better image; name signs with no key; f. 243 read at 98.3%).",
   "gaps": [
    {
     "item": "f. 241 c12 and c17 ('b_ruiledu ... et du uoii', 'bienr') and single signs (c13 end, c15 end, c19 day)",
@@ -299,12 +370,7 @@
    {
     "item": "two lost signs on f. 243 (c2 blot, c6 hole)",
     "blocker": "illegible",
-    "detail": "paper hole and ink blot; f. 242 has the same signs under its flap"
-   },
-   {
-    "item": "upper part of f. 242 columns a-f",
-    "blocker": "needs-physical-access",
-    "detail": "under the pasted flap with the pencil key; duplicates f. 243"
+    "detail": "paper hole and ink blot; there is no second copy (the f. 242 image is the same leaf with the flap down), so only the original or a better image can settle them"
    },
    {
     "item": "sender, recipient and year",
@@ -313,7 +379,7 @@
    }
   ],
   "fraction_read_method": "measured",
-  "fraction_read_source": "measure.py over reading.txt (pass 2, 3 Oct 2026): 843 of 882 signs of the letter (f. 243 + f. 241) read as sense words (at most one wrong letter per word); 14 code/name signs (@ signs, 67, date numeral, signature) counted as not read; 97.1% excluding them. f. 243 98.3%, f. 241 92.5%. Before this pass: 84.0% (728/867). The duplicate f. 242 is reported apart (74.4%).",
+  "fraction_read_source": "measure.py over reading.txt (pass 2, 3 Oct 2026): 843 of 882 signs of the letter (f. 243 + f. 241) read as sense words (at most one wrong letter per word); 14 code/name signs (@ signs, 67, date numeral, signature) counted as not read; 97.1% excluding them. f. 243 98.3%, f. 241 92.5%. Before this pass: 84.0% (728/867). The f. 242 image (the same leaf as f. 243, flap down; corrected 12 Oct 2026) is reported apart (74.4%).",
   "key": "partial",
   "codes_open": {
    "open": 6,

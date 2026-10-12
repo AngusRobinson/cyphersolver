@@ -1,0 +1,71 @@
+DECODE R927 - TNA SP 106/10 ff. 241-243 - decipherment
+Language: French (17th-century spelling). Cipher: monoalphabetic substitution with 20 pigpen-like signs
+(9 shapes x 1-3 dots) plus 3 nomenclator signs (67, 6, @). Word divisions are kept in the cipher.
+Notation: [..] = unreadable/stain/blot; (x) = uncertain letter; {67} {6} {@} = code signs left as is.
+
+DIPLOMATIC PLAINTEXT (line by line; images rotated 90 deg CCW)
+
+Page 1 (IMG P2/P3)
+01 ie ne pouuois receuoir
+02 un ennuy plus sensible
+03 ayant [blot] appris que du uoi=
+04 age de ce gentilhomme
+05 lequel salua dernierement
+06 {67} de la part de {6} mon maitre
+07 [v]ous auies creu quelque
+08 chose au [struck out] preiudice,
+09 de lentiere affection qui
+10 iay uoue a uostre seruice,
+11 sil fut este pers(o)nn(e) en qui
+12 ie peusse prendre confia=
+13 =nc(e) uous eussies co(n)gnu p(a)r
+14 luy que ie ne cheris rien
+15 tant que les occasions de uous
+16 en tesmoingner des effets
+17 iescris a {@} ce que ce gentil=
+18 =homme alloit faire par dela
+19 et uous supplie tres hu(m)blement
+20 monsieur me continuer lhonneur
+21 de uostre bienueullance et
+22 croire que ie uous honnore
+
+Page 2 (IMG P1, lower half)
+01 et cheris ce qui se peut sy
+02 uous trouuies a propos de
+03 disposer {67} denuoier ledit
+04 {@} de la part de sa maieste uers
+05 {6} pour se reiouir de sa -
+06 - sant(e) apres la longue
+07 maladie quil a eu ie mass=
+08 eure que les personnes qu(e)
+09 uous aimes nen seroint ma(rr)ie
+10 et de [blot] mon coste ie luy o(u)=
+11 =u(r)ira(i) mon coeur de tout ce
+12 que ie iu(g)eray estre du
+13 [se]ruice du {67} et du uos[tre]
+14 uous coniurant me faire c[ette]
+15 faueur dasseurer sa ma[ie]st(e)
+16 (du) sele que iay a son tr[es]
+17 humble seruice estant mo=
+18 =sieur uostre tres humble e[t] [4 signs written above the line, not read]
+19 fidel seruiteur (Ville)
+20 de nancy le [day: 2 undotted signs, not read] decembre
+
+NORMALISED FRENCH
+Je ne pouvais recevoir un ennui plus sensible, ayant appris que, du voyage de ce gentilhomme
+lequel salua dernierement {67} de la part de {6} mon maitre, vous aviez cru quelque chose au
+prejudice de l'entiere affection que j'ai vouee a votre service. S'il eut ete personne en qui je
+pusse prendre confiance, vous eussiez connu par lui que je ne cheris rien tant que les occasions
+de vous en temoigner des effets. J'ecris a {@} ce que ce gentilhomme allait faire par-dela, et
+vous supplie tres humblement, Monsieur, me continuer l'honneur de votre bienveillance et croire
+que je vous honore et cheris [autant] que ce qui se peut. Si vous trouviez a propos de disposer
+{67} d'envoyer ledit {@} de la part de Sa Majeste vers {6} pour se rejouir de sa sante apres la
+longue maladie qu'il a eue, je m'assure que les personnes que vous aimez n'en seraient marries
+[= fachees], et de mon cote je lui ouvrirai mon coeur de tout ce que je jugerai etre du service
+du {67} et du votre, vous conjurant me faire cette faveur d'assurer Sa Majeste du zele que j'ai
+a son tres humble service, etant, Monsieur, votre tres humble et tres fidele serviteur, (Ville?).
+De Nancy, le [..] decembre.
+
+Code signs (inferred from context, not from a key): {67} = the King (= "Sa Majeste"; 3x);
+{6} = the writer's master, male, recovering from a long illness (2x); {@} = a person to whom the
+writer writes and whom the King could send as envoy to {6} (2x).

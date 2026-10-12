@@ -1,0 +1,24 @@
+id	shape(code)	dots	letter	shape description (image rotated 90 deg CCW, dots above glyph)
+S01	D	1	a	open left (TBR)
+S02	C	1	b	open right (TBL; often with a middle bar, E-like)
+S03	U	1	c	open top (BLR)
+S04	L	1	d	left+bottom (BL)
+S05	O	1	e	closed square
+S06	J	1	f	right+bottom (BR)
+S07	D	2	g	open left (TBR)
+S08	U	2	h	open top (BLR)
+S09	O	2	i/j	closed square
+S10	F	2	y	top+left (TL)
+S11	U	3	l	open top (BLR)
+S12	F	1	m	top+left (TL)
+S13	7	1	n	top+right (TR)
+S14	N	1	o	open bottom (TLR)
+S15	O	3	p	closed square
+S16	J	2	q	right+bottom (BR)
+S17	L	2	r	left+bottom (BL)
+S18	C	2	s	open right (TBL; often with a middle bar, E-like)
+S19	N	2	t	open bottom (TLR)
+S20	7	2	u/v	top+right (TR)
+X1	67	-	[nomenclator: the King, prob. Sa Majeste]	digit-like sign "67"
+X2	6	-	[nomenclator: writer's master, male]	digit-like sign "6"
+X3	@	-	[nomenclator: a person, envoy/correspondent]	circled sign

@@ -4,8 +4,9 @@ Lasry review (25 Sept 2026): the letter was decoded by Sheila Richards in *Secre
 
 Outcome: read (key recovered from ciphertext-only; 2026-09-19; all pages transcribed 2026-10-02; pass 2 2026-10-03; reclassed
 read at the write-up update of 2026-10-03: the letter, f. 243 + f. 241, is 95.6% and every open piece is blocked from outside:
-blots and a stain on f. 241 with no second copy and no better image, name signs with no key, f. 242 a copy of f. 243).
-French, homophonic pigpen. The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243.
+blots and a stain on f. 241 with no second copy and no better image, name signs with no key).
+French, homophonic pigpen. The letter runs f. 243 -> f. 241. Correction 12 Oct 2026: f. 242 is not a second copy: images P2 and P3 show the same leaf, f. 243, with the pasted flap folded down (P2) and lifted (P3) (WAINUT, PR #30, confirmed on the images 12 Oct 2026). The letter has
+two pages, and the agreement of `hand_p2.txt` with `hand_p3.txt` checked only the transcription, not the text.
 Measured (pass 2, `measure.py`): **95.6%** of the letter's signs read as sense (843/882; 97.1% leaving out 14 code and name
 signs); f. 243 98.3%, f. 241 92.5%. Before pass 2: 84.0%. Written at Nancy, in December, signed "Nicle"(?).
 
@@ -129,8 +130,10 @@ auto-segmentation (`v1_glyphs2.json`, offset +1150/+100 on the DECODE image), th
 
 **Page order.** f. 243 ends "et croire que je vous honnor-"; f. 241 begins "-e et cheris ce qui se peut, s'y vous
 trouviés a propos de disposer ..." and ends with the subscription and dateline. So the letter is f. 243 + f. 241.
-**f. 242 is a second copy of f. 243**, line for line: same line breaks, same signs (cj, cp, cs read independently agree
-sign for sign; the same '@' at the same place). The upper part of its six rightmost columns is under the pasted flap
+~~f. 242 is a second copy of f. 243~~ (withdrawn 12 Oct 2026: P2 and P3 are the same leaf, flap down and flap lifted;
+see the WAINUT section below). Line for line the same line breaks and signs (cj, cp, cs read independently agree sign
+for sign; the same '@' at the same place), because they are the same page photographed twice; the agreement checked the
+transcription only. The upper part of its six rightmost columns is under the pasted flap
 that carries the pencil key, and three signs of ch are under an ink blot.
 
 **f. 241 (regularised):** "[...honnor]e et cheris ce qui se peut. S'y vous trouviés a propos de disposer [..] d'envoier
@@ -180,15 +183,131 @@ no decipherment or clear copy of R927 in the neighbouring records.
   estre du [..] [67] et du [..], vous conjurant me faire la faveur d'asseurer Sa Majesté du zele que j'ay a son tres
   humble service, estant, Mo[nsieur], [..] vostre tres humble et fidel serviteur Nicle(?). De Nancy le [..] decembre."
 
+## Persons, date and an independent key (12 Oct 2026, contributed by WAINUT)
+
+Contributed by WAINUT (a Dutch AI company, https://github.com/WAINUTAI); the work was done with Claude Opus 5.5 subagents. It is a separate line of
+work from the sessions above and should not be counted with them in `profile.json`. The decipherment of this letter is
+Bourdeau's (19 Sept 2026, above) and, per Lasry, Sheila Richards's before that. This section adds (1) a proposed
+identification of the writer, the three code signs and the recipient, with a probable year, and (2) an independent
+transcription and key, compared with the ones in this folder. `key.json`, `hand_p*.txt` and `reading.txt` are unchanged.
+Files in `wainut/`: `transcription_R927.txt`, `key_R927.tsv` and `plaintext_R927.txt` (our transcription, key and
+plaintext of ff. 243 and 241) and `compare_keys.py` (the comparison; standard library only).
+
+### Independent transcription and key
+
+WAINUT transcribed ff. 243 and 241 by hand from the three DECODE images and recovered the key with a French language
+model, before we knew of this folder. Our notation turns the images 90° counter-clockwise (the writer's frame) and names
+the nine pigpen cells by their look in that frame; the key has 20 signs (cell shape + 1-3 dots), one letter each, and
+does not separate inner strokes. `python targets/sp106r927/wainut/compare_keys.py` maps the two notations (archive
+sides R->T, T->L, L->B, B->R) and gives:
+
+- **Key.** All 20 of our sign values agree with `key.json` for the same sign: 18 are identical, and in 2 `key.json` has
+  a polyphone that contains our value (C1 = f/q, ours f; F2 = l/h, ours h). `key.json` also has 6 plain signs we do not
+  use (C3, H3, I3, K1-K3) and 15 inner-stroke signs that our transcription does not separate. The two keys were found
+  separately and do not contradict each other on any shared sign.
+- **Transcriptions**, aligned line by line on cell shape (code signs and lost signs left out): 849 signs aligned over
+  the two pages; 810 (95.4%) also have the same dot count, and 833 (98.1%) decode to the same letter, each with its own
+  key. A polyphone counts as agreeing when one of its values is ours, so the second figure is generous.
+
+Differences that matter for the text (signs in `hand_p*.txt` notation):
+
+- f. 243 c2, the word before "-age de ce gentilhomme": `hand_p3.txt` has A1 D*2 E2 ("nri", regularised as "mari-age"
+  with one sign marked unread); we have A2 D1 E2 ("uoi"), which gives "du voiage de ce gentilhomme" with every sign read.
+  Two dot counts and an inner stroke differ, and we cannot settle them at the 2300-px DECODE resolution. "Voyage" fits
+  the next clause ("lequel salua dernierement [67] de la part de [6] mon maistre").
+- f. 241 c12: we read "[se]ruice du [67] et du uos[tre]", i.e. "du service du [67] et du vostre"; one dot count and one
+  cell shape differ from `hand_p1.txt` ("b_ruiledu ... et du uoii"), and both ends of the line are damaged.
+- f. 241 c17: we read the head as "sieur" (H2 E2 E1 A2 I2), giving "estant, Mo-sieur, vostre tres humble";
+  `hand_p1.txt` has H1 E2 E1 A1 I2 ("bienr"). Two dot counts differ.
+- **Code signs.** Both transcriptions have code signs in the same seven places, but the images show three different
+  signs there: a "67" (f. 243 c5, first sign; f. 241 c2 and c12), a lone "6" (f. 243 c5 before "mon maistre"; f. 241 c4)
+  and a circled sign (f. 243 c18; f. 241 c3). `hand_p*.txt` writes all of them as '@' except the "67" of f. 241 c12.
+  Kept apart, the passages read: "lequel salua dernierement [67] de la part de [6] mon maistre"; "disposer [67]
+  d'envoier ledit [@] de la part de Sa Majesté vers [6] pour se resjouir de sa santé apres la longue maladie qu'il a
+  eue"; "du service du [67] et du vostre". So [67] is a king ("Sa Majesté" in the same sentence), [6] is the writer's
+  master, recovering from a long illness, and [@] is a man the writer has written to and whom [67] could send to [6].
+- **Signature** (f. 241 c18, last five signs). Both transcriptions have the same five cell shapes and differ in the dots
+  of signs 1 and 3: `hand_p1.txt` has A1 E2? F1? F3 E1 = "nicle"; we have A2 E2 F3 F3 E1 = "uille", i.e. "Ville" (our
+  transcription marks the first sign uncertain). The dots are faint at the DECODE resolution, and we cannot decide
+  between the two readings from the image. **This is the weak link of the identification below**: it rests on "Ville"
+  and on the content, and "Nicle" would not support it.
+- **Page structure.** Images P2 (f. 242 here) and P3 (f. 243) show the same leaf, with the same holes, blots, stains, line
+  breaks and sign forms, photographed with the paper flap folded down (P2) and lifted (P3). We therefore think f. 242
+  is not a second copy of f. 243 but the same page. If so, the sign-for-sign agreement of `hand_p2.txt` with
+  `hand_p3.txt` checks the transcription, not the text, and the text "under the flap" on f. 242 is visible on P3. How the
+  folio numbers 241-243 fall on the three images needs the original.
+
+### Who wrote it, to whom, and when (hypothesis)
+
+This is inferred from the content and from English and Lorraine sources; no document found so far names the persons
+of R927. The confidence figures are our own estimates, not measurements.
+
+| Item | Proposed identification | Confidence |
+|---|---|---|
+| Writer (signature "?ille") | Henri de Livron, marquis de Ville(-sur-Illon), first gentleman of the chamber of Charles IV, Duke of Lorraine, and his envoy to Charles I | about 70% |
+| [6], "mon maistre", recovering from a long illness | Charles IV, Duke of Lorraine | about 70% |
+| [67], the King, "Sa Majesté" | Charles I of England | about 75% |
+| "Monsieur", the recipient | Henry Rich, Earl of Holland; second choice James Hay, Earl of Carlisle (about 15%) | about 40% |
+| [@] | not identified; Walter Montagu is a guess | about 25% |
+| Year | December 1629 most likely; alternatives 1630, 1627, 1644/45 | 1629 about 35% |
+
+Evidence:
+
+- **Ville as the Duke's envoy to Charles I.** The Venetian ambassador's dispatch of 5 April 1628 reports that "M. de
+  Rilegia" had "come express from Lorraine" and been received by Charles I; the editor identifies him as "Henry de
+  Livron, Marquis of Villa" (CSP Venice XXI, p. 48 and note 6, in pp. 41-51). A warrant of 14 March 1628 pays the
+  Earl of Carlisle £200 "for an entertainment which his Majesty is pleased to give to Charles Henry de Livron Ville"
+  (CSP Domestic 1628-29, p. 16). Haussonville calls him "premier gentilhomme de sa chambre" when the Duke sent him to
+  demand the release of Walter Montagu, arrested in Lorraine in 1627 (*Histoire de la
+  réunion de la Lorraine à la France*, vol. I, p. 217).
+- **Ville and Holland.** In May 1629 Charles I orders Captain Mennes to "waft the Marquis de Ville, employed to the King
+  by his Majesty's cousin the Duke of Lorraine" to Dunkirk. The next entry, "wholly written by the King", is to Henry
+  Earl of Holland: he is to tell "Mr. de Ville" that if he will not go in the King's ship, "the King will complain of him
+  to Rosabella" (CSP Domestic 1628-29, p. 553). "Rosabella" is very probably the duchesse de Chevreuse, to whom Holland
+  was closely attached; that would fit "les personnes que vous aimés" on f. 241. This reading of the alias is an
+  inference.
+- **Holland handled Lorraine business.** A Lorraine messenger, Sandrin, landed at Dover at the end of February 1629
+  with letters from the Duke and said "his business was to Lord Holland from the Duke of Lorraine" (CSP Domestic 1628-29,
+  pp. 481, 485).
+- **The illness.** When Gaston d'Orléans came to Nancy on his flight to Lorraine (1629), he went to see the Duke "qui
+  était malade" (Haussonville I, p. 234). How long that illness lasted is not established here.
+- **The name.** Ville signed "Henry de Livron Ville" (treaty of Liverdun, 26 June 1632; Haussonville I, pièces
+  justificatives, pp. 508-509), so "Ville" is the name he signed with.
+
+What would settle it: TNA SP 78/86/104 (Charles IV to Charles I, April 1630) and SP 78/83/78 (Charles I to the Duke,
+23 Nov 1628); autograph letters signed "Ville" in SP 78 or SP 16, to compare the hand and the signature; a life of
+Charles IV giving the length of the 1629 illness; the original of SP 106/10, for the dots of the signature and any cover
+or address; and Richards (next paragraph).
+
+### Richards 1974 (not seen)
+
+The book Lasry cites is probably Sheila R. Richards, *Secret Writing in the Public Records: Henry VIII - George II*
+(HMSO, London, 1974): the TNA catalogue entry for SP 106/10 says "Some deciphered transcript are published in Secret
+Writing in the Public Records: Henry VIII - George II by Sheila R Richards (HMSO, London, 1974)". We have not seen the
+book. It may print the decipherment of this letter, and it may already name the writer and the recipient. Until it is
+checked, the identification above is a hypothesis that may not be new; the recipient and the year are its least secure
+parts, and the signature reading is its weak link.
+
+### Review of the WAINUT section (12 Oct 2026)
+
+Re-run: `compare_keys.py` gives the figures above (20/20 signs consistent; 849 aligned, 95.4% same dots, 98.1% same
+letter); these measure agreement between two transcriptions, not a read share. The page-structure claim was checked on the
+DECODE images and is right: P2 and P3 are one leaf (same circled sign, blots, hole and line breaks), flap down and lifted.
+Adopted in `reading.txt` and on the page, credited to WAINUT: "du voiage" (f. 243 c2; A2 D1 E2 = u o i with `key.json`),
+"Mo-sieur" (f. 241 c17; H2 E2 E1 A2 I2 = s i e u r), and the split of the code signs into [67], [6] and a circled sign
+[@]. Kept open: the signature, "Nicle" or "Ville". "du service du [67] et du vostre" (f. 241 c12) is a WAINUT
+conjecture over damaged line ends, not a reading. The persons are a hypothesis; the CSP Venice XXI note (Rilegia =
+Henry de Livron, Marquis of Villa) was checked online, CSP Dom p. 553 and Haussonville were not. `hand_p*.txt` and
+`key.json` are unchanged, so the `measure.py` figures stand.
+
 ## Remaining gaps
-- f. 241 c12 and c17 ("b_ruiledu ... et du uoii", "bienr") and single signs at the ends of c13, c15 and the day in c19 - blocker: illegible; under ink blots and a stain or ambiguous at 2300 px; f. 241 has no second copy, TNA has not digitised SP 106 and DECODE has no larger image
+- f. 241 c12 and c17 ("b_ruiledu ... et du uoii", "bienr"; WAINUT reads c17 "sieur", adopted, and conjectures c12 "[se]ruice du [67] et du uos[tre]") and single signs at the ends of c13, c15 and the day in c19 - blocker: illegible; under ink blots and a stain or ambiguous at 2300 px; f. 241 has no second copy, TNA has not digitised SP 106 and DECODE has no larger image
 - the '@' (circle/9) signs, the clear "67", the date numeral and the signature "Nicle"(?) - blocker: no-key-material; 14 signs in name positions, too few to value from context, and no nomenclator survives with the letter or in the neighbouring records
-- two lost signs on f. 243 (c2 blot, c6 paper hole) - blocker: illegible; the same places on the copy f. 242 are under its flap
-- upper part of f. 242 columns a-f - blocker: needs-physical-access; under the pasted flap with the pencil key (it duplicates f. 243 c0-c5, so no text is lost)
+- two lost signs on f. 243 (c2 blot, c6 paper hole) - blocker: illegible; there is no second copy (P2 is the same leaf with the flap down), so only the original or a better image can settle them
 - sender, recipient and year - blocker: no-key-material; the names sit in the '@' code signs; no docket or address leaf in the record
 
 ## Escalation
-- [x] siblings: neighbouring SP 106/10 records R922-R933 opened (2 Oct 2026); none is in this pigpen; f. 242 found to be a second copy of f. 243 and used to check it
+- [x] siblings: neighbouring SP 106/10 records R922-R933 opened (2 Oct 2026); none is in this pigpen; f. 242 at first taken for a second copy of f. 243; corrected 12 Oct 2026 (WAINUT, PR #30): P2 and P3 are the same leaf, flap down and lifted, so the comparison checked the transcription only
 - [x] clear-pages: no clear page, docket or decipherment on ff. 241-243 or in the neighbouring records; the top half of f. 241 is show-through from another leaf, not text
 - [x] known-keys: the pencil flap key tested in all orientations and rejected
 - [x] print: web search (SP 106/10 pigpen, Nancy), the GL.htm copies in the repo and Tomokiyo's Cryptiana index (only the Walsingham-Wilkes pigpen): no edition; Sheila Richards, Secret Writings (1973), reported by Lasry, not seen; CSP needs a year or names
