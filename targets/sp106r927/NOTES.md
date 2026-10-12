@@ -4,8 +4,9 @@ Lasry review (25 Sept 2026): the letter was decoded by Sheila Richards in *Secre
 
 Outcome: read (key recovered from ciphertext-only; 2026-09-19; all pages transcribed 2026-10-02; pass 2 2026-10-03; reclassed
 read at the write-up update of 2026-10-03: the letter, f. 243 + f. 241, is 95.6% and every open piece is blocked from outside:
-blots and a stain on f. 241 with no second copy and no better image, name signs with no key, f. 242 a copy of f. 243).
-French, homophonic pigpen. The letter runs f. 243 -> f. 241; f. 242 is a second copy of f. 243.
+blots and a stain on f. 241 with no second copy and no better image, name signs with no key).
+French, homophonic pigpen. The letter runs f. 243 -> f. 241. Correction 12 Oct 2026: f. 242 is not a second copy: images P2 and P3 show the same leaf, f. 243, with the pasted flap folded down (P2) and lifted (P3) (WAINUT, PR #30, confirmed on the images 12 Oct 2026). The letter has
+two pages, and the agreement of `hand_p2.txt` with `hand_p3.txt` checked only the transcription, not the text.
 Measured (pass 2, `measure.py`): **95.6%** of the letter's signs read as sense (843/882; 97.1% leaving out 14 code and name
 signs); f. 243 98.3%, f. 241 92.5%. Before pass 2: 84.0%. Written at Nancy, in December, signed "Nicle"(?).
 
@@ -129,8 +130,10 @@ auto-segmentation (`v1_glyphs2.json`, offset +1150/+100 on the DECODE image), th
 
 **Page order.** f. 243 ends "et croire que je vous honnor-"; f. 241 begins "-e et cheris ce qui se peut, s'y vous
 trouviés a propos de disposer ..." and ends with the subscription and dateline. So the letter is f. 243 + f. 241.
-**f. 242 is a second copy of f. 243**, line for line: same line breaks, same signs (cj, cp, cs read independently agree
-sign for sign; the same '@' at the same place). The upper part of its six rightmost columns is under the pasted flap
+~~f. 242 is a second copy of f. 243~~ (withdrawn 12 Oct 2026: P2 and P3 are the same leaf, flap down and flap lifted;
+see the WAINUT section below). Line for line the same line breaks and signs (cj, cp, cs read independently agree sign
+for sign; the same '@' at the same place), because they are the same page photographed twice; the agreement checked the
+transcription only. The upper part of its six rightmost columns is under the pasted flap
 that carries the pencil key, and three signs of ch are under an ink blot.
 
 **f. 241 (regularised):** "[...honnor]e et cheris ce qui se peut. S'y vous trouviés a propos de disposer [..] d'envoier
@@ -285,15 +288,26 @@ book. It may print the decipherment of this letter, and it may already name the 
 checked, the identification above is a hypothesis that may not be new; the recipient and the year are its least secure
 parts, and the signature reading is its weak link.
 
+### Review of the WAINUT section (12 Oct 2026)
+
+Re-run: `compare_keys.py` gives the figures above (20/20 signs consistent; 849 aligned, 95.4% same dots, 98.1% same
+letter); these measure agreement between two transcriptions, not a read share. The page-structure claim was checked on the
+DECODE images and is right: P2 and P3 are one leaf (same circled sign, blots, hole and line breaks), flap down and lifted.
+Adopted in `reading.txt` and on the page, credited to WAINUT: "du voiage" (f. 243 c2; A2 D1 E2 = u o i with `key.json`),
+"Mo-sieur" (f. 241 c17; H2 E2 E1 A2 I2 = s i e u r), and the split of the code signs into [67], [6] and a circled sign
+[@]. Kept open: the signature, "Nicle" or "Ville". "du service du [67] et du vostre" (f. 241 c12) is a WAINUT
+conjecture over damaged line ends, not a reading. The persons are a hypothesis; the CSP Venice XXI note (Rilegia =
+Henry de Livron, Marquis of Villa) was checked online, CSP Dom p. 553 and Haussonville were not. `hand_p*.txt` and
+`key.json` are unchanged, so the `measure.py` figures stand.
+
 ## Remaining gaps
-- f. 241 c12 and c17 ("b_ruiledu ... et du uoii", "bienr") and single signs at the ends of c13, c15 and the day in c19 - blocker: illegible; under ink blots and a stain or ambiguous at 2300 px; f. 241 has no second copy, TNA has not digitised SP 106 and DECODE has no larger image
+- f. 241 c12 and c17 ("b_ruiledu ... et du uoii", "bienr"; WAINUT reads c17 "sieur", adopted, and conjectures c12 "[se]ruice du [67] et du uos[tre]") and single signs at the ends of c13, c15 and the day in c19 - blocker: illegible; under ink blots and a stain or ambiguous at 2300 px; f. 241 has no second copy, TNA has not digitised SP 106 and DECODE has no larger image
 - the '@' (circle/9) signs, the clear "67", the date numeral and the signature "Nicle"(?) - blocker: no-key-material; 14 signs in name positions, too few to value from context, and no nomenclator survives with the letter or in the neighbouring records
-- two lost signs on f. 243 (c2 blot, c6 paper hole) - blocker: illegible; the same places on the copy f. 242 are under its flap
-- upper part of f. 242 columns a-f - blocker: needs-physical-access; under the pasted flap with the pencil key (it duplicates f. 243 c0-c5, so no text is lost)
+- two lost signs on f. 243 (c2 blot, c6 paper hole) - blocker: illegible; there is no second copy (P2 is the same leaf with the flap down), so only the original or a better image can settle them
 - sender, recipient and year - blocker: no-key-material; the names sit in the '@' code signs; no docket or address leaf in the record
 
 ## Escalation
-- [x] siblings: neighbouring SP 106/10 records R922-R933 opened (2 Oct 2026); none is in this pigpen; f. 242 found to be a second copy of f. 243 and used to check it
+- [x] siblings: neighbouring SP 106/10 records R922-R933 opened (2 Oct 2026); none is in this pigpen; f. 242 at first taken for a second copy of f. 243; corrected 12 Oct 2026 (WAINUT, PR #30): P2 and P3 are the same leaf, flap down and lifted, so the comparison checked the transcription only
 - [x] clear-pages: no clear page, docket or decipherment on ff. 241-243 or in the neighbouring records; the top half of f. 241 is show-through from another leaf, not text
 - [x] known-keys: the pencil flap key tested in all orientations and rejected
 - [x] print: web search (SP 106/10 pigpen, Nancy), the GL.htm copies in the repo and Tomokiyo's Cryptiana index (only the Walsingham-Wilkes pigpen): no edition; Sheila Richards, Secret Writings (1973), reported by Lasry, not seen; CSP needs a year or names
