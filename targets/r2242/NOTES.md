@@ -215,6 +215,9 @@ no key sheet and the letter is not in print, so no material exists to value them
 
 ## Additions from an independent reading (12 Oct 2026, contributed by WAINUT)
 
+**Status: proposals, not adopted (review 12 Oct 2026).** The values below are not in `apply.py` or the key and do
+not change the Remaining gaps; see the review controls in `../r1892/NOTES.md`.
+
 Who did this work, how, and with what grades and "blind" confidences is set out in `../r1892/NOTES.md`, in the
 section of the same name. The square and the readings above are Bourdeau's; WAINUT's independent reading agrees with
 them except for the signs below, which are open above or read differently. Lines are those of `transcription_p3.txt`

@@ -265,6 +265,16 @@
    "kind": "hypothesis", "technique": ["contextual inference"],
    "what": "Gaps re-sorted: signs occurring twice (Delta, %, crossed diamond) stay open-codes; the nineteen true singletons are blocked by no-key-material (one context cannot fix a word sign).",
    "result": "partial"
+  },
+  {
+   "date": "2026-10-12",
+   "kind": "verification",
+   "technique": [
+    "language-model scoring",
+    "statistical test"
+   ],
+   "what": "Outside contribution reviewed (PR #31, WAINUT): seven proposed sign values from shape matches with R1892/R2242 and context (crossed o = zijn, dagger = al, P.S. S = maar, crossed o-slash = voor, H with P/loop = verwacht, psi = over, plain delta = kan). Not measured; the R1892 control (leave-one-out 1-8 tokens, LM rank first at 5 of 47) shows measure_sense.py cannot confirm such values. Kept as proposals; key and outcome unchanged.",
+   "result": "partial"
   }
  ],
  "outcome": {
