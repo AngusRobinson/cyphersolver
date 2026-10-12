@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Urquhart's Cyphral Octastich (1652) and Distich (1653)</title>
-<meta name="description" content="Thomas Urquhart's Cyphral Octastich of 1652 is a book cipher on his own Jewel: the k-th number indexes the first word of the needed initial on page k. The rule, published by Vals AI in August 2026, was applied to a fresh transcription and tested without the plaintext (238 of 284 first-occurrence hits against 0.43 for controls); all but ten letters are decrypted. The rule claimed for the companion distich does not reproduce.">
+<meta name="description" content="Thomas Urquhart's Cyphral Octastich of 1652 is a book cipher on his own Jewel: the k-th number indexes the first word of the needed initial on page k. The rule, published by Vals AI in August 2026, was applied to a fresh transcription and tested without the plaintext (238 of 284 first-occurrence hits against 0.43 for controls); 274 of the 285 numbers give the letter the verse requires, including line 5, which that publication left open. The rule claimed for the companion distich does not reproduce.">
 <link rel="stylesheet" href="style.css?v=20261009a">
 <meta name="date" content="2026-09-16">
-<meta name="last-modified" content="2026-10-05">
+<meta name="last-modified" content="2026-10-12">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -44,14 +44,14 @@
   <h1>Thomas Urquhart’s Cyphral Octastich and Distich</h1>
 <div class="parties"><figure class="party sender"><img src="portrait_thomas-urquhart.jpg" alt="Thomas Urquhart" title="Thomas Urquhart: Engraving by George Glover, 1641. Wikimedia Commons, public domain." loading="lazy"><figcaption><span class="role">from</span>Thomas Urquhart</figcaption></figure></div><!-- /parties -->
   <p class="sub"><em>The Jewel</em> (1652), final leaf · eight lines and a “Decagram”, 285 numbers to 201 · <em>Logopandecteision</em> (1653), “The Cyphral Distich”, 64 numbers to 70 · Schmeh’s Top 50, no. 28</p>
-  <p class="sub">The rule Vals AI published on 31 August 2026 was applied to the EEBO-TCP text of <em>The Jewel</em> and a fresh transcription of the octastich&rsquo;s 285 numbers from the 1983 edition, without using their plaintext; 238 of 284 numbers are first-occurrence hits against 0.43 for both controls, and all but ten letters are decrypted. The rule claimed for the distich does not reproduce.</p>
-  <p class="meta">Daniel Bourdeau &middot; posted <time datetime="2026-09-16">16 September 2026</time> &middot; updated <time datetime="2026-10-05">5 October 2026</time></p>
+  <p class="sub">The rule Vals AI published on 31 August 2026 was applied to the EEBO-TCP text of <em>The Jewel</em> and a fresh transcription of the octastich&rsquo;s 285 numbers from the 1983 edition, without using their plaintext; 238 of 284 numbers are first-occurrence hits against 0.43 for both controls. 274 of the 285 numbers give the letter the verse requires, including line 5, which Vals left open; one letter of it is still open. The rule claimed for the distich does not reproduce.</p>
+  <p class="meta">Daniel Bourdeau &middot; posted <time datetime="2026-09-16">16 September 2026</time> &middot; updated <time datetime="2026-10-12">12 October 2026</time></p>
 <p class="outcome">Method: <a href="glossary.html#known">read with known key</a> &middot; Extent: partial (78% of the cipher)</p><!-- /outcome -->
 <div class="seal partial" aria-hidden="true"><span>known key</span></div>
 </section>
 
 <main>
-<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#poems">The two poems</a><a href="#test">A test that never sees the plaintext</a><a href="#reading">The decryption</a><a href="#distich">The distich does not follow</a><a href="#remaining">What remains</a><a href="#method">Method and reproduction</a><a href="#sources">Sources</a></nav>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#poems">The two poems</a><a href="#numbers">The 285 numbers</a><a href="#test">A test that never sees the plaintext</a><a href="#reading">The decryption</a><a href="#distich">The distich does not follow</a><a href="#remaining">What remains</a><a href="#method">Method and reproduction</a><a href="#sources">Sources</a></nav>
 <div class="callout">
 <strong>Summary.</strong> Urquhart printed a verse under the octastich saying the key was “gather’d out of my Exskybalorum” and that he loved “an aphaeresified treason”:
 the cipher takes word-initials from the book it is printed in. The <em>k</em>-th number, counting straight through the poem, is a word index into physical page <em>k</em>
@@ -60,11 +60,11 @@ plaintext: whether number <em>n</em> on page <em>k</em> is the first word of its
 short by thirteen numbers; the 1983 Jack and Lyall edition, photographed on the HCPortal record, gives 285. Decoded one number per page against the TCP text,
 238 of 284 are first-occurrence hits, against 0.43 for the same numbers shuffled and 0.44 for random pages, and the poem decrypts as: <em>Great Lord, mantaine that regal
 familie, / Whereof King Charls the second is the head, / And grant that he may beare the supreme sweigh / Where English, Scots and Irsh are borne and bred; / And
-[…] this usurp’d authoritie / Reigne in his royal predecessors stead: / Let him be our sole Cesar, Artur, Hector, / Our Emperour, King, Monarch and Protector. / Amen,
-so be it.</em> Vals AI published this rule and plaintext on 31 August 2026, before this work, as a Claude Fable 5.1 result. Here the rule was applied to the text and a new
-transcription of the numbers without their plaintext, and their two caveats are traced to defects of the digitised copy. The distich claim, <em>i</em>-th number into the <em>i</em>-th Proquiritation, gives 34 of 64
+[?] overthrow his usurp’d authoritie / Reigne in his royal predecessors stead: / Let him be our sole Cesar, Artur, Hector, / Our Emperour, King, Monarch and Protector. / Amen,
+so be it.</em> Vals AI published this rule and plaintext on 31 August 2026, before this work, as a Claude Fable 5.1 result, with nine letters of line 5 unresolved. Here the rule was applied to the text and a new
+transcription of the numbers without their plaintext, their two caveats are traced to defects of the digitised copy, and line 5 is decrypted except one letter. The distich claim, <em>i</em>-th number into the <em>i</em>-th Proquiritation, gives 34 of 64
 first-occurrence hits, chance for texts that short, and no English.
-<em>Extent: partial. The octastich is decrypted except ten letters of line 5; the distich is not deciphered.</em>
+<em>Extent: partial. 274 of the octastich’s 285 numbers give the letter the verse requires; one letter of line 5 is open, and one falls on a page the digitised text lacks. The distich is not deciphered.</em>
 </div>
 
 <h2 id="poems"><span class="num">01</span> The two poems</h2>
@@ -77,17 +77,51 @@ verse beneath it, which a reader quoted in 2019:</p>
 <p><em>Aphaeresis</em> is the loss of a word’s first letter. Urquhart says, in his way, that the cipher is made of initials taken out of his own book.</p>
 <figure data-credit="Urquhart, The Jewel, ed. Jack and Lyall (Scottish Academic Press, 1983) p. 212, photograph via the HCPortal record"><img src="urquhart_octastich_lines.jpg" alt="Printed heading The Cyfral Octastick above two lines of dotted numbers" loading="lazy"><figcaption>The octastich as reprinted in 1983: the first line and the start of the second. Taken as word indexes into the pages of <em>The Jewel</em>, line one gives &ldquo;Great Lord, mantaine that regal familie&rdquo; and line two &ldquo;Whereof King Charls the second is the head&rdquo;. <span class="credit">Image: Urquhart, The Jewel, ed. Jack and Lyall (Scottish Academic Press, 1983) p. 212, photograph via the HCPortal record.</span></figcaption></figure>
 
-<h2 id="test"><span class="num">02</span> A test that never sees the plaintext</h2>
+<h2 id="numbers"><span class="num">02</span> The 285 numbers</h2>
+<p>Transcribed from the photographs of the 1983 edition on the HCPortal record, laid out as printed: each stanza-line runs over onto an indented second line, and the
+Decagram follows. The counts and sums are there so that another transcription can be checked line by line, and the range in brackets is the position of each line in the
+count that the rule uses (number 146, the first of line 5, goes to page 146). Schmeh’s transcription (2015), the one in circulation, has 272: it lacks the run-overs
+of lines 2 and 6 (<code>31.5.19.32.3.115.3.22</code> and <code>16.69.1.44</code>), drops the <code>2</code> before the last <code>10</code> of line 6, and has
+<code>6</code> for <code>16</code> as the second number of line 3. The list is <code>OCTASTICH_1983</code> in <code>targets/urquhart/ct.py</code>.</p>
+<pre>
+Line 1    33 numbers, sum  710   (numbers 1&ndash;33)
+25.11.39.4.4.10.3.54.50.19.1.18.1.5.9.58.15.1.4.17.1.42.32.77.23.75.6.
+    3.18.20.36.8.21.
+Line 2    35 numbers, sum 1222   (numbers 34&ndash;68)
+4.10.22.3.5.11.3.162.18.21.44.79.42.2.17.61.32.7.7.107.8.59.28.54.31.113.42.
+    31.5.19.32.3.115.3.22.
+Line 3    38 numbers, sum 1298   (numbers 69&ndash;106)
+1.16.96.31.87.5.88.1.4.30.10.15.8.47.28.17.139.17.69.5.29.9.9.1.51.6.114.8.
+    34.30.2.18.24.41.33.74.93.8.
+Line 4    39 numbers, sum 1470   (numbers 107&ndash;145)
+5.12.58.162.12.44.1.66.9.15.100.42.2.28.16.6.27.4.196.70.53.7.1.69.2.15.89.
+    34.11.13.12.29.15.76.40.22.8.24.75.
+Line 5    32 numbers, sum  668   (numbers 146&ndash;177)
+3.58.15.2.1.4.5.56.5.5.2.4.12.20.19.14.80.37.45.34.3.95.6.38.1.18.11.27.4.13.
+    7.24.
+Line 6    33 numbers, sum  867   (numbers 178&ndash;210)
+5.20.5.87.40.25.9.56.21.29.2.81.50.147.2.6.16.15.14.9.13.27.3.16.14.7.6.2.10.
+    16.69.1.44.
+Line 7    31 numbers, sum  631   (numbers 211&ndash;241)
+38.3.3.2.10.34.8.18.9.28.2.4.6.2.201.10.13.6.1.36.1.31.4.17.54.16.5.22.11.5.
+    31.
+Line 8    34 numbers, sum  975   (numbers 242&ndash;275)
+71.96.15.45.19.6.64.10.42.7.83.37.6.3.7.74.4.14.8.91.27.12.11.2.28.50.68.3.2.
+    12.1.5.49.3.
+Decagram  10 numbers, sum  327   (numbers 276&ndash;285)
+7.7.95.66.1.11.33.51.50.6.
+</pre>
+
+<h2 id="test"><span class="num">03</span> A test that never sees the plaintext</h2>
 <p>A book cipher of this kind is normally judged by whether the letters it yields make sense, which invites the objection that a determined reader can make sense of
 anything. Urquhart’s habit removes that objection. If he scanned each page from the top and stopped at the first word beginning with the letter he needed, then for the
 right page the number he wrote is the index of the first word of its own initial. That is a property of the number and the page alone. For a wrong page, or a wrong
 rule, it holds at the base rate, which in this book is about 43 % for a random page and index because small indices are common and the first few words of any page
 are first occurrences by construction.</p>
 <p>The EEBO-TCP transcription of <em>The Jewel</em> was parsed into word lists per page. The 1652 printer numbered pages 34–35, 38–39, 42–43 and 46–47 twice and skipped
-60 and 110, so pages are counted physically from p. 1, and three duplicated page breaks that the TCP carries for re-shot images are removed. Schmeh’s 272-number
-transcription, the only one in circulation since 2015, omits the run-over lines of stanzas 2 and 6, one figure, and misreads one; a dynamic-programme alignment that may
-skip pages still placed it at 231 first-occurrence hits in 267 and decrypted five lines. The photographs of the 1983 edition on the HCPortal record give the full 285, which
-then decode straight, one number per page.</p>
+60 and 110, so pages are counted physically from p. 1, and three duplicated page breaks that the TCP carries for re-shot images are removed. On Schmeh’s 272
+numbers (section 02) a dynamic-programme alignment that may skip pages still placed 231 first-occurrence hits in 267 and decrypted five lines. The full 285 decode
+straight, one number per page.</p>
 <table>
 <thead><tr><th>Run</th><th>First-occurrence rate</th></tr></thead>
 <tbody>
@@ -101,51 +135,114 @@ then decode straight, one number per page.</p>
 <p>Line 1 alone makes the case: 28 of its 33 numbers are exactly the first word of the needed initial on physical page <em>k</em>, and the other five are one word off
 (25 for 26, 18 for 17, 23 for 22, 75 for 74) or a TCP variant, which is the size of difference one expects between a modern tokenisation and a 1652 page.</p>
 
-<h2 id="reading"><span class="num">03</span> The decryption</h2>
+<h2 id="reading"><span class="num">04</span> The decryption</h2>
+<p>One number gives one letter. The <em>k</em>-th number, counting straight through the poem and not restarting at each line, goes to page <em>k</em> of the 1652
+<em>Jewel</em>; count the words from the top of that page, and the first letter of the <em>n</em>-th word is the letter of the plaintext. Pages are counted as they are
+turned from p. 1, not by their printed numbers, and running heads, marginal notes and catchwords are not counted as words of the page. The first five numbers:</p>
+<table>
+<thead><tr><th>Number</th><th>Page</th><th>The page, from the top</th><th>Letter</th></tr></thead>
+<tbody>
+<tr><td>25</td><td>1</td><td>He should obtain all his desires, / Who offers more then he requires. NO sooner had the total Rout of the Regal party at Worcester, <b>given</b> &hellip;</td><td>G</td></tr>
+<tr><td>11</td><td>2</td><td>exquisite snaps, and clean shavers (if ever there were any) <b>rushing</b> &hellip;</td><td>R</td></tr>
+<tr><td>39</td><td>3</td><td>whom they had loaded with spoil, &hellip; and bore it straight away: which done, to <b>every</b> &hellip;</td><td>E</td></tr>
+<tr><td>4</td><td>4</td><td>lying upon one <b>another</b> &hellip;</td><td>A</td></tr>
+<tr><td>4</td><td>5</td><td>more carefully endeavoured <b>to</b> &hellip;</td><td>T</td></tr>
+</tbody></table>
+<p>Each of these words is also the first on its page with that initial: no earlier word on p. 1 begins with G, none on p. 2 with R, none on p. 3 with E. That is the
+habit the test in section 03 measures. The first row also shows a typical difference between the TCP and the 1652 page: the TCP text sets the drop-capital N of
+&ldquo;NO&rdquo; apart, so its word list counts &ldquo;N&rdquo; and &ldquo;O&rdquo; as two words and puts &ldquo;given&rdquo; at 26, and the block gives <code>w</code>
+(&ldquo;Worcester&rdquo;) for the first number; on the 1652 page &ldquo;given&rdquo; is word 25.</p>
 <figure class="creveal" data-src="reveal/urquhart.json"></figure>
-<p>Capitals are first-occurrence hits, lower case a word a few places off in the TCP tokenisation, <code>_</code> the one page (physical 158) whose text the TCP
-does not carry. The right-hand column is the plaintext.</p>
+<p>Each row of the block has one letter per number, so line 5 has 32: <code>_</code> marks number 158, which falls on the one page (physical 158) whose text the TCP
+does not carry. Capitals are first-occurrence hits; a lower-case letter is the initial of a TCP word that is not the first of its letter on the page, usually a word or
+two from it. The right-hand column is the plaintext.</p>
 <pre>
 wREATLORDMApTAInETHATREGtaFAMILIE          Great Lord, mantaine that regal familie
 WtEREOFKINGCHARLStHaStCONtISTaEHiAD        Whereof King Charls the second is the head
 ANDGRAnTTHatHEDAYBEARETHEFUPaEMESgEIGS     And grant that he may beare the supreme sweigh
 WHERDENGLIsHSCoTSANDIOSoAREBORNEANDBRED    Where English, Scots and Irsh are borne and bred
-AaDCOnERTHTO_aIttSUaPDApTHORIEIE           And [conerthto?] this usurp’d authoritie
+AaDCOnERTHTO_aIttSUaPDApTHORIEIE           And [?] overthrow his usurp&rsquo;d authoritie
 REIGtEINMISnOtALPREDECESSORSSifAt          Reigne in his royal predecessors stead
 SETHpLBEOURSOLtCESAtAmtaRHECBOR            Let him be our sole Cesar, Artur, Hector
 OeREMPoRPUwJINGMONARCHANDPROTECTOR         Our Emperour, King, Monarch and Protector
 AMsNSOwLtt                                 Amen, so be it
 </pre>
-<p>The decryption agrees with Vals’ published plaintext throughout, including the nine letters of line 5 that neither decryption resolves (<em>conerthto</em>, pages 149–157,
-eight of them exact first-occurrence hits) followed by the one letter on the TCP’s near-empty page 158. Their “one page used twice from position 159” is that page.
-<em>Sweigh</em> is Scots <em>swey</em>, “sway”; <em>mantaine</em>, <em>Charls</em>, <em>Cesar</em> and <em>Artur</em> are period spellings. The text is a royalist prayer for Charles II,
-written in London in March 1652 by a prisoner of Worcester, hidden in a book dedicated to the vindication of Scotland.</p>
+<p><em>Sweigh</em> is Scots <em>swey</em>, &ldquo;sway&rdquo;; <em>mantaine</em>, <em>Charls</em>, <em>Cesar</em> and <em>Artur</em> are period spellings. The text is a
+royalist prayer for Charles II, written in London in March 1652 by a prisoner of Worcester, hidden in a book dedicated to the vindication of Scotland.</p>
+<p>The decryption agrees with Vals&rsquo; published plaintext in every line but the fifth. There they printed <em>AND [&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;] THIS
+USURP&rsquo;D AUTHORITIE</em>, as did the first version of this page: positions 149&ndash;157 come out C-O-N-E-R-T-H-T-O and make no word. Their &ldquo;one page used
+twice from position 159&rdquo; is the TCP&rsquo;s near-empty page 158. Re-read on 5 October 2026, the line divides one place later. <em>Usurp&rsquo;d authoritie</em>
+fills 162&ndash;177. <em>His</em> fills 159&ndash;161 once the TCP&rsquo;s split of &ldquo;Leopoldo&rsquo;s&rdquo; into &ldquo;Leopoldo s&rdquo; on p. 161 is undone.
+That leaves 150&ndash;158 for <em>overthrow</em>, six of whose nine letters are exact, and 149 for a word of one letter:</p>
+<table>
+<thead><tr><th>Word</th><th>Number</th><th><em>n</em></th><th>Word <em>n</em> on the page (TCP)</th><th>Letter</th><th>Fit</th></tr></thead>
+<tbody>
+<tr><td>And</td><td>146</td><td>3</td><td>and</td><td>A</td><td>exact</td></tr>
+<tr><td></td><td>147</td><td>58</td><td>and</td><td>N</td><td>near: first N is word 56, &ldquo;neat&rdquo;</td></tr>
+<tr><td></td><td>148</td><td>15</td><td>ducats</td><td>D</td><td>exact</td></tr>
+<tr><td>?</td><td>149</td><td>2</td><td>Colonel</td><td>?</td><td>open</td></tr>
+<tr><td>overthrow</td><td>150</td><td>1</td><td>of</td><td>O</td><td>exact</td></tr>
+<tr><td></td><td>151</td><td>4</td><td>nor</td><td>V</td><td>gap: first V is word 87</td></tr>
+<tr><td></td><td>152</td><td>5</td><td>elected</td><td>E</td><td>exact</td></tr>
+<tr><td></td><td>153</td><td>56</td><td>Russia</td><td>R</td><td>exact</td></tr>
+<tr><td></td><td>154</td><td>5</td><td>the</td><td>T</td><td>exact</td></tr>
+<tr><td></td><td>155</td><td>5</td><td>his</td><td>H</td><td>exact</td></tr>
+<tr><td></td><td>156</td><td>2</td><td>to</td><td>R</td><td>near: first R is word 1, &ldquo;repaired&rdquo;</td></tr>
+<tr><td></td><td>157</td><td>4</td><td>of</td><td>O</td><td>exact</td></tr>
+<tr><td></td><td>158</td><td>12</td><td>(no text in the TCP)</td><td>W</td><td>gap: page not in the TCP</td></tr>
+<tr><td>his</td><td>159</td><td>20</td><td>and</td><td>H</td><td>near: first H is word 19, &ldquo;hand&rdquo;</td></tr>
+<tr><td></td><td>160</td><td>19</td><td>included</td><td>I</td><td>exact</td></tr>
+<tr><td></td><td>161</td><td>14</td><td>said</td><td>S</td><td>exact</td></tr>
+<tr><td>usurp’d</td><td>162</td><td>80</td><td>the</td><td>U</td><td>near: first U is word 79, &ldquo;undergoe&rdquo;</td></tr>
+<tr><td></td><td>163</td><td>37</td><td>service</td><td>S</td><td>exact</td></tr>
+<tr><td></td><td>164</td><td>45</td><td>upbraid</td><td>U</td><td>exact</td></tr>
+<tr><td></td><td>165</td><td>34</td><td>and</td><td>R</td><td>near: first R is word 33, &ldquo;Rape-seed&rdquo;</td></tr>
+<tr><td></td><td>166</td><td>3</td><td>plowed</td><td>P</td><td>exact</td></tr>
+<tr><td></td><td>167</td><td>95</td><td>did</td><td>D</td><td>exact</td></tr>
+<tr><td>authoritie</td><td>168</td><td>6</td><td>an</td><td>A</td><td>exact</td></tr>
+<tr><td></td><td>169</td><td>38</td><td>pain</td><td>U</td><td>near: first U is word 37, &ldquo;under&rdquo;</td></tr>
+<tr><td></td><td>170</td><td>1</td><td>they</td><td>T</td><td>exact</td></tr>
+<tr><td></td><td>171</td><td>18</td><td>have</td><td>H</td><td>exact</td></tr>
+<tr><td></td><td>172</td><td>11</td><td>other</td><td>O</td><td>exact</td></tr>
+<tr><td></td><td>173</td><td>27</td><td>rebus</td><td>R</td><td>exact</td></tr>
+<tr><td></td><td>174</td><td>4</td><td>I</td><td>I</td><td>exact</td></tr>
+<tr><td></td><td>175</td><td>13</td><td>endowments</td><td>T</td><td>near: first T is word 12, &ldquo;Theological&rdquo;</td></tr>
+<tr><td></td><td>176</td><td>7</td><td>improvement</td><td>I</td><td>exact</td></tr>
+<tr><td></td><td>177</td><td>24</td><td>excellenti</td><td>E</td><td>exact</td></tr>
+</tbody></table>
+<p>&ldquo;Near&rdquo; is a letter whose first word on the page lies within two of <em>n</em>, the size of a tokenisation difference between the TCP and the 1652 page.
+Number 149 gives &ldquo;Colonel&rdquo; where the line needs a one-letter word; <em>O</em> would suit a prayer, but the first O on that page is word 35, so the letter is left
+open. The V of <em>overthrow</em> (151, &ldquo;nor&rdquo;) is a slip, and its W falls on the page the TCP does not carry.</p>
 
-<h2 id="distich"><span class="num">04</span> The distich does not follow</h2>
+<h2 id="distich"><span class="num">05</span> The distich does not follow</h2>
 <p>The same test applied to the distich under Vals’ Proquiritation rule, using Reticuli’s tokenised Proquiritations, yields 34 first-occurrence hits in 64 and the string
 <code>NTMAMNDN_OHTISEABRPTTSGSNTAATVTD</code>, not <em>O God uphold King Charls the second</em>. Texts of thirty to a hundred words give high base rates, so 34 of 64 is
 chance. Page-index variants on either book, with either numbering, with the second line restarting at page 1, all sit inside the shuffled control. Reticuli’s ten
 infeasible positions stand. The distich is a different construction, or the same construction on a text not yet tried; no decipherment of it is established.</p>
 
-<h2 id="remaining"><span class="num">05</span> What remains</h2>
+<h2 id="remaining"><span class="num">06</span> What remains</h2>
 <ul>
-<li><b>Re-measured 5 October 2026.</b> Measured as sense (<code>measure_sense.py</code>), the octastich reads 274 of its 285 numbers (96.1%): 233 exact and 41 near, where the context fixes the letter. Line 5 was re-read: <i>And [?] overthrow his usurp&rsquo;d authoritie</i>; one letter (position 149) stays open, and position 158 falls on the near-empty TCP page, which needs the 1652 leaves. Nine other letters are compositor&rsquo;s slips fixed by context. With the unread distich (64 numbers) the target is 274 of 349 (78.5%).</li>
-<li>Ten letters of line 5 (positions 151–160): nine decode as <em>conerthto</em> from the TCP text and one falls on a page the TCP does not carry. A misprint of the 1652
-numbers, a miscount by Urquhart, or a divergence between the filmed copy and the print at pages 149–158; the 1652 leaves would settle it.</li>
-<li>The 46 positions where the TCP word is not the first of its initial are one to a few words off, tokenisation differences; they do not change the decryption.</li>
+<li>Measured against the verse (<code>measure_sense.py</code>, 5 October 2026), 274 of the octastich&rsquo;s 285 numbers give the required letter (96.1%): 233 exactly
+and 41 within two words of the first occurrence. Counting the distich&rsquo;s 64 numbers, none of them deciphered, the target stands at 274 of 349 (78.5%).</li>
+<li>Number 149, line 5: word 2 of p. 149 is &ldquo;Colonel&rdquo;, where the line wants a one-letter word. The 1652 page would show whether Urquhart&rsquo;s copy differs there.</li>
+<li>Number 158, line 5: Urquhart&rsquo;s count needs a page between the TCP&rsquo;s pp. 157 and 158, whose text the TCP does not carry (its filming has a duplicate image
+there). The letter, the W of <em>overthrow</em>, is given by the word and not counted.</li>
+<li>Nine numbers (55, 66, 106, 151, 207, 232, 239, 250, 283) point at a word that does not give the letter, and no word within two places does. Each was re-checked on
+the 1983 photographs and stands as printed, so these are slips by Urquhart or the compositor, or differences between the 1652 page and the TCP; the context fixes the
+letter.</li>
 <li>The distich.</li>
 </ul>
 
-<h2 id="method"><span class="num">06</span> Method and reproduction</h2>
+<h2 id="method"><span class="num">07</span> Method and reproduction</h2>
 <p>In <code>targets/urquhart/</code>: <code>ct.py</code> holds both transcriptions of the octastich; <code>pages.py</code> parses the TCP XML of A95749 into pages under both
-numberings; <code>decode_1983_full.tsv</code> gives every position with page, word, letter and first-occurrence flag; <code>align.py</code> is the alignment used on the
-defective transcription; the controls are in the notes. The TCP text comes from the Text Creation Partnership’s GitHub mirror; the 1983 page photographs from the
+numberings; <code>decode_1983_full.tsv</code> gives every position with page, word, letter and first-occurrence flag; <code>measure_sense.py</code> scores every position against the
+plaintext (<code>measure_sense.txt</code>); <code>align.py</code> is the alignment used on the defective transcription; the controls are in the notes. The TCP text comes from the Text Creation Partnership’s GitHub mirror; the 1983 page photographs from the
 HCPortal record, whose API answers at api.hcportal.eu.</p>
 
 <!-- replay:start -->
 <figure class="sreplay" data-src="steps/urquhart.json"></figure>
 <!-- replay:end -->
-<h2 id="sources"><span class="num">07</span> Sources</h2>
+<h2 id="sources"><span class="num">08</span> Sources</h2>
 <ul>
 <li>Sir Thomas Urquhart, <em>Ekskybalauron: or, The discovery of a most exquisite jewel</em> (London, 1652), EEBO-TCP A95749; <em>Logopandecteision</em> (London, 1653), EEBO-TCP A64608.</li>
 <li><em>The Works of Sir Thomas Urquhart of Cromarty, Knight</em> (Maitland Club, Edinburgh, 1834), p. 417, “The Cyphral Distich” — Internet Archive worksofsirthomas00mait.</li>

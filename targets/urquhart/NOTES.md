@@ -128,6 +128,15 @@ TCP XML although the text runs on ("to let him / know that many ward"); Urquhart
 there (163 onward aligns at offset 0), so his copy had a leaf the TCP filming does not carry; its letter (W) is
 supplied by the word and not counted as read.
 
+*12 Oct 2026.* The site page still showed the 16 Sept line 5 ("[conerthto?] this") in its summary, decryption block and
+"What remains", with the 5 Oct reading only in one added bullet, and it never printed the numbers. A reader who
+counted the 31 letters of `AaDCOnERTHTO_aIttSUaPDApTHORIEIE` took line 5 for 31 numbers; their own transcription of
+the line agrees with `ct.py` (32 numbers, sum 668). The page now has the full 285 numbers as printed, with each line's
+count and sum (33/710, 35/1222, 38/1298, 39/1470, 32/668, 33/867, 31/631, 34/975, Decagram 10/327), a worked example
+of the first five numbers (25 → p. 1 "given" G, 11 → p. 2 "rushing" R, 39 → p. 3 "every" E, 4 → p. 4 "another" A,
+4 → p. 5 "to" T; the TCP splits the drop-capital "NO", so its list has "given" at 26), and the line 5 table position
+by position. The run-over layout of all nine lines was checked again on both photographs.
+
 ## 6. The distich
 
 Reticuli Labs' rebuttal of 1 Sept 2026 (`src/reticuli_*`) says the Proquiritation rule fails at ten of 64 positions

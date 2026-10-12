@@ -449,7 +449,7 @@ PAGES = [
          rights='Page images: Internet Archive'),
     dict(slug='urquhart', label='Urquhart', year='1652', y=1652, place='London', st='partial', stt='solved in part',
          title='Urquhart&rsquo;s Cyphral Octastich (1652) and Distich (1653)',
-         blurb='The octastich is a book cipher on Urquhart&rsquo;s own <i>Jewel</i>: the k-th number points to the first word with the needed initial on page k. The rule, published by Vals AI in August 2026, was applied to a fresh transcription and tested without the plaintext (238 of 284 first-occurrence hits against 0.43 for controls); all but ten letters are decrypted. The rule claimed for the distich does not reproduce.',
+         blurb='The octastich is a book cipher on Urquhart&rsquo;s own <i>Jewel</i>: the k-th number points to the first word with the needed initial on page k. The rule, published by Vals AI in August 2026, was applied to a fresh transcription and tested without the plaintext (238 of 284 first-occurrence hits against 0.43 for controls); 274 of the 285 numbers give the letter the verse requires, line 5 included, with one letter open. The rule claimed for the distich does not reproduce.',
          quote='&ldquo;Great Lord, mantaine that regal familie &hellip; Our Emperour, King, Monarch and Protector&rdquo;'),
     dict(slug='schiner1516', label='Schiner 1516', year='1516', y=1516.45, place='Trent &rarr; London', st='found', stt='read in 1925',
          title='Cardinal Schiner to Henry VIII, Trent, 14 June 1516',
