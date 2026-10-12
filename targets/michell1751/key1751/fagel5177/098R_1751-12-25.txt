@@ -1,0 +1,45 @@
+# WAINUT transcription (2026-10-11) from the Nationaal Archief scans of 1.10.29 (Fagel) inv. 5177; King to Michell in the cabinet code, Dutch copy.
+# Fagel 5177 (NL-HaNA 1.10.29 inv. 5177), scan 098R (letter on one page; in this photograph the lower edge of the leaf is folded under, so the closing line is hidden). 098L = blank verso of 097R (bleed-through only); 099L = blank verso of 098R (mirror bleed-through of this page, folded at the same place, nothing extra legible).
+# Heading: "Lettre du Roi de Prusse au Secretaire Michel / du 25 Decemb: 1751."
+# Clear opening: "J'ai recu rapport du 7e et du 10e de ce Mois" then cipher (no cedilla visible in "recu"; 7e and 10e with superscript e)
+# Closing line: hidden in the fold below l.26. Only the tops of tall strokes of one more line are visible (widely spaced cursive ascenders and a long flourish, no digits recognisable): apparently the date line ("à P[otsdam]/[Berlin] ce ... D[ecembre] 1751"); signature not visible. It cannot be excluded that a last cipher group or two stand at the start of that hidden line.
+# Letter date: 25 Dec 1751 (from the heading; the place is not visible here - the r1953_1752 note cites Politische Correspondenz 8 no. 5253, Berlin 25 Dec 1751).
+# NOTATION: _ single underline, = double, # triple; ! bar/overline; [del:...] struck; ? uncertain digit; {...} = editorial note on the preceding group (not part of it); "..." clear text.
+# NOTE hand: NOT the copyist of 096R/097L/097R. Upright hand, groups separated by full stops (some commas); 7 = short top bar with a hooked/curled descender (looks like 'ʔ'); 1 = plain stroke, sometimes i-dotted (4170, 6211, 2104 - not encoded); 4 = open angular '4' with crossbar (not the 'a/u' form of 096R); 9 = closed loop with tail ('g'); 5 = 's' shape with flag; 0 small oval, 8 plain double loop. 0/8 and 1/7 were the main checks; every 7 vs 1 and 4 vs 7 decided at 4-5x.
+# NOTE multiple underlines: 206 (l.3) and 2722 (l.6) have FIVE strokes, 4086 (l.4) FOUR strokes (counted at 6x on contrast-enhanced crops); all three encoded '#', with the stroke count in {}.
+# NOTE l.1: the middle group is 144: both digits have the diagonal + crossbar + down-stroke of this hand's 4 (compare 448, 5814 in l.2), not the hooked 7 of 7./1736/6117.
+# NOTE l.5: '1?20': the 2nd digit is a z-shape with a crossbar (top bar, diagonal, bottom bar, crossbar) - unlike every other 7 (hook form) and 2 (looped) on the page; probably 7 and 2 written over each other (1720 or 1220; 1220 is frequent: l.7, l.17, l.24).
+# NOTE l.6: 2722 - the 3rd digit (2) is retraced in darker ink.
+# NOTE l.6/15/18: fractions written as small 1/4, 1/4, 1/2 directly after 4170, 3488, 4370 (separate from the next group).
+# NOTE l.12: 379 has two strokes under it (=); the tail of the 9 crosses them.
+# NOTE l.17: '6.147' has a dot between 6 and 1 (stray dot or misplaced i-dot); read as one group 6147 (6147 is a frequent group).
+# NOTE l.21: 5797 - 3rd digit 9 blotted/retraced at the bowl (tail of 9 clear); 2?64 - 2nd digit 4 and 8 superimposed (dark 4 written over an 8, or vice versa): 2464 or 2864.
+# NOTE l.26: 6418 is clear (6 with tall ascender, open 4, dotted 1, 8). 2135 is followed by a comma-like mark (separator).
+# NOTE right margin: the small marks beside ll.6, 14, 18, 22-23 belong to the edges of other leaves in the binding, not to this page.
+# DISAGREE: (earlier reading r1953_1752/data/michell_1751-12-25_cipher.txt) l.1 earlier 177 -> 144; l.5 earlier 1720 -> 1?20 (2nd digit ambiguous, see NOTE); l.12 earlier 379_ (single) -> 379= (double underline). Earlier reading did not flag the corrections in 5797, 2?64, 2722; all other groups and marks agree. Earlier note '(continues on the next opening)' is not borne out: 099L is blank (bleed-through only) and the text ends on 098R with a closing line hidden in the fold.
+70 144 6063
+6235 7 2439 16 894 1736 140 6117 248 5814 448 2255
+3186 892 733 206#{5 strokes} 16 169 586 80 4366_ 306 1782 2014_
+6233 1279 6294 4086#{4 strokes} 329 444 7 1326 511 3186 27 190 3407
+1222 538 4020 2110_ 3064_ 3243_ 1730 1?20{z-shaped 2nd digit, 1720/1220} 6063 2485 398
+1633 30_ 104 2722#{5 strokes; 3rd digit retraced} 7 38 20 1063 2380 4170+1/4 16 1745 1474
+3274 4192 2558 4366 104 1220 2445 1551 15 3292 9 5851
+444 304 439 330 102 1240 1200 5814 57 4364 6063 3279
+896 3269 6295 187 5814 3064_ 20 4380 2373 138 203 1004
+140 4343_ 20 66 76 403 6211 3068 4364 3279 990 358 4172
+9 1326 70 2004 6150 202 2042 111 497 2725 273 2208 367
+66 15 56 7 586 4364 1004 131 1849 66 104 379= 1763 2725_
+1305 365 1093 894 727 70 4027 2781 76 363 3228 1973 922
+3042 4366_ 6295 1270 5814 58 190 1206 858 86 4093 964
+166 6158 5912 4020 3456_ 3488+1/4 162 1004= 5746 104 5926 258
+2412 1426 5814 2070 2781 6244 1063 7 5918 58 1515 234
+5793 3457 131 1699 2179 5964 76 304 1220 6147{written 6.147} 1467 122 858
+7 13 442 58 3186 4174 234 4087 718 4370+1/2 1430 3279 3273
+66 24 978 1518 140 76 54 304 330 795 2255 4296 1200 7
+2577 1242 2380 4179 62 4004 66 53 18 5792 2761 258 54
+4364 140 332 5797{3rd digit blotted, 9} 3497 2208 2?64{4/8 superimposed} 811 304 87 238 1714
+16 1240 80 2179 1474 444 2781 268 160 1839 444 4027 3016
+2305 62 1025 1225 718 1004 5732 306 1782 1215_ 238 190 1120
+5792 4390 238 69 260 2769 2193_ 1262 511 122 1220 116 2268 326
+4356 118 2380 6244 258 141 16 5814 122 5912 5792 2244_ 60
+282 2063 1200 6278 6418 5912 5792 62 548 6034 211 2135 2104

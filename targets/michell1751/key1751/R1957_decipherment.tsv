@@ -1,0 +1,554 @@
+# R1957 (King->Michell, Berlin 28 Dec 1751) = PC8 Nr.5263. Per group: key v2 value+grade, aligned concept unit (MANUAL anchor or DP fill), status:
+# K = key value agrees with aligned unit; M = manual anchor without key value; A = DP-aligned only (unverified); k? = key value differs from DP unit; N/kN = group aligned to nothing (opening pair / extra text)
+idx	code	key_v2	grade	aligned_unit	align_kind	status
+0	1555	<OPEN>	B		DP-null	kN
+1	1550	<OPEN>	B		DP-null	kN
+2	15	et	A	et	MANUAL	K
+3	144	suis	A	suis	MANUAL	K
+4	66	-e/-é	A	eg-	DP	K
+5	6203	·		al-	DP	A
+6	858	le	A	em-	DP	k?
+7	3243	-ment	A	ent	DP	K
+8	16	que	A	que	MANUAL	K
+9	2382	vous	B	vous	MANUAL	K
+10	60	du	A	du	MANUAL	K
+11	1822	·		sentiment	MANUAL	M
+12	16	que	A	que	MANUAL	K
+13	140	l'	A	l'	MANUAL	K
+14	47	·		affaire	MANUAL	M
+15	169	que	A	que	MANUAL	K
+16	4310	le roi de Sardaigne	A	le roi de sardaigne	MANUAL	K
+17	6047	entre	A	entre	MANUAL	K
+18	134	comme	A	comme	MANUAL	K
+19	5740	·		partie	DP	A
+20	70	je	A	con-	DP	k?
+21	4074	·		tra-	DP	A
+22	5760	·		cta-	DP	A
+23	2070	te	A	nte	DP	K
+24	102	dans	A	dans	MANUAL	K
+25	858	le	A	le	MANUAL	K
+26	3184	traite	A	traite	MANUAL	K
+27	76	qui	A		DP-null	kN
+28	86	·		qui	DP	A
+29	533#	negociation	C	se	DP	k?
+30	66	-e/-é	A	negocie	DP	K
+31	538	a	A	a	MANUAL	K
+32	2207	madrid	A	madrid	MANUAL	K
+33	156	entre	A	entre	MANUAL	K
+34	894	les	A	les	MANUAL	K
+35	553	·		cours	DP	A
+36	5814	-s	A	de	DP	k?
+37	104	d'	A	l'	DP	k?
+38	3426	espagne	A	espagne	MANUAL	K
+39	15	et	A	et	MANUAL	K
+40	258	de	A	de	MANUAL	K
+41	1064	vienne	A	vienne	MANUAL	K
+42	20	ne	A		DP-null	kN
+43	1003	·		ne	DP	A
+44	15?5	·		manquera	DP	A
+45	138	pas	A	pas	MANUAL	K
+46	2125	·		quoique	MANUAL	M
+47	70	je	A	je	MANUAL	K
+48	409	·			DP-null	N
+49	578?	·		sois	DP	A
+50	7	de	A	persuade	DP	K
+51	169	que	A	que	MANUAL	K
+52	4366_	le	A	le	MANUAL	K
+53	266	·		g-	DP	A
+54	184	·		en-	DP	A
+55	140	l'	A	er-	DP	k?
+56	5701	·		al	DP	A
+57	6150	·		wall	DP	A
+58	66	-e/-é	A	predise	DP	K
+59	6063	bien	A	bien	MANUAL	K
+60	1760#	·		juste	MANUAL	M
+61	6147	la	A	la	MANUAL	K
+62	1570	dessus	B	dessus	MANUAL	K
+63	3292	comme	A	comme	MANUAL	K
+64	70	je	A	je	MANUAL	K
+65	838	·			DP-null	N
+66	1708	·		viens	DP	A
+67	104	d'	A	d'	MANUAL	K
+68	1973	etre	C		DP-null	kN
+69	3125	·		etre	DP	A
+70	66	-e/-é	A	informe	DP	K
+71	62	en	A	en	MANUAL	K
+72	4361	·		secret	MANUAL	M
+73	104	d'	A	d'	MANUAL	K
+74	3186_	·		un	MANUAL	M
+75	2707	·		projet	MANUAL	M
+76	16	que	A	que	MANUAL	K
+77	894	les	A	les	MANUAL	K
+78	4054	·			DP-null	N
+79	5814	-s	A	cours	DP	K
+80	2179	de	A	de	DP	K
+81	2473	·		vienne	DP	A
+82	2169	et	C	et	DP	K
+83	2179	de	A	de	DP	K
+84	1064	vienne	A	petersbourg	DP	k?
+85	284	ont	C	ont	DP	K
+86	6179	·		forme	DP	A
+87	111	pour	A	pour	MANUAL	K
+88	4364	faire	A	faire	MANUAL	K
+89	3165_	·			DP-null	N
+90	4359	·		succeder	DP	A
+91	1220	a	A	a	MANUAL	K
+92	131	la	A	la	MANUAL	K
+93	709	·		couronne	MANUAL	M
+94	2179	de	A	de	MANUAL	K
+95	1900	pologne	B	pologne	MANUAL	K
+96	858	le	A	le	MANUAL	K
+97	1273	prince	A	prince	MANUAL	K
+98	3107	·		charles	MANUAL	M
+99	38	-r/-er	A	de	DP	k?
+100	894	les	A	lo-	DP	k?
+101	7	de	A	rr-	DP	k?
+102	3081	·		ai-	DP	A
+103	511	·		ne	DP	A
+104	6026	·		quand	DP	A
+105	792	·		elle	DP	A
+106	1515	·		viendra	DP	A
+107	1220	a	A	a	MANUAL	K
+108	184	·			DP-null	N
+109	2102#	·		vaquer	DP	A
+110	70	je	A	je	MANUAL	K
+111	1941	pré	B	pr-	DP	K
+112	118	su	B	es-	DP	k?
+113	80	me	B	ume	DP	K
+114	169	que	A	que	MANUAL	K
+115	273	·		c'	MANUAL	M
+116	1053	est	A	est	MANUAL	K
+117	2255	dans	C		DP-null	kN
+118	2268	·		dans	DP	A
+119	14	·		cette	DP	A
+120	66	-e/-é	A	vue	DP	K
+121	169	que	A	que	MANUAL	K
+122	2192	cour de	A	cour de	DP	K
+123	1064	vienne	A	vienne	MANUAL	K
+124	1220	a	A	a	MANUAL	K
+125	587	·			DP-null	N
+126	4356	·		tache	DP	A
+127	7	de	A	de	MANUAL	K
+128	4364	faire	A	faire	MANUAL	K
+129	105	son	A	son	MANUAL	K
+130	6273	·		traite	MANUAL	M
+131	7	de	A	de	MANUAL	K
+132	1336	·		neutralite	MANUAL	M
+133	111	pour	A	pour	MANUAL	K
+134	1240	ses	A	ses	MANUAL	K
+135	1261	·			DP-null	N
+136	5814	-s	A	possessions	DP	K
+137	62	en	A	en	MANUAL	K
+138	3197	·		italie	MANUAL	M
+139	545	avec	A	avec	MANUAL	K
+140	2090	l'	A	l'	MANUAL	K
+141	3426	espagne	A	espagne	MANUAL	K
+142	15	et	A	et	MANUAL	K
+143	4310	le roi de Sardaigne	A	le roi de sardaigne	MANUAL	K
+144	56	afin	A	afin	MANUAL	K
+145	104	d'	A	d'	MANUAL	K
+146	5923	avoir	A	avoir	MANUAL	K
+147	894	les	A	les	MANUAL	K
+148	1066	·		bras	DP	A
+149	5814	-s	A	l-	DP	k?
+150	3292	comme	A	i-	DP	k?
+151	1627	·		br-	DP	A
+152	82	-s	A	es	DP	K
+153	258	de	A	de	MANUAL	K
+154	9	ce	A	ce	MANUAL	K
+155	3220	cote	A	cote	MANUAL	K
+156	6147	la	A	la	MANUAL	K
+157	1220	a	A	a	MANUAL	K
+158	363	·		pou-	DP	A
+159	3013	·		rsu-	DP	A
+160	3418	·		ivre	DP	A
+161	1?5	·		son	MANUAL	M
+162	700	dessein	B	dessein	MANUAL	K
+163	3042	sur	A	sur	MANUAL	K
+164	6147	la	A	la	MANUAL	K
+165	1900	pologne	B	pologne	MANUAL	K
+166	64	ainsi	A	ainsi	MANUAL	K
+167	2414	mon	B	mon	MANUAL	K
+168	764	·		intention	MANUAL	M
+169	304	est	A	est	MANUAL	K
+170	169	que	A	que	MANUAL	K
+171	2382	vous	B	vous	MANUAL	K
+172	6154_	devez	A	devez	MANUAL	K
+173	70	je	A	e-	DP	K
+174	373	·		m-	DP	A
+175	1804	·		p-	DP	A
+176	1730	-er	A	l-	DP	k?
+177	3072_	tout	A	oy-	DP	k?
+178	82	-s	A	er	DP	k?
+179	3236	·		tous	DP	A
+180	1445	·		vos	DP	A
+181	1298	·		soins	DP	A
+182	15	et	A	et	MANUAL	K
+183	2139	·		votre	DP	A
+184	4364	faire	A	savoir faire	DP	K
+185	111	pour	A	pour	MANUAL	K
+186	2304_	·		app-	DP	A
+187	1763	·		rof-	DP	A
+188	2599	·		on-	DP	A
+189	38	-r/-er	A	dir	DP	K
+190	6058	au	A	au	MANUAL	K
+191	1906	possible	A	possible	MANUAL	K
+192	238	si	A	si	MANUAL	K
+193	5973	·		la	DP	A
+194	1053	est	A	cour	DP	k?
+195	1719	inform-	A	de	DP	k?
+196	795	-é/-ée/-ère	A	londres	DP	K
+197	66	-e/-é	A	est informee	DP	K
+198	7	de	A	de	MANUAL	K
+199	9	ce	A	ce	MANUAL	K
+200	700	dessein	B	dessein	MANUAL	K
+201	6147	la	A	la	MANUAL	K
+202	1430	ou	A	ou	MANUAL	K
+203	238	si	A	si	MANUAL	K
+204	1894	peut-être	B	peut etre	MANUAL	k?
+205	2249	celle	A	celle	MANUAL	K
+206	258	de	A	de	MANUAL	K
+207	1064	vienne	A	vienne	MANUAL	K
+208	5814	-s	A	s'	MANUAL	K
+209	304	est	A	est	MANUAL	K
+210	3298	·			DP-null	N
+211	1467	·		entendue	DP	A
+212	6147	la	A	la	MANUAL	K
+213	5997	·		dessus	MANUAL	M
+214	62	en	A	en	MANUAL	K
+215	1818	·		particulier	MANUAL	M
+216	545	avec	A	avec	MANUAL	K
+217	2249	celle	A	celle	MANUAL	K
+218	258	de	A	de	MANUAL	K
+219	977	·		russie	MANUAL	M
+220	57	sans	A	sans	MANUAL	K
+221	62	en	A	en	MANUAL	K
+222	423	·			DP-null	N
+223	2102#	·		communiquer	DP	A
+224	545	avec	A	avec	MANUAL	K
+225	190	le roi d'Angleterre	A	le roi d' angleterre	MANUAL	k?
+226	9	ce	A	ce	MANUAL	K
+227	169	que	A	que	MANUAL	K
+228	160	·		j'	MANUAL	M
+229	12	·		ai	MANUAL	M
+230	202	cependant	A	cependant	MANUAL	K
+231	2179	de	A	de	MANUAL	K
+232	6147	la	A	la	MANUAL	K
+233	280	peine	A	peine	MANUAL	K
+234	538	a	A	a	MANUAL	K
+235	759_	croi-/croy-	A		DP-null	kN
+236	718	-re/re-	A	croire	DP	K
+237	3072	tout	A	tout	MANUAL	K
+238	24	au	A	au	MANUAL	K
+239	1601	·		contraire	MANUAL	M
+240	70	je	A	je	MANUAL	K
+241	1941	pré	B	pr-	DP	K
+242	118	su	B	es-	DP	k?
+243	80	me	B	ume	DP	K
+244	3492	presque	A	presque	MANUAL	K
+245	169	que	A	que	MANUAL	K
+246	273	·		c'	MANUAL	M
+247	304	est	A	est	MANUAL	K
+248	1894	peut-être	B	peut etre	MANUAL	k?
+249	2179	de	A	de	MANUAL	K
+250	140	l'	A	l'	MANUAL	K
+251	2196	·		avis	MANUAL	M
+252	60	du	A	du	MANUAL	K
+253	548	derni-	A	dernier	MANUAL	K
+254	169	que	A	que	MANUAL	K
+255	6147	la	A	la	MANUAL	K
+256	1699	reine	A	reine	MANUAL	K
+257	1501	imperatrice	A	imperatrice	MANUAL	K
+258	82	-s	A	s'	MANUAL	K
+259	304	est	A	est	MANUAL	K
+260	5701	·		pr-	DP	A
+261	2070	te	A	et-	DP	k?
+262	795	-é/-ée/-ère	A	ee	DP	K
+263	1220	a	A	a	MANUAL	K
+264	4364	faire	A	faire	MANUAL	K
+265	3279	des	A	de	MANUAL	K
+266	712	nouvel-	A	no-	DP	K
+267	2781	·		uv-	DP	A
+268	6129	ces	B	el-	DP	k?
+269	238	si	A	les	DP	k?
+270	5746	-ons	B	cessions	DP	K
+271	24	au	A	au	MANUAL	K
+272	4310	le roi de Sardaigne	A	roi de sardaigne	MANUAL	K
+273	62	en	A	en	MANUAL	K
+274	54	lui	A	lui	MANUAL	K
+275	5878	·		faisant	DP	A
+276	416	-ant	B	entrevoir	DP	k?
+277	156	entre	A	que	DP	k?
+278	3166	voir	B	ce	DP	k?
+279	38	-r/-er	A	serait	DP	K
+280	4366_	le	A	dans le	DP	K
+281	700	dessein	B	dessein	MANUAL	K
+282	3042	sur	A	sur	MANUAL	K
+283	131	la	A	la	MANUAL	K
+284	1900	pologne	B	pologne	MANUAL	K
+285	15	et	A	qu'	DP	k?
+286	4146	·		elle	DP	A
+287	2380	se	C	se	DP	K
+288	1679	·		v-	DP	A
+289	5967	·		er-	DP	A
+290	2088	·		ra-	DP	A
+291	362#	·		it	DP	A
+292	1290	·		in-	DP	A
+293	86	·		de-	DP	A
+294	795	-é/-ée/-ère	A	mn-	DP	k?
+295	58	par	C	is-	DP	k?
+296	6147	la	A	ee	DP	k?
+297	7	de	A	de	MANUAL	K
+298	6129	ces	B	ces	MANUAL	K
+299	1784	ces-	B	ces-	DP	K
+300	238	si	A	sio-	DP	K
+301	5746	-ons	B	ns	DP	K
+302	1358	·		quoique	MANUAL	M
+303	70	je	A	je	MANUAL	K
+304	444	·		n'	MANUAL	M
+305	888	·		ig-	DP	A
+306	1077	·		no-	DP	A
+307	718	-re/re-	A	re	DP	K
+308	138	pas	A	pas	MANUAL	K
+309	894	les	A	les	MANUAL	K
+310	837	·			DP-null	N
+311	5814	-s	A	difficultes	DP	K
+312	26	·		que	DP	A
+313	586	vous	A	vous	MANUAL	K
+314	702	·		aurez	MANUAL	M
+315	1220	a	A	a	MANUAL	K
+316	2714	·		ap-	DP	A
+317	4037	pr	C	pr-	DP	K
+318	1763	·		of-	DP	A
+319	2599	·		ond-	DP	A
+320	38	-r/-er	A	ir	DP	K
+321	3412	ex-	A	ex-	DP	K
+322	1002	ac-	A	ac-	DP	K
+323	2070	te	A	tem-	DP	K
+324	3243	-ment	A	ent	DP	K
+325	247	ce	A	ce	MANUAL	K
+326	410	·		mystere	MANUAL	M
+327	202	cependant	A	cependant	MANUAL	K
+328	586	vous	A	vous	MANUAL	K
+329	6154_	devez	A	devez	MANUAL	K
+330	1782	-quez	A		DP-null	kN
+331	4364	faire	A	faire	MANUAL	K
+332	4366_	le	A	qui est	DP	k?
+333	1906	possible	A	possible	MANUAL	K
+334	260	et	A	et	MANUAL	K
+335	461	·			DP-null	N
+336	2298=	mar-	A	me	DP	k?
+337	1730	-er	A	marquer	DP	K
+338	6058	au	A	au	MANUAL	K
+339	4283	·		moins	MANUAL	M
+340	497	votre	A	votre	MANUAL	K
+341	36	·		rais-	DP	A
+342	20	ne	A	onnem-	DP	K
+343	3243	-ment	A	ent	DP	K
+344	488	combien	B	combien	MANUAL	K
+345	586	vous	A	vous	MANUAL	K
+346	759_	croi-/croy-	A		DP-null	kN
+347	5957	-ez	A	croyez	DP	K
+348	16	que	A	que	MANUAL	K
+349	894	les	A	les	MANUAL	K
+350	286	gens	A	gens	MANUAL	K
+351	76	qui	A	qui	MANUAL	K
+352	448	sont	A	sont	MANUAL	K
+353	24	au	A	au	MANUAL	K
+354	3048	ti	B		DP-null	kN
+355	2414	mon	B	timon	DP	K
+356	3279	des	A	des	MANUAL	K
+357	47	·			DP-null	N
+358	82	-s	A	affaires	DP	K
+359	104	d'	A	de	MANUAL	k?
+360	1733	angleterre	A	angleterre	MANUAL	K
+361	15	et	A	et	MANUAL	K
+362	2464	dont	B	dont	MANUAL	K
+363	586	vous	A	vous	MANUAL	K
+364	1989	·		con-	DP	A
+365	86	·		nai-	DP	A
+366	82	-s	A	ssez	DP	K
+367	4366_	le	A	le	MANUAL	K
+368	1256	systeme	A	systeme	MANUAL	K
+369	15	et	A		DP-null	kN
+370	416	-ant	B	etant	DP	K
+371	2092	sur	A	sur	MANUAL	K
+372	894	les	A	les	MANUAL	K
+373	6034	·		lieux	MANUAL	M
+374	358	·		pou-	DP	A
+375	363	·		rra-	DP	A
+376	921	·		ient	DP	A
+377	4008	·		donner	MANUAL	M
+378	102	dans	A	dans	MANUAL	K
+379	25	le	A	le	MANUAL	K
+380	4076	·		susdit	MANUAL	M
+381	1688	·			DP-null	N
+382	700	dessein	B	dessein	MANUAL	K
+383	6058	au	A	au	MANUAL	K
+384	3042	sur	A	su-	DP	K
+385	2485	plus	A	rp-	DP	k?
+386	306	mar-	A	lus	DP	k?
+387	1782	-quez	A	marquez	DP	K
+388	1215_	moi	A	moi	MANUAL	K
+389	87	encore	A	encore	MANUAL	K
+390	238	si	A	si	MANUAL	K
+391	586	vous	A	vous	MANUAL	K
+392	759_	croi-/croy-	A		DP-null	kN
+393	5957	-ez	A	croyez	DP	K
+394	238	si	A	que	DP	k?
+395	858	le	A	le	MANUAL	K
+396	1256	systeme	A	systeme	MANUAL	K
+397	206#	pacifique	A	pacifique	MANUAL	K
+398	169	que	A		DP-null	kN
+399	104	d'	A	d'	MANUAL	K
+400	18	a	A	a	MANUAL	K
+401	5842	present	A	present	MANUAL	K
+402	60	du	A	du	MANUAL	K
+403	5884	·		ministere	MANUAL	M
+404	104	d'	A	d'	MANUAL	K
+405	1733	angleterre	A	angleterre	MANUAL	K
+406	4092	·		se	MANUAL	M
+407	4013_	·		sou-	DP	A
+408	3048	ti	B	tie-	DP	K
+409	62	en	A	nd-	DP	k?
+410	2373	voudra	C	ra	DP	K
+411	87	encore	A	encore	MANUAL	K
+412	260	et	A	et	MANUAL	K
+413	6300	·		pour	DP	A
+414	488	combien	B	combien	MANUAL	K
+415	2179	de	A	de	MANUAL	K
+416	79	·		temps	MANUAL	M
+417	586	vous	A	vous	MANUAL	K
+418	2431	·		croyez	DP	A
+419	166	qu'	A	qu'	MANUAL	K
+420	184	·		il	MANUAL	M
+421	6081	·		va	MANUAL	M
+422	211#	·		etre	MANUAL	M
+423	160	·		co-	DP	A
+424	1001	·		nt-	DP	A
+425	795	-é/-ée/-ère	A	in-	DP	k?
+426	2064	·		ue	DP	A
+427	66	-e/-é	A	suppose	DP	K
+428	169	que	A	que	MANUAL	K
+429	190	le roi d'Angleterre	A	le roi d' angleterre	MANUAL	k?
+430	890	reste	A	reste	MANUAL	K
+431	62	en	A	en	MANUAL	K
+432	838	·			DP-null	N
+433	1217	·		vie	DP	A
+434	87	encore	A	encore	MANUAL	K
+435	1206	pendant	C	que-	DP	k?
+436	1468	quelque	C	lqu-	DP	K
+437	82	-s	A	es	DP	K
+438	20	ne	A	annees	DP	K
+439	2431	·		fa-	DP	A
+440	506	·		it-	DP	A
+441	2431	·		esm-	DP	A
+442	390_	·		oi	DP	A
+443	497	votre	A	votre	MANUAL	K
+444	1515	·		ra-	DP	A
+445	234	·		pp-	DP	A
+446	5793	·		ort	DP	A
+447	6147	la	A	la	MANUAL	K
+448	1570	dessus	B	dessus	MANUAL	K
+449	99	mais	A	mais	MANUAL	K
+450	4000	·		observez	MANUAL	M
+451	5957	-ez	A		DP-null	kN
+452	166	qu'	A	qu'	MANUAL	K
+453	535	·		il faut	DP	A
+454	169	que	A	que	MANUAL	K
+455	586	vous	A	vous	MANUAL	K
+456	20	ne	A	ne	MANUAL	K
+457	25	le	A	le	MANUAL	K
+458	2130	·		fassiez	MANUAL	M
+459	3024	·		sur	DP	A
+460	3072	tout	A	tout	MANUAL	K
+461	9	ce	A	ce	MANUAL	K
+462	1326	que	A	que	MANUAL	K
+463	1570	dessus	B	dessus	MANUAL	K
+464	866	·		qu'	MANUAL	M
+465	2433	·		a	DP	A
+466	367	·		moi	DP	A
+467	280	peine	A	seul	DP	k?
+468	4142	·		imme-	DP	A
+469	1049=	·		diate-	DP	A
+470	3243	-ment	A	ment	DP	K
+471	57	sans	A	sans	MANUAL	K
+472	62	en	A	en	MANUAL	K
+473	4364	faire	A	faire	MANUAL	K
+474	3279	des	A	des	MANUAL	K
+475	1739	·		doubles	MANUAL	M
+476	279	·		au	MANUAL	M
+477	24	au	A	de-	DP	k?
+478	7	de	A	pa-	DP	k?
+479	5740	·		rt-	DP	A
+480	3369	·		eme-	DP	A
+481	4284	nt	C	nt	DP	K
+482	3279	des	A	des	MANUAL	K
+483	47	·		affaires	DP	A
+484	5814	-s	A	e-	DP	k?
+485	15	et	A	t-	DP	K
+486	1515	·		ra-	DP	A
+487	444	·		ng-	DP	A
+488	1233	·		er-	DP	A
+489	2431	·		es	DP	A
+490	24	au	A	au	MANUAL	K
+491	890	reste	A	reste	MANUAL	K
+492	3292	comme	A	comme	MANUAL	K
+493	6147	la	A	la	MANUAL	K
+494	1699	reine	A	reine	MANUAL	K
+495	2179	de	A	de	MANUAL	K
+496	5964	danemark	C	danemark	DP	K
+497	1053	est	A	est	MANUAL	K
+498	442	mort	A	morte	MANUAL	K
+499	66	-e/-é	A	d-	DP	k?
+500	498	·		e-	DP	A
+501	880_	·		p-	DP	A
+502	2599	·		u-	DP	A
+503	358	·		is	DP	A
+504	1899	·		le	DP	A
+505	258	de	A	de	MANUAL	K
+506	9	ce	A	ce	MANUAL	K
+507	1215	·		mois	MANUAL	M
+508	982	·			DP-null	N
+509	373	·		mandez	DP	A
+510	1215_	moi	A	moi	MANUAL	K
+511	238	si	A	si	MANUAL	K
+512	1812	cette	A	cette	MANUAL	K
+513	442	mort	A	mort	MANUAL	K
+514	1220	a	A	a	MANUAL	K
+515	5792	ete	A	ete	MANUAL	K
+516	4390	sensible	A	sensible	MANUAL	K
+517	238	si	A		DP-null	kN
+518	69	·			DP-null	N
+519	6058	au	A	au	MANUAL	K
+520	190=	roi d'Angleterre	A	roi d' angleterre	MANUAL	k?
+521	15	et	A	et	MANUAL	K
+522	5814	-s	A	s'	MANUAL	K
+523	122	il	A	il	MANUAL	K
+524	62	en	A	en	MANUAL	K
+525	538	a	A	a	MANUAL	K
+526	986	eu	A	eu	MANUAL	K
+527	60	du	A	du	MANUAL	K
+528	3107	·		ch-	DP	A
+529	2487	·		ag-	DP	A
+530	444	·		rin	DP	A
+531	258	de	A	de	DP	K
+532	141	·		meme	DP	A
+533	7	de	A	de	DP	K
+534	131	la	A	la	MANUAL	K
+535	288	maladie	A	maladie	MANUAL	K
+536	18	a	A	d-	DP	k?
+537	2599	·		a-	DP	A
+538	66	-e/-é	A	ng-	DP	k?
+539	282	·		er-	DP	A
+540	986	eu	A	eu-	DP	K
+541	2380	se	C	se	DP	K
+542	2464	dont	B	dont	MANUAL	K
+543	6472	·		le	DP	A
+544	403	vient	C	duc	DP	k?
+545	2179	de	A	de	MANUAL	K
+546	4004	·		cumberland	MANUAL	M
+547	1437	·		de sortir	DP	A
+
+# READING (concept text as carried by the cipher; ° = position fixed by context only, ? = DP-aligned only, * = key value differs from the aligned unit, [x] = key value where nothing aligned):
+[<OPEN>]* [<OPEN>]* et suis eg- al-? em-* ent que vous du sentiment° que l' affaire° que le roi de sardaigne entre comme partie? con-* tra-? cta-? nte dans le traite [qui]* qui? se* negocie a madrid entre les cours? de* l'* espagne et de vienne [ne]* ne? manquera? pas quoique° je [∅] sois? persuade que le g-? en-? er-* al? wall? predise bien juste° la dessus comme je [∅] viens? d' [etre]* etre? informe en secret° d' un° projet° que les [∅] cours de vienne? et de petersbourg* ont forme? pour faire [∅] succeder? a la couronne° de pologne le prince charles° de* lo-* rr-* ai-? ne? quand? elle? viendra? a [∅] vaquer? je pr- es-* ume que c'° est [dans]* dans? cette? vue que cour de vienne a [∅] tache? de faire son traite° de neutralite° pour ses [∅] possessions en italie° avec l' espagne et le roi de sardaigne afin d' avoir les bras? l-* i-* br-? es de ce cote la a pou-? rsu-? ivre? son° dessein sur la pologne ainsi mon intention° est que vous devez e- m-? p-? l-* oy-* er* tous? vos? soins? et votre? savoir faire pour app-? rof-? on-? dir au possible si la? cour* de* londres est informee de ce dessein la ou si peut etre* celle de vienne s' est [∅] entendue? la dessus° en particulier° avec celle de russie° sans en [∅] communiquer? avec le roi d' angleterre* ce que j'° ai° cependant de la peine a [croi-/croy-]* croire tout au contraire° je pr- es-* ume presque que c'° est peut etre* de l' avis° du dernier que la reine imperatrice s' est pr-? et-* ee a faire de no- uv-? el-* les* cessions au roi de sardaigne en lui faisant? entrevoir* que* ce* serait dans le dessein sur la pologne qu'* elle? se v-? er-? ra-? it? in-? de-? mn-* is-* ee* de ces ces- sio- ns quoique° je n'° ig-? no-? re pas les [∅] difficultes que? vous aurez° a ap-? pr- of-? ond-? ir ex- ac- tem- ent ce mystere° cependant vous devez [-quez]* faire qui est* possible et [∅] me* marquer au moins° votre rais-? onnem- ent combien vous [croi-/croy-]* croyez que les gens qui sont au [ti]* timon des [∅] affaires de* angleterre et dont vous con-? nai-? ssez le systeme [et]* etant sur les lieux° pou-? rra-? ient? donner° dans le susdit° [∅] dessein au su- rp-* lus* marquez moi encore si vous [croi-/croy-]* croyez que* le systeme pacifique [que]* d' a present du ministere° d' angleterre se° sou-? tie- nd-* ra encore et pour? combien de temps° vous croyez? qu' il° va° etre° co-? nt-? in-* ue? suppose que le roi d' angleterre* reste en [∅] vie? encore que-* lqu- es annees fa-? it-? esm-? oi? votre ra-? pp-? ort? la dessus mais observez° [-ez]* qu' il faut? que vous ne le fassiez° sur? tout ce que dessus qu'° a? moi? seul* imme-? diate-? ment sans en faire des doubles° au° de-* pa-* rt-? eme-? nt des affaires? e-* t- ra-? ng-? er-? es? au reste comme la reine de danemark est morte d-* e-? p-? u-? is? le? de ce mois° [∅] mandez? moi si cette mort a ete sensible [si]* [∅] au roi d' angleterre* et s' il en a eu du ch-? ag-? rin? de meme? de la maladie d-* a-? ng-* er-? eu- se dont le? duc* de cumberland° de sortir?

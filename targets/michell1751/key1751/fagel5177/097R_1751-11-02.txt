@@ -1,0 +1,46 @@
+# WAINUT transcription (2026-10-11) from the Nationaal Archief scans of 1.10.29 (Fagel) inv. 5177; King to Michell in the cabinet code, Dutch copy.
+# Fagel 5177 (NL-HaNA 1.10.29 inv. 5177), scan 097R (complete letter on one page; 098L = blank verso with bleed-through).
+# Heading: "à Michel"
+# Note beside heading (ink, same line): "Nonsense ou autre Clef"
+# Clear opening: none - the page starts directly with numbers (no French opening phrase).
+# Closing line: "2002. à Potsdam ce 2. de Novembre 1751."
+# Signature: "(: Signé :) Federic" (the first sign inside the bracket is unclear; 'Signé' and 'Federic' certain)
+# Letter date: Potsdam 2 Nov 1751. This is a separate letter, not the continuation of 096R/097L (which ends on 097L with its own date line, 16 Nov).
+# NOTATION: _ single underline, = double, # triple; ! bar/overline; [del:...] struck; ? uncertain digit; {...} = editorial note on the preceding group; "..." clear text.
+# NOTE hand: same copyist as 096R/097L (0 small oval; 8 oval with tall entry stroke/upper loop; 6 tall ascender; 4 'a/u'). i-dots on 1s (e.g. 2431, 1501, 2781, 16011) not encoded.
+# NOTE l.7: written '718'0160' as one run: 7 1 8, a high tick (apostrophe-like) between 8 and 0, then 0 1 6 0; one underline under '8'0'. Encoded as the single token 7180160_ (probably two groups, e.g. 718|0160 or 7180|160).
+# NOTE l.7: '3426 219' written almost touching ('3426219') - read as two groups.
+# NOTE 5-digit groups without separating dot: l.10 '16011' (underlined), l.12 '79111' (underlined) - possibly two groups run together (e.g. 160|11, 79|111).
+# NOTE l.17: the 4 of 5914 has a long tail stroke running under it (flourish, not recorded as underline).
+# NOTE l.19 '1004' and l.24 '1654': short double stroke under one digit only -> recorded as double underline (=).
+# NOTE l.22: '24?5' third digit blotted (cf. 2485 on 096R, where the blot is corrected by an 8 written above).
+# DISAGREE: (none; no earlier reading of this letter).
+281 372 6244 82 140 106 718 5748 66 1220 1064 131 1931 6047 1812 553
+15 2249 7 948 1262 305 3292 1418 5740_ 336 66 1220 6299 5757 1958
+273 2208 4139 16 858 1875 2179 1063 587 58 2108 7 6299 4054
+111 3264 6147 548 795 958 1220 6147 4125 2208 219 3462 288 18
+2599 66 60 1273 2431 5880 1284 238 140 164 1626 795 104 118
+3264 131 548 795 958 2090 106 797 1217 2268 3213 2208 134
+140 867 7 140 1501 7180160_{as written 718'0160} 1699 15 2179 2249 104 3426 219
+2268 548 795 44 508 5969 20 260 16 140 1733 4037 1264
+587 1010 2179 1240 508 5814 892 279 164 5740_ 858 1248 5994
+66 20 3037 2268 1931 76 202 444 16011_ 2703 138 5792 2727=
+1006 140 2070 795 3042 2490 2036 5814 2179 480 3016 62
+164 141 5793 79111_ 1217 3279 1000 3150 2431 2014 2047_ 2049
+140 106 1941 118 461 169 310 1474 284 5792 3042 858 2118
+3279 1200 82 7 2090 1501 2131 260 2179 2090 3426 2090 6268
+20 2417 504 202 138 4155 4227 2412 4368 6047 6094 106
+2562 305 169 25 13 38 2599 2470 160 950 6178 444 18
+138 5792 60 783 7 131 4125 2208 15 166 62 5914 6296_ 2285
+6290 5814 5944 6154 4054 82 76 140 1337 519 795 169 4196
+3016 1211 5740_ 1004= 1467 1220 13 5826= 1205 5877 2070 106 858
+3219 1741_ 838 5880 2384 140 1002 1784 1928 99 53 1441 1077
+2142 504 25 5740 160 1326 9 1273 1441 5967 386 2788 24
+3042 24?5{blot} 2192 1064 164 1264 1290 6076 545 2294 7 4087
+3047 444 7 4031 199 38 2347 82 3242 1633 4186 15 2490
+1654= 4186 954 26 1209 2208 5814 3279 1949 279 780 2781
+6146 586 1719 66 7 4228 6129 269 2781 56 2179 586 3264 2092
+6147 2025 203 66 5751 290 6058 1906 6147 6278 586 5792 82
+9 76 62 304 15 2179 248 62 4364 497 1515 234 5793 1441
+3087 795 6058 890 497 463 60 2599 358 1899 548 2014 2049
+2002 "à Potsdam ce 2. de Novembre 1751."

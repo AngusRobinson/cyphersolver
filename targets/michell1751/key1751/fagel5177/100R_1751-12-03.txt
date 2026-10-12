@@ -1,0 +1,40 @@
+# WAINUT transcription (2026-10-11) from the Nationaal Archief scans of 1.10.29 (Fagel) inv. 5177; King to Michell in the cabinet code, Dutch copy.
+# Fagel 5177 (NL-HaNA 1.10.29 inv. 5177), scan 100R (complete letter on one page, upper two thirds; rest blank with bleed-through). 100L = blank verso of 099R (mirror bleed-through only); 101L = blank verso of this page (mirror bleed-through only).
+# Heading: "au Sr Michell a Londres" (r of Sr superscript, underlined)
+# Clear opening: "Votre rapport du 19e du passé m'a été bien rendu," then cipher (first group 4175 at the end of manuscript line 1, written in darker ink / retraced 4)
+# Closing line: "a Potsdam, ce 3e de Decembre 1751." (1751 underlined; own line, no cipher group on it)
+# Signature: "Federic" (with flourish; no "(Signé)")
+# Letter date: Potsdam 3 Dec 1751 (reply to Michell's report of 19 Nov).
+# NOTATION: _ single underline, = double, # triple; ! bar/overline; [del:...] struck; ? uncertain digit; {...} = editorial note on the preceding group (not part of it); "..." clear text.
+# NOTE hand: same copyist as 099R (slanted cursive, comma separators, crossed 1 like '+'/'t', 9 with large loop, dash as line filler; full stops after 1454 and 1819 and at the end of 4043). 3 is sometimes a single reversed-c bowl (238 l.10, 3093 l.10/20, 363 l.7, 3426, 3220, 930).
+# NOTE 0/8 (main pitfall): 0 = plain closed or open 'u' oval, 8 = oval/loop with an inner crossing diagonal (theta-like). All 0/8 checked at 4-8x. Readings with 8 confirmed this way include 4386, 89, 248 (l.2 and l.7), 862, 238, 894 (x2), 118, 890, 5814 (x2), 58 (x3), 538 (x2), 586 (x2), 1839, 38 (x2), 280, 3048, 4087, 4284, 718, 6058, 1008, 258 (x2), 86, 5886, 2088, 1876, 3184, 1480, 811, 82 (x2), 1819, 187, 1468, 1798, 1386, 1283, 858; plain 0 in e.g. 304, 1002, 240 (l.12), 203 (l.12), 3240.
+# NOTE l.2: 89 - a leading figure written as a theta-oval (8), not a 0 (cf. 99R 82).
+# NOTE short underlines under part of a group (encoded on the whole group): 501= (two strokes under 01; the 1 is i-dotted), 890= (two strokes under the 0), 6154_ (under 4), 5959= (two strokes under the 2nd 5), 379_ (under 79), 1454_ (under 54), 4366_ (under 66), 1222_ (under 22), 1386_ (under 6); full-length: 555_, 2102# (FOUR strokes under 02), 5926# (three strokes under 926).
+# NOTE l.2: '16, 7' after 305 are two groups (faint comma between 6 and 7).
+# NOTE l.4: '2.597' has a dot between 2 and 5 (stray dot); read as one group 2597.
+# NOTE l.13: '60.58' has a dot between 0 and 5 (stray); read as one group 6058.
+# NOTE l.14: 1064 - 2nd digit a plain small o (not 6); 5886 and 2088: the two middle/last ovals of each group have inner strokes (8), the last digit of 5886 has a short ascender (6).
+# NOTE l.18: 1819 - crossed 1, theta-8, crossed 1, 9; a dot stands above-left (stray / i-dot), group followed by a full stop.
+# DISAGREE: (no earlier reading of this letter). Task prompt quoted "4175. 4306." - the second group is 4386 (third digit a theta-8 with inner stroke, same as the 8s of 5814, 894); cf. 096R, which also opens 4175 4386.
+4175
+4386 89 9 248 304 29 862 6063 501= 305 16 7 2439
+3412 1002 2070 3243 238 4310 156 1515 1430 4349 102
+894 372 118 890= 2597{written 2.597} 2431 156 894 553 5814 7 1064 15
+7 2207 58 1515 234 5793 538 140 160 6295 954 66
+586 20 6154_ 5957 715 58 1839 38 1290 280 4191 3173
+795 56 104 62 1973 6063 5959= 305 363 1932 248 62
+4364 497 1515 234 5793 545 555_ 140 379_ 273 3048
+4087 7 1906 24 3042 1225 76 1396 6063 763 16 586
+2742 238 5957 3093 38 120 2179 4364 1934 1730 538
+1009 3369 4284 15 58 6147 4265 160 3369 715 1430
+1454_ 1441 3369 66 1042 15 57 203 2714 240 718 1435
+3243 6058{written 60.58} 1202 104 3426 1008 258 1939 140 2090 16
+2192 1064 1004 4043 7 86 2074 5886 136 2088 6150
+5991 2070 1876 4146 164 60 916 1736 140 3426 58 4366_
+3184 62 1480 14 16 7 13 5740 811 444 164 909 538
+1322 1730 1430 1220 3047 82 2102#{4 strokes} 5814 122 1222_ 4043
+16 140 3426 1819 62 6203 187 795 102 1468 1798 15
+16 104 1386_ 5940 3220 2192 1064 1283 930 1240
+3240 3243 82 545 2090 3426 4196 4146 858 3093
+534 5926#{3 strokes} 258 13 4125 160 5760 9 1552 1554 1534
+"a Potsdam, ce 3e de Decembre 1751."

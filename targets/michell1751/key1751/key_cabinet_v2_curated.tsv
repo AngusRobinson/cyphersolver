@@ -1,0 +1,45 @@
+# Curated syllable / ending / phrase entries of the cabinet code (concordance over P1-P6 + R1957; counts = occurrences checked by hand)
+code	value	n_agree	letters	evidence
+5814	-s (plural/letter s; also s')	20	7	cour|s, nouvel|les, Etat|s, suite|s, chipotage|s, bra|s, difficulté|s, possession|s, affaire|s; s' (R1957 c208, c522)
+82	-s (homophone of 5814; also s')	12	5	nouvel|les, Etat|s, cour|s, suite|s, libre|s, tout|s, affaire|s, quelque|s; s' (N16 c142, R1957 c258)
+66	-e / -é (ending)	14	5	regard|e, parven|ue, inform|e(e), marqu|e, propos|é, compos|é, négoci|e, mort|e, jus|te
+795	-é / -ée / -ère (ending)	10	4	derni|ère, empêch|é, consult|ée, inform|é|e, prêt|ée, continu|é
+1730	-er (infinitive ending)	9	5	inform|er, insinu|er, souhait|er, hasard|er, suppos|er, marqu|er, employ|er, appliqu|er
+3243	-ment	8	4	égale|ment, exacte|ment, raisonne|ment, immédiate|ment, aucune|ment, bonne|ment
+416	-ant	2	1	fais|ant, ét|ant (R1957)
+5957	-ez	3	2	croy|ez x2 (R1957); D03 c53
+759_	croi-/croy-	4	2	croi|re x2 (D07, R1957), croy|ez x2 (R1957)
+718	-re / re-	5	4	croi|re x2, ignor|e, re|garde, re|connaître
+38	-r / -er (syllable)	8	3	milo|rd, régl|er, redoubl|er, épargn|er, Hol-
+20	ne (also syllable n/ne)	8	5	ne x6 (N02, N23, D03, D07, D25, R1957), n' (D25)
+858	le (also syllable -le-)	14	5	le x10; syllable: éga|le|ment, veil|le
+4366	le (unmarked)	3	3	ont le plus (N16), mis sur le (D25), …
+4366_	le (marked)	5	3	par le traité (D03), vous me le marquez (D25), que le général, connaissez le système, le dessein (R1957)
+7	de (also syllable dé)	37	7	de; dé|partement (R1957 c478), persua|dé
+15	et (also syllable é)	26	7	et; é|tant, é|trangères (R1957)
+238	si (also syllable si)	10	5	si; ces|si|ons (R1957 c269, c300)
+2414	mon (also syllable)	2	1	mon intention; ti|mon (R1957)
+3048	ti (syllable)	2	1	ti|mon, sou|ti|en|dra (R1957)
+62	en (also syllable en)	26	7	en; sou|ti|en|dra
+712	nouvel-	4	3	nouvel|les (N02? N16 x2, R1957)
+306	mar-	3	2	mar|quez x2 (D25), mar|quez (R1957)
+2298=	mar- (marked)	2	2	mar|quez (D07), mar|quer (R1957)
+1782	-quez	4	3	mar|quez (D25 x2, D07, R1957)
+548	derni-(er)	3	2	derni|ère x2 (N02), dernier (R1957)
+1719	inform-	3	3	inform|e (N02), inform|er (N16), inform|ée (R1957)
+3412	ex-	2	2	ex|ac|te|ment (D03, R1957)
+1002	ac-	3	3	ex|ac|te|ment (D03, R1957), d'ex|ac|titude (N16)
+2070	te	3	2	exac|te|ment (D03, R1957), prê|te|e (R1957)
+1941 118 80	pré|su|me	2	1	je présume x2 (R1957)
+6129	ces	2	1	de ces cessions; nouvelles ces|si|ons (R1957)
+1784	ces- (homophone)	1	1	ces|si|ons (R1957 c299)
+5746	-ons	2	1	ces|si|ons x2 (R1957)
+156	entre (also entre-)	5	4	entre (D07, R1957 c33), entre|voir (R1957 c277), entre|ra (D03)
+3166	voir	1	1	entre|voir (R1957)
+4310	le roi de Sardaigne	5	3	D03 c19, D07 c22, R1957 c16, c143, c272 ('au' + 4310)
+190	le roi d'Angleterre	5	3	N23, D25 x2, R1957 x2
+190=	roi d'Angleterre (after du/au)	2	2	du roi d'Angleterre (N16 c588), au roi d'Angleterre (R1957 c520)
+2192	cour de (la cour de)	4	3	la cour de Vienne (N02, D03, R1957)
+1894	peut-être	2	1	R1957 x2
+4175 4386	opening pair (no plaintext)	2	2	first groups of N16 and D03
+1555 1550	opening pair (no plaintext)	1	1	first groups of R1957

@@ -1,0 +1,28 @@
+# WAINUT transcription (2026-10-11) from the Nationaal Archief scans of 1.10.29 (Fagel) inv. 5177; King to Michell in the cabinet code, Dutch copy.
+# Fagel 5177 (NL-HaNA 1.10.29 inv. 5177), scan 099R (complete letter on one page, upper half; lower half blank with bleed-through). 099L = blank verso of 098R (bleed-through only); 100L = blank verso of this page (mirror bleed-through only).
+# Heading: "au Sr michel a Londres" (r of Sr superscript, underlined)
+# Clear opening: "J'ai recu vos rapports du 23, et du 26e de Novembre / dernier," then cipher. Manuscript line 1 is clear text only; the cipher starts on manuscript line 2 after "dernier," - body line 1 below = manuscript line 2.
+# Closing line: "a Berlin ce 7e de Decembre 1751" (1751 underlined; own line, no cipher group on it)
+# Signature: "Federic" (with flourish; no "(Signé)")
+# Letter date: Berlin 7 Dec 1751 (reply to Michell's reports of 23 and 26 Nov).
+# NOTATION: _ single underline, = double, # triple; ! bar/overline; [del:...] struck; ? uncertain digit; {...} = editorial note on the preceding group (not part of it); "..." clear text.
+# NOTE hand: a third copyist (not that of 096R-097R nor of 098R): slanted cursive, groups separated by commas, line ends filled with a dash. 1 = mostly a crossed stroke like '+' or 't' (e.g. 163, 16, 118, 111, 2316), sometimes plain or i-dotted (1941, 3013); 7 = top bar with long descender; 9 = with a large loop below the line.
+# NOTE 0/8 (main pitfall in this hand): 0 = plain closed oval or open 'u/v' shape with a small hook (304, 20, 100, 1200, 306); 8 = an oval/loop with an inner crossing diagonal (theta-like), often darker (82, 1782, 586, 2380, 3184, 18, 118, 283, 138, 38, 6048, 4186, 538, 2268, 4008, 508, 258, 148, 1688, 88, 268). Every 0/8 checked at 4-7x; supported by frequent groups elsewhere (82, 586, 1782, 2380).
+# NOTE short strokes under the LAST DIGIT only, detached from the preceding looped 9: 1496 (under 6), 3395 (under 5), 2298 (two strokes under 8, crossed by the comma -> =). Encoded as underlines; each follows a looped 9, so a calligraphic terminal stroke cannot be fully excluded, but they are separate strokes.
+# NOTE l.4 (body): 2562 underlined (long stroke under 562, crossed by the following comma).
+# NOTE l.6 (body): 2268 - the first 2 has a heavy, extended base stroke (not an underline).
+# NOTE l.11 (body): 4037 - 3rd digit is a single reversed-c bowl; this hand writes 3 that way elsewhere (100R: 238, 3093, 363, 3426, 3220), so read 3.
+# NOTE line-end dashes after 15 (l.3), 4239 (l.5), 6147 (l.9) and 3999 (l.11) are line fillers, not encoded.
+# DISAGREE: (no earlier reading of this letter). Task prompt quoted "1553, 1406" - the second group is 1496 (looped 9, same form as in 990, 2192, 1941).
+1553 1496_ 82 122 304 566 163 64 16 586 2298=
+1782 16 131 990 62 304 1222 66 18 3055 16 4310 156
+134 3395_ 102 131 533 76 2380 3184 156 2192 1064 15
+2294 7 2207 3064 2264 1941 118 905 116 20 82 283 2562_
+138 796 169 111 3166 38 25 6048 3279 100 4186 4239
+538 2268 1931 1091 7 759 718 166 203 4008 4043 508
+3243 9 1211 2064 1730 166 3274 1009 18 3470 2727 1240
+2316 82 104 1200 15 2727 105 4049 1579 273 1053 374 586
+7 1467 1267 111 3013 4286 545 6063 258 140 148 6147
+4076 1688 66 6244 268 88 306 1730 9 16 586 62 1469
+1063 9 118 2714 4037{3 as single reversed-c bowl} 1763 2599 38 3456 3999
+"a Berlin ce 7e de Decembre 1751"

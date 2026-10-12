@@ -5,3 +5,12 @@ decode/r55_*
 decode/*.htm
 pc08.txt
 pc09.txt
+# key1751: derived from DECODE transcriptions (no redistribution); rebuild with key1751/scripts/envoy_key.py
+key1751/envoy_key_lyonet.tsv
+key1751/envoy_pairs.tsv
+# key1751: Politische Correspondenz full text (Trier edition), made with key1751/scripts/pc_html2txt.py
+key1751/pc8.txt
+key1751/pc9.txt
+key1751/*.html
+key1751/scripts/__pycache__/
+key1751/pc_michell.json

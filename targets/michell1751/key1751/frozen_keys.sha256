@@ -1,0 +1,10 @@
+# SHA-256 of the two tables used blind, recorded 2026-10-11T20:36:00+02:00 (before the blind decodes of R1957 at 21:08
+# and R1955 at 20:56). The first hash of each pair is of the file as written on Windows (mixed CRLF/LF line ends), the
+# second of the same content with LF line ends, as git stores it.
+# The v1 content was first committed in WAINUT's research repository on 2026-10-11 at 16:07 (as
+# r2_hellen1752/data/michell_code_partial.tsv), before R1957 was transcribed; the R1957 work was committed at 21:29.
+# envoy_key_lyonet.tsv is not in this folder: rebuild it with scripts/envoy_key.py from DECODE's transcriptions.
+d6e71ab9b6bafd7f4576c37456ed4471537ee228f5f7a8f577459692199d2c18 *key_cabinet_v1_frozen.tsv
+6112a36b9739626148f61d01c77331e59d92bd0495e298008e9e87fd20da9a95  key_cabinet_v1_frozen.tsv (LF)
+50d5f885072ef7fab948427a2f63591bf6e59ef2ee57d16f3583acddd7e13549 *envoy_key_lyonet.tsv
+301391c6d7e2a6197ee005924bffdcb05eeedcb7a39bae6b9fd29dc78b4e044c  envoy_key_lyonet.tsv (LF)

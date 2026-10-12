@@ -1,0 +1,70 @@
+# King->Michell cabinet code, Nov-Dec 1751 (Fagel 5177 scans 95-101 vs Politische Correspondenz 8). PARTIAL table.
+# conf: A = >=2 independent consistent occurrences (letters/positions given); B = one clear aligned occurrence; C = hypothesis.
+# evidence keys: N02=097R 2 Nov (PC5169), N16=096R-097L 16 Nov (PC5197), N23=101R 23 Nov (PC5208), D03=100R 3 Dec (PC5227), D07=099R 7 Dec (PC5231), D25=098R 25 Dec (PC5253); cNNN = group index in letter
+code	value	conf	evidence
+7	de	A	D25 c4 'aise de savoir'; N16 c231 'systeme de feu'; N16 c279 'plus de confiance'; N02 c42 'ordre de sa cour'; D03 c13 'que de savoir'
+2179	de	A	N02 c325 & N16 c505 'afin de vous mettre'; N16 c62 'au gre de la'; N16 c468 'de la Republique'
+156	de	A	D03 c20 & D07 c23 'le roi de Sardaigne'; D03 c31 'les cours de Vienne'?
+70	je	A	D25 c0 'Je suis bien aise'; N16 c497 'je vous communique'
+144	suis	B	D25 c1
+6063	bien	A	D25 c2,c47,c85; N16 c127 'et que bien des gens'; D03 c8 'un point bien important'
+6235	aise	B	D25 c3
+2439	savoir	A	D25 c5 'de savoir que'; D03 c14 'que de savoir exactement'
+16	que	A	D25 c6; D07 c9-c13 'ainsi que vous marquez que la'; N16 c8 'Hollande que j'ai'
+169	que	A	N16 c71 'douairiere, que les deputes'; N16 c126 'et que bien des gens'
+894	les	A	D25 c7 'que les Pelham'; N16 c3 'si les nouvelles'; N16 c72 'que les deputes'; D03 c32 'entre les cours'
+5814	-s (plural ending)	A	D03 c33-34 553 5814 'cour-s'; N16 c530-531 712 5814 'nouvel-les'; D25 c90-91 187 5814 'chipotage-s'; D25 c81-82 1200 5814 'Etat-s'
+553	cour	A	N02 c15 'cette cour'; D03 c33 'les cours'; N23 c12 'la cour'
+3279	des	A	N16 c128 'bien des gens'; D25 c86 'bien des chipotages'
+286	gens	A	N16 c129 'des gens regrettent'; N16 c480 'des gens qui'
+586	vous	A	13 occurrences, e.g. N02 c326/N16 c506 'afin de vous mettre', D07 c10 'que vous marquez'
+56	afin	A	N02 c325; N16 c505
+3264	mettre	A	N02 c46, c73; N02 c327; N16 c507
+2092	sur	A	N02 c328; N16 c508 'mettre sur la voie'
+2025	voie	A	N02 c330; N16 c510 (followed by 203 in both)
+6147	la	A	N02 c47 'mettre la derniere main'; N16 c509 'sur la voie'
+131	la	A	N02 c74 'mettre la derniere main'; N16 c180 'La Douairiere'; N23 c11 'la cour'
+1220	a	A	N02 c9 'a Vienne', c27 'a sa perfection', c51 'a la convention'; N16 c527 'qu'on a recu'; N16 c584 'a Hanovre'
+538	a	B	N16 c332 'a la Douairiere'; N16 c428 'a jamais'
+15	et	A	N02 c16 'et celle de Madrid', c93 'et de celle d'Espagne'; N16 c127; D03 c37 'Vienne et de Madrid'
+2249	celle	A	N02 c17, c95
+104	d' / d	A	N02 c71 'd'y', c96 'd'Espagne'; N16 c250 'd'autorite'; D25 c67 'roi d'Angleterre'; inside names (Holdernesse)
+3426	Espagne	A	N02 c97 'd'Espagne', c185 'de l'Espagne'
+2090	l'	A	N02 c78 'l'on regarde', c184 'l'Espagne'
+106	on	A	N02 c5, c79, c163 'l'on'
+140	l'	B	N02 c4, c163 '140 106' = l'on (also inside names: conflict, see report)
+548 795	derni|ere	A	N02 c48-49 & c75-76 'la derniere main'; N02 c100-101 'cette derniere'
+958	main	A	N02 c50, c77
+281	selon	B	N02 c0
+372	mes	B	N02 c1
+6244	nouvelle(s)	A	N02 c2 'mes nouvelles'; D25 c182 'tristes nouvelles'; D25 c297 'nouvelle'
+712	nouvel- (stem)	A	N16 c4 712 82 'nouvel-les'; N16 c530 712 5814 'nouvel-les'
+2485	plus	A	D25 c48 'bien plus loin'; N16 c249 'le plus d'autorite'; N16 c278 'a le plus de confiance'
+398	loin	B	D25 c49
+442	mort	B	N16 c43 'la mort du'
+2218	du	B	N16 c44
+238	si	A	N16 c524 'informer si ce'; D03 c18 'exactement si le roi'; D25 c275 'marquez-moi si'
+9	ce	A	N16 c525 'si ce qu'on'; D03 c3 'ce m'est'; N16 c502 'tout ceci'?
+248	est	A	N02 c348 'ce qui en est'; D03 c4 'ce m'est'
+4310	le roi	A	D07 c22 'que le roi de Sardaigne'; D03 c19 'si le roi de Sardaigne'
+1064	Vienne	A	N02 c10 'a Vienne'; D03 c36 'cours de Vienne'; D07 c34; N02 c281
+102	dans	A	D25 c79 'venu dans ses Etats' (330 102 1240 1200 5814); N23 c21 'que vous dites dans les affaires' (1688 2431 102 894); NB in D03 c24/D07 c26 it follows 'Sardaigne' where the concept has 'entre(ra)' - unresolved
+306 1782	mar|quez	A	D25 c24-25 'vous me le marquez'; D25 c272-273 'Marquez-moi'; (D07 c10-11 2298= 1782)
+2298=	mar	B	D07 c10
+1215_	moi	B	D25 c274 'Marquez-moi'
+3412 1002 2070 3243	ex|ac|te|ment	B	D03 c15-18 'savoir exactement'; 1002 also N16 c560 'd'exactitude'
+2722	Hollande	B	N16 c7 'nouvelles de Hollande que'
+2722#	Hol- (marked variant?)	C	D25 c53 inside 'Holdernesse' (5 strokes)
+4020	Ha- (Hanovre)	A	D25 c42 4020 2110_ 3064_ 3243_; D25 c167 4020 3456_ 3488+1/4; N16 c585 4020 2119 2133_
+1633	milord / mi	C	D25 c50, N16 c256, c444 'milord Holdernesse'; but also inside 'administration', 'minorite'
+4366	roi	B	D25 c66 'le roi d'Angleterre sera arrive'
+4366_	Prince (marked variant?)	C	N16 c233 'de feu Prince son mari'
+6146	je	C	N02 c315 'Je vous informe'
+1719	inform- (stem)	A	N02 c317 1719 66 'inform-e'; N16 c521 1719 1730 'inform-er'
+4175 4386	(opening pair, not in concept)	A	first two groups of N16 and D03 (both after the clear acknowledgement)
+439	jamais	A	N16 c429 'a jamais' (538 439); D25 c77 "n'est jamais venu"
+1240	ses	A	D25 c80 'dans ses Etats'; N16 c369 'ses enfants'
+1200	Etat	A	D25 c81 1200 5814 'Etat-s'; N02 c176 3279 1200 82 'des Etat-s'
+82	-s (plural ending, homophone of 5814)	B	N16 c4-5 712 82 'nouvel-les'; N16 c34-36 894 2036 82 'les suite-s'; N02 c176-177 1200 82 'Etat-s'
+304	est	B	D25 c76 "n'est jamais" (444 304 439)
+330	venu	B	D25 c78

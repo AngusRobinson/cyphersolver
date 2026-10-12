@@ -1,0 +1,76 @@
+# WAINUT transcription of DECODE R1957 (KHA The Hague, Prins Willem V inv. 198), made 2026-10-11 from the DECODE images (not included). One line per manuscript line.
+# R1957: photographs img/R1957_p1.jpg (p1: heading, clear opening, 24 manuscript lines of cipher) and img/R1957_p2.jpg (p2: 20 cipher lines, the last one ending in the date line, then the signature). Both photographs slightly rotated (lines descend ~2 deg to the right); all reading done on de-rotated crops (p1 1.9 deg, p2 2.2 deg).
+# Heading: "Au Sr Michel a Londres" (Sr with superscript r; final s of Londres a flourish)
+# Clear opening: "J'ai recu votre Depeche du 14e de ce mois," then cipher on the same manuscript line (no cedilla visible in "recu"; 14e with superscript e). Data l.1 = the groups after "mois,".
+# Closing line: p2 l.20 "6472. 403. 2179. 4004. 1437. A Berlin ce 28 decembre 1751" (decembre with small looped d)
+# Signature: "(signé:) Federic." (own line, right, below the date line)
+# Letter date: Berlin 28 Dec 1751 (date line).
+# NOTATION: _ single underline, = double, # three or more strokes (count in {}); ! bar/overline; [del:...] struck; {above:...} written above; ? uncertain digit; {...} = editorial note on the preceding group (not part of it); "..." clear text; +1/2 = fraction written after the group.
+# NOTE hands/styles: TWO styles. (A) p1 heading, opening and the cipher of p1 ll.1-5 plus the start of l.6 ("3292, 70"): a slanted cursive hand, groups separated by COMMAS, lines sloping down to the right. (B) from "838." in p1 l.6 to the end of p2: an upright hand, groups separated by full stops (occasional commas/colons, e.g. "111:" p1 l.11, "190 -" p1 l.18). The switch is mid-line in p1 l.6 after "3292, 70 ." (wider gap, darker/upright figures from 838 on). Both use the same theta-shaped 8, so possibly one scribe changing pen/style; not decided.
+# NOTE hand A digits: 1 mostly with a crossbar or head flag (looks like 't'/'+': 16, 140, 169, 4310, 102, 3184, 104, 1003, 138, 2125, 184, 1550); 8 = narrow oval with an inner vertical/diagonal stroke (theta form: 858, 2382, 1822, 3184, 86, 538, 894, 5814, 258, 138, 5780, 184) - 0 is a small round 'o' (6203, 2070, 140, 4310); 7 = ')' with a small top hook, running below the baseline (5740, 70, 4074, 5760, 2070, 2207, 5701, 1570), in 47 a '7' with a blob-started top bar; 4 open 'A'/'a'-like; 5 's' with flag; 9 with long tail that loops back UNDER the group (409, 894, 169, 3292) - these loops are 9-tails, not circles round the groups; 6 tall ascender - in '60' (l.2) and '6063' (l.5) the ascender of the 6 loops over and runs down into the following 0 (looks like a 'd'/'∂' ligature), read 60/6063 in both places (6063 also frequent in 098R). No circled groups found in the cursive lines.
+# NOTE hand B digits: 8 written both as figure-8 and as the theta form (5814, 284, 587, 184, 1804, 5878, 1298, 6058, 1989, 86, 82, 890, 838, 1468, 5884) - every 8/0 decision checked at 4-6x; 0 small, often raised; 1 plain stroke, often i-dotted (111, 1941, 6129, 1763, 2130), sometimes with a hairline lead-in from lower left (15 and 2139 in p1 l.15); 4 = 'u'/'ɥ'-form or closed 'A'-form (4283, 184 p2 l.9); 7 = top bar starting with a blob + long descender below the baseline (decides 7 vs 2: 712, 6472, 3197); 2 sometimes written '?'-like with a dot below the foot (3125 p1 l.6, 1240 p1 l.11, 3426 p1 l.12 - read 2: flat foot present, no descender); 5 's' with a separate flag tick; 9 closed bowl + long tail.
+# NOTE line ends: p1 l.1 '144 —' and l.2 '6047, —' end in a long dash (line filler), not encoded.
+# NOTE multiple underlines (counted at 4-6x on contrast-stretched crops): p1 l.3 533 FIVE strokes (possibly 6; last stroke joins the comma); p1 l.5 1760 FOUR strokes under the 60 (last joins the comma); p1 l.9 2102 THREE strokes; p1 l.18 2102 FOUR short strokes stacked below the 0-2 and detached from the group (one longer hooked stroke + three short); p1 l.23 362 THREE strokes; p2 l.7 206 SIX long strokes (the big hatched block below the line); p2 l.9 211 THREE strokes.
+# NOTE double underlines: p2 l.2 2298= (under the final 8); p2 l.13 1049= (under 49); p2 l.18 190= (under the final 0).
+# NOTE single underlines are mostly under the last 1-3 digits only; recorded on the whole group: p1 4366 (l.5, l.22 under 66), 3186 (l.6, short stroke under 86), 3165 (l.8, under 165), 6154 (l.14, under 54), 3072 (l.14, under 72), 2304 (l.15, under 04), 759 (l.19, under 59); p2 6154 (l.2), 4366 (l.2, l.5), 759 (l.3, l.7), 1215 (l.6 under 5; l.17 under 15), 4013 (l.8, whole group), 390 (l.11, under 0), 880 (l.16, under 80).
+# NOTE corrections: p2 l.9: '759' written ABOVE a struck group, with a horizontal line drawn under the 759; the struck group below has two horizontal strokes through it and a further line under it; struck digits 7, 9, ? (3rd digit obscured, possibly 5 - i.e. 795 corrected to 759). p2 l.10 (line end): '5760' written ABOVE a struck group that is cancelled by one long horizontal stroke plus 3-4 diagonal hatching strokes; struck digits 5, 7, then two obscured digits that look like 6 and 0 (the same group 5760 rewritten legibly above?).
+# NOTE overwritten/retraced digits (encoded as read, reading not in doubt unless '?'): p1 l.9 3081 (8 blotted); p1 l.9 1941 (final 1 thick, i-dotted); p1 l.15 2139 (3 heavily retraced over another digit; long foot under the 1); p1 l.16 2249 (heavy 4 written over a 3: 2239 corrected to 2249; 2249 recurs in l.17); p1 l.19 538 (8 heavy); p1 l.24 894 (9 retraced), 26 (6 heavy); p2 l.1 3243 (4 with an extra upward stroke); p2 l.4 2464 (2nd digit 4 filled/heavy); p2 l.8 2373 (1st digit 2 heavily retraced, a small dash before it); p2 l.10 1206 (6 retraced); p2 l.13 1326 (3 heavily retraced over another digit), 57 (7 very large, doubled downstroke); p2 l.14 4284 (1st 4 heavy); p2 l.16 2599 (2nd digit blotted: 5 with a 9-like filled loop; 2599 recurs p1 l.15, p2 l.1, l.19), 258 (2 heavy); p2 l.17 1812 (final 2 heavy).
+# NOTE p1 l.4 15?5: 3rd digit = a vertical stroke ending ON the baseline, joined at the top to the long flag of the preceding 5 - either a 1 (1515, frequent: p1 l.9, p2 l.11, l.15) whose head is the 5's flag, or a 7 (1575; but hand A's 7 normally descends below the line).
+# NOTE p1 l.4 1003: last digit a single-lobed 'ↄ' on the baseline with a leftward foot - read 3 (hand A's 7 is taller and descends).
+# NOTE p1 l.5 578?: 4th digit is a heavily blotted filled oval with a cap/flag at upper right; probably 0 (5780), 8 or 5 not excluded.
+# NOTE p1 l.13 1?5: 2nd digit a heavy filled oval, as tall as the 1 (8-size; small hole low down), so 185 or a retraced 0 (105, cf. 105 in l.11).
+# NOTE p1 l.14 1804: 2nd digit tall oval with inner diagonal = theta-8 (a retraced 0, i.e. 1004, not excluded).
+# NOTE p1 l.15 1298: last digit tall theta-8 (cf. 1290 with a plain small 0 in l.23).
+# NOTE p2 l.9 184: 3rd digit 'A'-shaped 4 (thick downstroke with a short crossbar; could be taken for a 1).
+# NOTE p2 l.11 506: middle digit a clear small 0 (not the 8 of the frequent 586).
+# NOTE p2 l.6 1215: a mid-height dot between 2 and 1 ('12·15'), read as one group (cf. 1215 twice in l.17).
+# NOTE p2 l.12 2130: 2nd digit a short thick 1 with a detached dot/tick above.
+# NOTE stray marks: p1 small ink spot above l.11 between 6273 and 7; p1 dot in the left margin before l.23; p2 l.10 small ink blot below 190; p2 l.3 grey caret-like mark above 5957 (show-through/smudge); p2 large dot in the right margin after l.15; p2 l.15 a tick under the 5 of 5814. None encoded.
+# NOTE repeated sequences: p1 l.9 '70 1941 118 80 169' ~ p1 l.19 '70 1941 118 80 3492 169'; p2 l.3 '586 759_ 5957' = p2 l.7 '586 759_ 5957'.
+# UNCERTAIN digits (encoded ?): p1 l.4 15?5 (1/7), p1 l.5 578? (blot), p1 l.13 1?5 (0/8), p2 l.9 struck [del:79?], p2 l.10 struck [del:57??]. Read but flagged: p1 1003, 1804, 1298, 2139, 60/6063 (ligature); p2 184, 506, 2599 (blot), 6058 (l.18, theta 8).
+# DISAGREE: (no earlier reading of this letter). Every line read twice (pass A: third-width native crops; pass B: half-width crops at 0.75) plus 2-6x zooms on every doubtful digit; no unresolved disagreement between the passes except those encoded '?'.
+1555 1550 15 144
+66 6203 858 3243 16 2382 60{6 with looped ascender joined into the 0} 1822 16 140 47 169 4310 6047
+134 5740 70 4074 5760 2070 102 858 3184 76 86 533#{5 strokes} 66 538 2207
+156 894 553 5814 104 3426 15 258 1064 20 1003{last digit single-lobed 3} 15?5{3rd digit 1 or 7, see NOTE} 138 2125 70
+409 578?{4th digit blotted, probably 0} 7 169 4366_ 266 184 140 5701 6150 66 6063 1760#{4 strokes under 60} 6147 1570
+3292 70 838 1708 104 1973 3125 66 62 4361 104 3186_ 2707 16
+894 4054 5814 2179 2473 2169 2179 1064 284 6179 111 4364
+3165_ 4359 1220 131 709 2179 1900 858 1273 3107 38 894 7
+3081{8 blotted} 511 6026 792 1515 1220 184 2102#{3 strokes} 70 1941{final 1 thick, i-dotted} 118 80 169
+273 1053 2255 2268 14 66 169 2192 1064 1220 587 4356 7
+4364 105 6273 7 1336 111 1240 1261 5814 62 3197 545 2090
+3426 15 4310 56 104 5923 894 1066 5814 3292 1627 82 258
+9 3220 6147 1220 363 3013 3418 1?5{2nd digit blotted, 0 or 8} 700 3042 6147 1900 64
+2414 764 304 169 2382 6154_ 70 373 1804{2nd digit theta-8; 1004 not excluded} 1730 3072_ 82 3236
+1445 1298{last digit theta-8} 15 2139{3 heavily retraced over another digit} 4364 111 2304_ 1763 2599 38 6058 1906
+238 5973 1053 1719 795 66 7 9 700 6147 1430 238 1894 2249{heavy 4 written over a 3: 2239 corrected to 2249}
+258 1064 5814 304 3298 1467 6147 5997 62 1818 545 2249 258
+977 57 62 423 2102#{4 short strokes stacked below, detached} 545 190 9 169 160 12 202 2179 6147 280
+538 759_ 718 3072 24 1601 70 1941 118 80 3492 169 273 304
+1894 2179 140 2196 60 548 169 6147 1699 1501 82 304 5701
+2070 795 1220 4364 3279 712 2781 6129 238 5746 24 4310
+62 54 5878 416 156 3166 38 4366_ 700 3042 131 1900 15 4146
+2380 1679 5967 2088 362#{3 strokes} 1290 86 795 58 6147 7 6129 1784
+238 5746 1358 70 444 888 1077 718 138 894{9 retraced} 837 5814 26{6 heavy}
+|| p2
+586 702 1220 2714 4037 1763 2599 38 3412 1002 2070 3243
+247 410 202 586 6154_ 1782 4364 4366_ 1906 260 461 2298=
+1730 6058 4283 497 36 20 3243 488 586 759_ 5957 16 894
+286 76 448 24 3048 2414 3279 47 82 104 1733 15 2464{2nd digit 4 filled/heavy} 586
+1989 86 82 4366_ 1256 15 416 2092 894 6034 358 363 921
+4008 102 25 4076 1688 700 6058 3042 2485 306 1782 1215_{dot between 2 and 1}
+87 238 586 759_ 5957 238 858 1256 206#{6 strokes} 169 104 18 5842 60
+5884 104 1733 4092 4013_ 3048 62 2373{1st digit 2 heavily retraced} 87 260 6300 488
+2179 79 586 [del:79?]{above:759; 759 has a line under it; struck group has two strokes through it and a line under it; 3rd struck digit obscured, possibly 5 (795)} 2431 166 184{3rd digit A-shaped 4} 6081 211#{3 strokes} 160 1001 795
+2064 66 169 190 890 62 838 1217 87 1206 1468 82 [del:57??]{above:5760; struck by one long horizontal stroke and 3-4 diagonal hatching strokes; obscured struck digits look like 6 and 0}
+20 2431 506 2431 390_ 497 1515 234 5793 6147 1570
+99 4000 5957 166 535 169 586 20 25 2130 3024 3072
+9 1326{3 heavily retraced over another digit} 1570 866 2433 367 280 4142 1049= 3243 57{7 large, heavily retraced}
+62 4364 3279 1739 279 24 7 5740 3369 4284 3279 47
+5814 15 1515 444 1233 2431 24 890 3292 6147 1699 2179
+5964 1053 442 66 498 880_ 2599{2nd digit blotted, 5 with 9-like loop} 358 1899 258 9
+1215 982 373 1215_ 238 1812 442 1220 5792 4390 238 69
+6058 190= 15 5814 122 62 538 986 60 3107 2487 444
+258 141 7 131 288 18 2599 66 282 986 2380 2464
+6472 403 2179 4004 1437 "A Berlin ce 28 decembre 1751"

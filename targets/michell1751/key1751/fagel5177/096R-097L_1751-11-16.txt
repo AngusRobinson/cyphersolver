@@ -1,0 +1,72 @@
+# WAINUT transcription (2026-10-11) from the Nationaal Archief scans of 1.10.29 (Fagel) inv. 5177; King to Michell in the cabinet code, Dutch copy.
+# Fagel 5177 (NL-HaNA 1.10.29 inv. 5177), scans 096R (numbers, slip folded away) + 097L (continuation); 095R = second photograph of the same page 096R with a pasted slip covering most of it.
+# Heading: "Au Secretaire Michell à Londres" (underlined)
+# Pencil note top right (096R, also visible on 095R): "Nonsense ou autre Clef" (same wording, in ink, on 097R)
+# Clear opening: "J'ay reçu votre depeche du 2 de ce mois" then cipher
+# Closing line (097L): "... 2138. à potsdam ce 16 nove[mbre] / 1751"  (the word "novembre" runs into the gutter)
+# Signature (097L): "(Signé.) Federic"
+# Letter date: Potsdam 16 Nov 1751 (reply to Michell's dispatch of 2 Nov).
+# Slip pasted on 095R (covers the numbers; transcribed separately): "Monsieur / Ayant examiné ces Lettres, je trouve qu'elles n'ont point de Sens, ou qu'elles sont d'une clef que nous n'avons pas, ainsi j'ai l'honneur de vous les renvoyer et de vous assurer en meme tems que j'ai celui d'etre avec un profond respect / Monsieur / Votre trèshumble et trèsobeissant Serviteur / Lyonet"; at lower left of the slip: "[...]ce 7 May 1754" (underlined; left edge of slip lies in the gutter).
+# 095R right-edge column (ends of lines 1-26 beside the slip) checked against 096R: identical groups and marks (incl. 84=, the blotted 4?8, the bar over 62).
+# NOTATION: _ single underline, = double, # triple; ! bar/overline; [del:...] struck; ? uncertain digit; {...} = editorial note on the preceding group (not part of it); "..." clear text.
+# NOTE hand: 0 = small plain oval; 8 = oval with a tall entry stroke/upper loop (looks like theta/delta); 6 = oval with tall ascender; 4 = open 'a/u' shape; 5 = 's' shape with flag. 0/8 is the main risk; every 0/8 was checked at 2.5-5x.
+# NOTE dots: the scribe often dots the digit 1 like an i (e.g. 591' 2179 811 131 414 418 1011 111 3186 461' 6010 1510). These i-dots are NOT encoded as '^' (they occur only on 1s and look like a letter habit). No other dot/comma-above marks seen.
+# NOTE corrections/blots: 096R l.12 '4?8' middle digit is a heavy ink blot with a tick above it (blot = retraced 1 with its i-dot, so probably 418); l.13 '8?3' middle digit B-shaped (3 and 8 written over each other: 833/883); l.13 '587' first digit retraced; l.18 '30?3' third digit blotted (probably 1: 3013); l.21 '24?5' third digit blotted and '8' written above it (= 2485); l.25 '?48' first digit overwritten (looks 8: 848); l.19 one group inked out completely [del:???]; 097L l.1 last group inked out (first digit maybe 2, last maybe 4); 097L l.9 '4227' and '3454' (first digit) retraced in darker ink; 097L l.11 '1719' third digit blotted with i-dot above (= 1).
+# NOTE 096R l.3: "outre" written small ABOVE the group 894 (interlinear, same ink) -> encoded 894{above:"outre"}.
+# NOTE 096R l.26: "of 3" (Dutch 'or 3') written above the 8 of 1487 -> variant reading 1437 offered by the copyist.
+# NOTE 096R l.18: a horizontal bar lies between 2047 (l.17) and 62 (l.18), touching the ascender of the 6 and centred over 62; recorded as overline 62! (could alternatively be an underline of 2047).
+# NOTE 097L l.2: short stroke under the 5 of '25' (underline or tail of the 5) -> 25_ (uncertain).
+# NOTE 097L l.12: '30111' is written as one 5-digit group (underlined), no separating dot; perhaps two groups run together (e.g. 30|111).
+# NOTE 097L l.14: last group '341?' is cut by the page edge in the gutter (4th digit hidden, probably 3412). Line ends of 097L were checked on a join of L_0097 + R_0097 (same photograph).
+# NOTE 097L l.16: '4814' (first digit clearly 4-shaped; elsewhere 5814 is frequent).
+# DISAGREE: (none; no earlier reading of this letter). Task prompt quoted "4175. 4386. 230." - the third group is 238 (8 identical in form to the 8 of 4386).
+4175 4386 238 894 712 82
+7 2722 16 160 12 986 3087 4284 4299 66 1831 1202 82 4362 979
+848 140 372 18 5842 2347 82 2088 76 15 118 3279 3042 894{above:"outre"}
+2036 82 591 284 268 1741 258 6147 442 2218 5814 587 164 1953
+1530 6120 140 106 80 306 66 16 3072 3165_ 7 24 223 2179 3462
+3017 6085 1530 12 3047 1730 66 169 894 2150 2781 3279 5876
+5814 1222_ 1509 62 2730 118 858 111 6147 718 1989 597 62
+4109 7 1243 5760 2070 15 169 3072 2380 3361 565 858 3243
+2169 764= 106 5814 2714 5757 3266 160 1467 166 203 43 17
+2179 3358 5829 3369 3207 4258= 160 986 38 15 169 6063
+3279 286 6251 223 305 1510 894 3179_ 2781 53 273 304 84=
+3350 82 5828 141 62 841= 5760 4027 858 82 6295 2257 4?8{blot,prob.418}
+1205 2179 38 2769 8?3{833/883} 718 2599_ 587 160 4031 169 202
+3492 3072 25 462 2380 1826_ 4043 62 2077 160 3408 6058
+4340 38 2238 4027 131 6085 118 12 3047 1730 66 403 2179
+3494 15 258 1363 38 6026 141 4296 1498 2597 4267 76 304
+4373 66 3279 141 5814 3410 82 169 1474 2287 2014 2047
+2049 811 6085 504 5923 1982 66 4146 30?3{blot,prob.3013} 873 504 62!
+3072 858 238 1063 2070 461 [del:???] 7 2282 4366_ 1273 4296
+948 3047 894 6154 6030 444 3048 444 273 414 82 284
+4366 2485{3rd digit blotted, 8 written above} 104 24 1415 3047 2070 2169 1633 2306 38 104
+1953 140 6120 20 82 506 3072 111 894 844 1437 134 6136
+538 76 196 1220 25 2485 7 3428 5760 9 140 5746_ 376
+166 203 43 29 1686 2179 1988 66 156 6147 70 118 20 3017
+?48{1st digit overwritten,prob.848} 2142 3242 485 6010 858 1273 329 718 2599 587
+1487{above:"of 3" over the 8} 66 7 2521 15 16 158 2306 38 104 418 140 4359
+20 82 2426 1973 3403 38 187 104 3138 1730 538 6147 6085
+118 12 3047 12 718 1420 140 3412 3369 1011 60 740 448_
+5757 66 260 2688 986 795 5798 538 140 5704 795 1633
+20 5758 38 7 1240 62 326 1298 811 1608_ 305 105 6090 104
+18 2445 538 3478 38 3186 4238 353 1264 258 795 111
+|| 097L
+140 2504 1633 1290 5814 2077 2208 2179 131 4187 2070 [del:???]
+25_ 62 848 5814 3016 838 1010 538 2198 118 3047 1005 3206
+433 1633 950 5877 2070 6300 519 1734 6147 507 15 994
+6232 4087 1730 538 439 140 6058 4340 3047 2070 2179
+82 6295 104 1953 118 6120 2788 6058 3042 1225 1633 2306
+38 104 1953 140 6120 20 1063 86 4008= 4043 3178 894 4771 82
+111 727 3033 4200 2090 1002 6129 1928 2179 6147 2248 6058
+1609_ 7 2473 260 166 203 164 2285 286 76 2773= 1509 16
+6299 533 3042 4155 4227 44 136 5916 795 3454 3486 3399
+70 586 5900 169 3072 9 1474 56 2179 586 3264 2092 6147
+2025 203 1217 7 586 62 4084# 137 5886 6010 7 586 1719
+1730 238 9 53 1220 126 2179 712 5814 137 1733 30111_ 304
+1955 1217 1220 308 2206 6058 890 586 5784= 3048 1001 1730
+1782 104 2254 1730 496 6190 111 290 545 5925 1305 341?{cut by gutter}
+1002 3048 4087 7 166 3047 1906 9 169 2090 106 4380
+2373 4244 2179 1020 4814 1206 25 2380 4093 964 5864 60
+190= 1220 4020 2119 2133_ 2138 "à potsdam ce 16 nove[mbre]"
+"1751"

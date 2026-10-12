@@ -1,0 +1,60 @@
+# WAINUT transcription of DECODE R1955 (KHA The Hague, Prins Willem V inv. 198), made 2026-10-11 from the DECODE images (not included). One line per manuscript line.
+# R1955: photographs img/R1955_p1.jpg (p1: heading, clear opening, 25 cipher lines) and img/R1955_p2.jpg (p2: 6 cipher lines, the last one ending in the date line, then the signature; the rest of p2 is blank apart from mirror show-through of p1). On p1 the right edge of the leaf is curled/shadowed: the last group of several lines runs into that dark band (l.1, l.2, l.16, l.19, l.21, l.22, l.25).
+# Heading: "Lettre du Roi de Prusse au Secretaire Michell / du 28 Decemb. 1751."
+# Clear opening: "Toutes vos depeches m'ont été bien rendües et la derniere est du 14e de ce mois" then cipher. The first manuscript line is entirely clear text ("derniere" runs into the curled edge); data l.1 = 2nd manuscript line, after "est du 14e de ce mois" (14e with superscript e).
+# Closing line: p2 l.6 "4797. 5328. à Berlin ce 28e Decemb: (Signé:)"
+# Signature: "Federic." (own line, right, below the date line).
+# Letter date: Berlin 28 Dec 1751 (heading and date line).
+# NOTATION: _ single underline, = double, # triple; ! bar/overline; [del:...] struck; ? uncertain digit; {...} = editorial note on the preceding group (not part of it); "..." clear text; +1/2 = fraction written after the group.
+# NOTE hand: one upright copyist's hand throughout (heading, cipher, date line). Groups separated by full stops. 1 = plain stroke (sometimes small top serif); 2 = rounded/looped top and long flat foot; 3 has two forms: round-topped, and FLAT-topped with a closed lower bowl that looks like 'B'/'8' (e.g. 3255, 3159, 3120, 3013, 2313, 3312, 3222, 3294, p2 931/3193) - all read 3: real 8s in this hand are figure-8s, mostly with a hairline flourish rising to the right from the top (868, 1008, 1820, 1828), and 4-digit groups never begin with 7/8/9 in the Michell letters (lead digits 1-6), so 8255/8120/8159 are excluded; 4 = open angular or closed-top 'A'-like (2148, 1245, 247, p2 413); 5 = 's'-shape with a separate flag tick, sometimes the flag fused into a closed top loop (3356, 275, 495); 6 = tall looped ascender; 7 has two forms: 'Z'-like (flat top bar starting with a blob, diagonal, short foot: 715, 77, 707, 2175, 1573, 247) and a small hooked '>' form (720, 2071, 2497, 3317, 224072398) - told from 2 by the flat, unlooped top; 9 = closed bowl with long descender curling left; 0 = small oval. Every 3/8, 2/7, 5/9 and 1/4 decision was checked at 3-7x on contrast-stretched crops; every line was read twice (2-line half-width strips at 0.7 and 3-line third-width strips at 0.8, plus per-line 1.2x crops) and the readings reconciled.
+# NOTE separators: the dot is regularly omitted after an underlined group and after a fraction, and also in l.3 '715 1433', l.5 '794 3164', l.6 '1110 495', l.9 '1110 2328', l.17 '2405 1229', l.21 '2165 2999', p2 l.2 '761 1918 1110'. Other separators: l.2 '3004:' and l.8 '200:' colons; l.18 '2712,' and p2 l.1 '1517,', p2 l.2 '3193,' '931,' commas; l.11 '2692' followed by a long horizontal dash instead of a dot. p2 l.4 '1828 3331' written without a separator (the 3 of 3331 touches the flourish of the 8), read as two groups.
+# NOTE underlines are mostly drawn under the last two digits only; the mark is recorded on the whole group. Exceptions: l.19 1744= and p2 l.3 1076= have their two strokes under the FIRST digit (just after the preceding dot); p2 l.5 660= under the final 0; l.2 2965= under the 6(5). l.19 2539 and l.17 2695: the descender of the 9 ends on the underline - checked at 7x, only ONE stroke each (single). No triple underlines, overlines or struck-through groups on either page.
+# NOTE fractions: written full size as 1 over 2 with a bar, directly after the integer (no dot between): l.12 40+1/2, l.17 10+1/2 (line start), l.21 40+1/2; p2 l.2 1+1/2 (a group of its own after '1110.'), p2 l.3 660+1/2 and 150+1/2, p2 l.4 180+1/2. Only halves occur. p2 l.5 '660=' is an underlined 660 without a fraction.
+# NOTE l.16 long run: '224072398' = nine digits 2-2-4-0-7-2-3-9-8 under ONE continuous underline, with no dots, commas or wider spaces inside (inter-digit gaps 14-24 px at native resolution, as inside ordinary groups; gaps between groups are ~50-80 px plus a dot; the first two 2s are joined by a ligature). The 5th digit is the small hooked 7 (as in 720, 2071). It must be several groups run together. Best split: 2 2407 2398 (2 and 2407 occur as groups in this letter, and no group may start with 0); alternatives 2240 7 2398, 22 407 2398, 2240 72 398.
+# NOTE l.1 3255: 1st digit is the flat-topped closed 3 (looks like 8; see hand note).
+# NOTE l.6 3356: 3rd digit = s-form with a closed top loop, read 5 (no descender, so not 9; not like the two 3s before it).
+# NOTE l.10 194?: last digit = flat top bar + short mid stroke closing an angular, open bowl + long descender curling left (as the 9s); 1949 preferred, 1947 possible.
+# NOTE l.11 2692: final 2 written with a long horizontal dash through/after its foot (z-like); taken as 2 + separator dash (cf. clean 2692 on p2 l.1); a 7 written over it cannot be excluded.
+# NOTE l.11 3371: 2nd digit 'ↄ'-shaped (a 3 without the middle cusp); read 3.
+# NOTE l.13 2334: 1st digit faint, an incomplete '∠'-shaped 2 (diagonal + foot, tiny top), with a stray dot after it.
+# NOTE l.14 275: 3rd digit s-form with a closed top loop, read 5 (as in 3356).
+# NOTE l.21 2?07: 2nd digit is a 'ʌ' (lead-in upstroke from the foot of the 2 + vertical, no crossbar): 1 (2107) or a 4 without its crossbar (2407, cf. 2407 l.12).
+# NOTE l.22 3171: a small dot sits low between the 7 and the final 1 (end of the 7's stroke or stray dot); read as one group 3171.
+# NOTE edge: l.16 3069 (9 inside the edge shadow, descender visible), l.22 1401 (final 1 partly in shadow), l.21 524 and l.2 80 end at the shadow - a further digit hidden there cannot be excluded for 524/80, though line lengths do not suggest it.
+# NOTE p2 l.1 1517: 3rd digit written as a 'V' (the flag of the 5 runs down into an upstroke): read 1 (1517 as on p1 l.2 and l.18); possibly a corrected digit.
+# NOTE p2 l.1 '2.' at the line start: 2 with a looped top ('a'-like), followed by a dot; standalone group 2.
+# NOTE p2 l.1 and l.2 both end with '413.' (4 closed-top); p2 l.2 931 middle digit is the flat-topped 3.
+# UNCERTAIN digits (encoded ?): l.10 194? (9/7), l.21 2?07 (1/4). Read but flagged: l.1 3255 (3/8), l.6 3356 (5/9), l.11 2692 (2/7), l.11 3371, l.13 2334, l.14 275 (5/9), p2 l.1 1517 (3rd digit), l.21 524 and l.2 80 (edge).
+# DISAGREE: (no earlier reading of this letter).
+1561 4200 2537 450 1084 1930 3255{1st digit flat-topped 3, see NOTE}
+3004 720 1029 1517 3159 91 2148 1889 2965= 849 2497 80
+3423 2994 255 458 3551 1487 50 2696 835 715 1433 2454_
+287 2405 222 1533 3364_ 2203 2071 504 1534 2485 56 1051
+794 3164 1405 2589 230 3440 1831 1200 595 580 1532= 1808
+1222 1391 1251 1255 2250 990 790 3356{3rd digit 5 with closed top loop} 982 1110 495= 100 3407
+1403 3433= 2999 46 455 1820 3120 704 2740 1889 301 800
+2237_ 3340 1376 1478 138 2510 601 892 1873 200 1262 3013=
+2669 1358 2071 1553 332 1433 1245 198 1110 2328 1060 203
+1560 194?{last digit 9 (angular open bowl) or 7; 1949 preferred} 77 2 2274 2828_ 519 748 2467 3331 247 2016
+761_ 3109 2055 3407 1346 2692{final 2 with long dash through its foot} 3371{2nd digit open 3} 2381 3150 230 326
+2080 2122 1404 2050 3082 421 2407 1498 3029 271 2 40+1/2
+7 2334{1st digit faint incomplete 2} 1573 767 99 2175 3551 50 127 1084 2339 1466 1222
+2576 3393 1893 275{3rd digit 5 with closed top loop} 1487 2313 3131 715 2841 350 248 230
+1130 3191 1889 2025 1433 1981 2238 38_ 1055 932 3411 2071
+1820 2856 3297 73 24 2484_ 2984 96 224072398_{9 digits run together under one underline, no separators; best split 2 2407 2398; alt. 2240 7 2398} 1636 3069
+10+1/2 831 790 3312 2405 1229 875 1254 200 2695_ 2679 1508
+3407 1867 474 336 2479 3137 2712 916 1517 1008 1920 300
+1131 1110 1744={2 strokes under the first digit} 2539_ 313 868 2529 2 3600 58 3048 3316_ 2509
+528 3407 376 1534 580 1055 3145 230 1096_ 3222 450 340
+2?07{2nd digit 1 or crossbarless 4: 2107/2407} 500 2 1034 2165 2999 40+1/2 2217 2385 5 807 2327 524{at edge}
+2139 1487 1585 4478 1628 2005 3471 10 2312 2071 3171{dot below between 7 and 1} 1401{last digit partly in edge shadow}
+450 1242 2527 2086 3082 2485 3440 1138 841 1820 1000
+357 2831 3577 3072 114= 3294 3373 943 2484 297 3084 2351
+3015 1889 704 2067 3317 285 707 2385 3019 2403 1278 3138
+|| p2
+2 1597 5346 2692 258 2467 140 3167 230 4022 1517{3rd digit V-shaped, read 1} 413
+3426 165 301 3335 972 761_ 1918_ 1110 1+1/2 553 3193 931 413
+2105 728 660+1/2 2811 2176 3073 820 1076={2 strokes under the first digit} 2138 3475 1321= 150+1/2
+633 1433 180+1/2 928 2589 409 3072 326 2417 500 1828_ 3331
+1520 1116 2893 1487 50 3127 660= 2381 916 1222 1187 14 1626
+4797 5328 "à Berlin ce 28e Decemb: (Signé:)"

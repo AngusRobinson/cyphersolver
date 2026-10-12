@@ -1,0 +1,21 @@
+BLIND TEST of the King->Michell cabinet key v1 (data/key_cabinet_v1_frozen.tsv, 72 entries, built only from P1-P6 = Fagel 5177 scans 96-101;
+sha256 d6e71ab9...; frozen 2026-10-11) on the held-out letter R1957 (548 groups).
+Blind output written BEFORE looking at PC8 Nr. 5263: data/blind_R1957_key_cabinet_v1_frozen_20261011T210822.txt
+(and R1955: data/blind_R1955_key_cabinet_v1_frozen_20261011T205654.txt).
+
+Coverage: R1957 181/548 groups decoded (33.0%); R1955 10/360 (2.8%) -> R1955 is NOT in the cabinet code.
+
+Alignment-free test (scripts/lcs_test.py): longest common subsequence of the 168 decoded whole words with the 460 words of PC 5263
+= 123, versus 59 mean / 65 max for 500 shuffles of the same decoded words (p < 0.002); against 12 other PC letters to Michell the
+LCS equals the shuffle level (e.g. 28 vs 26.5). -> the blind decode reads PC 5263 in order.
+
+Per-group verdict against the post-hoc alignment (data/align_R1957_manual.tsv; anchors were set by concordance AFTER the blind run,
+so anchored confirmations are partly circular - the LCS test above is the unbiased statistic):
+  confirmed (value = aligned unit, incl. syllable/ending use)   150  (112 at anchors + 38 checked by hand in unanchored stretches)
+  partially right (value incomplete: 'le roi' for 'le roi de Sardaigne' x3, '-s' for s' x3, 'derni' for 'dernier', 'des' for 'de',
+                   'mort' for 'morte', 'd'' where cipher has d'Angleterre for concept 'de l'Angleterre')   ~11
+  contradicted                                                    6  -> two wrong v1 entries:
+        156 = 'de' (v1 grade A, mis-segmented evidence) is 'entre' (R1957 c33 'à Madrid entre les cours', c277 'entre|voir'; also D03/D07)
+        4366_ = 'Prince' (v1 grade C) is 'le' (R1957 c52, c280, c332, c367; D03 'par le traité', D25 'vous me le marquez')
+  undetermined (stretches where the alignment is uncertain)       ~14
+  => of the 72 v1 entries used, 70 held; 2 failed (both flagged weak or mis-segmented in P1-P6).
