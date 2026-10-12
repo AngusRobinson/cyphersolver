@@ -1,8 +1,8 @@
 # Nevers to Revol, Coire 9 October 1593, BnF fr. 3986 f. 157v (Gallica btv1b9060631k canvas 309), cipher no. 60, copy.
 # Four lines at the top of the verso (0.06-0.20 of page height), deskewed -1.5 deg, read at 2.4x on 17 Sept 2026.
 # Tags as in key60.txt; ? = uncertain glyph; | = fifth boundary in the crops G157_n_k.jpg.
-L1: [clear, faint] Cg v ∂ i x 4 ue T | φ x g 4 p j r v m ig E n oo | oo + x v h + 8 m ++ q T q u | d m r v a p x u y n b ro L | y ma b lo e
-L2: [clear: ... de ...] p oe v r p a n d w | w' v i y l A ∝ p r ++ y | y x x ++ h 24 x o+ ·:· 3 do | do pi r ı o k y A ++ q q 2 r | r o u n ſ i g
+L1: [clear, faint] Cg v ∂ i x 4 ue T | φ x g 4 p j r v m ig E n oo | oo + x v h + 8 m ⱶⱶ q T q u | d m r v a p x u y n b ro L | y ma b lo e
+L2: [clear: ... de ...] p oe v r p a n d w | w' v i y l A ∝ p r ⱶⱶ y | y x x ⱶⱶ h 24 x o+ ·:· 3 do | do pi r ı o k y A ⱶⱶ q q 2 r | r o u n ſ i g
 L3: [clear] ... ∂ r o w r Cg 2 | 2 ꝛ ꝑ ꝓ ı v ı y | k o ı ı i n w | w' G d ı o d 20 m ı ı d d ı m p o ıı | ıı b ı y f ꝑ ı ı ı k l ı n v | V r a ſ ı n ı ıı
 L4: [clear: ... Ce que ...] ∂ ı c t u r r 2 | e s l a ı ı r ı ı d 3 p a ıı | ı ı ſ ı m ꝓ ı ı r a ı ı q r ı ı ı h Cg ıı | H c g ıı 12 xx ıı E ∝ y v | v xx q c g l xx
 #
@@ -11,3 +11,4 @@ L4: [clear: ... Ce que ...] ∂ ı c t u r r 2 | e s l a ı ı r ı ı d 3 p a �
 # Status: transcribed, not read. The copyist runs symbols together (ue / ur / ıı / v ligatures) and uses cursive
 # forms that differ from the Court hand of the table; a glyph-level alignment against the crib letters in the
 # same copyist's hand (fr. 3986 f. 151, canvases 296-297) is the next step.
+# Re-tagged 12 Oct 2026 after issue #32: copyist ++ -> ⱶⱶ (u). The two 4 tokens of L1 were not re-checked (4 = x).

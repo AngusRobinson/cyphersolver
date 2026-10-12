@@ -1,0 +1,5 @@
+lexicon words (>=6 letters): 19312
+tokens: 86
+decode: i de ? f a d te la te o n s li s u o n Duc de Mantoue r b so a u o n a so f ? e re ? f n i luy de a b so l u t i o n du ? ? p s du fe Armes  l a fu f a tu to s u b so te p re te x a a e qu'il a o s f a te x u o m o
+observed longest word: 10 absolution
+shuffles >= observed: 0/5000; P = 0.00020

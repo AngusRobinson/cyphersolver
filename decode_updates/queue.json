@@ -9284,6 +9284,19 @@
      "sent": false
     }
    }
+  },
+  "nevers1593": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/nevers1593.html",
+   "key": {
+    "file": "targets/nevers1593/key60.txt",
+    "lang": "French",
+    "how": "Court symbol cipher no. 60 (BnF fr. 3995 ff. 109-111) transcribed from the images; corrected 12 Oct 2026 from issue #32 (tunarob), checked on the images"
+   },
+   "cite": "S. Tomokiyo, cryptiana henryiv2.htm (key no. 60); corrections by Robert Węglarek (GitHub issue #32, dbourdeau/cyphersolver)",
+   "fields": {},
+   "records": {},
+   "note": "No DECODE record for the Revol letters or key no. 60 is known yet (DECODE not searched). If a record exists for fr. 3995 ff. 108-111 or fr. 3985 f. 88, attach key60.txt with these corrections: b = o- (ring, tail right), tu = -o-; c 4th = flag on a stem; d = ‡ (one stem, two bars) and ·x; i adds hook+cross; o 5th = \\\\; m 4th = m with loop below; u 4th = 2+, 5th = ‡ with loop; table f. 111: loop-on-stem with one bar = u, n+ = p, 2+ = u/J, closed 4+ = bien. fr. 3985 f. 88r read in part: '... de absolution', le Roy, qu'il (transcription targets/nevers1593/f88/ct_3985_f88.txt).",
+   "sent": false
   }
  },
  "rechteren1785": {

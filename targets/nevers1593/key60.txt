@@ -42,9 +42,9 @@ OO assistance | ss ses | fm la | nre grand | per moy | pi que | pr qua | po pour
 G~ quelque | 3~ vi | g3 p | ro me | rp ma | roS celluy | ur e | tt' aultre | X~ r | s' en | ß n | t3 ci | t5 Bassompierre
 q~ pi | x_ Basle
 t ru | t6 que | g+ gu | 5+ g | f vollonte | n' ville | theta (crossed o) des
-++ (stem, two bars) u | q++ g | m++ Limosin | +++ moins
-a+ J | g+ / L+ L | 2+ p | 2+' u, J | u+ aussi | uu+ S(?) | F+ Nancy | Q+ Mr de Mercure | d+ i | V+ g | 8+ tous
-oo+ Le Roy | 3+ le grant Seig(neu)r | 4+ bien | w+ Les
+♀ (loop on stem, one bar) u | q++ g | m++ Limosin | +++ moins
+a+ J | g+ / L+ L | n+ (p-sign) p | 2+ u, J | u+ aussi | uu+ S(?) | F+ Nancy | Q+ Mr de Mercure | d+ i | ∩+ g | 8+ tous
+oo+ Le Roy | 3+ le grant Seig(neu)r | 4+b (closed 4 with cross) bien | w+ Les
 f++ qu'il | L++ 2++ y | O++ le Pape, sa S(ain)tete | ++C Mr de Maisse | ++O d'autant
 # Col. 2
 +C La S(igno)ria de Venize | +oo Mr de Sancy | +8 sans | +o le | +u J | +w aux | +w' les
@@ -56,7 +56,7 @@ sqrt u | X o | X+ se | X++ si | # ß | =/= d | ### Mr de Montmorency | #' L'Empe
 otto le Conte St Paul | II Mr le C(ardinal) de Bourbon | F+- ? | TL n | |- nous | + nre
 8~ Riviere | oo~ Mr de Monp(ensi)er | 8~' Religion | oo c | 8'' f | oto y | 8o' g
 # Col. 3
-o- tu | o-' ua | o- /-n b | o-'' fo | 8~~ p(a)r | d' r
+–o– tu | o-' ua | o– /-∩ b | o-'' fo | 8~~ p(a)r | d' r
 E re | 3 ri | m~ ro | w fu | cew La Marche | 3' Perigort | E' La Beausse | om Isle de France
 8~~~ Province | alpha Champagne | ↄ neantmoins | R D(uc) de Mantua | alpha' D(uc) de Savoye | ʊ Sr Alfonse d'Ornano | alpha'' co
 .:. Je | .: ra | :. na / bu | :.: Normandie | .|. mi
@@ -71,10 +71,12 @@ q' lu | v li | w j'ay | ae armee | w' vu | w'' avec | w''' aiant
 4+''' Provence | q+ village | Ho Brye | δ rencontre | 3'' gens de guerre | L2 cavallerie | δ' 5 | 8''' Rouen | 5 cuir(?)
 #
 # ================= ENCIPHERING SHEET, f. 109 (canvas 209) =================
-# Alphabet (22 columns, homophones read downwards): a  ∂ o o' x ·q | b  ꝝ(z~) oo(∞) 14 n~ | c  // ∠ oo ·x |
-# d  = ‡ .x. uij | e  f(ſ) ue x: x. 9 | f  g 8 > L | g  a+ H# h+ c+ | h  ξ z8 u uu+ | i  4+ (∩+) to ++ u+ |
-# l  5+(ꝗ) g+ cH t | m  t' ʃ ß ccc | n  ß fs T ⊥ | o  π x ᛉ Δ // | p  g3 v+ 10 7 | q  9+ ss A- 8+ | r  oe v /// x |
-# s  y 6 ſ r | t  2z(ꝛ) y8(ɤ) La .xx. | u  v' ll 20 4 ‡| | x  4 17 29 30 | y  c c‡ 2‡ oto | z  q- ± F- y~
+# Alphabet (22 columns, homophones read downwards; corrected 12 Oct 2026, see the issue #32 block below):
+# a  o o' x ∂ ·q | b  o–(ring, tail right) ∞(oo) 14 ∩(n~) | c  // ∠ oo flag-on-stem(c~) |
+# d  = ‡(one stem, two bars) .x. ·uij | e  f(ſ) ue x: x. 9 | f  g 8 > L | g  a+ H# h+ c+ | h  ξ z8 u uu+ |
+# i  4+(open 4) d+(hook+cross) to ++ u+ | l  ſ+ g+ cH t | m  t' ʃ ß ɱ | n  ß fs T ⊥ | o  π x Δ|(triangle on stem) Δ \ |
+# p  g3 v+ 10 7 | q  9+ ss A- 8+ | r  oe v /// x | s  y 6 ſ r | t  2z(ꝛ) y8(ɤ) La .xx. |
+# u  v' ll 20 2+(bowed 2) ‡o(‡ with loop) | x  4(closed 4) 17 29 30 | y  c c‡ 2‡ oto | z  q- ± F- y~
 # Nulls: ſo .:. -oo 4‡ g# ‡ | Doubling row ("chacun ... vaut le precedent double") | Syllabary ba..vu (see decode60.py)
 # Persons/places on the sheet agree with the deciphering table above.
 #
@@ -94,3 +96,24 @@ q' lu | v li | w j'ay | ae armee | w' vu | w'' avec | w''' aiant
 # L7  "pour vous en quitt[er] m[e]..." ; "vous" = +7 ; "respondre" = ꝑ ꝺo π 24 ıı 1 8 E ; "en" = 1(?) ; "quitter" = ...
 # L8  "cadmuau lauig..." ; "et cauin" ; "de meurer" = λ 20 8 ꝺo ıı 2+ 1 ꝯ ꝯ ꝺo E y T ;  "for(t)" = y T 8 -o ꝺo 8 ; "ri" = ꝛ π 1
 #  -> confirmed cursive forms: 8=t, ꝺo=r, do=r, 20=u, π=o, T=n, ⊥=n, //=c, ∝=co, E=re, ꝑ(p-loop)=so, 2+=i/p, 1=n?/ba, 24=l(?), ıı/ue=e?, 4=i, y=s, λ=la, ∂=a, ꝯ=?, 6=s/di
+
+# ===== CORRECTIONS, issue #32 (tunarob = Robert Węglarek, 12 Oct 2026), checked by us on the full-resolution
+# IIIF images of fr. 3995 f. 109 and f. 111 (openapi.bnf.fr v3, canvases 209/213) =====
+# Adopted (10 of 12 numbered claims):
+#  1 b's first homophone is o– (ring, tail right); tu is –o– (strokes both sides); fo is –o. Old tags gave tu for b.
+#  2 c's fourth homophone is a flag on a stem (tag c~); ·x belongs only to d.
+#  3 i has five homophones: 4+ (open 4), d+ (hook with cross), to, ++, u+.
+#  4 o: fourth sign is Δ| (triangle on a stem, formerly "ᛉ"), fifth is \ (not //, which is c).
+#  5 m: fourth homophone is ɱ (m with loop below), not ccc.
+#  6 u: fourth homophone is 2+ (bowed 2 with cross), not 4.
+#  8 ‡ (one stem, two bars) = d; ‡o (the same with a loop) = u. Old decoder had ‡| = d.
+# 11 Mr de Longueville is one sign (8 with a cross above; tag 8++ kept).
+# 13 ♀ (loop on stem, one bar) = u on f. 111 (formerly "++ u"); X with two strokes = se, three = si (tags X+/X++ kept).
+# 14 ∩+ = g (formerly V+); o–o = c; o+o = y (tag oto kept); ıı = o (tag \ kept).
+# Tag split (the old tags 4 and 2+ each covered two shapes):
+#   ſ+ = l (sheet l, first) | 4+ = i (open 4, sheet i, first) | 4+b = bien (closed 4 with cross, f. 111)
+#   4 = x (closed 4, sheet x) | 2+ = u, J (sheet u fourth; f. 111 "u, J") | n+ = p (the p-sign, f. 111 col. 1)
+# Not adopted: be stays d (f. 109 shows a slanted uncial d, not a long-tailed y); the f. 111 compounds f++, L++ 2++,
+#   O++, ++C, ++O keep ++ (two stems, ONE crossbar at 2x full resolution; the two-bar # is a separate sign = J/ß).
+# Open (contributor's questions, f. 110v not re-checked): col. 3 row shift (ꝺx' = d, ff = q, ll = g), Δ+ vs 4++,
+#   iij, ꝫ, ƀ, 7 with stroke, ƛ; order of the a homophones; first z homophone.

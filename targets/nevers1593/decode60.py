@@ -3,37 +3,40 @@ Nevers, Aug 1593 - May 1594.  Input: a ct_*.txt transcription in the glyph tags 
 '|' ignored, [clear: ...] passed through).  Output: token-by-token decode with '?' for unknown tags.
 
 The table below is the deciphering table of ff. 110v-111 plus the cursive values confirmed from the interlined
-crib (fr. 3986 f. 151).  Tags are ASCII/Unicode stand-ins; see key60.txt for what each denotes.
+crib (fr. 3986 f. 151).
+Corrected 12 Oct 2026 from issue #32 (tunarob), checked on the images: see the issue #32 block in
+key60.txt. Old ASCII tag o- still decodes tu; b is o– (en dash). Tags: 4 = x, ſ+ = l, 4+ = i, 4+b = bien,
+2+ = u|i (sheet u; table "u, J"), n+ = p, ‡ = d, ‡o = u, ++ = i (sheet), ⱶⱶ = u (copyist form, atlas60.md).  Tags are ASCII/Unicode stand-ins; see key60.txt for what each denotes.
 """
 import re, sys
 
 KEY = {
     # alphabet (enciphering sheet, homophones) -- cursive values in the letters
     '∂':'a','o':'a','x':'a','·q':'a','o\'':'a',
-    'ꝝ':'b','oo':'b','14':'b','n~':'b',
-    '//':'c','∠':'c','·x':'c',
-    '=':'d','‡|':'d','.x.':'d','uij':'d',
+    'o–':'b','∞':'b','oo':'b','14':'b','n~':'b','∩':'b',
+    '//':'c','∠':'c','c~':'c','o–o':'c',
+    '=':'d','‡':'d','.x.':'d','·x':'d','uij':'d',
     'f':'e','ue':'e','ur':'e','x:':'e','x.':'e','9':'e',
     'g':'de','8':'t','>':'f','L':'f',
-    'a+':'g','H#':'g','h+':'g','c+':'g','5+':'g','g+':'gu','q++':'g','V+':'g','8o\'':'g',
+    'a+':'g','H#':'g','h+':'g','c+':'g','5+':'g','g+':'gu','q++':'g','∩+':'g','V+':'g','8o\'':'g',
     'ξ':'h','z8':'h','uu+':'h',
-    '4+':'bien','to':'i','++':'u','u+':'aussi','‡':'i','d+':'i','2+':'p','2+\'':'u',
-    'ꝗ':'l','cH':'l','t':'ru','p~':'l',
-    't\'':'m','ʃ':'m','ß':'n','ccc':'m','m':'m','ſ':'m','A':'m',
+    '4+':'i','4+b':'bien','to':'i','++':'i','ⱶⱶ':'u','♀':'u','u+':'aussi','d+':'i','2+':'u|i','n+':'p',
+    'ſ+':'l','ꝗ':'l','cH':'l','t':'ru','p~':'l',
+    't\'':'m','ʃ':'m','ß':'n','ɱ':'m','m':'m','ſ':'m','A':'m',
     'fs':'n','T':'n','⊥':'n','s':'n','TL':'n','1':'n',
-    'π':'o','ᛉ':'o','Δ':'o','X':'o','\\\\':'o',
+    'π':'o','Δ|':'o','ᛉ':'o','Δ':'o','X':'o','\\\\':'o',
     'g3':'p','v+':'p','10':'p','7':'p',
     '9+':'q','A-':'q','8+':'tous',
     'oe':'r','v':'li','///':'r','X~':'r','d\'':'r','do':'r','ꝺo':'r','ꝺ':'r',
     'y':'s','6':'di','r':'s','b':'s','c':'s',
     '2z':'t','ꝛ':'luy','ɤ':'t','La':'t','.xx.':'t','xx':'t',
-    'v\'':'u','ll':'bon','20':'u','4':'x','sqrt':'u',
+    'v\'':'u','‡o':'u','ll':'bon','20':'u','4':'x','sqrt':'u',
     '17':'x','29':'x','30':'x',
     'c‡':'y','2‡':'y','oto':'y','L++':'y','2++':'y','C':'y',
     'q-':'z','±':'z','F-':'z','y~':'z','3':'ri',
     # syllabary / figures
     'ai':'bi','d':'be','η':'bo',':.':'na','φ':'ca','18':'ce','t3':'ci','∝':'co','l':'cu','p':'da','de':'de',
-    '12':'du','91':'fa','16':'fe','Lo':'fi','o-\'\'':'fo','w':'fu','λ':'la','+o':'le','o-':'tu','V':'lo','q\'':'lu',
+    '12':'du','91':'fa','16':'fe','Lo':'fi','o-\'\'':'fo','w':'fu','λ':'la','+o':'le','–o–':'tu','o-':'tu','–o':'fo','V':'lo','q\'':'lu',
     'rp':'ma','ro':'me','.|.':'mi','aj':'mo','ct':'mu','x~':'ne','50':'ni','52':'no','53':'nu','54':'pa','42':'pe',
     'q~':'pi','tt':'po','13':'pu','pr':'qua','pi':'que','L40':'qui','.:':'ra','E':'re','m~':'ro','ae':'armee',
     '2':'sa','X+':'se','X++':'si','Q':'so','ꝑ':'so','C~':'su','Δ\'\'\'':'ta','q':'te','e':'to','o-\'':'ua',

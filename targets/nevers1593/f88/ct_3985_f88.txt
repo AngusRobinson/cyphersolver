@@ -1,0 +1,21 @@
+# Nevers to Revol, 21 August 1593, BnF fr. 3985 f. 88r-v (Gallica btv1b90606498 views 176-177), cipher no. 60, copy.
+# Transcription by tunarob (Robert Węglarek), GitHub issue #32, 12 Oct 2026, from his PDF appendix
+# (f. 88r version 3, f. 88v version 5). LLM-assisted (Claude Code); not checked by a palaeographer.
+# We re-checked R5 and R6 on the full-resolution image (openapi.bnf.fr IIIF v3): R5 reads as below; in R6 the
+# contributor's "f ++" is one compound f++ (qu'il) on the image. Variants {a|b}: first variant used by the control.
+# "/" = clear/cipher boundary; ? = uncertain sign. Tags as in key60.txt (o– = b, ſ+ = l, 4 = x, 2+ = u|i).
+R3: [clear: ... a cest effect sur] to g ı L x ‡ q λ q π ⊥ y v r 2+ Δ? T R? ꝺ o– Ⱡ ∂ ⱶⱶ ıı
+R4: T ∂ ꝑ L σ f E ꝶ L T [clear: deu... to end of line]
+R5: [clear: ...rant] to oꝛ? g ∂ o– Ⱡ ſ+ 20 8 ++ π ⊥ [clear: un ...]
+R6: 12 –Δ (m 7 c 12 {16|ı 6} F oo+ {ſ+|4+} o w L x –o– e y 2+ ∞ ꝑ q {10|ı o} E q 4 x x ur f++ ∂ π c L x q {30|3 o} 11 Δ ſ ıı
+V1: [clear: ... marquis de Pisany qui me dit] [clear?: C ꝑ luy] + q L π T 8 ur + p o ++ Ⱡ x ꝛ pı v– q T 2+ λ ŋ y Δ‡ ++ r x x 2+ Δ ⊥ ϕ d+ ∂ 7 8
+V2: π o– o L ꝑ ++ X⨳ ⊥ 2 2+ η 2+ ‡ ∂ 8 ++ 4 T f++ x' X⫻ ſ̃ {est|e s t} X ℓ x g T q ıı ꝑ /// {r|ꝛ} [clear: sachant? ...]
+V3: [clear: ... pour C] [clear?: ꝑ ſ L a b t i ŋ] + X⨳ n ⊥ y ꝺ o o X ++ q λ [clear: depuis]
+V4: [clear: ... appres? C] Δ‡ h3 o ++ c X⨳ oto x x ꝸ Ⱡ x m y λ g g 20 y b ꝫ
+V5: T ◇ c p ıı ro ſ q {r|ꝛ} λ + ɱ {14|1 4} ꝯm f [clear: Je ...]
+#
+# Readings (manual; R5 checked by the shuffle control in shuffle_control.py):
+#   R5  g ∂ o– Ⱡ ſ+ 20 8 ++ π ⊥ = de a b so l u t i o n -> "... de absolution" (read in part, confirmed)
+#   R6  oo+ = le Roy (f. 111 col. 1); f++ = qu'il. The rest of R6 does not read.
+#   R3-R4 "absolusion" across the line break: candidate only. Tomokiyo's "conversion" (R3) needs q = c; key gives q = te.
+#   f. 88v: 116 units transcribed, no reading under key no. 60 (contributor's tests with keys 60, 65, 66, 76).

@@ -10,18 +10,21 @@
 # Tags as in key60.txt; [clear: ...] for plaintext words; ? = uncertain glyph; | = quarter boundary in the crops.
 #
 L1: [clear ... lay] oe p~ p w | |- 2 y r A+ | A+‡ p~ E p+ ∂ c g X++ 9 ꝝ
-L2: + g λ 14 ꝑ 4 20 xx ‡ π ⊥ | n pi ∂ .:. ı. yx m | x m 8 s g ll o- q n *** ꝑ 4+ T ɤ | ɤ X++ θ7 ro u r Q+ ꝑ V ıı m
-L3: ꝑ ro ⊥ = ꝑ æ g+ oo y V(inv) | u+ p ıı ⊥ h L++ g p f++ ꝝ ∂ L | ∂ Lx |- ++ 3 π ⊥ r n ∂ λ y 3 q | X++ y .|. ſ e c m o ᶻ
+L2: + g λ 14 ꝑ ſ+ 20 xx ‡ π ⊥ | n pi ∂ .:. ı. yx m | x m 8 s g ll o- q n *** ꝑ 4+b T ɤ | ɤ X++ θ7 ro u r Q+ ꝑ V ıı m
+L3: ꝑ ro ⊥ = ꝑ æ g+ oo y V(inv) | u+ p ıı ⊥ h L++ g p f++ ꝝ ∂ L | ∂ Lx |- ⱶⱶ 3 π ⊥ r n ∂ λ y 3 q | X++ y .|. ſ e c m o ᶻ
 L4: V(inv)+ ro g Lo s ᵘ x x x ∝ ‡ 12 m ᵛ | 2+ T q E c T pi ɤ x | ɤ xxx ı ur 8 4 4 o+ q 2+ v r [clear: Monsieur]
 L5: [clear: De ...] 7 ııı π ıı 20 v ∂ ꝑ X++ T [clear: qui n'est pourtant ...]
 L6: [clear line; ends "de tout ay peu(?)"]
 L7: [clear: ... afin de ... ]
-L8: ꝑ ꝑ ıı 1 ++ > q ∂e n x x iij 14 v ıı ll L4 ꝑ e T
-L9: xx d m 7 X g o F o++ [clear: et estant] G r Q q m ++ p L ıı ... 4 ur ıı y f L e T y p y [clear: ... a part ... avec ...]
+L8: ꝑ ꝑ ıı 1 ⱶⱶ > q ∂e n x x iij 14 v ıı ll L4 ꝑ e T
+L9: xx d m 7 X g o F o++ [clear: et estant] G r Q q m ⱶⱶ p L ıı ... 4 ur ıı y f L e T y p y [clear: ... a part ... avec ...]
 #
 # Readings (17 Sept 2026):
-#   L2 λ 14 ꝑ 4 20 xx ‡ π ⊥ = la b so l u t i o n -> "l'absolution" (Tomokiyo: "demander l'absolution")
+#   L2 λ 14 ꝑ ſ+ 20 xx ‡ π ⊥ = la b so l u t ? o n (‡ is d on the sheet; read i here by context) -> "l'absolution" (Tomokiyo: "demander l'absolution")
 #   L3 ∂ λ y 3 q = a la ve ri te -> "a la verite" (Tomokiyo)
 #   L4 2+ T q E c T = i n te re s n/t -> "interest" (Tomokiyo)
-#   L3 f++ = qu'il ; L2/L4 4+ = bien ; L2 n = et ; L2 pi = que
+#   L3 f++ = qu'il ; L2 4+b = bien ; L2 n = et ; L2 pi = que
 # The rest is transcribed but not yet read; see NOTES.md.
+# Re-tagged 12 Oct 2026 after issue #32 (tunarob): the old tag 4 in "l'absolution" is the sheet's ſ+ (l); the
+# "bien" sign is 4+b (closed 4); the copyist's ++ is tagged ⱶⱶ (= u, atlas60.md) because the sheet's ++ is i.
+# Other 4 / 2+ tokens were not re-checked on canvas 287 and keep their tags (4 = x, 2+ = u|i).

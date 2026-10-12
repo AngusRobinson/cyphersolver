@@ -113,7 +113,7 @@ did not resolve them. They are the next pass, with the Gondi decipherment as the
 
 ## Files
 
-`key46.txt` (the table), `decode46.py` (decoder; conventions in its docstring), `segscore.py` (lexicon scorer for
+`f88/` (issue #32 transcription of f. 88r-v and shuffle control), `key46.txt` (the table), `decode46.py` (decoder; conventions in its docstring), `segscore.py` (lexicon scorer for
 alternative segmentations), `ct_3985_f209.txt`, `ct_3986_f168.txt` (transcriptions), `decode_f209.txt`,
 `decode_f168.txt` (decoder output). Page crops for the write-up in `docs/nevers1593_*.jpg`.
 
@@ -168,10 +168,40 @@ alternative segmentations), `ct_3985_f209.txt`, `ct_3986_f168.txt` (transcriptio
   shows a clean run `++ p (perp) u r u y S f (perp) -e T y p` consistent with the atlas (y=s, T=n, ++=u);
   full alignment of the nine lines against atlas60.md is the remaining work of the next pass.
 
+## Issue #32 (tunarob), 12 October 2026: key no. 60 corrections and f. 88r
+
+Robert Węglarek (GitHub tunarob) sent corrections to `key60.txt`, a tag split, and a transcription and partial
+reading of fr. 3985 f. 88r-v (Nevers to Revol, 21 Aug 1593), made with LLM help (Claude Code) and not checked by a
+palaeographer. We checked every claim on the full-resolution IIIF images (fr. 3995 canvases 209 and 212-213, fr. 3985
+canvases 176-177, fr. 3986 canvas 296; Gallica's `/iiif/` route returned Cloudflare 403, `openapi.bnf.fr/iiif/image/v3/`
+worked).
+
+* Key no. 60, 10 of 12 numbered corrections confirmed and adopted (block at the end of `key60.txt`): b's first
+  homophone is o- (ring, tail right), not ꝝ, and tu is -o- (our tags gave tu for b); c's fourth is a flag on a stem
+  (·x is d only); i has five homophones incl. a hook+cross; o's fifth is \\ not //; m's fourth is ɱ not ccc; u's fourth
+  is 2+ not 4; ‡ (one stem, two bars) = d and ‡ with a loop = u; ♀ = u on f. 111; ∩+ = g; o-o = c; o+o = y.
+  Rejected: be is a slanted uncial d (kept); the f. 111 compounds f++, O++, ++C, ++O have two stems and ONE bar (kept ++).
+* Tag split adopted: ſ+ = l, 4+ = i (open 4), 4+b = bien (closed 4 with cross, f. 111), 4 = x (closed 4), 2+ = u or J
+  (f. 111 glosses it "u, J", so it can carry i, as on f. 151), n+ = p (the p-sign that was mis-tagged 2+).
+* Re-tag of the old transcriptions: f. 146v "l'absolution" now has ſ+ for l (was 4 = x); "bien" is 4+b; the copyist's
+  ++ is tagged ⱶⱶ (= u, atlas60.md) because the sheet's ++ is i. Unresolved tokens after the re-decode: f. 146v 29/204
+  (was 27; ꝝ no longer has a value), f. 157v 68/226 (unchanged). Neither page reads further.
+* fr. 3986 f. 151: the contributor's ~40 agreeing sign types fit our own crib of ~30; not re-aligned here.
+* f. 88r (`f88/ct_3985_f88.txt`): R5 `g ∂ o- Ⱡ ſ+ 20 8 ++ π ⊥` = **de absolution**, checked on the image; it reads only
+  with the corrected b. R6 has oo+ = **le Roy** and the compound f++ = **qu'il** (the contributor split it as f ++).
+  Shuffle control (`f88/shuffle_control.py`, result file beside it): the 86 cipher tokens of R3-R6 give a 10-letter
+  lexicon word; 0 of 5000 token shuffles reach 10 (P = 0.0002). The contributor's global test (P = 0.065) diluted this
+  local anchor. R3-R4 "absolusion" is a candidate only; Tomokiyo's "conversion" in R3 needs q = c and the key gives
+  q = te, so it is not supported.
+* f. 88v: 116 units transcribed by the contributor; no reading under key no. 60 (he also tried keys 65, 66, 76).
+  Not re-checked symbol by symbol here.
+
 ## Remaining gaps
 - fr. 3986 f. 146v, Revol 7 Oct 1593 (nine cipher lines, key no. 60) - blocker: illegible; transcribed at 2.4-3.2x but copyist's cursive forms map to two or three table entries; atlas pass started, not finished
 - fr. 3986 f. 157v, Revol 9 Oct 1593 - blocker: illegible; faded; clear cursive and cipher run together, cipher extent not yet segmented
-- fr. 3985 f. 88 (21 Aug), f. 115 (27 Aug, one line), f. 176 (2 Sept, no. 88/94), fr. 3986 f. 198 (23 Oct, no. 101) - blocker: not-attempted; located and cut but never transcribed; key no. 60 is fully in hand
+- fr. 3985 f. 88r (21 Aug) - read in part (de absolution, le Roy, qu'il); rest of R3-R6 - blocker: illegible; bitonal microfilm copy in the copyist's cursive, the contributor's transcription has variant readings at about one sign in six and no colour scan exists
+- fr. 3985 f. 88v (21 Aug) - blocker: not-attempted; transcribed by the contributor (116 units, issue #32), no reading under key no. 60; not re-transcribed here
+- fr. 3985 f. 115 (27 Aug, one line), f. 176 (2 Sept, no. 88/94), fr. 3986 f. 198 (23 Oct, no. 101) - blocker: not-attempted; located and cut but never transcribed; key no. 60 is fully in hand
 - fr. 3986 no. 68 (Vese 7 Oct) - blocker: not-attempted; not located on the image (downloader throttled); Tomokiyo list gives candidates
 - fr. 3986 f. 168, Pisany 14 Oct, garbled stretches of lines 2-8 - blocker: illegible; microfilm copy, 1/7, 0/8, 3/5 confusable; segscore.py did not resolve them
 
@@ -180,5 +210,5 @@ alternative segmentations), `ct_3985_f209.txt`, `ct_3986_f168.txt` (transcriptio
 - [x] clear-pages: interlined Instruction of 31 Aug (fr. 3985 c. 264-268) and f. 151 found; f. 115 found to be clear
 - [x] known-keys: Tomokiyo nos. 46 and 60 (fr. 3995 ff. 87, 108-111) transcribed and applied
 - [x] print: Memoires de Nevers ii (Gallica bpt6k64451005) Instruction pp. 492-499; Tomokiyo henryiv2.htm
-- [ ] key-rebuild: not done — build the copyist glyph atlas from the interlined Instruction (c. 264-268) aligned to the print, then map the cursive variants of key no. 60
-- [ ] retry: not done — re-transcribe f. 146v, f. 157v and ff. 88, 176, 198 with the atlas and decode60.py; rerun f. 168 garbled lines with Gondi habits
+- [x] key-rebuild: key no. 60 re-checked on the images after issue #32 (12 Oct 2026): 10 corrections adopted, tags 4/2+ split; the copyist glyph atlas from the Instruction (c. 264-268) is still to finish
+- [x] retry: f. 146v and f. 157v re-tagged and re-decoded with the corrected key (no gain); f. 88r decoded from the contributor's transcription, de absolution + le Roy + qu'il, shuffle-controlled (12 Oct 2026); ff. 176, 198 and the f. 168 garbled lines still to do
