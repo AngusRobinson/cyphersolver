@@ -32,9 +32,13 @@ code (韻目代日), the code matches the date on the form every time: 有 25, �
 箇 21, 漾 23.
 
 Transcriptions, emendations and every unread group are in `transcripts_A.md` … `transcripts_D.md` (frames by
-batch). The copying clerks' errors are consistent: g↔q (by far the commonest), then x↔d/s, h↔k↔n, e↔c, a↔o and
-dropped pairs. Each emendation is a single letter, justified by sense and usually by a clean second occurrence of
-the same group.
+batch). The one-letter emendations are of a few kinds: g↔q (by far the commonest), then x↔d/s, h↔k↔n, e↔c, a↔o,
+and dropped pairs. Each is justified by sense and usually by a clean second occurrence of the same group. **These
+were first put down to the copying clerks. Most are our own misreadings of the forms** (Brice Dudout, 12 Oct 2026;
+see the end of this file). This copyist's q has its loop on the right and his g on the left. Of the 47 transcribed g
+Dudout checked, 30 are q on the form, and none goes the other way. Of our 21 emendations, 19 are already correct on
+the form; only 請 (4 Apr) and 傷 (19 May) are 1916 copying errors. The transcripts below still carry the old letters
+until his list is checked here.
 
 ## Selected plaintexts
 
@@ -131,10 +135,16 @@ not from his files. The frame offsets are 089900 → 0329, 090000 → 0388, 0901
   0577 5714 6386 4453 2588 2608 2107 3329 0135 2960 = 十號起程月末抵滇伸歌. The sender's address field on both forms
   reads **青山南町四ノ二一 関方 趙伸**, which identifies 伸 as Zhao Shen, care of Seki, directly on the form. Frame 0388
   has a kana delivery form to アヲヤマミナミマチ セキマサヲ.
+  **Corrected 12 Oct 2026:** the form has `gyrobatapo`, as Dudout reads it. The fifth letter has the same shape as
+  the b of `fobawahavo` on the same line, so 十 needs no emendation and all 9 codes are exact. `gyrotatapo` was our misreading.
 * **0416b**, 19 Jul 1916, Tokyo → 6511 0523 7108 5128 1989 (軍務院肇慶) Canton, 16 words. It begins with the clear
   2429 1378 文密, followed by `fazihipego wezelucuna hamodarodo vorokesiya rodugoluro xoxotuhica hematemiba
   giheyuxifa`. G0 gives 報傳取消日人態度遽變[確]否速示俾便行檄 伸 [皓], with two one-letter emendations: x→r
   (4315 確) and i→e (4110 皓). 皓 is the rhyme-day code for the 19th, which matches the form's date.
+  **Corrected 12 Oct 2026:** the form has `xodugoluro`. Its first letter has the same shape as both x of `xoxotuhica`,
+  so 確 is as written. The form also has `qiheyuxifa`, which gives 俾便行止 (2972 止) rather than 行檄 (2907 檄). At this scan's
+  resolution the clerk's g and q loops cannot be told apart. 止 is settled by the twin 0416a: transcribed here and decoded in Y0
+  with no emendation, it ends with the same phrase (see below). The only emendation left is i→e for 皓, which Dudout makes too.
 * **The correction.** The six-vowel telegram on the same frame, 0416a to 0022 5478 2450 1032 中華新報 Shanghai, opens
   with the clear 6567 2429 5028 6567 3329 4206 = 轉文羣轉滇督, then `Cg`. So 文密 is the prefix of the G0 channel. We had
   attached it to the six-vowel system and lumped the two together. `../y1917/fam6.py` could not have found either grid,
@@ -143,8 +153,42 @@ not from his files. The frame offsets are 089900 → 0329, 090000 → 0388, 0901
 * **Possible slip in his 0406:** 誕意 is probably 誠意. In G0, 6130 and 6134 differ by za/zu.
 
 We adopt none of his readings as our own. The site page (`docs/sunintercepts.html`, section 07) credits him and shows
-only the two telegrams checked here. If his readings are used beyond that, `outcome.method` for that part is "read
-from existing decipherment", found 11 Oct 2026.
+only the three telegrams checked here (0489a, 0416b, 0416a). Those are his grids applied to our own transcriptions, so
+for that part `outcome.method` is "read from existing decipherment", found 11 Oct 2026.
+
+## Dudout's second email (12 Oct 2026): corrections to our transcriptions
+
+He compared his blind readings with ours and re-read our March–May 1916 condenser transcriptions on the JACAR scans.
+What he reports, and what was checked here the same day on our own PDFs:
+
+* **0489a b, not t; 0416b x, not r, and q, not g.** All three are confirmed on the forms (see above).
+* **0416a**, 19 Jul 1916, to 0022 5478 2450 1032 中華新報 Shanghai, 24 words. Transcribed here from the form:
+  `6567 2429 5028 6567 3329 4206 Cg kohamyxihe mypebohope dasirawobe nidolyduki bovaradysy didanykexu hypesipysa
+  zorolimefi daxusameme pebogibuwa puwihatybu kyladu`. Y0, no emendation:
+  3329 4792 2847 5502 2655 0668 6586 0451 0936 1032 0278 6511 7108 0648 3194 2455 6859 6698 6239 4315 0694 6643 4355
+  0220 0189 5887 2972 0135 4110 = 滇索槍萬枝可辦到因報傳軍院取消方針遽變確否速示俾便行止伸皓. The clear prefix is 轉文羣轉滇督
+  ("forward to 文羣, forward to the Yunnan governor"). The text: Yunnan's request for 10,000 rifles can be met, but on the
+  report that the 軍務院 is to be dissolved the line has suddenly changed; is it so? Advise at once, so that I can decide
+  whether to go ahead. — Shen, the 19th.
+* **3 Apr 1916, Shanghai → Rosamonda** (088300 fr. 0489–0490, `transcripts_B.md` "fr 48 + fr 49 top"). Our transcript
+  left out a whole word, the first on line 6 of the second sheet (fr. 0489). It is `jobusosuji` and stands before
+  `vablegozego`. Confirmed on the form. With it restored and `vablegozego` taken as `valegozego`, there are 34 words. That
+  fits the 36 on the form, counting the address. The tail reads
+  …更趨哀蘧已澈查局非誣騙唯近有抽調皤息至爲可慮擬兄進 (shanghai1916, `famtest.best`). Our transcript had
+  33 words and guessed at a missing pair.
+* **28 characters** corrected in our 1916 transcriptions, mostly g→q. 12 of our bracketed suggestions are confirmed on
+  the scans. Of 21 applied emendations, 19 are already right on the form; the 1916 errors are 請 (4 Apr) and 傷 (19 May).
+  **Not yet checked here item by item:** we need his list (telegram, word, letter).
+* **Destinations of G0:** 0406 goes to 中華新報 Shanghai (轉文羣), not to the 軍務院. After the dissolution, 0455b
+  (13 Sept) goes to 岑都司令 and 0462 (30 Sept) to 都司令部, with 李印泉 (Li Genyuan) in clear. 文密 is on all his G0
+  forms except 0386 and 0462.
+* **Cg** is in clear and counted in the word count (0489a = 4 + Cg + 4 = 9). It heads most Y0 forms (0413, 0416a, 0449,
+  0489a …) and no G0 form. Its meaning is unknown.
+* **0406 誠意:** he agrees; it was already in his proposed reading.
+* **June 1917:** his negative search and the 0511b shift observation are in `../y1917/NOTES.md`.
+
+The g/q pattern is a transcription failure on our side, made by the model reading the scans. It belongs in the profile's
+solution steps for the paper.
 
 ## Files
 

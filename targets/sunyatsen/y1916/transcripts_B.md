@@ -233,6 +233,11 @@ Corrections: `xise`→`xixe` gives 款, and `suge`→`suqe` gives 及.
 
 ## fr 48 + fr 49 top: Shanghai → Rosamonda Tokio, 3 Apr 1916 (papers 37, 38, 39)
 Received. No. 0118, 36 words, 3/4/1916 6.37 pm, received 11.5 pm.
+
+**Correction, 12 Oct 2026 (Brice Dudout; confirmed on the form).** The transcription below lists 33 cipher words and
+leaves out the first word of line 6 of paper 38 (JACAR fr. 0489), **jobusosuji**, which stands before vablegozego.
+Restored, with vablegozego taken as valegozego, the tail reads 已澈查局非誣騙唯近有抽調皤息至爲可慮擬兄進 at the
+right alignment; there is no "missing pair". Dudout's other corrections to this batch (mostly g→q) are not applied yet.
 **Paper 39 (fr 49 top) continues this message with 2 more words**, making 34 cipher words + 2 = 36. That matches the word count.
 
 Corrected transcription:

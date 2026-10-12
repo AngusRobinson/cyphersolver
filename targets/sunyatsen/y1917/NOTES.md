@@ -43,22 +43,29 @@ part in finding the key, read in it at once — the strongest confirmation. The 
 
 ## Plaintexts
 
-Conventions: □ = unread; *emendations* are single letters, all of kinds this copying clerk demonstrably makes
-(g↔q, k↔h, e↔c, a dropped letter), each justified by sense *and* by a clean reading of a second occurrence.
+Conventions: □ = unread; *emendations* are single letters (g↔q, k↔h, e↔c, a dropped letter), each justified by sense
+*and* by a clean reading of a second occurrence. These were first put down to the copying clerk.
+**12 Oct 2026:** after Brice Dudout showed that most of the 1916 emendations were our misreadings (`../y1916/NOTES.md`,
+end), three of these forms were looked at again. On 26 March the form has *Qeta* (capital Q) and *zahu* (h), and on
+25 March the *z* of *zubo* has the clerk's x shape. So those emendations were our misreadings too. On 23 March our
+transcription had **left out two whole words** (below). The other emendations have not been checked again on the images.
 
 ### 23 March 1917, Sun → Dai (frame 0504)
 
 Read from the sheet (the JACAR metadata transcription has ~15 letters wrong):
 
 ```
-Naroxoziji Kojipanejo facorabixa pixaqaqe eianakerele befacoyohi tebovocega Kalamanaro rugoqasuxe
-bixaziqaso yusoxozipa bujihoceno poqiqaforu qocaxoqasu xebiqabiqo mujuvamako qabokezaka cagexuxala
-banegerapo qixapfete  Sunwen
+Naroxoziji Kojipanejo facorabixa pixaqaqe macorarala veyurojiji eianakerele befacoyohi tebovocega
+Kalamanaro rugoqasuxe bixaziqaso yusoxozipa bujihoceno poqiqaforu qocaxoqasu xebiqabiqo mujuvamako
+qabokezaka cagexuxala banegerapo qixapfete  Sunwen
 ```
 
-> 前電云三日後商妥□□□□□後音。此間必俟前約取消，始可致電北京照辦。各約已取消否？速覆。公司抄件瑞士尚未辦妥。文
+(22 code words, as the form's count requires. Until 12 Oct 2026 this transcription lacked *macorarala veyurojiji*, the
+second half of line 2.)
 
-"My previous telegram said that after three days [the matter] would be settled by agreement … [further] word. Here we
+> 前電云三日後商妥□□□□□□□□□接後音。此間必俟前約取消，始可致電北京照辦。各約已取消否？速覆。公司抄件瑞士尚未辦妥。文
+
+"My previous telegram said that after three days [the matter] would be settled by agreement … received further word. Here we
 must wait until the former contract is cancelled before we can wire Peking to act accordingly. Have the contracts all
 been cancelled? Reply at once. The company copy … [瑞士?] not yet settled. — Wen."
 
@@ -68,11 +75,14 @@ been cancelled? Reply at once. The company copy … [瑞士?] not yet settled. �
   the least certain of the emendations (the unemended 瑣士 means nothing either).
 * 辦妥。文: the last word, *qixapfete*, has nine letters and must have ten; *qixa pi ne te* gives 辦妥 + **文** (2429),
   Sun's own signature character, which also closes the 25 March telegram (*juvanete*).
-* **Lacuna**: words 4–5 as copied, *pixaqaqe eianakerele*, have 8 + 11 = 19 letters where 20 are required (the clerk
-  misplaced the word division and lost or misread at least two letters: *ei* is not a CV pair). *pi* completes 妥; the
-  following five codes are not recoverable with confidence. `mid.py`/`mid2.py` search one insertion plus up to two
-  plausible substitutions; nothing clean emerges (best: 壺杭城抬接, i.e. "…Hangzhou city…", three edits — not adopted).
-  The last of them, *lebe* = 接, reads as written, so "…接後音" ("received further word") is likely.
+* **Lacuna** (revised 12 Oct 2026): words 4–7 on the form are *pixaqaqe macorarala veyurojiji eianakerele*. The old
+  analysis below assumed that only *pixaqaqe eianakerele* stood there. It is superseded, and so is the `mid.py`/`mid2.py`
+  search, which ran on the short text (best then 壺杭城抬接, not adopted). Two faults are on the form itself: *pixaqaqe* has 8
+  letters, and *eianakerele* has 11 and begins with *ei*, not a CV pair. *pi* completes 妥 and *lebe* = 接 reads as written,
+  so "…接後音" ("received further word") is likely. About nine codes lie between them. As written, the restored words decode
+  as noise (朦騶吳氤邀). If one syllable is put into *pixaqaqe* (e.g. *pixa·te·qaqe*) and *eia* is replaced by one syllable,
+  they decode as 原再告候至□ … (`famtest.best`, shanghai1917). That points to a syllable missing before them, but it is
+  not a text that can be adopted.
 
 ### 25 March 1917, Sun → Dai (frame 0507)
 
@@ -84,7 +94,8 @@ Nasegapiru qoqasuxebi facohekicu nokaverabo zuboqabiqa suxebiqaza juvanete  Sunw
 
 "Letter received. After the contract is cancelled, [whether] … is possible. Reply as soon as it is cancelled. — Wen."
 
-* 能: *zubo* 茆 → *xubo* 能 (one letter; 能否 is the set phrase).
+* 能: *zubo* 茆 → *xubo* 能 (one letter; 能否 is the set phrase). 12 Oct 2026: the first letter on the form has
+  this clerk's x shape (compare *suxebi*), so *xubo* is probably what is written.
 * *kicu noka verabo* (三 codes 當□□□) do not read; `variants.py` finds no one-letter solution that makes sense.
 
 ### 26 March 1917, Dai → Sun (frame 0506)
@@ -100,8 +111,10 @@ tayelaxama kozabojifu xayokatuxo zimucuzaku  Tenkiutai
 days. How stands the company matter? Wire me. — the 26th."
 
 * 本: *geta* → *qeta*; 今: *jiyi* (仇) → *jizi*; 日: *neyo* → *nejo* (日 is read cleanly elsewhere in the same key).
+  12 Oct 2026: the form's first letter is the clerk's capital *Q*, so 本 is as written.
 * 公**司**: *zabo* → *qabo* (司 read cleanly as *qabo* in the 23 March telegram); 約 (about): *ruqa* → *ruqo*.
 * **宥**: the last code, *zaku* (宅), is *zahu* = 1359 宥, the rhyme-code (韻目代日) for the **26th** — the telegram's date.
+  12 Oct 2026: the form has *zimucuzahu* with an h; *zaku* was our misreading, not a clerk's h→k slip.
 * □□ before 來云: *bija veso* (□江). 小池 (Koike Chōzō, who had left the Foreign Ministry's Political Bureau for Kuhara
   in 1916) is two edits away (*baja veto*) and is only a guess.
 
@@ -145,6 +158,36 @@ later attempt:
       jomoaxfojy micycoteco fuhodijige cafemigymu pokycekige rudubyrijo jorinimafy fojylisiby mikypomice
       miyaminoma fykazokipa  Tai
 ```
+
+*vemucäyri*: in Morse ä (·−·−) is e + k run together, so Dudout reads **vemucekyri** (ten letters).
+
+### Brice Dudout's search (email of 12 Oct 2026)
+
+Dudout has blind readings of 0509a and 0511a/b with word-by-word variants at
+https://bdudout.github.io/wenmi/en/telegrams.html#t1917 (not yet compared with ours group by group). All scored with
+the same language model on standard telegraph codes, his 1917 search covered:
+
+* alphabetical grids, 17–20 consonants × 6 vowels: rotations, direct and reversed, all 720 vowel orders, serpentine or
+  not. About 194,000 grids on a machine transcription, 241,000 on his blind reading, 840,000 with y as a consonant.
+  Nothing above chance;
+* free consonant and vowel orders, by simulated annealing, 17 × 6 and 18 × 6 linear tables: consonant-major,
+  consonant-major serpentine (the G0/Y0 design), vowel-major (as our March 1917 key), vertical serpentine; start 0 or 1.
+  Positive control: Chinese text of ~90 codes enciphered with a random table of each layout, 88/88 recovered in every
+  layout (6 seeds × 300,000 iterations, no anchor). On June 1917 the best is about +0.9 per code against +0.6 for the
+  null, and seeds disagree; a true table gives +3 to +5;
+* the same tables with Hankow-style transformations (±111, reversal, digit-wise −111);
+* a 20 × 6 coordinate model with anchors (文 or 孫文 at the end of 0509a, 戴 at the end of 0511, dates). With two correct
+  anchors the control recovers 70–87 %; no plausible anchor holds;
+* 42 probable words (田中, 秋山, 復辟, 張勳, 國會, 政府, 孫文 …) over all 2,101 compatible placements: negative;
+* known keys: shanghai1917, the Yamada table, "the seven 1916 condenser keys", G0, Y0. We have six firm 1916 keys plus two
+  tentative ones (Honolulu, Manila in May); ask whether the tentative two were among his seven.
+
+What he thinks is left: a renumbered code book, another table structure, or too little text.
+
+**Structural lead:** if 0511b is shifted by one syllable, four four-letter groups repeat: *cafe* twice (plus once in
+0509a), and *kige*, *fojy* and *mafy* twice each. A one-syllable shift is what a dropped or extra letter at the sheet join
+would cause (compare the word our 1916 transcription dropped on 3 April). Next: check the 0511 sheet join on the form, and
+see whether the 特定人ノ発受郵便物取調 series continues past vol. 4 for more June–July 1917 traffic.
 
 ## Files
 
