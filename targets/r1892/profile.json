@@ -243,7 +243,17 @@
    "what": "Joint LM scoring of the recurring p2 signs (solve_signs.py: each of ~400 candidate words put into every occurrence at once, nl-modern, 20-letter windows), checked against Gedenkstukken phrasing: H, hook, slash, cf, Y-cross, S, Y, 8, psi, phi, 7, cross. No candidate fits every occurrence (e.g. 'zouden' fits the three H-before-willen places but not the rest, nor the French occurrence on p1); none accepted.",
    "result": "failed"
   },
-  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1049 tokens, 26 types, fr-modern order 4: reading -1.951 per letter; random keys -7.687 (z 9.0); key annealed onto shuffled ciphertext best -4.603 (mean -4.643, z 92.4); annealer on the real text -1.951. Verdict: pass.", "result": "worked"}
+  {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1049 tokens, 26 types, fr-modern order 4: reading -1.951 per letter; random keys -7.687 (z 9.0); key annealed onto shuffled ciphertext best -4.603 (mean -4.643, z 92.4); annealer on the real text -1.951. Verdict: pass.", "result": "worked"},
+  {
+   "date": "2026-10-12",
+   "kind": "verification",
+   "technique": [
+    "language-model scoring",
+    "statistical test"
+   ],
+   "what": "Outside contribution reviewed (PR #31, WAINUT, independent reading 11-12 Oct 2026 with Claude subagents): sign-label splits on p2, 15 proposed sign values, heading 'uit Hampton Court', l13 'myn vader', l24 re-read. Strict p2 coverage 816/900 -> 843/900 -> 859/903 reproduced. Controls (review_control.py): their shuffled-values control scores the same; leave-one-out per added value costs 1-8 tokens; per-occurrence LM ranking against a 62-word pool puts the proposed value first at 5 of 47 places. The measure is coverage, not confirmation; all values kept as proposals, key and outcome unchanged. Heading and l24 digit pairs agree with the full-resolution image; l13 not checked.",
+   "result": "partial"
+  }
  ],
  "outcome": {"validation": {"date": "2026-10-11", "model": "fr-modern", "file": "validation.tsv", "tokens": 1049, "types": 26, "tokens_per_type": 40.35, "score": -1.951, "nulls": {"random keys": {"n": 200, "mean": -7.687, "sd": 0.636, "max": -6.156, "z": 9.0, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -4.643, "sd": 0.029, "max": -4.603, "z": 92.4, "p": 0.1429}}, "power": -1.951, "verdict": "pass", "notes": "claimed per-occurrence score -1.951; polyphony 0.0; 5 unread tokens left out; annealer on the real text from random keys reached -1.951"}, 
   "method": "key recovered from ciphertext-only",
