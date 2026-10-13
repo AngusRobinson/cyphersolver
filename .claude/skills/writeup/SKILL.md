@@ -199,7 +199,7 @@ three are data files you edit by hand; each is a few lines, and skipping one lea
   `kind` is one of `contemporary key`, `archive key`, `DECODE key record`, `scholar's key`, `rebuilt here`; labels are
   plain text (no HTML entities); `year` is the year the key was in use, and a scholar's publication year goes in
   `found`. Optional `"image": {"src", "credit", "caption", "page"}` puts a picture of the key on its card (credit
-  required). A `rebuilt here` key also gets `{"source": "s-bourdeau", "key": "k-…"}` in `source_links`, the
+  required). A `rebuilt here` key also gets `{"source": "s-cyphersolver", "key": "k-…"}` in `source_links`, the
   project's hub node. Every named key the NOTES say was tested and did not fit goes in `"tried": [{"key", "target", "note"}]`
   (add the key node if it is new). `_build_site.py` fails the build on an unknown kind or edge type, a missing key or
   page, an uncredited image, or a target both linked and unlinked.

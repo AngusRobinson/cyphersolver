@@ -25,7 +25,7 @@
     const e={source:k,target:t,how:l.how||'',note:l.note||'',e:ecls(l.how||'')}; links.push(e); k.reads.push(e); t.reads.push(e); });
   (K.tried||[]).forEach(l=>{ const k=byId[l.key], t=letter(l.target); if(!k||!t) return;
     const e={source:k,target:t,how:'tried',note:l.note||'',e:'tried'}; links.push(e); k.tried.push(e); t.tried.push(e); });
-  (K.source_links||[]).forEach(l=>{ const s=byId[l.source], k=byId[l.key]; if(!s||!k) return; links.push({source:s,target:k,how:'src',e:'src',me:s.id==='s-bourdeau'}); if(s.id!=='s-bourdeau') k.srcs.push(s.label); });
+  (K.source_links||[]).forEach(l=>{ const s=byId[l.source], k=byId[l.key]; if(!s||!k) return; links.push({source:s,target:k,how:'src',e:'src',me:s.id==='s-cyphersolver'}); if(s.id!=='s-cyphersolver') k.srcs.push(s.label); });
   for(let i=nodes.length-1;i>=0;i--){ const n=nodes[i]; if(n.type==='key'&&!n.reads.length&&!n.tried.length){ delete byId[n.id]; nodes.splice(i,1); } }
   nodes.forEach(n=>{
     if(n.type==='key'){ n.letters=new Set(n.reads.map(e=>e.target.slug)).size; n.tonly=!n.letters; }
@@ -68,7 +68,7 @@
     ax.append('text').attr('x',x(t)).attr('y',H-26).attr('text-anchor','middle').text(t); });
   const lk=view.append('g').selectAll('path').data(links).join('path').attr('class',l=>'lk '+l.e+(l.me?' me':''));
   const nd=view.append('g').selectAll('g').data(nodes).join('g')
-    .attr('class',n=>['nd',n.type,n.band?'b-'+n.band:'',n.st||'',n.tonly?'tonly':'',n.id==='s-bourdeau'?'me':''].join(' '))
+    .attr('class',n=>['nd',n.type,n.band?'b-'+n.band:'',n.st||'',n.tonly?'tonly':'',n.id==='s-cyphersolver'?'me':''].join(' '))
     .attr('tabindex',0).attr('role','button').attr('aria-label',n=>n.label);
   const KEYPATH='M-3,-2.5a4.5,4.5 0 1,1 0,5h10l2,-2.5l-2,-2.5z';          // a small key: bow and blade
   nd.filter(n=>n.type==='key').append('path').attr('d',KEYPATH).attr('transform',n=>`scale(${1.05+Math.min(n.letters,8)*.32})`);

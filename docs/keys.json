@@ -8,13 +8,13 @@
   {"id": "k-tomokiyo-royalist-1645", "label": "Tomokiyo, royalist keys 1644-45 (Charles I-Rupert-Digby-Ormond; Nicholas-Rupert)", "kind": "scholar's key", "by": "Satoshi Tomokiyo (Cryptiana)", "year": 1645, "note": "Ranges and partial tables from Cryptiana and his DECODE notes on R8430/R8432."},
   {"id": "k-zifra-prima-1578", "label": "Zifra Prima of the Council of Ten, per scriver / per trazer (DECODE R1789)", "kind": "DECODE key record", "by": "Council of Ten, Venice (Franceschi's register)", "year": 1578, "note": "ASVe CX Cifre b. 4 reg. 16 ff. 64-65: one-part nomenclator on base letters a c d f g h with figures 1-99, single letters, syllables, words, numerals and nulls mixed; 527 codes transcribed from the per trazer table (targets/ottobon/keys/zifra_prima_R1789.tsv).", "image": {"src": "ottobon_key.jpg", "credit": "Archivio di Stato di Venezia, Consiglio dei Dieci, Cifre, chiavi e scontri di cifra, b. 4 reg. 16 ff. 64-65, via DECODE R1789", "caption": "The head of the Zifra prima per trazer: a1 Baylo, a2 Barbaria ..., a51 ce, c71-c79 lu lo li le la ma me mi mo, d7 pa ...", "page": "ottobon"}},
   {"id": "k-r1790-golfo", "label": "Council of Ten cipher for the Gulf and Zara (DECODE R1790)", "kind": "DECODE key record", "by": "Council of Ten, Venice", "year": null, "note": "ASVe CX Cifre b. 4 reg. 16 f. 79: small cipher on bases c f m r (1-20), a dozen words on h; for the Captain in the Gulf, the Guardia against the Uskoks and the Rettori of Zara."},
-  {"id": "k-brussels1635", "label": "Cardinal-Infante's Latin alphabet of 1635, rebuilt here", "kind": "rebuilt here", "by": "Daniel Bourdeau", "year": 1635, "note": "Homophonic Latin alphabet of numbers 0-39 and letters, two to five signs per letter; recovered by aligning DECODE R1889 with the Cardinal-Infante's draft R954 (Brussels SEA 540). targets/ferdinand3/work/key1889.json."},
-  {"id": "k-vienna1640", "label": "Ferdinand III's syllabary of 1640, rebuilt here", "kind": "rebuilt here", "by": "Daniel Bourdeau", "year": 1640, "note": "The 1635 alphabet plus syllables in AEIOU order (40-54 = l/n/r + vowel, letter groups showing the vowel: pla-plu = ta-tu, ap-up = ca-cu ...); recovered from the ciphertext of DECODE R1890 by a family anneal. targets/ferdinand3/work/key1890_extra.json."},
-  {"id": "k-stuttgart1634", "label": "King of Hungary's vowel-series nomenclator of 1634, rebuilt here", "kind": "rebuilt here", "by": "Daniel Bourdeau", "year": 1634, "note": "Letter groups in vowel series (xar-xur = ta-tu, ob-ub = mo-mu ...), numbers and drawn signs; rebuilt from the crib 'promovere haud dedignetur' repeated in DECODE R1887, crib-seeded anneal and context; partial. targets/ferdinand3/work/key1887.json."},
+  {"id": "k-brussels1635", "label": "Cardinal-Infante's Latin alphabet of 1635, rebuilt here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1635, "note": "Homophonic Latin alphabet of numbers 0-39 and letters, two to five signs per letter; recovered by aligning DECODE R1889 with the Cardinal-Infante's draft R954 (Brussels SEA 540). targets/ferdinand3/work/key1889.json."},
+  {"id": "k-vienna1640", "label": "Ferdinand III's syllabary of 1640, rebuilt here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1640, "note": "The 1635 alphabet plus syllables in AEIOU order (40-54 = l/n/r + vowel, letter groups showing the vowel: pla-plu = ta-tu, ap-up = ca-cu ...); recovered from the ciphertext of DECODE R1890 by a family anneal. targets/ferdinand3/work/key1890_extra.json."},
+  {"id": "k-stuttgart1634", "label": "King of Hungary's vowel-series nomenclator of 1634, rebuilt here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1634, "note": "Letter groups in vowel series (xar-xur = ta-tu, ob-ub = mo-mu ...), numbers and drawn signs; rebuilt from the crib 'promovere haud dedignetur' repeated in DECODE R1887, crib-seeded anneal and context; partial. targets/ferdinand3/work/key1887.json."},
   {"id": "k-ernst-piccolomini", "label": "Zifra Piccolominea (Ferdinand III to Leopold Wilhelm), Thomas Ernst", "kind": "scholar's key", "by": "Thomas Ernst", "year": 1640, "found": 2017, "note": "Number pairs on the AEIOU motto, non-numeric signs = their stroke counts; Ernst's 2017 solution of Schmeh's Top 50 no. 27, letters of 1640/41 to Archduke Leopold Wilhelm."},
-  {"id": "k-bayonne1529", "label": "Bayonne's cipher of 1529 (Jean du Bellay), re-derived here", "kind": "rebuilt here", "by": "Daniel Bourdeau", "year": 1529, "note": "Homophonic symbol alphabet with word signs (roy, madame, bien, fault/faict, paix, vous); re-derived from the 22 June 1529 interlinear decipherment (BnF fr. 3078 pp. 23-27, DECODE R3689) and Le Grand 1688, extending Tomokiyo's table. targets/dubellay/NOTES.md section 2."},
+  {"id": "k-bayonne1529", "label": "Bayonne's cipher of 1529 (Jean du Bellay), re-derived here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1529, "note": "Homophonic symbol alphabet with word signs (roy, madame, bien, fault/faict, paix, vous); re-derived from the 22 June 1529 interlinear decipherment (BnF fr. 3078 pp. 23-27, DECODE R3689) and Le Grand 1688, extending Tomokiyo's table. targets/dubellay/NOTES.md section 2."},
   {"id": "k-tomokiyo-bayonne1529", "label": "Tomokiyo's table of Bayonne's cipher (1529)", "kind": "scholar's key", "by": "Satoshi Tomokiyo", "year": 1529, "note": "Cryptiana francis.htm, reconstructed from Clair. 333 ff. 24, 27 (June 1530)."},
-  {"id": "k-worcester1527", "label": "Ghinucci (Bishop of Worcester) superscript syllabic key, rebuilt here", "kind": "rebuilt here", "by": "Daniel Bourdeau", "year": 1527, "note": "Consonant-row signs with superscript syllable digits, code words and nulls; rebuilt from R8589 (L&P iv 5282), R8590 (interlinear) and R8476 (State Papers VI 552-556), extended in R8613. targets/superscript/key.tsv."},
+  {"id": "k-worcester1527", "label": "Ghinucci (Bishop of Worcester) superscript syllabic key, rebuilt here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1527, "note": "Consonant-row signs with superscript syllable digits, code words and nulls; rebuilt from R8589 (L&P iv 5282), R8590 (interlinear) and R8476 (State Papers VI 552-556), extended in R8613. targets/superscript/key.tsv."},
   {"id": "k-tomokiyo-worcester", "label": "Tomokiyo's partial table for the Bishop of Worcester", "kind": "scholar's key", "by": "Satoshi Tomokiyo", "year": 1529, "note": "Cryptiana henryviii.htm; partial syllable table, merged into the rebuilt key."},
   {"id": "k-r5258", "label": "DECODE R5258 Sforza key 'Cum equite Bilie'", "kind": "DECODE key record", "by": "Sforza chancery (ASMi Carteggio Sforzesco cart. 1591 no. 24)", "year": 1527, "note": "Barred G/B/D/o signs with two-digit syllable numbers, letters, words and nulls; filed under the Cavaliere Bilia, used by Gilino in 1527."},
   {"id": "k-r5256", "label": "DECODE R5256 Sforza key (cart. 1591 no. 22)", "kind": "DECODE key record", "by": "Sforza chancery", "year": 1525, "note": "Same family as R5258 (barred B/D with numbers for names), different syllable table."},
@@ -35,7 +35,7 @@
    "id": "k-balbases",
    "label": "Balbases key (SEG 2559)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1677,
    "note": "Rebuilt from the ten margined letters of Balbases, then read the rest of the series unchanged."
   },
@@ -43,7 +43,7 @@
    "id": "k-r1892",
    "label": "Orange 6x6 digit-pair square",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1795,
    "note": "Broken ciphertext-only on R1892, then read R2242 unchanged."
   },
@@ -393,7 +393,7 @@
    "id": "k-sessa",
    "label": "Sessa 1523-25 key",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1524,
    "note": "Built from the sessa1524 siblings' clears; shared groups tie the 1523 letters to it."
   },
@@ -409,7 +409,7 @@
    "id": "k-vich",
    "label": "Vich N.46/N.52BIS key",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1511,
    "note": "Built on two letters, then read three it was not built on."
   },
@@ -504,7 +504,7 @@
    "id": "k-petit-chiffre-1690",
    "label": "Petit chiffre 1690",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1690,
    "note": "rebuilt from the printed translation"
   },
@@ -545,7 +545,7 @@
    "id": "k-sadoleto1482",
    "label": "Sadoleto 1482 key",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1482,
    "note": "from clear copies 7a/13a"
   },
@@ -568,7 +568,7 @@
    "id": "k-lope1522",
    "label": "Lope Hurtado 1522 key",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1522,
    "note": "from the bound 'Claro' decipherment f.242"
   },
@@ -576,7 +576,7 @@
    "id": "k-soria-b",
    "label": "Soria key B (R9844)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1523,
    "note": "from a court decipherment R9844"
   },
@@ -746,7 +746,7 @@
    "id": "k-laski-sysB",
    "label": "Łaski’s cipher (System B, KAA 4591)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1529,
    "note": "Graphic letter cipher with word signs, rebuilt from the glossed letters R9322 and R9417 in BayHStA KAA 4591 (targets/kaa4591/sysB)."
   },
@@ -798,7 +798,7 @@
    "id": "k-kaa4591-sysA",
    "label": "KAA 4591 System A′ key, from the contemporary gloss on R9410/R9427",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1535,
    "note": "Homophonic signs and numerals of the Bavarian ducal chancery's 1534–35 Hungarian letters; the key is written between the lines of R9427 and R9410 by a contemporary hand and was rebuilt from there."
   },
@@ -806,7 +806,7 @@
    "id": "k-nevers-informant1588",
    "label": "Paris informant to the Nevers household, 1588 (BnF fr. 3976 ff. 62, 131, 133)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1588,
    "note": "Rebuilt from the interlinear glosses of f. 131 and the reading of f. 62 (targets/nevers1588/key.md); extended from ff. 133-134 (y with cross = y, 4 with cross = z, bracket sign = n)."
   },
@@ -836,7 +836,7 @@
    "id": "k-ferdinand1619",
    "label": "Cologne–Bavaria figure cipher of 1619 (rebuilt here)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1619,
    "note": "Homophonic substitution on the even figures 10–78 with two word-end signs and a three-digit nomenclator; recovered ciphertext-only from R9426 and applied unchanged to R9425. No key sheet for it survives in KAA 4591."
   },
@@ -844,7 +844,7 @@
    "id": "k-kaa4591-sysL",
    "label": "King John–Bavaria sign cipher, \"System L\" (KAA 4591, rebuilt here)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1533,
    "note": "Homophonic substitution on the graphic sign set of KAA 4591, with pair signs (2o = et/und, r+ = sch). Rebuilt for R9415 (1533) and again, independently, from the interlinear decipherment of R9411 (1534): the values agree."
   },
@@ -874,7 +874,7 @@
    "id": "k-asve-1628-syllabary",
    "label": "Venetian syllabary of 1628 (rebuilt from R1874)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1628,
    "note": "Vowel x consonant grid (prefix 6 a / 51 e / 62 i / 53 o / 64 u; last two digits the consonant) with single letters, about 35 word codes in alphabetical blocks, and paragraph marks. Rebuilt by soft-EM alignment of DECODE R1874's cipher to the chancery decipherment imaged with it, then extended from context."
   },
@@ -907,7 +907,7 @@
    "id": "k-benedict1399",
    "label": "Benedict XIII–Climent key (1399–1400)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1399,
    "note": "Puig y Puig rebuilt it in 1920 from Climent's glosses but never printed it; rebuilt here from his p. 475 facsimile against his text: one sign per letter, o as a double loop, a dotted V for the King of Aragon.",
    "image": {
@@ -951,7 +951,7 @@
    "id": "k-stafford-walsingham1586",
    "label": "Stafford's Walsingham cipher, 1586 (Harley 1582)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1586,
    "note": "Letter key rebuilt from the f. 72r decipherment (R8501) and the f. 73r glosses (R8502); no key sheet known."
   },
@@ -959,7 +959,7 @@
    "id": "k-harley1582r8505",
    "label": "Navarre memoir graphic-sign alphabet (Harley 1582 ff. 263-264)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": null,
    "note": "Homophonic alphabet rebuilt from the ciphertext alone; no named key record exists."
   },
@@ -967,7 +967,7 @@
    "id": "k-dewes1635",
    "label": "D'Ewes's private alphabet",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1635,
    "note": "Rebuilt by crib from the log of his son's fits (Harley 286 f. 61)."
   },
@@ -975,7 +975,7 @@
    "id": "k-bremen1631",
    "label": "Bremen grid-band key (Riksarkivet group)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1631,
    "note": "Rebuilt from its own text; the other Riksarkivet keys stay open."
   },
@@ -991,7 +991,7 @@
    "id": "k-mondoucet1572",
    "label": "Mondoucet key of 1572",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1572,
    "note": "Rebuilt from the glossed 16 July crib in the volume itself."
   },
@@ -999,7 +999,7 @@
    "id": "k-mondoucet1573",
    "label": "Mondoucet key of 1573",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1573,
    "note": "Rebuilt from the 9 Sept Court decipherment; 4 Jan 1573 read from Didier 1891."
   },
@@ -1007,7 +1007,7 @@
    "id": "k-marburg1635",
    "label": "Hesse-Kassel volume cipher, 1635 (R4500)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1635,
    "note": "Rebuilt from its own text by annealing; no sheet in the Marburg volume fits."
   },
@@ -1015,7 +1015,7 @@
    "id": "k-swieten1759",
    "label": "Van Swieten–Cobenzl table of 1759",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1759,
    "note": "Alphabetical syllabary rebuilt ciphertext-only (monotone annealing + hand correction); R955 read from its own decipherment."
   },
@@ -1023,7 +1023,7 @@
    "id": "k-andreae1616",
    "label": "Andreae's invented alphabet (Chymische Hochzeit)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1616,
    "note": "Rebuilt from the book's own glosses (pp. 96, 98)."
   },
@@ -1031,7 +1031,7 @@
    "id": "k-rangone1530",
    "label": "Rangone homophonic key, 1530",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1530,
    "note": "About 50 signs for Italian, rebuilt ciphertext-only from fr. 3070 f. 81 and fr. 3082 f. 42."
   },
@@ -1039,7 +1039,7 @@
    "id": "k-r1854",
    "label": "Gonzaga keys of 1428-30 (R1854)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1428,
    "note": "P2 and P4 rebuilt ciphertext-only, P3 completed from context, one from the interlinear gloss; the R1853 register keys do not fit."
   },
@@ -1047,7 +1047,7 @@
    "id": "k-moncada1524",
    "label": "Moncada key, 1524",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1524,
    "note": "Rebuilt from the letter against the 1854 printed decipherment (CODOIN XXIV)."
   },
@@ -1055,7 +1055,7 @@
    "id": "k-baner1640",
    "label": "Banér–Stålhandske key, 1640",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1640,
    "note": "Rebuilt from the letter's own clear context; none of the Swedish keys on DECODE (R4122, R4123, R4325, R4266) fits."
   },
@@ -1063,7 +1063,7 @@
    "id": "k-r4817",
    "label": "SCH R 201 flyleaf key",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": null,
    "note": "Reconstructed from the note alone, helped by Rous's partial decipherment in Korn 2023.",
    "image": {
@@ -1077,7 +1077,7 @@
    "id": "k-memoire1560",
    "label": "Mémoire du XIIe décembre 1560 key",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1560,
    "note": "Rebuilt from the target's own ciphertext; no named key, sibling or decipherment."
   },
@@ -1085,7 +1085,7 @@
    "id": "k-segura1596",
    "label": "Segura key, 1596",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1596,
    "note": "Rebuilt from this letter alone."
   },
@@ -1093,7 +1093,7 @@
    "id": "k-potocka1714",
    "label": "Potocka key, 1714",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1714,
    "note": "Recovered from R7526 and transferred to eight other Potocka letters; Mniszech remains unkeyed."
   },
@@ -1101,7 +1101,7 @@
    "id": "k-siena1421",
    "label": "Siena Concistoro keys (nos. 4, 14, 18, 25)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1421,
    "note": "Four keys: nos. 14, 18 and 25 recovered from their own ciphertext, no. 4 from an alphabet fragment and glosses; none of the 43 key sheets of fasc. 1 (R4746-R4789) fits.",
    "image": {
@@ -1115,7 +1115,7 @@
    "id": "k-hesse1824",
    "label": "Hessian polyalphabetic key, 1824",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1824,
    "note": "Rebuilt from the decipherer's note on the same leaf (key letters bcdefg, first word) and the ciphertext."
   },
@@ -1123,7 +1123,7 @@
    "id": "k-szembek1689",
    "label": "Szembek postscript key, 1688-89",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1689,
    "note": "Rebuilt from the interlinear glosses of this letter only."
   },
@@ -1131,9 +1131,9 @@
    "id": "k-malsburg1637",
    "label": "Malsburg numerical key, 1637",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1637,
-   "note": "Homophonic two-digit table rebuilt from its own ciphertext by Daniel Bourdeau; the Sixtinus key of Dec 1635 (HCPortal key 5) shares the layout but not the table."
+   "note": "Homophonic two-digit table rebuilt from its own ciphertext by cyphersolver; the Sixtinus key of Dec 1635 (HCPortal key 5) shares the layout but not the table."
   },
   {
    "id": "k-noautopilot-mercy1648",
@@ -1333,7 +1333,7 @@
    "id": "k-caprile1519",
    "label": "Caprile 1519 values (R1130/4c)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "note": "Syllabic values from the Caprile 1519 cribs",
    "found": 2026,
    "year": null
@@ -1350,7 +1350,7 @@
    "id": "k-armstrong972",
    "label": "Armstrong THE=972 table",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "note": "592-entry table of the Armstrong legation code; about 160 values added from the 1807-1810 despatches (2 Oct 2026)",
    "found": 2026,
    "year": null
@@ -1408,7 +1408,7 @@
    "id": "k-matignon1586",
    "label": "Mayenne–Forget Cipher-1",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": null,
    "note": "From targets/matignon1586"
   },
@@ -1432,7 +1432,7 @@
    "id": "k-soria-a",
    "label": "Soria key A (1523)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": null,
    "note": "Genoa embassy key, three-letter code groups"
   },
@@ -1587,7 +1587,7 @@
    "id": "k-rechteren-provisional",
    "label": "Provisional Rechteren-family keys (R2051/R2052 alignments)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "note": "From targets/deswart1782",
    "found": 2026,
    "year": null
@@ -1807,7 +1807,7 @@
    "id": "k-toledo1565",
    "label": "García de Toledo's figure alphabet, Malta 1565 (rebuilt here)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1565,
    "note": "Homophonic alphabet on the figures 12-43 in alphabetical order (vowels three figures, consonants one), rebuilt from two cribs in the clear text of AGS Estado leg. 1394 no. 247; reads the companion letter no. 249 unchanged."
   },
@@ -1823,7 +1823,7 @@
    "id": "k-stowe166",
    "label": "Edmondes-Burghley sign cipher, 1593-94 (rebuilt here)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1593,
    "note": "Simple substitution of English in invented signs with word division, a few homophones and person signs; recovered ciphertext-only from BL Stowe MS 166 (DECODE R7770-R7775). Butler (1913) had printed five of the six letters deciphered."
   },
@@ -1831,7 +1831,7 @@
    "id": "k-warsaw1627",
    "label": "Warsaw 1627 figure cipher (rebuilt here)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1627,
    "note": "Homophonic alphabet in plain order (odd figures 13-33 a-m, even 14-32 n-z), letter pairs for consonants, two-figure syllables, a and m as nulls, three-figure word codes; recovered ciphertext-only from DECODE R1408."
   },
@@ -1847,7 +1847,7 @@
    "id": "k-sp106r927",
    "label": "SP 106/10 homophonic pigpen key (R927)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": null,
    "found": 2026,
    "note": "Homophonic pigpen key recovered from the ciphertext alone by annealing on a hand transcription of f. 243; extended 2 Oct 2026 on ff. 241-242 (H3 z, C*2 q, C1 f/q and F2 l/h polyphones)"
@@ -1856,7 +1856,7 @@
    "id": "k-lanssac1573",
    "label": "Lanssac 1573 cipher (Polish election embassy)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1573,
    "note": "Homophonic sign cipher with syllable and word signs, recovered from the gutter-cut marginal decipherments in BnF fr. 4735 and a pinned annealer; corrects Tomokiyo's table (first row shifted by one letter); extended on ff. 154 and 156 (2 Oct 2026) and checked sign by sign against Tomokiyo's current table, whose st, il, nous, par and t were adopted (3 Oct 2026)."
   },
@@ -1864,7 +1864,7 @@
    "id": "k-r9407-sysA2",
    "label": "System A′ key as improved on R9407 (Weinmeister 1533, rebuilt here)",
    "kind": "rebuilt here",
-   "by": "Daniel Bourdeau",
+   "by": "cyphersolver",
    "year": 1533,
    "note": "The R9427 gloss key carried to R9407 by sign shape and extended there by EM, a word-aware decoder and readings aligned back to the signs (augurelio1535 pass 2); carried back to the five sibling letters of 1534-35 on 2 Oct 2026."
   },
@@ -2999,17 +2999,17 @@
    "label": "Wanruo Luo"
   },
   {
-   "id": "s-bourdeau",
-   "label": "Daniel Bourdeau (this project)"
+   "id": "s-cyphersolver",
+   "label": "cyphersolver (this project)"
   }
  ],
  "source_links": [
-  {"source": "s-bourdeau", "key": "k-brussels1635"},
-  {"source": "s-bourdeau", "key": "k-vienna1640"},
-  {"source": "s-bourdeau", "key": "k-stuttgart1634"},
-  {"source": "s-bourdeau", "key": "k-bayonne1529"},
+  {"source": "s-cyphersolver", "key": "k-brussels1635"},
+  {"source": "s-cyphersolver", "key": "k-vienna1640"},
+  {"source": "s-cyphersolver", "key": "k-stuttgart1634"},
+  {"source": "s-cyphersolver", "key": "k-bayonne1529"},
   {"source": "s-tomokiyo", "key": "k-tomokiyo-bayonne1529"},
-  {"source": "s-bourdeau", "key": "k-worcester1527"},
+  {"source": "s-cyphersolver", "key": "k-worcester1527"},
   {"source": "s-decode", "key": "k-r5258"},
   {"source": "s-decode", "key": "k-r5256"},
   {
@@ -3217,179 +3217,179 @@
    "key": "k-luo-c38"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-balbases"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-r1892"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-sessa"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-vich"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-petit-chiffre-1690"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-sadoleto1482"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-lope1522"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-soria-b"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-laski-sysB"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-kaa4591-sysA"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-nevers-informant1588"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-ferdinand1619"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-kaa4591-sysL"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-asve-1628-syllabary"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-benedict1399"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-stafford-walsingham1586"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-harley1582r8505"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-dewes1635"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-bremen1631"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-mondoucet1572"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-mondoucet1573"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-marburg1635"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-swieten1759"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-andreae1616"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-rangone1530"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-r1854"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-moncada1524"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-baner1640"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-r4817"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-memoire1560"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-segura1596"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-potocka1714"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-siena1421"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-hesse1824"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-szembek1689"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-malsburg1637"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-caprile1519"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-armstrong972"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-matignon1586"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-soria-a"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-rechteren-provisional"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-toledo1565"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-stowe166"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-warsaw1627"
   },
   {
@@ -3397,26 +3397,26 @@
    "key": "k-hhsta-kt14-keys"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-sp106r927"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-lanssac1573"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-r9407-sysA2"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-aerssen1601"
   },
   {
-   "source": "s-bourdeau",
+   "source": "s-cyphersolver",
    "key": "k-beuningen1676"
   },
-  {"source": "s-bourdeau", "key": "k-schenck1706"}
+  {"source": "s-cyphersolver", "key": "k-schenck1706"}
  ],
  "unlinked": {
   "geertruidenberg": "not deciphered: no key fits either code; nothing read, no values rebuilt",

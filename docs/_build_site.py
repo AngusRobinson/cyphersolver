@@ -2283,8 +2283,8 @@ def check_keys(meta):
             if kind == 'link' and l.get('how') not in KEY_HOWS: errs.append(f"link {l['key']} -> {l['target']}: how {l.get('how')!r}")
     for l in kw.get('source_links', []):
         if l['source'] not in ids or l['key'] not in ids: errs.append(f"source link {l['source']} -> {l['key']}: no such node")
-    hub = {l['key'] for l in kw.get('source_links', []) if l['source'] == 's-bourdeau'}
-    errs += [f"{k['id']}: rebuilt here but not linked to s-bourdeau (source_links)" for k in kw['keys'] if k['kind'] == 'rebuilt here' and k['id'] not in hub]
+    hub = {l['key'] for l in kw.get('source_links', []) if l['source'] == 's-cyphersolver'}
+    errs += [f"{k['id']}: rebuilt here but not linked to s-cyphersolver (source_links)" for k in kw['keys'] if k['kind'] == 'rebuilt here' and k['id'] not in hub]
     linked = {l['target'] for l in kw['links']}
     errs += [f'unlinked {t} also has a key link' for t in kw.get('unlinked', {}) if t in linked]
     if errs: raise SystemExit('docs/keys.json:\n  ' + '\n  '.join(errs))
