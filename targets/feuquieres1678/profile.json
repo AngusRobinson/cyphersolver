@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "target": "feuquieres1678",
+  "title": "Louis XIV to Marquis de Feuquières, 9 December 1678 (NAF 22738)",
+  "documents": [
+    {
+      "id": "feuquieres1678",
+      "read": "read in part",
+      "shelfmark": "BnF NAF 22738",
+      "date": "9 December 1678",
+      "year": 1678,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+        "partial": true
+      },
+      "length": {
+        "tokens": 1920,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 1,920 elements, 1,169 identified (60.9%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "nomenclator"
+    ],
+    "summary": "From Lasry's report: 67 codes: 18 letter signs, 49 in nomenclature",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 67,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 49
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "known plaintext"
+    ],
+    "attack": "known plaintext",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 4/4 pages transcribed; 4/4 pages deciphered in part; 1,920 elements, 1,169 identified (60.9%). Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b10027843q/f294/full/1600,/0/default.jpg): f156r lines 6-8: contemporary interlinear \"pouvoir reduire entierement les Ennemis de la Suede par la force, que je crois important de profiter des dispositions ou ils paroissent de saccommoder avec cette Couronne\" = his excerpt; docket \"Louis XIV a M. le marquis de Feuquieres ... 9 xbre 1678\" Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered based on adjacent plaintext",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered based on adjacent plaintext",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.609,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): confirmed. Full interlinear decipherment on the pages, yet only 60.9% of number codes mapped in his key; the text itself is fully read from the interlinear."
+  }
+}

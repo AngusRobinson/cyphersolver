@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "target": "villeroy258",
+  "title": "M. de Villeroy to M. de La Verrière, 19 July; year not written (Dupuy 61 — Villeroy, f258r)",
+  "documents": [
+    {
+      "id": "villeroy258",
+      "read": "read",
+      "shelfmark": "BnF Dupuy 61",
+      "date": "19 July; year not written",
+      "year": "unknown",
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)"
+      },
+      "length": {
+        "tokens": 1164,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 1164 elements, 1147 identified (98.5%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "homophonic",
+      "nomenclator"
+    ],
+    "summary": "From Lasry's report: 127 codes, 98 homophones, 29 in nomenclature; unmarked numbers ≥ 121 are nulls",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 127,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": true
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 29
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "known plaintext"
+    ],
+    "attack": "known plaintext",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 2/2 pages transcribed; Deciphered; 1164 elements, 1147 identified (98.5%). Report section: see report.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b103164206/f525.item): f258r all-numeric letter \"A Monsieur de la Verriere\" with contemporary interlinear decipherment: \"Monsieur je ne scay ce que vous pensez de l attendre si long temps a faire partir ceux qui doivent aller a Rome. On s abuze si on pense de pouvoir faire autrement ... longueurs prejudicient infiniment\" = his excerpt; numbers not re-decoded by me from his key Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered based on adjacent plaintext",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered based on adjacent plaintext",
+        "extent": "complete",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.985,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): confirmed. Foot note \"Du chiffre de Monsieur de La Verriere\"; docket \"Depesche de M. de Villeroy a M. de Verriere\". Reading essentially exists interlinearly (could be counted as read from existing decipherment)."
+  }
+}

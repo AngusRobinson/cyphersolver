@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "fogliani1568",
+  "title": "Gasparo Fogliani to Not established in the checked postscript, 20 October 1568 (Français 3234)",
+  "documents": [
+    {
+      "id": "fogliani1568",
+      "read": "read",
+      "shelfmark": "BnF Français 3234",
+      "date": "20 October 1568",
+      "year": 1568,
+      "country": "unknown",
+      "language": "Italian",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "none known to the report or to our spot-check"
+      },
+      "length": {
+        "tokens": 103,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: f103r–v: 422 elements, 418 identified (99.1%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 27 symbols, 21 letter signs, 3 nulls, 3 unidentified",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 27,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": true,
+      "count": 3
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "none known to Lasry's report or to our spot-check; no literature search made here",
+      "found": "not found"
+    },
+    "inputs": [
+      "images",
+      "transcription"
+    ],
+    "attack": "ciphertext-only",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "automated search (unspecified)"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 2/2 pages transcribed; 2/2 pages deciphered; f103r–v: 422 elements, 418 identified (99.1%). Report section: see report.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b90602316/f104.item): f103r first cipher line \"(3)0ny[o]yrn{ss}n*3y53 V6 9090 V6\" decoded with his key = io non posso mancare di dire, matching his excerpt Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered from ciphertext-only",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered from ciphertext-only",
+        "extent": "complete",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: Yes).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.991,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "key confirms"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): confirmed. Letter dated Paris 20 Oct 1568, addressed \"Serenma Madama\" (a duchess) - recipient could be named from the heading (likely Duchess of Mantua/Savoy etc.); dorsal note on facing page.",
+    "first_break": true
+  }
+}

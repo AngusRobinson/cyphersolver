@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "target": "fr4696num",
+  "title": "Not established to Not established, 1589? (Français 4696 — numerical cipher, ff54r–55r)",
+  "documents": [
+    {
+      "id": "fr4696num",
+      "read": "read in part",
+      "shelfmark": "BnF Français 4696",
+      "date": "1589?",
+      "year": 1589,
+      "country": "unknown",
+      "language": "Italian",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+        "partial": true
+      },
+      "length": {
+        "tokens": 1744,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 1,744 elements, 1,692 identified; 1 obscured group of unknown length. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "nomenclator"
+    ],
+    "summary": "From Lasry's report: 70 codes: 49 letter signs, 19 in nomenclature, 2 unidentified",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 70,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 19
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "known plaintext"
+    ],
+    "attack": "known plaintext",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 3/3 pages transcribed; 1/3 pages deciphered; 2 more in part; 1,744 elements, 1,692 identified; 1 obscured group of unknown length. Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (none (no Gallica link; fr. 4696 ark not resolvable offline)): his f55r crop: contemporary interlinear over 6 digit rows \"piu sobria sara V.Ecc. nel scrivere in Italia ma simeinmodo che posi risaper si tanto sara meglio lavisare il serenisimo signor duca di mantua frequentemente et per via sicura de i sucesi di francia...\" = his excerpt; digits not decoded by me Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered based on adjacent plaintext",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered based on adjacent plaintext",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.97,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): partly confirmed. Sender/recipient/date (1589?) not established; only 1/3 pages fully deciphered though 97% of elements identified. Italian."
+  }
+}

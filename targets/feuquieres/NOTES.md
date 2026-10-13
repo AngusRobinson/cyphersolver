@@ -1,5 +1,9 @@
 # Feuquières → Catinat, Pignerol, 25 January 1691 — **read 2026-09-16** (586 of 601 tokens over the two letters in the code)
 
+Not to be confused with [targets/feuquieres1678](../feuquieres1678/NOTES.md): Louis XIV to the marquis de Feuquières,
+9 December 1678 (BnF NAF 22738), a different item, read by George Lasry (BnF cipher research, 10 Oct 2026).
+
+
 **Result.** The 418-group despatch is written in the *petit chiffre* of the Pignerol governors (Bazeries' term; 367
 groups, the small companion of the Grand Chiffre of 1691). The same code carries a second printed letter that nobody
 had connected with it: **Louvois to d'Herleville, governor of Pignerol, Versailles, 6 September 1690**, printed in

@@ -43,6 +43,18 @@ diuises, monstrent bon uisage au batori, aux coeurs est le contraire* ... *de no
 2 May, after Weber "suivra encore la Court le temps de deux ans pour estre receu aux affaires d'icelle": *mais
 plusieurs ne pleureroient s'il n'y retournoit jamais*.
 
+## Independent solution by George Lasry (10 Oct 2026)
+
+George Lasry, working with ChatGPT Astra 6 and Anthropic Opus 5.5, deciphered the same letters (Français 3198,
+2 March and 2 May 1577) independently, in "BnF cipher research" (10 October 2026, sent to Daniel Bourdeau on
+13 October 2026; report slug `labbe1577lasry`). His figures: 7/7 pages transcribed, 6/6 cipher pages deciphered;
+533 elements, 526 identified (3 gaps in the binding); the duplicate 43 elements, all identified; key of 30 codes
+(27 letter codes, 1 null, 2 unidentified). Ciphertext-only. His excerpt of f75r reads "mais plusieurs ne
+pleureroient s'il n'i [r]etourno[i]t iamais", as in the reading above. Spot-check 13 Oct 2026 (f75r, Gallica
+btv1b9060073v/f77): "33 02 13 45 6" = m-a-i-s + separator and "43 1 25 23 1 9 35 1 35 15 13 1 43 55" =
+*ne pleureroient*, confirmed. The two solutions agree; AngusRobinson's (PR #20, 7 Oct) came first.
+Summary of all his BnF results: [docs/lasry-bnf.html](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+
 ## Remaining gaps
 - f64r03 and f64r08, one figure each under a blot - blocker: illegible; restored from context as *orgueil* and *reaulme*, grade C
 - f64r06 *trouer* for *trouver* - blocker: illegible; a writing slip in the cipher, not an unread token (no figure is unread)

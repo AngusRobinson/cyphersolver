@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "target": "mondesir1769",
+  "title": "Writer in Mondesir, Isle de France (name not established) to The writer’s wife, 20 November 1769, with later additions (Français 5581 — Letter from Mondesir)",
+  "documents": [
+    {
+      "id": "mondesir1769",
+      "read": "read in part",
+      "shelfmark": "BnF Français 5581",
+      "date": "20 November 1769, with later additions",
+      "year": 1769,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "none known to the report or to our spot-check"
+      },
+      "length": {
+        "tokens": 4923,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 4,923 elements: 3,950 deciphered, 949 separator marks (?), 24 unidentified. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 24 mapped signs: 23 letter forms, 1 name; 2 personal signs unidentified.",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 24,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "none known to Lasry's report or to our spot-check; no literature search made here",
+      "found": "not found"
+    },
+    "inputs": [
+      "images",
+      "transcription"
+    ],
+    "attack": "ciphertext-only",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "automated search (unspecified)"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 13/13 pages transcribed; 11/11 cipher pages deciphered; 4,923 elements: 3,950 deciphered, 949 separator marks (?), 24 unidentified. Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b9060477w/f53.item): f50r \"Duplicata. De mondesir a l isle de france le 20 9bre 1769\", \"ma chere amie\", clear French with pigpen-style cipher runs (e.g. after \"pour ne pas\"); sign shapes match his table (angle/box signs, dotted variants); a symbol-level decode of a run was not completed at this resolution Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered from ciphertext-only",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered from ciphertext-only",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: Yes).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.802,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "independent verification"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): partly confirmed. 3950 of 4923 elements deciphered, 949 counted as separators, 24 unidentified - complete by sense likely but his own figures are ambiguous. Clear text names Herman and M. de Bougainville; writer probably identifiable from the forge enterprise.",
+    "first_break": true
+  }
+}

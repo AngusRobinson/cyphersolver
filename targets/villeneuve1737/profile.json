@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "villeneuve1737",
+  "title": "Louis-Sauveur, marquis de Villeneuve to Jean Otter, 29 June and 19 August 1737 (Français 22225)",
+  "documents": [
+    {
+      "id": "villeneuve1737",
+      "read": "read",
+      "shelfmark": "BnF Français 22225",
+      "date": "29 June and 19 August 1737",
+      "year": 1737,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "none known to the report or to our spot-check"
+      },
+      "length": {
+        "tokens": 815,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 815 elements, 811 identified (99.5%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "nomenclator"
+    ],
+    "summary": "From Lasry's report: 323 codes: 46 letter signs, 273 in nomenclature, 4 unidentified; 27 structurally inferred",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 323,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 273
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "none known to Lasry's report or to our spot-check; no literature search made here",
+      "found": "not found"
+    },
+    "inputs": [
+      "images",
+      "transcription"
+    ],
+    "attack": "ciphertext-only",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "automated search (unspecified)"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 6/6 pages transcribed; 5/5 cipher pages deciphered; 815 elements, 811 identified (99.5%). Report section: see report.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b525150814/f310.item): f143r = \"a Constantinople ce 29 juin 1737\", to M. Otter, clear opening; cipher sample from his f145v crop \"287.227.288.320.419.138\" -> 287 jay, 227 fait, ..., 138 de per his key table, consistent with \"J ay fait icy le plu[s] de\"; middle groups (288,320,419) on key pages not checked Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered from ciphertext-only",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered from ciphertext-only",
+        "extent": "complete",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: Yes).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.995,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "key confirms"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): confirmed. Large 2-part-ish nomenclator (323 codes); 27 codes structurally inferred. Otter = Jean Otter, orientalist sent to Persia.",
+    "first_break": true
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "vergier1696",
+  "title": "Jacques Vergier to Monseigneur, probably Jérôme de Pontchartrain, 10, 20, 26, 29 and 30 March 1696; 6 April 1696? (Clairambault 1108)",
+  "documents": [
+    {
+      "id": "vergier1696",
+      "read": "read",
+      "shelfmark": "BnF Clairambault 1108",
+      "date": "10, 20, 26, 29 and 30 March 1696; 6 April 1696?",
+      "year": 1696,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)"
+      },
+      "length": {
+        "tokens": 1212,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 1,212 elements, 1,209 identified (99.8%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 152 codes: 31 letter codes, 116 nomenclature entries, 5 nulls",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 152,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": true,
+      "count": 5
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "known plaintext"
+    ],
+    "attack": "known plaintext",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 17/17 pages transcribed; 12/12 cipher pages deciphered; 1,212 elements, 1,209 identified (99.8%). Report section: see report.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b90009665/f263.item): f260r \"Boulogne ce 30 mars 1696\", Monseigneur, signed Vergier (facing leaf); canvas f255 shows f251v numeric codes with interlinear (\"277 14 176 143 259 186 50 ...\" = \"que je scache aussi qu ... \", \"208 17 226 34 301 197 30 289\" = \"mon nouveliste\"), confirming interlinear plaintext; f249v excerpt not compared symbol by symbol Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered based on adjacent plaintext",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered based on adjacent plaintext",
+        "extent": "complete",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.998,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): partly confirmed. Slug says 1690 but every letter is 1696. Canvas f255 shows a letter \"a Dunkerque ce 16e avril 1696\" (f252r) - his \"6 April 1696?\" is probably 16 April. Interlinear decipherments throughout."
+  }
+}

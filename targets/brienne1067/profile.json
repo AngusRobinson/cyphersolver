@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "target": "brienne1067",
+  "title": "Brienne to Queen of Poland, Compiègne, 19 May 1646 (Clairambault 1067)",
+  "documents": [
+    {
+      "id": "brienne1067",
+      "read": "read",
+      "shelfmark": "BnF Clairambault 1067",
+      "date": "Compiègne, 19 May 1646",
+      "year": 1646,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)"
+      },
+      "length": {
+        "tokens": 350,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 350 elements, 349 identified (99.7%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "nomenclator"
+    ],
+    "summary": "From Lasry's report: 88 symbols/codes, 25 letter signs, 61 in nomenclature, 2 nulls",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 88,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 61
+    },
+    "nulls": {
+      "present": true,
+      "count": 2
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "known plaintext"
+    ],
+    "attack": "known plaintext",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 6/6 pages transcribed; 4/4 cipher pages deciphered; 350 elements, 349 identified (99.7%). Report section: see report.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b90008551/f48/full/1600,/0/default.jpg): f226r: \"Madame\", clear text then cipher row with interlinear \"que je communicasse sa despesche a la Reyne\"; f226v show-through shows interlinear \"...le souverain conseil est de gaigner temps...\" as in his excerpt; codes not decoded independently Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered based on adjacent plaintext",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered based on adjacent plaintext",
+        "extent": "complete",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.997,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): confirmed. Fully interlined by a contemporary hand; 99.7% identified. Recipient Queen of Poland (Marie-Louise Gonzague) fits the Nevers/Mantua content."
+  }
+}

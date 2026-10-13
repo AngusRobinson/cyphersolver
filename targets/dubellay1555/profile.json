@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "dubellay1555",
+  "title": "Jean, cardinal Du Bellay to The Constable, 1555 (Français 3142 — Du Bellay, ff60–61)",
+  "documents": [
+    {
+      "id": "dubellay1555",
+      "read": "read in part",
+      "shelfmark": "BnF Français 3142",
+      "date": "1555",
+      "year": 1555,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "contemporary decipherment or clear copy: ff. 62r–v",
+        "partial": true
+      },
+      "length": {
+        "tokens": 193,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 193 elements transcribed, 109 identified; remaining ciphertext not fully transcribed. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 17 letter signs",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 17,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary decipherment or clear copy: ff. 62r–v",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "published reading"
+    ],
+    "attack": "archive decipherment",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 3/3 pages transcribed in part; 3/3 pages deciphered in part; 193 elements transcribed, 109 identified; remaining ciphertext not fully transcribed. Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (none (no Gallica link; fr. 3142 ark not resolvable offline)): his f60v crop, row 1: ψ π a ψ — + = t o u t e s (\"toutes\") with his table, then signs consistent with \"leurs espiez\"; only ~6-10 signs readable at crop resolution Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "read from existing decipherment",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "read from existing decipherment",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.565,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): partly confirmed. Historical decipherment of the memorandum at ff62r-v (same volume), so reading rests on it; only 109/193 transcribed elements identified, ciphertext not fully transcribed. Date 1555 unverified."
+  }
+}

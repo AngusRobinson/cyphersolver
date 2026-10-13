@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "entragues1581",
+  "title": "[François ?] d'Entragues to Comte de Saint-Aignan, auprès du duc d’Anjou, 1581–1582 (catalogue) (Français 15906 — ff759r–760v, ff780r–781v)",
+  "documents": [
+    {
+      "id": "entragues1581",
+      "read": "read in part",
+      "shelfmark": "BnF Français 15906",
+      "date": "1581–1582 (catalogue)",
+      "year": 1581,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "none known to the report or to our spot-check"
+      },
+      "length": {
+        "tokens": 87,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 87 elements, 78 identified (89.7%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "nomenclator"
+    ],
+    "summary": "From Lasry's report: 28 symbols: 20 in nomenclature, 8 unidentified",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 28,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 20
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "none known to Lasry's report or to our spot-check; no literature search made here",
+      "found": "not found"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "key from archive"
+    ],
+    "attack": "key from archive",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "key matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 1/8 pages transcribed; 7 more in part; 5/7 cipher pages deciphered; 2 more in part; 87 elements, 78 identified (89.7%). Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b9064322t (volume link only; folio not fetched, checked on his crops of f759v and f761r)): Clear letter with name signs only. In his f759v crop: \"je verray [3]\" and \"revolte en [X]\", \"[E] favorisera\"; the f761r key (\"Copia d una cifra trovata...\") gives 3 = Mons. d Entragues, X = l Angleterre, E (variant) = l Escosse = his reading Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "read with known key",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "read with known key",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.897,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "key confirms"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): partly confirmed. Only ~87 cipher elements (names) in otherwise clear text; key is in the same volume (f761r), so little cryptanalysis involved. 89.7% identified; 8 signs unknown. Several ? in his clear-text transcription."
+  }
+}

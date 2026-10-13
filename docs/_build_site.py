@@ -1418,6 +1418,10 @@ PAGES = [
          title='Thirty favourites from the archive',
          blurb='Ten findings that are funny, ten that matter to history and ten that are simply ingenious, from two hundred cipher write-ups: a drunk envoy to be seen when sober, a king and a nun, the relief of Malta, the murder of the Duke of Guise, a despatch in lemon juice and a father&rsquo;s coded log of his baby son&rsquo;s fits. Then six of the hardest breaks, keys recovered from the ciphertext alone.',
          quote='the funny, the historic, the ingenious'),
+    dict(slug='lasry-bnf', label='Lasry: BnF ciphers', year='survey', y=9997, place='Survey', st='partial', stt='fifty-six BnF ciphers',
+         title='George Lasry&rsquo;s BnF cipher research, October 2026',
+         blurb='Fifty-six enciphered letters in the Biblioth&egrave;que nationale de France, from 1452 to 1859, deciphered by George Lasry with ChatGPT Astra 6 and Anthropic Opus 5.5 and reported on 10 October 2026: thirteen keys recovered from the ciphertext alone, three matched to surviving keys, forty with plaintext available, mostly contemporary decipherments. Each was spot-checked here against the Gallica image; none was contradicted.',
+         quote='his results, our sample check'),
     # Unpublished 18 Sept 2026; the page is kept in unpublished/solved.html. To republish, move it back to
     # docs/ and uncomment this entry.
     # dict(slug='solved', label='What has been read', year='catalogue', y=9998, place='Catalogue', st='partial', stt='solved catalogue',
@@ -1488,7 +1492,7 @@ IMAGES['r1942'] = ('r1942_lead.jpg', 'Hogendorp&rsquo;s ciphered dispatch no. 12
 IMAGES['vizani1637'] = ('vizani1637_lead.jpg', 'The first two cipher lines of the letter, f. 292r: a row of look-alike symbols divided by strokes, beginning with the word sign for <em>il</em>', 'Biblioth&egrave;que nationale de France, Fran&ccedil;ais 16158 f. 292r, via Gallica')
 IMAGES['waldeck1744'] = ('waldeck1744_lead.jpg', 'HStAM 118 a Nr. 3954 f. 3r: &ldquo;Durchlauchtigster F&uuml;rst&rdquo;, the date 1744 in a later hand, and the first lines of the code after Ew. H. Dl.', 'Hessisches Staatsarchiv Marburg, HStAM 118 a Nr. 3954 f. 3r, via Arcinsys Hessen')
 
-SURVEYS = ('famous', 'solved', 'highlights')
+SURVEYS = ('famous', 'solved', 'highlights', 'lasry-bnf')
 # Outcome method (George Lasry's categories, _methods.py): a page whose target has a profile with outcome.method
 # takes its badge, colour, seal and byline verb from the profile, so the hand-typed st/stt above only stand for
 # surveys, famous targets and pages without a classified profile.  p['method'] / p['extent'] drive the filters.
@@ -1585,6 +1589,7 @@ GROUPS = [(M.KEY[m], M.LABEL[m][0].upper() + M.LABEL[m][1:], M.status_class(m, '
 EXPLORE = [('highlights', 'Highlights', 'Thirty favourites: the funny, the historic, the ingenious'),
            ('glossary', 'Glossary', 'How each cipher was solved, and the terms used'),
            ('famous', 'The famous ones', 'Why Voynich, Kryptos, Beale and Dorabella resist'),
+           ('lasry-bnf', 'Lasry: BnF ciphers', 'George Lasry&rsquo;s fifty-six BnF ciphers, October 2026'),
            ('atlas', 'Atlas', 'Every letter drawn on the map, five centuries of it'),
            ('keys', 'Key web', 'Which key read which letter'),
            ('secret', 'Secret letter', 'Seal a message in a real historical cipher')]

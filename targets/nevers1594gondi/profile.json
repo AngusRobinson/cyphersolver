@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "nevers1594gondi",
+  "title": "Duke of Nevers to M. de Gondi, 27 March 1594 (Français 3622)",
+  "documents": [
+    {
+      "id": "nevers1594gondi",
+      "read": "read in part",
+      "shelfmark": "BnF Français 3622",
+      "date": "27 March 1594",
+      "year": 1594,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "none known to the report or to our spot-check"
+      },
+      "length": {
+        "tokens": 245,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 245 elements, 230 identified (93.9%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "nomenclator"
+    ],
+    "summary": "From Lasry's report: 54 symbols: 39 letter signs, 1 double-letter sign, 14 in nomenclature",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 54,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 14
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "none known to Lasry's report or to our spot-check; no literature search made here",
+      "found": "not found"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "key from archive"
+    ],
+    "attack": "sibling key",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "key matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 3/3 pages transcribed in part; Deciphered; 245 elements, 230 identified (93.9%). Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b9058938q/f100.item): f91r opens \"Monsieur de Gondy\", clear French with mixed letter/number cipher runs; his key image is the original Fr. 3995 f122v-123r table (A=7/1/9, B=6/9 ..., Monosillables, Nulles 17 22), and the cipher sign repertoire (digits, Greek-like letters, nulls) matches it; a full 10-symbol decode was not completed Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "read after matching with key from external sources",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "read after matching with key from external sources",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.939,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "independent verification"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): partly confirmed. 93.9% identified and pages transcribed only in part. Key also in Cryptiana (no. 66), i.e. previously published key."
+  }
+}

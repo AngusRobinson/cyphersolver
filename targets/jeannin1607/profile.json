@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "jeannin1607",
+  "title": "Villeroy; Henri IV to Pierre Jeannin and fellow envoys, 1607 (Français 3516 — Villeroy / royal cipher)",
+  "documents": [
+    {
+      "id": "jeannin1607",
+      "read": "read in part",
+      "shelfmark": "BnF Français 3516",
+      "date": "1607",
+      "year": 1607,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "interlinear",
+          "printed edition"
+        ],
+        "source": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check); printed in Jeannin, Négociations (1656; 1875), probably",
+        "partial": true
+      },
+      "length": {
+        "tokens": 1145,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: Transcribed passages: 1,145 elements, 1,099 identified. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "nomenclator"
+    ],
+    "summary": "From Lasry's report: 110 symbols: 35 letter signs, 74 in nomenclature, 1 repetition sign.",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 110,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 74
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in print",
+      "where": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check); printed in Jeannin, Négociations (1656; 1875), probably",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "known plaintext"
+    ],
+    "attack": "known plaintext",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 2/15 pages transcribed; 2 more in part; 2/15 pages deciphered; 2 more in part; Transcribed passages: 1,145 elements, 1,099 identified. Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b9059630p/f148/full/1600,/0/default.jpg): f86r cipher lines 8-11: contemporary interlinear reads \"comme a tous ceux qui affectionnent ceste union sans toutesfois par trop vous fonder ou confier aux belles parolles de son agent ny des autres qui penchent de son coste car ilz sont tous trompeurs Mais si nous\" = his excerpt; no own sign-by-sign decode (key table not checked) Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered based on adjacent plaintext",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered based on adjacent plaintext",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): confirmed. Only 2/15 pages deciphered (+2 in part). Interlinear on ff86 and 112. Jeannin negotiations 1607 printed (Negociations du president Jeannin, 1656) - likely in print.",
+    "first_break": false
+  }
+}

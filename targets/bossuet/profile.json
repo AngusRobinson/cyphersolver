@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "target": "bossuet",
+  "title": "Bossuet correspondence to Includes letters to the abbé Bossuet, Selected letters from1697–1698 (NAF 28227(9))",
+  "documents": [
+    {
+      "id": "bossuet",
+      "read": "read in part",
+      "shelfmark": "BnF NAF 28227(9)",
+      "date": "Selected letters from1697–1698",
+      "year": 1697,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+        "partial": true
+      },
+      "length": {
+        "tokens": 642,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: Transcribed passages: 642 elements, 626 identified. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 41 numerical codes; 1 symbol; 1 pseudonym",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 41,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "key from archive"
+    ],
+    "attack": "key from archive",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "key matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 3/32 pages transcribed; 28 more in part; 12/28 cipher pages deciphered; 16 more in part; Transcribed passages: 642 elements, 626 identified. Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (none (no Gallica link in entry; NAF 28227(9) checked only via his crops)): his PDF199 crop \"80.50.5, 29.80.5.36.5.97.5, 41.9.38.71.99.7.80.97.99.5.36.5\" with the original key sheet he images (u=80 n=50 e=5 q=29 r=36 l=97 p=41 a=9 t=71 i=99 c=7) = \"une querele particuliere\", agreeing with interlinear and his excerpt Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "read with known key",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "read with known key",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "verification": [
+      "contemporary decipherment",
+      "key confirms"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): partly confirmed. Could not check folio identity against Gallica (no link). Original key is in the same volume and interlinear plaintext survives, so this is reading with the contemporary key. Only 12/28 cipher pages deciphered."
+  }
+}

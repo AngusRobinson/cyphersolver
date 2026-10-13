@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "target": "paleologue1562",
+  "title": "Marguerite Paléologue (catalogue attribution for ff1 onward) to Louis de Gonzague, duke of Nevers (catalogue attribution), 1562–1564 (catalogue group; individual dates unchecked) (Français 4687 — ff5v–7v)",
+  "documents": [
+    {
+      "id": "paleologue1562",
+      "read": "read in part",
+      "shelfmark": "BnF Français 4687",
+      "date": "1562–1564 (catalogue group; individual dates unchecked)",
+      "year": 1562,
+      "country": "unknown",
+      "language": "Italian",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "interlinear",
+          "margin"
+        ],
+        "source": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check); contemporary marginal glosses on f6r",
+        "partial": true
+      },
+      "length": {
+        "tokens": 5,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: f5v/f6r: 241 elements transcribed and deciphered. f6v/f7v: 356 base signs transcribed, none. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 17 numerical code classes; some written forms remain uncertain.",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 17,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check); contemporary marginal glosses on f6r",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription"
+    ],
+    "attack": "ciphertext-only",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "automated search (unspecified)"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 4/4 pages transcribed in part; 2/4 pages deciphered in part; f5v/f6r: 241 elements transcribed and deciphered. f6v/f7v: 356 base signs transcribed, none. Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b90075058/f8.item): f6r bottom 3 numeric rows on Gallica are exactly his crop (4 9 3 20 5 4 8 4 ... / 17 22 9 8 5 73 ... / 2 4 4 4 18 6 4 17 22 ...); no key table in the PDF, so \"averia dat volontier a cuatr cento mila scudi\" could not be re-derived Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered from ciphertext-only",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered from ciphertext-only",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: Yes).",
+    "contribution": [
+      "none"
+    ],
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): partly confirmed. Mixed Italian clear+numeric letter. Margins of f6r carry contemporary interlinear-style glosses (\"questo e quello ...\", \"Sera ... che segui\"), i.e. partial adjacent plaintext he may not have used. Only 2/4 pages in part; attribution from catalogue."
+  }
+}

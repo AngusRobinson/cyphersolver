@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "target": "portugal1667",
+  "title": "King of Portugal (Eu El Rey) to The Conde, Viceroy of India, 20April1667 (Portugais 33 — Letter of20April1667)",
+  "documents": [
+    {
+      "id": "portugal1667",
+      "read": "read",
+      "shelfmark": "BnF Portugais 33",
+      "date": "20April1667",
+      "year": 1667,
+      "country": "Portugal",
+      "language": "Portuguese",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "contemporary decipherment or clear copy: f60r, with a copy on f119r"
+      },
+      "length": {
+        "tokens": 257,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 257 elements with readings; 6 readings marked ?. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 33 letter forms; one complete cipher passage.",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 33,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary decipherment or clear copy: f60r, with a copy on f119r",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "published reading"
+    ],
+    "attack": "archive decipherment",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: Transcribed; Deciphered; 257 elements with readings; 6 readings marked ?. Report section: see report.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (none (no Gallica link; Portugais 33 ark not resolvable offline)): decoded from his f59r crop with his table: 70.f.x.40.50.26.82.35.ss.82.29.20.700.x.40.29.20.50 = p-r-u-d-e-n-c-i-a c-o-m t-u-d-o m-e; next row 70.ss.500.50.g.50.29.202.50.20.24.500.ss.f.x.29.62.28 = pareceo lembrarvos q = his excerpt Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "read from existing decipherment",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "read from existing decipherment",
+        "extent": "complete",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "verification": [
+      "contemporary decipherment",
+      "key confirms"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): confirmed. Sample decodes exactly, but folio not checked on Gallica. A historical decipherment exists on f60r and a copy on f119r, so the reading rests on it. Simple numeric/letter substitution."
+  }
+}

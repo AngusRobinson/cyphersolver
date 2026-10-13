@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "bianchi",
+  "title": "Antonio Bianchi (XXIII); Piero Lusco (XXXI), as written in the visible subscriptions to Signor Castrino / Castrini, as written, XXIII: Venice, 3 February 1610; XXXI: Ferrara, 3 August 1610 (Italien 2061 — ff72v–73r, 95v–96r, 97v–98r)",
+  "documents": [
+    {
+      "id": "bianchi",
+      "read": "read",
+      "shelfmark": "BnF Italien 2061",
+      "date": "XXIII: Venice, 3 February 1610; XXXI: Ferrara, 3 August 1610",
+      "year": 1610,
+      "country": "unknown",
+      "language": "Italian",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "contemporary decipherment or clear copy: clear copy of letter XXIII on f131r"
+      },
+      "length": {
+        "tokens": 256,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 256 elements, 254 identified (99.2%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 95 accepted codes: 20 letter codes, 68 word/month codes, 7 nulls",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 95,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": true,
+      "count": 7
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary decipherment or clear copy: clear copy of letter XXIII on f131r",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "key from archive"
+    ],
+    "attack": "key from archive",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "key matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 6/6 pages transcribed; 6/6 pages deciphered; 256 elements, 254 identified (99.2%). Report section: see report.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b10033498f/f74/full/1600,/0/default.jpg): f73r: after clear \"per questa volta et dirli con queste sole parole\": u35 u32 / m13 u2 u32 t41 u31 t38 u18 -> Che Dal / [Villeroy] et Dal [Amb.] Del [Re] Qui; u-codes checked against the original codebook page in his crop (u2 et, u18 Qui, u31 Del, u32 Dal, u35 Che) = his excerpt Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "read with known key",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "read with known key",
+        "extent": "complete",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.992,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "key confirms"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): confirmed. Original codebook in the same volume (views 126-128) and a clear copy of letter XXIII at f131r; signed Antonio Bianchi, Venice 3 Feb 1610, to Castrino. 99.2%."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "target": "chatillon1635",
+  "title": "Châtillon to Servien, 3 août 1635 (Français 3758 — Châtillon, 3 August 1635)",
+  "documents": [
+    {
+      "id": "chatillon1635",
+      "read": "read in part",
+      "shelfmark": "BnF Français 3758",
+      "date": "3 août 1635",
+      "year": 1635,
+      "country": "France",
+      "language": "French",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "contemporary decipherment or clear copy: ff. 123v, 126r, 127r",
+        "partial": true
+      },
+      "length": {
+        "tokens": 666,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 666 written positions, 624 identified (93.7%); one group boundary uncertain.. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "nomenclator"
+    ],
+    "summary": "From Lasry's report: 78 signs: 56 letter signs, 20 in nomenclature, 2 repeat controls.",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 78,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": true,
+      "entries": 20
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary decipherment or clear copy: ff. 123v, 126r, 127r",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "known plaintext"
+    ],
+    "attack": "known plaintext",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 10/10 pages transcribed; 4/4 cipher pages deciphered; 666 written positions, 624 identified (93.7%); one group boundary uncertain.. Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (none (no Gallica link in dossier; fr. 3758 ark not found offline, gallica.bnf.fr behind Cloudflare)): his f127v crop: clear \"mais Je Vous respon que\" then 95(nous)...46(ennemi)...33(de)... codes consistent with his table, but sign-level read of 8+ symbols from the small crop was not reliable Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered based on adjacent plaintext",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered based on adjacent plaintext",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.937,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "independent verification"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): partly confirmed. Plaintext of the same letters elsewhere in the volume (f123v, f126r, f127r). 93.7% identified. Repo CATALOGUE lists Chatillon-Servien fr. 3758 nos.100,104 (ark btv1b9059471x?)."
+  }
+}

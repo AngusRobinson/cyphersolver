@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "target": "lucinge1588",
+  "title": "René de Lucinge to Charles-Emmanuel I, Duke of Savoy, 9 June, 18 June and 3 August 1588 (Italien 2242 — Lucinge, 1588)",
+  "documents": [
+    {
+      "id": "lucinge1588",
+      "read": "read in part",
+      "shelfmark": "BnF Italien 2242",
+      "date": "9 June, 18 June and 3 August 1588",
+      "year": 1588,
+      "country": "Savoy",
+      "language": "French",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "none known to the report or to our spot-check"
+      },
+      "length": {
+        "tokens": 14608,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: Transcribed passages: 14,608 elements, 14,306 identified. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "homophonic"
+    ],
+    "summary": "From Lasry's report: 41 symbols, 40 homophones, 0 in nomenclature, 1 null; 19 numerical codes unidentified",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 41,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": true
+    },
+    "nomenclator": {
+      "present": false
+    },
+    "nulls": {
+      "present": true,
+      "count": 1
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "none known to Lasry's report or to our spot-check; no literature search made here",
+      "found": "not found"
+    },
+    "inputs": [
+      "images",
+      "transcription"
+    ],
+    "attack": "ciphertext-only",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "automated search (unspecified)"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 7/30 pages transcribed; 1 more in part; 7/30 pages deciphered; 1 more in part; Transcribed passages: 14,608 elements, 14,306 identified. Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b100387843/f121.item): f131r \"Monseigneur\", full-page cipher, dated 1588 on dorsal; sign inventory (omega, pi-forms, lambda, z, x, crossed signs) matches his key table; did not complete a symbol-by-symbol decode of a 10+ run at this resolution Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "key recovered from ciphertext-only",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "key recovered from ciphertext-only",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: Yes).",
+    "contribution": [
+      "none"
+    ],
+    "verification": [
+      "independent verification"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): partly confirmed. Only 7/30 cipher pages deciphered (+1 in part); 19 numerical codes unidentified. Lucinge-Savoy dispatches 1588 are partly printed (Lucinge, Lettres sur la cour d Henri III, ed. Dufour 1964-) - worth checking for overlap.",
+    "first_break": true
+  }
+}

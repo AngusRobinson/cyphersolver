@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "renard1556",
+  "title": "Renard to King of Spain, 14 December 1556 (Français 20991 — Renard, ff217v–218r)",
+  "documents": [
+    {
+      "id": "renard1556",
+      "read": "read in part",
+      "shelfmark": "BnF Français 20991",
+      "date": "14 December 1556",
+      "year": 1556,
+      "country": "Spain",
+      "language": "French",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "separate folio"
+        ],
+        "source": "contemporary decipherment or clear copy: ff. 218r–v",
+        "partial": true
+      },
+      "length": {
+        "tokens": 456,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 456 elements, 346 identified (75.9%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 66 recovered forms: 24 letter signs, 40 syllables, 2 word codes",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 66,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary decipherment or clear copy: ff. 218r–v",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "published reading"
+    ],
+    "attack": "archive decipherment",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "plaintext matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 2/2 pages transcribed in part; 2/2 cipher pages deciphered in part; 456 elements, 346 identified (75.9%). Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://openapi.bnf.fr/iiif/image/v3/ark:/12148/btv1b90643415/f351/full/1600,/0/default.jpg): f217v: heading \"Double dune depesche de lambassadeur Renard ... au Roy\" and margin \"cest une partie de la lre en chiffre dud. Renard dont le dechiffre est apres\", followed by 6 rows of mixed letter/syllable signs (que, fo, ma, ta...); excerpt rests on the contemporary decipherment on f218r, which I did not fetch; no sign-level decode done Verdict: partly confirmed.",
+      "result": "partial"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "read from existing decipherment",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "read from existing decipherment",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.759,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "contemporary decipherment"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch B): partly confirmed. Simon Renard, imperial/Spanish ambassador in France 1556; contemporary decipherment on f218r-v. 75.9% of signs identified. Possibly calendared in CSP Spain XIII (Tomokiyo lists Renard 1556)."
+  }
+}

@@ -4,6 +4,11 @@ Tomokiyo's unsolved list ("Lodovico Birago to Duke of Nevers (1571)"); his 2024 
 variable-length figure cipher and says "once the continuous stream of figures can be broken into tokens, homophonic
 solvers may readily decipher this". No comments on the post, no GitHub prior art (checked 2026-09-16).
 
+
+Sibling: Birago to Nevers, 5 April 1571, BnF Français 3252 ff. 36r–37r, deciphered in part (87.2%) by George Lasry
+(with ChatGPT Astra 6 and Anthropic Opus 5.5, "BnF cipher research", 10 Oct 2026) with the Ceppo–Nevers key from
+fr. 4702 / Cryptiana: [targets/birago1571](../birago1571/NOTES.md). That key has not been tried on this letter here.
+
 ## Sources in hand
 - Gallica `ark:/12148/btv1b9060248g`, view f120 = f.119r (letter, cipher paragraph at foot), f121 = f.119v (close,
   date "Da Saluzzo li 13 di Novembre 1571", signature; recto f.120 is a notarial act about Carmagnola). IIIF full-size

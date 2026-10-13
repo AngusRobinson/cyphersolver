@@ -237,7 +237,8 @@
       "what": "Web search for a prior reading (Cryptiana, Nevers/l'Abbé 1577): none found.",
       "result": "failed"
     },
-    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 534 tokens, 28 types, fr-1530-despatches order 4: reading -2.269 per letter; random keys -6.422 (z 7.4); key annealed onto shuffled ciphertext best -3.53 (mean -3.613, z 22.1); annealer on the real text -2.269. Verdict: pass.", "result": "worked"}
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 534 tokens, 28 types, fr-1530-despatches order 4: reading -2.269 per letter; random keys -6.422 (z 7.4); key annealed onto shuffled ciphertext best -3.53 (mean -3.613, z 22.1); annealer on the real text -2.269. Verdict: pass.", "result": "worked"},
+    {"date": "2026-10-13", "kind": "verification", "technique": ["key matching"], "what": "Independent solution by George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5), BnF cipher research, 10 Oct 2026: ciphertext-only, 526 of 533 elements identified plus the 43-element duplicate; his f75r reading (ne pleureroient) agrees with the PR #20 key; spot-checked on f75r 13 Oct 2026.", "result": "worked"}
    ],
   "outcome": {"validation": {"date": "2026-10-11", "model": "fr-1530-despatches", "file": "validation.tsv", "tokens": 534, "types": 28, "tokens_per_type": 19.07, "score": -2.269, "nulls": {"random keys": {"n": 200, "mean": -6.422, "sd": 0.561, "max": -4.698, "z": 7.4, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -3.613, "sd": 0.061, "max": -3.53, "z": 22.1, "p": 0.1429}}, "power": -2.269, "verdict": "pass", "notes": "claimed per-occurrence score -2.269; polyphony 0.0; 2 unread tokens left out; annealer on the real text from random keys reached -2.269"}, 
     "method": "key recovered from ciphertext-only",
@@ -251,7 +252,7 @@
     "fraction_read": 0.996,
     "fraction_read_method": "measured",
     "fraction_read_source": "reading_pr20.txt via decode_pr20.py: 534 of 536 cipher tokens (word spaces included) read; 2 blotted figures restored from context.",
-    "verification": ["matched control", "historical consistency", "key confirms", "statistical test"],
+    "verification": ["matched control", "historical consistency", "key confirms", "statistical test", "independent verification"],
     "gaps": [
       {
         "item": "f64r03, f64r08: one figure each under a blot",
@@ -267,7 +268,8 @@
     },
     "provenance": "contributed",
     "credits": [
-      {"who": "robinson", "role": "solution", "note": "PR #20: key recovered ciphertext-only with the probable word l'empereur, all 31 runs deciphered", "date": "2026-10", "source": "https://github.com/dbourdeau/cyphersolver/pull/20"}
+      {"who": "robinson", "role": "solution", "note": "PR #20: key recovered ciphertext-only with the probable word l'empereur, all 31 runs deciphered", "date": "2026-10", "source": "https://github.com/dbourdeau/cyphersolver/pull/20"},
+      {"who": "lasry", "role": "verification", "note": "independent ciphertext-only solution, BnF cipher research (with ChatGPT Astra 6 and Anthropic Opus 5.5)", "date": "2026-10-10", "source": "BnF cipher research, sent to Daniel Bourdeau 13 Oct 2026"}
     ]
   }
 }

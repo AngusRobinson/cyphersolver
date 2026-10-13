@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "target": "sessa1597",
+  "title": "Philip II / Archduke Albert to Duke of Sessa / Philip II, 31 March 1597 / 25 August 1596 (Français 23054 — Spanish numerical correspondence)",
+  "documents": [
+    {
+      "id": "sessa1597",
+      "read": "read in part",
+      "shelfmark": "BnF Français 23054",
+      "date": "31 March 1597 / 25 August 1596",
+      "year": 1597,
+      "country": "Spain",
+      "language": "Spanish",
+      "cleartext_in_document": "unknown",
+      "plaintext": {
+        "location": [
+          "interlinear"
+        ],
+        "source": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+        "partial": true
+      },
+      "length": {
+        "tokens": 379,
+        "unit": "code groups",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 379 elements, 340 identified (89.7%). Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 174 codes; 2 values uncertain",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 174,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": "unknown"
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "in archive",
+      "where": "contemporary interlinear decipherment on the cipher pages (seen in our spot-check)",
+      "found": "after reading"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "key from archive"
+    ],
+    "attack": "key from archive",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "key matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 3/3 pages transcribed in part; 3/3 pages deciphered in part; 379 elements, 340 identified (89.7%). Report section: see report.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b9063548f/f272.item): f145r \"El Rey / Duque de Sessa\", Madrid 31 Mar 1597, signed Yo el Rey; codes \"459 988 661 439 ... 437 ... 387\" with his key: 661=se, 439=puede, 437=prudencia, 387=socorro, agreeing with the interlinear \"que no se les puede dar ... de la prudencia de S.S. ... socorros\" and his excerpt Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "read with known key",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "read with known key",
+        "extent": "partial",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 0.897,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "contemporary decipherment",
+      "key confirms"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): confirmed. Entry links only Cryptiana; the Gallica page is Fr. 23054 canvas f272. Full contemporary interlinear decipherment present and Cp.39 key published by Cryptiana - mostly an existing decipherment. 89.7% identified."
+  }
+}

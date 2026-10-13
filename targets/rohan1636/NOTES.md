@@ -2,6 +2,14 @@
 
 Status: attempted, cipher open. Catalogue #320. Full clear-prose working transcription and source audit: [research report](valtellina_1635_1636_report.md). Public summary: [site write-up](../../docs/rohan1636.html).
 
+## George Lasry's readings of Français 3758 (10 Oct 2026)
+
+George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5, "BnF cipher research", 10 Oct 2026) deciphered both
+Français 3758 letters listed above: Louis XIII to Châtillon and Brézé, 30 June 1635 (722 of 967 elements, 74.7%) and
+Châtillon to Servien, 3 August 1635 (624 of 666, 93.7%), the latter from the plaintext of the same letters elsewhere
+in the volume. They are filed as [targets/louis1635](../louis1635/NOTES.md) and
+[targets/chatillon1635](../chatillon1635/NOTES.md), credited to him. This target's own outcome is unchanged.
+
 ## Documents and access
 
 - BnF Français 5190 nos. 171–172: d’Émery to Rohan, 25 January 1636, and Rohan's reply. The supplied Gallica reproduction btv1b9059471x ends at manuscript p. 80; the target is later in the volume. No ciphertext image in hand.

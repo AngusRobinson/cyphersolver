@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "target": "sega1591",
+  "title": "Filippo Sega to Cardinal Caetano, 9 January 1591 (Français 3613 — Sega, ff148r–v)",
+  "documents": [
+    {
+      "id": "sega1591",
+      "read": "read",
+      "shelfmark": "BnF Français 3613",
+      "date": "9 January 1591",
+      "year": 1591,
+      "country": "Papal States",
+      "language": "Italian",
+      "cleartext_in_document": "interspersed",
+      "plaintext": {
+        "location": [
+          "none"
+        ],
+        "source": "none known to the report or to our spot-check"
+      },
+      "length": {
+        "tokens": 100,
+        "unit": "symbols",
+        "measured": false
+      },
+      "transcription": {
+        "by": "mixed",
+        "source": "George Lasry, with ChatGPT Astra 6 and Anthropic Opus 5.5, \"BnF cipher research\", 10 October 2026, sent to Daniel Bourdeau on 13 October 2026",
+        "notes": "Transcription by George Lasry (LLM-assisted); counts from his report: 100 elements, 100 identified (100.0%): 99 plaintext codes and 1 null.. Not re-measured here."
+      }
+    }
+  ],
+  "system": {
+    "types": [
+      "undetermined"
+    ],
+    "summary": "From Lasry's report: 29 plaintext codes and 1 null; published historical key 65.",
+    "symbol_kind": "unknown",
+    "distinct_symbols": 29,
+    "diacritics": {
+      "used": "unknown"
+    },
+    "homophones": {
+      "used": "unknown"
+    },
+    "nomenclator": {
+      "present": "unknown"
+    },
+    "nulls": {
+      "present": true,
+      "count": 1
+    },
+    "key_order": "unknown",
+    "notes": "System fields filled only from the key summary in Lasry's report; the rest is not established here."
+  },
+  "conditions": {
+    "prior_solution": {
+      "exists": "no",
+      "where": "none known to Lasry's report or to our spot-check; no literature search made here",
+      "found": "not found"
+    },
+    "inputs": [
+      "images",
+      "transcription",
+      "key from archive"
+    ],
+    "attack": "key from archive",
+    "human_role": "George Lasry ran the work with ChatGPT Astra 6 and Anthropic Opus 5.5; this repository only spot-checked one sample against the Gallica image",
+    "models": [
+      "chatgpt-astra-6",
+      "claude-opus-5-5"
+    ],
+    "first_date": "2026-10-10",
+    "last_date": "2026-10-13"
+  },
+  "solution": [
+    {
+      "date": "2026-10",
+      "kind": "reading",
+      "technique": [
+        "key matching"
+      ],
+      "what": "George Lasry (with ChatGPT Astra 6 and Anthropic Opus 5.5) transcribed and deciphered the item: 1/2 pages transcribed; Deciphered; 100 elements, 100 identified (100.0%): 99 plaintext codes and 1 null.. Report section: see report.",
+      "result": "worked"
+    },
+    {
+      "date": "2026-10-13",
+      "kind": "verification",
+      "what": "Spot-check against the Gallica image (https://gallica.bnf.fr/ark:/12148/btv1b90582263/f158.item): f148v (canvas f158) after clear \"Che Lignerac e stato inuiato di ordine di\": \"12 8.. omega 33 32+ 28 37 38 41 21 35 24 37 42 26 31 42\" with Meister key 65 -> [Umena] in Poitu et Bretagna, matching his excerpt; f148r clear text (Navarre, Christmas mass at St Denis) matches contents Verdict: confirmed.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "class": "already solved",
+    "key": "unknown",
+    "method": "read with known key",
+    "parts": [
+      {
+        "label": "Lasry's reading",
+        "method": "read with known key",
+        "extent": "complete",
+        "basis": "George Lasry, BnF cipher research, 10 Oct 2026"
+      }
+    ],
+    "method_basis": "Method category from our spot-check of Lasry's report (ciphertext-only: No).",
+    "contribution": [
+      "none"
+    ],
+    "fraction_read": 1.0,
+    "fraction_read_method": "estimated",
+    "fraction_read_source": "George Lasry's report: identified elements / elements",
+    "verification": [
+      "key confirms"
+    ],
+    "provenance": "contributed",
+    "credits": [
+      {
+        "who": "lasry",
+        "role": "solution",
+        "note": "with ChatGPT Astra 6 and Anthropic Opus 5.5; BnF cipher research",
+        "date": "2026-10-10",
+        "source": "BnF cipher research (report sent to Daniel Bourdeau, 13 Oct 2026)"
+      }
+    ],
+    "notes": "Result by George Lasry, not by this project. Spot-check 13 Oct 2026 (batch A): confirmed. Key printed by Meister 1906 (key 65), so a published-key reading. Only 100 cipher elements. Cited link f157 is f148r (clear); cipher is on f148v = canvas f158."
+  }
+}
