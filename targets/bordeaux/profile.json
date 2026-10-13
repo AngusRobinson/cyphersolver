@@ -75,6 +75,11 @@
   "fraction_read": "unknown",
   "grades": "unknown",
   "verification": ["key confirms", "matched control", "historical consistency"],
-  "notes": "Solver failure explained by transcription noise, as the noisy control predicted."
+  "notes": "Solver failure explained by transcription noise, as the noisy control predicted.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "English Deciphering Branch key sheet BL Add MS 32263 f. 1 (DECODE R7537), applied to item A"},
+    {"who": "tomokiyo", "role": "transcription", "note": "provisional transcription of item A (louisxiv_bordeaux.txt), corrected here from the images", "source": "cryptiana louisxiv0.htm §3"},
+    {"who": "lasry", "role": "prior solution", "note": "item B, Mazarin to Bordeaux 22 June 1654 (R9482), solved; key on cryptiana", "date": "2025-02-19", "source": "cryptiana louisxiv0.htm (louisxiv_0mazarin.png)"}
+  ]
  }
 }

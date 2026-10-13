@@ -303,6 +303,10 @@
   "grades": "unknown",
   "verification": ["matched control", "key confirms", "historical consistency", "statistical test"],
   "notes": "ff. 233, 239, 288v read in substance; f. 333 read with the sibling key; f. 366 left open; f. 143 (1583) another key, not read.",
-  "first_break": "unpublished prior"
+  "first_break": "unpublished prior",
+  "credits": [
+    {"who": "lasry", "role": "prior solution", "note": "solved it independently in 2024, unpublished (private communication, 25 Sept 2026)", "date": "2024", "source": "private communication, 25 Sept 2026", "published": false},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "reconstructed f. 321 key (sibling), used to read f. 333 (extended by 24 = f, 34 = l, 36 = m)", "source": "cryptiana"}
+  ]
  }
 }

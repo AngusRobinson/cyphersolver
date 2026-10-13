@@ -140,6 +140,10 @@
    "independent clear copy",
    "key confirms"
   ],
-  "notes": "Read by Wattenbach 1869; added here: the alphabets recovered from the images and checked, set C partly fixed, the survey, the folio correction. Open: no continuous transcription of the recipe cipher (ff. 7r-22r, 46r-v, 54r-61r), f. 9r ll. 7-12, the f. 6r glossary or f. 44v; key A m-ch unchecked on running text. NOTES has no '## Remaining gaps' section."
+  "notes": "Read by Wattenbach 1869; added here: the alphabets recovered from the images and checked, set C partly fixed, the survey, the folio correction. Open: no continuous transcription of the recipe cipher (ff. 7r-22r, 46r-v, 54r-61r), f. 9r ll. 7-12, the f. 6r glossary or f. 44v; key A m-ch unchecked on running text. NOTES has no '## Remaining gaps' section.",
+  "credits": [
+    {"who": "wattenbach", "role": "key or decipherment used", "note": "broke the ciphers; plaintexts of ff. 1r, 5v, 6v used to align the sign alphabets", "date": "1869", "source": "Wattenbach, Anzeiger für Kunde der deutschen Vorzeit NF 16 (1869), cols. 264-268"},
+    {"who": "kalning", "role": "key or decipherment used", "note": "2014 Heidelberg catalogue reading of f. 93r, used as crib for set C (Kalning, Miller, Zimmermann)", "date": "2014", "source": "Kalning, Miller, Zimmermann, Cod. Pal. germ. 496-670 (2014), pp. 257-260"}
+  ]
  }
 }

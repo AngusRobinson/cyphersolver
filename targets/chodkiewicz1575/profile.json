@@ -57,6 +57,10 @@
   "contribution": ["catalogue correction"],
   "class": "already solved",
   "verification": ["none"],
-  "notes": "Found solved by Kopal & Waldispühl 2023; nothing added. Catalogue entry 268 removed; no write-up."
+  "notes": "Found solved by Kopal & Waldispühl 2023; nothing added. Catalogue entry 268 removed; no write-up.",
+  "credits": [
+    {"who": "kopal", "role": "prior solution", "note": "deciphered in full, HistoCrypt 2023; plaintext on DECODE R1473", "date": "2023", "source": "https://ecp.ep.liu.se/index.php/histocrypt/article/view/160/116"},
+    {"who": "waldispuhl", "role": "prior solution", "note": "deciphered in full, HistoCrypt 2023; plaintext on DECODE R1473", "date": "2023", "source": "https://ecp.ep.liu.se/index.php/histocrypt/article/view/160/116"}
+  ]
  }
 }

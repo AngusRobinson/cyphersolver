@@ -317,6 +317,11 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Open: nine groups p. 213, seven at top of p. 307, name 98_, a letter run on p. 311, stray garbled groups."
+  "notes": "Open: nine groups p. 213, seven at top of p. 307, name 98_, a letter run on p. 311, stray garbled groups.",
+  "provenance": "contributed",
+  "credits": [
+    {"who": "arya", "role": "solution", "note": "PR #1: the King's ciphered passages in Rommel 1840 read with Rommel's 1846 key", "source": "https://github.com/dbourdeau/cyphersolver/pull/1"},
+    {"who": "rommel", "role": "key or decipherment used", "note": "key printed 1846 (Allg. Zeitschrift f. Geschichte V, 402-403); ciphertext from his 1840 edition", "date": "1846", "source": "Allgemeine Zeitschrift für Geschichte V (1846), pp. 402-403"}
+  ]
  }
 }

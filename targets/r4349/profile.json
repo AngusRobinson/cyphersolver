@@ -192,6 +192,9 @@
     "blocker": "too-short",
     "detail": "six signs, no key, no sibling in the same hand, no crib"
    }
+  ],
+  "credits": [
+    {"who": "uppsala", "role": "key or decipherment used", "note": "vowel-shift rule and full reading of the f. 19v colophon, entry C 513 (catalogue page attached to DECODE R4349)", "date": "1992", "source": "Mittelalterliche Handschriften der UB Uppsala, Katalog über die C-Sammlung, Bd. 5 (1992), C 513"}
   ]
  }
 }

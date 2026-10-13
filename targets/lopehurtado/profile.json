@@ -782,6 +782,9 @@
     ],
     "fraction_read_method": "measured",
     "fraction_read_source": "Measured 2026-10-02 over the five letters with a whole-letter token transcription and reading file, summing tokens read as sense: R9634 846/1191 (NOTES 'Retry, same day', read_r9634.md), R9645 358/489 (read_r9645.md), R9646 97/121 (read_r9646.md), R9649 89/89 (read_r9649.md), R9656 131/214 (read_r9656.md); 1521/2104 = 0.723. R9644, R9648 and R9650 are read as to content from their contemporary clear versions but their ciphered leaves have no token transcription, so they are not in the count; R9652 has no cipher.",
-    "key": "partial"
+    "key": "partial",
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "clerk's clear versions bound in R9644 (ff. 241-242, 'Claro') and R9650 (f. 272)"}
+    ]
   }
 }

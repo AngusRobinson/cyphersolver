@@ -367,6 +367,13 @@
     "blocker": "open-codes",
     "detail": "see sense.tsv unread column"
    }
+  ],
+  "provenance": "mixed",
+  "credits": [
+    {"who": "arya", "role": "solution", "note": "PR #8: found the office's own key (BnF fr. 3995 f. 97) and read all four letters in part; page byline", "date": "2026-09-19", "source": "https://github.com/dbourdeau/cyphersolver/pull/8"},
+    {"who": "satoru", "role": "pointer", "note": "satorunet's note that the f. 97v endorsement labels the f. 97 key, and his count of the nomenclature, prompted the re-reading of the key sheet", "date": "2026-10-02", "source": "https://satoru.net/crypt/"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "key images for the Spanish Cipher 1592-93 and the Feria-Mansfeld cipher (cryptiana spanish3.htm)", "source": "cryptiana spanish3.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the office's own key at BnF fr. 3995 f. 97 (DECODE R4076-R4077) and the interlinear gloss on no. 47"}
   ]
  }
 }

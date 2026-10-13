@@ -216,6 +216,11 @@
         "detail": "ba and Bruxelles are contextual guesses, grade I."
       }
     ],
-    "notes": "One unassigned token (47') is outside grade counts; grades total 71 of 72 positions. 25 May meets the bar, 2 June does not: combined extent partial. Coverage conditional on supplied glyph corrections, not proven accuracy; list A is now attestation, not a clean holdout. Shuffling controls test linguistic structure, not a synthetic solver recovery."
+    "notes": "One unassigned token (47') is outside grade counts; grades total 71 of 72 positions. 25 May meets the bar, 2 June does not: combined extent partial. Coverage conditional on supplied glyph corrections, not proven accuracy; list A is now attestation, not a clean holdout. Shuffling controls test linguistic structure, not a synthetic solver recovery.",
+    "provenance": "contributed",
+    "credits": [
+      {"who": "feyseel", "role": "new cipher with solution", "note": "PR #22: Aerssen 25 May and 2 June 1601, key rebuilt from the sibling glosses (with Claude and Codex)", "date": "2026-10-04", "source": "https://github.com/dbourdeau/cyphersolver/pull/22"},
+      {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherments of the 11 and 28 May letters and list A (scan 46)"}
+    ]
   }
 }

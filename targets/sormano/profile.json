@@ -197,6 +197,10 @@
    "matched control",
    "independent clear copy"
   ],
-  "notes": "No. 63's last leaf is missing."
+  "notes": "No. 63's last leaf is missing.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "Lasry's 2023 key for BnF fr. 3096 (Tomokiyo's cryptiana francis.htm), verified and applied", "date": "2023", "source": "https://cryptiana.web.fc2.com/code/francis.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment of no. 62 (f. 113) and marginal decipherment of no. 67 used as key controls"}
+  ]
  }
 }

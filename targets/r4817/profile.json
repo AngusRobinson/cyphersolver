@@ -154,6 +154,9 @@
       "M": 1
     },
     "verification": ["none"],
-    "notes": "Internal substitution consistency and German syntax; no independent plaintext or archive key. Rous partial reading used before attack. All occurring signs read; literal GEFAE preserved, Gefaess conjectural. Alchemical interpretation and annotation date/author remain unknown."
+    "notes": "Internal substitution consistency and German syntax; no independent plaintext or archive key. Rous partial reading used before attack. All occurring signs read; literal GEFAE preserved, Gefaess conjectural. Alchemical interpretation and annotation date/author remain unknown.",
+    "credits": [
+      {"who": "rous", "role": "prior solution", "note": "identified the monoalphabetic substitution and gave a partial decipherment, used here as the crib; published in Korn 2023 n. 41", "date": "2023", "source": "U. M. Korn, 'Bilderfahrzeug' of the Rosicrucians, Between Manuscript and Print (2023), p. 178 n. 41, https://doi.org/10.1515/9783111242699-007"}
+    ]
   }
 }

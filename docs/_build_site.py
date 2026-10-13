@@ -18,7 +18,7 @@ import re, pathlib, html, json, hashlib, datetime
 HERE = pathlib.Path(__file__).parent
 ICONS = ('<link rel="icon" href="favicon.svg" type="image/svg+xml">\n<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">\n'
          '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n')
-VERSION ='20261009a'
+VERSION ='20261013c'
 SITE = 'Unsolved Historical Ciphers'
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 
@@ -67,6 +67,7 @@ GENERATED = [
     r'\n?<!-- bnx -->.*?<!-- /bnx -->', r' data-bnx="1"', r'<span class="fth">.*?</span><!-- /fth -->',
     r'<!-- cattop:start -->.*?<!-- cattop:end -->\n?',
     r'\n?<p class="outcome">.*?</p><!-- /outcome -->',
+    r'\n?<p class="credits">.*?</p><!-- /credits -->', r'<!-- contrib:start -->.*?<!-- contrib:end -->\n?',
 ]
 
 def normalise(s):
@@ -109,9 +110,10 @@ def page_dates(slug, s):
 DATEISH = re.compile(r'^(?:solved(?: in part)?|resolved|attempted|posted|read(?: in part)?|published|first published|updated)?'
                      r'\s*(?:\d{1,2}\s+)?(?:' + '|'.join(MONTHS) + r'|Sept?)?\s*\d{4}$', re.I)
 
-def meta_html(p, rec, old):
+SHARED_PAGES = ('index', 'contributors', 'contribute')      # pages of the ledger as a whole, not of one write-up
+def meta_html(p, rec, old, slug=None):
     """Rebuild the hero dateline, keeping whatever else the page put on that line."""
-    author = (p.get('author') if p else None) or 'Daniel Bourdeau'
+    author = (p.get('author') if p else None) or ('Daniel Bourdeau and contributors' if slug in SHARED_PAGES else 'Daniel Bourdeau')
     keep = []
     for part in re.split(r'\s*(?:&middot;|·)\s*', old or '')[1:]:
         flat = re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', part))).strip()
@@ -1538,6 +1540,42 @@ def outcome_html(p):
 
 attach_methods()
 
+# Credits (_credits.py): who besides the project contributed to each page's target(s), from profile outcome.credits.
+import _credits as CR
+CONTRIB = CR.registry()
+PROFILES = CR.load_all()
+def attach_credits():
+    by_slug = {}
+    for folder in PROFILES: by_slug.setdefault(PROFILE_SLUG.get(folder, folder), []).append(folder)
+    for slug, folders in M.PAGE_PROFILES.items(): by_slug[slug] = folders
+    for p in PAGES:
+        p['folders'] = [f for f in by_slug.get(p['slug'], []) if f in PROFILES]
+        p['credits'] = [c for f in p['folders'] for c in CR.credits_of(PROFILES[f])]
+        provs = {CR.provenance_of(PROFILES[f]) for f in p['folders']}
+        p['provenance'] = 'contributed' if provs == {'contributed'} else 'mixed' if provs & {'contributed', 'mixed'} else 'project'
+attach_credits()
+FOLDER_PAGE = {f: p for p in PAGES for f in p['folders']}
+
+def credits_html(p):
+    """The hero's credits line: everyone credited on the page's target(s), grouped by person, linked to contributors.html."""
+    cs = [c for c in p.get('credits') or [] if c.get('who') in CONTRIB]
+    if not cs: return ''
+    people = {}
+    for c in cs:
+        roles = people.setdefault(c['who'], [])
+        label = 'unpublished earlier solution' if c['role'] == 'prior solution' and c.get('published') is False else CR.ROLE_LABEL[c['role']]
+        if label not in roles: roles.append(label)
+    order = sorted(people, key=lambda w: (CONTRIB[w]['kind'] != 'person', min(CR.ROLES.index(c['role']) for c in cs if c['who'] == w)))
+    bit = lambda w: f'<a href="contributors.html#{w}">{html.escape(CONTRIB[w]["name"])}</a> ({", ".join(people[w])})'
+    # a contributed or mixed result names its contributors first, then everyone else credited
+    outside = [w for w in order if p.get('provenance') in ('contributed', 'mixed') and CONTRIB[w]['kind'] == 'person'
+               and any(c['who'] == w and c['role'] not in ('pointer', 'prior solution') for c in cs)]
+    rest = [w for w in order if w not in outside]
+    parts = []
+    if outside: parts.append(('Contributed by ' if p['provenance'] == 'contributed' else 'With ') + ' and '.join(bit(w) for w in outside))
+    if rest: parts.append(('Also credited' if outside else 'Credits') + ' &middot; ' + ' &middot; '.join(bit(w) for w in rest))
+    return '<p class="credits">' + ' &middot; '.join(parts) + '</p><!-- /credits -->'
+
 # chip value on writeups.html, menu label, badge class, predicate
 GROUPS = [(M.KEY[m], M.LABEL[m][0].upper() + M.LABEL[m][1:], M.status_class(m, 'complete'), (lambda m: lambda p: p.get('method') == m)(m))
           for m in M.METHODS] + [
@@ -1585,6 +1623,7 @@ def nav_html(current):
         f'    <details class="menu"><summary{" class=\"active\"" if in_explore else ""}>Explore {CHEVRON}</summary>\n'
         f'      <div class="panel ex">{explore}</div></details>\n'
         f'    <a href="catalogue.html"{cur("catalogue")}>Catalogue</a>\n'
+        f'    <a href="contributors.html"{cur("contributors")}>Contributors</a>\n'
         f'    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>\n'
         f'    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>\n'
         f'  </nav>\n</div></header>\n' + SEARCH_HTML)
@@ -1713,7 +1752,8 @@ def writeups_html():
     def q(*parts): return html.escape(plain(' '.join(parts)).lower(), quote=True)
     rows = []
     for p in sorted(PAGES, key=lambda p: p['y']):
-        rows.append(f'<li data-kind="{kind_of(p)}" data-extent="{p.get("extent") or ""}" data-period="{period_of(p["y"])}" data-src="page" '
+        by = ' '.join(sorted({c['who'] for c in p.get('credits') or [] if c.get('who') in CONTRIB}))
+        rows.append(f'<li data-kind="{kind_of(p)}" data-extent="{p.get("extent") or ""}" data-period="{period_of(p["y"])}" data-src="page" data-by="{by}" '
                     f'data-q="{q(p["label"], p["title"], p["place"], p["year"], p["blurb"], p["stt"])}">'
                     f'<a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span>'
                     f'<span class="t">{avatars_html(p["slug"])}{p["title"]}</span>{when_html(p, cls="dt")}<span class="yr">{p["year"]}</span>'
@@ -1752,7 +1792,7 @@ def writeups_html():
         f'  <div class="facet"><span class="flabel">Where</span>{chips("src", [("page", "site page"), ("notes", "notes only")])}</div>\n'
         '  <div class="facet"><span class="flabel">Search</span><input id="wq" type="search" placeholder="titles, places, summaries" aria-label="Search the write-ups">'
         '<button type="button" class="chip" id="wreset">reset</button></div>\n'
-        f'  <p class="wcount" id="wcount" aria-live="polite">All {total} entries</p>\n</div>\n\n'
+        f'  <p class="wcount" id="wcount" aria-live="polite" data-names="{html.escape(json.dumps({k: c["name"] for k, c in CONTRIB.items()}, ensure_ascii=False), quote=True)}">All {total} entries</p>\n</div>\n\n'
         '<section class="wsec" id="pages">\n<h2 id="write-ups"><span class="num">01</span> Write-ups</h2>\n'
         '<ul class="list wl">\n' + '\n'.join(rows) + '\n</ul>\n</section>\n\n'
         '<section class="wsec" id="notes">\n<h2 id="only-in-the-notes"><span class="num">02</span> Only in the notes</h2>\n'
@@ -1807,7 +1847,7 @@ def footer_html(current):
     links.append(f'<a href="{REPO}" rel="noopener">Code &#8599;</a>')
     links.append('<a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a>')
     links.append('<a href="#top">Top &uarr;</a>')
-    author = cur.get('author', 'Daniel Bourdeau') if cur else 'Daniel Bourdeau'
+    author = cur.get('author', 'Daniel Bourdeau') if cur else 'Daniel Bourdeau and contributors' if current in SHARED_PAGES else 'Daniel Bourdeau'
     return (f'<footer><div class="in">\n  <span>{author}, September 2026 &middot; Text released under CC BY 4.0{rights}</span>\n'
             f'  <nav aria-label="Footer">{"".join(links)}</nav>\n</div></footer>')
 
@@ -2035,12 +2075,17 @@ def process(path):
     s = re.sub(r'<style>(.*?)</style>\s*', strip_style, s, flags=re.S)
     # dateline: when the finding landed, and when the page last really changed
     mm = re.search(r'<p class="meta">(.*?)</p>', s, re.S)
-    if mm: s = s[:mm.start()] + meta_html(page, rec, mm.group(1)) + s[mm.end():]
+    if mm: s = s[:mm.start()] + meta_html(page, rec, mm.group(1), slug) + s[mm.end():]
     # the outcome line under the dateline: method (linked to the glossary) and extent, from the profile
     s = re.sub(r'\n?<p class="outcome">.*?</p><!-- /outcome -->', '', s, flags=re.S)
     oc = outcome_html(page) if page else ''
     if oc and '<section class="hero">' in s:
         s = re.sub(r'(<section class="hero">.*?<p class="meta">.*?</p>)', lambda m: m.group(1) + '\n' + oc, s, count=1, flags=re.S)
+    s = re.sub(r'\n?<p class="credits">.*?</p><!-- /credits -->', '', s, flags=re.S)
+    cl = credits_html(page) if page else ''
+    if cl and '<section class="hero">' in s:
+        anchor = r'(<section class="hero">.*?<p class="meta">.*?</p>(?:\n<p class="outcome">.*?</p><!-- /outcome -->)?)'
+        s = re.sub(anchor, lambda m: m.group(1) + '\n' + cl, s, count=1, flags=re.S)
     # the kicker's last segment names the outcome in older pages; it follows the profile's method now
     if page and page.get('method'):
         s = re.sub(r'(<p class="kicker">.*?)(?:&middot;|·)\s*(?:solved|read|read in part|solved in part|partly read|partly solved|attempted|attempted, open|'
@@ -2094,6 +2139,11 @@ def process(path):
     s = re.sub(r'<body(?![^>]*id=)', '<body id="top"', s, count=1)
     if slug == 'index':
         s = fold_findings(s)
+        # the contributors strip and the call to contribute, right after the scoreboard
+        import _contributors_page as CP
+        s = re.sub(r'\n*<!-- contrib:start -->.*?<!-- contrib:end -->', '', s, flags=re.S)
+        if '<!-- stats:end -->' in s:
+            s = s.replace('<!-- stats:end -->', '<!-- stats:end -->\n\n' + CP.strip(PAGES, PROFILES, CONTRIB), 1)
         s = re.sub(r'<!-- live:start -->.*?<!-- live:end -->\n?', '', s, flags=re.S)
         s = re.sub(r'<script src="home\.js[^"]*" defer></script>\n?', '', s)
         s = re.sub(r'(<section class="hero">.*?)(\s*<div class="jump">)', lambda m: m.group(1) + '\n' + live_html() + m.group(2), s, count=1, flags=re.S)
@@ -2247,7 +2297,9 @@ if __name__ == '__main__':
         page_dates(f.stem, f.read_text(encoding='utf-8').lstrip('﻿'))
     (HERE / 'writeups.html').write_text(writeups_html(), encoding='utf-8')
     (HERE / 'glossary.html').write_text(glossary_html(), encoding='utf-8')
-    done = [process(p) for p in sorted(HERE.glob('*.html'))]
+    import _contributors_page as CP
+    (HERE / 'contributors.html').write_text(CP.page(PAGES, PROFILES, CONTRIB, DATES['pages'], VERSION, TODAY), encoding='utf-8')
+    done =[process(p) for p in sorted(HERE.glob('*.html'))]
     save_dates(DATES)
     print('search index:', write_search_index(), 'entries')
     readme_glance()

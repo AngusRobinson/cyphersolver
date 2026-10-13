@@ -297,6 +297,10 @@
    "H": 3,
    "M": 11,
    "I": 1
-  }
+  },
+  "credits": [
+    {"who": "lasry", "role": "prior solution", "note": "solved it independently in 2021, unpublished (private communication, 25 Sept 2026)", "date": "2021", "source": "private communication, 25 Sept 2026", "published": false},
+    {"who": "lccompany", "role": "verification", "note": "WAINUT (PR #31) deciphered R1892 independently and recovered the same square; sign-label splits and values proposed, not adopted", "date": "2026-10-12", "source": "https://github.com/dbourdeau/cyphersolver/pull/31"}
+  ]
  }
 }

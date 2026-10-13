@@ -140,6 +140,10 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "All eight read at the letter level; about 80 of 107 codes codes open; parts of R200/R201 garbled by transcription slips."
+  "notes": "All eight read at the letter level; about 80 of 107 codes codes open; parts of R200/R201 garbled by transcription slips.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "reconstructed key DOC_R25_D3232 and letter-level decryption attached to R25, R195-R201", "date": "2020-10", "source": "DECODE R25 DOC_R25_D3232"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "three leaves deciphered at the time (R197-R199); 25 nomenclator codes fixed from them"}
+  ]
  }
 }

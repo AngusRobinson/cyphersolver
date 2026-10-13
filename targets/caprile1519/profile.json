@@ -511,6 +511,10 @@
   "fraction_read": 0.3,
   "fraction_read_method": "estimated",
   "fraction_read_source": "NOTES prose, not measured: decrypt21_raw.txt gives a key value to 97-98% of signs of R1139/R1136 (only ? unread), but the output is garbled by transcription errors and reads only in phrases, so the value-assigned share is not the share that reads; R1137 and R1128 have no reading file.",
-  "key": "partial"
+  "key": "partial",
+  "credits": [
+    {"who": "somogyi", "role": "key or decipherment used", "note": "printed decipherments of V1920 and R1138 (Scriptorium VI, 2025) used as cribs to rebuild the key", "date": "2025", "source": "W. Somogyi, Scriptorium VI (2025) 247-264"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "1882 decipherments and interlinear glosses filed with nos. 3-8 and 10 (R1129-R1135)"}
+  ]
  }
 }

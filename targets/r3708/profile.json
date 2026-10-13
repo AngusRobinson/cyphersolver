@@ -212,6 +212,9 @@
     "detail": "no number list known; siblings gloss 9, 10, 11, 24, 38, 98, 107; the f. 139 gloss over 79 is illegible"
    }
   ],
-  "notes": "First reading. Corrects the sibling's code 24 from Navarre to Nevers; f. 139's contemporary glosses confirm the key independently."
+  "notes": "First reading. Corrects the sibling's code 24 from Navarre to Nevers; f. 139's contemporary glosses confirm the key independently.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherments on f. 131 (key source) and glosses on f. 139 (check)"}
+  ]
  }
 }

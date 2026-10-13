@@ -79,6 +79,12 @@
   "fraction_read": 0.975,
   "grades": "unknown",
   "verification": ["independent clear copy", "historical consistency", "key confirms", "statistical test"],
-  "notes": "586 of 601 tokens over the two letters (NOTES); 12 groups unread, singletons or nulls."
+  "notes": "586 of 601 tokens over the two letters (NOTES); 12 groups unread, singletons or nulls.",
+  "credits": [
+    {"who": "bazeries", "role": "key or decipherment used", "note": "Grand Chiffre de 1691 table (Le Masque de fer, 1893); gave the design"},
+    {"who": "bazeries", "role": "prior solution", "note": "deciphered the petit chiffre despatch in 1893, never published", "date": "1893", "published": false},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "contemporary translation of Louvois to d'Herleville, 6 Sept 1690, printed in the 1819 Mémoires de Catinat"},
+    {"who": "tomokiyo", "role": "transcription", "note": "his transcription of the ciphertext, collated (three corrections)"}
+  ]
  }
 }

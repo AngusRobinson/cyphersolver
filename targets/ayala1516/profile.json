@@ -150,6 +150,10 @@
    "independent clear copy",
    "historical consistency"
   ],
-  "notes": "Read independently (about 98%) before finding the 1875 printed decipherment; the print confirms the reading and settles the last seven words."
+  "notes": "Read independently (about 98%) before finding the 1875 printed decipherment; the print confirms the reading and settles the last seven words.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "key rebuilt from R10024 (cryptiana spanish2C), read the letter; corrected here", "source": "cryptiana spanish2C"},
+    {"who": "gayangos", "role": "prior solution", "note": "1875 print of the 1849 Simancas decipherment (cartas XLIX, LIV); found after the reading, settled seven words", "date": "1875", "source": "Gayangos & de la Fuente, Cartas de los secretarios del cardenal Cisneros (Madrid 1875), cartas XLIX, LIV"}
+  ]
  }
 }

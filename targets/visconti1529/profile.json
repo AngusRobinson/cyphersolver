@@ -242,6 +242,9 @@
    }
   ],
   "fraction_read_method": "measured",
-  "fraction_read_source": "targets/visconti1529/fr3045_f28_final.md (push pass) and fr3096_f91_final.md, by script over the token files: 741/778 + 667/699 = 1408/1477 cipher glyphs read as sense; sense-open, unread and code glyphs counted as unread"
+  "fraction_read_source": "targets/visconti1529/fr3045_f28_final.md (push pass) and fr3096_f91_final.md, by script over the token files: 741/778 + 667/699 = 1408/1477 cipher glyphs read as sense; sense-open, unread and code glyphs counted as unread",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "key table 'BNF Francais 3045f28 and 3034f154' on cryptiana GL.htm, as extended on visconti1528", "date": "2023-11-05", "source": "https://cryptiana.web.fc2.com/code/GL.htm"}
+  ]
  }
 }

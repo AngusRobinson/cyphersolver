@@ -56,6 +56,20 @@ reader could check against the folder. Rules:
    test cannot run (transposition, no token alignment, non-alphabetic plaintext) record why with
    `--na "reason"`. Never edit the reading to make it pass; a weak or fail verdict is a finding.
 
+9. **Credits and provenance.** `outcome.credits` names everyone outside the project who contributed, one item per
+   person and role: `{"who": <contributors.json id>, "role": ..., "note", "date", "source", "published"}`. Roles:
+   solution, new cipher, new cipher with solution, verification (George Lasry's four kinds of contribution), key or
+   decipherment used (whose key, table, decipherment or edition was applied; `contemporary` for one made at the time,
+   `decode` for an unattributed DECODE key), prior solution (`published: false` when unpublished), key corrected,
+   transcription, identification, pointer (pointed to a key, source, crib or error the work used). Add a new person
+   to `contributors.json` first; the checker rejects an unknown id. Do not credit the project, a catalogue that only
+   listed the target, or an archive that only holds the images. `outcome.provenance`: `contributed` when an outside
+   contributor produced the result and the project only checked it, `mixed` when one extended the other, omitted for
+   the project's own work. `contributed` results are left out of the paper data. From 13 Oct 2026 a target whose
+   method applied an existing key or decipherment must credit its owner (`_check_profile.py`). An outside check of
+   the reading adds a `verification` credit and "independent verification" to `outcome.verification`. Never credit
+   the withheld fr. 3029 / fr. 3092 targets.
+
 Keep `system.summary` to one sentence. Put prose in the `notes` fields, and keep those short: NOTES.md stays
 the narrative.
 

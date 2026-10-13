@@ -163,6 +163,9 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Printed 1877/1895; re-read here from the glyphs with four corrections to the print. NOTES Status says 'read'; the README lists it under 'Found already solved by others', which this class follows. codes_open counts the three identified name signs plus the two unread signs after 'regina' as 5 (the README row calls those two 'name signs'; NOTES only '2 signs')."
+  "notes": "Printed 1877/1895; re-read here from the glyphs with four corrections to the print. NOTES Status says 'read'; the README lists it under 'Found already solved by others', which this class follows. codes_open counts the three identified name signs plus the two unread signs after 'regina' as 5 (the README row calls those two 'name signs'; NOTES only '2 signs').",
+  "credits": [
+    {"who": "fraknoi", "role": "key or decipherment used", "note": "printed text (Mátyás király levelei II no. 131; also Magyar diplomácziai emlékek III no. 14, 1877) aligned to rebuild the key; four passages corrected", "date": "1895", "source": "Fraknói, Mátyás király levelei. Külügyi osztály II (1895), no. 131, pp. 232-233"}
+  ]
  }
 }

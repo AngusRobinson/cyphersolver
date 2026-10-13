@@ -245,6 +245,9 @@
     "blocker": "too-short",
     "detail": "no key on DECODE or in the volume, too few groups to rebuild one"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "verification", "note": "glosses on f. 89 (R8493) confirm the letter values"}
   ]
  }
 }

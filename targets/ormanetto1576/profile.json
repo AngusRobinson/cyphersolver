@@ -178,6 +178,11 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "R117 is not a cipher. The year of R118 (1576 Ormanetto, or 1577 Sega four days after reaching Madrid) and the writer 'Clementino' stay open."
+  "notes": "R117 is not a cipher. The year of R118 (1576 Ormanetto, or 1577 Sega four days after reaching Madrid) and the writer 'Clementino' stay open.",
+  "provenance": "mixed",
+  "credits": [
+    {"who": "devadas", "role": "key or decipherment used", "note": "Spain nunciature cifra ordinaria (emailed 1 Oct 2026) reads R118", "date": "2026-10-01", "source": "email to the project, 1 Oct 2026"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the Italian note on the leaf is the decifrato (minus the dateline)"}
+  ]
  }
 }

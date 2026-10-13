@@ -386,6 +386,9 @@
    "open": 6,
    "total": 6
   },
-  "first_break": false
+  "first_break": false,
+  "credits": [
+    {"who": "butler", "role": "prior solution", "note": "The Edmondes Papers prints five of the six letters deciphered (found after the reading)", "date": "1913"}
+  ]
  }
 }

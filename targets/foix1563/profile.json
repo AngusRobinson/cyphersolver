@@ -250,6 +250,14 @@
     "detail": "No decipherment or clear copy found; homophonic annealing negative on a first-pass transcription. Next: TNA SP 70/49-50 and French register copies."
    }
   ],
-  "notes": "Catalogue 92. R9238 closed as already solved (in print); R9241 attempted, open. Status: in progress."
+  "notes": "Catalogue 92. R9238 closed as already solved (in print); R9241 attempted, open. Status: in progress.",
+  "provenance": "mixed",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "English decipherment of R9238 on the original (CSP Foreign vi no. 76)"},
+    {"who": "forbes", "role": "key or decipherment used", "note": "R9238 clear text printed in Full View ii (1741) 272-274", "date": "1741", "source": "Forbes, A Full View of the Public Transactions in the Reign of Q. Elizabeth ii (1741) 272-274"},
+    {"who": "beck", "role": "solution", "note": "PR #18 (with ChatGPT): proposed partial decipherment of R9241, judged a real partial break; PR #27: five-sign audit", "date": "2026-10-03", "source": "https://github.com/dbourdeau/cyphersolver/pull/18; https://github.com/dbourdeau/cyphersolver/pull/27"},
+    {"who": "feyseel", "role": "solution", "note": "PR #21: R9241's key identified as de Foix's 1565 cipher; frozen-key partial reading, independently confirming Beck", "date": "2026-10-04", "source": "https://github.com/dbourdeau/cyphersolver/pull/21"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "reconstruction of Paul de Foix's 1565 cipher (henryiii.htm#Foix0), the key of R9241"}
+  ]
  }
 }

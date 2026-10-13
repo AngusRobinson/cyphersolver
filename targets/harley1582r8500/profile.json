@@ -145,6 +145,9 @@
   },
   "verification": ["key confirms", "historical consistency"],
   "gaps": [],
-  "notes": "All five runs read as sense; four sign values from context only."
+  "notes": "All five runs read as sense; four sign values from context only.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "decipherment on f. 72r (R8501) and glosses on f. 73r (R8502), the crib for the key"}
+  ]
  }
 }

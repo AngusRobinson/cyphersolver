@@ -117,6 +117,9 @@
       {"item": "f. 15r-v continuous transcription", "blocker": "illegible", "detail": "Minute interlinear French is crossed by larger cipher signs and locally faded; enlarged crop pass recovered anchors but not a defensible continuous text."},
       {"item": "exact 1574 substitution table", "blocker": "illegible", "detail": "1584 Nevers no. 2 is similar but differs. Exact table could be rebuilt by glyph-level alignment of the f. 21 cipher slip with its interlinear Italian gloss."},
       {"item": "f. 21 first-sentence expression", "blocker": "illegible", "detail": "Fair copy appears to read 'per saluato suo'; perhaps a personal name or abbreviation."}
+    ],
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "clear copy under the cipher flap (f. 21) and interlinear decipherment of f. 15"}
     ]
   }
 }

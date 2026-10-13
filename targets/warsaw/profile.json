@@ -235,6 +235,9 @@
     "blocker": "illegible",
     "detail": "Image checked: they stand as written inside complete words; read as nulls."
    }
+  ],
+  "credits": [
+    {"who": "tomokiyo", "role": "transcription", "note": "ciphertext transcription (cryptiana variable2.htm), corrected twice on the image", "source": "http://cryptiana.web.fc2.com/code/variable2.htm"}
   ]
  }
 }

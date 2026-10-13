@@ -235,6 +235,9 @@
    "total": 10,
    "tokens_open": "unknown"
   },
-  "verification": ["historical consistency", "contemporary decipherment", "statistical test"]
+  "verification": ["historical consistency", "contemporary decipherment", "statistical test"],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherments on f. 131 (and f. 139 glosses) of the same informant's letters"}
+  ]
  }
 }

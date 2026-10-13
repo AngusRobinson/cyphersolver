@@ -54,6 +54,9 @@
   "class": "already solved",
   "key": "recovered",
   "verification": ["key confirms"],
-  "notes": "Solved by Bean 2026; only spot-checked here, nothing added; key state is Bean's. README lists it among entries solved by others and not counted in the results."
+  "notes": "Solved by Bean 2026; only spot-checked here, nothing added; key state is Bean's. README lists it among entries solved by others and not counted in the results.",
+  "credits": [
+    {"who": "bean", "role": "key or decipherment used", "note": "solution of the Milroy telegrams (Stager cipher No. 7, with Claude Opus 5), spot-checked here; nothing added", "date": "2026", "source": "https://cryptiana.web.fc2.com/code/civilwar1b_milroy.htm"}
+  ]
  }
 }

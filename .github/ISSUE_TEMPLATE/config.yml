@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Send it by email instead
+    url: mailto:dnbourdeau@gmail.com
+    about: Not comfortable with GitHub? Email the same details; the entry is made for you and credited the same way.
+  - name: How to contribute
+    url: https://dbourdeau.github.io/cyphersolver/contribute.html
+    about: The four kinds of contribution, what to send, and how credit works.

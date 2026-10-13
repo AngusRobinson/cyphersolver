@@ -273,6 +273,9 @@
    "open": 15,
    "total": "unknown",
    "tokens_open": 20
-  }
+  },
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "William V's 1782 Grand Chiffre (DECODE R1024); R1028 plaintext as control"}
+  ]
  }
 }

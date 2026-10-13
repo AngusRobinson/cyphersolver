@@ -116,6 +116,10 @@
   "codes_open": {"open": 2, "total": "unknown", "tokens_open": 2},
   "grades": "unknown",
   "verification": ["key confirms", "historical consistency"],
-  "notes": "Both keys survive and were applied directly; no cryptanalysis. Nos. 4, 5 and 7 of the register are not on DECODE and have no document entry. The clear text of Nos. 2, 3, 6 is only summarised around the cipher passages."
+  "notes": "Both keys survive and were applied directly; no cryptanalysis. Nos. 4, 5 and 7 of the register are not on DECODE and have no document entry. The clear text of Nos. 2, 3, 6 is only summarised around the cipher passages.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Chancellery key R5017 and private key R5018 in the family archive"},
+    {"who": "mirka", "role": "pointer", "note": "Zapadoceske archivy 2012 article describing the letters and keys", "date": "2012"}
+  ]
  }
 }

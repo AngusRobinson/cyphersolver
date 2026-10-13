@@ -153,6 +153,9 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "Printed 1741 by Forbes. Catalogue entry 91 removed, no write-up."
+  "notes": "Printed 1741 by Forbes. Catalogue entry 91 removed, no write-up.",
+  "credits": [
+    {"who": "forbes", "role": "key or decipherment used", "note": "A Full View ii (1741) pp. 470-75, 490-92: both letters printed with the cipher deciphered", "date": "1741", "source": "Patrick Forbes, A Full View of the Public Transactions in the Reign of Q. Elizabeth, vol. II (London 1741), pp. 470-75, 490-92"}
+  ]
  }
 }

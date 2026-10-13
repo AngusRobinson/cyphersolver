@@ -231,6 +231,12 @@
     "blocker": "illegible"
    }
   ],
-  "notes": "Cryptanalysis by Alex Zarco (PR #24) building on NoAutopilot's partial key; this project found the crib (21 Sept) and verified. Date corrected 3 -> 4 July 1592. Contribution here is verification, the date and the DECODE correction."
+  "notes": "Cryptanalysis by Alex Zarco (PR #24) building on NoAutopilot's partial key; this project found the crib (21 Sept) and verified. Date corrected 3 -> 4 July 1592. Contribution here is verification, the date and the DECODE correction.",
+  "provenance": "contributed",
+  "credits": [
+    {"who": "zarco", "role": "solution", "note": "PR #24: transcription, key rebuilt from the f. 128 gloss, f. 130 deciphered", "date": "2026-10-06", "source": "https://github.com/dbourdeau/cyphersolver/pull/24"},
+    {"who": "noautopilot", "role": "prior solution", "note": "partial key and word fragments of f. 130, completed by PR #24", "date": "2026-09", "source": "https://github.com/noautopilot/cipher-lab"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment of sibling f. 128, the crib"}
+  ]
  }
 }

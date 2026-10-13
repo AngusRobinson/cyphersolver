@@ -179,6 +179,10 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Additions beyond the 1589 copies: several nomenclator readings and two copyist corrections; asterisked proposals unverified without the Simancas table."
+  "notes": "Additions beyond the 1589 copies: several nomenclator readings and two copyist corrections; asterisked proposals unverified without the Simancas table.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "1589 decipherer's fair copies ff. 14 and 76; Phelippes's interlinear readings f. 5", "date": "1589"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "published Cg.13 table fragment, used to check and fill the partial table", "source": "S. Tomokiyo, Thomas Phelippes' Deciphering of Spanish Ciphers Found in French Archives (cryptiana)"}
+  ]
  }
 }

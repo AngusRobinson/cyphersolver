@@ -137,6 +137,15 @@
    "key confirms",
    "matched control"
   ],
-  "notes": "Nothing read here that the 2017 readers had not read; the thread consolidated and the sixteenth key rebuilt. Ten messages remain open, needing the Childs originals or an unlisted key."
+  "notes": "Nothing read here that the 2017 readers had not read; the thread consolidated and the sixteenth key rebuilt. Ten messages remain open, needing the Childs originals or an unlisted key.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "published period keys (with Niebel, Kopal, Wacker) and his sixteenth (CHI 13 Nov) key from Cipherbrain comment 50"},
+    {"who": "lasry", "role": "prior solution", "note": "read messages in the 2017 Cipherbrain thread (comments 50-53), incl. the CHI 13 Nov pair", "date": "2017"},
+    {"who": "niebel", "role": "key or decipherment used", "note": "published ADFGVX period keys (Lasry, Niebel, Kopal, Wacker)"},
+    {"who": "kopal", "role": "key or decipherment used", "note": "published ADFGVX period keys (Lasry, Niebel, Kopal, Wacker)"},
+    {"who": "wacker", "role": "key or decipherment used", "note": "published ADFGVX period keys (Lasry, Niebel, Kopal, Wacker)"},
+    {"who": "biermann", "role": "prior solution", "note": "'Norbert' of the 2017 Cipherbrain thread (comments 15-49): most of the solved messages; his block-edit method reimplemented here", "date": "2017"},
+    {"who": "baertl", "role": "prior solution", "note": "read a message in the 2017 Cipherbrain thread (comment 39)", "date": "2017"}
+  ]
  }
 }

@@ -120,6 +120,10 @@
   "verification": [
    "matched control"
   ],
-  "notes": "Ernst's 2017 doodle claim confirmed; no message."
+  "notes": "Ernst's 2017 doodle claim confirmed; no message.",
+  "credits": [
+    {"who": "ernst", "role": "prior solution", "note": "argued the digit block is a doodle (tick-joined pairs give 10-52 once each), confirmed here", "date": "2017", "source": "Cipherbrain comments to Schmeh's Top 50 no. 17 post (Dec 2017)"},
+    {"who": "gerd", "role": "prior solution", "note": "extended Ernst's argument to the full permutation 1..52; his number list matches the reading", "date": "2017", "source": "Cipherbrain comments to Schmeh's Top 50 no. 17 post"}
+  ]
  }
 }

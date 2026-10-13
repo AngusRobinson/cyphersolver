@@ -121,6 +121,9 @@
   },
   "verification": ["key confirms", "historical consistency"],
   "gaps": [],
-  "notes": "Single word read; two sign values from context."
+  "notes": "Single word read; two sign values from context.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "f. 72r decipherment and f. 73r glosses, through the key rebuilt in harley1582r8500"}
+  ]
  }
 }

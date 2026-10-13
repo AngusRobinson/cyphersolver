@@ -224,6 +224,9 @@
   ],
   "fraction_read_method": "estimated",
   "fraction_read_source": "Whole target not measurable: Noailles' ~150 signs are not transcribed and the Seure letters (~2,000 signs, not a document entry) are unread. La Guiche alone, counted from guiche_ct.txt (406 signs) against reading_raw.txt: ~352/406 = 0.87 read (unread: most of struck lines L0-L1, the name '+arna+e' x2 = 14 signs, 'lamraq?' in L3, three '?' signs); that line judgement is by eye. 0.17 kept as the by-sign estimate over the catalogue entry.",
-  "key": "partial"
+  "key": "partial",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "court's marginal decipherment of the Noailles letter (fr. 3151)"}
+  ]
  }
 }

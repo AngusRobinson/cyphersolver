@@ -134,6 +134,9 @@
    "contemporary decipherment"
   ],
   "gaps": [],
-  "notes": "Read at the time; all four runs re-read sign by sign and the letter values rebuilt (partial alphabet, three name codes, null 6). DECODE recipient 'unknown' is Walsingham; place is Paris."
+  "notes": "Read at the time; all four runs re-read sign by sign and the letter values rebuilt (partial alphabet, three name codes, null 6). DECODE recipient 'unknown' is Walsingham; place is Paris.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment of the four runs on f. 74v"}
+  ]
  }
 }

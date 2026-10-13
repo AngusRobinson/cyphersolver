@@ -431,6 +431,9 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Solved by Lasry in 2020 except the nomenclator, which his key leaves wholly unvalued; 46 groups recovered here from context, 120 open (mostly 1-2 occurrences)."
+  "notes": "Solved by Lasry in 2020 except the nomenclator, which his key leaves wholly unvalued; 46 groups recovered here from context, 120 open (mostly 1-2 occurrences).",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "solved and read Spagna 423 in 2020: key \"ASV - S423\" and segmented decipherment on DECODE R179-R188, R26; 46 nomenclator values added here", "date": "2020-10-24", "source": "DECODE R179-R188, R26"}
+  ]
  }
 }

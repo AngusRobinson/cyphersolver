@@ -122,6 +122,10 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time and calendared by Bain (no. 1103) in summary only; the stain-faded decipherment is replaced here by a full reading from the cipher (reading.md, write-up throck1569.html). Sender identified, DECODE date corrected to 20 July. Name signs Z, M, La unresolved. Catalogue entry 83 removed."
+  "notes": "Read at the time and calendared by Bain (no. 1103) in summary only; the stain-faded decipherment is replaced here by a full reading from the cipher (reading.md, write-up throck1569.html). Sender identified, DECODE date corrected to 20 July. Name signs Z, M, La unresolved. Catalogue entry 83 removed.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "Throckmorton-Moray key (cryptiana mary.htm, filed on DECODE R8348)", "date": "2024", "source": "https://cryptiana.web.fc2.com/code/mary.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment (half faded), used as a check"}
+  ]
  }
 }

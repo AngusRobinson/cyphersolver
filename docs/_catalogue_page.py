@@ -16,6 +16,7 @@ ROOT = HERE.parent
 DATA = json.loads((ROOT / 'catalogue.json').read_text(encoding='utf-8'))
 W = DATA['weights_default']
 GALLICA = 'https://gallica.bnf.fr/ark:/12148/'
+CONTRIB = {c['id']: c for c in json.loads((ROOT / 'contributors.json').read_text(encoding='utf-8'))['contributors']}
 
 
 def priority(e, w=W):
@@ -154,6 +155,9 @@ def row(e):
     if e.get('outcome'): noted += f' <span class="noted out">{esc(e["outcome"])}</span>'
     if e.get('scored') == 'rule': noted += ' <span class="noted" title="scored by script from DECODE metadata, not reviewed">rule-scored</span>'
     if e.get('scored') == 'sweep': noted += ' <span class="noted" title="added by the new-solves sweep of 22 Sept 2026, scored by hand from descriptions">new 22 Sept</span>'
+    if e.get('contributed_by'):          # a cipher brought in by an outside contributor (contributors.json id)
+        who = CONTRIB.get(e['contributed_by'], {}).get('name', e['contributed_by'])
+        noted += f' <a class="noted by" href="contributors.html#{esc(e["contributed_by"])}" title="brought into the catalogue by {esc(who)}">via {esc(who)}</a>'
     if e.get('on_list'): noted += f' <span class="noted" title="also on this list">{esc(e["on_list"])} list</span>'
     detail = (f'<div class="det"><div><b>Correspondents.</b> {esc(e["correspondents"])} · {esc(e["place"])} · {esc(e["language"])}</div>'
               f'<div><b>Shelfmark.</b> {esc(e["shelfmark"])}{(" · " + arks) if arks else ""}{(" · " + esc(e["folio_note"])) if e.get("folio_note") else ""}</div>'

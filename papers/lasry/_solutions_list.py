@@ -66,6 +66,7 @@ def item(it):
     prof = json.loads((ROOT / 'targets' / it['profile'] / 'profile.json').read_text(encoding='utf-8'))
     o = prof['outcome']
     method, ext = o.get('method', 'unknown'), M.extent(prof)
+    assert o.get('provenance') != 'contributed', f"{it['slug']}: contributed by an outside solver, not an LLM solution of this project"
     if it.get('part'):
         part = next(x for x in o['parts'] if x['label'] == it['part'])
         method, ext = part['method'], part['extent']

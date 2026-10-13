@@ -1,0 +1,31 @@
+name: Verification
+description: An independent check of a reading already in the ledger (see the queue on contributors.html#verify).
+title: "Verification: <write-up page>"
+labels: [contribution, verification]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Write-up
+      placeholder: "https://dbourdeau.github.io/cyphersolver/<page>.html"
+    validations: {required: true}
+  - type: textarea
+    id: passage
+    attributes:
+      label: Passage and images
+      description: Which passage you deciphered, and from which images.
+    validations: {required: true}
+  - type: textarea
+    id: agree
+    attributes:
+      label: Where your reading agrees, and every place it does not
+    validations: {required: true}
+  - type: textarea
+    id: key
+    attributes:
+      label: Key values you would change
+      description: With the evidence.
+  - type: input
+    id: credit
+    attributes:
+      label: How to credit you

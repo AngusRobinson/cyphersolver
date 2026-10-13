@@ -282,6 +282,10 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Measured 5 Oct 2026 with measure.py: 1,298 of 1,324 cipher tokens (98.0%) belong to words read as sense, A 97.8%, B 98.4%; strictest variant 95.0%; shuffled-key control 23% mean. Five signs re-read on the scans. The earlier 0.90 was AJ's word estimate (non-code words only), not a token measure. Italian: passage A is Philip II on the league and the Emperor, B on Pitigliano. Pitigliano not checked against 1573 sources."
+  "notes": "Measured 5 Oct 2026 with measure.py: 1,298 of 1,324 cipher tokens (98.0%) belong to words read as sense, A 97.8%, B 98.4%; strictest variant 95.0%; shuffled-key control 23% mean. Five signs re-read on the scans. The earlier 0.90 was AJ's word estimate (non-code words only), not a token measure. Italian: passage A is Philip II on the league and the Emperor, B on Pitigliano. Pitigliano not checked against 1573 sources.",
+  "provenance": "mixed",
+  "credits": [
+    {"who": "devadas", "role": "key or decipherment used", "note": "Spain nunciature cifra ordinaria reconstructed (with Claude) from R116/R118 and emailed; applied to the project's transcription and verified", "date": "2026-10-01", "source": "email to the project, 1 Oct 2026"}
+  ]
  }
 }

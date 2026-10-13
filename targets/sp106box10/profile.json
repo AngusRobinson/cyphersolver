@@ -773,6 +773,9 @@
     "codes_open": {
       "open": "unknown",
       "total": "unknown"
-    }
+    },
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "the Jacobean codebreaker's key sheet DECODE R725, grid R658 and interlinear solutions"}
+    ]
   }
 }

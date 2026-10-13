@@ -1,0 +1,842 @@
+{
+  "_about": "Everyone credited on a target (profile.json outcome.credits[].who is an id here). kind: project = this project; person = a living or modern contributor, scholar or organisation (ranked on the Contributors page); historical = earlier scholarship whose keys or editions are used (listed, not ranked); archive = contemporary keys and decipherments, chanceries, deciphering offices; database = DECODE and similar. github: logins, for matching pull requests and issues. aliases: other spellings found in the notes. Add a contributor here before crediting them; docs/_check_profile.py rejects an unknown id.",
+  "contributors": [
+    {
+      "id": "project",
+      "name": "Daniel Bourdeau, with Claude",
+      "kind": "project",
+      "url": "https://github.com/dbourdeau/cyphersolver",
+      "github": [
+        "dbourdeau"
+      ],
+      "note": "The project itself: targets chosen and checked by Daniel Bourdeau, the cryptanalysis, transcription and write-ups done with Anthropic's Claude models (Opus, Fable) in Claude Code."
+    },
+    {
+      "id": "lasry",
+      "name": "George Lasry",
+      "kind": "person",
+      "aliases": [
+        "Lasry",
+        "G. Lasry"
+      ],
+      "note": "Cryptanalyst (DECODE, CrypTool); co-author of the LLM paper; many keys on DECODE and in Tomokiyo's GL.htm; unpublished solutions shared privately."
+    },
+    {
+      "id": "tomokiyo",
+      "name": "Satoshi Tomokiyo",
+      "kind": "person",
+      "url": "https://cryptiana.web.fc2.com/",
+      "aliases": [
+        "Tomokiyo",
+        "S. Tomokiyo",
+        "Cryptiana"
+      ],
+      "note": "Cryptiana: the catalogue of unsolved historical ciphers most targets come from, and many published keys and overlays."
+    },
+    {
+      "id": "somogyi",
+      "name": "Judit W. Somogyi",
+      "kind": "person",
+      "aliases": [
+        "Somogyi",
+        "W. Somogyi"
+      ]
+    },
+    {
+      "id": "luo",
+      "name": "Wanruo Luo",
+      "kind": "person",
+      "aliases": [
+        "Luo"
+      ]
+    },
+    {
+      "id": "kopal",
+      "name": "Nils Kopal",
+      "kind": "person",
+      "aliases": [
+        "Kopal"
+      ]
+    },
+    {
+      "id": "waldispuhl",
+      "name": "Michelle Waldispühl",
+      "kind": "person",
+      "aliases": [
+        "Waldispühl",
+        "Waldispuhl"
+      ]
+    },
+    {
+      "id": "biermann",
+      "name": "Norbert Biermann",
+      "kind": "person",
+      "aliases": [
+        "Biermann"
+      ]
+    },
+    {
+      "id": "klee",
+      "name": "Simon Klee",
+      "kind": "person",
+      "aliases": [
+        "Klee"
+      ]
+    },
+    {
+      "id": "pitt",
+      "name": "Robert Pitt",
+      "kind": "person",
+      "aliases": [
+        "Pitt",
+        "R. Pitt"
+      ]
+    },
+    {
+      "id": "satoru",
+      "name": "Satoru",
+      "kind": "person",
+      "aliases": [
+        "Satoru"
+      ],
+      "url": "https://satoru.net/crypt/vizani/",
+      "note": "satoru.net; worked with Claude Opus 5.5."
+    },
+    {
+      "id": "devadas",
+      "name": "Ajaydas Devadas",
+      "kind": "person",
+      "aliases": [
+        "Devadas",
+        "AJ Devadas"
+      ]
+    },
+    {
+      "id": "bonavoglia",
+      "name": "Paolo Bonavoglia",
+      "kind": "person",
+      "aliases": [
+        "Bonavoglia"
+      ]
+    },
+    {
+      "id": "bean",
+      "name": "Richard Bean",
+      "kind": "person",
+      "github": [
+        "RichardBean"
+      ],
+      "aliases": [
+        "Bean"
+      ]
+    },
+    {
+      "id": "pillon",
+      "name": "Alexandre Pillon",
+      "kind": "person",
+      "aliases": [
+        "Pillon"
+      ]
+    },
+    {
+      "id": "kolosova",
+      "name": "Olga Kolosova",
+      "kind": "person",
+      "aliases": [
+        "Kolosova"
+      ]
+    },
+    {
+      "id": "niebel",
+      "name": "Ingo Niebel",
+      "kind": "person",
+      "aliases": [
+        "Niebel"
+      ]
+    },
+    {
+      "id": "wacker",
+      "name": "Wacker",
+      "kind": "person",
+      "aliases": [
+        "Wacker"
+      ]
+    },
+    {
+      "id": "ernst",
+      "name": "Thomas Ernst",
+      "kind": "person",
+      "aliases": [
+        "Ernst"
+      ]
+    },
+    {
+      "id": "woodard",
+      "name": "Woodard",
+      "kind": "person",
+      "aliases": [
+        "Woodard"
+      ],
+      "note": "Transcriber and decipherer on DECODE."
+    },
+    {
+      "id": "mirka",
+      "name": "Mírka",
+      "kind": "person",
+      "aliases": [
+        "Mírka",
+        "Mirka"
+      ],
+      "note": "Key spreadsheets on DECODE records."
+    },
+    {
+      "id": "schmeh",
+      "name": "Klaus Schmeh",
+      "kind": "person",
+      "url": "https://scienceblogs.de/klausis-krypto-kolumne/",
+      "aliases": [
+        "Schmeh"
+      ]
+    },
+    {
+      "id": "dunin",
+      "name": "Elonka Dunin",
+      "kind": "person",
+      "url": "https://elonka.com/UnsolvedCodes.html",
+      "aliases": [
+        "Elonka",
+        "Dunin"
+      ]
+    },
+    {
+      "id": "galende",
+      "name": "Juan Carlos Galende Díaz",
+      "kind": "person",
+      "aliases": [
+        "Galende",
+        "Galende Díaz"
+      ]
+    },
+    {
+      "id": "arya",
+      "name": "Arya Sanketbhai Patel",
+      "kind": "person",
+      "github": [
+        "aryasn2026",
+        "arya1515"
+      ],
+      "aliases": [
+        "Arya"
+      ]
+    },
+    {
+      "id": "zarco",
+      "name": "alejandrozarco",
+      "kind": "person",
+      "github": [
+        "alejandrozarco"
+      ]
+    },
+    {
+      "id": "feyseel",
+      "name": "Feyseel Nur",
+      "kind": "person",
+      "github": [
+        "Feyseel"
+      ],
+      "aliases": [
+        "Feyseel"
+      ]
+    },
+    {
+      "id": "beck",
+      "name": "Larry Beck",
+      "kind": "person",
+      "github": [
+        "larrycbeck"
+      ],
+      "aliases": [
+        "Larry Beck"
+      ]
+    },
+    {
+      "id": "lccompany",
+      "name": "WAINUT",
+      "kind": "person",
+      "github": [
+        "LcCompany"
+      ],
+      "url": "https://github.com/WAINUTAI",
+      "note": "A Dutch AI company; pull requests from the LcCompany account, work done with Claude Opus 5.5 subagents."
+    },
+    {
+      "id": "robinson",
+      "name": "Angus Robinson",
+      "kind": "person",
+      "github": [
+        "AngusRobinson"
+      ]
+    },
+    {
+      "id": "setsunaatto",
+      "name": "setsunaatto",
+      "kind": "person",
+      "github": [
+        "setsunaatto"
+      ]
+    },
+    {
+      "id": "tunarob",
+      "name": "Robert Węglarek",
+      "kind": "person",
+      "github": [
+        "tunarob"
+      ]
+    },
+    {
+      "id": "yuanyi",
+      "name": "yuanyi-350",
+      "kind": "person",
+      "github": [
+        "yuanyi-350"
+      ]
+    },
+    {
+      "id": "wanglu",
+      "name": "wanglu2016",
+      "kind": "person",
+      "github": [
+        "wanglu2016"
+      ]
+    },
+    {
+      "id": "noautopilot",
+      "name": "NoAutopilot",
+      "kind": "person",
+      "github": [
+        "NoAutopilot"
+      ]
+    },
+    {
+      "id": "rubislaw32",
+      "name": "Rubislaw32",
+      "kind": "person",
+      "aliases": [
+        "Rubislaw32"
+      ]
+    },
+    {
+      "id": "bazeries",
+      "name": "Étienne Bazeries",
+      "kind": "historical",
+      "aliases": [
+        "Bazeries"
+      ]
+    },
+    {
+      "id": "meister",
+      "name": "Aloys Meister",
+      "kind": "historical",
+      "aliases": [
+        "Meister",
+        "A. Meister"
+      ]
+    },
+    {
+      "id": "rommel",
+      "name": "Christoph von Rommel",
+      "kind": "historical",
+      "aliases": [
+        "Rommel"
+      ]
+    },
+    {
+      "id": "contemporary",
+      "name": "Contemporary key or decipherment",
+      "kind": "archive",
+      "note": "A key sheet, decipherment or clear copy made at the time (chancery, deciphering office, the recipient's secretary), found in the archive."
+    },
+    {
+      "id": "decode",
+      "name": "DECODE database",
+      "kind": "database",
+      "url": "https://de-crypt.org/",
+      "aliases": [
+        "DECODE"
+      ],
+      "note": "The DECODE database of historical ciphers (Megyesi et al.): images, transcriptions and keys contributed by many people."
+    },
+    {
+      "id": "aymeloglu",
+      "name": "Andrew Aymeloglu",
+      "kind": "person",
+      "github": [
+        "aaymeloglu"
+      ]
+    },
+    {
+      "id": "baertl",
+      "name": "Max Baertl",
+      "kind": "person",
+      "note": "Commenter on Schmeh's 2017 ADFGVX thread who read messages."
+    },
+    {
+      "id": "bosbach",
+      "name": "Thomas Bosbach",
+      "kind": "person",
+      "note": "Cipherbrain commenter; Catokwacopa DYING DECLARATION; Charles I 1648 nomenclator with Biermann and Brown."
+    },
+    {
+      "id": "brown",
+      "name": "Matthew Brown",
+      "kind": "person",
+      "aliases": [
+        "Matthew Brown"
+      ]
+    },
+    {
+      "id": "dudout",
+      "name": "Brice Dudout",
+      "kind": "person",
+      "url": "https://bdudout.github.io/wenmi/",
+      "github": [
+        "bdudout"
+      ],
+      "aliases": [
+        "Dudout"
+      ]
+    },
+    {
+      "id": "estes",
+      "name": "Lance Estes",
+      "kind": "person",
+      "note": "Catokwacopa Oxford-vocabulary reading (with 'Dave'), Cipherbrain."
+    },
+    {
+      "id": "gerd",
+      "name": "Gerd",
+      "kind": "person",
+      "aliases": [
+        "Gerd"
+      ],
+      "note": "Commenter on Klaus Schmeh's Cipherbrain blog."
+    },
+    {
+      "id": "ilya",
+      "name": "Ilya",
+      "kind": "person",
+      "aliases": [
+        "Ilya"
+      ],
+      "note": "Reader who wrote by email (Sept 2026); surname not recorded."
+    },
+    {
+      "id": "joe",
+      "name": "Joe",
+      "kind": "person",
+      "aliases": [
+        "Joe"
+      ],
+      "note": "Commenter on Klaus Schmeh's Cipherbrain blog."
+    },
+    {
+      "id": "kaczka",
+      "name": "M. W. Kaczka",
+      "kind": "person",
+      "aliases": [
+        "Kaczka"
+      ]
+    },
+    {
+      "id": "kalning",
+      "name": "Pamela Kalning, Matthias Miller, Karin Zimmermann (Heidelberg catalogue 2014)",
+      "kind": "person",
+      "aliases": [
+        "Kalning"
+      ]
+    },
+    {
+      "id": "krajcovic",
+      "name": "Jozef Krajčovič",
+      "kind": "person",
+      "note": "Catokwacopa QUI FIT reading and exact-cost audits, Cipherbrain."
+    },
+    {
+      "id": "parisi",
+      "name": "Ivan Parisi",
+      "kind": "person"
+    },
+    {
+      "id": "pettersson",
+      "name": "Sofia Pettersson",
+      "kind": "person",
+      "aliases": [
+        "Pettersson",
+        "SofPe"
+      ],
+      "note": "Transcriber on DECODE."
+    },
+    {
+      "id": "rieber",
+      "name": "Christof Rieber",
+      "kind": "person",
+      "aliases": [
+        "Rieber"
+      ]
+    },
+    {
+      "id": "rous",
+      "name": "Anne-Simone Rous",
+      "kind": "person",
+      "aliases": [
+        "Rous"
+      ]
+    },
+    {
+      "id": "senatore",
+      "name": "Francesco Senatore",
+      "kind": "person",
+      "aliases": [
+        "Senatore"
+      ]
+    },
+    {
+      "id": "valsai",
+      "name": "Vals AI",
+      "kind": "person",
+      "aliases": [
+        "Vals AI",
+        "Vals"
+      ]
+    },
+    {
+      "id": "vierra",
+      "name": "David Vierra",
+      "kind": "person",
+      "github": [
+        "codewarrior0"
+      ]
+    },
+    {
+      "id": "weierud",
+      "name": "Frode Weierud",
+      "kind": "person",
+      "url": "https://cryptocellar.org/",
+      "aliases": [
+        "Weierud"
+      ]
+    },
+    {
+      "id": "wright",
+      "name": "Adam Wright",
+      "kind": "person",
+      "aliases": [
+        "Adam Wright"
+      ]
+    },
+    {
+      "id": "avenel",
+      "name": "Denis-Louis-Martial Avenel",
+      "kind": "historical",
+      "aliases": [
+        "Avenel"
+      ]
+    },
+    {
+      "id": "baguenault",
+      "name": "Gustave Baguenault de Puchesse",
+      "kind": "historical",
+      "aliases": [
+        "Baguenault de Puchesse",
+        "Baguenault"
+      ]
+    },
+    {
+      "id": "bain",
+      "name": "Joseph Bain",
+      "kind": "historical",
+      "aliases": [
+        "Bain"
+      ]
+    },
+    {
+      "id": "bergenroth",
+      "name": "Gustav Adolph Bergenroth",
+      "kind": "historical",
+      "aliases": [
+        "Bergenroth"
+      ]
+    },
+    {
+      "id": "berger",
+      "name": "Jules Berger de Xivrey",
+      "kind": "historical",
+      "note": "Recueil des lettres missives de Henri IV (1843-76)."
+    },
+    {
+      "id": "berzeviczy",
+      "name": "Albert Berzeviczy",
+      "kind": "historical",
+      "note": "Aragoniai Beatrix magyar királyné életére vonatkozó okiratok (1914)."
+    },
+    {
+      "id": "birch",
+      "name": "Thomas Birch",
+      "kind": "historical",
+      "aliases": [
+        "Birch"
+      ],
+      "note": "A Collection of the State Papers of John Thurloe (1742)."
+    },
+    {
+      "id": "bourrilly",
+      "name": "V.-L. Bourrilly and P. de Vaissière",
+      "kind": "historical"
+    },
+    {
+      "id": "boyd",
+      "name": "William K. Boyd",
+      "kind": "historical",
+      "aliases": [
+        "Boyd"
+      ]
+    },
+    {
+      "id": "brewer",
+      "name": "J. S. Brewer",
+      "kind": "historical",
+      "aliases": [
+        "Brewer",
+        "L&P",
+        "Letters and Papers"
+      ]
+    },
+    {
+      "id": "buchi",
+      "name": "Albert Büchi",
+      "kind": "historical",
+      "aliases": [
+        "Büchi",
+        "Buchi"
+      ]
+    },
+    {
+      "id": "bussemaker",
+      "name": "Th. Bussemaker",
+      "kind": "historical",
+      "note": "BMHG 27 (1906): Dutch summaries with verbatim French sentences of d'Affry's intercepted letters."
+    },
+    {
+      "id": "butler",
+      "name": "G. G. Butler",
+      "kind": "historical",
+      "aliases": [
+        "Butler"
+      ],
+      "note": "The Edmondes Papers (Roxburghe Club, 1913)."
+    },
+    {
+      "id": "clifford",
+      "name": "Arthur Clifford",
+      "kind": "historical",
+      "note": "Editor, The State Papers and Letters of Sir Ralph Sadler (Edinburgh 1809)."
+    },
+    {
+      "id": "codoin",
+      "name": "Colección de documentos inéditos para la historia de España (CODOIN)",
+      "kind": "historical",
+      "note": "Madrid, 1842-95; prints Spanish state papers, ciphered passages from the secretariat's decipherments."
+    },
+    {
+      "id": "colenbrander",
+      "name": "Herman Theodoor Colenbrander",
+      "kind": "historical",
+      "aliases": [
+        "Colenbrander"
+      ]
+    },
+    {
+      "id": "didier",
+      "name": "L. Didier",
+      "kind": "historical",
+      "note": "Editor of Lettres et négociations de Claude de Mondoucet (1891-92)."
+    },
+    {
+      "id": "forbes",
+      "name": "Patrick Forbes",
+      "kind": "historical"
+    },
+    {
+      "id": "ford",
+      "name": "Worthington Chauncey Ford",
+      "kind": "historical",
+      "aliases": [
+        "Ford"
+      ]
+    },
+    {
+      "id": "founders",
+      "name": "Founders Online (The Papers of James Madison)",
+      "kind": "historical"
+    },
+    {
+      "id": "foxcroft",
+      "name": "Ezechiel Foxcroft",
+      "kind": "historical",
+      "note": "The Hermetick Romance (1690), English translation of the Chymische Hochzeit with its inscriptions in clear."
+    },
+    {
+      "id": "fraknoi",
+      "name": "Vilmos Fraknói",
+      "kind": "historical",
+      "aliases": [
+        "Fraknói",
+        "Fraknoi"
+      ]
+    },
+    {
+      "id": "gabbrielli",
+      "name": "Gabbrielli (Archivio di Stato di Firenze, Chiavi delle cifre, 1863-64)",
+      "kind": "historical"
+    },
+    {
+      "id": "gayangos",
+      "name": "Pascual de Gayangos and Vicente de la Fuente",
+      "kind": "historical",
+      "note": "Cartas de los secretarios del cardenal Cisneros (Madrid 1875), printed from the 1849 Simancas decipherment."
+    },
+    {
+      "id": "gredilla",
+      "name": "Claudio Pérez Gredilla",
+      "kind": "historical",
+      "note": "Head of the Simancas archive; his 19th-century decipherment printed by Danvila (Memorial Histórico Español 38, 1899)."
+    },
+    {
+      "id": "kiewning",
+      "name": "Hans Kiewning",
+      "kind": "historical",
+      "aliases": [
+        "Kiewning"
+      ],
+      "note": "Editor of Nuntiaturberichte aus Deutschland IV, Nuntiatur des Pallotto (1895-97)."
+    },
+    {
+      "id": "legrand",
+      "name": "Joachim Le Grand",
+      "kind": "historical"
+    },
+    {
+      "id": "lestocquoy",
+      "name": "Jean Lestocquoy",
+      "kind": "historical",
+      "aliases": [
+        "Lestocquoy"
+      ]
+    },
+    {
+      "id": "mazzatinti",
+      "name": "Giuseppe Mazzatinti",
+      "kind": "historical",
+      "aliases": [
+        "Mazzatinti"
+      ]
+    },
+    {
+      "id": "nagy",
+      "name": "Iván Nagy and Albert Nyáry",
+      "kind": "historical",
+      "note": "Magyar Diplomácziai Emlékek Mátyás király korából I-IV (1875-78)."
+    },
+    {
+      "id": "parke",
+      "name": "Gilbert Parke",
+      "kind": "historical",
+      "note": "Editor, Letters and Correspondence of Bolingbroke (1798)."
+    },
+    {
+      "id": "politischecorrespondenz",
+      "name": "Politische Correspondenz Friedrichs des Grossen",
+      "kind": "historical",
+      "note": "Berlin edition of Frederick II's political correspondence (1879-); prints the minutes of ciphered letters."
+    },
+    {
+      "id": "puig",
+      "name": "Sebastián Puig y Puig",
+      "kind": "historical",
+      "note": "Pedro de Luna, último papa de Aviñón (Barcelona 1920): deciphered Benedict XIII's cipher letters."
+    },
+    {
+      "id": "richards",
+      "name": "Sheila R. Richards",
+      "kind": "historical",
+      "aliases": [
+        "Richards",
+        "Sheila Richards"
+      ],
+      "note": "Secret Writing in the Public Records (HMSO 1974), cited by Lasry as Secret Writings (1973)."
+    },
+    {
+      "id": "scheurer",
+      "name": "Rémy Scheurer",
+      "kind": "historical"
+    },
+    {
+      "id": "schiess",
+      "name": "Traugott Schiess",
+      "kind": "historical",
+      "aliases": [
+        "Schiess"
+      ]
+    },
+    {
+      "id": "sillem",
+      "name": "J. A. Sillem",
+      "kind": "historical",
+      "aliases": [
+        "Sillem"
+      ],
+      "note": "Biographer of Dirk van Hogendorp (1890)."
+    },
+    {
+      "id": "stevenson",
+      "name": "Joseph Stevenson",
+      "kind": "historical",
+      "aliases": [
+        "Stevenson"
+      ]
+    },
+    {
+      "id": "tyler",
+      "name": "Royall Tyler",
+      "kind": "historical",
+      "aliases": [
+        "Tyler"
+      ]
+    },
+    {
+      "id": "wattenbach",
+      "name": "Wilhelm Wattenbach",
+      "kind": "historical",
+      "aliases": [
+        "Wattenbach"
+      ]
+    },
+    {
+      "id": "uppsala",
+      "name": "Uppsala University Library (C collection catalogue)",
+      "kind": "archive",
+      "aliases": [
+        "Uppsala catalogue",
+        "Uppsala UB catalogue"
+      ]
+    },
+    {
+      "id": "zhongshanmuseum",
+      "name": "Zhongshan Warship Museum",
+      "kind": "archive",
+      "aliases": [
+        "Zhongshan Warship Museum"
+      ]
+    }
+  ]
+}

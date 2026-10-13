@@ -346,6 +346,11 @@
         "blocker": "no-key-material",
         "detail": "a third cipher, finals p/z absent from Sánchez's key; groups not in Tomokiyo's Juan Manuel table (see the lopehurtado1522 target)"
       }
+    ],
+    "credits": [
+      {"who": "tomokiyo", "role": "key or decipherment used", "note": "reconstruction of Sánchez's 1522 cipher (alphabet, ~177 code groups) from R9605, extended here", "date": "2025-09-06", "source": "https://cryptiana.web.fc2.com/code/AlonsoSanchez.htm"},
+      {"who": "contemporary", "role": "key or decipherment used", "note": "clerk's full decipherment of R9605 (calibration) and the interlinear glosses on R9635"},
+      {"who": "bergenroth", "role": "key or decipherment used", "note": "CSP Spain 2 no. 476 abstract (from the contemporary deciphering) confirms R9635 and fills the gist of unread lines", "date": "1866", "source": "G. A. Bergenroth, Calendar of State Papers, Spain, vol. 2 (1866), no. 476"}
     ]
   }
 }

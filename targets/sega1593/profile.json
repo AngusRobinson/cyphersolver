@@ -163,6 +163,10 @@
   "verification": [
    "matched control"
   ],
-  "notes": "Needs a >90 % glyph class string: more labels from f. 176/f. 177, a human glyph transcription, or the recipients' clear copies."
+  "notes": "Needs a >90 % glyph class string: more labels from f. 176/f. 177, a human glyph transcription, or the recipients' clear copies.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "League polyphonic key (cryptiana mayenne.htm), the basis of the attempt; no reading reached", "source": "cryptiana mayenne.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "decipherment f. 185 of the sibling f. 188v, aligned to train the glyph classifiers"}
+  ]
  }
 }

@@ -248,6 +248,9 @@
     "blocker": "open-codes"
    }
   ],
-  "notes": "Lasry published the key (2022) but no plaintext; both letters read here for the first time as far as found."
+  "notes": "Lasry published the key (2022) but no plaintext; both letters read here for the first time as far as found.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "fr. 15564 key table (GL.htm, 29 May 2022), extended by about a dozen values", "date": "2022-05-29", "source": "cryptiana GL.htm"}
+  ]
  }
 }

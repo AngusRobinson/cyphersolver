@@ -164,6 +164,11 @@
   "fraction_read": 1.0,
   "grades": "unknown",
   "verification": ["matched control", "historical consistency", "statistical test"],
-  "notes": "Transcription corrected against the DECODE images 22 Sept 2026 (ten 17->14); 17 is not polyphonic; 19 = s, its three t-contexts are the writer's encipherment slips (G. Lasry, 21 Sept 2026: no polyphony here). Odd spellings ogn, Transiuania look like the writer's. Speaker Koniecpolski per the clear frame."
+  "notes": "Transcription corrected against the DECODE images 22 Sept 2026 (ten 17->14); 17 is not polyphonic; 19 = s, its three t-contexts are the writer's encipherment slips (G. Lasry, 21 Sept 2026: no polyphony here). Odd spellings ogn, Transiuania look like the writer's. Speaker Koniecpolski per the clear frame.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "partial decipherment 'Al principe di trenti...' used as crib", "source": "cryptiana variable2.htm"},
+    {"who": "tomokiyo", "role": "transcription", "note": "231-group ciphertext transcription (variable2.htm), corrected here in ten places", "source": "cryptiana variable2.htm"},
+    {"who": "lasry", "role": "pointer", "note": "apparent polyphony is encipherment or transcription error, not polyphony", "date": "2026-09-21"}
+  ]
  }
 }

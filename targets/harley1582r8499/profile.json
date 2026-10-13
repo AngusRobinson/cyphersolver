@@ -241,6 +241,9 @@
     "detail": "no entry on the only surviving key copy R354"
    }
   ],
-  "notes": "Read in part with key R354: 68.9% of 2,727 non-null signs read as sense (measure_sense.py on final_v9.txt; the old non-[?] measure gave 74.7%). The contemporary decipherment (Harley 1582 ff. 5r-7v) is not digitised; ~40 rare codes are not on R354."
+  "notes": "Read in part with key R354: 68.9% of 2,727 non-null signs read as sense (measure_sense.py on final_v9.txt; the old non-[?] measure gave 74.7%). The contemporary decipherment (Harley 1582 ff. 5r-7v) is not digitised; ~40 rare codes are not on R354.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "key R354 (TNA SP 106/2 f. 162, 'France 1554'), matched, applied and corrected", "source": "DECODE R354"}
+  ]
  }
 }

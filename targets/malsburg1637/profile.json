@@ -579,6 +579,10 @@
    }
   ],
   "notes": "Numerical work and its original measured result remain credited to Daniel Bourdeau. Alphabetic contribution by Larry Beck with ChatGPT; separate AI passes are not human paleographic validation. Overall fraction and code totals are unknown because the distinct systems are not combined. Original numerical first-break status was reported true; priority of the contributed alphabetic result was not independently established. Melander is a documentary lead, not an identified code. Full alphabetic key behavior is recovered, while code values and source readings keep the overall key and text partial. fraction_read, codes_open and first_break are the numerical cipher's original measured values, restored on merge; the alphabetic block is carried in parts.",
-  "fraction_coherent": "unknown"
+  "fraction_coherent": "unknown",
+  "provenance": "mixed",
+  "credits": [
+    {"who": "beck", "role": "solution", "note": "PR #17: period-five key of the f. 12 alphabetic block recovered (with ChatGPT), critical reading", "source": "https://github.com/dbourdeau/cyphersolver/pull/17"}
+  ]
  }
 }

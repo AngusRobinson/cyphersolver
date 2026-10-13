@@ -102,6 +102,9 @@
   "codes_open": {"open": 6, "total": 18},
   "grades": "unknown",
   "verification": ["historical consistency"],
-  "notes": "All four letters readable; two already in print as calendar abstracts. Name code mostly identified; the ~14 sign words of 10 Sep 1585 unread. fraction_read is a rough estimate from NOTES, not a count: name numbers mostly identified (6 of 16 open), the ~14 sign words of R4844 unread."
+  "notes": "All four letters readable; two already in print as calendar abstracts. Name code mostly identified; the ~14 sign words of 10 Sep 1585 unread. fraction_read is a rough estimate from NOTES, not a count: name numbers mostly identified (6 of 16 open), the ~14 sign words of R4844 unread.",
+  "credits": [
+    {"who": "boyd", "role": "key or decipherment used", "note": "CSP Scotland viii (1914) glosses of the name code (19, 24, 39, 40; 20 Morton)", "date": "1914"}
+  ]
  }
 }

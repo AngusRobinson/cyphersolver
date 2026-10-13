@@ -304,6 +304,14 @@
   ],
   "notes": "16 June 1529 block: 194 signs, 191 with an established value (98.5%), all plaintext words read and matching Scheurer; three isolated signs in line 7 unexplained. Catalogue item found already solved; R4229 (30 June 1529) also in print. Open question: the boxed cross is 'madame Marguerite' on p. 21 (Scheurer) but lined up with 'le Cardinal' on p. 113; one sign or two not settled.",
   "fraction_read_method": "measured",
-  "fraction_read_source": "p21_signs.txt (191 of 194 signs with an established value; the 16 June block only)"
+  "fraction_read_source": "p21_signs.txt (191 of 194 signs with an established value; the 16 June block only)",
+  "credits": [
+    {"who": "legrand", "role": "key or decipherment used", "note": "Court's decipherments printed in Histoire du divorce III (1688)", "date": "1688"},
+    {"who": "bourrilly", "role": "key or decipherment used", "note": "28 Oct 1528 cipher printed in clear with their recovered key (1905, no. 156)", "date": "1905"},
+    {"who": "scheurer", "role": "key or decipherment used", "note": "Correspondance du cardinal Jean du Bellay t. I (1969): 16 June 1529 block p. 41 and 22 Oct 1529 opening pp. 111-112; confirmed and completed the reading", "date": "1969"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "table of Bayonne's cipher (1529), francis.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment of 22 June 1529 (fr. 3078 no. 4)"},
+    {"who": "lasry", "role": "prior solution", "note": "re-solved the 1528 cipher in 2022 (GL.htm)", "date": "2022"}
+  ]
  }
 }

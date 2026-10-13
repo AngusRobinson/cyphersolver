@@ -267,6 +267,10 @@
     "blocker": "not-attempted",
     "detail": "never measured (only 2831 p. 1 ll. 1–10 and R1098 were transcribed to tokens). Next step: a full token transcription of 2831 pp. 1–4 and a measured count against the reading files"
    }
+  ],
+  "credits": [
+    {"who": "somogyi", "role": "key or decipherment used", "note": "2016 numeric key and lines 1-2 of the 22 Nov 1489 letter; tied to the signs and extended here", "date": "2016", "source": "Somogyi, Verbum 17 (2016)"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "clear extract Vestigia 268 and R1098 p. 2 clear text, used to calibrate the signs"}
   ]
  }
 }

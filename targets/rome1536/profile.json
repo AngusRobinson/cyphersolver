@@ -475,6 +475,11 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "About 95% of the cipher letters read after a shape-true re-transcription from the Gallica native scans (pass 5, 22 Sept 2026), checked against every contemporary clear text (CER 3-8%). Nothing is physically unreadable; the residue is ambiguous sign runs and names. R4248 resolved by the contemporary decipherment on f. 86. Key recovered (Tomokiyo/Lasry Mascon's cipher, corrected and split by sign shape)."
+  "notes": "About 95% of the cipher letters read after a shape-true re-transcription from the Gallica native scans (pass 5, 22 Sept 2026), checked against every contemporary clear text (CER 3-8%). Nothing is physically unreadable; the residue is ambiguous sign runs and names. R4248 resolved by the contemporary decipherment on f. 86. Key recovered (Tomokiyo/Lasry Mascon's cipher, corrected and split by sign shape).",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "reconstructed 'Mascon's cipher' from fr. 3053 and the second fr. 3053 table (cryptiana francis.htm)", "source": "cryptiana francis.htm"},
+    {"who": "lasry", "role": "key or decipherment used", "note": "re-tabulation of Mascon's cipher, table dated 05/11/2023 for BnF fr. 3071 f. 9, on Tomokiyo's GL.htm", "date": "2023-11-05", "source": "cryptiana GL.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "f. 86 clear decipherment of f. 85 (R4248); clear copies and marginal/interlinear decipherments in the volume used as anchors"}
+  ]
  }
 }

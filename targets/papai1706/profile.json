@@ -588,6 +588,9 @@
     "blocker": "needs-physical-access",
     "detail": "not online"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "key sheet \"given to János Pápai\" (MNL OL G15 C 43/39, DECODE R580); interlinear decipherments of R793-R796"}
   ]
  }
 }

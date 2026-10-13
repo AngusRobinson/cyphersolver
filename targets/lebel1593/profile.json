@@ -253,6 +253,10 @@
     "detail": "no surviving gloss; every decipherment in this key harvested"
    }
   ],
-  "fraction_read_source": "reading11_final.md, reading62_final.md, reading100_final.md count tables: enciphered tokens (letter signs excl. nulls + code tokens) with a value; no. 11 ~772/778, no. 62 607/617 recto + ~70/101 verso, no. 100 1000/1000 = ~2449/2496"
+  "fraction_read_source": "reading11_final.md, reading62_final.md, reading100_final.md count tables: enciphered tokens (letter signs excl. nulls + code tokens) with a value; no. 11 ~772/778, no. 62 607/617 recto + ~70/101 verso, no. 100 1000/1000 = ~2449/2496",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "Lebel-Savoy key table (cryptiana savoy.htm, 2017, rev. 2023) applied to nos. 11, 62, 100", "date": "2017", "source": "cryptiana savoy.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "code values harvested from the sibling letters deciphered at the time (fr. 3983 no. 80, fr. 3984 f. 182, fr. 3985 f. 23)"}
+  ]
  }
 }

@@ -28,6 +28,11 @@ not from memory. The slug is the folder name unless a page already exists under 
   (complete / partial) comes from `outcome.class` and the read bar. The build derives the badge, colour, seal and the
   hero outcome line from the method, so the `st`/`stt` typed in PAGES only matter for pages without a profile.
   The README row goes in the section of its method (`M.SECTION`); `--audit` section G checks it.
+- Credit everyone outside the project in `outcome.credits` (profile skill, step 9): whose key or decipherment was
+  used, who pointed to a source, who solved it before, who sent a solution, correction or check. The build prints
+  them on the page as the hero's credits line and adds them up on `contributors.html` and the front page's top
+  contributors; nothing on the page is typed by hand. A result sent in by someone else gets `outcome.provenance`
+  `contributed` (or `mixed`) and a `solution` credit with the PR, issue or email as `source`.
 - Words (README Conventions, `python docs/_check_terms.py <slug>`): say what happened ("deciphered with Lasry's
   key", "key recovered from the clear passages", "transcribed the contemporary decipherment"); do not use "read" or
   "solved" alone as an outcome word, and do not call an item unsolved because a catalogue says "undeciphered".

@@ -175,6 +175,9 @@
     "blocker": "not-attempted",
     "detail": "transcription noise; margins give the sense, images not re-read"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "marginal decipherments on 16 of the 20 letters, which confirm the key output"}
   ]
  }
 }

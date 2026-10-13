@@ -100,6 +100,10 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "DECODE sender (Jeronimo Adorno?), recipient and date corrected. Nothing new read. Catalogue entry 145 removed; DECODE correction queued; no write-up."
+  "notes": "DECODE sender (Jeronimo Adorno?), recipient and date corrected. Nothing new read. Catalogue entry 145 removed; DECODE correction queued; no write-up.",
+  "credits": [
+    {"who": "bergenroth", "role": "key or decipherment used", "note": "CSP Spain ii no. 510 abstracts the letter from its contemporary decipherment; content taken from it, cipher not re-read", "date": "1866", "source": "G. A. Bergenroth, Calendar of State Papers, Spain, vol. 2 (1866), no. 510"},
+    {"who": "contemporary", "role": "prior solution", "note": "contemporary deciphering in RAH Salazar A-26 (not imaged on DECODE), source of Bergenroth's abstract"}
+  ]
  }
 }

@@ -131,6 +131,9 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "Read at the time (interlinear decipherment); date corrected to 9 Jan 1706 and addressee to Rákóczi; nothing new read."
+  "notes": "Read at the time (interlinear decipherment); date corrected to 9 Jan 1706 and addressee to Rákóczi; nothing new read.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment over almost every group"}
+  ]
  }
 }

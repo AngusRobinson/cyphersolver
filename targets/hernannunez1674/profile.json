@@ -64,6 +64,9 @@
   "codes_open": {"open": 0, "total": "unknown", "tokens_open": 1},
   "key": "recovered",
   "verification": ["contemporary decipherment", "historical consistency"],
-  "notes": "Margins verified and illegible margin words recovered from the key. Attack corrected 22 Sept 2026 from 'known plaintext': every passage carries its contemporary margin decipherment, and the Balbases 1677 key (targets/balbases1677/key.json) was applied unchanged."
+  "notes": "Margins verified and illegible margin words recovered from the key. Attack corrected 22 Sept 2026 from 'known plaintext': every passage carries its contemporary margin decipherment, and the Balbases 1677 key (targets/balbases1677/key.json) was applied unchanged.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "marginal decipherments on every passage"}
+  ]
  }
 }

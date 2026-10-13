@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to contribute &mdash; solutions, new ciphers and checks for the ledger</title>
+<meta name="description" content="How to add to the ledger of historical ciphers: a solution to a listed cipher, a new unsolved cipher, a new cipher with its solution, or an independent check of a reading. What to send, where, and how it is credited.">
+<link rel="stylesheet" href="style.css?v=20261013c">
+<meta name="date" content="2026-10-13">
+<meta name="last-modified" content="2026-10-13">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Unsolved Historical Ciphers</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary>Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp latest"><h4>Latest</h4><ul><li><a href="esterhazy1744.html"><span class="st stuck">not solved</span><b>Esterh&aacute;zy box 636, 1744</b><span class="yr">1744</span></a></li><li><a href="geertruidenberg.html"><span class="st stuck">not solved</span><b>Torcy and Villars 1710</b><span class="yr">1710</span></a></li><li><a href="sieniawski1708.html"><span class="st partial">ciphertext-only break &middot; partial</span><b>Vienna to Schenck 1706; Sieniawski letters</b><span class="yr">1706&ndash;1714</span></a></li><li><a href="hesse1672.html"><span class="st partial">external key matched &middot; partial</span><b>Hamburg despatch to Kassel 1672</b><span class="yr">1672</span></a></li><li><a href="rupert.html"><span class="st partial">known key applied &middot; partial</span><b>Rupert and Digby-coach ciphers 1645&ndash;46</b><span class="yr">1645&ndash;46</span></a></li><li><a href="ferdinand3.html"><span class="st partial">key from adjacent plaintext &middot; partial</span><b>Ferdinand III and the Cardinal-Infante</b><span class="yr">1634&ndash;40</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=ct"><span class="st solved">30</span><b>Ciphertext-only break</b></a></li><li><a href="writeups.html#kind=extpt"><span class="st solved">12</span><b>Key from external plaintext</b></a></li><li><a href="writeups.html#kind=adjpt"><span class="st solved">41</span><b>Key from adjacent plaintext</b></a></li><li><a href="writeups.html#kind=extkey"><span class="st solved">17</span><b>External key matched</b></a></li><li><a href="writeups.html#kind=known"><span class="st solved">75</span><b>Known key applied</b></a></li><li><a href="writeups.html#kind=deciph"><span class="st solved">32</span><b>Existing decipherment</b></a></li><li><a href="writeups.html#kind=notsolved"><span class="st stuck">38</span><b>Not solved</b></a></li><li><a href="writeups.html#kind=na"><span class="st found">14</span><b>Not applicable</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">2</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 261 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <details class="menu"><summary>Explore <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel ex"><ul><li><a href="highlights.html"><b>Highlights</b><span class="d">Thirty favourites: the funny, the historic, the ingenious</span></a></li><li><a href="glossary.html"><b>Glossary</b><span class="d">How each cipher was solved, and the terms used</span></a></li><li><a href="famous.html"><b>The famous ones</b><span class="d">Why Voynich, Kryptos, Beale and Dorabella resist</span></a></li><li><a href="atlas.html"><b>Atlas</b><span class="d">Every letter drawn on the map, five centuries of it</span></a></li><li><a href="keys.html"><b>Key web</b><span class="d">Which key read which letter</span></a></li><li><a href="secret.html"><b>Secret letter</b><span class="d">Seal a message in a real historical cipher</span></a></li></ul><div class="foot"><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">The code and the working notes on GitHub &#8599;</a></div></div></details>
+    <a href="catalogue.html">Catalogue</a>
+    <a href="contributors.html">Contributors</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+
+<section class="hero">
+  <p class="kicker">Contribute &middot; four ways in</p>
+  <h1>How to contribute</h1>
+  <p class="sub">The ledger records historical ciphers: what has been deciphered, by whom, and how. Anyone can add to it. A contribution is credited by name on the write-up it belongs to and on the <a href="contributors.html">contributors page</a>, whether it arrives as a GitHub pull request, an issue or an email.</p>
+  <div class="jump"><a href="#kinds">Four kinds</a><a href="#send">How to send</a><a href="#credit">How credit works</a><a href="#next">What happens next</a><a href="contributors.html">Contributors</a></div>
+  <p class="meta">Daniel Bourdeau and contributors &middot; posted <time datetime="2026-10-13">13 October 2026</time></p>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#kinds">Four kinds of contribution</a><a href="#send">How to send it</a><a href="#credit">How credit works</a><a href="#next">What happens next</a></nav>
+<h2 id="kinds"><span class="num">01</span> Four kinds of contribution</h2>
+
+<h3 id="solution">A solution to a cipher already in the ledger</h3>
+<p>Any target in the <a href="catalogue.html">catalogue</a>, any write-up marked <em>partial</em> or <em>not solved</em>, and any open item in the <a href="writeups.html#notes">notes</a>. Send:</p>
+<ul>
+<li>the target (catalogue number, write-up page or folder name) and the documents covered (shelfmark, folio, DECODE record);</li>
+<li>the key: the sign-to-value table, the code groups you have values for, and the nulls;</li>
+<li>the decipherment, line by line against the ciphertext, with the passages you are unsure of marked;</li>
+<li>how the key was obtained: from the ciphertext alone, from plaintext beside it or elsewhere, from an existing key (whose), or from an existing decipherment. This sets the <a href="glossary.html#methods">method</a> shown on the write-up;</li>
+<li>whether the reading was already published anywhere, as far as you know.</li>
+</ul>
+
+<h3 id="new">A new unsolved cipher</h3>
+<p>A ciphered document with no known decipherment that is not in the ledger yet. Send:</p>
+<ul>
+<li>the archive, shelfmark and folio, and a link to the images (Gallica, DECODE, the archive&rsquo;s viewer) or the images themselves if you may share them;</li>
+<li>date, sender and recipient if known, and the language you expect;</li>
+<li>what you know of its status: listed as undeciphered where, any key or decipherment you have looked for;</li>
+<li>a transcription, if you have one. It is not required.</li>
+</ul>
+
+<h3 id="new-solved">A new cipher with its solution</h3>
+<p>Both of the above: the document, then the key, the decipherment and how you obtained them. Results that have never been published are welcome; say whether they may be shown here in full or only noted.</p>
+
+<h3 id="verify">A verification of a reading already here</h3>
+<p>The <a href="contributors.html#verify">verification queue</a> lists the readings whose key was recovered or matched here and that no one outside the project has checked. Take the images and the key from the write-up, decipher a passage yourself (a paragraph is enough), and report:</p>
+<ul>
+<li>which passage, and which images you worked from;</li>
+<li>where your reading agrees with the write-up, and every place it does not;</li>
+<li>any key value you would change, with the evidence.</li>
+</ul>
+<p>A check that finds errors is as useful as one that confirms. Both are credited.</p>
+
+<h2 id="send"><span class="num">02</span> How to send it</h2>
+<div class="callout">
+<p><b>On GitHub.</b> Open an issue with one of the forms at <a href="https://github.com/dbourdeau/cyphersolver/issues/new/choose" rel="noopener">github.com/dbourdeau/cyphersolver/issues/new/choose</a> (solution, new cipher, new cipher with solution, verification), or send a pull request. The repository&rsquo;s <a href="https://github.com/dbourdeau/cyphersolver/blob/main/CONTRIBUTING.md" rel="noopener">CONTRIBUTING.md</a> explains the folder layout and the files a target keeps.</p>
+<p><b>By email.</b> Not on GitHub? Write to <a href="mailto:dnbourdeau@gmail.com">dnbourdeau@gmail.com</a> with the same details and any files. The entry is made for you and credited the same way.</p>
+</div>
+
+<h2 id="credit"><span class="num">03</span> How credit works</h2>
+<ul>
+<li><b>On the write-up.</b> The page names every contributor under its outcome line, with what each did: solution, new cipher, verification, key correction, transcription, identification, a pointer to a source, or the key or decipherment the reading used.</li>
+<li><b>On the contributors page.</b> Credits are added up by person and by kind, each count linking to the write-ups. The top contributors are listed on the front page.</li>
+<li><b>Your name, your way.</b> Say how you want to be named (full name, initials, a handle) and where your name should link.</li>
+<li><b>Unpublished work.</b> An earlier solution you never published is noted as unpublished, and shown in full only with your agreement.</li>
+<li><b>Earlier scholarship.</b> Keys and decipherments taken from editions, archives and databases are credited to their makers too, in a separate list, so living contributors are not ranked against the nineteenth century.</li>
+</ul>
+
+<h2 id="next"><span class="num">04</span> What happens next</h2>
+<ul>
+<li>The contribution is checked against the images: the key applied to the ciphertext, the decipherment read for sense.</li>
+<li>It is filed in the target&rsquo;s folder with its key, transcription and notes, given a <a href="glossary.html#methods">method</a> and an extent, and written up or added to an existing write-up.</li>
+<li>Where the target is on <a href="https://de-crypt.org/" rel="noopener">DECODE</a>, the corrections and the decipherment are queued for the DECODE record, credited to you.</li>
+<li>The ledger also feeds a study of how language models perform against historical ciphers. A result you contributed is marked as yours and is kept out of the model&rsquo;s figures.</li>
+<li>Tools are your choice, including AI. Say what you used, and check the reading against the images before sending it.</li>
+</ul>
+
+</main>
+<footer><div class="in">
+  <span>Daniel Bourdeau and contributors, September 2026 &middot; Text released under CC BY 4.0</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="site.js?v=20261013c"></script>
+</body>
+</html>

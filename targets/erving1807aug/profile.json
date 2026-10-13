@@ -205,6 +205,12 @@
     "detail": "under the facing leaf; probably 244 'to'"
    }
   ],
-  "notes": "Extent complete on the nominal count (98.3% give sense without conjectures). Codex: confirmed but overstated; a conservative count that also drops 37 hidden-digit restorations and nine emendations is 94.25%, below 95%, so the extent depends on accepting disclosed restorations and emendations. Grades are not counted token by token: values are C from the Founders text, M for the doubtful ones and I for hidden-digit restorations and EXPECTATIONS (NOTES, Uncertain readings). Founders' decoded text existed before; whether it was made from this duplicate is not settled."
+  "notes": "Extent complete on the nominal count (98.3% give sense without conjectures). Codex: confirmed but overstated; a conservative count that also drops 37 hidden-digit restorations and nine emendations is 94.25%, below 95%, so the extent depends on accepting disclosed restorations and emendations. Grades are not counted token by token: values are C from the Founders text, M for the doubtful ones and I for hidden-digit restorations and EXPECTATIONS (NOTES, Uncertain readings). Founders' decoded text existed before; whether it was made from this duplicate is not settled.",
+  "provenance": "contributed",
+  "credits": [
+    {"who": "feyseel", "role": "solution", "note": "PR #21: transcription, Pinckney legation code rebuilt to 414 rows, letter decoded", "date": "2026-10-04", "source": "https://github.com/dbourdeau/cyphersolver/pull/21"},
+    {"who": "founders", "role": "key or decipherment used", "note": "decoded text printed in Founders Online early access 99-01-02-1993, aligned with the code", "source": "Founders Online, Madison/99-01-02-1993"},
+    {"who": "contemporary", "role": "verification", "note": "Jacob Wagner's 1803 decode of Pinckney's despatch: 45 of 47 shared groups agree"}
+  ]
  }
 }

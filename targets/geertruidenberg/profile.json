@@ -207,6 +207,9 @@
     "detail": "different code, no key found, too short for ciphertext-only"
    }
   ],
-  "notes": "Clear opening of Torcy's letter transcribed (DECODE omits it). R8756 metadata has sender/receiver reversed."
+  "notes": "Clear opening of Torcy's letter transcribed (DECODE omits it). R8756 metadata has sender/receiver reversed.",
+  "credits": [
+    {"who": "tomokiyo", "role": "transcription", "note": "DECODE transcriptions of R8755 and R8756, checked against the images"}
+  ]
  }
 }

@@ -180,6 +180,9 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "148 of 181 groups read; 23 nomenclator codes (33 groups) open."
+  "notes": "148 of 181 groups read; 23 nomenclator codes (33 groups) open.",
+  "credits": [
+    {"who": "mirka", "role": "key or decipherment used", "note": "reconstructed key (xlsx on DECODE R5029), applied unchanged", "date": "2023-06-19"}
+  ]
  }
 }

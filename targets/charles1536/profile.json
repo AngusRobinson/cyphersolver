@@ -76,6 +76,10 @@
   "contribution": ["sender or date identified", "catalogue correction"],
   "class": "already solved",
   "verification": ["contemporary decipherment"],
-  "notes": "Nothing new read. Added: R9957 dated Borgo San Donnino 17 May 1536 (not Burgos, not 8 or 18 May); R9952 is a separate 1543 letter to Philip; DECODE image order. Catalogue entry 199 removed; no write-up."
+  "notes": "Nothing new read. Added: R9957 dated Borgo San Donnino 17 May 1536 (not Burgos, not 8 or 18 May); R9952 is a separate 1543 letter to Philip; DECODE image order. Catalogue entry 199 removed; no write-up.",
+  "credits": [
+    {"who": "luo", "role": "prior solution", "note": "R9957 deciphered and printed (thesis 2021, p. 287) from its key AGS Estado leg. 1.1.1 doc. 169", "date": "2021", "source": "Luo, El lenguaje cifrado de Isabel de Portugal (1530-1539), thesis, Universitat de València, p. 287"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "R9952 decipherment in the margins and on ff. 13-14; interlinear glosses on R9957"}
+  ]
  }
 }

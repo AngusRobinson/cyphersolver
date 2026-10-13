@@ -283,6 +283,10 @@
    }
   ],
   "fraction_read_method": "measured",
-  "fraction_read_source": "sense.py over R3697_signs.txt and R4232_signs.txt (5 Oct 2026): 2230 of 2481 non-null cipher signs sit in words read as French sense (R4232 1408/1430 = 98.5%, R3697 822/1051 = 78.2%). stats.py, which counts any sign with a key value, gives 90.6%."
+  "fraction_read_source": "sense.py over R3697_signs.txt and R4232_signs.txt (5 Oct 2026): 2230 of 2481 non-null cipher signs sit in words read as French sense (R4232 1408/1430 = 98.5%, R3697 822/1051 = 78.2%). stats.py, which counts any sign with a key value, gives 90.6%.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "key table for 'Selve's Cipher' (cryptiana francis.htm, rebuilt from fr. 3045 ff. 42-49), extended", "source": "cryptiana francis.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the decipherer's interlinear and marginal glosses, used as cribs on the struck runs"}
+  ]
  }
 }

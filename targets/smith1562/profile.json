@@ -804,6 +804,11 @@
    "key confirms",
    "contemporary decipherment"
   ],
-  "notes": "Most passages read; code signs in the hooked-T family read from context. 12 Mar 1562/3 not transcribed (in Forbes). The 1563/4-1566 verbatim passages were only summarised in print before. R9236 (f.140, five further letters) added 21 Sept: two agree with Forbes, 4 Nov 1563 read in large part, 20 Oct 1562 and 31 Jan 1562/3 in part."
+  "notes": "Most passages read; code signs in the hooked-T family read from context. 12 Mar 1562/3 not transcribed (in Forbes). The 1563/4-1566 verbatim passages were only summarised in print before. R9236 (f.140, five further letters) added 21 Sept: two agree with Forbes, 4 Nov 1563 read in large part, 20 Oct 1562 and 31 Jan 1562/3 in part.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "'Sr Thomas Smith's Cipher', Add MS 4136 f. 179 (DECODE R9261), filed in Forbes's deciphering file"},
+    {"who": "tomokiyo", "role": "pointer", "note": "located Smith's key at Add MS 4136 f. 179", "date": "2024"},
+    {"who": "forbes", "role": "key or decipherment used", "note": "A Full View prints the 1562/3 letters deciphered; used as confirmation cribs", "date": "1740", "source": "Patrick Forbes, A Full View of the Public Transactions in the Reign of Q. Elizabeth, 2 vols (1740-41)"}
+  ]
  }
 }

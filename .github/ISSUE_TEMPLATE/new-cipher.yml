@@ -1,0 +1,34 @@
+name: New cipher
+description: A ciphered document with no known decipherment that is not in the ledger yet.
+title: "New cipher: <archive, shelfmark>"
+labels: [contribution, new cipher]
+body:
+  - type: input
+    id: shelfmark
+    attributes:
+      label: Archive, shelfmark and folio
+    validations: {required: true}
+  - type: input
+    id: images
+    attributes:
+      label: Images
+      description: A link to the images (Gallica, DECODE, the archive's viewer), or attach them if you may share them.
+    validations: {required: true}
+  - type: textarea
+    id: context
+    attributes:
+      label: Date, sender, recipient, language
+      description: What is known or likely.
+  - type: textarea
+    id: status
+    attributes:
+      label: Status
+      description: Where it is listed as undeciphered; any key or decipherment you have looked for.
+  - type: textarea
+    id: transcription
+    attributes:
+      label: Transcription (optional)
+  - type: input
+    id: credit
+    attributes:
+      label: How to credit you

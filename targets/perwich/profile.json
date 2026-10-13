@@ -88,6 +88,13 @@
   "codes_open": {"open": 5, "total": 5, "tokens_open": 5},
   "grades": "unknown",
   "verification": ["independent clear copy", "key confirms"],
-  "notes": "Solved by others in Oct 2025; this project first argued, wrongly, that it was a substitution, then reproduced the published break. The transposition key is complete; the nomenclator numbers are unread (40 probably a place, 60 96 and 61 persons). TNA context readings of the codes: 97 the Dutch, 60 and 61 the King, 96 Colbert, 40 England. No write-up: deciphered by others first (a page made 24 Sept 2026 was withdrawn the same day)."
+  "notes": "Solved by others in Oct 2025; this project first argued, wrongly, that it was a substitution, then reproduced the published break. The transposition key is complete; the nomenclator numbers are unread (40 probably a place, 60 96 and 61 persons). TNA context readings of the codes: 97 the Dutch, 60 and 61 the King, 96 Colbert, 40 England. No write-up: deciphered by others first (a page made 24 Sept 2026 was withdrawn the same day).",
+  "credits": [
+    {"who": "brown", "role": "key or decipherment used", "note": "broke it independently (20-column transposition with nulls); TNA published plaintext reproduced here", "date": "2025-10-14", "source": "https://www.nationalarchives.gov.uk/explore-the-collection/the-collection-blog/secret-diplomatic-message-deciphered-after-350-years/"},
+    {"who": "lasry", "role": "key or decipherment used", "note": "broke it independently with Biermann and Tomokiyo; TNA published plaintext reproduced here", "date": "2025-10-14", "source": "https://www.nationalarchives.gov.uk/explore-the-collection/the-collection-blog/secret-diplomatic-message-deciphered-after-350-years/"},
+    {"who": "biermann", "role": "key or decipherment used", "note": "broke it independently with Lasry and Tomokiyo; TNA published plaintext reproduced here", "date": "2025-10-14", "source": "https://www.nationalarchives.gov.uk/explore-the-collection/the-collection-blog/secret-diplomatic-message-deciphered-after-350-years/"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "broke it independently with Lasry and Biermann; TNA published plaintext reproduced here", "date": "2025-10-14", "source": "https://www.nationalarchives.gov.uk/explore-the-collection/the-collection-blog/secret-diplomatic-message-deciphered-after-350-years/"},
+    {"who": "tomokiyo", "role": "transcription", "note": "transcription of SP 78/129 f. 180, from which the column order was reproduced"}
+  ]
  }
 }

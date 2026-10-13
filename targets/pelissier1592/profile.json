@@ -206,6 +206,10 @@
     "blocker": "illegible",
     "detail": "paper lost; no other copy of no. 22"
    }
+  ],
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "Pelissier key rebuilt from nos. 45/46 (cryptiana league.htm), calibrated and applied here", "source": "cryptiana league.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "clear decipherment of nos. 45/46 on f. 115 (sign calibration) and interlinear glosses on no. 22"}
   ]
  }
 }

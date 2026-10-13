@@ -277,6 +277,9 @@
   "codes_open": {
    "open": 3,
    "total": 7
-  }
+  },
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherments of sibling Cobham letters, Harley 287 ff. 75, 79, 89"}
+  ]
  }
 }

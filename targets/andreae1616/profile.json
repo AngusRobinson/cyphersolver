@@ -112,6 +112,9 @@
    "independent clear copy",
    "key confirms"
   ],
-  "notes": "Not a letter: DECODE's four cipher pages are the printed inscriptions of the novel, which glosses its own two long ones. Per-sign values in the two symbolic date lines stay graded C."
+  "notes": "Not a letter: DECODE's four cipher pages are the printed inscriptions of the novel, which glosses its own two long ones. Per-sign values in the two symbolic date lines stay graded C.",
+  "credits": [
+    {"who": "foxcroft", "role": "key or decipherment used", "note": "English readings of the inscriptions (1690), via the crcsite.org edition; the two date lines (1378, 1459) taken from it", "date": "1690", "source": "Foxcroft, The Hermetick Romance (London 1690); crcsite.org edition"}
+  ]
  }
 }

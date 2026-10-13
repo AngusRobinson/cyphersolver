@@ -281,6 +281,9 @@
    }
   ],
   "notes": "Read by Puig y Puig in 1920 (the reading is his). Added here: Meister's second-hand ACB report identified with Puig's printed decipherments; the 14 cipher items listed; in a second session the key Puig never printed rebuilt from the p. 475 facsimile against his text (20 letters, name sign, null separators), confirming 91.4% of the plate's cipher letters sign by sign (96.3% of the legible part) with no contradiction, and correcting Puig in three places (tenendum, absque congedio, necessaria). fraction_read is the plate's sign-by-sign confirmed share, not the reading of the text, which is Puig's and complete.",
-  "fraction_read_method": "measured"
+  "fraction_read_method": "measured",
+  "credits": [
+    {"who": "puig", "role": "key or decipherment used", "note": "printed decipherment of 14 cipher letters (1920); his unprinted key rebuilt here from the p. 475 facsimile against his text", "date": "1920", "source": "Puig y Puig, Pedro de Luna, último papa de Aviñón (Barcelona 1920), appendix"}
+  ]
  }
 }

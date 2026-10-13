@@ -198,6 +198,9 @@
     "blocker": "too-short"
    }
   ],
-  "notes": "Letter 1 had no decipherment at all; letter 2's contemporary worksheet was incomplete and partly wrong."
+  "notes": "Letter 1 had no decipherment at all; letter 2's contemporary worksheet was incomplete and partly wrong.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Chiffre-Tabelle in the Ilten papers (Ms XXIII 1234:31,1 pp. 386-391) and the office worksheet of letter 2"}
+  ]
  }
 }

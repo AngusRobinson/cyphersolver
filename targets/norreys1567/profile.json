@@ -212,6 +212,9 @@
     "blocker": "open-codes",
     "detail": "garbled with Tomokiyo's table; 4 June line transcription needs redoing"
    }
+  ],
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "Cecil-Norris table of 1567-70, reconstructed from Cabala (1663) (cryptiana elizabeth.htm)", "source": "cryptiana elizabeth.htm, \"Cecil-Norris Ciphers (1567-1570)\""}
   ]
  }
 }

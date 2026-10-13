@@ -337,6 +337,9 @@
    "independent clear copy",
    "historical consistency"
   ],
-  "notes": "Seven groups unread (six misprinted above 587, one damaged); about a hundred blank-table groups read from context."
+  "notes": "Seven groups unread (six misprinted above 587, one damaged); about a hundred blank-table groups read from context.",
+  "credits": [
+    {"who": "bazeries", "role": "key or decipherment used", "note": "Grand Chiffre table (Le Masque de fer, 1893) applied; his clear texts of L1 and L3 used as controls", "date": "1893", "source": "Bazeries, Le Masque de fer (1893)"}
+  ]
  }
 }

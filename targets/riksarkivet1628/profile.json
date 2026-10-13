@@ -307,6 +307,9 @@
     "blocker": "not-attempted",
     "detail": "surveyed only; interlinear decipherments of the time unused; Tungel 1633 key not identified among the 70 fetched"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the clerk's interlinear glosses on the Bremen 1631 letters (~80% of groups), aligned to rebuild the band key"}
   ]
  }
 }

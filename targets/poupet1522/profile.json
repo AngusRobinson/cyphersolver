@@ -74,6 +74,9 @@
   "fraction_read": "unknown",
   "grades": {"H": 0, "C": 0, "M": 2, "I": 0},
   "verification": ["contemporary decipherment"],
-  "notes": "Read at the time; key not rebuilt."
+  "notes": "Read at the time; key not rebuilt.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "1522 decipherment bound in as MSS/20212/39/2, with interlinear glosses"}
+  ]
  }
 }

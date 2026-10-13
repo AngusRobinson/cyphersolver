@@ -137,6 +137,10 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Open: five unkeyed signs, two groups in line 1, stained end of line 4, single words."
+  "notes": "Open: five unkeyed signs, two groups in line 1, stained end of line 4, single words.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "Mary-Norfolk key reconstructed from ff. 66/69/75, with his partial overlay of f. 74r (cryptiana mary.htm)", "source": "cryptiana mary.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "decipherment of f. 66r, used to check the key"}
+  ]
  }
 }

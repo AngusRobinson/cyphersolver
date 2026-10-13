@@ -144,6 +144,11 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Name codes 31, 36, 64?, 198, 227, 231 unread (no code list known); two unread signs and one queried word. Identification of Beria with Kontaris is Satoru's."
+  "notes": "Name codes 31, 36, 64?, 198, 227, 231 unread (no code list known); two unread signs and one queried word. Identification of Beria with Kontaris is Satoru's.",
+  "provenance": "contributed",
+  "credits": [
+    {"who": "satoru", "role": "solution", "note": "transcription, key and reading (with Claude), emailed and published; verified here", "date": "2026-10-01", "source": "https://satoru.net/crypt/vizani/"},
+    {"who": "satoru", "role": "identification", "note": "Monsignor Beria identified with Kontaris"}
+  ]
  }
 }

@@ -67,6 +67,9 @@
   "class": "already solved",
   "key": "recovered",
   "verification": ["key confirms", "independent clear copy"],
-  "notes": "Solved by Vierra 2023; the published key and readings were confirmed here, nothing added. README lists it among entries 'solved by others with nothing to add here', not counted in the results. The folder has no profile-relevant fraction file; fraction_read not recorded."
+  "notes": "Solved by Vierra 2023; the published key and readings were confirmed here, nothing added. README lists it among entries 'solved by others with nothing to add here', not counted in the results. The folder has no profile-relevant fraction file; fraction_read not recorded.",
+  "credits": [
+    {"who": "vierra", "role": "key or decipherment used", "note": "solution of May 2023; key re-applied and confirmed", "date": "2023-05", "source": "https://codewarrior0.github.io/cipher-blog/2023/05/27/feynman-solved.html"}
+  ]
  }
 }

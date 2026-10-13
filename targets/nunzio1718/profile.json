@@ -826,6 +826,9 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "Solved by George Lasry in October 2020 and already read on the DECODE records when this session began; nothing about the system was open. What is new here is the measurement of that reading and 61 additional nomenclator values that extend his key. Verification detail: coverage measured token by token off Lasry's aligned decipherment; each recovered group rests on two or more independent contexts and usually the alphabetical bracket; 4538=Luglio matches the known date of Alberoni's promotion, 12 July 1717."
+  "notes": "Solved by George Lasry in October 2020 and already read on the DECODE records when this session began; nothing about the system was open. What is new here is the measurement of that reading and 61 additional nomenclator values that extend his key. Verification detail: coverage measured token by token off Lasry's aligned decipherment; each recovered group rests on two or more independent contexts and usually the alphabetical bracket; 4538=Luglio matches the known date of Alberoni's promotion, 12 July 1717.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "solved and read the S364 corpus in 2020: reconstructed key and segmented decipherment on DECODE R154-R177; measured and extended by 61 nomenclator groups here", "date": "2020-10-24", "source": "DECODE R154-R177"}
+  ]
  }
 }

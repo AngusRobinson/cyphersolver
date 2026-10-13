@@ -285,6 +285,11 @@
         "blocker": "open-codes",
         "detail": "word sign from context only"
       }
+    ],
+    "credits": [
+      {"who": "gabbrielli", "role": "key or decipherment used", "note": "1863 key and interlinear glosses on no. 171 and siblings", "date": "1863"},
+      {"who": "meister", "role": "key or decipherment used", "note": "printed Gabbrielli's key, 1902 p. 50", "date": "1902"},
+      {"who": "lasry", "role": "pointer", "note": "suggested the sibling letters could give the full key", "date": "2026-09-21"}
     ]
   }
 }

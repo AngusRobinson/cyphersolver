@@ -120,6 +120,9 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time; one short sign group at a hole in f. 210 unglossed. New here: correct sender, recipient and date."
+  "notes": "Read at the time; one short sign group at a hole in f. 210 unglossed. New here: correct sender, recipient and date.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment on ff. 210-212 and the key bound as f. 211"}
+  ]
  }
 }

@@ -173,6 +173,10 @@
   "verification": [
    "none"
   ],
-  "notes": "Nothing new; key not re-applied here. Catalogue entries 191 and 192 removed."
+  "notes": "Nothing new; key not re-applied here. Catalogue entries 191 and 192 removed.",
+  "credits": [
+    {"who": "tomokiyo", "role": "prior solution", "note": "R2785/R2786 read with a reconstructed key, decryptions on DECODE", "date": "2021", "source": "DECODE R2785, R2786; cryptiana louisxiii.htm"},
+    {"who": "lasry", "role": "prior solution", "note": "R2748 (Louis XIII to Sabran, 1631) solved; key images on cryptiana GL.htm", "date": "2022", "source": "cryptiana GL.htm, 'Melchior de Sabran (1631)'"}
+  ]
  }
 }

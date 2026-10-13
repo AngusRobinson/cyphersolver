@@ -172,6 +172,10 @@
    "matched control",
    "historical consistency"
   ],
-  "notes": "Read in substance; a dozen single-occurrence word codes open. Alphabet is Pitt's. NOTES say session 2026-09-16, git commit is 2026-09-15."
+  "notes": "Read in substance; a dozen single-occurrence word codes open. Alphabet is Pitt's. NOTES say session 2026-09-16, git commit is 2026-09-15.",
+  "credits": [
+    {"who": "pitt", "role": "key or decipherment used", "note": "alphabet, supplementary homophones, nulls and four word codes (GitHub charles-i-boswell-cipher, commit 609ebf4)", "date": "2026-09-14", "source": "https://github.com/robertpitt/charles-i-boswell-cipher"},
+    {"who": "tomokiyo", "role": "transcription", "note": "provisional transcription of both letters (blog, 17 Sept 2021), the text read here", "date": "2021-09-17"}
+  ]
  }
 }

@@ -123,6 +123,9 @@
   "class": "read",
   "fraction_read": 0.97,
   "verification": ["historical consistency", "statistical test"],
-  "notes": "Every group has a value; a few one-place slips corrected from context; two clear passages summarised, not transcribed."
+  "notes": "Every group has a value; a few one-place slips corrected from context; two clear passages summarised, not transcribed.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the key Wolff sent with his covering letter of 8 Sept 1801 (DECODE R2233)"}
+  ]
  }
 }

@@ -412,6 +412,11 @@
       "key confirms",
       "historical consistency"
     ],
-    "notes": "The May–June despatches were deciphered at the time and calendared in English by Bergenroth in 1866; the key was published by Tomokiyo in 2025. Added here: the records identified against the Calendar, the recipient corrected (Charles V), the 1522 key shown to hold in 1523, and a partial reading of the one uncalendared ciphered letter (R9767, 16 Aug 1523). The spelled runs of R9767 and the short cipher of R9770 stay open."
+    "notes": "The May–June despatches were deciphered at the time and calendared in English by Bergenroth in 1866; the key was published by Tomokiyo in 2025. Added here: the records identified against the Calendar, the recipient corrected (Charles V), the 1522 key shown to hold in 1523, and a partial reading of the one uncalendared ciphered letter (R9767, 16 Aug 1523). The spelled runs of R9767 and the short cipher of R9770 stay open.",
+    "credits": [
+      {"who": "tomokiyo", "role": "key or decipherment used", "note": "Sánchez's 1522 key (cryptiana AlonsoSanchez.htm, 2025, as extended in sanchez1522), unchanged into 1523", "date": "2025", "source": "https://cryptiana.web.fc2.com/code/AlonsoSanchez.htm"},
+      {"who": "bergenroth", "role": "key or decipherment used", "note": "CSP Spain 2 nos. 549, 552, 554, 558 abstract the May-June despatches from the contemporary decipherings", "date": "1866", "source": "G. A. Bergenroth, Calendar of State Papers, Spain, vol. 2 (1866), nos. 549, 552, 554, 558"},
+      {"who": "contemporary", "role": "prior solution", "note": "decipherings of the May-June despatches filed elsewhere in the volume (cited by Bergenroth)"}
+    ]
   }
 }

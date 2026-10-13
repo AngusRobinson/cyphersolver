@@ -205,6 +205,9 @@
     "blocker": "open-codes",
     "detail": "about 4 occurrences each, no clear copy; the circled cross is now identified as i"
    }
+  ],
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "1526 key for the Raince letters of BnF fr. 2984 (cryptiana francis.htm), re-measured off his key image", "date": "2020", "source": "cryptiana francis.htm, 'French Ciphers during the Reign of Francis I', section BnF fr.2984 (1526)"}
   ]
  }
 }

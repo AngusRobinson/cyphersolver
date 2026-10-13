@@ -493,6 +493,10 @@
     "detail": "gloss a flourish unreadable at 3.5x; R7476's only 112 also illegibly glossed"
    }
   ],
-  "notes": "R7468-R7500 are four collections: the Schenck letters (AKM 21), Zbiór Dzieduszyckich 26/32 nr 13 and nr 5, and 24/11 no. 116 (R7484-R7485, misnamed Krakow_UNK on DECODE). Pass 2 (coordinator's request for a full reading): 62.4% -> 63.6% on the Schenck letters with the dotted signs now counted as tokens."
+  "notes": "R7468-R7500 are four collections: the Schenck letters (AKM 21), Zbiór Dzieduszyckich 26/32 nr 13 and nr 5, and 24/11 no. 116 (R7484-R7485, misnamed Krakow_UNK on DECODE). Pass 2 (coordinator's request for a full reading): 62.4% -> 63.6% on the Schenck letters with the dotted signs now counted as tokens.",
+  "credits": [
+    {"who": "kaczka", "role": "key or decipherment used", "note": "Danubius XXX prints twelve of the Sieniawski-group letters and the Wallachian chancellery key (A) and the Turculeț key (B); used to read and check", "date": "2012", "source": "M. W. Kaczka, 'Unpublished Letters of Constantin Brâncoveanu and Constantin Stolnicul Cantacuzino, from the Polish Archives', Danubius XXX (2012), pp. 101-140"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherments on R7475, R7476, R7481-R7485 (R7475 table rebuilt from the gloss); the recipient's superscripts and glosses on the Schenck letters"}
+  ]
  }
 }

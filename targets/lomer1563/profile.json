@@ -128,6 +128,10 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "Deciphered at the time; calendared CSP Foreign vi no. 1471. Catalogue entry 95 removed, no write-up."
+  "notes": "Deciphered at the time; calendared CSP Foreign vi no. 1471. Catalogue entry 95 removed, no write-up.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "deciphered at the time; Throckmorton's third cipher (DECODE R9262) checked on passage (1)"},
+    {"who": "stevenson", "role": "key or decipherment used", "note": "CSP Foreign vi no. 1471 summary of the deciphered letter, used as the reading", "date": "1869", "source": "Calendar of State Papers, Foreign, Elizabeth vi (1869), no. 1471"}
+  ]
  }
 }

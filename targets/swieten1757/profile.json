@@ -234,6 +234,9 @@
     "item": "290 313 316 313 373 (R956 run 16), digit division uncertain"
    }
   ],
-  "notes": "fraction_read = 1 - 21 unread of 553 groups in R956+R957; R955 read from its decipherment."
+  "notes": "fraction_read = 1 - 21 unread of 553 groups in R956+R957; R955 read from its decipherment.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "decipherment written below the numbers of R955"}
+  ]
  }
 }

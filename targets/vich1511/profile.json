@@ -309,6 +309,9 @@
       "tokens_open": 995
     },
     "verification": ["key confirms", "historical consistency", "statistical test"],
-    "notes": "N.45, N.57, N.60 read with about 3-8% of groups unread (5-14% counting garbled stretches); N.73 not read. fraction_read measured roughly: 12,213 of 13,381 decoded tokens in N.45/N.57/N.60 not bracketed, over those plus the 3,177 tokens of unread N.73 (0.74)."
+    "notes": "N.45, N.57, N.60 read with about 3-8% of groups unread (5-14% counting garbled stretches); N.73 not read. fraction_read measured roughly: 12,213 of 13,381 decoded tokens in N.45/N.57/N.60 not bracketed, over those plus the 3,177 tokens of unread N.73 (0.74).",
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "clerk's decipherments of the siblings N.46 and N.52BIS (and N.41, N.39, N.12)"}
+    ]
   }
 }

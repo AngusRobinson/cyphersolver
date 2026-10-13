@@ -79,6 +79,10 @@
   "class": "already solved",
   "fraction_read": "unknown",
   "verification": ["contemporary decipherment"],
-  "notes": "About 70% read by crib attack before the contemporary decipherment (f. 278) was found; it agrees with every value recovered. DECODE date 1569 corrected to 5 July 1570; R4930 is not a key. Catalogue entry 99 removed."
+  "notes": "About 70% read by crib attack before the contemporary decipherment (f. 278) was found; it agrees with every value recovered. DECODE date 1569 corrected to 5 July 1570; R4930 is not a key. Catalogue entry 99 removed.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment on the next leaf, f. 278 (DECODE R4932)"},
+    {"who": "boyd", "role": "key or decipherment used", "note": "CSP Scotland iii no. 339 abstract of Sussex's clear copy, used as the crib that read ~70% before f. 278 was found", "date": "1903", "source": "Boyd, Calendar of State Papers, Scotland iii (1903) no. 339"}
+  ]
  }
 }

@@ -167,6 +167,10 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Five slips of Yard's pen noted; names agree with Beinecke summaries of neighbouring letters."
+  "notes": "Five slips of Yard's pen noted; names agree with Beinecke summaries of neighbouring letters.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Manchester's 'Diplomatic cipher, contemporary copy' (Yale) and the 5 Oct 1699 interlinear decipherment"},
+    {"who": "tomokiyo", "role": "pointer", "note": "identified the THE=454 template and decoded the first groups (glorious.htm)", "source": "https://cryptiana.web.fc2.com/code/glorious.htm"}
+  ]
  }
 }

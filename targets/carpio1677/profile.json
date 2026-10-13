@@ -92,6 +92,9 @@
   "codes_open": {"open": 1, "total": "unknown", "tokens_open": 8},
   "grades": "unknown",
   "verification": ["contemporary decipherment", "key confirms", "historical consistency", "statistical test"],
-  "notes": "Key rebuilt here from the letters with the marginal decipherments (complete, contemporary) in hand, so attack is archive decipherment rather than cryptanalysis. Open in the key: struck 14 and a few struck numbers ([55], [25], [80], ...); three code words conjectural. The eight margin letters are summarised from the machine reading, not edited line by line."
+  "notes": "Key rebuilt here from the letters with the marginal decipherments (complete, contemporary) in hand, so attack is archive decipherment rather than cryptanalysis. Open in the key: struck 14 and a few struck numbers ([55], [25], [80], ...); three code words conjectural. The eight margin letters are summarised from the machine reading, not edited line by line.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "marginal decipherments of all ten letters; the key rebuilt from R1010's"}
+  ]
  }
 }

@@ -122,6 +122,10 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time (decipherment bound as f. 74), calendared by Bain in abstract, key by Tomokiyo. Recipient and sender identified; DECODE's Jan 1568 is Old Style for 18 Jan 1569. Full transcription of the decipherment in reading.md. Code signs Mn, X, n, k, m and others left as in the decipherment. Catalogue entry 84 removed."
+  "notes": "Read at the time (decipherment bound as f. 74), calendared by Bain in abstract, key by Tomokiyo. Recipient and sender identified; DECODE's Jan 1568 is Old Style for 18 Jan 1569. Full transcription of the decipherment in reading.md. Code signs Mn, X, n, k, m and others left as in the decipherment. Catalogue entry 84 removed.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "decipherment bound as ff. 74r-v, transcribed in full"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "Mary-Hamilton key (mary.htm, filed on DECODE R8347), checked on the first cipher line", "source": "cryptiana mary.htm; DECODE R8347"}
+  ]
  }
 }

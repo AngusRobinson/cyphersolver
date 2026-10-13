@@ -152,6 +152,9 @@
    "independent clear copy",
    "historical consistency"
   ],
-  "notes": "Every code run is matched to the printed clear text; two runs (91, 261) have no printed word. The code table itself is not rebuilt."
+  "notes": "Every code run is matched to the printed clear text; two runs (91, 261) have no printed word. The code table itself is not rebuilt.",
+  "credits": [
+    {"who": "parke", "role": "key or decipherment used", "note": "clear text of the instructions printed from the office draft; all 61 code runs aligned to it", "date": "1798", "source": "Parke, Letters and Correspondence of Bolingbroke (1798) i 310-311"}
+  ]
  }
 }

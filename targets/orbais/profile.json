@@ -252,6 +252,10 @@
     "detail": "re-transcribed 5 Oct (⊡ = r): et-f-e-g-r-e, not sense; fr. 3612 not digitised"
    }
   ],
-  "notes": "Letter substance is in clear. Cipher runs: depeschera … le doien; la protection; Cassin; vostre […]; Mr le [τ] mon maistre; j'ay veu ung advis qui confirme; Baron. Grades count cipher runs (decode62.py READ): H = protection (2 runs), Cassin, vostre, stre, Baron; C = de-pes, chera, le doien, Mr le … mon mai, j'ay veu ung advis, confirme."
+  "notes": "Letter substance is in clear. Cipher runs: depeschera … le doien; la protection; Cassin; vostre […]; Mr le [τ] mon maistre; j'ay veu ung advis qui confirme; Baron. Grades count cipher runs (decode62.py READ): H = protection (2 runs), Cassin, vostre, stre, Baron; C = de-pes, chera, le doien, Mr le … mon mai, j'ay veu ung advis, confirme.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "partial Nevers-Piles table (cryptiana nevers.htm); he had identified no. 62 as in this cipher and read \"Cassin\"; extended here", "source": "cryptiana nevers.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment of the sibling BnF fr. 4715 f. 2 (Cardinal de Guise, 1586)"}
+  ]
  }
 }

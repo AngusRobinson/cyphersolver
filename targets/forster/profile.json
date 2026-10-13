@@ -133,6 +133,12 @@
    "key confirms",
    "matched control"
   ],
-  "notes": "Nothing new about the text; the addition is the control and the blind recovery."
+  "notes": "Nothing new about the text; the addition is the control and the blind recovery.",
+  "credits": [
+    {"who": "pitt", "role": "key or decipherment used", "note": "public key, GitHub robertpitt/forster-cipher (14 Sept 2026), applied literally", "date": "2026-09-14", "source": "https://github.com/robertpitt/forster-cipher"},
+    {"who": "lasry", "role": "prior solution", "note": "deciphered the passage after Britland's 2013 article; credited in Pitt's repository", "published": false},
+    {"who": "biermann", "role": "prior solution", "note": "deciphered the passage independently; credited in Pitt's repository", "published": false},
+    {"who": "tomokiyo", "role": "transcription", "note": "transcription of the ciphertext (blog, 21 Sept 2021), used verbatim", "date": "2021-09-21"}
+  ]
  }
 }

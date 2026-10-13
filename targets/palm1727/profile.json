@@ -141,6 +141,9 @@
   "class": "not read",
   "fraction_read": 0,
   "verification": [],
-  "notes": "Closed as infeasible ciphertext-only: a same-size control with correct pins reaches only 44-50% token accuracy. Needs Palm's key or the Deciphering Branch clear copy."
+  "notes": "Closed as infeasible ciphertext-only: a same-size control with correct pins reaches only 44-50% token accuracy. Needs Palm's key or the Deciphering Branch clear copy.",
+  "credits": [
+    {"who": "feyseel", "role": "verification", "note": "PR #21: word-level solver test on R7927; no German, the block traced to glosses or transcription", "date": "2026-10-04", "source": "https://github.com/dbourdeau/cyphersolver/pull/21"}
+  ]
  }
 }

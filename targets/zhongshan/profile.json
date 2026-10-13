@@ -109,6 +109,10 @@
   "verification": [
    "none"
   ],
-  "notes": "Blocked at the source: a bespoke codebook needs the unpublished 891 telegrams."
+  "notes": "Blocked at the source: a bespoke codebook needs the unpublished 891 telegrams.",
+  "credits": [
+    {"who": "tomokiyo", "role": "prior solution", "note": "read the preamble and date of the one published opening; identified the addressee", "source": "https://cryptiana.web.fc2.com/"},
+    {"who": "zhongshanmuseum", "role": "prior solution", "note": "352 of 891 telegrams read by 2009, unpublished", "date": "2009", "published": false}
+  ]
  }
 }

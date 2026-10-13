@@ -118,6 +118,9 @@
   "verification": [
    "none"
   ],
-  "notes": "Needs copies of NRS GD406/1/2197."
+  "notes": "Needs copies of NRS GD406/1/2197.",
+  "credits": [
+    {"who": "tomokiyo", "role": "transcription", "note": "the 1766 Account witness, taken via cryptiana"}
+  ]
  }
 }

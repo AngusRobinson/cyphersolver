@@ -627,6 +627,11 @@
       "key confirms",
       "independent clear copy"
     ],
-    "notes": "Prior published plaintext and archived keys identified; two short samples (42 tokens total) verified. Twenty-record source concordance is not an end-to-end decipherment. Composite-record non-Throckmorton material and complete transcription remain unverified."
+    "notes": "Prior published plaintext and archived keys identified; two short samples (42 tokens total) verified. Twenty-record source concordance is not an end-to-end decipherment. Composite-record non-Throckmorton material and complete transcription remain unverified.",
+    "credits": [
+      {"who": "forbes", "role": "key or decipherment used", "note": "Full View I (1740), II (1741): printed decipherments matched to the records", "date": "1740-1741"},
+      {"who": "contemporary", "role": "key or decipherment used", "note": "archived key DECODE R9262 (Add MS 4136), checked on two samples"},
+      {"who": "tomokiyo", "role": "pointer", "note": "had identified the keys and editions (elizabeth.htm)", "source": "https://cryptiana.web.fc2.com/"}
+    ]
   }
 }

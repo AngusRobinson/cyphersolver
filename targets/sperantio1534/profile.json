@@ -368,6 +368,9 @@
    }
   ],
   "notes": "DECODE has the direction wrong: Sperantio is the addressee on the cover, not the sender. R9411 is King John to the dukes, R9412 an agent's newsletter. The key is System L of R9415 in the same volume: one correspondence.",
-  "fraction_read": 0.954
+  "fraction_read": 0.954,
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment of R9411 (f. 248r-v)"}
+  ]
  }
 }

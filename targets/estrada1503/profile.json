@@ -169,6 +169,10 @@
     "detail": "cursive notes at the same resolution, read in part"
    }
   ],
-  "notes": "Content recovered in outline: French war on Naples, Roussillon, Fuenterrabia, Guipuzcoa, Galicia; Henry VII bound by treaty to help; request for 2000 English foot. Not about the marriage."
+  "notes": "Content recovered in outline: French war on Naples, Roussillon, Fuenterrabia, Guipuzcoa, Galicia; Henry VII bound by treaty to help; request for 2000 English foot. Not about the marriage.",
+  "credits": [
+    {"who": "galende", "role": "key or decipherment used", "note": "Cifra general de los Reyes Católicos (Galende 1994), applied unchanged", "date": "1994"},
+    {"who": "tomokiyo", "role": "pointer", "note": "named the Galende cipher for PTR 53/69 before the attempt"}
+  ]
  }
 }

@@ -197,6 +197,10 @@
   "class": "read",
   "fraction_read": "unknown",
   "verification": ["contemporary decipherment", "independent clear copy", "historical consistency"],
-  "notes": "R2239 read in full except one word (entry 244); 70% of groups read before the print was found; body agrees with Colenbrander no. 752. R2236 not read."
+  "notes": "R2239 read in full except one word (entry 244); 70% of groups read before the print was found; body agrees with Colenbrander no. 752. R2236 not read.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "contemporary decipherment bound in R2237 pp. 2-4, from which the word list was rebuilt"},
+    {"who": "colenbrander", "role": "prior solution", "note": "body printed in Gedenkstukken II no. 752, used as crib; opening not printed", "date": "1906", "source": "Colenbrander, Gedenkstukken der algemeene geschiedenis van Nederland II (1906), no. 752, pp. 910-911"}
+  ]
  }
 }

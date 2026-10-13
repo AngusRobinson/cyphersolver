@@ -164,6 +164,10 @@
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "R72 read (contemporary decipherment confirmed by the recovered key); R73 read by Lasry, 32 illegible groups and 5 nomenclator groups open."
+  "notes": "R72 read (contemporary decipherment confirmed by the recovered key); R73 read by Lasry, 32 illegible groups and 5 nomenclator groups open.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "decipherment written below the figures on f. 52 (R72)"},
+    {"who": "lasry", "role": "key or decipherment used", "note": "key D3190 (frame and nomenclator used for R72) and his R73 decryption D3191 on DECODE", "date": "2020", "source": "DECODE R72/R73, D3190, D3191"}
+  ]
  }
 }

@@ -262,6 +262,9 @@
    }
   ],
   "fraction_read_method": "measured",
-  "fraction_read_source": "targets/rangone1530/measure.py: word-segmented reading aligned sign by sign with the key decrypt; a sign counts only inside a word with no open sign that occurs >=3 times in the it-cinquecento corpora or is a listed single-consonant/missing-sign spelling (245 of 264)"
+  "fraction_read_source": "targets/rangone1530/measure.py: word-segmented reading aligned sign by sign with the key decrypt; a sign counts only inside a word with no open sign that occurs >=3 times in the it-cinquecento corpora or is a listed single-consonant/missing-sign spelling (245 of 264)",
+  "credits": [
+    {"who": "tomokiyo", "role": "pointer", "note": "his Clairambault references (Clair. 330/331, cryptiana francis.htm) led to the same-cipher sibling fr. 3082 f. 42", "source": "cryptiana francis.htm"}
+  ]
  }
 }

@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Unsolved Historical Ciphers — Working Notes, Solutions and Corrections</title>
-<meta name="description" content="An informal benchmark of a frontier AI (Claude Fable 5.1) on historical ciphers nobody has read, drawn from Tomokiyo's catalogue, Elonka Dunin's famous unsolved codes and Schmeh's Top 50: archival research plus purpose-built solvers run against controls, with new decipherments, corrections where a solution already existed in print, and a record of exactly where and why each attempt stops.">
-<link rel="stylesheet" href="style.css?v=20261009a">
+<title>Unsolved Historical Ciphers — an open ledger of decipherments, contributors and corrections</title>
+<meta name="description" content="A shared ledger of historical ciphers nobody had read, drawn from Tomokiyo's catalogue, Elonka Dunin's famous unsolved codes, Schmeh's Top 50 and the contributors: what has been deciphered, by whom and how, with new decipherments by a frontier AI (Claude) and by contributors, corrections where a solution already existed in print, and a record of where and why each attempt stops. Anyone can contribute a solution, a new cipher or a check.">
+<link rel="stylesheet" href="style.css?v=20261013c">
 <meta name="date" content="2026-09-14">
-<meta name="last-modified" content="2026-10-12">
+<meta name="last-modified" content="2026-10-13">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -22,6 +22,7 @@
     <details class="menu"><summary>Explore <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
       <div class="panel ex"><ul><li><a href="highlights.html"><b>Highlights</b><span class="d">Thirty favourites: the funny, the historic, the ingenious</span></a></li><li><a href="glossary.html"><b>Glossary</b><span class="d">How each cipher was solved, and the terms used</span></a></li><li><a href="famous.html"><b>The famous ones</b><span class="d">Why Voynich, Kryptos, Beale and Dorabella resist</span></a></li><li><a href="atlas.html"><b>Atlas</b><span class="d">Every letter drawn on the map, five centuries of it</span></a></li><li><a href="keys.html"><b>Key web</b><span class="d">Which key read which letter</span></a></li><li><a href="secret.html"><b>Secret letter</b><span class="d">Seal a message in a real historical cipher</span></a></li></ul><div class="foot"><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">The code and the working notes on GitHub &#8599;</a></div></div></details>
     <a href="catalogue.html">Catalogue</a>
+    <a href="contributors.html">Contributors</a>
     <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
     <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
   </nav>
@@ -40,15 +41,15 @@
 
 <section class="hero">
   <div class="cipherstrip">1394 · 1116 · 1273 · 250 · 1165 · 1405<br>11 16 19 ~25 29 10<br>972 · 148 · 1459 · 1482</div>
-  <p class="kicker">Working notes · September 2026</p>
+  <p class="kicker">An open ledger · since September 2026</p>
   <h1 data-term-ok><span class="strike">Unsolved</span> Historical Ciphers</h1>
-  <p class="sub">I pick an old cipher with no known decipherment, gather what the archives still hold, and see how far a frontier AI (Claude Fable 5.1) and a laptop can get with it. It is an informal benchmark as much as a hobby. Each result says how the text was obtained: a key recovered from the ciphertext alone, or from plaintext beside it or elsewhere; a known key applied; or an existing decipherment found and transcribed. When nothing comes out, the write-up says why, and what would have to turn up. This is the running log.</p>
-  <p class="sub small">Targets from <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Tomokiyo's catalogue</a>, <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous-codes list</a> and <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a>.</p>
+  <p class="sub">A shared ledger of historical ciphers: what has been deciphered, by whom, and how. It began as an experiment, taking old ciphers with no known decipherment, gathering what the archives still hold, and seeing how far a frontier AI (Anthropic&rsquo;s Claude) and a laptop can get. It now takes contributions from anyone: a solution to a cipher already listed, a new unsolved cipher, a new cipher with its solution, or an independent check of a reading. Each result says how the text was obtained (a key recovered from the ciphertext alone, or from plaintext beside it or elsewhere; a known key applied; an existing decipherment found and transcribed) and who contributed. When nothing comes out, the write-up says why, and what would have to turn up.</p>
+  <p class="sub small">Targets from <a href="https://cryptiana.web.fc2.com/code/unsolved.htm">Tomokiyo's catalogue</a>, <a href="https://elonka.com/UnsolvedCodes.html">Elonka Dunin's famous-codes list</a>, <a href="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/">Schmeh's Top 50</a> and the <a href="contributors.html">contributors</a>. <a href="contribute.html">How to contribute &rarr;</a></p>
 <!-- live:start -->
 <div class="livecount"><button type="button" class="randbtn" aria-label="Open a random write-up">Random cipher &rarr;</button></div>
 <!-- live:end -->
-  <div class="jump"><a href="highlights.html">Thirty favourites</a><a href="#scoreboard">The ledger</a><a href="#recent">Latest findings</a><a href="#writeups">Write-ups</a><a href="#catalogue">The Unsolved Catalogue</a><a href="voynich.html">Voynich</a><a href="secret.html">Write a secret letter</a></div>
-  <p class="meta">Daniel Bourdeau &middot; posted <time datetime="2026-09-14">14 September 2026</time> &middot; updated <time datetime="2026-10-12">12 October 2026</time> &middot; <a href="mailto:dnbourdeau@gmail.com">dnbourdeau@gmail.com</a></p>
+  <div class="jump"><a href="highlights.html">Thirty favourites</a><a href="#scoreboard">The ledger</a><a href="#contributors">Contributors</a><a href="contribute.html">Contribute</a><a href="#recent">Latest findings</a><a href="#writeups">Write-ups</a><a href="#catalogue">The Unsolved Catalogue</a><a href="voynich.html">Voynich</a><a href="secret.html">Write a secret letter</a></div>
+  <p class="meta">Daniel Bourdeau and contributors &middot; posted <time datetime="2026-09-14">14 September 2026</time> &middot; updated <time datetime="2026-10-13">13 October 2026</time> &middot; <a href="mailto:dnbourdeau@gmail.com">dnbourdeau@gmail.com</a></p>
 </section>
 
 <main>
@@ -60,7 +61,7 @@
 <div class="sb-bar" role="img" aria-label="Outcomes of 297 targets by method"><span class="seg ct" style="flex:33;background:var(--green)" title="33 ciphertext-only break"></span><span class="seg extpt" style="flex:13;background:color-mix(in srgb, var(--green) 65%, var(--blue))" title="13 key from external plaintext"></span><span class="seg adjpt" style="flex:42;background:color-mix(in srgb, var(--green) 40%, var(--blue))" title="42 key from adjacent plaintext"></span><span class="seg extkey" style="flex:18;background:var(--violet)" title="18 external key matched"></span><span class="seg known" style="flex:78;background:color-mix(in srgb, var(--violet) 50%, var(--blue))" title="78 known key applied"></span><span class="seg deciph" style="flex:35;background:var(--amber)" title="35 existing decipherment"></span><span class="seg active" style="flex:11;background:var(--gold)" title="11 in progress"></span><span class="seg notsolved" style="flex:49;background:var(--red)" title="49 not solved"></span><span class="seg na" style="flex:18;background:var(--muted)" title="18 not a cipher or not reachable"></span></div>
 <div class="sb-legend"><button type="button" class="lg" data-cat="ct" aria-pressed="false"><i style="background:var(--green)"></i>33 ciphertext-only break</button><button type="button" class="lg" data-cat="extpt" aria-pressed="false"><i style="background:color-mix(in srgb, var(--green) 65%, var(--blue))"></i>13 key from external plaintext</button><button type="button" class="lg" data-cat="adjpt" aria-pressed="false"><i style="background:color-mix(in srgb, var(--green) 40%, var(--blue))"></i>42 key from adjacent plaintext</button><button type="button" class="lg" data-cat="extkey" aria-pressed="false"><i style="background:var(--violet)"></i>18 external key matched</button><button type="button" class="lg" data-cat="known" aria-pressed="false"><i style="background:color-mix(in srgb, var(--violet) 50%, var(--blue))"></i>78 known key applied</button><button type="button" class="lg" data-cat="deciph" aria-pressed="false"><i style="background:var(--amber)"></i>35 existing decipherment</button><button type="button" class="lg" data-cat="active" aria-pressed="false"><i style="background:var(--gold)"></i>11 in progress</button><button type="button" class="lg" data-cat="notsolved" aria-pressed="false"><i style="background:var(--red)"></i>49 not solved</button><button type="button" class="lg" data-cat="na" aria-pressed="false"><i style="background:var(--muted)"></i>18 not a cipher or not reachable</button></div>
 <div class="sb-grid">
-<div class="sb-big"><b>88</b><span>keys recovered here by cryptanalysis: 33 from the ciphertext alone, 42 from plaintext beside the ciphertext, 13 from plaintext found elsewhere.</span></div>
+<div class="sb-big"><b>88</b><span>keys recovered in this ledger by cryptanalysis: 33 from the ciphertext alone, 42 from plaintext beside the ciphertext, 13 from plaintext found elsewhere. 9 of them with <a href="contributors.html">outside contributors</a>.</span></div>
 <div class="sb-big"><b>131</b><span>texts obtained with a key or decipherment that already existed: 78 with a known key, 18 with a key matched here from another document, 35 from a complete existing decipherment.</span></div>
 <div class="sb-big"><b>49</b><span>attempts that stop without the text, each with the reason in its notes.</span></div>
 <div class="sb-big"><b>56,303</b><span>years of silence ended, summed over the 144 dated texts obtained in full (73 more are partial): each had waited from its date until 2026. The oldest is Benedict XIII → Francesc Climent (1399–1416).</span></div>
@@ -404,9 +405,32 @@
 <a class="pt notsolved" href="copenhagen.html" aria-label="Copenhagen cryptogram (c.1950s): not solved" data-name="Copenhagen cryptogram" data-date="c.1950s" data-year="1955" data-cat="notsolved" data-label="not solved" data-note="Two transcriptions, ten languages, six reading conventions; not a simple substitution of any language tested" data-notehead="Result" data-when="15 Sept 2026" data-whenhead="Landed" style="--i:292;--dy:22px"><circle class="halo" cx="905.9" cy="447" r="7.1" fill="var(--red)" filter="url(#tlglow)"/><circle class="core" cx="905.9" cy="447" r="4.6" fill="var(--red)"/></a>
 <a class="pt notsolved" href="scorpion.html" aria-label="Scorpion letters S1 and S5 (1991): not solved" data-name="Scorpion letters S1 and S5" data-date="1991" data-year="1991" data-cat="notsolved" data-label="not solved" data-note="Below the unicity distance for a homophonic key; controls produce fluent false solutions. The 2018 claim tested" data-notehead="Result" data-when="15 Sept 2026" data-whenhead="Landed" style="--i:293;--dy:9px"><circle class="halo" cx="957.2" cy="460" r="7.1" fill="var(--red)" filter="url(#tlglow)"/><circle class="core" cx="957.2" cy="460" r="4.6" fill="var(--red)"/></a>
 </svg><div class="tltip" role="tooltip" hidden></div></div>
-<p class="sb-foot">Counted from the results tables in the <a href="https://github.com/dbourdeau/cyphersolver#results">repository README</a> by <code>_build_stats.py</code>; regenerated 12 October 2026. Rows are documents, not correspondents.</p>
+<p class="sb-foot">Counted from the results tables in the <a href="https://github.com/dbourdeau/cyphersolver#results">repository README</a> by <code>_build_stats.py</code>; regenerated 13 October 2026. Rows are documents, not correspondents.</p>
 </section>
 <!-- stats:end -->
+
+<!-- contrib:start -->
+<section class="contribstrip" id="contributors" aria-labelledby="cs-h">
+<h2 id="cs-h"><span class="num">&#9993;</span> A shared ledger</h2>
+<div class="cs-grid">
+<div class="cs-call">
+<p>Anyone can add to this ledger. Contributions are credited on the write-up and on the <a href="contributors.html">contributors page</a>:</p>
+<ul class="cs-kinds">
+<li><b>A solution</b> to a cipher already listed, in the catalogue or in a write-up left partial.</li>
+<li><b>A new unsolved cipher</b>, with its shelfmark and images.</li>
+<li><b>A new cipher with its solution.</b></li>
+<li><b>A verification</b> of a reading already here: 91 are waiting for an independent check.</li>
+</ul>
+<p class="cs-go"><a class="btn" href="contribute.html">How to contribute &rarr;</a></p>
+</div>
+<div class="cs-top">
+<h3>Top contributors</h3>
+<ol class="cs-people"><li><a href="contributors.html#tomokiyo"><b>Satoshi Tomokiyo</b><span>71 targets &middot; 34 direct</span></a></li><li><a href="contributors.html#lasry"><b>George Lasry</b><span>49 targets &middot; 7 direct</span></a></li><li><a href="contributors.html#arya"><b>Arya Sanketbhai Patel</b><span>8 targets &middot; 8 direct</span></a></li><li><a href="contributors.html#feyseel"><b>Feyseel Nur</b><span>8 targets &middot; 8 direct</span></a></li><li><a href="contributors.html#biermann"><b>Norbert Biermann</b><span>7 targets &middot; 1 direct</span></a></li><li><a href="contributors.html#lccompany"><b>WAINUT</b><span>4 targets &middot; 5 direct</span></a></li><li><a href="contributors.html#kopal"><b>Nils Kopal</b><span>4 targets</span></a></li><li><a href="contributors.html#galende"><b>Juan Carlos Galende Díaz</b><span>3 targets &middot; 1 direct</span></a></li></ol>
+<p class="cs-all"><a href="contributors.html">All contributors and what each added &rarr;</a></p>
+</div>
+</div>
+</section>
+<!-- contrib:end -->
 
 
 <div class="bignews bn-rot" aria-roledescription="carousel" aria-label="Featured results">
@@ -1140,11 +1164,11 @@ search away from "solved in 1858".</p>
 
 </main>
 <footer><div class="in">
-  <span>Daniel Bourdeau, September 2026 &middot; Text released under CC BY 4.0</span>
+  <span>Daniel Bourdeau and contributors, September 2026 &middot; Text released under CC BY 4.0</span>
   <nav aria-label="Footer"><a href="index.html">Overview</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
 </div></footer>
-<script src="zoom.js?v=20261009a" defer></script>
-<script src="site.js?v=20261009a"></script>
-<script src="home.js?v=20261009a" defer></script>
+<script src="zoom.js?v=20261013c" defer></script>
+<script src="site.js?v=20261013c"></script>
+<script src="home.js?v=20261013c" defer></script>
 </body>
 </html>

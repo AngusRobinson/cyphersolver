@@ -162,6 +162,9 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Read with Lasry's key extended; three code groups and twelve signs open."
+  "notes": "Read with Lasry's key extended; three code groups and twelve signs open.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "2022 fr. 15564 Guise-Mercoeur key (cryptiana GL.htm), extended here", "date": "2022", "source": "cryptiana GL.htm"}
+  ]
  }
 }

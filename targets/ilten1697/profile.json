@@ -253,6 +253,9 @@
     "blocker": "needs-physical-access"
    }
   ],
-  "notes": "Catalogue premise corrected: Kalliope's 'Dechiffrierter Brief' means deciphered. No key for codes A or B."
+  "notes": "Catalogue premise corrected: Kalliope's 'Dechiffrierter Brief' means deciphered. No key for codes A or B.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherments on every code run (recipient's office)"}
+  ]
  }
 }

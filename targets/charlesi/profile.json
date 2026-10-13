@@ -161,6 +161,9 @@
   "verification": [
    "matched control"
   ],
-  "notes": "Two candidate keys excluded; the letters are too short and non-repeating for ciphertext-only analysis."
+  "notes": "Two candidate keys excluded; the letters are too short and non-repeating for ciphertext-only analysis.",
+  "credits": [
+    {"who": "tomokiyo", "role": "transcription", "note": "ciphertexts of the two letters from cryptiana, checked against the 1795 page", "source": "cryptiana, Charles II and the Royalists §4"}
+  ]
  }
 }

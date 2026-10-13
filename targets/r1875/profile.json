@@ -140,6 +140,9 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time; sender, recipient and content identified; key not rebuilt."
+  "notes": "Read at the time; sender, recipient and content identified; key not rebuilt.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "chancery decipherment written on the despatch (interlinear p. 1, pp. 3-4)"}
+  ]
  }
 }

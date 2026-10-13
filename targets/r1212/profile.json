@@ -170,6 +170,9 @@
     "blocker": "illegible",
     "detail": "covered by a struck gloss / sign not in key"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "key sheet DECODE R1211, the leaf before the letter (HHStA Kt. 13 Fasc. 20 f. 37); interlinear decipherment on the letter"}
   ]
  }
 }

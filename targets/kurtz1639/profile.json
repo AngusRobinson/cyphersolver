@@ -425,6 +425,10 @@
   ],
   "fraction_read_method": "measured",
   "fraction_read_source": "coverage.json (from decode.py over tr/*.txt): cipher tokens given a value by the key, 22,534 of 22,913 (nulls counted as valued); tokens with no value counted unread. fraction_coherent (0.65) stays a by-eye estimate: read/*.txt has no per-token sense marking, so coherence could not be measured.",
-  "key": "recovered"
+  "key": "recovered",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment on R3811 p. 1 used to seed the key"},
+    {"who": "mirka", "role": "prior solution", "note": "rebuilt the key and read R3811 (summary only, key not printed)", "date": "2012", "source": "Mírka, Západočeské archivy 2012, 44-72; Crypto-World 11-12/2012"}
+  ]
  }
 }

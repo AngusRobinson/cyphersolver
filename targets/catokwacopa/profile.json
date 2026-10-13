@@ -196,6 +196,12 @@
     "blocker": "needs-physical-access",
     "detail": "originals only on the paywalled British Newspaper Archive; blog images re-typeset from the old text"
    }
+  ],
+  "credits": [
+    {"who": "ernst", "role": "transcription", "note": "BNA-verified transcription and line numbering, the text used here", "date": "2018"},
+    {"who": "bosbach", "role": "prior solution", "note": "DYING DECLARATION"},
+    {"who": "estes", "role": "prior solution", "note": "Oxford vocabulary (with 'Dave'): SUMMER TERM, 1853, CONINGTON, JOWETT, BALLIOL ..."},
+    {"who": "krajcovic", "role": "prior solution", "note": "QUI FIT (Horace, Satires 1.1) and 2026 exact-cost audits"}
   ]
  }
 }

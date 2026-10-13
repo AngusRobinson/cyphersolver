@@ -170,6 +170,9 @@
    }
   ],
   "fraction_read_method": "measured",
-  "fraction_read_source": "targets/bizozola1520/codes.txt (all signs) minus targets/bizozola1520/doubtful.txt (doubtful stretches counted as unread)"
+  "fraction_read_source": "targets/bizozola1520/codes.txt (all signs) minus targets/bizozola1520/doubtful.txt (doubtful stretches counted as unread)",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "key table for BnF fr. 3034 f. 156, shown on cryptiana GL.htm; homophones added here", "date": "2023-11-05", "source": "https://cryptiana.web.fc2.com/code/GL.htm"}
+  ]
  }
 }

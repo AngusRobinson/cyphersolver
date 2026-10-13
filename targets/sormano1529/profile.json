@@ -137,6 +137,12 @@
   ],
   "fraction_read_method": "estimated",
   "fraction_read_source": "no reading file: the three letters were never transcribed with Lasry's key (key_lasry.tsv); only short passages read in NOTES prose",
-  "key": "recovered"
+  "key": "recovered",
+  "provenance": "contributed",
+  "credits": [
+    {"who": "arya", "role": "solution", "note": "separate write-up and PR #2: documentary work, Lasry key verified on the leaves, short passages read", "date": "2026-09", "source": "https://github.com/dbourdeau/cyphersolver/pull/2"},
+    {"who": "lasry", "role": "key or decipherment used", "note": "Lasry's key for Sormano's cipher on Tomokiyo's francis.htm (2023)", "date": "2023", "source": "https://cryptiana.web.fc2.com/code/francis.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment f. 113 and marginal decipherment f. 124 aligned as cribs"}
+  ]
  }
 }

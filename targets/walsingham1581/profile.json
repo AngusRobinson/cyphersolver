@@ -85,7 +85,12 @@
    "key confirms"
   ],
   "notes": "Not a new solve. Published glyph key lacks a numeric-label concordance and leaves some signs unknown. Tracker should be corrected to remove Portugal/French attribution from the distinct L'Abbadia worksheet. Verified opening: \"The beirar is domestik servand to the erle of shrevisbvry\". fraction_read ~0.09 = share represented by the published ten-word opening (approximate). Identified the enclosure (R3839 f. 138) and separated it from the L'Abbadia material; checked the published opening; no extension.",
-  "first_break": false
+  "first_break": false,
+  "credits": [
+    {"who": "biermann", "role": "key or decipherment used", "note": "2023 solution with Lasry; published opening and key checked on the manuscript", "date": "2023", "source": "https://cryptiana.web.fc2.com/code/mary3.htm"},
+    {"who": "lasry", "role": "key or decipherment used", "note": "2023 solution with Biermann; published opening and key checked on the manuscript", "date": "2023", "source": "https://cryptiana.web.fc2.com/code/mary3.htm"},
+    {"who": "tomokiyo", "role": "transcription", "note": "published the Biermann-Lasry solution, glyph key and numeric transcription (mary3.htm)", "date": "2026-09-16", "source": "https://cryptiana.web.fc2.com/code/mary3.htm"}
+  ]
  },
  "system": {
   "types": [

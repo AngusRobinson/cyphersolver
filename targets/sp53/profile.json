@@ -192,6 +192,9 @@
   "verification": [
    "matched control"
   ],
-  "notes": "Not homophonic letter ciphers with a modest nomenclator in five languages; heavy nomenclator or nulls remain open. f. 52 below unicity. Needs images and SP 53/22 keys."
+  "notes": "Not homophonic letter ciphers with a modest nomenclator in five languages; heavy nomenclator or nulls remain open. f. 52 below unicity. Needs images and SP 53/22 keys.",
+  "credits": [
+    {"who": "tomokiyo", "role": "transcription", "note": "glyph-label transcriptions of SP 53/16 nos. 78, 79 and SP 53/22 f. 52", "source": "https://cryptiana.web.fc2.com/"}
+  ]
  }
 }

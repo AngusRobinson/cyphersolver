@@ -91,6 +91,11 @@
   "fraction_read": 0,
   "grades": {"H": 0, "C": 0, "M": 0, "I": 0},
   "verification": ["contemporary decipherment"],
-  "notes": "R2120 was already read at the time (R2121). R2122, R2131 and R1895 are unread; the codebook or more Dutch cribs are needed."
+  "notes": "R2120 was already read at the time (R2121). R2122, R2131 and R1895 are unread; the codebook or more Dutch cribs are needed.",
+  "provenance": "mixed",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "clear decipherment of R2120 filed as R2121, used as crib"},
+    {"who": "feyseel", "role": "key corrected", "note": "PR #21: alphabetical layout of the code within 500-group blocks, 354-value table", "date": "2026-10-04", "source": "https://github.com/dbourdeau/cyphersolver/pull/21"}
+  ]
  }
 }

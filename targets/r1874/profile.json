@@ -79,6 +79,9 @@
   "fraction_read": "unknown",
   "grades": {"H": 0, "C": 0, "M": 0, "I": 0},
   "verification": ["contemporary decipherment"],
-  "notes": "Read at the time; sender and date identified; key not rebuilt."
+  "notes": "Read at the time; sender and date identified; key not rebuilt.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Venetian chancery decipherment imaged in the same record (images 8955-8959)"}
+  ]
  }
 }

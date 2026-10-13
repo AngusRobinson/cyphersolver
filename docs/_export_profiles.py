@@ -4,7 +4,8 @@
 
 Writes targets.csv (one row per document; target-level fields repeated on each row) and codebook.md
 (every column with its description and allowed values, taken from profile.schema.json). Profiles that
-fail docs/_check_profile.py are skipped and named on stdout. Lists are joined with '; ', objects are
+fail docs/_check_profile.py are skipped and named on stdout, and so are results an outside contributor produced
+(outcome.provenance "contributed"): they are not the model's work. "mixed" rows stay in, flagged by that column. Lists are joined with '; ', objects are
 flattened with dotted names, and "unknown" is kept as written so gaps stay visible in the analysis.
 """
 import sys, csv, json, pathlib
@@ -26,12 +27,13 @@ def flat(v, prefix, out):
     return out
 
 def rows():
-    out, skipped = [], []
+    out, skipped, contributed = [], [], []
     for p in sorted(TARGETS.glob('*/profile.json')):
         folder = p.parent.name
         if folder in cp.cw.FAMOUS: continue                  # famous targets stay out of the paper data
         if cp.check(folder, quiet=True)[0] != 'valid': skipped.append(folder); continue
         prof = json.loads(p.read_text(encoding='utf-8'))
+        if (prof.get('outcome') or {}).get('provenance') == 'contributed': contributed.append(folder); continue
         base = {'target': folder, 'title': prof['title']}
         for sect in ('system', 'conditions', 'outcome'): flat(prof[sect], sect, base)
         steps = prof['solution'] if isinstance(prof['solution'], list) else []
@@ -41,7 +43,7 @@ def rows():
         docs = prof['documents']
         base['documents.count'] = len(docs)
         for d in docs: out.append({**base, **flat(d, 'doc', {})})
-    return out, skipped
+    return out, skipped, contributed
 
 def codebook(cols):
     def find(path):
@@ -66,7 +68,7 @@ def codebook(cols):
 if __name__ == '__main__':
     outdir = ROOT / (sys.argv[1] if len(sys.argv) > 1 else 'papers/lasry')
     outdir.mkdir(parents=True, exist_ok=True)
-    data, skipped = rows()
+    data, skipped, contributed = rows()
     cols = []
     for r in data:
         for k in r:
@@ -78,3 +80,4 @@ if __name__ == '__main__':
     (outdir / 'codebook.md').write_text(codebook(cols), encoding='utf-8')
     print(f'{len(data)} document rows from {len({r["target"] for r in data})} profiles -> {outdir.relative_to(ROOT)}/targets.csv, codebook.md')
     if skipped: print('skipped (invalid): ' + ', '.join(skipped))
+    if contributed: print('left out (contributed by others, not the model): ' + ', '.join(contributed))

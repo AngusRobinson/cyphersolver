@@ -48,6 +48,12 @@ def parse_year(s):
         return (int(m.group(1)) - 1) * 100 + 50           # "17th c." -> 1650
     return None
 
+import _credits as CR
+_PROFILES = CR.load_all()
+def outside(folders):
+    """True when an outside contributor produced the row's result (profile outcome.provenance contributed or mixed)."""
+    return any(CR.provenance_of(_PROFILES.get(f.lower())) in ('contributed', 'mixed') for f in folders)
+
 def strip_md(s):
     s = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', s)
     s = re.sub(r'[`*]', '', s)
@@ -83,7 +89,8 @@ def load():
             head2 = cols[-2] if len(cols) >= 4 else ''
             when = strip_md(cells[2]) if len(cells) >= 5 else ''
             ext = strip_md(cells[cols.index('Extent')]) if 'Extent' in cols and len(cells) == len(cols) else ''
-            items.append(dict(ext=ext, name=name, date=date.strip(), year=parse_year(date) or next((y for k, y in YEAR_BRACKET.items() if name.startswith(k)), None), cat=c, note=note,
+            folders = re.findall(r'targets/([\w.-]+)/', cells[-1])
+            items.append(dict(ext=ext, name=name, outside=outside(folders), date=date.strip(), year=parse_year(date) or next((y for k, y in YEAR_BRACKET.items() if name.startswith(k)), None), cat=c, note=note,
                               notehead=head2, when=when, whenhead=cols[2] if len(cols) >= 5 else '',
                               href=m.group(1) if m else ''))
     return items
@@ -169,7 +176,9 @@ def build(items):
     lines.append(f'<div class="sb-bar" role="img" aria-label="Outcomes of {total} targets by method">{bar}</div>')
     lines.append(f'<div class="sb-legend">{legend}</div>')
     lines.append('<div class="sb-grid">')
-    lines.append(f'<div class="sb-big"><b>{broke}</b><span>keys recovered here by cryptanalysis: {n["ct"]} from the ciphertext alone, {n["adjpt"]} from plaintext beside the ciphertext, {n["extpt"]} from plaintext found elsewhere.</span></div>')
+    by_contrib = sum(1 for it in items if it['cat'] in ('ct', 'extpt', 'adjpt') and it['outside'])
+    who = f' {by_contrib} of them with <a href="contributors.html">outside contributors</a>.' if by_contrib else ''
+    lines.append(f'<div class="sb-big"><b>{broke}</b><span>keys recovered in this ledger by cryptanalysis: {n["ct"]} from the ciphertext alone, {n["adjpt"]} from plaintext beside the ciphertext, {n["extpt"]} from plaintext found elsewhere.{who}</span></div>')
     lines.append(f'<div class="sb-big"><b>{applied}</b><span>texts obtained with a key or decipherment that already existed: {n["known"]} with a known key, {n["extkey"]} with a key matched here from another document, {n["deciph"]} from a complete existing decipherment.</span></div>')
     lines.append(f'<div class="sb-big"><b>{n["notsolved"]}</b><span>attempts that stop without the text, each with the reason in its notes.</span></div>')
     lines.append(f'<div class="sb-big"><b>{silence:,}</b><span>years of silence ended, summed over the {len(read)} dated texts obtained in full ({part} more are partial): each had waited from its date until {YEAR_NOW}. The oldest is {oldest["name"].split(",")[0].split(" (")[0]} ({oldest["date"]}).</span></div>')

@@ -102,6 +102,10 @@
   "class": "not a cipher",
   "verification": [
    "none"
+  ],
+  "provenance": "contributed",
+  "credits": [
+    {"who": "arya", "role": "solution", "note": "PR #9: no ciphertext under no. 96 (clear summary); eleven other glossed intercepts found in the volume", "source": "https://github.com/dbourdeau/cyphersolver/pull/9"}
   ]
  }
 }

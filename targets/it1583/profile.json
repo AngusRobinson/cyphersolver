@@ -166,6 +166,9 @@
   "class": "not read",
   "fraction_read": 0,
   "verification": [],
-  "notes": "Closed unread. Syllabic Sforza-type system on a binarized scan; needs the 1446 Maino key or a better image and a sign-exact transcription."
+  "notes": "Closed unread. Syllabic Sforza-type system on a binarized scan; needs the 1446 Maino key or a better image and a sign-exact transcription.",
+  "credits": [
+    {"who": "mazzatinti", "role": "identification", "note": "1883 inventory entry identifying the reply to Zorzo Maino 'in cifre'", "date": "1883", "source": "Mazzatinti 1883 inventory of BnF Italian manuscripts"}
+  ]
  }
 }

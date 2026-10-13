@@ -636,6 +636,9 @@
     "extent": "partial",
     "basis": "key rebuilt by aligning R9844 with the court's decipherment; read in substance, about a dozen groups open; measured 5 Oct 2026: post data 98.9%, 20 July 90.0%, 26 July 91.9%, 13 Aug 97.8% (94.0% over the key-B letters)"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the court's decipherment of Soria's 30 Dec 1523 letter (R9844, Salazar 9/30), source of key B; the clerk's interlinear on R9493"}
   ]
  }
 }

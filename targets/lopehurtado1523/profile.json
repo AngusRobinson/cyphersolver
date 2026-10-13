@@ -391,6 +391,10 @@
     "key": "partial",
     "codes_open": {
       "open": 30
-    }
+    },
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "clerk's clear of the 5 Feb 1524 letter on f. 133r (R9846)"},
+      {"who": "bergenroth", "role": "prior solution", "note": "CSP Spain ii nos. 548 and 617 abstract R9667 and R9846 from contemporary decipherments (not used as cribs)", "date": "1866", "source": "Bergenroth, Calendar of State Papers, Spain, vol. 2 (1866), nos. 548, 617"}
+    ]
   }
 }

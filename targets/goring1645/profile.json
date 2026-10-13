@@ -113,6 +113,10 @@
   "verification": [
    "key confirms"
   ],
-  "notes": "Nothing new; codes 104 and 46 open in Lasry's plaintext. Catalogue entry 61 resolved."
+  "notes": "Nothing new; codes 104 and 46 open in Lasry's plaintext. Catalogue entry 61 resolved.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "key 'TNA SP106-3' and plaintext on DECODE R932 (2020-10-23)", "date": "2020-10-23", "source": "DECODE R932"},
+    {"who": "decode", "role": "transcription", "note": "FL's raw transcription on DECODE (D2358)", "source": "DECODE R932, D2358"}
+  ]
  }
 }

@@ -194,6 +194,12 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time; key confirmed on stretches. R61 letter-sign line not attacked."
+  "notes": "Read at the time; key confirmed on stretches. R61 letter-sign line not attacked.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Roman office's interlinear decipherments on R59-R61"},
+    {"who": "biermann", "role": "key or decipherment used", "note": "Biermann-Bosbach key for ASV Francia 64 (1625), on DECODE", "source": "DECODE R60/R61 (D3246, D3247)"},
+    {"who": "bosbach", "role": "key or decipherment used", "note": "Biermann-Bosbach key for ASV Francia 64 (1625), on DECODE", "source": "DECODE R60/R61 (D3246, D3247)"},
+    {"who": "lasry", "role": "key or decipherment used", "note": "his transcription of the Biermann-Bosbach key on DECODE", "date": "2020-10-24", "source": "DECODE D3246, D3247"}
+  ]
  }
 }

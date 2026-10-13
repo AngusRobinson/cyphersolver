@@ -187,6 +187,9 @@
       "key confirms",
       "historical consistency"
     ],
-    "notes": "Whole letter retranscribed from the images (30 Sept, 5 Oct 2026) and read: R902_reading.md. 12 grade-C context corrections plus 89 = Et. Earlier 0.92 was a has-a-value count over DECODE digits."
+    "notes": "Whole letter retranscribed from the images (30 Sept, 5 Oct 2026) and read: R902_reading.md. 12 grade-C context corrections plus 89 = Et. Earlier 0.92 was a has-a-value count over DECODE digits.",
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "Bonac-Groffey key sheet, DECODE R639 (G15 Caps. C Fasc. 44/08), matched by scoring the NAH G15 keys"}
+    ]
   }
 }

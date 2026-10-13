@@ -70,6 +70,9 @@
   "fraction_read": 1.0,
   "grades": {"H": 0, "C": 0, "M": 0, "I": 0},
   "verification": ["matched control", "historical consistency"],
-  "notes": "All 62 message groups read; the 21 remaining groups are nulls by the letter's own statement. The enclosure in invisible ink is not on the record."
+  "notes": "All 62 message groups read; the 21 remaining groups are nulls by the letter's own statement. The enclosure in invisible ink is not on the record.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "William V's 1782 Grand Chiffre (DECODE R1024); interlinear gloss over the first eight lines as check"}
+  ]
  }
 }

@@ -89,6 +89,9 @@
   "codes_open": {"open": 14, "total": 41, "tokens_open": 15},
   "grades": "unknown",
   "verification": ["key confirms", "historical consistency"],
-  "notes": "Read with Lasry's SP106-5 key. The sense is complete; about 20 of 304 groups (code words) are open or read from context only."
+  "notes": "Read with Lasry's SP106-5 key. The sense is complete; about 20 of 304 groups (code words) are open or read from context only.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "King-Queen key 'TNA SP106-5' on DECODE R929 (2020 reconstruction), applied unchanged", "date": "2020", "source": "DECODE R929"}
+  ]
  }
 }

@@ -154,6 +154,9 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Report from the Moldavian court: Muscovite and Polish envoys, Tsar seeking peace with Charles XII, Pekri's message to the voivode, the Swede at Vilna."
+  "notes": "Report from the Moldavian court: Muscovite and Polish envoys, Tsar seeking peace with Charles XII, Pekri's message to the voivode, the Swede at Vilna.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Rákóczi chancery syllabic key, DECODE R609, read the letter unchanged"}
+  ]
  }
 }

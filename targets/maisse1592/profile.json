@@ -264,6 +264,13 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "The content of all four letters is settled by the contemporary clear copies. Group-by-group decipherment covers only the transcribed opening of f. 370, verified letter-for-letter; ff. 373, 406 and 410 are not transcribed, and cipher 2 was not applied."
+  "notes": "The content of all four letters is settled by the contemporary clear copies. Group-by-group decipherment covers only the transcribed opening of f. 370, verified letter-for-letter; ff. 373, 406 and 410 are not transcribed, and cipher 2 was not applied.",
+  "provenance": "contributed",
+  "credits": [
+    {"who": "arya", "role": "solution", "note": "PR #7: Tomokiyo's published keys applied, f. 370 deciphered and the Brienne clear copies found", "source": "https://github.com/dbourdeau/cyphersolver/pull/7"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "keys for both Maisse ciphers published as images on cryptiana (henryiv_Maisse1.png, henryiv_Maisse2.png)", "source": "cryptiana Henri IV page"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "contemporary clear copies of all four letters in Brienne 13 (BnF NAF 6984)"},
+    {"who": "berger", "role": "pointer", "note": "his citations of the old Harlay pièce numbers located the Brienne clear copies", "source": "Berger de Xivrey, Recueil des lettres missives de Henri IV"}
+  ]
  }
 }

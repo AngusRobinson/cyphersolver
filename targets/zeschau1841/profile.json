@@ -106,6 +106,9 @@
   "class": "not read",
   "fraction_read": 0,
   "verification": ["matched control"],
-  "notes": "System identified and seven values recovered; needs the key, imaging of the erased pencil, or the sibling letters transcribed."
+  "notes": "System identified and seven values recovered; needs the key, imaging of the erased pencil, or the sibling letters transcribed.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "rubbed-out interlinear pencil decipherment (seven values)"}
+  ]
  }
 }

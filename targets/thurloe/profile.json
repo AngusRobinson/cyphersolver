@@ -260,6 +260,9 @@
     "blocker": "too-short",
     "detail": "29 distinct homophonic symbols in 50 groups; key in the Clarendon MSS, not online."
    }
+  ],
+  "credits": [
+    {"who": "birch", "role": "transcription", "note": "Thurloe State Papers (1742): the only witness of the four intercepts", "date": "1742"}
   ]
  }
 }

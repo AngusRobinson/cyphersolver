@@ -246,6 +246,10 @@
   "verification": [
    "none"
   ],
-  "notes": "Open: double columnar with two long keys. The second telegram (160 letters) is in hand since 30 Sept 2026; a joint attack on both is in progress."
+  "notes": "Open: double columnar with two long keys. The second telegram (160 letters) is in hand since 30 Sept 2026; a joint attack on both is in progress.",
+  "credits": [
+    {"who": "bean", "role": "transcription", "note": "GitHub issue 14: three letters of telegram 1 corrected (L misread as I), with SHA-256 checks", "date": "2026-09-30", "source": "https://github.com/dbourdeau/cyphersolver/issues/14"},
+    {"who": "bean", "role": "pointer", "note": "pointed to the full image of the second telegram in Schmeh's post", "date": "2026-09-30", "source": "https://github.com/dbourdeau/cyphersolver/issues/14"}
+  ]
  }
 }

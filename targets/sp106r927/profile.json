@@ -385,6 +385,12 @@
    "open": 6,
    "total": "unknown"
   },
-  "first_break": false
+  "first_break": false,
+  "credits": [
+    {"who": "lccompany", "role": "verification", "note": "PR #30 (WAINUT): independent hand transcription and key of ff. 243 and 241, compared with ours", "date": "2026-10-12", "source": "https://github.com/dbourdeau/cyphersolver/pull/30"},
+    {"who": "lccompany", "role": "transcription", "note": "PR #30 (WAINUT): f. 242 shown to be f. 243 with the flap down; readings \"voiage\", \"sieur\" adopted", "date": "2026-10-12", "source": "https://github.com/dbourdeau/cyphersolver/pull/30"},
+    {"who": "richards", "role": "prior solution", "note": "decoded in Secret Writing in the Public Records (not seen here)", "date": "1974"},
+    {"who": "lasry", "role": "pointer", "note": "reported the Richards decipherment (email review)", "date": "2026-09-25"}
+  ]
  }
 }

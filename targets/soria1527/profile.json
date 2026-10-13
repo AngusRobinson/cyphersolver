@@ -115,6 +115,9 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time; decipherment f. 34r (torn in B/C). DECODE date 1517 corrected to 1527. Catalogue entry 142 removed; no write-up."
+  "notes": "Read at the time; decipherment f. 34r (torn in B/C). DECODE date 1517 corrected to 1527. Catalogue entry 142 removed; no write-up.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "court decipherment \"Claro\" bound as f. 34r"}
+  ]
  }
 }

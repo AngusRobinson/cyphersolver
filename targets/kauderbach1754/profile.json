@@ -424,6 +424,9 @@
   "fraction_read": 0.998,
   "grades": "unknown",
   "verification": ["historical consistency", "key confirms", "statistical test"],
-  "notes": "fraction_read = share of the 8,512 groups carrying a key value (only 10, 20, 40, 90 guessed, 12 occurrences). Readers estimate 65-97% of the text read in sense per letter; R1954 weakest; the clear sigla are read from context only."
+  "notes": "fraction_read = share of the 8,512 groups carrying a key value (only 10, 20, 40, 90 guessed, 12 occurrences). Readers estimate 65-97% of the text read in sense per letter; R1954 weakest; the clear sigla are read from context only.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Kauderbach's 1761 key (HStAD, DECODE R936) used for its plaintext vocabulary; numbers do not fit"}
+  ]
  }
 }

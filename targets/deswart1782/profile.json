@@ -213,6 +213,10 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "R1036 read; 56 groups (51 distinct rare codes) are open, mostly entries lost in the scan's binding shadow. R1040 read in part: the second segment only; the first needs the missing Rechteren key (NA inv. 158, not online)."
+  "notes": "R1036 read; 56 groups (51 distinct rare codes) are open, mostly entries lost in the scan's binding shadow. R1040 read in part: the second segment only; the first needs the missing Rechteren key (NA inv. 158, not online).",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Croiset's 1765 codebook of the Russia legation (DECODE R1038), read from its scans", "source": "DECODE R1038"},
+    {"who": "decode", "role": "transcription", "note": "DECODE transcriptions of R1036 and of the R1038 key"}
+  ]
  }
 }

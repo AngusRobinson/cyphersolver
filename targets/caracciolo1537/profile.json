@@ -142,6 +142,11 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Published key read the letter unchanged; Tomokiyo had read four lines; the rest read here, about 10 signs doubtful."
+  "notes": "Published key read the letter unchanged; Tomokiyo had read four lines; the rest read here, about 10 signs doubtful.",
+  "credits": [
+    {"who": "luo", "role": "key or decipherment used", "note": "Cifrario 38 (2021 thesis), read the letter unchanged", "date": "2021", "source": "Luo, El lenguaje cifrado de Isabel de Portugal (1530-1539), PhD thesis, Universitat de València"},
+    {"who": "tomokiyo", "role": "pointer", "note": "named Lu.38 as the key of R9966 on cryptiana", "source": "cryptiana, Spanish ciphers during the reign of Charles V (Luo update)"},
+    {"who": "tomokiyo", "role": "prior solution", "note": "first four lines read (two words corrected here)"}
+  ]
  }
 }

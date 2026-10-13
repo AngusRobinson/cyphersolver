@@ -132,6 +132,12 @@
    {"item": "R1955, the ministerial rescript of the same date (362 groups)", "blocker": "no-key-material", "detail": "Different large homophonic code; not in print; leads: Prussian ministerial code 1751 (GStA PK), Lyonet's decipherments, British decyphers of Michell's correspondence. WAINUT (11 Oct 2026): 95 of 360 groups decoded with the decipherments of Michell's reports R1050/R1051; the rest needs further decipherments of Michell's reports (probably KHA A31-1181, not online) or a contemporary decipherment of R1955 (possibly Nationaal Archief 1.01.50 inv. 159, not digitised)."},
    {"item": "R1957 code table beyond the anchors", "blocker": "open-codes", "detail": "A full alignment of the 550 groups to the print was not done; the text itself is known from the print. WAINUT (11 Oct 2026) aligned it: 179 key values, 381 of 548 groups with a value; the rest are mostly one-off syllables of spelled-out words and names."}
   ],
-  "notes": "R1957's text is the printed minute (PC 8 no. 5263), identified here by clear opening, length and positional anchors; the code was not rebuilt, so no per-token reading and no fraction. R1955 is attempted, open. 'key confirms' refers to the positional anchors, not a full key. WAINUT contribution of 11-12 Oct 2026 (NOTES, key1751/): cabinet key rebuilt and tested blind, R1955 decoded in part; outcome.method, class, fraction_read and grades describe Bourdeau's primary result and were left unchanged; the parts carry the contribution."
+  "notes": "R1957's text is the printed minute (PC 8 no. 5263), identified here by clear opening, length and positional anchors; the code was not rebuilt, so no per-token reading and no fraction. R1955 is attempted, open. 'key confirms' refers to the positional anchors, not a full key. WAINUT contribution of 11-12 Oct 2026 (NOTES, key1751/): cabinet key rebuilt and tested blind, R1955 decoded in part; outcome.method, class, fraction_read and grades describe Bourdeau's primary result and were left unchanged; the parts carry the contribution.",
+  "provenance": "mixed",
+  "credits": [
+    {"who": "politischecorrespondenz", "role": "key or decipherment used", "note": "PC 8 (1882) no. 5263, the printed minute of R1957", "date": "1882", "source": "Politische Correspondenz Friedrichs des Grossen 8 (1882) no. 5263"},
+    {"who": "lccompany", "role": "solution", "note": "PR #29 (WAINUT): cabinet code of 1751 rebuilt from Fagel 5177 letters and blind-tested on R1957; R1955 read in part", "date": "2026-10-11", "source": "https://github.com/dbourdeau/cyphersolver/pull/29"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Dutch decipherments of Michell's reports R1050/R1051, used for R1955"}
+  ]
  }
 }

@@ -431,6 +431,11 @@
       }
     ],
     "notes": "Two letters pass strict sense without a known contemporary decipherment: 24 April 1687, 230/235 (97.9%) conservatively; 8 April 1688, 313/323 (96.9%), conservatively 312/323 (96.6%). The 19 December 1686 letter, 186/186, is the third validation against contemporary plaintext on 32R, not a new reading. Others 199/211 and 250/271 are below. No aggregate grade conversion or volume-wide coherent fraction is claimed. Legacy reading grades remain unchanged; 12:409 = syn is now confirmed by contemporary plaintext. 81=e is contextual and absent from all three validation letters.",
-    "class": "read in part"
+    "class": "read in part",
+    "provenance": "contributed",
+    "credits": [
+      {"who": "feyseel", "role": "new cipher with solution", "note": "PR #22: Battier 1686-88 letters read with the named key NA 1.10.29 inv. 1209 (with Claude and Codex)", "date": "2026-10-04", "source": "https://github.com/dbourdeau/cyphersolver/pull/22"},
+      {"who": "contemporary", "role": "key or decipherment used", "note": "contemporary key naming Battier (NA 1.10.29 inv. 1209, DECODE R2794) and the decipherments on scans 28R, 32R, 42R-43R, 101R"}
+    ]
   }
 }

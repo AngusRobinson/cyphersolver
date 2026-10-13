@@ -119,6 +119,9 @@
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "Explained as deliberate nulls; editor's statement plus key test."
+  "notes": "Explained as deliberate nulls; editor's statement plus key test.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Hyde-Barwick key (plate in the Latin Vita, 1721) and the 1724 editor's note that the superscriptions are nulls", "source": "Life of Dr. John Barwick (1724) p. 409"}
+  ]
  }
 }

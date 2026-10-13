@@ -150,6 +150,9 @@
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "Read at the time by Madison; this project closed the holes in the printed text (a small completion). The only loss is Erving's dropped -eak after 1212, missing in both copies. No full Pinckney key was rebuilt (key: partial). Model id from commit trailers (Claude Opus 5, 1M context); the files were committed inside commits about other targets."
+  "notes": "Read at the time by Madison; this project closed the holes in the printed text (a small completion). The only loss is Erving's dropped -eak after 1212, missing in both copies. No full Pinckney key was rebuilt (key: partial). Model id from commit trailers (Claude Opus 5, 1M context); the files were committed inside commits about other targets.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Madison's interlinear decode (printed PJM-SS 13:529-31) and Pinckney's decoded despatches"}
+  ]
  }
 }

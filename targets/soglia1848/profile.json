@@ -164,6 +164,9 @@
   "fraction_read": "unknown",
   "grades": "unknown",
   "verification": ["historical consistency", "key confirms", "statistical test"],
-  "notes": "11 code groups open, including the date of the earlier letter."
+  "notes": "11 code groups open, including the date of the earlier letter.",
+  "credits": [
+    {"who": "joe", "role": "transcription", "note": "transcription of the printed cryptogram (Cipherbrain blog comment #4), used with one digit restored", "date": "2014", "source": "Cipherbrain, 13 Dec 2014 post, comment #4"}
+  ]
  }
 }

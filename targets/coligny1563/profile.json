@@ -176,6 +176,10 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time and printed 1741; identified from margin glosses; catalogue entry 93 removed, no write-up."
+  "notes": "Read at the time and printed 1741; identified from margin glosses; catalogue entry 93 removed, no write-up.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "English decipherments of the time on the originals (TNA SP 70); CSP Foreign vi nos. 7, 145"},
+    {"who": "forbes", "role": "key or decipherment used", "note": "French clear texts printed in Full View ii (1741) 247-249, 300-303, 319-321", "date": "1741", "source": "Forbes, A Full View of the Public Transactions in the Reign of Q. Elizabeth ii (1741)"}
+  ]
  }
 }

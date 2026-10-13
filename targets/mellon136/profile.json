@@ -158,6 +158,12 @@
     "blocker": "illegible",
     "detail": "runs into the gutter; only one image"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the book's own key, p. 83 ('Die Figur unserer geheimen Schrift')"},
+    {"who": "lasry", "role": "prior solution", "note": "transcription of p. 24 from which Kopal decrypted it; used as a check", "date": "2022", "source": "Schmeh, Cipherbrain, 4 March 2022"},
+    {"who": "kopal", "role": "prior solution", "note": "decrypted p. 24 (video), and gave Schmeh the tip; used as a check", "date": "2022", "source": "https://scienceblogs.de/klausis-krypto-kolumne/2022/03/04/ein-verschluesseltes-buch-aus-dem-jahr-1798/"},
+    {"who": "rieber", "role": "prior solution", "note": "blog comment reading most short passages, with gaps; used as a check", "date": "2022-03-10", "source": "Comment 4 on Schmeh, Cipherbrain, 4 March 2022"}
   ]
  }
 }

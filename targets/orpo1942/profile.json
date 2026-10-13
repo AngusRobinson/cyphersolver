@@ -162,6 +162,10 @@
   "verification": [
    "matched control"
   ],
-  "notes": "Needs about 80 known plaintext pairs for one key (Bletchley's German decrypts in TNA HW 16/17)."
+  "notes": "Needs about 80 known plaintext pairs for one key (Bletchley's German decrypts in TNA HW 16/17).",
+  "credits": [
+    {"who": "weierud", "role": "transcription", "note": "German Police Doppelkastenschlüssel Messages (CryptoCellar 2020): the six messages from NARA RG 457, source of the ciphertext", "date": "2020-08-05", "source": "https://cryptocellar.org (german-police-doka-messages.pdf)"},
+    {"who": "ilya", "role": "identification", "note": "located Borki (Kirovsk district, Mogilev region) named in the A115 decrypt", "date": "2026-09", "source": "reader email, Sept 2026", "published": false}
+  ]
  }
 }

@@ -169,6 +169,10 @@
     "detail": "Never printed; needs the leaf or the f. 342 letter with interlinear decipherment."
    }
   ],
-  "notes": "Deciphered by Büchi and Schiess (1925); nothing deciphered here. Added: the 1925 reading found for an entry listed as unread; the 14 cipher stretches located, counted and translated; L&P shown to print 6 of them and the 1516 abstract shown to confirm their content; old and new foliation reconciled (f. 131 = f. 129)."
+  "notes": "Deciphered by Büchi and Schiess (1925); nothing deciphered here. Added: the 1925 reading found for an entry listed as unread; the 14 cipher stretches located, counted and translated; L&P shown to print 6 of them and the 1516 abstract shown to confirm their content; old and new foliation reconciled (f. 131 = f. 129).",
+  "credits": [
+    {"who": "buchi", "role": "key or decipherment used", "note": "full decipherment printed in Korrespondenzen und Akten II no. 541 (cipher in italics), with Schiess", "date": "1925", "source": "A. Büchi, Korrespondenzen und Akten zur Geschichte des Kardinals Matth. Schiner II (Basel 1925), no. 541, pp. 67-72"},
+    {"who": "schiess", "role": "key or decipherment used", "note": "co-decipherer with Büchi of no. 541", "date": "1925", "source": "A. Büchi, Korrespondenzen und Akten II (1925), no. 541"}
+  ]
  }
 }

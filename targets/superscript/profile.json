@@ -396,6 +396,11 @@
   "notes": "R8613 97.9% (17 of 814 tokens open, scattered single occurrences; image pass of 9 Oct settled 'pinguiores eis' and 'spes nutriret'); R8572 96.1% of significant tokens; R8476/R8589/R8590 deciphered at the time and in print, used as key material. Garbino (BnF Clair. 327) is the Ranzo code of catalogue entry 7 (vasto1527), out of scope.",
   "codes_open": {
    "tokens_open": 26
-  }
+  },
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "decipherments of the sibling letters R8476 (R.O. decipher), R8589, R8590 (interlinear); Sforza key sheet DECODE R5258 for R8572"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "partial Worcester syllable table (cryptiana henryviii.htm) merged into the key", "source": "https://cryptiana.web.fc2.com/code/henryviii.htm"},
+    {"who": "brewer", "role": "key or decipherment used", "note": "L&P iv 5282 prints the deciphered Latin of R8589, aligned for the key"}
+  ]
  }
 }

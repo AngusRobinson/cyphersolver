@@ -14,6 +14,11 @@ is cryptanalysis, and where it stops. Method: archival research, historical crib
 purpose-built solvers, always run against matched controls so that a negative result says something. The results
 are being written up with George Lasry as a paper on how LLMs perform against historical ciphers.
 
+- **Contributing:** the ledger takes contributions from anyone: a solution to a listed cipher, a new unsolved cipher,
+  a new cipher with its solution, or an independent check of a reading. See [CONTRIBUTING.md](CONTRIBUTING.md) and the
+  site's [How to contribute](https://dbourdeau.github.io/cyphersolver/contribute.html); everyone credited is on
+  [Contributors](https://dbourdeau.github.io/cyphersolver/contributors.html), built from `outcome.credits` in each
+  `profile.json` and the registry [`contributors.json`](contributors.json).
 - **Website:** https://dbourdeau.github.io/cyphersolver/ — hub, priority queue, and formal write-ups (source in [`docs/`](docs/)).
 - **Solved, catalogued:** [SOLVED_CATALOGUE.md](SOLVED_CATALOGUE.md) — every item solved, read or partly read, the method that broke it, and where the AI did the work.
 - **Solved, ranked:** [SOLVED_RANKING.md](SOLVED_RANKING.md) — the finished targets in one table, scored by difficulty, historical weight, novelty, research effort, profile and verification.
@@ -465,6 +470,16 @@ Two checkers keep the ledgers in step. `python docs/_check_writeup.py <slug>` li
 must reach (page, manifest, README row, ledgers, catalogue, DECODE queue) and prints `result: complete` when it has;
 `--audit` lists finished targets with no write-up and the drift between README, manifest and pages.
 `python docs/_check_profile.py <folder>` validates a target's `profile.json` against the schema.
+
+Credits are data, not prose. Each profile's `outcome.credits` names who contributed what (ids in
+[`contributors.json`](contributors.json); roles in `profile.schema.json`), and `outcome.provenance` says whether the
+result is the project's, contributed or mixed. [`docs/_credits.py`](docs/_credits.py) reads them; the build prints a
+credits line in each write-up's hero, generates `docs/contributors.html` ([`docs/_contributors_page.py`](docs/_contributors_page.py):
+the table by person and kind, a card per contributor, the scholarship the work builds on, the queue of readings
+waiting for an independent check) and the front page's top-contributors strip, and `writeups.html#by=<id>` filters the
+write-ups to one contributor. `docs/contribute.html` and [CONTRIBUTING.md](CONTRIBUTING.md) are hand-written; the issue
+forms are in `.github/ISSUE_TEMPLATE/`. Credits for work before 13 Oct 2026 were backfilled by
+[`tools/backfill_credits.py`](tools/backfill_credits.py) from the key web, page bylines, merged pull requests and issues, and the notes.
 
 The sender and recipient portraits under a write-up's title come from [`docs/_portraits.json`](docs/_portraits.json)
 (slug &rarr; role, name, image, what the picture is, and its Wikimedia Commons file). Only public-domain portraits

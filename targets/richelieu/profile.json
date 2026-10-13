@@ -138,6 +138,10 @@
    "independent clear copy",
    "historical consistency"
   ],
-  "notes": "Independent ciphertext-only recovery, later matched to Avenel's 1858 decipherment; Brassac's appointment to Rome in 1630 confirms."
+  "notes": "Independent ciphertext-only recovery, later matched to Avenel's 1858 decipherment; Brassac's appointment to Rome in 1630 confirms.",
+  "credits": [
+    {"who": "tomokiyo", "role": "transcription", "note": "cryptiana transcription of BnF fr. 3829 ff. 87, 89 (richelieu1629.txt), the source text of the solve", "source": "cryptiana, Unsolved Historical Ciphers"},
+    {"who": "avenel", "role": "prior solution", "note": "deciphered both letters in Lettres de Richelieu t. III (key 'recomposé'); found after the reading, used to confirm it and to name ten nomenclator codes", "date": "1858", "source": "Avenel, Lettres, instructions diplomatiques et papiers d'État du cardinal de Richelieu, t. III (1858), pp. 368-369, 381-383"}
+  ]
  }
 }

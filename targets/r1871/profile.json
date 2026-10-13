@@ -189,6 +189,10 @@
   "verification": [
    "unknown"
   ],
-  "notes": "R1873 read by Bonavoglia (nothing added). R1871 attempted, not read: 3-digit homophonic/syllabic nomenclator, one page too short to solve blind; key and Bonavoglia's decipherment unreachable."
+  "notes": "R1873 read by Bonavoglia (nothing added). R1871 attempted, not read: 3-digit homophonic/syllabic nomenclator, one page too short to solve blind; key and Bonavoglia's decipherment unreachable.",
+  "credits": [
+    {"who": "bonavoglia", "role": "key or decipherment used", "note": "\"Decifra dispacci veneziani\" (crittologia.eu): transcription and full decipherment of R1873; R1871 also on his list", "source": "crittologia.eu/critto/venezia_nomenclatore.html"},
+    {"who": "tomokiyo", "role": "pointer", "note": "note on DECODE R1872 pointing to Bonavoglia's decipherments", "source": "DECODE R1872"}
+  ]
  }
 }

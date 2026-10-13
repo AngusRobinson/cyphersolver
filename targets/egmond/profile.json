@@ -273,6 +273,10 @@
     "fraction_read": 1.0,
     "verification": ["statistical test"],
     "notes": "Every transcribed sign has a proposed letter or null value; this is coverage, not 100% confidence. Left-bar x and blotted date u remain M; anomalous literal spellings retained. Internal body/address consistency only, no independent key or clear copy.",
-    "first_break": false
+    "first_break": false,
+    "credits": [
+      {"who": "lasry", "role": "prior solution", "note": "key of 2023 on cryptiana GL.htm section 2; plaintext not published", "date": "2023", "source": "cryptiana GL.htm section 2"},
+      {"who": "lasry", "role": "pointer", "note": "pointed out his 2023 solution", "date": "2026-09-21"}
+    ]
   }
 }

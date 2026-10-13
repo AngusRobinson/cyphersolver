@@ -153,6 +153,9 @@
     "blocker": "needs-physical-access",
     "detail": "text breaks off; f. 42 blank"
    }
+  ],
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "BnF fr. 3081 key (24 May 2022) and f. 41r overlays on cryptiana GL.htm; f. 41r read by him, f. 41v read here with his key", "date": "2022-05-24", "source": "cryptiana GL.htm, francis.htm"}
   ]
  }
 }

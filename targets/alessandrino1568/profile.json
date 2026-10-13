@@ -466,6 +466,9 @@
   "class": "read",
   "fraction_read": "unknown",
   "verification": ["historical consistency"],
-  "notes": "Readings are machine output under a polyphonic key: each digit's letter is chosen by the language model, so isolated letters and unlisted nomenclator groups (shown as [NN.]) are uncertain; the sense is continuous throughout. Not checked against contemporary decifrati or Serrano."
+  "notes": "Readings are machine output under a polyphonic key: each digit's letter is chosen by the language model, so isolated letters and unlisted nomenclator groups (shown as [NN.]) are uncertain; the sense is continuous throughout. Not checked against contemporary decifrati or Serrano.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "reconstructed polyphonic key (DOC_R9x_D32xx) attached to R93-R102, R115; his tentative glosses kept", "date": "2020-10-24", "source": "DECODE R93-R102, R115"}
+  ]
  }
 }

@@ -181,6 +181,9 @@
     "detail": "blotted"
    }
   ],
-  "notes": "Report to Hesse-Kassel from a fortress: its needs ('die notturft dieser Vestung') set out to the Emperor and the Elector of Bavaria; writer asks to be held excused."
+  "notes": "Report to Hesse-Kassel from a fortress: its needs ('die notturft dieser Vestung') set out to the Emperor and the Elector of Bavaria; writer asks to be held excused.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear gloss on cipher lines 1-4 used as control; fixed two values"}
+  ]
  }
 }

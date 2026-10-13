@@ -193,6 +193,10 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Nos. 41-42 re-read from Lasry's key; no. 43 opening is new. 17 of the 20 context-fixed syllable values remain unconfirmed. Attack corrected 22 Sept 2026 from 'known plaintext': first deciphered by Lasry (2023), whose key and reading were in hand; re-deciphered from a fresh transcription (NOTES.md)."
+  "notes": "Nos. 41-42 re-read from Lasry's key; no. 43 opening is new. 17 of the 20 context-fixed syllable values remain unconfirmed. Attack corrected 22 Sept 2026 from 'known plaintext': first deciphered by Lasry (2023), whose key and reading were in hand; re-deciphered from a fresh transcription (NOTES.md).",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "key and reading of nos. 41-42, HistoCrypt 2023", "date": "2023", "source": "https://ecp.ep.liu.se/index.php/histocrypt/article/view/699"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment of no. 43, used to rebuild its code"}
+  ]
  }
 }

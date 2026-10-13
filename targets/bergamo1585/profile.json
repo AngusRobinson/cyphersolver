@@ -188,6 +188,10 @@
     "blocker": "open-codes",
     "detail": "Meister p. 393 no. 40 reads all five pages except 5 codes"
    }
+  ],
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "F18 key (DECODE D3103/D3105) and his R15 decryption (D3102); R16 read with the key", "date": "2020", "source": "DECODE R15/R16 D3102-D3105"},
+    {"who": "meister", "role": "key or decipherment used", "note": "p. 324 no. 2 (Ragazzoni 1583 nomenclator) for R16; p. 393 no. 40 read R17", "date": "1906", "source": "A. Meister, Die Geheimschrift im Dienste der päpstlichen Kurie (1906) pp. 324, 393"}
   ]
  }
 }

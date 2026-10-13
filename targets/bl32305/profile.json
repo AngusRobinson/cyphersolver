@@ -308,6 +308,9 @@
   "verification": [
    "none"
   ],
-  "notes": "fraction_read counts the contemporary glosses in R2964 (33 of 354 groups). Needs a key, a clear copy or many more letters in the same code. The Carré letters (R2968/R2970/R2972) were transcribed in full (1323 groups) and tested; not read."
+  "notes": "fraction_read counts the contemporary glosses in R2964 (33 of 354 groups). Needs a key, a clear copy or many more letters in the same code. The Carré letters (R2968/R2970/R2972) were transcribed in full (1323 groups) and tested; not read.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear glosses on R2964/R2965; R2963 and R2974 deciphered at the time"}
+  ]
  }
 }

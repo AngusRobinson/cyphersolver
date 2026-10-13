@@ -314,6 +314,9 @@
     "item": "R9403 P3 l.11-12 two words and P1 l.4 insertion",
     "blocker": "illegible"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear glosses on R9415 and R9414 seeding the keys; System B from glosses in the same volume"}
   ]
  }
 }

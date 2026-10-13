@@ -850,3 +850,46 @@ ul.list.cattop .pr{font-family:var(--display);font-size:1.15rem;color:var(--gold
 .vfig{margin:0 0 1.4rem;overflow-x:auto;-webkit-overflow-scrolling:touch}
 .vfig .vchart{min-width:620px}
 .vfig figcaption{color:var(--muted);font-size:.9rem;margin-top:.2rem}
+
+/* ---- credits and contributors (_credits.py, _contributors_page.py) ---- */
+.hero .credits{font-family:var(--mono);font-size:.82rem;margin:.3rem 0 0;color:var(--ink2);line-height:1.6}
+.hero .credits a{color:var(--gold);text-decoration:underline dotted;text-underline-offset:3px}
+.ctable td a{color:var(--gold)}
+.ctable td.n{white-space:nowrap}
+.ctable th.n{font-size:.62rem;letter-spacing:.06em}
+.ctable.narrow{max-width:760px}
+.cmuted{color:var(--muted);font-size:.9em}
+.ccards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,420px),1fr));gap:1rem;margin:1rem 0 1.6rem}
+.ccard{background:var(--panel);border:1px solid var(--rule);border-radius:var(--radius);padding:1rem 1.1rem;min-width:0}
+.ccard h3{margin:0 0 .35rem;font-size:1.15rem}
+.ccard h3 .gh{font-family:var(--mono);font-size:.72rem;color:var(--muted);margin-left:.4rem;font-weight:400}
+.ccard .cnote{margin:.1rem 0 .5rem;color:var(--ink2);font-size:.92rem}
+.ccard .ckinds{font-family:var(--mono);font-size:.74rem;color:var(--gold);margin:.2rem 0 .6rem}
+.ccard ul{margin:0;padding-left:1.1rem;font-size:.9rem;line-height:1.5}
+.ccard li{margin:.25rem 0;overflow-wrap:anywhere}
+.ccard .src{font-family:var(--mono);font-size:.72rem}
+.cmore summary{cursor:pointer;font-family:var(--mono);font-size:.76rem;color:var(--muted);margin-top:.4rem}
+.cmonths{display:flex;gap:.6rem;align-items:flex-end;flex-wrap:wrap;margin:.4rem 0 1.4rem}
+.cmonths div{display:flex;flex-direction:column;align-items:center;gap:.2rem;font-family:var(--mono);font-size:.72rem}
+.cmonths .bar{display:block;width:34px;background:var(--gold);border-radius:4px 4px 0 0;opacity:.85}
+.cmonths i{font-style:normal;color:var(--muted)}
+.contribstrip{margin:2.2rem 0 2.4rem}
+.cs-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:1.2rem}
+.cs-call,.cs-top{background:var(--panel);border:1px solid var(--rule);border-radius:var(--radius);padding:1.1rem 1.25rem;min-width:0}
+.cs-call{background:linear-gradient(135deg,color-mix(in srgb,var(--gold) 12%,transparent),color-mix(in srgb,var(--gold) 3%,transparent));border-color:color-mix(in srgb,var(--gold) 35%,transparent)}
+.cs-call p{margin:.2rem 0 .6rem}
+.cs-kinds{margin:.2rem 0 .8rem;padding-left:1.1rem;line-height:1.55}
+.cs-kinds li{margin:.2rem 0}
+.btn{display:inline-block;font-family:var(--mono);font-size:.84rem;background:var(--gold);color:var(--gold-ink);padding:.5rem .95rem;border-radius:999px;text-decoration:none;font-weight:600}
+.btn:hover{background:var(--gold2)}
+.cs-top h3{margin:0 0 .5rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.cs-people{margin:0;padding:0;list-style:none;counter-reset:cp}
+.cs-people li{counter-increment:cp;border-bottom:1px solid var(--rule)}
+.cs-people li:last-child{border-bottom:0}
+.cs-people a{display:flex;justify-content:space-between;gap:.6rem;padding:.38rem 0;text-decoration:none;color:var(--ink)}
+.cs-people a::before{content:counter(cp);font-family:var(--mono);font-size:.75rem;color:var(--muted);width:1.3rem;flex:none}
+.cs-people b{flex:1;font-weight:600}
+.cs-people span{font-family:var(--mono);font-size:.74rem;color:var(--muted);text-align:right}
+.cs-all{margin:.6rem 0 0;font-size:.9rem}
+.noted.by{color:var(--blue);border-color:color-mix(in srgb,var(--blue) 45%,transparent);text-decoration:none}
+@media (max-width:760px){.cs-grid{grid-template-columns:1fr}}

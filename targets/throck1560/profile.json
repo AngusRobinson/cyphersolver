@@ -147,6 +147,10 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "Read at the time and printed by Forbes 1740; ciphertext not seen (no images). Catalogue entry 96 removed, no write-up."
+  "notes": "Read at the time and printed by Forbes 1740; ciphertext not seen (no images). Catalogue entry 96 removed, no write-up.",
+  "credits": [
+    {"who": "forbes", "role": "key or decipherment used", "note": "Full View i (1740) pp. 324-25, 328 prints both letters with the cipher deciphered", "date": "1740"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment on the originals (\"portions in cipher, deciphered\")"}
+  ]
  }
 }

@@ -212,6 +212,9 @@
         "detail": "blank in the only surviving key reconstruction (R9115); conjectured from context and alphabetical slot"
       }
     ],
-    "notes": "193/215 significant tokens from key values, 8 from values rebuilt here, 14 conjectured (re-measured 30 Sept 2026 with key.py)."
+    "notes": "193/215 significant tokens from key values, 8 from values rebuilt here, 14 conjectured (re-measured 30 Sept 2026 with key.py).",
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "Windebank family cipher, Deciphering Branch reconstruction (BL Add MS 32256 f. 4, DECODE R9115)"}
+    ]
   }
 }

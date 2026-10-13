@@ -404,6 +404,12 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time; 16 of 17 records carry no cipher. Nothing new to read. R8602 (catalogue 104, 1529) is the same: clear, no cipher. R8578 (catalogue 106, 16 Oct 1528) is the same: clear, no cipher. R8582 (catalogue 105, 18 Nov 1528) is a full cipher page, read at the time by Tuke (L&P IV 4948 ii). R8559 (catalogue 112, July 1527) is clear with one short cipher run deciphered interlinearly ('but the intimation'); part of L&P IV 3271. Catalogue 101: R8472-73 (13 May 1526, to Henry VIII) read at the time by Tuke (image 4), re-read, agrees; R8535 clear; R8533 (20 Apr 1527 duplicate) read at the time from the original (Tuke, TNA), re-read here 90.6% with the L&P crib. R8557 (catalogue 113, 1527) is clear, no cipher. R8574 (catalogue 108, 1528) is clear, no cipher. R8551 (catalogue 115, 'Edouard Lee Almosinar', Valladolid 5 June 1527, L&P IV 3152) is clear, no cipher."
+  "notes": "Read at the time; 16 of 17 records carry no cipher. Nothing new to read. R8602 (catalogue 104, 1529) is the same: clear, no cipher. R8578 (catalogue 106, 16 Oct 1528) is the same: clear, no cipher. R8582 (catalogue 105, 18 Nov 1528) is a full cipher page, read at the time by Tuke (L&P IV 4948 ii). R8559 (catalogue 112, July 1527) is clear with one short cipher run deciphered interlinearly ('but the intimation'); part of L&P IV 3271. Catalogue 101: R8472-73 (13 May 1526, to Henry VIII) read at the time by Tuke (image 4), re-read, agrees; R8535 clear; R8533 (20 Apr 1527 duplicate) read at the time from the original (Tuke, TNA), re-read here 90.6% with the L&P crib. R8557 (catalogue 113, 1527) is clear, no cipher. R8574 (catalogue 108, 1528) is clear, no cipher. R8551 (catalogue 115, 'Edouard Lee Almosinar', Valladolid 5 June 1527, L&P IV 3152) is clear, no cipher.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "Lee-Worcester key (1526-1529) attached to DECODE R8566", "source": "DECODE R8566; cryptiana"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Tuke's decipherments and interlinear decipherments (R8566, R8473 image 4, R8559), used as checks"},
+    {"who": "brewer", "role": "key or decipherment used", "note": "Letters and Papers Henry VIII IV no. 3028 used as crib for R8533", "source": "Letters and Papers, Henry VIII, vol. IV"},
+    {"who": "brewer", "role": "prior solution", "note": "L&P IV no. 2097 already prints the catalogue 102 passage read by the editors", "source": "Letters and Papers, Henry VIII, vol. IV, no. 2097"}
+  ]
  }
 }

@@ -72,6 +72,9 @@
   "class": "read",
   "fraction_read": 0.97,
   "verification": ["contemporary decipherment", "historical consistency", "statistical test"],
-  "notes": "Four previously unread letters read in gist."
+  "notes": "Four previously unread letters read in gist.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "marginal decipherments on 10 of the 14 letters, used to rebuild the key"}
+  ]
  }
 }

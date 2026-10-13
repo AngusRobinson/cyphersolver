@@ -91,6 +91,9 @@
   "fraction_read": "unknown",
   "grades": {"H": 3, "C": 4, "M": 0, "I": 4},
   "verification": ["historical consistency"],
-  "notes": "Drafts read in full; 7 of 11 code numbers identified (3 certain, 4 probable), 27, 32, 36, 40 open."
+  "notes": "Drafts read in full; 7 of 11 code numbers identified (3 certain, 4 probable), 27, 32, 36, 40 open.",
+  "credits": [
+    {"who": "boyd", "role": "key or decipherment used", "note": "CSP Scotland viii glosses fixed 24 Farnyhurst and 40 Justice Clerk (checked after the reading)", "date": "1914"}
+  ]
  }
 }

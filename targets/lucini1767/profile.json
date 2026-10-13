@@ -136,6 +136,9 @@
   "fraction_read": 0.99,
   "grades": "unknown",
   "verification": ["historical consistency"],
-  "notes": "81 of 82 cipher tokens given a value; 8107 open. The sentence continues on the next leaf, not imaged."
+  "notes": "81 of 82 cipher tokens given a value; 8107 open. The sentence continues on the next leaf, not imaged.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "key reconstructed from sibling R121, attached to R120's DECODE record", "date": "2020-10", "source": "DECODE R120 (DOC_R120_D3314)"}
+  ]
  }
 }

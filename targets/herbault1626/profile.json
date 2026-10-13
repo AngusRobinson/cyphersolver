@@ -70,6 +70,11 @@
   "fraction_read": "unknown",
   "grades": "unknown",
   "verification": ["contemporary decipherment", "independent clear copy", "historical consistency"],
-  "notes": "Read at the time: the reading is the contemporary decipherment on the twin copy, not an independent decryption. Unread in ct/letter_13feb1626.md: one whole run after 'les Anglois et les autres' ([chiffre: …]), ellipses inside the first and last passages; uncertain: Santriny, Montembelans, Soubise. Whether the letter or the series is in print was not checked."
+  "notes": "Read at the time: the reading is the contemporary decipherment on the twin copy, not an independent decryption. Unread in ct/letter_13feb1626.md: one whole run after 'les Anglois et les autres' ([chiffre: …]), ellipses inside the first and last passages; uncertain: Santriny, Montembelans, Soubise. Whether the letter or the series is in print was not checked.",
+  "provenance": "contributed",
+  "credits": [
+    {"who": "arya", "role": "solution", "note": "PR #3: found the decipherment on the twin copy no. 26, three folios away", "source": "https://github.com/dbourdeau/cyphersolver/pull/3"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment on the twin copy, BnF fr. 3669 no. 26"}
+  ]
  }
 }

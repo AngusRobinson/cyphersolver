@@ -137,6 +137,9 @@
   "verification": [
    "matched control"
   ],
-  "notes": "Undetermined: name-heavy plaintext or word codes; needs the page or a second letter in the cipher."
+  "notes": "Undetermined: name-heavy plaintext or word codes; needs the page or a second letter in the cipher.",
+  "credits": [
+    {"who": "tomokiyo", "role": "transcription", "note": "transcription of the Moray-Wood cipher (cryptiana elizabeth.htm), the only ciphertext available", "source": "cryptiana elizabeth.htm, \"Moray-Wood Cipher (1568)\""}
+  ]
  }
 }

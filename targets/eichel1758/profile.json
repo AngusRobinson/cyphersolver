@@ -147,6 +147,10 @@
    "matched control",
    "key confirms"
   ],
-  "notes": "Not a message: a dummy sheet written entirely in non-values of key R596 (nulls by rule and blank cells). R596 undated; its tie to Eichel not established."
+  "notes": "Not a message: a dummy sheet written entirely in non-values of key R596 (nulls by rule and blank cells). R596 undated; its tie to Eichel not established.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "key sheet R596 (same volume) with its null rules", "source": "DECODE R596"},
+    {"who": "decode", "role": "transcription", "note": "DECODE transcriptions of the SP 106 and Prussian key records, scored"}
+  ]
  }
 }

@@ -175,6 +175,9 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "The 1854 print (from the secretariat's decipherment) agrees with the cipher wherever checked; the key rebuilt from it reads the print's gap: 'que le lleuase a España, [99] diziendome muchas razones para ello'."
+  "notes": "The 1854 print (from the secretariat's decipherment) agrees with the cipher wherever checked; the key rebuilt from it reads the print's gap: 'que le lleuase a España, [99] diziendome muchas razones para ello'.",
+  "credits": [
+    {"who": "codoin", "role": "key or decipherment used", "note": "CODOIN XXIV (1854) pp. 417-419, printed from the secretariat's decipherment; key rebuilt against it", "date": "1854", "source": "Colección de documentos inéditos para la historia de España XXIV (Madrid 1854) pp. 417-419"}
+  ]
  }
 }

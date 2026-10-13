@@ -195,6 +195,10 @@
     "blocker": "illegible",
     "detail": "same trimmed edge"
    }
+  ],
+  "provenance": "mixed",
+  "credits": [
+    {"who": "noautopilot", "role": "new cipher with solution", "note": "GitHub issue 16: brought in f. 22 with transcription and key recovered ciphertext-only (cipher-lab); corrected and names identified here", "date": "2026-09", "source": "https://github.com/dbourdeau/cyphersolver/issues/16"}
   ]
  }
 }

@@ -111,6 +111,9 @@
     "class": "already solved",
     "fraction_read": 0.8,
     "verification": ["contemporary decipherment", "key confirms", "historical consistency"],
-    "notes": "The historical decipherment covers the full cipher and makes the message's substance clear. About one fifth of a publication-quality diplomatic transcription remains uncertain because the interlinear hand overlaps the cipher, not because the cryptographic values are unknown."
+    "notes": "The historical decipherment covers the full cipher and makes the message's substance clear. About one fifth of a publication-quality diplomatic transcription remains uncertain because the interlinear hand overlaps the cipher, not because the cryptographic values are unknown.",
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear Hungarian decipherment on fol. 38"}
+    ]
   }
 }

@@ -111,6 +111,11 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Calendared 1949 from the contemporary Spanish decipherment; key published (PP1); catalogue entry 202 removed, no write-up."
+  "notes": "Calendared 1949 from the contemporary Spanish decipherment; key published (PP1); catalogue entry 202 removed, no write-up.",
+  "credits": [
+    {"who": "tyler", "role": "key or decipherment used", "note": "CSP Spain XII calendars the letter from its contemporary Spanish decipherment (Simancas E. 808)", "date": "1949", "source": "R. Tyler (ed.), Calendar of State Papers, Spain XII (1949), 19 Feb 1554"},
+    {"who": "contemporary", "role": "prior solution", "note": "Spanish decipherment made at the time (Simancas E. 808)"},
+    {"who": "tomokiyo", "role": "prior solution", "note": "identifies the key (PP1) and reads the opening (cryptiana spanish2C)", "date": "2026", "source": "cryptiana spanish2C"}
+  ]
  }
 }

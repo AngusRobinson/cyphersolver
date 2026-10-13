@@ -305,6 +305,11 @@
   },
   "grades": "unknown",
   "verification": ["key confirms", "historical consistency", "statistical test"],
-  "notes": "48 of 49 groups read as sense (fraction_coherent 48/49); the 49th is a probable slip. By distinct group in NOTES: 29 H/C (pencil decodes or Tomokiyo's known plaintext, including 1320 like), 12 slot-inferred, 555 emended; decode972.py marks ?/* but does not separate H from C, so grades are not counted. The first commit (2026-09-14) carries no model trailer; later ones Claude Fable 5.1. 2026-10-02: the table was extended (additions972.tsv, ~160 context values) and applied to 13 further despatches/runs of 1807-1810 (despatches.py, inventory.tsv); the profile outcome still describes the 30 Aug 1808 postscript. 2026-10-03: pencil decodes on roll 13/14 read; per-despatch known/sense shares in NOTES and shares.txt."
+  "notes": "48 of 49 groups read as sense (fraction_coherent 48/49); the 49th is a probable slip. By distinct group in NOTES: 29 H/C (pencil decodes or Tomokiyo's known plaintext, including 1320 like), 12 slot-inferred, 555 emended; decode972.py marks ?/* but does not separate H from C, so grades are not counted. The first commit (2026-09-14) carries no model trailer; later ones Claude Fable 5.1. 2026-10-02: the table was extended (additions972.tsv, ~160 context values) and applied to 13 further despatches/runs of 1807-1810 (despatches.py, inventory.tsv); the profile outcome still describes the 30 Aug 1808 postscript. 2026-10-03: pencil decodes on roll 13/14 read; per-despatch known/sense shares in NOTES and shares.txt.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "partial THE=972 table from the 4 May 1806 known-plaintext letter (code972_partial.json, 227 entries)"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "State Department clerk's interlinear pencil decodes on NARA M34 rolls 13-14"},
+    {"who": "feyseel", "role": "transcription", "note": "PR #21: frame collation of the 15 and 22 Feb 1808 despatches, correcting Founders' group lists", "date": "2026-10-04", "source": "https://github.com/dbourdeau/cyphersolver/pull/21"}
+  ]
  }
 }

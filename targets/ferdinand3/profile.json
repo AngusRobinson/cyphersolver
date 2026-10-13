@@ -366,6 +366,10 @@
     "detail": "dark right edge; orato[r]"
    }
   ],
-  "notes": "R1889 and R1890 complete (copy slips igitua, materi, expredse in R1890); R1887 partial. Independent of the Aymeloglu reading except that his README (1640 additions mostly syllables) and SOURCES.md (pointer to R954) were read before the R1889/R1890 work; see conditions.prior_solution.notes. The research/top50 claim that Ernst 2017 solved these letters was wrong and is corrected."
+  "notes": "R1889 and R1890 complete (copy slips igitua, materi, expredse in R1890); R1887 partial. Independent of the Aymeloglu reading except that his README (1640 additions mostly syllables) and SOURCES.md (pointer to R954) were read before the R1889/R1890 work; see conditions.prior_solution.notes. The research/top50 claim that Ernst 2017 solved these letters was wrong and is corrected.",
+  "credits": [
+    {"who": "aymeloglu", "role": "prior solution", "note": "R1889, R1890 read and R1887 partial, github.com/aaymeloglu/unsolved-ciphers", "date": "2026-09-18", "source": "https://github.com/aaymeloglu/unsolved-ciphers"},
+    {"who": "aymeloglu", "role": "pointer", "note": "README: the 1640 additions are mostly syllables (read before the R1890 recovery)", "date": "2026-10-09"}
+  ]
  }
 }

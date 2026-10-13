@@ -497,6 +497,13 @@
     "blocker": "open-codes",
     "detail": "key values certain on the sheet but give no sense; the office gloss does not resolve them"
    }
+  ],
+  "provenance": "mixed",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "key slip f. 36r (no. 23), interlinear glosses (nos. 25, 60, 10; fr. 3985 f. 58) and La Verrière's key sheet, Nevers key no. 57 (fr. 3995 ff. 102-103)"},
+    {"who": "setsunaatto", "role": "solution", "note": "GitHub issue 13: identified key no. 57 as Laurière's and read no. 55 with it (transcription and reading)", "date": "2026-09-29", "source": "https://github.com/dbourdeau/cyphersolver/issues/13"},
+    {"who": "setsunaatto", "role": "verification", "note": "PR 15: blind test of key no. 57 against the office's interlinear decipherment of no. 10", "date": "2026-09-30", "source": "https://github.com/dbourdeau/cyphersolver/pull/15"},
+    {"who": "tomokiyo", "role": "pointer", "note": "his entry for key no. 57 names fr. 3985 f. 58, then deciphered here with the key; anchor phrase", "source": "cryptiana nevers.htm"}
   ]
  }
 }

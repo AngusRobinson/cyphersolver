@@ -227,6 +227,10 @@
     "detail": "no DECODE record; not imaged"
    }
   ],
-  "notes": "Class read (21 Sept 2026): the 34 Meister-key records read end to end; only R53/R54 (about 0.6% of digits, second key F22b, no further key material) stay open, listed in gaps. fraction_read estimated: Meister-key digits 232,557 of 234,005 (99.4%) read, less ~1-3% single-letter slips and off-list codes; R53 not decoded, R54 decoded only in part. Class read in part because R53/R54 are not read."
+  "notes": "Class read (21 Sept 2026): the 34 Meister-key records read end to end; only R53/R54 (about 0.6% of digits, second key F22b, no further key material) stay open, listed in gaps. fraction_read estimated: Meister-key digits 232,557 of 234,005 (99.4%) read, less ~1-3% single-letter slips and off-list codes; R53 not decoded, R54 decoded only in part. Class read in part because R53/R54 are not read.",
+  "credits": [
+    {"who": "meister", "role": "key or decipherment used", "note": "Die Geheimschrift (1906) no. 40, key issued to Morosini 1587, applied to 34 enclosures", "date": "1906", "source": "A. Meister, Die Geheimschrift im Dienste der päpstlichen Kurie (Paderborn 1906) pp. 393-394, no. 40"},
+    {"who": "lasry", "role": "key or decipherment used", "note": "partial key reconstructions on DECODE R18 (DOC_3175, Oct 2020, noting \"full key in Meister\") and the F22b key used for R53/R54", "date": "2020-10", "source": "DECODE R18 DOC_3175"}
+  ]
  }
 }

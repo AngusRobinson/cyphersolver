@@ -25,6 +25,7 @@ ROOT = HERE.parent
 TARGETS = ROOT / 'targets'          # one folder per cipher target
 sys.path.insert(0, str(HERE))
 import _check_writeup as cw                              # target_dirs(), readme_rows(): same notion of "finished"
+import _credits as cr                                    # outcome.credits ids against ../contributors.json
 
 SCHEMA = json.loads((ROOT / 'profile.schema.json').read_text(encoding='utf-8'))
 UNKNOWN = 'unknown'
@@ -107,6 +108,7 @@ def check(folder, quiet=False):
     v = prof.get('outcome', {}).get('verification') if isinstance(prof.get('outcome'), dict) else None
     if isinstance(v, list) and 'statistical test' in v and 'validation' not in prof['outcome']:
         errors.append('outcome.verification: "statistical test" needs outcome.validation (python docs/_validate.py <folder> --write)')
+    errors += credit_errors(prof)
     for i, d in enumerate(prof.get('documents', [])):          # a measured count must still match its file
         ln = d.get('length', {}) if isinstance(d, dict) else {}
         if ln.get('measured') is True:
@@ -119,6 +121,21 @@ def check(folder, quiet=False):
         for g in gaps: print(f'  [gap ] {g} = "unknown"')
         print('  result:', 'INVALID' if errors else f'valid, {len(gaps)} unknown field(s)')
     return ('invalid' if errors else 'valid'), errors, gaps
+
+CREDITS_FROM = '2026-10-13'      # work begun from this date must credit whose key or decipherment it applied
+APPLIED = {'read after matching with key from external sources', 'read with known key', 'read from existing decipherment'}
+OWNER_ROLES = ('key or decipherment used', 'prior solution', 'solution', 'new cipher with solution')
+WITHHELD = {'fr3029', 'fr3029f134', 'fr3092'}      # pulled at Lasry's request (22 Sept 2026): never credited or published
+def credit_errors(prof):
+    """Credits name registered contributors; an applied key or decipherment says whose it was (new work only)."""
+    errs = cr.check(prof)
+    out = prof.get('outcome') if isinstance(prof.get('outcome'), dict) else {}
+    first = (prof.get('conditions') or {}).get('first_date') if isinstance(prof.get('conditions'), dict) else None
+    if out.get('method') in APPLIED and isinstance(first, str) and first >= CREDITS_FROM and not any(
+            c.get('role') in OWNER_ROLES for c in cr.credits_of(prof)):
+        errs.append(f'outcome.credits: method {out["method"]!r} needs a credit naming whose key or decipherment was used '
+                    f'(who "contemporary" for one made at the time; contributors.json lists the ids)')
+    return errs
 
 def audit():
     dirs = cw.target_dirs()
@@ -135,6 +152,9 @@ def audit():
     for d in valid:
         if res[d][2]: print(f'  gaps    {d}: {len(res[d][2])} unknown')
     if missing: print('  missing: ' + ', '.join(missing))
+    uncredited = [d for d in have if d not in WITHHELD and (pr := cr.M.load(cw.tdir(d) / 'profile.json'))
+                  and (pr.get('outcome') or {}).get('method') in APPLIED and not any(c.get('role') in OWNER_ROLES for c in cr.credits_of(pr))]
+    if uncredited: print(f'  credits: {len(uncredited)} applied-key targets name no key owner: ' + ', '.join(uncredited))
     return len(missing) + len(invalid)
 
 if __name__ == '__main__':

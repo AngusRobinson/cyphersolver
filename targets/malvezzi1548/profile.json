@@ -184,6 +184,9 @@
   ],
   "fraction_read_method": "measured",
   "fraction_read_source": "measure_sense.py on reading_full.txt (5 Oct 2026): a plaintext word of the ciphered passages counts as read when it is marked read and, for non-code words, is a Latin word form under lang 'la' and its 9-word window scores above the 2nd percentile of corpus windows: 509/514 = 0.990 (p1 1.000, p4 1.000, p5 0.987, p6 0.985, p7 0.985); 0.973 without the 9 slip-corrected words. The earlier 0.83 was a [?]-mark count over read_A/read_B that omitted p. 1 ll. 1-8.",
-  "key": "partial"
+  "key": "partial",
+  "credits": [
+    {"who": "decode", "role": "key or decipherment used", "note": "later key reconstruction DECODE R367 (second copy R386), filed at the same shelfmark"}
+  ]
  }
 }

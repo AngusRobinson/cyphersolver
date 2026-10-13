@@ -119,6 +119,9 @@
   "verification": [
    "none"
   ],
-  "notes": "Blocked on the full ciphertext in Vilcoq 1969; with it, a known-plaintext alignment against Chuquet becomes possible."
+  "notes": "Blocked on the full ciphertext in Vilcoq 1969; with it, a known-plaintext alignment against Chuquet becomes possible.",
+  "credits": [
+    {"who": "tomokiyo", "role": "transcription", "note": "the 325 printed code groups of Berthier's letter (from Vilcoq 1969), as given on cryptiana"}
+  ]
  }
 }

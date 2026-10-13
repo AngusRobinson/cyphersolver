@@ -210,6 +210,11 @@
     "fraction_read": "unknown",
     "grades": "unknown",
     "verification": ["contemporary decipherment", "key confirms", "historical consistency"],
-    "notes": "Langeac and Gramont 1529 read in full, Gramont 1530 ~85 %, Mâcon ~90 % of the cipher; no new cryptanalysis needed."
+    "notes": "Langeac and Gramont 1529 read in full, Gramont 1530 ~85 %, Mâcon ~90 % of the cipher; no new cryptanalysis needed.",
+    "credits": [
+      {"who": "lasry", "role": "key or decipherment used", "note": "2023 key tables for these four letters (GL.htm, 5 Nov 2023), applied unchanged", "date": "2023-11-05", "source": "cryptiana GL.htm"},
+      {"who": "lasry", "role": "prior solution", "note": "decoded all four texts in 2023, never published (his correction of 21 Sept 2026)", "date": "2023", "published": false},
+      {"who": "contemporary", "role": "verification", "note": "decipherment slip f. 9bis of the Mâcon letter agrees"}
+    ]
   }
 }

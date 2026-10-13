@@ -759,6 +759,9 @@
     "extent": "partial",
     "basis": "homophonic substitution broken by constrained annealing with the de-1500s model on 3,150 signs; the faint gloss on the first lines was found to agree afterwards; running German with local errors"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear glosses (Systems B, A') and key R9324 in the same key volume; R9416 f. 262 read at the time"}
   ]
  }
 }

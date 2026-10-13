@@ -198,6 +198,10 @@
     "blocker": "illegible",
     "detail": "figures uncertain; same digits on the Gallica microfilm (second image)"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Nevers's key sheet 'Per Cavare 1590', BnF fr. 3995 f. 64, applied unchanged"},
+    {"who": "tomokiyo", "role": "pointer", "note": "listed Nevers cipher no. 35 as used by the Duke of Mantua in 1590, and said the letter can be read with a key"}
   ]
  }
 }

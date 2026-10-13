@@ -157,6 +157,9 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "Printed in 1809. The cipher is two groups in one letter; the other letter is in clear. Catalogue entry 85 removed, no write-up."
+  "notes": "Printed in 1809. The cipher is two groups in one letter; the other letter is in clear. Catalogue entry 85 removed, no write-up.",
+  "credits": [
+    {"who": "clifford", "role": "key or decipherment used", "note": "Sadler State Papers I (1809) no. XXXVI prints the one ciphered phrase deciphered", "date": "1809", "source": "Clifford (ed.), The State Papers and Letters of Sir Ralph Sadler I (Edinburgh 1809), no. XXXVI"}
+  ]
  }
 }

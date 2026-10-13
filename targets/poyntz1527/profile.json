@@ -108,6 +108,11 @@
   "class": "already solved",
   "fraction_read": 1,
   "verification": ["contemporary decipherment"],
-  "notes": "Both records read at the time: R8567 from its interlinear decipherment, R8565 from Tuke's decipherment in print (L&P IV 3271) and on the page. Nothing new to read. R8565 identified from the thumbnails and the calendar; the full images were not viewed."
+  "notes": "Both records read at the time: R8567 from its interlinear decipherment, R8565 from Tuke's decipherment in print (L&P IV 3271) and on the page. Nothing new to read. R8565 identified from the thumbnails and the calendar; the full images were not viewed.",
+  "provenance": "mixed",
+  "credits": [
+    {"who": "arya", "role": "solution", "note": "PR #10: R8565 (catalogue 111) identified as the separated part of the despatch deciphered by Tuke, L&P IV 3271; write-up", "date": "2026-09-21", "source": "https://github.com/dbourdeau/cyphersolver/pull/10"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment on f. 184v (R8567); Brian Tuke's 1527 decipherment of R8565 (printed in L&P IV 3271)", "date": "1527"}
+  ]
  }
 }

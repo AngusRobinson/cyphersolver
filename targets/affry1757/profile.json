@@ -315,6 +315,10 @@
     "blocker": "open-codes",
     "detail": "would need Lyonet's key sheet or the NA inv. 223 decipherments"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Lyonet's contemporary clear decipherments of eight letters, aligned to rebuild the 651-group key"},
+    {"who": "bussemaker", "role": "key or decipherment used", "note": "1906 printed extracts (verbatim French sentences) used as crib and check", "date": "1906", "source": "Bussemaker, BMHG 27 (1906)"}
   ]
  }
 }

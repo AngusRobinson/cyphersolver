@@ -116,6 +116,9 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Read at the time; decipherment bound as doc. 91 bis. Catalogue entry 203 removed; no write-up."
+  "notes": "Read at the time; decipherment bound as doc. 91 bis. Catalogue entry 203 removed; no write-up.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "decipherment bound as doc. 91 bis, with marginal decipherments"}
+  ]
  }
 }

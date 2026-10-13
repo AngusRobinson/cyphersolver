@@ -127,6 +127,9 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "Plaintext from the contemporary clear copy; the code was not decoded group by group."
+  "notes": "Plaintext from the contemporary clear copy; the code was not decoded group by group.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "ministry's clear copy (fol. 295, N. 16), misfiled as image 3 of DECODE R1946"}
+  ]
  }
 }

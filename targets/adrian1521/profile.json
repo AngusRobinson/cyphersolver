@@ -152,6 +152,9 @@
    "contemporary decipherment",
    "historical consistency"
   ],
-  "notes": "Read in full via the 19th-century decipherment, checked and corrected; about ten groups open (suf, xub, yo, ren nod, xac, sif, tib, xit, Lag, ne)."
+  "notes": "Read in full via the 19th-century decipherment, checked and corrected; about ten groups open (suf, xub, yo, ren nod, xac, sif, tib, xit, Lag, ne).",
+  "credits": [
+    {"who": "gredilla", "role": "key or decipherment used", "note": "19th-c. decipherment printed by Danvila, aligned group by group to rebuild the code", "date": "1899", "source": "Danvila, Memorial Histórico Español 38 (1899), pp. 703-705"}
+  ]
  }
 }

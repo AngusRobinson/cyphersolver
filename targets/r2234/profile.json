@@ -129,6 +129,10 @@
   "class": "read",
   "fraction_read": 1.0,
   "verification": ["historical consistency", "statistical test"],
-  "notes": "Every cipher letter has a value; a few words stay unresolved because of transcription slips, signature not read."
+  "notes": "Every cipher letter has a value; a few words stay unresolved because of transcription slips, signature not read.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "five-alphabet key sheet R2235 (Schrijf Tafel) in the same KHA inventory number"},
+    {"who": "decode", "role": "pointer", "note": "record note on R2234 pointing to R2235 as the likely key"}
+  ]
  }
 }

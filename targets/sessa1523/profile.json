@@ -212,6 +212,10 @@
     "detail": "no attestation in any decipherment on DECODE"
    }
   ],
-  "key": "partial"
+  "key": "partial",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the court's decipherments in Salazar A-31 (key source, via sessa1524) and R9665's margin note and interlinears (checks); four letters read at the time"},
+    {"who": "bergenroth", "role": "prior solution", "note": "CSP Spain 2 nos. 534, 540, 541, 544 calendar four of the letters from the contemporary decipherments", "date": "1866", "source": "G. A. Bergenroth, Calendar of State Papers, Spain, vol. 2 (1866), nos. 534, 540, 541, 544, 545"}
+  ]
  }
 }

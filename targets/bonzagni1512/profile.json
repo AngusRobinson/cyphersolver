@@ -88,6 +88,9 @@
   "contribution": ["none"],
   "class": "already solved",
   "verification": ["contemporary decipherment"],
-  "notes": "Read at the time. Added here only the check that the R1125 slip is the decipherment of its cipher block. Catalogue entry 155 removed; no write-up."
+  "notes": "Read at the time. Added here only the check that the R1125 slip is the decipherment of its cipher block. Catalogue entry 155 removed; no write-up.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherments on R1123, R1124 and the decipherment slip filed with R1125"}
+  ]
  }
 }

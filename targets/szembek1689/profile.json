@@ -166,6 +166,9 @@
     "detail": "occurs once, no gloss, no code table"
    }
   ],
-  "notes": "Read at the time; key rebuilt and checked here. Catalogue 348's 'unknown to the Szembek family, early 18th c.' corrected: Wallachian court after Şerban Cantacuzino's death (Oct 1688), denouncing Antide Dunod SJ. Postscript only; the letter's main body is not in the item."
+  "notes": "Read at the time; key rebuilt and checked here. Catalogue 348's 'unknown to the Szembek family, early 18th c.' corrected: Wallachian court after Şerban Cantacuzino's death (Oct 1688), denouncing Antide Dunod SJ. Postscript only; the letter's main body is not in the item.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment over every run but one"}
+  ]
  }
 }

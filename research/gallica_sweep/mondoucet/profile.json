@@ -291,6 +291,10 @@
     "detail": "No decipherment in fr. 16127 or Didier. After the a/alpha split retry the 1572 key (fitted on one 863-letter crib, ~60% on that block) reads only ~1-8% of the glyphs as sense. The leaves are legible; the limit is the key. f. 61 transcription residue remains but would not read without a better key."
    }
   ],
-  "notes": "9 Sept read by the Court (verified verbatim); 4 Jan read ciphertext-only to ~55-60% of letters, then from print; the project's own contribution is the 1573 key (alpha = r) and the ~79% control."
+  "notes": "9 Sept read by the Court (verified verbatim); 4 Jan read ciphertext-only to ~55-60% of letters, then from print; the project's own contribution is the 1573 key (alpha = r) and the ~79% control.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "glossed 16 July 1572 letter with its decipherment (f. 64) and the Court's verbatim decipherment of 9 Sept 1573 (ff. 139-141)"},
+    {"who": "didier", "role": "key or decipherment used", "note": "Lettres et négociations de Mondoucet t. 1 (1891) pp. 141-142: 4 Jan 1573 printed in clear, confirmed and completed the decode", "date": "1891", "source": "L. Didier, Lettres et négociations de Claude de Mondoucet, t. 1 (1891), pp. 141-142"}
+  ]
  }
 }

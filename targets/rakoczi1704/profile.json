@@ -279,6 +279,9 @@
       "contemporary decipherment",
       "historical consistency"
     ],
-    "notes": "French: R912/R922 97% of groups keyed from image transcriptions (R639 corrected), R852 read from its clear copy. R483: read at the time (interlinear); key rebuilt from it here (224 codes, 70% letter agreement). Grades count R912+R922 groups."
+    "notes": "French: R912/R922 97% of groups keyed from image transcriptions (R639 corrected), R852 read from its clear copy. R483: read at the time (interlinear); key rebuilt from it here (224 codes, 70% letter agreement). Grades count R912+R922 groups.",
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "Bonac-Groffey key sheet (DECODE R639, G15 Fasc. 44/08); R852's clear copy; R483 interlinear decipherment (key rebuilt from it); R912/R922 partial interlinears"}
+    ]
   }
 }

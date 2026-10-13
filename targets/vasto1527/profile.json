@@ -296,6 +296,11 @@
     "detail": "Found read by others, not reworked, no sign transcription to measure."
    }
   ],
-  "notes": "Per document: no. 6 read (98.0% measured, 22 Sept 2026; was 'read' unmeasured on 18 Sept); no. 10 read in part by Lasry/Tomokiyo, not measured; no. 20 not read. The target stays read in part because no. 20 is unread. Grades: 34 values inferred from context (24 code groups, 8 syllable signs, 2 switch markers); Lasry's letter key is taken as it stands. NOTES.md has '## Remaining gaps' and '## Escalation'."
+  "notes": "Per document: no. 6 read (98.0% measured, 22 Sept 2026; was 'read' unmeasured on 18 Sept); no. 10 read in part by Lasry/Tomokiyo, not measured; no. 20 not read. The target stays read in part because no. 20 is unread. Grades: 34 values inferred from context (24 code groups, 8 syllable signs, 2 switch markers); Lasry's letter key is taken as it stands. NOTES.md has '## Remaining gaps' and '## Escalation'.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "Gasto-Charles V Cipher 2 key and preliminary decryption of no. 6 (and f. 40), cryptiana GL.htm", "date": "2026", "source": "https://cryptiana.web.fc2.com/code/GL.htm"},
+    {"who": "lasry", "role": "prior solution", "note": "no. 10 read (Cipher 1), not reworked here", "date": "2023", "source": "https://cryptiana.web.fc2.com/code/GL.htm"},
+    {"who": "tomokiyo", "role": "prior solution", "note": "edited text of no. 10", "date": "2026", "source": "https://cryptiana.web.fc2.com/code/GL.htm"}
+  ]
  }
 }

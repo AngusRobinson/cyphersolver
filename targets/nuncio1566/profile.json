@@ -308,6 +308,9 @@
    "historical consistency",
    "key confirms"
   ],
-  "notes": "Machine output under a polyphonic key: letters are model choices, so isolated letters, the recurring group 'colospo' and unlisted dotted groups ([NN.]) are uncertain; the sense is continuous throughout. Not checked against Serrano."
+  "notes": "Machine output under a polyphonic key: letters are model choices, so isolated letters, the recurring group 'colospo' and unlisted dotted groups ([NN.]) are uncertain; the sense is continuous throughout. Not checked against Serrano.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "reconstructed key on DECODE R85-R90 (24 Oct 2020), identical to the R93-R102 key, applied unchanged", "date": "2020-10-24", "source": "DECODE R85-R90"}
+  ]
  }
 }

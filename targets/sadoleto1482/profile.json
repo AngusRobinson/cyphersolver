@@ -656,6 +656,9 @@
         "blocker": "not-attempted",
         "detail": "principal regions covered, completeness unverified"
       }
+    ],
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "clear copy 7a of R1101 and decipherment 13a of R1104 (key built from them); clear copies 26a/26b of R1106"}
     ]
   }
 }

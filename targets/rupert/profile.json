@@ -437,6 +437,9 @@
    "open": 0,
    "total": 0,
    "tokens_open": 0
-  }
+  },
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "lower alphabet of the royalist key sheet f. 106 (DECODE R8727), and the partial interlinear gloss on f. 107 used as crib"}
+  ]
  }
 }

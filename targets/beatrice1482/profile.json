@@ -258,6 +258,10 @@
       "independent clear copy",
       "historical consistency"
     ],
-    "notes": "Prior-art resolution: four letters have older printed readings, one is not a cipher. March edition retains unexplained Virtus/Fortis/M. markers. No new decipherment, recovered key or measured glyph coverage."
+    "notes": "Prior-art resolution: four letters have older printed readings, one is not a cipher. March edition retains unexplained Virtus/Fortis/M. markers. No new decipherment, recovered key or measured glyph coverage.",
+    "credits": [
+      {"who": "nagy", "role": "key or decipherment used", "note": "printed decipherments in MDE III (1877) nos. 10, 12, 54, 75 and IV (1878) suppl. no. 45, matched to the images", "date": "1877", "source": "Magyar Diplomácziai Emlékek III (1877), IV (1878)"},
+      {"who": "berzeviczy", "role": "key or decipherment used", "note": "1914 edition no. LVI supplies sections of the March 1486 letter", "date": "1914", "source": "Berzeviczy, Aragoniai Beatrix ... okiratok (1914)"}
+    ]
   }
 }

@@ -961,6 +961,9 @@
     "blocker": "needs-physical-access",
     "detail": "not on DECODE (R9532-R9541 are 1859-60 keys); ASNa Esteri"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherments on R9566 p. 3, R9569, R9571, R9589"}
   ]
  }
 }

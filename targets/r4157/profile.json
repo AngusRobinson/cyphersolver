@@ -211,6 +211,11 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Read in full with Tomokiyo's key extended; the contemporary decipherment and the 1899 edition agree. DECODE's metadata (unknown sender, 5 Feb 1587) corrected to Catherine de Médicis → Villeroy, 7 Feb 1581."
+  "notes": "Read in full with Tomokiyo's key extended; the contemporary decipherment and the 1899 edition agree. DECODE's metadata (unknown sender, 5 Feb 1587) corrected to Catherine de Médicis → Villeroy, 7 Feb 1581.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "reconstructed key for BnF fr. 15564 f. 33, extended by twelve values", "source": "cryptiana, French ciphers under Charles IX and Henry III"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "marginal decipherment on the page, used as the check"},
+    {"who": "baguenault", "role": "key or decipherment used", "note": "Lettres de Catherine de Médicis t. VII prints the letter with the contemporary decipherment; used as the check", "date": "1899", "source": "Lettres de Catherine de Médicis, t. VII, pp. 349-353"}
+  ]
  }
 }

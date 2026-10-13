@@ -318,6 +318,10 @@
         "blocker": "illegible",
         "detail": "not transcribable at this resolution"
       }
+    ],
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "Council of Ten Zifra Prima of 1577-78 (ASVe CX Cifre b. 4 reg. 16 ff. 64-65, DECODE R1789), plus two homophones found here"},
+      {"who": "tomokiyo", "role": "pointer", "note": "his description of the Zifra Prima (b. 4 r. 16 f. 64, DECODE R1789) matched the letter's design and led to the key"}
     ]
   }
 }

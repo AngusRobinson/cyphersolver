@@ -217,6 +217,10 @@
     "item": "f. 30 run, sign 6 (ƥ after the null ∞): key value a gives no sense, taken as a null",
     "blocker": "too-short"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Nevers key book no. 11 (BnF fr. 3995 f. 23), unchanged; interlinear decipherment of the sibling fr. 3413 f. 102 calibrated the hand"},
+    {"who": "tomokiyo", "role": "pointer", "note": "catalogue of the fr. 3995 keys (no. 11) and the note that no. 11 is used in fr. 3413 f. 102, the glossed sibling", "source": "cryptiana nevers.htm"}
   ]
  }
 }

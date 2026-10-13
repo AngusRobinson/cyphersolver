@@ -265,6 +265,10 @@
     "blocker": "needs-physical-access",
     "detail": "copy register 23 Aug 1601 - 22 Nov 1602, not digitised (Gallica SRU no record)"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "clear minute of the 10 Nov letter (f. 36) and marginal glosses of the 8 Nov and 10 Dec letters, aligned to rebuild the key"},
+    {"who": "bazeries", "role": "key or decipherment used", "note": "1599 Béthune key printed 1901: same design; its doubling-sign rule applied (values differ)", "date": "1901", "source": "Bazeries 1901, pp. 28-29"}
   ]
  }
 }

@@ -175,6 +175,12 @@
     "detail": "Not in Tomokiyo's table; 94 (ce), 539 (l'esper) and 565 (oit) are clear from the context, the others are plausible readings only (559 may be a null)."
    }
   ],
-  "notes": "Earlier attempt (21 Sept 2026) closed as 'not decoded' after four per-line alignment models; Issue #28 corrected it. Tomokiyo's table is itself a reconstruction from this letter, so the reading is checked against the sheet's own decipherment, not independent of it."
+  "notes": "Earlier attempt (21 Sept 2026) closed as 'not decoded' after four per-line alignment models; Issue #28 corrected it. Tomokiyo's table is itself a reconstruction from this letter, so the reading is checked against the sheet's own decipherment, not independent of it.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "reconstruction table of the 1710 code (Cryptiana 11B), applied unchanged"},
+    {"who": "pillon", "role": "key or decipherment used", "note": "alignment behind Tomokiyo's 1710 table"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "secretary's interlinear and out-of-sync clear text on the sheet"},
+    {"who": "yuanyi", "role": "pointer", "note": "issue #28: Tomokiyo's 1710 table and the continuous-stream reading", "date": "2026-10-09", "source": "https://github.com/dbourdeau/cyphersolver/issues/28"}
+  ]
  }
 }

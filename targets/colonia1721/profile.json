@@ -133,6 +133,10 @@
   "verification": [
    "historical consistency"
   ],
-  "notes": "182 of 189 tokens valued; reading already on DECODE by Lasry/Bonavoglia; three values added here."
+  "notes": "182 of 189 tokens valued; reading already on DECODE by Lasry/Bonavoglia; three values added here.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "reconstructed key 'ASV - C15' and segmented decryption on DECODE R24", "date": "2020-11", "source": "DECODE R24"},
+    {"who": "bonavoglia", "role": "key or decipherment used", "note": "reading with English translation on DECODE R24", "source": "DECODE R24"}
+  ]
  }
 }

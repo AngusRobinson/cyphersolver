@@ -243,6 +243,10 @@
    "M": 13,
    "I": 5
   },
-  "notes": "Code numbers identified against key no. 16 only; the letter text and the three letter runs are unread. fraction_read counts the run signs and the letter text, neither of which reads."
+  "notes": "Code numbers identified against key no. 16 only; the letter text and the three letter runs are unread. fraction_read counts the run signs and the letter text, neither of which reads.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Nevers cipher no. 16, BnF fr. 3995 f. 32v (code numbers only)"},
+    {"who": "tomokiyo", "role": "pointer", "note": "numbered Nevers keys and his transcription of the 31 Aug 1587 sibling (nevers.htm)", "source": "https://cryptiana.web.fc2.com/"}
+  ]
  }
 }

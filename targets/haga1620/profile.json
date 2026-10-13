@@ -176,6 +176,9 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Both catalogued ciphertexts read in sense; a handful of short cipher words and the code [50] stay open, and the clear Dutch was read for sense rather than transcribed verbatim."
+  "notes": "Both catalogued ciphertexts read in sense; a handful of short cipher words and the code [50] stay open, and the clear Dutch was read for sense rather than transcribed verbatim.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "key R2118 (alphabet and 116-code nomenclator), filed in the same NA inventory number", "source": "DECODE R2118"}
+  ]
  }
 }

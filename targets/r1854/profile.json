@@ -463,6 +463,9 @@
     "blocker": "illegible",
     "detail": "786-px scan"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear decipherment of P3 (Forlì, 6 Nov 1428), the key source for that letter"}
   ]
  }
 }

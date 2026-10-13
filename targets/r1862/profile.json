@@ -261,6 +261,9 @@
    "tokens_open": 12
   },
   "fraction_coherent": 0.95,
-  "fraction_read_method": "measured"
+  "fraction_read_method": "measured",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "chancery decipherment of the sibling R1874 (Mocenigo, Madrid 1628), aligned to rebuild the key"}
+  ]
  }
 }

@@ -134,6 +134,10 @@
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "Read from the contemporary decipherment, not by decoding every group; several uncertain words and verso names remain open."
+  "notes": "Read from the contemporary decipherment, not by decoding every group; several uncertain words and verso names remain open.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "clear copy f. 168r and interlinear decipherment on f. 167r-v, bound with the letter"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "partial key (henryiii.htm, Anonymous Figure Cipher 1586), checked and extended here", "source": "cryptiana henryiii.htm"}
+  ]
  }
 }

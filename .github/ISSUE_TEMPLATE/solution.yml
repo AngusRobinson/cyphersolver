@@ -1,0 +1,57 @@
+name: Solution
+description: A solution to a cipher already in the ledger (catalogue entry, partial or unsolved write-up, open item in the notes).
+title: "Solution: <target>"
+labels: [contribution, solution]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Target
+      description: Catalogue number, write-up page or folder name.
+      placeholder: "catalogue 183 / dinteville1592.html / targets/dinteville1592"
+    validations: {required: true}
+  - type: textarea
+    id: documents
+    attributes:
+      label: Documents covered
+      description: Shelfmark, folio, DECODE record numbers, and the images you worked from.
+    validations: {required: true}
+  - type: textarea
+    id: key
+    attributes:
+      label: Key
+      description: Sign-to-value table, code groups with values, nulls. Attach a file if it is long.
+    validations: {required: true}
+  - type: textarea
+    id: reading
+    attributes:
+      label: Decipherment
+      description: Line by line against the ciphertext; mark the passages you are unsure of.
+    validations: {required: true}
+  - type: dropdown
+    id: method
+    attributes:
+      label: How the key was obtained
+      options:
+        - from the ciphertext alone
+        - from plaintext beside the ciphertext (interlinear, margin, clear passages, same file)
+        - from plaintext found elsewhere (edition, calendar, another archive)
+        - an existing key, newly matched to this document
+        - an existing key already known for this document
+        - an existing decipherment, transcribed and checked
+    validations: {required: true}
+  - type: textarea
+    id: prior
+    attributes:
+      label: Published before?
+      description: Any earlier publication of this reading you know of. "None found" is a fine answer.
+  - type: input
+    id: credit
+    attributes:
+      label: How to credit you
+      description: Name, initials or handle, and a link if you like.
+  - type: textarea
+    id: tools
+    attributes:
+      label: Tools
+      description: Solvers, scripts, AI models used, if any.

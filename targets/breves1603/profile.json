@@ -132,6 +132,11 @@
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "Not deciphered here: the ciphertext of fr. 3541 is not online. Clear text exists in print (3 full, 9 summaries) and in fr. 4029."
+  "notes": "Not deciphered here: the ciphertext of fr. 3541 is not online. Clear text exists in print (3 full, 9 summaries) and in fr. 4029.",
+  "credits": [
+    {"who": "berger", "role": "key or decipherment used", "note": "Lettres missives VI (1853), printed from a contemporary clear copy: 3 letters in full, 9 in summary", "date": "1853", "source": "Berger de Xivrey, Recueil des lettres missives de Henri IV, VI (1853)"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "office key BnF fr. 3462 f. 103, checked against the figures"},
+    {"who": "tomokiyo", "role": "prior solution", "note": "key reconstruction and partial reading of f. 60, corrected here against Berger"}
+  ]
  }
 }

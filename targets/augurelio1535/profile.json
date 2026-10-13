@@ -265,6 +265,9 @@
    "open": 2,
    "total": 4,
    "tokens_open": 4
-  }
+  },
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear gloss over f. 233 ll. 1-3 and the R9427 sibling gloss the key was built from"}
+  ]
  }
 }

@@ -267,6 +267,11 @@
    "contemporary decipherment",
    "key confirms"
   ],
-  "notes": "Read at the time and printed 1972; Lasry's key on DECODE since 2020. R9's cancelled cipher lines (unprinted) read here as the P.S. Catalogue entry 245 removed, no write-up."
+  "notes": "Read at the time and printed 1972; Lasry's key on DECODE since 2020. R9's cancelled cipher lines (unprinted) read here as the P.S. Catalogue entry 245 removed, no write-up.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "reconstructed letter key on DECODE R6-R10 (with a scan of Lestocquoy's edition), applied as a check and to read R9's cancelled lines", "date": "2020-10-24", "source": "DECODE R6-R10"},
+    {"who": "lestocquoy", "role": "key or decipherment used", "note": "Acta Nuntiaturae Gallicae 9 prints all five letters with the cipher passages deciphered", "date": "1972", "source": "J. Lestocquoy (ed.), Correspondance du nonce en France Prospero Santa Croce (1552-1554), Acta Nuntiaturae Gallicae 9 (1972)"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "decifrati bound in Nunziatura di Francia 3"}
+  ]
  }
 }

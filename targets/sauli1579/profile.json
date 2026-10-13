@@ -171,6 +171,10 @@
    "key confirms",
    "contemporary decipherment"
   ],
-  "notes": "Read from the contemporary decipherments, checked with the key; a few code groups (20/28, 72/82, 4-digit prefixes, one tail) open."
+  "notes": "Read from the contemporary decipherments, checked with the key; a few code groups (20/28, 72/82, 4-digit prefixes, one tail) open.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the secretariat's interlinear decipherments on nearly every passage"},
+    {"who": "lasry", "role": "key or decipherment used", "note": "reconstructed Portugal nunciature key and decryption of R190-R191 on DECODE (DOC_R190_D3258, D3249), extended here by five code words", "date": "2020-10", "source": "DECODE R190-R194"}
+  ]
  }
 }

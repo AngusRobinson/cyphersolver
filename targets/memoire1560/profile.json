@@ -195,6 +195,9 @@
    "tokens_open": 0
   },
   "notes": "Key broken here ciphertext-only. Content fits the Agenais in Dec 1560: Clairac assembly, Caumont, Biron at Bergerac, Navarre at Nérac, the États of Orléans deputies. Writer unnamed.",
-  "first_break": "unpublished prior"
+  "first_break": "unpublished prior",
+  "credits": [
+    {"who": "lasry", "role": "prior solution", "note": "solved independently in 2023 (improved Feb 2026); private communication 25 Sept 2026", "date": "2023", "published": false}
+  ]
  }
 }

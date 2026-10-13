@@ -107,11 +107,14 @@ document.querySelectorAll('.showmore').forEach(b=>b.dataset.label=b.textContent)
     if(q.value!==state.q) q.value=state.q;
     const needle=state.q.trim().toLowerCase(); let n=0;
     items.forEach(li=>{ let ok=true;
-      for(const k in state.f){ const vs=state.f[k]; if(vs.length && !vs.includes(li.dataset[k])) ok=false; }
+      for(const k in state.f){ const vs=state.f[k], d=li.dataset[k]||'';   // by= (a contributor id) matches any of a row's space-separated ids
+        if(vs.length && !(k==='by' ? vs.some(v=>d.split(' ').includes(v)) : vs.includes(d))) ok=false; }
       if(ok && needle && !(li.dataset.q||'').includes(needle)) ok=false;
       li.hidden=!ok; if(ok) n++; });
     document.querySelectorAll('.wsec').forEach(s=>{ s.hidden=![...s.querySelectorAll('li')].some(li=>!li.hidden); });
     count.textContent = n===items.length ? 'All '+n+' entries' : n+' of '+items.length+' entries';
+    if((state.f.by||[]).length){ let nm={}; try{ nm=JSON.parse(count.dataset.names||'{}'); }catch(e){}
+      count.textContent += ', credited to '+state.f.by.map(v=>nm[v]||v).join(' or '); }
     if(remember){ const parts=[]; for(const k in state.f) if(state.f[k].length) parts.push(k+'='+state.f[k].join(','));
       if(needle) parts.push('q='+encodeURIComponent(state.q.trim()));
       try{ history.replaceState(null,'', parts.length ? '#'+parts.join('&') : location.pathname+location.search); }catch(e){} }

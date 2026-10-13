@@ -650,6 +650,11 @@
         "blocker": "too-short"
       }
     ],
-    "notes": "In progress; see NOTES.md."
+    "notes": "In progress; see NOTES.md.",
+    "credits": [
+      {"who": "contemporary", "role": "key or decipherment used", "note": "decipherments made at the time of nos. 8, 10, 13/16 and 22; alphabet fragment and recipient's glosses on no. 4 (key source)"},
+      {"who": "senatore", "role": "identification", "note": "identified no. 4 as Galgano Borghesi's letter from Naples, May 1456", "date": "2009", "source": "Senatore 2009"},
+      {"who": "decode", "role": "prior solution", "note": "no. 12 photographed again in R1858, marked Decrypted on DECODE and taken as read (no decipherment document attached)"}
+    ]
   }
 }

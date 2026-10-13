@@ -31,7 +31,7 @@ def tdir(folder):
     return TARGETS / folder if (TARGETS / folder).is_dir() or not (ROOT / folder).is_dir() else ROOT / folder
 SITE = 'https://dbourdeau.github.io/cyphersolver/'
 SURVEYS = {'famous', 'solved', 'highlights'}
-TOOL_PAGES = {'atlas', 'keys', 'secret', 'indus-bench', 'glossary'}   # interactive and reference pages, not write-ups
+TOOL_PAGES = {'atlas', 'keys', 'secret', 'indus-bench', 'glossary', 'contributors', 'contribute'}   # interactive and reference pages, not write-ups
 # The famous undeciphered targets (Indus script, Voynich, Beale, Kryptos ...) are written up on the site but keep no
 # profile.json and stay out of the LLM-performance paper data (owner's rule, 23 Sept 2026).
 FAMOUS = {'indus', 'voynich', 'beale', 'kryptos', 'dorabella', 'zodiac', 'z340', 'z13', 'linear_a', 'lineara',

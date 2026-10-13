@@ -163,6 +163,9 @@
     "detail": "four cramped signs, one blotted"
    }
   ],
-  "notes": "Every cipher run of f. 39v read; the f. 39r/40r runs were glossed at the time. fraction_read = decoded signs / all signs of the six unglossed runs in cipher.txt (182/186); glossed words excluded."
+  "notes": "Every cipher run of f. 39v read; the f. 39r/40r runs were glossed at the time. fraction_read = decoded signs / all signs of the six unglossed runs in cipher.txt (182/186); glossed words excluded.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "interlinear glosses and margin note on ff. 39r-40r"}
+  ]
  }
 }

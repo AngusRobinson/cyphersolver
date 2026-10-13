@@ -360,6 +360,14 @@
     "blocker": "illegible",
     "detail": "microfilm copy, 1/7, 0/8, 3/5 confusable; segscore.py did not resolve them"
    }
+  ],
+  "provenance": "mixed",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Nevers key book no. 46 (fr. 3995 f. 87) and Court key no. 60 (ff. 108-111); office decipherment of Gondi's 22 Sept 1593 letter as ground truth"},
+    {"who": "tomokiyo", "role": "pointer", "note": "identified keys no. 46 and no. 60 for these letters; henryiv2.htm lists every letter in no. 60", "source": "cryptiana nevers.htm, henryiv2.htm"},
+    {"who": "tomokiyo", "role": "prior solution", "note": "partial readings: passage 1 of f. 209 and line 1 of f. 168", "source": "cryptiana"},
+    {"who": "tunarob", "role": "key corrected", "note": "issue #32: corrections to key no. 60 (10 of 12 adopted), tag split, partial reading of f. 88r", "date": "2026-10-12", "source": "https://github.com/dbourdeau/cyphersolver/issues/32"},
+    {"who": "tunarob", "role": "transcription", "note": "issue #32: transcription of fr. 3985 f. 88r-v (116 units of f. 88v)", "date": "2026-10-12", "source": "https://github.com/dbourdeau/cyphersolver/issues/32"}
   ]
  }
 }

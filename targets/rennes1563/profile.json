@@ -435,6 +435,10 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Four letters in the Bishop of Rennes' cipher, each in its own secretary's hand; values calibrated per hand on contemporary glossed siblings. The earlier 0.87 was an estimate of secure+probable; measured strictly (5 Oct 2026, measure.py) the share of tokens read as sense is 0.79 after a native-resolution re-transcription pass (0.72 before it). Probable readings (15%) need a sign value no gloss or key attests; unread (6%) are code words and runs no value closes."
+  "notes": "Four letters in the Bishop of Rennes' cipher, each in its own secretary's hand; values calibrated per hand on contemporary glossed siblings. The earlier 0.87 was an estimate of secure+probable; measured strictly (5 Oct 2026, measure.py) the share of tokens read as sense is 0.79 after a native-resolution re-transcription pass (0.72 before it). Probable readings (15%) need a sign value no gloss or key attests; unread (6%) are code words and runs no value closes.",
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "reconstruction of the Bishop of Rennes' cipher (cryptiana henryiii.htm), calibrated per hand", "source": "cryptiana henryiii.htm"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "glosses on sibling letters (fr. 3181 ff. 57-58, Colbert 390) used to fix each hand's sign values"}
+  ]
  }
 }

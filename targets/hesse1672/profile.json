@@ -229,6 +229,9 @@
     "detail": "The 1672 letter table differs from key 255 in at least one cell (55 = g here, h in 1666), and the glosser, with the 1672 key, got the same letters ('erta?in'); whether the table differs in these cells or the encipherer slipped cannot be settled without the 1672 key or another copy, neither online. Glyph, free-cell and corpus searches found no word."
    }
   ],
-  "notes": "59 of 64 cipher tokens read as sense (92.2%), unchanged after escalation. Letter table from HCPortal key 255 (one cell differs in 1672); the nomenclature is a different, lost word list whose values come from the glosses. 625 gloss only partly legible. Writer not identified."
+  "notes": "59 of 64 cipher tokens read as sense (92.2%), unchanged after escalation. Letter table from HCPortal key 255 (one cell differs in 1672); the nomenclature is a different, lost word list whose values come from the glosses. 625 gloss only partly legible. Writer not identified.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "Hessian chancery letter table, Secretary Lincker 1666/1676 (HStAM 4 d Nr. 1234, HCPortal key 255); code values from the contemporary glosses on the leaf"}
+  ]
  }
 }

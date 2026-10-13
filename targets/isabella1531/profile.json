@@ -123,6 +123,11 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Nothing new read. DECODE metadata corrected (R9955 direction and date; R9956 sender, recipient). Catalogue entry 200 removed; no write-up."
+  "notes": "Nothing new read. DECODE metadata corrected (R9955 direction and date; R9956 sender, recipient). Catalogue entry 200 removed; no write-up.",
+  "credits": [
+    {"who": "contemporary", "role": "prior solution", "note": "both letters deciphered at the time on separate sheets"},
+    {"who": "tomokiyo", "role": "identification", "note": "identified R9955 (Charles V to Isabella, 30 Apr 1532) and R9956 (Cobos, 11 Jan 1531) as read at the time", "source": "cryptiana, Spanish ciphers of Charles V"},
+    {"who": "luo", "role": "prior solution", "note": "R9955 printed in her thesis p. 285", "date": "2021", "source": "Luo (2021), thesis, Universitat de València, p. 285"}
+  ]
  }
 }

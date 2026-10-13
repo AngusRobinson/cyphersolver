@@ -344,6 +344,10 @@
     "blocker": "illegible",
     "detail": "bleed-through; no gain at 1.5x; no other image route found"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the court's decipherments of sibling letters in Salazar A-31 (ff. 138/140, 170-172, 322-324, R9893) and R9898's marginal decipherments"},
+    {"who": "bergenroth", "role": "key or decipherment used", "note": "CSP Spain ii 636-638 (R9873) used as a topic crib", "date": "1866", "source": "G. A. Bergenroth, Calendar of State Papers, Spain, vol. 2 (1866), nos. 636-638"}
   ]
  }
 }

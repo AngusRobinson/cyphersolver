@@ -126,6 +126,9 @@
    "key confirms",
    "historical consistency"
   ],
-  "notes": "Solved by Woodard 2021. Added here: the gap readings, the sender (Sir Ralph Boswell, not the King) and the date from the endorsement. Catalogue entry 63 removed."
+  "notes": "Solved by Woodard 2021. Added here: the gap readings, the sender (Sir Ralph Boswell, not the King) and the date from the endorsement. Catalogue entry 63 removed.",
+  "credits": [
+    {"who": "woodard", "role": "key or decipherment used", "note": "monoalphabetic key, transcription and plaintext on DECODE R413; open signs filled here", "date": "2021-11-09", "source": "DECODE R413 DOC_413_2021-Nov-09"}
+  ]
  }
 }

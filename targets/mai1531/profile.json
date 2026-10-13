@@ -109,6 +109,11 @@
   "verification": [
    "contemporary decipherment"
   ],
-  "notes": "Not a cipher: the record is the clear decipherment of Mai's despatch. Catalogue entry 204 removed; no write-up."
+  "notes": "Not a cipher: the record is the clear decipherment of Mai's despatch. Catalogue entry 204 removed; no write-up.",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the record itself is the contemporary clear decipherment of Mai's despatch"},
+    {"who": "tomokiyo", "role": "pointer", "note": "hidden 'no cipher' note on cryptiana spanish2C for R9960", "source": "cryptiana spanish2C"},
+    {"who": "galende", "role": "identification", "note": "names sender (Micer Mai) and recipient (Comendador Mayor de León)", "date": "1994", "source": "Galende Díaz, La escritura cifrada durante el reinado de los Reyes Católicos y Carlos V (1994), p. 163"}
+  ]
  }
 }

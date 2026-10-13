@@ -238,6 +238,9 @@
     "blocker": "too-short",
     "detail": "non-unique; needs Hatfield original"
    }
+  ],
+  "credits": [
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "Cipher 1 key image for Throckmorton's correspondence, seven values corrected", "source": "https://cryptiana.web.fc2.com/"}
   ]
  }
 }

@@ -263,6 +263,10 @@
   "verification": [
    "key confirms"
   ],
-  "notes": "Nothing new; nomenclator numbers remain open in Lasry's plaintexts. Catalogue entries 54, 55, 59, 60 resolved."
+  "notes": "Nothing new; nomenclator numbers remain open in Lasry's plaintexts. Catalogue entries 54, 55, 59, 60 resolved.",
+  "credits": [
+    {"who": "lasry", "role": "key or decipherment used", "note": "reconstructed keys (four periods) and plaintexts of ff. 207-247 on DECODE; SP106-5 alphabet applied to f. 247", "date": "2020-10-23", "source": "DECODE R785, R787, R790, R923, R924, R929 record files"},
+    {"who": "pettersson", "role": "transcription", "note": "DECODE ciphertext transcription of f. 247 (R929) used", "date": "2019"}
+  ]
  }
 }

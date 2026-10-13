@@ -74,6 +74,9 @@
   "fraction_read": 1.0,
   "grades": {"H": 1, "C": 0, "M": 0, "I": 0},
   "verification": ["contemporary decipherment"],
-  "notes": "Read at the time; decipherment on the record. Key not rebuilt; the pair is a known-plaintext sample for R1040 (deswart1782)."
+  "notes": "Read at the time; decipherment on the record. Key not rebuilt; the pair is a known-plaintext sample for R1040 (deswart1782).",
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "the Griffie's 1785 decipherment ('Ont cyfferde Missive'), images 5448-5449 of the same DECODE record"}
+  ]
  }
 }

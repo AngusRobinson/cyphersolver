@@ -57,6 +57,10 @@
   "contribution": ["catalogue correction"],
   "class": "already solved",
   "verification": ["contemporary decipherment"],
-  "notes": "Nothing new read. Catalogue entry 197 removed; DECODE status correction queued; no write-up."
+  "notes": "Nothing new read. Catalogue entry 197 removed; DECODE status correction queued; no write-up.",
+  "credits": [
+    {"who": "contemporary", "role": "prior solution", "note": "marginal decipherment on the leaves (not viewed here)"},
+    {"who": "tomokiyo", "role": "identification", "note": "recorded the marginal decipherment and identified the key as the Imperial Cipher of 1544-1554", "source": "https://cryptiana.web.fc2.com/"}
+  ]
  }
 }

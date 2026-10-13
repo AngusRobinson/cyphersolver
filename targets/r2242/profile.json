@@ -324,6 +324,11 @@
    "H": 14,
    "M": 17,
    "I": 4
-  }
+  },
+  "credits": [
+    {"who": "decode", "role": "pointer", "note": "record note on R2242 asking for a pointer to R1892 (same cipher) and suggesting Prince Frederick as writer"},
+    {"who": "contemporary", "role": "key or decipherment used", "note": "clear Dutch written under the cipher lines of page 1, which confirmed the key and fixed a dozen word signs"},
+    {"who": "lccompany", "role": "verification", "note": "WAINUT (PR #31): independent reading of R2242 agrees except for a few word signs; proposals not adopted", "date": "2026-10-12", "source": "https://github.com/dbourdeau/cyphersolver/pull/31"}
+  ]
  }
 }

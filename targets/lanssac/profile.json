@@ -636,6 +636,10 @@
     "blocker": "illegible",
     "detail": "gloss cut by the gutter"
    }
+  ],
+  "credits": [
+    {"who": "contemporary", "role": "key or decipherment used", "note": "marginal decipherments on f. 124 and the sibling f. 154v (gutter-cut)"},
+    {"who": "tomokiyo", "role": "key or decipherment used", "note": "cryptiana henryiii.htm table compared sign by sign; agreeing values adopted, first row found shifted", "source": "cryptiana henryiii.htm (henryiii_Lansac.png)"}
   ]
  }
 }
