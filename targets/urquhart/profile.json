@@ -36,8 +36,8 @@
   },
   {
    "id": "distich",
-   "shelfmark": "Maitland Club Works (1834) p. 417",
-   "year": 1834,
+   "shelfmark": "Last leaf of Logopandecteision (London, 1653), in some copies only (NLS H.32.a.39); reprinted Maitland Club Works (1834) p. 417",
+   "year": 1653,
    "country": "Scotland",
    "language": "unknown",
    "pages": 1,
@@ -57,9 +57,9 @@
    },
    "transcription": {
     "by": "published",
-    "source": "Schmeh / 1834 Works OCR (src/maitland1834.txt)",
+    "source": "Schmeh, corrected at position 56 from the 1653 print (NLS H.32.a.39, photograph in Scheers 2021) and the 1834 Works OCR (src/maitland1834.txt)",
     "image_quality": "fair",
-    "notes": "Year is the printing that carries it; composition date unknown. 1834 reads 5.38.5 where Schmeh has 5.33.5."
+    "notes": "Year is the earliest printing that carries it; composition date unknown. Position 56 is 38 in the 1653 print and in 1834; Schmeh's 33 is a misreading (ct.py corrected 14 Oct 2026, sum 1078)."
    },
    "read": "not read"
   }
@@ -199,6 +199,12 @@
    "kind": "hypothesis", "technique": ["key-structure hypothesis"],
    "what": "Fetched the 1834 Works text; distich as word- and letter-index keys into the six-line verse, Parva peto couplet (Latin and English), octastich reading and Decagram verse, alone and concatenated both orders: 76 decodes, best -6.76/char vs -5.09 English.",
    "result": "ruled out"
+  },
+  {
+   "date": "2026-10-14",
+   "kind": "transcription",
+   "what": "David Scheers (email 14 Oct 2026; Urquhart appendix of Zealous with Language and Ciphers, 2021) confirmed the 285 octastich numbers (sum 8168), found 'Colonel' at p. 149 word 2 on the EEBO images, and showed the distich printed in a 1653 Logopandecteision (NLS H.32.a.39) with 38 at position 56. ct.py DISTICH corrected (sum 1073 to 1078); 'not in the 1653 edition' withdrawn.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -213,7 +219,7 @@
    {
     "item": "octastich positions 149 and 158",
     "blocker": "needs-physical-access",
-    "detail": "1652 leaves needed: p. 149 word 2 gives C where a one-letter word is required; the leaf counted as p. 158 is a gap in the TCP"
+    "detail": "p. 149 word 2 gives C ('Colonel', confirmed on the EEBO images by David Scheers) where a one-letter word is required, so a slip in the book; the leaf counted as p. 158 is a gap in the TCP and still needs the 1652 page images"
    },
    {
     "item": "octastich positions 55, 66, 106, 151, 207, 232, 239, 250, 283",
@@ -237,7 +243,8 @@
   "key": "partial",
   "credits": [
     {"who": "valsai", "role": "prior solution", "note": "octastich rule and plaintext published (Claude Fable 5.1 result); verified here without it", "date": "2026-08-31"},
-    {"who": "schmeh", "role": "transcription", "note": "272-number transcription of the octastich, used in the first measurement"}
+    {"who": "schmeh", "role": "transcription", "note": "272-number transcription of the octastich, used in the first measurement"},
+    {"who": "scheers", "role": "transcription", "note": "1653 distich leaf (NLS H.32.a.39) and its position 56 = 38; octastich sums and p. 149 'Colonel' checked", "date": "2026-10-14", "source": "D. Scheers, Zealous with Language and Ciphers (2021), Urquhart appendix; email 14 Oct 2026"}
   ]
  }
 }

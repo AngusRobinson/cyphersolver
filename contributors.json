@@ -844,6 +844,17 @@
       "aliases": [
         "Zhongshan Warship Museum"
       ]
+    },
+    {
+      "id": "scheers",
+      "name": "David Scheers",
+      "kind": "person",
+      "url": "https://dpjascheers.webpoint.nl/",
+      "aliases": [
+        "Scheers",
+        "D. Scheers"
+      ],
+      "note": "Author of Zealous with Language and Ciphers (2021); traced the surviving copies of Urquhart's octastich and distich leaves."
     }
   ]
 }

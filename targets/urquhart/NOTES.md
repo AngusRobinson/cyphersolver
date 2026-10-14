@@ -6,7 +6,9 @@ stanza-lines and a ten-number "Decagram", 285 numbers to 201, printed on the las
 Jack and Lyall edition (Scottish Academic Press, 1983), p. 212 and facing, whose photographs are on the HCPortal
 record (`src/octastich_part1.jpg`, `src/octastich_part2.jpg`). The **distich**: 64 numbers in two lines of 32, values
 to 70, headed "THE CYPHRAL DISTICH" in the Maitland Club *Works* (1834) p. 417 after the 32 Proquiritations of
-*Logopandecteision* (`src/Urquhart-Cryptogram.png`), not in the 1653 edition.
+*Logopandecteision* (`src/Urquhart-Cryptogram.png`). It is first printed on the last leaf of the 1653 *Logopandecteision*,
+in some copies only: David Scheers photographed it in the National Library of Scotland copy H.32.a.39 (*Zealous with
+Language and Ciphers*, 2021, Urquhart appendix); the EEB-filmed copy lacks the leaf.
 
 **Status (16 Sept 2026): octastich read.** It is a book cipher on *The Jewel* itself: the k-th number, counting straight
 through the poem, is a word index into physical page k of the 1652 edition, the letter is that word's initial, and
@@ -122,7 +124,7 @@ and with that phantom token removed word 14 is "said", the first S. So: **And [?
 authoritie**, 3 + 1 + 9 + 3 + 6 + 10 = 32 numbers, and the old "this" was a misreading of the same slots. The
 en-1640s model scores the line −4.43/char against −4.77 for the old CONERTHTO string.
 
-Position 149 (n = 2) gives C ("Colonel") and the line needs a one-letter word there, or a slip; "O" (vocative)
+Position 149 (n = 2) gives C ("Colonel", also on the EEBO page images, checked by David Scheers 14 Oct 2026) and the line needs a one-letter word there, or a slip; "O" (vocative)
 fits the prayer but O is word 35 on that page, so it is not read. The TCP page 158 is a duplicate-image gap in the
 TCP XML although the text runs on ("to let him / know that many ward"); Urquhart's count nevertheless needs a page
 there (163 onward aligns at offset 0), so his copy had a leaf the TCP filming does not carry; its letter (W) is
@@ -141,8 +143,10 @@ by position. The run-over layout of all nine lines was checked again on both pho
 
 Reticuli Labs' rebuttal of 1 Sept 2026 (`src/reticuli_*`) says the Proquiritation rule fails at ten of 64 positions
 because the required letter begins no word in the target section, and that the distich is not in the 1653 edition but
-in the 1834 reprint. The second point is confirmed on the 1834 OCR (`src/maitland1834.txt`: heading, numbers and the
-six-line verse *Of carping Zoil …* on p. 417; the 1834 reading of line 2 has `5.38.5` where Schmeh has `5.33.5`). The
+in the 1834 reprint. The second point is wrong: the leaf is in the NLS 1653 copy H.32.a.39 (Scheers 2021, photograph),
+only missing from the filmed copy. The 1834 OCR has it too (`src/maitland1834.txt`: heading, numbers and the
+six-line verse *Of carping Zoil …* on p. 417; the 1834 reading of line 2 has `5.38.5` where Schmeh has `5.33.5`; the 1653 print also reads 38, so `ct.py` was corrected on
+14 Oct 2026, sum 1078). The
 first-occurrence test on Reticuli's tokenised Proquiritations gives 34 of 64 hits and the string
 `NTMAMNDN_OHTISEABRPTTSGSNTAATVTD / ASOTHDOSTTTBHPBTHBIPFSWTLVWTABV_`, not the claimed prayer. Page-index variants
 (k → page k or k+1…3 of *The Jewel* or of *Logopandecteision*, printed or physical, lines restarting at page 1) sit
@@ -176,7 +180,7 @@ numbers (272, 82 distinct, IC 0.021) and called a book cipher by shape, "not att
 text was the book it is printed in, and the poem said so.
 
 ## Remaining gaps
-- octastich position 149 (one letter of line 5) and position 158 (TCP gap page) - blocker: needs-physical-access; the 1652 leaves (EEBO images of the filmed copy, or another copy) to check p. 149's word 2 and the text of the leaf counted as p. 158
+- octastich position 149 (one letter of line 5) and position 158 (TCP gap page) - blocker: needs-physical-access; p. 149 word 2 is "Colonel" on the EEBO images too (Scheers), so 149 is a slip in the book; the leaf counted as p. 158 still needs the 1652 page images
 - octastich 9 other positions (55, 66, 106, 151, 207, 232, 239, 250, 283) - blocker: illegible (writer's/compositor's slips; numbers re-checked on the 1983 photographs, letter fixed by context only)
 - distich, 64 numbers - blocker: no-key-material; claimed Proquiritation rule gives 34/64, chance; page-index variants on The Jewel and Logopandecteision at chance; key text not identified
 
