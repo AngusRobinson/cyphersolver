@@ -129,6 +129,7 @@ img{max-width:100%}
 @keyframes wmBreathe{0%,100%{opacity:.55}50%{opacity:1}}
 @keyframes wmIn{from{opacity:0;transform:translateY(.08em);filter:blur(6px)}}
 .hero .tagline{font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(1.15rem,2.6vw,1.6rem);color:var(--head);margin:0 0 1rem;letter-spacing:.01em}
+.hero .tagline .strike{line-height:1.1}.hero .tagline .strike::after{top:.63em}   /* through the middle of the lowercase, at this line height */
 @media (prefers-reduced-motion: reduce){.wm,.wm::before,.wm .l,.wm .caret{animation:none}.wm .l{background-position:0 0}}
 /* with the wordmark across the top, the live cipher strip moves down beside the introduction, or into the flow when narrow */
 .hero:has(.wordmark) .cipherstrip{top:calc(5.4rem + clamp(2rem,9.1vw,5.4rem) * 1.5)}
