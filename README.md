@@ -468,6 +468,7 @@ Five further list entries turned out to be solved by others with nothing to add 
 
 ### Surveys
 
+- [`research/cryptoole/`](research/cryptoole/) — open records from Satoru's [Cryptoole](https://cryptoole.satoru.net/) index (DECODE, Cryptiana, Rosson) not yet in the catalogue, matched against the repository by R-number; also flags catalogue entries Cryptoole now lists as solved.
 - [`research/top50/`](research/top50/) — Schmeh's Top 50 cross-referenced entry by entry and re-checked against what has been solved since each post.
 - [Thirty favourites](https://dbourdeau.github.io/cyphersolver/highlights.html) — ten funny, ten historically significant and ten ingenious findings from the write-ups, each linked to its page.
 - [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/contributors.html#lasry) — 56 enciphered letters in the BnF (1452–1859), one write-up page each deciphered by George Lasry with ChatGPT Astra 6 and Anthropic Opus 5.5 (10 Oct 2026), each spot-checked here against Gallica; 55 filed as `targets/<slug>/` with `Status: no write-up`.
@@ -495,6 +496,7 @@ tools/             shared scripts: transcription export (transcription_xml.py), 
 targets/<name>/    one directory per cipher target: NOTES.md, profile.json, ciphertext, scripts, small derived data
 research/          work that is not a single target:
   catalogue_harvest/  bulk DECODE / archive harvests that feed catalogue.json
+  cryptoole/          catalogue candidates pulled from Satoru's Cryptoole index (pull.py)
   gallica_sweep/      Gallica volume sweeps for unlisted cipher leaves;  gallica_siblings/  their sibling letters
   oldest/             the search for pre-1497 ciphers (CANDIDATES.md)
   top50/              Schmeh's Top 50, cross-referenced

@@ -790,3 +790,6 @@ targets/r7707/img/
 # esterhazy1744: DECODE key images and the HistoCrypt 2023 PDF/figures (not ours to redistribute in bulk)
 targets/esterhazy1744/decode/
 targets/esterhazy1744/src/
+
+# Cryptoole raw API pull (regenerate with research/cryptoole/pull.py)
+research/cryptoole/snapshot.json

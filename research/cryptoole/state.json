@@ -1,0 +1,4688 @@
+{
+ "pulled": "2026-10-14",
+ "rows": {
+  "AT1640-1": {
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open",
+   "title": "More Ciphers of Ferdinand III?"
+  },
+  "AT16XX-1": {
+   "sources": [
+    "cryptiana",
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Variable-length Figure Code in Austrian Archives"
+  },
+  "AT16XX-2": {
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Correspondence between Ferdinand III and Cardinal-Infante Ferdinand of Austria"
+  },
+  "AT1720-3": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "SOAP Rd Windischgraetz inv.nr. Karl VI. to L. V. von Windischgraetz"
+  },
+  "AT1721-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "SOAP Rd Windischgraetz inv.nr. E. F. von Windischgraetz to L. V. von Windischgraetz"
+  },
+  "AT1744-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Esterházy papers, box 636: six cipher letters with no plaintext, one from Maria Theresa"
+  },
+  "AT1790-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "ASN Ministerio.degli.affari.esteri"
+  },
+  "AT1886-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Wien AT to August Hradegh corrected Krems AT"
+  },
+  "AT1901-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Wien AT to Hugo P Weidmannsgasse 3 Wien AT"
+  },
+  "AT1904-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Wien AT to Anna See Ruthgasse 21 Wien AT"
+  },
+  "BE1545-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Emperor Charles V to Prince Philip (later Philip II)"
+  },
+  "BE1629-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "States General: \"diverse briefjes in cijferschrift\" from the Spanish invasion of the Veluwe"
+  },
+  "BE17XX-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Frederik Gijsbert van Dedem tot de Gelder (Constantinople) to Van de Spiegel and Van der Goes, 3 unread ciphertexts"
+  },
+  "BE1808-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Gerard Carel baron van Spaen tot Voorstonden, envoy of the King of Holland (Düsseldorf), to Maarten van der Goes, minister of foreign affairs"
+  },
+  "BEXXXX-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "AGS EST LEG"
+  },
+  "BR1646-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Abraham de Pina to High authority of WIC in Dutch Brazil (Hooghe en Secreete Raad)"
+  },
+  "BR1649-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NA ... WIC inv.nr.(ff , ) Antonio Teles da Silva to King of Portugal"
+  },
+  "CH1898-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Basel CH to Marie Müller Dornacherstr. 6 Basel CH"
+  },
+  "CH1937-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "A Telegram from Switzerland"
+  },
+  "CZ1577-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Desiderio l'Abbé to Nevers, Prague and Breslau"
+  },
+  "DE1426-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Codex_Palatinus_Germanicus_597"
+  },
+  "DE1583-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Bavarian key volume: dot grille and letter to Duke Wilhelm V, unread"
+  },
+  "DE15XX-5": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Yale Beinecke Mellon MS"
+  },
+  "DE1616-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Johann Valentin Andreae"
+  },
+  "DE1628-26": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BAV Barb.lat"
+  },
+  "DE1637-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Heusner von Wandersleben, Sigismund to Oxenstierna af Södermöre, Axel"
+  },
+  "DE1637-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Sigismund Heusner von Wandersleben to Axel Oxenstierna"
+  },
+  "DE1638-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "SOAP Rd Trauttmansdorff inv.nr. Kurtz to Trauttmansdorff"
+  },
+  "DE1672-2": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Hesse-Kassel and Denmark, letter with enciphered passages (partly solved on HCPortal)"
+  },
+  "DE170X-2": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Letters to Hetman Sieniawski and Dresden to Schenck"
+  },
+  "DE1721-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "ASV ARCH Nunz Colonia"
+  },
+  "DE173X-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "The Oculist Society"
+  },
+  "DE1744-2": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Military news for Prince Carl August Friedrich of Waldeck, in a three-digit code"
+  },
+  "DE175X-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Gottfried Freiherr van Swieten to Johann Karl Philipp von Cobenzl"
+  },
+  "DE1787-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NA .. inr A.W. van Reede to L.P. vande Spiegel"
+  },
+  "DE1790-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "KHA A PWV inr A.W. Van Reede to Willem V"
+  },
+  "DE1796-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "KHA A PWV inr. hereditary prince to Prince William V"
+  },
+  "DE179X-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Willem Frederik, the Hereditary Prince (Berlin) to Prince William V, Dutch ciphered copies (R2236)"
+  },
+  "DE1801-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "NA .. BuZa inr Bourdeaux to Agent van Staat"
+  },
+  "DE1842-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Ciphered Letter of De Zeschau to De Seebach, .. HStAD, Sächsische Gesandtschaft in Russland, Nr"
+  },
+  "DE184X-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Heinrich Anton von Zeschau (Dresden) to Albin Leo von Seebach, 4 ciphertexts"
+  },
+  "DE1898-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Berlin DE to Mariechen Kühnast Kottbuser Damm 72 II Berlin DE"
+  },
+  "DE1900-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Berlin DE to Ferdinand Schmidt Flensburgerstr. 20 II Berlin DE"
+  },
+  "DE1900-11": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "München DE to Frl. Elterl. Hof München DE"
+  },
+  "DE1900-13": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Dortmund DE to Fritz Salmen Weststr. 9 Cörne bei Dortmund DE"
+  },
+  "DE1900-16": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Dortmund DE to Fritz Salmen Weststr. 9 Börne bei Dortmund DE"
+  },
+  "DE1900-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Dortmund DE to Fritz Salmen Weststr. 9 Cörne DE"
+  },
+  "DE1900-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Dortmund DE Hier fritzsalmen"
+  },
+  "DE1902-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Dortmund DE Dortmund fritzsalmen"
+  },
+  "DE1902-15": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Berlin DE to H. Johannessohn Fürbringer Str. 26 II Berlin DE"
+  },
+  "DE1903-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE München DE Eschersheim kellermann"
+  },
+  "DE1904-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "München DE to A. Y. F. 1924 Lager Lechfeld Augsburg DE"
+  },
+  "DE1909-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Dortmund DE Hier fritzlehmann"
+  },
+  "DE1909-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Berlin DE to Anna Kösney Lichtenrade DE"
+  },
+  "DE1914-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "München DE to Vera Dosch Bern CH"
+  },
+  "DE1941-1": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Enigma message EHSTQ, Nr. 3"
+  },
+  "DE1941-10": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message HFEYY, Nr. 94"
+  },
+  "DE1941-11": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message KVLIG, Nr. 90"
+  },
+  "DE1941-12": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message LICUD, Nr. 95"
+  },
+  "DE1941-13": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message SGOXX, Nr. 91"
+  },
+  "DE1941-14": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message UBYVQ, Nr. 92"
+  },
+  "DE1941-15": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Enigma message LXACA, Nr. 100"
+  },
+  "DE1941-16": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message HOHOX, Nr. 110"
+  },
+  "DE1941-17": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message SSKFV, Nr. 109"
+  },
+  "DE1941-18": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message EHNPZ, Nr. 123"
+  },
+  "DE1941-19": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message IABZV, Nr. 121"
+  },
+  "DE1941-2": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Enigma message RXPSB, Nr. 53"
+  },
+  "DE1941-20": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message IASRZ, Nr. 129"
+  },
+  "DE1941-21": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message IASRZ, Nr. 130"
+  },
+  "DE1941-22": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Enigma message WEUWY, Nr. 138"
+  },
+  "DE1941-23": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message XWFEC, Nr. 193"
+  },
+  "DE1941-24": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message AFUVO, Nr. 26"
+  },
+  "DE1941-25": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message JBIYH, Nr. 242"
+  },
+  "DE1941-26": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message DOLHA, Nr. 252"
+  },
+  "DE1941-27": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message CPUDN, Nr. 263"
+  },
+  "DE1941-28": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message NEUEM, Nr. 264"
+  },
+  "DE1941-29": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message LSSLG, Nr. 268"
+  },
+  "DE1941-3": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message YSGSS, Nr. 56"
+  },
+  "DE1941-30": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message CFQIB, Nr. 281"
+  },
+  "DE1941-31": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message VHRNE, Nr. 284"
+  },
+  "DE1941-32": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message ZUBZE, Nr. 8"
+  },
+  "DE1941-33": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message MZXNX, Nr. 21"
+  },
+  "DE1941-34": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message AAXYN, Nr. 31"
+  },
+  "DE1941-35": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message AOXST, Nr. 91"
+  },
+  "DE1941-36": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "Enigma message (possibly an unknown machine) QTXMA, Nr. 6"
+  },
+  "DE1941-37": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "Enigma message (possibly an unknown machine) SZAEJ, Nr. 7"
+  },
+  "DE1941-38": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "Enigma message (possibly an unknown machine) BYQMZ, Nr. 8"
+  },
+  "DE1941-39": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "Enigma message (possibly an unknown machine) FKQLZ, Nr. 11"
+  },
+  "DE1941-4": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message FBOIQ, Nr. 86"
+  },
+  "DE1941-40": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "Enigma message (possibly an unknown machine) XFEDT, Nr. 12"
+  },
+  "DE1941-41": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message ABAHP, Nr. 108"
+  },
+  "DE1941-42": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message ABGUX, Nr. 107"
+  },
+  "DE1941-43": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message SOFGI, Nr. 153"
+  },
+  "DE1941-44": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message WEUWY, Nr. 140"
+  },
+  "DE1941-45": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message MVUEH, Nr. 172"
+  },
+  "DE1941-46": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message SIPVX, Nr. 173"
+  },
+  "DE1941-47": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message AWTZK, Nr. 187"
+  },
+  "DE1941-48": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message ZNLZT, Nr. 189"
+  },
+  "DE1941-49": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message ANERF, Nr. 197"
+  },
+  "DE1941-5": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message FCVHR, Nr. 84"
+  },
+  "DE1941-50": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message FMNGI, Nr. 205 NF"
+  },
+  "DE1941-51": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message FMNGI, Nr. 285"
+  },
+  "DE1941-52": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message CZURH, Nr. 4"
+  },
+  "DE1941-53": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message KEJNQ, Nr. 7"
+  },
+  "DE1941-54": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message ADAFU, Nr. 59"
+  },
+  "DE1941-55": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message CHAFU, Nr. 60"
+  },
+  "DE1941-56": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message DKAFU, Nr. 69"
+  },
+  "DE1941-57": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message HOEPG, Nr. 71"
+  },
+  "DE1941-58": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message NOEGP, Nr. 70"
+  },
+  "DE1941-59": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message ABBHQ, Nr. 104"
+  },
+  "DE1941-6": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message HKMZI, Nr. 85"
+  },
+  "DE1941-60": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message AEFXP, Nr. 115"
+  },
+  "DE1941-61": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message ANQIX, Nr. 105"
+  },
+  "DE1941-62": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message ARPTZ, Nr. 103"
+  },
+  "DE1941-63": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message DAFPX, Nr. 114"
+  },
+  "DE1941-64": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message FDTZP, Nr. 106"
+  },
+  "DE1941-65": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message ITFPX, Nr. 116"
+  },
+  "DE1941-66": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message MNQBH, Nr. 117"
+  },
+  "DE1941-67": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "solved",
+   "title": "German Army Enigma message NKMOW, Nr. 4"
+  },
+  "DE1941-7": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Enigma message KLJBO, Nr. 87"
+  },
+  "DE1941-8": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message DEZPS, Nr. 97"
+  },
+  "DE1941-9": {
+   "sources": [
+    "cryptocellar"
+   ],
+   "status": "open",
+   "title": "German Army Truppenschlüssel message DSZPZ, Nr. 96"
+  },
+  "DE1942-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "German Navy Enigma Messages"
+  },
+  "DE1964-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "München DE to Bärbel Hoffmann Mozartstr. 70 Freiburg (Breisgau) DE"
+  },
+  "DE1965-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "München DE to Bärbel Hoffmann Elsasserstr. 97 Bremen DE"
+  },
+  "DEXXXX-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Frederick I of Prussia's Transposition Cipher"
+  },
+  "DEXXXX-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "German Diplomatic Codes during WWI"
+  },
+  "ES1420-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "ACA_Reserva_12_1"
+  },
+  "ES1435-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Queen of Aragon (María de Castilla) to King Alfonso V."
+  },
+  "ES1470-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Ferdinand II of Aragon to John II, King of Aragon"
+  },
+  "ES1509-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Catherine of Aragon's letter to King Ferdinand"
+  },
+  "ES1509-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "Catherine of Aragon"
+  },
+  "ES1519-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Yale Beinecke GEN MSS"
+  },
+  "ES1527-12": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BL Cotton MS Vespanian C IV"
+  },
+  "ES1528-12": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Hie. Eps. Wigorn, Edouarde Lee"
+  },
+  "ES1529-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "Ed. Lee"
+  },
+  "ES1548-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NLS MSS"
+  },
+  "ES1577-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "BnF es"
+  },
+  "ES1594-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "BnF Colbert"
+  },
+  "ES15XX-20": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "ASV i SdS Spain I"
+  },
+  "ES15XX-30": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "ASV i SdS Spain II"
+  },
+  "ES1789-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "J. Aubert to Hendrik Fagel de oude, greffier of the States General"
+  },
+  "ES1790-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "J. Aubert, legation secretary in Spain to Laurens Pieter van de Spiegel, Grand Pensionary of Holland"
+  },
+  "ES1799-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Johan Valckenaer,Batavian emissary in Madris to Maarten van der Goes, agent van staat voor de buitenlandse betrekkingen"
+  },
+  "ESXXXX-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "BNE ms. LuisValledelaZerda"
+  },
+  "FR1526-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Bayard to Montmorency"
+  },
+  "FR152X-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "BnF Clair"
+  },
+  "FR1547-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Charles V to Jean de Saint-Mauris, his ambassador in Paris"
+  },
+  "FR1556-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Paris, Bibliothèque nationale de France, Français 20974"
+  },
+  "FR1559-8": {
+   "sources": [
+    "cyphersolver",
+    "cryptiana",
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Throckmorton leaf: marginal word-sign code, and John Wood to Cecil 1568"
+  },
+  "FR155X-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "ASV i SdS France"
+  },
+  "FR1563-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Catherine de' Medici to Paul de Foix, French ambassador in London, intercepted letter"
+  },
+  "FR1571-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Lodovico Birago to Duke of Nevers"
+  },
+  "FR1572-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Walsingham to Burghley (letter-book copy)"
+  },
+  "FR1572-2": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Walsingham letter-book (Burghley, Leicester, Walsingham): name codes"
+  },
+  "FR1577-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Nicolas de Neufville, Seigneur de Villeroi to Henry III of France"
+  },
+  "FR157X-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "TNA SP UND"
+  },
+  "FR1580-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "ASV i SdS France C"
+  },
+  "FR1583-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Paris, Bibliothèque nationale de France, 500 de Colbert, 471"
+  },
+  "FR1586-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Anonymous to the Duke of Mercœur"
+  },
+  "FR1586-3": {
+   "sources": [
+    "rosson"
+   ],
+   "status": "open/partly",
+   "title": "Cardinal Scipione Gonzaga to the Duke of Nevers, 1586 to 1590"
+  },
+  "FR1587-15": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Louis Gonzaga, duke of Nevers to Robert de La Vieuville"
+  },
+  "FR1592-1": {
+   "sources": [
+    "cryptiana",
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Duke of Lorraine"
+  },
+  "FR1592-16": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Joachim de Jaucourt Baron de Dinteville (Langres) to Duke of Nivernois"
+  },
+  "FR1593-3": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Laurière to Nevers, Châlons"
+  },
+  "FR1595-3": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Nevers to Villeroy, Saint-Quentin"
+  },
+  "FR15XX-24": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NSZL_Quart_Lat_2254_53"
+  },
+  "FR1610-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Blancmesnil to Duke of Nevers"
+  },
+  "FR1629-1": {
+   "sources": [
+    "cryptiana",
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Richelieu"
+  },
+  "FR1639-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "BnF Baluze"
+  },
+  "FR163X-74": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Rohan papers and Louis XIII's Franco-Dutch correspondence"
+  },
+  "FR1645-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Henrietta-Maria, Queen of England and her assistants to Charles I, King of England"
+  },
+  "FR1648-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Henri Brasset"
+  },
+  "FR165X-1": {
+   "sources": [
+    "cryptiana",
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Bordeaux, French Ambassador in England"
+  },
+  "FR165X-6": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Abraham Cowley's hand ('Mr. Conleys Hand'), Paris, to a royalist in Holland, 2 letters"
+  },
+  "FR1672-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Paris, Bibliothèque nationale de France, Melanges de Colbert 160"
+  },
+  "FR1676-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Brussels, Algemeen Rijksarchief, Secretairerie d’Etat et de Guerre, inv.nr. 2559"
+  },
+  "FR16XX-71": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "BnF Mel"
+  },
+  "FR1710-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Nicolas Desmarets (Marly) to unknown recipient"
+  },
+  "FR1759-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Brussels, Algemeen Rijksarchief, Secretairerie d’Etat et de Guerre, inv.nr. 1236"
+  },
+  "FR1796-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "KHA A PWV inr. cipher origin unknown"
+  },
+  "FR17XX-86": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Paris 1719 and Carré 1742–45 code letters, 5 ciphertexts"
+  },
+  "FR17XX-89": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "\"Letters not deciphered\": Swedish and Spanish intercepts in the State Papers"
+  },
+  "FR17XX-93": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "ÖStA_HHStA_HausA_HandA_KFranz_K21_10"
+  },
+  "FR1921-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Paris FR to D. Hill Sussex UK"
+  },
+  "FRXXXX-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Sforza side to Zorzo (Giorgio) del Maino, reply"
+  },
+  "FRXXXX-50": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Breval to duc Henri II de Lorraine"
+  },
+  "GB1525-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "BL Cotton MS Vespanian C III"
+  },
+  "GB1559-4": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Henry Percy to Secretary Cecil"
+  },
+  "GB1571-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Walsingham to Burghley (letter-book; with Elizabeth to Walsingham, clear)"
+  },
+  "GB1571-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BL Harley MS"
+  },
+  "GB1571-3": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Lord Burghley (Audley End) to Francis Walsingham, ambassador in France"
+  },
+  "GB1572-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Burghley to Walsingham (letter-book copy)"
+  },
+  "GB1575-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Busshop of Galsgo to Qu of Scotte"
+  },
+  "GB1582-18": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Paris, Bibliothèque nationale de France, 500 de Colbert, 470"
+  },
+  "GB15XX-33": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BL Cotton MS Caligula C II"
+  },
+  "GB15XX-7": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BnF Français"
+  },
+  "GB1628-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Kew, The National Archives, State Papers, inv.nr. 106 box 5"
+  },
+  "GB1645-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "English royalist letter in numerical code (SP 106/10 f. 251)"
+  },
+  "GB1646-1": {
+   "sources": [
+    "cryptiana",
+    "rosson",
+    "decode"
+   ],
+   "status": "solved",
+   "title": "An Intercepted Letter to Charles I"
+  },
+  "GB1648-4": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Charles I to Prince Charles (cipher passage)"
+  },
+  "GB1653-1": {
+   "sources": [
+    "cryptiana",
+    "rosson"
+   ],
+   "status": "solved",
+   "title": "Dutch ciphers"
+  },
+  "GB1676-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Bernardo de Salinas, Spanish ambassador in London to Balthazar de Fuenmayor, Spanish ambassador in Denmark"
+  },
+  "GB1699-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Robert Yard"
+  },
+  "GB16XX-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Kew, The National Archives, State Papers, inv.nr. 106 box 10"
+  },
+  "GB16XX-127": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Charles Montagu, Duke of Manchester"
+  },
+  "GB16XX-128": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "Edward Villiers, Earl of Jersey"
+  },
+  "GB16XX-21": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BL Add MS"
+  },
+  "GB16XX-67": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "BL_Egerton_MS_1818_047"
+  },
+  "GB1700-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "James Vernon"
+  },
+  "GB1700-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Yale_Beinecke_ OSB_fc37_box05_folder65"
+  },
+  "GB1702-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "G. Stepney"
+  },
+  "GB1724-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "unknown to unknown"
+  },
+  "GB1727-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Palm (London) to Starhemberg, German letter with ciphered passages"
+  },
+  "GB1728-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Unknown sender to unknown recipient"
+  },
+  "GB1751-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "KHA A PWV inr A.L. Michell to Frederick the Great"
+  },
+  "GB1751-2": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "King Frederick II (the Great) of Prussia (London) to Louis Michell, Prussian resident in London"
+  },
+  "GB1758-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Kew, The National Archives, State Papers, inv.nr. 106 box 7"
+  },
+  "GB175X-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "African Asian IOR E"
+  },
+  "GB1792-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Anne Willem Carel baron van Nagell, Dutch ambassador in Great Britain to Laurens Pieter van de Spiegel, Grand Pensionary of Holland"
+  },
+  "GB1795-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Willem George Frederik, Prince of Orange-Nassau to Willem Frederik, Prince of Orange-Nassau ()1772-1843 (the Heredary Prince)"
+  },
+  "GB1799-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NA .. BuZa invnr R.J.Schimmelpenninck to Agent van Staat"
+  },
+  "GB183X-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "James Jesse Strang"
+  },
+  "GBXXXX-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Trigram code fragment 'Suite du No 13 / No 24'"
+  },
+  "GBXXXX-2": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "... to unknown recipient"
+  },
+  "HU1483-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Nicolo Sadoleto to Ferdinand I"
+  },
+  "HU1483-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Nicolo Sadoleto to Ercole I d’Este"
+  },
+  "HU1486-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "SAMo Amb b"
+  },
+  "HU1486-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "SAMo Cart b"
+  },
+  "HU1490-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "SAMi Sf"
+  },
+  "HU1491-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "SAMi Sf Ung b"
+  },
+  "HU1492-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "SAMo Amb Ung b"
+  },
+  "HU1519-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Giuliano Caprile"
+  },
+  "HU1519-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Giuliano Caprile to Bonaventura Pistofilo"
+  },
+  "HU1628-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "Kemény XIX"
+  },
+  "HU1645-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "Keresdi Bethlen"
+  },
+  "HU169X-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Mihály Bay to Reader of Mihály Bay’s diary"
+  },
+  "HU16XX-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Pokoly Nagy G"
+  },
+  "HU16XX-32": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Benigni_2.cs_nr.118-119"
+  },
+  "HU1707-6": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NAH G CAPS E FASC"
+  },
+  "HU1707-7": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NAH G CAPS D FASC"
+  },
+  "HU170X-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "RAD ARCH Rakoczi C"
+  },
+  "HU1710-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NAH G CAPS H FASC"
+  },
+  "HU1711-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NAH G CAPS J FASC E"
+  },
+  "HU1912-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Budapest HU to Lutz Etelka Üllöi ut 16-11 Budapest HU"
+  },
+  "HU1916-16": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc HU Mezőkövesd HU Szomolya szomolya"
+  },
+  "HUXXXX-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "King of Hungary and Bohemia (Future Ferdinand III)"
+  },
+  "IT1411-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Doge Michele Steno to Fantino Michiel, Bartolomeo Nani"
+  },
+  "IT1414-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Florence, letters to the Signoria in the cipher of 1414 (Gabbrielli's partial key, letters never read)"
+  },
+  "IT1421-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Siena, \"Lettere in cifra\" of the Concistoro: the unread pieces (no. 1 of 1421 unphotographed; two long systems, nos. 6/24 and 20/23; short pieces)"
+  },
+  "IT1422-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Genoa-Albenga-Marini"
+  },
+  "IT1425-2": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Averardo de' Medici and Piero Guicciardini, Faenza, to the Dieci di Balìa: the letter Albizzi's office could not read"
+  },
+  "IT1428-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Pandolfo Malatesta, archbishop of Patras, to Gianfrancesco Gonzaga"
+  },
+  "IT1475-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BRAH"
+  },
+  "IT1482-3": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Beatrice d’Aragona to Eleonora d’Aragona"
+  },
+  "IT1482-4": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Mátyás Hunyadi to Ercole I d’Este"
+  },
+  "IT1498-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Postscript to King Ferdinand's Letter to his Ambassador in Rome"
+  },
+  "IT14XX-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Johannes de Fontana"
+  },
+  "IT1503-8": {
+   "sources": [
+    "rosson"
+   ],
+   "status": "open/partly",
+   "title": "The viceroy of Sicily to King Ferdinand, Messina"
+  },
+  "IT1504-12": {
+   "sources": [
+    "rosson"
+   ],
+   "status": "open/partly",
+   "title": "The Spanish ambassador at Venice to Ferdinand and Isabella"
+  },
+  "IT1519-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Giuliano Caprile (Eger) to Bonaventura Pistofilo"
+  },
+  "IT151X-15": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Benedetto Fantini (DECODE 'Jantini'), Buda and Eger, to the Este court, 2 ciphertexts"
+  },
+  "IT1520-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver",
+    "rosson",
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Venetian? Cipher with Superscript Digits"
+  },
+  "IT1520-2": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Alfonso Cistarelli (Eger) to Ippolito I d'Este"
+  },
+  "IT1522-10": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Rodrigo Niño (Naples) to Charles I"
+  },
+  "IT1525-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Elia da Cortona (Venice?) to unknown recipient"
+  },
+  "IT1525-2": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Hieronimo Ranzo (Italy?) to unknown recipient"
+  },
+  "IT152X-3": {
+   "sources": [
+    "cryptiana",
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/key_only",
+   "title": "Juan Manuel to Charles V"
+  },
+  "IT1537-12": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "ANC FondoAntico"
+  },
+  "IT1558-11": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Seure (Lisbon) to de Fresne and Henri II, six letters"
+  },
+  "IT1564-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Hurault, Ambassador in Venice"
+  },
+  "IT1567-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Charles IX to Fourquevaux (ambassador in Spain)"
+  },
+  "IT1571-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Miguel de Oviedo, secretario de la embajada de España en Génova to Felipe II, rey de España"
+  },
+  "IT1590-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open/partly",
+   "title": "French (or Italian) Ciphers"
+  },
+  "IT1593-23": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Papal-side letters: Sega, Baudouin-Desportes, Mauclerc"
+  },
+  "IT1593-24": {
+   "sources": [
+    "rosson"
+   ],
+   "status": "open/partly",
+   "title": "Three cipher letters of Vincenzo Badalocchio, agent in Rome of the Duke of Nevers, of 5 and 11 December 1592 and 9(?) January 1593, in Italian"
+  },
+  "IT1593-25": {
+   "sources": [
+    "rosson"
+   ],
+   "status": "open/partly",
+   "title": "The Duke of Nevers to the Oratorian Tommaso Bozio in Rome, minute of 1 May 1593, in Italian"
+  },
+  "IT1595-1": {
+   "sources": [
+    "decode",
+    "rosson"
+   ],
+   "status": "solved",
+   "title": "Senecey to President Jeannin"
+  },
+  "IT1610-1": {
+   "sources": [
+    "cyphersolver",
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Marie de Médicis to Savary de Brèves"
+  },
+  "IT1616-1": {
+   "sources": [
+    "cryptiana",
+    "rosson"
+   ],
+   "status": "solved",
+   "title": "Cocquet's Cipher"
+  },
+  "IT1632-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Abel Servien to Melchior de Sabran"
+  },
+  "IT1677-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Gaspar Mendez de Haro, 7th Marques de Carpio,Spanish ambassador in Rome to Balthazar de Fuenmayor, Spanish ambassador in Denmark"
+  },
+  "IT1690-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "French Cipher to Ambassador in Rome"
+  },
+  "ITXXXX-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open/partly",
+   "title": "Fragments in Novel Cipher Invented by a Milanese"
+  },
+  "ITXXXX-42": {
+   "sources": [
+    "rosson"
+   ],
+   "status": "solved",
+   "title": "Three letters of Antonio Pérez, one page of Philip II, and a memorial of the Duke of Savoy"
+  },
+  "ITXXXX-6": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "TNA_SP106/10_UND_"
+  },
+  "JP1920-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Japanese Coded Telegram Decoded by Yardley"
+  },
+  "NL1635-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Cardinal-Infant Ferdinand of Austria, 1609-1641 to Emeror Ferdinand II of the Holy Roman Empire"
+  },
+  "NL1645-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Dr Stephen Goff(e) to Henrietta-Maria, Queen of England and Charles I, King of England"
+  },
+  "NL1674-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Rijcklof van Goens to Heeren XVII"
+  },
+  "NL1677-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Don Pedro de Ronquillo, Spanish ambassador in Venice, later in England and negotiator in Nimwegen. to Balthazar de Fuenmayor, Spanish ambassador in Denmark"
+  },
+  "NL1684-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Jean-Antoine de Mesmes Comte d’Avaux, French ambassador to King Louis XIV of France"
+  },
+  "NL1689-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "unknown to Directors Society of Suriname (SvS)"
+  },
+  "NL1755-7": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "KHA A PWV inr. J.H..Kauderbach to August Wilhelm II"
+  },
+  "NL1757-5": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "KHA A PWV inr L.A. d’Affry to A.L. Rouillé"
+  },
+  "NL1763-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "W.B. von der Hellen (The Hague) to Frederick II of Prussia"
+  },
+  "NL1763-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "KHA A PWV inr W.B. von der Hellen to Frederick the Great"
+  },
+  "NL17XX-2": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "W.B. von der Hellen (The Hague) to Frederick II of Prussia, 7 ciphertexts"
+  },
+  "NL1801-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Wolff to Wilhelmina, Princess of Prussia"
+  },
+  "NL1803-2": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Lodewijk van Toulon (The Hague) to Dirk van Hogendorp, ambassador of the Batavian Re[ublic in Russia"
+  },
+  "NL1804-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Robert Fagel (The Hague) to Prince William V,"
+  },
+  "NL1809-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Willem Frederik Roell, minister of Foreign Affairs (Amsterdam) to Frederik Gijsbertvan Dedem tot de Gelder, 2 ciphertexts"
+  },
+  "PL1665-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "BnF Melbis"
+  },
+  "PL1714-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Mniszech to Jakub Dunin, Crown regent"
+  },
+  "PL1790-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NA .. inr. J.W. Hogguer to L.P. vande Spiegel"
+  },
+  "PL1793-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Arend Willem baron van Reede, emissary in Berlin to Greffier Hendrik Fagel jr. and Secret Committee of the States General"
+  },
+  "PT153X-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "ASV i SdS Spain IA"
+  },
+  "PT1581-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Walsingham's 1581 enclosure to Somers"
+  },
+  "PT15XX-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "ASV i SdS Portugal"
+  },
+  "RO16XX-2": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Transylvanian cipher letters, Keresdi Bethlen and Kemény collections"
+  },
+  "RU1782-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Johan Isaac de Swart, Dutch resident in St Petersburg to Grand Pensionary Pieter van Bleiswijk"
+  },
+  "RU1785-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NA .. SG inr by W.L. van Wassenaer"
+  },
+  "RU1786-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NA ... SG inr. J.I. de Swart to Greffier"
+  },
+  "RU1787-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Johan Isaac de Swart, Dutch resident in St Petersburg between 1773 and 1789 to States-General of the United Provinces"
+  },
+  "RU1791-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NA .. SG inr J.W. Hogguer to the Greffier"
+  },
+  "RU1803-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "Dirk van Hogendorp, Batavian emissary in Russia to Maarten van der Goes, agent van staat voor de buitenlandse betrekkingen"
+  },
+  "RU18XX-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Willem Six van Oterleek, Dutch emissary in Russia to Willem Frederik baron Roell, Minister of Foreign Affairs 1808-1810"
+  },
+  "RU1906-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "St Petersburg RU to Inkeri Wink Klemetink N 22 Waasa FI"
+  },
+  "SE16XX-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Riksarkivet key-box and Oxenstierna ciphers, 12 records (Bremen 1631 read and removed)"
+  },
+  "SE1713-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Magnus Stenbock Field Marshal"
+  },
+  "SE1717-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Murberg, Johan, Görtz, Georg Heinrich von to unknown recipient"
+  },
+  "SE1773-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NA ... SG inr. E. Wasmuht to Greffier"
+  },
+  "SE1777-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NA ... SG inr. J.C. vander Borch to Greffier"
+  },
+  "SEXXXX-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Carolina-Rediviva-Uppsala-C513-Sequentiarium"
+  },
+  "TR1576-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "David Ungnad, imperial ambassador at Constantinople, to Maximilian II: a despatch wholly in cipher"
+  },
+  "TR1578-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Johann Joachim von Sinzendorff, Constantinople, to Rudolf II: despatch wholly in cipher"
+  },
+  "TR1582-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "SAV IT ASVe B"
+  },
+  "TR1620-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NA ... SG inr. Cornelis Haga to HHMo"
+  },
+  "TR1690-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "French Cipher to Ambassador in Constantinople"
+  },
+  "TR1706-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NAH G CAPS C FASC"
+  },
+  "TR1789-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "NA ... SG inr. G.F Kroll to Greffier"
+  },
+  "TR1789-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NA .. inr. F.G. van Dedem to L.P.vande Spiegel"
+  },
+  "US1779-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "French Code during the American Revolutionary War"
+  },
+  "US1886-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Washington USA to R. Clements, Esq. Box 88 Binghamton, NY USA"
+  },
+  "VA1541-1": {
+   "sources": [
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Farnese chancery cipher, Spagna 1A (IA-1, DECODE R91), companion of Vatican Challenge Part 5"
+  },
+  "VA15XX-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "New Vatican Challenges"
+  },
+  "VA1652-1": {
+   "sources": [
+    "cyphersolver",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Nuncio Bagno, Paris, to the Secretariat"
+  },
+  "VAXXXX-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open/partly",
+   "title": "Papal Ciphers from the 16th to the 18th Century"
+  },
+  "VAXXXX-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Vatican Challenges"
+  },
+  "XX1395-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "ASMantova AGonz EV"
+  },
+  "XX1446-2": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BnF"
+  },
+  "XX1495-9": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "ACA Diversos Sástago (Lío B)"
+  },
+  "XX14XX-373": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "Carteggio Sforzesco scat"
+  },
+  "XX14XX-501": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BayHStA KAA"
+  },
+  "XX14XX-57": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "Voynich Manuscript"
+  },
+  "XX14XX-618": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Spanish Letters"
+  },
+  "XX14XX-88": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Dieci di Balia Responsive"
+  },
+  "XX1504-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "A Spanish Letter"
+  },
+  "XX1516-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BL Cotton MS Galba B V"
+  },
+  "XX1520-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "A Letter to Cardinal Schiner"
+  },
+  "XX1521-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Spanish Cipher Letter from Emperor Charles V"
+  },
+  "XX1522-1": {
+   "sources": [
+    "cryptiana",
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/key_only",
+   "title": "Alonso Sanchez to Charles V"
+  },
+  "XX1524-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Hugo de Moncada to Charles V"
+  },
+  "XX1527-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "A Report to Charles V"
+  },
+  "XX1527-2": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Marquis of Gasto to Charles V"
+  },
+  "XX1527-3": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Servo el Gilino's Cipher with Superscript Digits"
+  },
+  "XX1527-4": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Spanish Cipher Letter to Emperor Charles V"
+  },
+  "XX1529-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Spanish Cipher Letter to Emperor Charles V"
+  },
+  "XX152X-5": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Bishop of Worcester's Cipher with Superscript Digits"
+  },
+  "XX1548-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Ferdinand I to Johann Malvezzi"
+  },
+  "XX1551-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Spanish Letters"
+  },
+  "XX1556-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Letters to/from Duke of Guise?"
+  },
+  "XX1567-1": {
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open/partly",
+   "title": "Catherine de Medicis to Philibert du Croc"
+  },
+  "XX1568-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Moray-Wood Cipher -- A Scotch Diplomatic Cipher"
+  },
+  "XX1574-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Danzay to Henry III"
+  },
+  "XX1577-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Villeroi to Henry III"
+  },
+  "XX1577-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Juan de Idiaquez Olazabal y Pedro Gonzalez de Mendoza to Philip II"
+  },
+  "XX157X-3": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Secret Letters to Juan de Vargas Mexia from Philip II and Antonio Perez in BnF es.132"
+  },
+  "XX1581-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Letters from Duke of Guise?"
+  },
+  "XX1581-2": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "More Undeciphered Letters Related to Mary, Queen of Scots"
+  },
+  "XX1589-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Venetian Letter in Spanish Archives"
+  },
+  "XX158X-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Letters from Henry of Navarre to Segur"
+  },
+  "XX1592-3": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BL Stowe MS"
+  },
+  "XX1593-1": {
+   "sources": [
+    "rosson"
+   ],
+   "status": "solved",
+   "title": "First reading of two Catholic League cipher letters"
+  },
+  "XX159X-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open/partly",
+   "title": "Ciphertexts Left Undeciphered by François Viète"
+  },
+  "XX15XX-110": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "BL Cotton MS Galba B III"
+  },
+  "XX15XX-145": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Earliest French Ciphers"
+  },
+  "XX15XX-157": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "ÖStA HHStA Stk Int Chiffrenschlüssel"
+  },
+  "XX15XX-195": {
+   "sources": [
+    "cryptiana",
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Charles IX to Philibert du Croc"
+  },
+  "XX15XX-196": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Large Collections of Wholly Enciphered Letters of Mary, Queen of Scots"
+  },
+  "XX15XX-97": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "Concistoro"
+  },
+  "XX1610-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Henry IV's Cipher"
+  },
+  "XX1610-3": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Chifferklaver låda II"
+  },
+  "XX1618-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "unknown to unknown"
+  },
+  "XX1626-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Wallenstein"
+  },
+  "XX1626-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "CR_E379G_BILAGOR_I"
+  },
+  "XX1627-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "CR_E379G_BILAGOR_II"
+  },
+  "XX1628-11": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "Riksarkivet Rusdorff Oxenstierna"
+  },
+  "XX1631-1": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Riksarkivet Bremen Tott"
+  },
+  "XX1637-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Fra Guglielmo Vizani"
+  },
+  "XX163X-3": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open/partly",
+   "title": "Melchior de Sabran"
+  },
+  "XX163X-4": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Ormonde-Maltravers Cipher"
+  },
+  "XX1641-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Cardinal Richelieu's Cipher"
+  },
+  "XX1643-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Charles I-Boswell Cipher"
+  },
+  "XX1644-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Letter of Richard Forster, possibly to Henrietta-Maria"
+  },
+  "XX1644-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Ormonde-Clanricarde Cipher"
+  },
+  "XX1644-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "Oxenstiernska samlingen E"
+  },
+  "XX1645-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Prince Maurice to Lord Digby"
+  },
+  "XX1645-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Prince Rupert's Cipher with His Brother Maurice"
+  },
+  "XX1645-3": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Private Cipher between Charles I and Henrietta-Maria"
+  },
+  "XX1646-1": {
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open",
+   "title": "An Intercepted Royalist Letter"
+  },
+  "XX1646-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Carl von Rabenhaupt"
+  },
+  "XX1647-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "A Letter to D'Estrades"
+  },
+  "XX1648-1": {
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open",
+   "title": "A Letter to Prince Rupert"
+  },
+  "XX1648-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Charles I in the Isle of Wight"
+  },
+  "XX1649-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "An Unsolved Cipher to Cardinal Mazarin?"
+  },
+  "XX164X-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Emperor Ferdinand III and Archduke Leopold"
+  },
+  "XX1650-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Charles II to Duke of Hamilton"
+  },
+  "XX1652-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Sir Thomas Urquhart's Cyphral Distich and Cyphral Octastich"
+  },
+  "XX1654-1": {
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Prince of Condé"
+  },
+  "XX1655-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Charles II's Letter by Pseudonym"
+  },
+  "XX1656-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Intercepted Letters"
+  },
+  "XX1657-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Le Tellier-Castelnau Cipher"
+  },
+  "XX1657-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Ben Ezra Aseph"
+  },
+  "XX1659-1": {
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open",
+   "title": "An Intercepted Letter of Hyde"
+  },
+  "XX1659-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Enciphered Passage about Princess Henriette's Words to 2nd Earl of Chesterfield"
+  },
+  "XX1662-3": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "ASang teka"
+  },
+  "XX166X-18": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "ÖStA HHStA UNG FASC KONV D"
+  },
+  "XX166X-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "AKPot"
+  },
+  "XX1670-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "William Perwich"
+  },
+  "XX1671-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "ÖStA HHStA ÖstGehSt fasc P"
+  },
+  "XX1676-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Heidel's Cipher"
+  },
+  "XX1678-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "An Unidentified Ormond-Arran Cipher"
+  },
+  "XX1690-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "French Cipher Unsolved by John Wallis"
+  },
+  "XX1691-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "French Cipher Despatch received by General Catinat"
+  },
+  "XX16XX-214": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "ASang"
+  },
+  "XX16XX-218": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "Krakow UNK"
+  },
+  "XX16XX-224": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "ASFi SIIVol"
+  },
+  "XX16XX-235": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "CR EG"
+  },
+  "XX16XX-303": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "Hstam"
+  },
+  "XX16XX-483": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "Benigni"
+  },
+  "XX16XX-521": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Undeciphered Superscription by Hyde"
+  },
+  "XX16XX-548": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "NAH E"
+  },
+  "XX16XX-549": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Colbert Correspondence"
+  },
+  "XX16XX-667": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "ÖStA HHStA Stk Int Chiffrenschlüssel fasc altad"
+  },
+  "XX1702-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "French Cipher Despatch of General Catinat"
+  },
+  "XX1702-2": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "George Stepney to Earl of Manchester"
+  },
+  "XX1706-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "AKM plik"
+  },
+  "XX1709-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "ADzied"
+  },
+  "XX1710-1": {
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open",
+   "title": "French Ministers at Geertruidenberg"
+  },
+  "XX1710-2": {
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "status": "open",
+   "title": "Marshal Villars and Abbé de Polignac"
+  },
+  "XX1710-3": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open/partly",
+   "title": "NAH P FEST D"
+  },
+  "XX1718-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "ACA_Diversos_Cajón_1_leg.22_doc.67."
+  },
+  "XX1744-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "\"Logogriph\" Left by Mathematician Euler"
+  },
+  "XX1758-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Variable-length Figure Code by Adam Starhemberg"
+  },
+  "XX1780-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Cipher between James Madison and Philip Mazzei"
+  },
+  "XX1802-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Patterson's Cipher for Jefferson"
+  },
+  "XX1807-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Encoded Letter to Marshal Marmont"
+  },
+  "XX1808-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "Armstrong to Madison"
+  },
+  "XX1808-2": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Postscript in Code from Armstrong to Madison"
+  },
+  "XX1812-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Encoded Letter from Berthier to Napoleon"
+  },
+  "XX1841-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Ciphers Left Unsolved by Edgar Allan Poe"
+  },
+  "XX1848-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Soglia Cipher"
+  },
+  "XX1862-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "A Dictionary Code between Confederate Generals: J.E. Johnston and Robert E. Lee"
+  },
+  "XX1862-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Union Ciphers during the Civil War"
+  },
+  "XX1863-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "A Dictionary Code Used by Confederate Navy during the Civil War"
+  },
+  "XX1881-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Freiburg in Baden DE to Marguerite Vessaz Place Chaudron 20 Lausanne CH"
+  },
+  "XX1886-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Aussersihl CH to M. Rosenberg Große Bleiche 65a Hamburg DE"
+  },
+  "XX1886-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Illertissen DE to Stuttgart DE"
+  },
+  "XX1890-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Brüx AT to Fürstin Wrede-Lobkowitz Ellingen, Bayern DE"
+  },
+  "XX1890-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Unter Berkowitz AT to Fürstin Wrede-Lobkowitz Ellingen, Bayern DE"
+  },
+  "XX1897-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "AT to Frau Willi Windisch Via capuano No 7 IV Stock Triest AT"
+  },
+  "XX1897-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Neukloster Mecklenburg DE to Frl. Jonas Roggow bei Neubukow DE"
+  },
+  "XX1898-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "DE to Emil Beck A Nr 58 Renntlingen DE"
+  },
+  "XX1898-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Hagen in Westfalen DE to Frieda Necker Malchow in Mecklenburg DE"
+  },
+  "XX1898-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Bielefeld DE to Helene Boecker Hohenlimburg DE"
+  },
+  "XX1898-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Cöln DE Herford brühl"
+  },
+  "XX1898-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Stuttgart DE to Ottilie Kalke Schwabstr. 16 Hier DE"
+  },
+  "XX1898-8": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "DE to Frl. Jonas Roggow b. Neubukow DE"
+  },
+  "XX1898-9": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Hannover DE to Helene Boecker Bad Kreuznach DE"
+  },
+  "XX1899-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Sachsenhausen (Frankfurt) DE to Kätchen Walther Sachsenhausen DE"
+  },
+  "XX1899-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Frankfurt Sachsenhausen DE to Käthchen Walther straße No 8 DE"
+  },
+  "XX1899-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Petschau AT to Henry Thiel Westendstr. 21 II Wiesbaden DE"
+  },
+  "XX1899-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Ingolstadt DE to Therese Ernst Unterhausen DE"
+  },
+  "XX1899-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Bonn DE Berlin mariechen"
+  },
+  "XX18XX-21": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Telegrams of First Canadian Prime Minister, John A. Macdonald"
+  },
+  "XX1900-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Mitterfels DE to Josef Bauer Mitterfels DE"
+  },
+  "XX1900-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc AT Tepi AT Wien schoenfelder"
+  },
+  "XX1900-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Linz AT to Käthe Mayrhöfer Herrnstraße Kremsmünster AT"
+  },
+  "XX1901-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Iserlohn DE to Helene Obermeyer Apothekenstr. Arnsberg DE"
+  },
+  "XX1901-10": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Roggenburg DE to Fräulein Schmid Weyarn DE"
+  },
+  "XX1901-12": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Kiel DE Zeitz hedwigzipfel"
+  },
+  "XX1901-13": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Zi-Zemun HU to Paula von Bresnitz Glowna ulica 55 Semlin HU"
+  },
+  "XX1901-14": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Ber DE to Sophie Goes Zwingenberg (Hessen) DE"
+  },
+  "XX1901-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Cöln DE to H. Brühl burg 6 Minden DE"
+  },
+  "XX1901-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Ulm DE to Anna ? Plochingen DE"
+  },
+  "XX1901-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Sande bei Bergedorf DE to Dora Jefs Gasthof zum Landhaus Lütjenburg in Ostholstein DE"
+  },
+  "XX1901-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Bergedorf DE to Dora Jefs Gasthof zum ??? Lütjenburg in Ostholstein DE"
+  },
+  "XX1902-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Leipzig DE to Pfarrer Martin Laibelein Wolferode bei Eisleben DE"
+  },
+  "XX1902-11": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Bodenschwerder DE to Johanne Stiebe Osterstraße 46 I Hameln DE"
+  },
+  "XX1902-12": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "HU to Márthé Ilona Helyben HU"
+  },
+  "XX1902-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Schnaitheim DE to Grethe Färber Mühlstr. 45 Herbrechtingen DE"
+  },
+  "XX1902-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Jever DE Jever martha"
+  },
+  "XX1902-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Heide DE Jever martha"
+  },
+  "XX1902-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Cismar DE to Gustav Sonninstrasse 22 Hamburg DE"
+  },
+  "XX1902-8": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Mansfeld DE Eisleben mansfeld"
+  },
+  "XX1903-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Nancy FR to Monsieur E Rappou 156e de ligne 3e Compagnie Coul FR"
+  },
+  "XX1903-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Neunkirchen DE to August Dederding Wellesweilerstr. Neunkirchen DE"
+  },
+  "XX1903-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Mannswörth AT to Anna Weinmeister No 56 Mannswörth AT"
+  },
+  "XX1903-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Wöllstein DE to Heinrich Lechtahler Volsheim DE"
+  },
+  "XX1903-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Bonn DE to Maria Peters 46 Aachen DE"
+  },
+  "XX1903-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "JP to Mrs. Jasbell 55 Wiesbaden DE"
+  },
+  "XX1903-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Neumühlen (Holstein) DE to Ida Hesse Königliche Universitäts-klinik Kiel DE"
+  },
+  "XX1904-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Temesvar HU to Ilona Marfke E utcera 7a Temesvar-Józsefváros RO"
+  },
+  "XX1904-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Münster DE to Mathilde Meyer Bremen DE"
+  },
+  "XX1904-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Dorchester UK to AE Haware Dorchester UK"
+  },
+  "XX1904-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "New Orleans USA to Kurt Hempel Schiffsbautechnikum Kiel DE"
+  },
+  "XX1905-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "San Francisco USA to Georges Lannier 51 Blvd Latour-Maubourg Paris FR"
+  },
+  "XX1905-10": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc UK Nottingham UK Nottingham nottingham"
+  },
+  "XX1905-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Gordemitz DE to Frieda Brauer Lgstraße 24 Eilenburg DE"
+  },
+  "XX1905-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Maurecourt par Andresy FR to A. Bourgois 34 rue de la mairie Maurecourt par Andresy FR"
+  },
+  "XX1905-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Sterlin, Illinois USA to Fred W. Honens 507 Fifth Avenue Sterling, Illinois USA"
+  },
+  "XX1905-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Hamburg DE to Hilda Brand Langestr Dülken DE"
+  },
+  "XX1905-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Hamburg DE to Erna Dahm Altona DE"
+  },
+  "XX1905-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Fultonville, NY USA to Raymond Donaldson Fultonville, NY USA"
+  },
+  "XX1905-8": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Great Barrington USA to Samuel J. Briggs Box 275 Canaan, Conneticut USA"
+  },
+  "XX1906-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Turnove CZ to Reinberger Turnove CZ"
+  },
+  "XX1906-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Stolp DE to Fräulein Anna Schulz Gärtnerstraße 5 Köslin DE"
+  },
+  "XX1906-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Munsterlager DE to Hertha Tesohe Ahlden DE"
+  },
+  "XX1906-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Gelsenkirchen DE to Frl. Toni Weibertshausen Lollar bei Giessen DE"
+  },
+  "XX1906-8": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Cobleskill. NY USA to USA"
+  },
+  "XX1906-9": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "South Coventry, Conneticut USA to Helen Clark Winchendon, Massachusets USA"
+  },
+  "XX1907-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Galesburg, Illinois USA to Maud Wick Calva, Illinois USA"
+  },
+  "XX1907-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Sarthe FR to Madeleine Boucheron Grade rue Sarthe FR"
+  },
+  "XX1907-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Theux BE to Armand Boutet 14 de Ligne Arlon LU"
+  },
+  "XX1907-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Coshocton, Ohio USA to JE Fortune Canal, Lewisville, Ohio USA"
+  },
+  "XX1907-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Carthage, NY USA to Miss Ruth tis Denmark, New York USA"
+  },
+  "XX1907-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Kingston, NY USA to M. R. Rod Outer Bay New York USA"
+  },
+  "XX1908-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Bensberg DE to Emmy Kr Leutersdorf Oberlausitz DE"
+  },
+  "XX1908-10": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Königszelt (heute Jaworzyna Śląska) DE to Fritz Lehmann straße Nr. 15 burg in DE"
+  },
+  "XX1908-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Conrade USA to Miss Minnie Congleton Colesville, New Jersey USA"
+  },
+  "XX1908-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Fechenheim DE to Fräulein Gerda Vinth ? Nr. 18 Fechenheim DE"
+  },
+  "XX1908-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Pfeddersheim DE to Fritz Lehmann Kitzingerstr. 15 Klingheim DE"
+  },
+  "XX1908-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard_088 cpc_1908-08-26___DE_Nürnberg_"
+  },
+  "XX1908-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Vance, Alabama USA to Delia Fischer 42 Woodland Avenue Birmingham, Alabama USA"
+  },
+  "XX1908-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Iserlohn DE to August Ludwig Wilhelmshaven DE"
+  },
+  "XX1908-8": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Altst DE to Meistrovich Jolanka Bockoteri 7 Arad HU"
+  },
+  "XX1908-9": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Clapham UK to Mr. Salvidge Rose Bud Cottage Somerset UK"
+  },
+  "XX1909-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "USA to Nellie Huntman 1607 Toledo, Ohio USA"
+  },
+  "XX1909-10": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Freiburg (Schlesien) DE Hier fritzlehmann"
+  },
+  "XX1909-12": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE (Schlesien) DE Hier fritzlehmann"
+  },
+  "XX1909-13": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Somersford, Nebraska USA to Ben Russel Somerford, Nebraska USA"
+  },
+  "XX1909-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "DE to Erna Garbe Reddelich DE"
+  },
+  "XX1909-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Brattlebord USA to Homer Wright Bernardston, Massachusets USA"
+  },
+  "XX1909-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Doberan DE Reddelich ernagarbe"
+  },
+  "XX1909-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Reddelich DE to Erna Garbe Reddelich DE"
+  },
+  "XX1909-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Newport USA to Laura Kauscher 931 Parafect St. Elgin USA"
+  },
+  "XX1909-8": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "(Schlesien) to Fritz Lehmann straße Nr. 15 Hier DE"
+  },
+  "XX1910-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Schweidnitz DE to Fritz Lehmann straße Nr. 1 Königszelt DE"
+  },
+  "XX1910-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Schweidnitz DE Schweidnitz fritzlehmann"
+  },
+  "XX1910-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Graudenz (Grudziądz) DE to Tamb Pries 41. Comp. Inf. Regiment Rendsburg DE"
+  },
+  "XX1910-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Aschersleben DE Hier hugocarl"
+  },
+  "XX1910-8": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Schweidnitz DE to Fritz Lehmann Str. 6 nitz DE"
+  },
+  "XX1910-9": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Bedford USA to Mr. Clayton Ellett Bedford, Ohio USA"
+  },
+  "XX1911-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "A Diplomatic Telegram from British Consulate in Africa"
+  },
+  "XX1911-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Oppenau DE to Ernst Häusler Amt Nefskirch Baden Göggingen DE"
+  },
+  "XX1911-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Schweidnitz DE Hier fritzlehmann"
+  },
+  "XX1911-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Königsberg DE to Dr. med. Wieh. Klink Kaiserplatz 14 Berlin-Wilmersdorf DE"
+  },
+  "XX1911-5": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Lee-on-the-solent UK to Miss. M. Jallett Wallington Fareham UK"
+  },
+  "XX1911-6": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc HU HU Jászroksky jolanka"
+  },
+  "XX1911-7": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Steinhude DE to Dr. med. Th. Seegers Michelstadt im Odenwald DE"
+  },
+  "XX1912-12": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Schneegattern AT to Fanny Rauchenschwandner beim Wallner Schneegattern AT"
+  },
+  "XX1912-16": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "DE to Minna Probst Klein Karben bei Frankfurt DE"
+  },
+  "XX1912-44": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Horsmonden UK to Miss Larkin Horsmonden UK"
+  },
+  "XX1912-9": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc HU HU Jász Arokszálas jolanka"
+  },
+  "XX1913-12": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Gr USA to USA"
+  },
+  "XX1913-13": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Shawford UK to Miss Unsworth Park Lane Winchester Hants UK"
+  },
+  "XX1913-14": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "HU to Tóth Jolánka Jász Arokszálas (Alvég) HU"
+  },
+  "XX1913-15": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Brocken DE to Ottilie Schnabel Johannisstraße 17 I Niderlößnitz bei Dresden"
+  },
+  "XX1913-16": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "DE to Else Landmann hier DE"
+  },
+  "XX1913-20": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Jena DE to Elsbeth Keitel Göthestr. 67 Wandsbeck-Mariental DE"
+  },
+  "XX1913-9": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Diedenhofen DE to Julius Klaas Trierer-Str. Nieder-Jeutz DE"
+  },
+  "XX1914-9": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Kiel DE to Lina Kellner Blume Nr. 1 Hann-Münden DE"
+  },
+  "XX1916-1": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Telegram from Huang Xing to Lin Hu and Li Genyuan"
+  },
+  "XX1916-2": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Telegram to Sun Yat-sen"
+  },
+  "XX1916-3": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "Telegrams Related to Sun Yat-Sen in Wen Mi (文密)"
+  },
+  "XX1916-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Pöllwitz DE to Fräulein Fränz Pöllwitz DE"
+  },
+  "XX1917-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "lendorf DE to Georg Zwick Erbenschwang DE"
+  },
+  "XX1917-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Ulm DE Erbenschwang zwick"
+  },
+  "XX1917-4": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Telegrams between Sun Yat-sen and Dai Jitao (June 1917)"
+  },
+  "XX1918-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Weiden in der Oberpfalz DE to Betty Kögner Bahnhofstraße Mitterteich DE"
+  },
+  "XX1918-3": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Memmingen DE to Maria Walter Mauerstetten DE"
+  },
+  "XX1918-4": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE DE Erbenschwang zwick"
+  },
+  "XX1919-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Dubois USA to Delia Belsch Springville, NY USA"
+  },
+  "XX1919-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Ecuasiennes BE to Marthe Poulain Rue du Nord Beaufines BE"
+  },
+  "XX1920-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Hal BE to Marthe Poulain Rue du Nord Ecuasiennes BE"
+  },
+  "XX1920-2": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "le Comte BE to Marthe Poulain Brai lez Binche BE"
+  },
+  "XX1921-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Ursbach DE to M. Pankratia Ottostr. 1 Füssen DE"
+  },
+  "XX1938-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Telegrams Found in a Sunken Ship Zhongshan"
+  },
+  "XX1939-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Topeka, Kansas USA to James J. Marlin 926 East Kansas City USA"
+  },
+  "XX1940-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "DE to Hugo Dunkel Thüringer Wald Stürzbach DE"
+  },
+  "XX1942-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Loiret, Gare des Aubres FR to Lucien Rabaud 6 rue feanneau Nantes FR"
+  },
+  "XX1945-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "Another Enigma Message"
+  },
+  "XX1947-1": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Györ HU"
+  },
+  "XX1969-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Zodiac Killer's Cipher Z340"
+  },
+  "XXXXXX-1": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "An Intercepted Letter"
+  },
+  "XXXXXX-10": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Two Ciphers of Imperial Ministers from the Thirty Years' War Period"
+  },
+  "XXXXXX-13": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "BAV_iBorg-Lat_898"
+  },
+  "XXXXXX-146": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Harley"
+  },
+  "XXXXXX-149": {
+   "sources": [
+    "decode",
+    "cyphersolver"
+   ],
+   "status": "open",
+   "title": "BL Sloane MS"
+  },
+  "XXXXXX-2": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Bellaso's Ciphers"
+  },
+  "XXXXXX-22": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Rohonc_Codex"
+  },
+  "XXXXXX-23": {
+   "sources": [
+    "decode"
+   ],
+   "status": "open",
+   "title": "Sami"
+  },
+  "XXXXXX-26": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Modena ciphers and keys"
+  },
+  "XXXXXX-29": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "Siena keys and ciphers"
+  },
+  "XXXXXX-3": {
+   "sources": [
+    "cryptiana",
+    "cyphersolver"
+   ],
+   "status": "solved",
+   "title": "BnF es.336, BnF fr.2996, BnF fr.3015, BnF fr.3022, BnF Clair.326, BnF fr.3029, BnF fr.3092, BnF fr.3045, BnF fr.3034, BnF fr.3096, BnF fr.3091, BnF fr.3040, BnF fr.3071, BnF fr.3083, BnF fr.3147"
+  },
+  "XXXXXX-32": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved/plaintext_attached",
+   "title": "Pisa"
+  },
+  "XXXXXX-4": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open/partly",
+   "title": "Ciphers related to Sir Francis Walsingham"
+  },
+  "XXXXXX-49": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Clevedon UK to J. Woodward Esq Hillcrest Warwickshire UK"
+  },
+  "XXXXXX-5": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "CryptoCellar"
+  },
+  "XXXXXX-50": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Reichen (Schlesien) DE to Fritz Lehmann Schneidwitz DE"
+  },
+  "XXXXXX-51": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "IE"
+  },
+  "XXXXXX-52": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Köp to Mariska Jessze HU"
+  },
+  "XXXXXX-53": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Brückenau DE Heidelberg heidelberg"
+  },
+  "XXXXXX-54": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "DE to Emma Kr Mittelstr. 18 Heidelberg DE"
+  },
+  "XXXXXX-55": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard_089 cpc_--___FR__"
+  },
+  "XXXXXX-56": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard_090 cpc_--___DE_Endsee_"
+  },
+  "XXXXXX-57": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Landreville (Aube) FR to Valentine Carrey Landreville (Aube) FR"
+  },
+  "XXXXXX-58": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "UK to Ethel"
+  },
+  "XXXXXX-59": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "DE to Helene Schlauch Rathskeller Hier DE"
+  },
+  "XXXXXX-6": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "English Cipher Misplaced? in French Archives"
+  },
+  "XXXXXX-60": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Hof DE to Fräulein Lang Selb DE"
+  },
+  "XXXXXX-61": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc empty"
+  },
+  "XXXXXX-62": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard_151 cpc_--___DE_Hier_fritzlehmann-16"
+  },
+  "XXXXXX-63": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Grossdorf bei Braunau DE to Fritz Lehmann Alte straße Nr. 29 Freiburg (Schlesien) DE"
+  },
+  "XXXXXX-65": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc DE Scharnhorst walter"
+  },
+  "XXXXXX-67": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "New York USA to Emily Thomas 438 East 35th Street City USA"
+  },
+  "XXXXXX-69": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc RU empty"
+  },
+  "XXXXXX-7": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Running Key Challenge"
+  },
+  "XXXXXX-70": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "USA to Mr. Ezra W. USA"
+  },
+  "XXXXXX-72": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "DE"
+  },
+  "XXXXXX-73": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc museum"
+  },
+  "XXXXXX-8": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "open",
+   "title": "The \"Decoding the Civil War\" Project"
+  },
+  "XXXXXX-84": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Hoxie, Kansas USA to Olive Ritter Selden, Kansas USA"
+  },
+  "XXXXXX-85": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Debrecen HU to Södy Sandoz Csappo ucca 97 HU"
+  },
+  "XXXXXX-86": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard_287 cpc_--___CH_Neuchatel_"
+  },
+  "XXXXXX-87": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Santa Clara, California USA to Fannie E. Brimblecone San Jose, California USA"
+  },
+  "XXXXXX-88": {
+   "sources": [
+    "decode"
+   ],
+   "status": "solved",
+   "title": "UK to Miss N. Harrison 67 Limes Road Croydon Surrey UK"
+  },
+  "XXXXXX-89": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Hanford USA to Velma Cornel Hanford, California USA"
+  },
+  "XXXXXX-9": {
+   "sources": [
+    "cryptiana"
+   ],
+   "status": "solved",
+   "title": "Trithemius"
+  },
+  "XXXXXX-90": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc HU HU Rákos Palota Újfalu jolanka"
+  },
+  "XXXXXX-94": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "Jasz HU to Tóth József József és István utca sarok Újpest - Budapest HU"
+  },
+  "XXXXXX-95": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc HU HU Budapest jolanka"
+  },
+  "XXXXXX-96": {
+   "sources": [
+    "decode"
+   ],
+   "status": "na",
+   "title": "postcard cpc HU HU helyben (locally) Budapest jolanka"
+  }
+ }
+}
