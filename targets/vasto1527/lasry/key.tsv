@@ -1,0 +1,872 @@
+﻿code	value	count	status
+a8	a?	2	tentative/speculative
+a13	abenche?	1	tentative/speculative
+a17	absentia?	3	tentative/speculative
+a23	accad	3	stronger working inference
+a28	accept?	1	tentative/speculative
+a35	accord?	2	tentative/speculative
+a37	accordo	3	stronger working inference
+a47	atio?	1	tentative/speculative
+a48	accio?	6	tentative/speculative
+a51	ad	15	stronger working inference
+a60	adriz	6	stronger working inference
+a61	aviso	10	stronger working inference
+a62	avis	10	stronger working inference
+a84	advert?	7	tentative/speculative
+a87	advenir?	1	tentative/speculative
+a104	affirm?	3	tentative/speculative
+a116	aiut	2	stronger working inference
+a120	aggiung?	1	tentative/speculative
+a127	al	30	stronger working inference
+a135	alcun	7	stronger working inference
+a136	alcuno?	1	tentative/speculative
+a137	alcuna	13	stronger working inference
+a139	alcun?	1	tentative/speculative
+a143	allegato?	1	tentative/speculative
+a152	altro	10	stronger working inference
+a153	altre	7	stronger working inference
+a154	altre	9	stronger working inference
+a155	altri	9	stronger working inference
+a156	allarg	1	stronger working inference
+a159	allegar?	1	tentative/speculative
+a170	amico	5	stronger working inference
+a171	ambasciadori?	7	tentative/speculative
+a174	amico?	2	tentative/speculative
+a176	amici?	1	tentative/speculative
+a180	ampl?	1	tentative/speculative
+a185	amicitia?	1	tentative/speculative
+a186	ancora	5	stronger working inference
+a187	ancor?	2	tentative/speculative
+a195	ano	4	stronger working inference
+a204	ante	1	stronger working inference
+a208	andar	3	stronger working inference
+a209	at	15	stronger working inference
+a217	apparent?	1	tentative/speculative
+a246	acqua	5	stronger working inference
+a272	ar?	2	tentative/speculative
+a273	armi?	2	tentative/speculative
+a275	armate?	1	tentative/speculative
+a278	astutie?	1	tentative/speculative
+a279	asco?	1	tentative/speculative
+a282	arma?	2	tentative/speculative
+a283	and?	1	tentative/speculative
+a299	assicur?	3	tentative/speculative
+a302	aspett?	3	tentative/speculative
+a304	attento?	3	tentative/speculative
+a305	attent?	2	tentative/speculative
+a311	avanti	5	stronger working inference
+a313	adoper?	1	tentative/speculative
+a314	audac?	1	tentative/speculative
+a315	augmenti?	1	tentative/speculative
+a317	accett?	1	tentative/speculative
+a323	avantaggi?	1	tentative/speculative
+b10	ba	4	stronger working inference
+b20	Barcellona?	1	tentative/speculative
+b26	basta	2	stronger working inference
+b28	bast	1	stronger working inference
+b43	bagn	1	stronger working inference
+b49	be	2	stronger working inference
+b57	ben	8	stronger working inference
+b58	bene	4	stronger working inference
+b80	bi	9	stronger working inference
+b84	bianco	3	stronger working inference
+b96	Biscaglia?	1	tentative/speculative
+b101	bisogna?	1	tentative/speculative
+b103	Bo	2	stronger working inference
+b113	bon	7	stronger working inference
+b114	bona	8	stronger working inference
+b115	bon	1	stronger working inference
+b117	bono?	1	tentative/speculative
+b129	Burgo	2	stronger working inference
+b147	breve?	2	tentative/speculative
+b148	breve?	1	tentative/speculative
+b246	do?	1	tentative/speculative
+c7	u	3	stronger working inference
+c8	u	10	stronger working inference
+c9	u	2	stronger working inference
+c10	ca	13	stronger working inference
+c32	camb	3	stronger working inference
+c42	can	2	stronger working inference
+c46	canal?	1	tentative/speculative
+c48	canceller?	1	tentative/speculative
+c51	capi?	1	tentative/speculative
+c65	cader?	1	tentative/speculative
+c75	car	3	stronger working inference
+c76	cara	2	stronger working inference
+c77	care?	1	tentative/speculative
+c85	carta	3	stronger working inference
+c99	carc?	1	tentative/speculative
+c107	caso	1	stronger working inference
+c108	cesarea?	3	tentative/speculative
+c109	casa	2	stronger working inference
+c125	cert	11	stronger working inference
+c127	come?	1	tentative/speculative
+c129	cavalier	2	stronger working inference
+c132	cave?	1	tentative/speculative
+c136	ce	14	stronger working inference
+c148	certo	4	stronger working inference
+c151	certific	3	stronger working inference
+c153	cerca	2	stronger working inference
+c170	che	174	stronger working inference
+c171	chi	10	stronger working inference
+c173	chiar?	1	tentative/speculative
+c174	che?	1	tentative/speculative
+c183	ci?	3	tentative/speculative
+c184	cia	2	stronger working inference
+c185	cio	3	stronger working inference
+c187	cion	12	stronger working inference
+c191	cento?	1	tentative/speculative
+c193	cinquecento	3	stronger working inference
+c194	circa	3	stronger working inference
+c208	co	10	stronger working inference
+c211	conosc	11	stronger working inference
+c216	con	7	stronger working inference
+c227	como	27	stronger working inference
+c234	consequent?	1	tentative/speculative
+c235	corte	2	stronger working inference
+c236	copia?	2	tentative/speculative
+c239	compagnia	2	stronger working inference
+c242	comince?	1	tentative/speculative
+c246	comunic	4	stronger working inference
+c248	commission?	1	tentative/speculative
+c258	compet?	1	tentative/speculative
+c262	conto	2	stronger working inference
+c263	conte	1	stronger working inference
+c267	consiglio?	3	tentative/speculative
+c268	consigli	1	stronger working inference
+c272	contra	2	stronger working inference
+c281	conservat?	1	tentative/speculative
+c282	consol?	2	tentative/speculative
+c287	conditioni	2	stronger working inference
+c288	conveni	2	stronger working inference
+c289	conclud?	1	tentative/speculative
+c291	consider	3	stronger working inference
+c292	continu	8	stronger working inference
+c293	conced?	1	tentative/speculative
+c296	cas?	1	tentative/speculative
+c310	copert	1	stronger working inference
+c312	copia	6	stronger working inference
+c315	corp	1	stronger working inference
+c320	cos	33	stronger working inference
+c322	cred	4	stronger working inference
+c325	cura	3	stronger working inference
+d8	t	3	stronger working inference
+D9	t	3	stronger working inference
+d9	t	3	stronger working inference
+d10	da	43	stronger working inference
+d13	da	3	stronger working inference
+d15	danno	2	stronger working inference
+d17	danneggi?	1	tentative/speculative
+d18	dapoi	7	stronger working inference
+d24	dato	4	stronger working inference
+d25	dat?	1	tentative/speculative
+d30	dar	8	stronger working inference
+d34	de	27	stronger working inference
+d35	de	81	stronger working inference
+d36	de	48	stronger working inference
+d37	de	27	stronger working inference
+d47	debb?	1	tentative/speculative
+d48	debbiano?	1	tentative/speculative
+d52	dieci?	2	tentative/speculative
+d78	di	54	stronger working inference
+d84	deliberatione?	1	tentative/speculative
+d96	denari	3	stronger working inference
+d100	deput?	5	tentative/speculative
+d102	dente	1	stronger working inference
+d105	destin?	1	tentative/speculative
+d120	dis	8	stronger working inference
+d127	desider	5	stronger working inference
+d128	desideri?	1	tentative/speculative
+d150	disconven	1	stronger working inference
+d156	detto	20	stronger working inference
+d157	detta	5	stronger working inference
+d158	detti	10	stronger working inference
+d159	dette	3	stronger working inference
+d163	deliber	1	stronger working inference
+d168	devotion?	2	tentative/speculative
+d170	di	1	stronger working inference
+d178	di	15	stronger working inference
+d179	di	12	stronger working inference
+d180	di	11	stronger working inference
+d188	differir?	1	tentative/speculative
+d198	discors?	1	tentative/speculative
+d201	dilect?	1	tentative/speculative
+d202	Dio	7	stronger working inference
+d204	dire	2	stronger working inference
+d205	dir	3	stronger working inference
+d211	dispon	2	stronger working inference
+d216	distinct?	1	tentative/speculative
+d236	differe?	2	tentative/speculative
+d237	divers?	1	tentative/speculative
+d240	divin?	1	tentative/speculative
+d245	do	17	stronger working inference
+d246	do	23	stronger working inference
+d264	dona?	1	tentative/speculative
+d270	dove	6	stronger working inference
+d272	demand?	2	tentative/speculative
+d280	dietro?	1	tentative/speculative
+d281	du	4	stronger working inference
+d282	dubio	5	stronger working inference
+d283	dubi	3	stronger working inference
+d285	ducati	3	stronger working inference
+d288	duca	2	stronger working inference
+d292	dur	1	stronger working inference
+d299	dura	2	stronger working inference
+d303	dubitar?	1	tentative/speculative
+d304	dubit	3	stronger working inference
+e6	s	1	stronger working inference
+e7	s	6	stronger working inference
+e8	s	11	stronger working inference
+e9	s	8	stronger working inference
+e16	effecto	7	stronger working inference
+e17	effecti?	1	tentative/speculative
+e19	effectu	3	stronger working inference
+e25	el	26	stronger working inference
+e39	elegga?	2	tentative/speculative
+e49	en	11	stronger working inference
+e67	era	19	stronger working inference
+e71	esse	3	stronger working inference
+e72	esse	9	stronger working inference
+e73	esso	7	stronger working inference
+e74	essi	2	stronger working inference
+e75	esser	16	stronger working inference
+e76	essendo?	3	tentative/speculative
+e82	etiam?	11	tentative/speculative
+e92	etiam?	1	tentative/speculative
+e96	evento	3	stronger working inference
+e106	ex	2	stronger working inference
+e118	exalt	3	stronger working inference
+e124	excusat?	1	tentative/speculative
+e142	exercitii?	1	tentative/speculative
+e143	exercitar	2	stronger working inference
+e146	exerciti?	2	tentative/speculative
+e170	expedition?	3	tentative/speculative
+e171	expedir?	1	tentative/speculative
+e205	extend	1	stronger working inference
+f6	r	13	stronger working inference
+f7	r	6	stronger working inference
+f8	r	29	stronger working inference
+f9	r	20	stronger working inference
+f10	fa	24	stronger working inference
+f12	faci?	3	tentative/speculative
+f13	far	16	stronger working inference
+f15	fatto	10	stronger working inference
+f17	fatta	3	stronger working inference
+f19	facil?	2	tentative/speculative
+f21	fallo?	1	tentative/speculative
+f44	favor?	1	tentative/speculative
+f46	fe	1	stronger working inference
+f47	fede	3	stronger working inference
+f48	febraro?	2	tentative/speculative
+f57	fermezza?	1	tentative/speculative
+f75	fi	11	stronger working inference
+f78	fogli?	1	tentative/speculative
+f92	fine?	1	tentative/speculative
+f106	firm?	1	tentative/speculative
+f117	fo	1	stronger working inference
+f131	Fornari?	2	tentative/speculative
+f133	forte?	1	tentative/speculative
+f138	forza	3	stronger working inference
+f140	fortuna?	2	tentative/speculative
+f141	form?	3	tentative/speculative
+f145	forse?	3	tentative/speculative
+f157	Franza?	2	tentative/speculative
+f183	frutto?	1	tentative/speculative
+f213	fusse	5	stronger working inference
+g10	ga	6	stronger working inference
+g15	galere?	1	tentative/speculative
+g44	ge	6	stronger working inference
+g55	gente?	1	tentative/speculative
+g64	Genova?	2	tentative/speculative
+g71	gie?	1	tentative/speculative
+g72	gia	9	stronger working inference
+g74	giesie?	1	tentative/speculative
+g82	giorno?	2	tentative/speculative
+g84	giornata	3	stronger working inference
+g94	giova	2	stronger working inference
+g106	gli	4	stronger working inference
+g126	governo?	1	tentative/speculative
+g127	governa	2	stronger working inference
+g129	giudici?	1	tentative/speculative
+g140	grande	9	stronger working inference
+g141	gran?	1	tentative/speculative
+g146	gran cancelliero?	6	tentative/speculative
+g154	gratia	2	stronger working inference
+g159	grato	2	stronger working inference
+g197	guerra	3	stronger working inference
+g198	guerre	1	stronger working inference
+h6	n	3	stronger working inference
+h7	n	4	stronger working inference
+h8	n	25	stronger working inference
+h9	n	12	stronger working inference
+h10	ha	24	stronger working inference
+h27	ha?	6	tentative/speculative
+h29	havere	7	stronger working inference
+h30	have	27	stronger working inference
+h32	hai	3	stronger working inference
+h34	ha?	8	tentative/speculative
+h47	hi	5	stronger working inference
+h49	Hiero	4	stronger working inference
+h50	Hieronimo?	2	tentative/speculative
+h57	ho	35	stronger working inference
+h66	honeste	2	stronger working inference
+h73	honest	3	stronger working inference
+h79	hore	1	stronger working inference
+i6	p	1	stronger working inference
+i7	p	1	stronger working inference
+i8	p	2	stronger working inference
+i10	ia	16	stronger working inference
+i11	Iacomo?	3	tentative/speculative
+i29	il	30	stronger working inference
+i43	imagina?	1	tentative/speculative
+i44	imbarca?	1	tentative/speculative
+i58	imperatore?	4	tentative/speculative
+i73	importante?	2	tentative/speculative
+i76	incert?	1	tentative/speculative
+i88	impetra?	1	tentative/speculative
+i99	import	3	stronger working inference
+i100	in	114	stronger working inference
+i101	in	1	stronger working inference
+i105	inten?	1	tentative/speculative
+i108	inconvenient	5	stronger working inference
+i124	inform?	2	tentative/speculative
+i125	imput?	1	tentative/speculative
+i156	infinit?	2	tentative/speculative
+i165	information?	2	tentative/speculative
+i223	instant?	1	tentative/speculative
+i246	intende	8	stronger working inference
+i248	intelligent?	1	tentative/speculative
+i249	intes	2	stronger working inference
+i254	intention?	2	tentative/speculative
+i259	intim	2	stronger working inference
+i265	intercepte?	1	tentative/speculative
+i269	imped?	1	tentative/speculative
+i272	inclina?	1	tentative/speculative
+i275	Italia?	1	tentative/speculative
+i286	io	13	stronger working inference
+i295	Italia	8	stronger working inference
+i307	incontr	3	stronger working inference
+i321	Iacomo?	4	tentative/speculative
+L6	m	3	stronger working inference
+L8	m	3	stronger working inference
+L9	m	4	stronger working inference
+L10	la	99	stronger working inference
+L17	l'altra	5	stronger working inference
+L30	larghe	1	stronger working inference
+L43	lass?	9	tentative/speculative
+L47	le	60	stronger working inference
+L56	lege	6	stronger working inference
+L61	lei?	5	tentative/speculative
+L74	leva?	1	tentative/speculative
+L77	li	81	stronger working inference
+L85	lev?	1	tentative/speculative
+L88	licit?	1	tentative/speculative
+L92	lega?	4	tentative/speculative
+L97	Lione?	2	tentative/speculative
+L98	lettera	5	stronger working inference
+L99	lettere	19	stronger working inference
+L106	lo	7	stronger working inference
+L107	lo	15	stronger working inference
+L108	lo	13	stronger working inference
+L109	loco	4	stronger working inference
+L128	loro	3	stronger working inference
+L130	lu	7	stronger working inference
+L131	lui?	8	tentative/speculative
+L135	lume	5	stronger working inference
+L143	l'una	1	stronger working inference
+m6	o	34	stronger working inference
+m7	o	36	stronger working inference
+m8	o	41	stronger working inference
+m9	o	35	stronger working inference
+m10	ma	21	stronger working inference
+m11	madre?	2	tentative/speculative
+m19	maggior	3	stronger working inference
+m29	mai?	5	tentative/speculative
+m34	mal	2	stronger working inference
+m46	man	5	stronger working inference
+m47	mano	3	stronger working inference
+m50	manca	4	stronger working inference
+m56	mand?	4	tentative/speculative
+m57	mand	13	stronger working inference
+m58	mandat	2	stronger working inference
+m61	manteniment?	1	tentative/speculative
+m75	mare?	1	tentative/speculative
+m80	maravigli?	1	tentative/speculative
+m82	marzo	3	stronger working inference
+m87	maria?	1	tentative/speculative
+m99	materia	5	stronger working inference
+m104	maxime?	4	tentative/speculative
+m107	me	36	stronger working inference
+m109	medemo?	3	tentative/speculative
+m110	medem?	1	tentative/speculative
+m119	meglio	7	stronger working inference
+m121	mezo?	2	tentative/speculative
+m122	maesta?	3	tentative/speculative
+m131	men	2	stronger working inference
+m132	meno	1	stronger working inference
+m136	mente	32	stronger working inference
+m137	menti	9	stronger working inference
+m138	mento?	1	tentative/speculative
+m140	menta	2	stronger working inference
+m147	mercante?	1	tentative/speculative
+m148	mess?	2	tentative/speculative
+m157	messer	9	stronger working inference
+m160	mi	1	stronger working inference
+m162	mia?	1	tentative/speculative
+m166	mette	2	stronger working inference
+m167	metti	2	stronger working inference
+m168	mezzo?	6	tentative/speculative
+m170	mi	40	stronger working inference
+m171	mio	2	stronger working inference
+m172	mia	13	stronger working inference
+m173	mie?	1	tentative/speculative
+m176	mille	3	stronger working inference
+m177	milia	2	stronger working inference
+m187	ministri?	1	tentative/speculative
+m191	ministr?	1	tentative/speculative
+m198	malicio?	3	tentative/speculative
+m211	mo	9	stronger working inference
+m212	modo	19	stronger working inference
+m213	modi	2	stronger working inference
+m223	molto	6	stronger working inference
+m225	molte?	1	tentative/speculative
+m226	molti?	1	tentative/speculative
+m236	Milano?	2	tentative/speculative
+m241	morte	3	stronger working inference
+m247	mostra	4	stronger working inference
+n6	i	31	stronger working inference
+n7	i	24	stronger working inference
+n8	i	53	stronger working inference
+n9	i	23	stronger working inference
+n10	na	8	stronger working inference
+n11	Napoli	3	stronger working inference
+n24	nat?	1	tentative/speculative
+n38	ne	55	stronger working inference
+n40	necessita	3	stronger working inference
+n44	nero?	1	tentative/speculative
+n46	negotio?	4	tentative/speculative
+n57	nega	2	stronger working inference
+n60	nel	15	stronger working inference
+n71	ni	6	stronger working inference
+n77	niuno	5	stronger working inference
+n80	non?	1	tentative/speculative
+n85	no	20	stronger working inference
+n86	no	14	stronger working inference
+n87	no	5	stronger working inference
+n88	non	13	stronger working inference
+n89	non	19	stronger working inference
+n90	non	30	stronger working inference
+n97	nome	2	stronger working inference
+n105	nostro	7	stronger working inference
+n106	nostra?	1	tentative/speculative
+n115	notific	2	stronger working inference
+n124	novo	5	stronger working inference
+n134	nu	1	stronger working inference
+n213	nomi	1	stronger working inference
+o6	l	1	stronger working inference
+o7	l	3	stronger working inference
+o8	l	5	stronger working inference
+o9	l	3	stronger working inference
+o18	obliga?	1	tentative/speculative
+o27	observantia?	1	tentative/speculative
+o31	observa	1	stronger working inference
+o33	obstante	2	stronger working inference
+o57	ostante?	1	tentative/speculative
+o65	occurrentie	4	stronger working inference
+o66	otto	5	stronger working inference
+o72	occupa?	1	tentative/speculative
+o75	occupationi?	1	tentative/speculative
+o89	offerta?	3	tentative/speculative
+o99	offre?	1	tentative/speculative
+o105	officio	8	stronger working inference
+o106	officii	6	stronger working inference
+o113	ogni	25	stronger working inference
+o116	ognun?	1	tentative/speculative
+o119	oltre	5	stronger working inference
+o126	opera	4	stronger working inference
+o130	opinion	2	stronger working inference
+o148	orator	2	stronger working inference
+o152	ordine?	4	tentative/speculative
+o156	ordinat	2	stronger working inference
+o157	ordina	4	stronger working inference
+o165	oro	1	stronger working inference
+p10	pa	5	stronger working inference
+p11	pace	1	stronger working inference
+p22	padre	1	stronger working inference
+p29	paga	2	stronger working inference
+p32	pagament?	1	tentative/speculative
+p34	preda?	2	tentative/speculative
+p41	pane	1	stronger working inference
+p43	panno?	1	tentative/speculative
+p45	papero?	1	tentative/speculative
+p47	parte	5	stronger working inference
+p49	parti?	3	tentative/speculative
+p53	partito	2	stronger working inference
+p57	particular?	2	tentative/speculative
+p59	partenza?	2	tentative/speculative
+p61	parla	4	stronger working inference
+p66	pare?	2	tentative/speculative
+p67	par?	6	tentative/speculative
+p76	passa	4	stronger working inference
+p78	passi?	1	tentative/speculative
+p89	part?	1	tentative/speculative
+p97	patria	3	stronger working inference
+p102	pe	4	stronger working inference
+p137	penso	1	stronger working inference
+p142	penna	1	stronger working inference
+p143	pen	1	stronger working inference
+p149	per	80	stronger working inference
+p150	perche	28	stronger working inference
+p152	pero	3	stronger working inference
+p153	pero	10	stronger working inference
+p155	perde?	2	tentative/speculative
+p157	perder?	1	tentative/speculative
+p161	persuas?	1	tentative/speculative
+p168	persona	3	stronger working inference
+p170	provision?	1	tentative/speculative
+p179	potendo?	1	tentative/speculative
+p180	perfett	1	stronger working inference
+p188	persever?	2	tentative/speculative
+p194	preiudich?	3	tentative/speculative
+p206	pericolos?	1	tentative/speculative
+p217	pron	1	stronger working inference
+p222	propo	1	stronger working inference
+p228	pe	2	stronger working inference
+p232	picciol?	1	tentative/speculative
+p234	piace	2	stronger working inference
+p235	piac	2	stronger working inference
+p238	pien?	3	tentative/speculative
+p242	poss	1	stronger working inference
+p246	piu	42	stronger working inference
+p249	pigli	5	stronger working inference
+p251	pratica	2	stronger working inference
+p255	po	18	stronger working inference
+p257	poca?	1	tentative/speculative
+p260	poi	10	stronger working inference
+p261	poiche?	2	tentative/speculative
+p273	porti?	1	tentative/speculative
+p279	pote?	4	tentative/speculative
+p280	potr	7	stronger working inference
+p281	pot	10	stronger working inference
+p282	poss	17	stronger working inference
+p283	possibil	2	stronger working inference
+p285	posta?	1	tentative/speculative
+p291	pre	2	stronger working inference
+p292	pro?	1	tentative/speculative
+p293	propri	2	stronger working inference
+p296	president?	3	tentative/speculative
+p300	preiudici?	1	tentative/speculative
+p304	presto	4	stronger working inference
+p305	prest?	1	tentative/speculative
+p308	present	12	stronger working inference
+p311	prim	6	stronger working inference
+p313	princip	3	stronger working inference
+p321	proposit	3	stronger working inference
+p325	proved	4	stronger working inference
+p337	prova?	1	tentative/speculative
+p342	procura?	4	tentative/speculative
+p344	procura?	3	tentative/speculative
+p353	prudentia?	1	tentative/speculative
+p356	prego	1	stronger working inference
+p361	pres?	3	tentative/speculative
+p363	pu?	1	tentative/speculative
+p373	pu	6	stronger working inference
+p374	pur	3	stronger working inference
+Q6	con?	2	tentative/speculative
+q6	g	4	stronger working inference
+q7	g	2	stronger working inference
+Q8	con?	4	tentative/speculative
+q8	g	7	stronger working inference
+Q9	con?	6	tentative/speculative
+Q10	con	3	stronger working inference
+q10	qua	16	stronger working inference
+q11	qui	2	stronger working inference
+Q12	con?	1	tentative/speculative
+q12	qual	23	stronger working inference
+Q13	con	7	stronger working inference
+q13	quali	5	stronger working inference
+Q15	con?	1	tentative/speculative
+Q16	con?	3	tentative/speculative
+Q17	con?	1	tentative/speculative
+q17	quante?	6	tentative/speculative
+Q18	con?	16	tentative/speculative
+q18	quanto	25	stronger working inference
+Q19	con?	2	tentative/speculative
+Q20	con	6	stronger working inference
+q20	quantita	1	stronger working inference
+Q21	con?	3	tentative/speculative
+q21	quando	8	stronger working inference
+Q22	con?	3	tentative/speculative
+Q23	con?	5	tentative/speculative
+Q24	con?	1	tentative/speculative
+Q25	con?	1	tentative/speculative
+Q26	con?	1	tentative/speculative
+Q27	con?	1	tentative/speculative
+q27	quasi?	1	tentative/speculative
+Q30	con	3	stronger working inference
+q30	questi?	1	tentative/speculative
+q34	quatro?	2	tentative/speculative
+q36	quaranta?	1	tentative/speculative
+q37	quasi?	1	tentative/speculative
+Q41	con?	1	tentative/speculative
+q43	quella	3	stronger working inference
+q44	quelle	5	stronger working inference
+q45	quello	16	stronger working inference
+q47	quella	9	stronger working inference
+q48	questa	2	stronger working inference
+q49	questo	21	stronger working inference
+Q50	con?	1	tentative/speculative
+q50	questi	3	stronger working inference
+q61	qui	4	stronger working inference
+q65	quieta?	1	tentative/speculative
+r7	f	1	stronger working inference
+r10	ra	58	stronger working inference
+r17	ragion	3	stronger working inference
+r19	raguagli?	3	tentative/speculative
+r41	re	125	stronger working inference
+r64	recor?	3	tentative/speculative
+r66	receve?	1	tentative/speculative
+r71	record?	3	tentative/speculative
+r93	riman?	1	tentative/speculative
+r101	regno	3	stronger working inference
+r123	restaur	2	stronger working inference
+r126	rende?	1	tentative/speculative
+r137	remett	2	stronger working inference
+r138	remission?	1	tentative/speculative
+r142	remedi?	1	tentative/speculative
+r158	replica?	1	tentative/speculative
+r165	remedi?	1	tentative/speculative
+r168	repos?	1	tentative/speculative
+r190	res	2	stronger working inference
+r196	resolution?	6	tentative/speculative
+r197	resolut?	1	tentative/speculative
+r198	resolu	6	stronger working inference
+r201	restitui	3	stronger working inference
+r203	resto	5	stronger working inference
+r204	resto	2	stronger working inference
+r205	rest	2	stronger working inference
+r211	reserv?	1	tentative/speculative
+r215	restitution?	1	tentative/speculative
+r221	respond?	4	tentative/speculative
+r222	risposta	3	stronger working inference
+r224	respos?	1	tentative/speculative
+r250	reved?	1	tentative/speculative
+r268	ri	8	stronger working inference
+r269	ria	7	stronger working inference
+r271	rie	4	stronger working inference
+r272	riano	2	stronger working inference
+r278	risico	2	stronger working inference
+r296	ro	18	stronger working inference
+r309	Roma?	3	tentative/speculative
+r327	ru	1	stronger working inference
+s6	e	28	stronger working inference
+s7	e	25	stronger working inference
+s8	e	63	stronger working inference
+s9	e	32	stronger working inference
+s10	sa	12	stronger working inference
+s22	salvo?	4	tentative/speculative
+s69	sap	6	stronger working inference
+s70	Savoia?	1	tentative/speculative
+s77	saranno	3	stronger working inference
+s78	saria?	2	tentative/speculative
+s80	satisfa	2	stronger working inference
+s93	scald?	1	tentative/speculative
+s113	scribe	23	stronger working inference
+s115	scribi?	1	tentative/speculative
+s116	script	22	stronger working inference
+s117	script?	3	tentative/speculative
+s138	se	21	stronger working inference
+s139	se	34	stronger working inference
+s141	secondo	3	stronger working inference
+s143	secund?	2	tentative/speculative
+s144	Sor?	2	tentative/speculative
+s147	secretario	2	stronger working inference
+s151	secreto	4	stronger working inference
+s155	securo?	2	tentative/speculative
+s170	seguit?	1	tentative/speculative
+s171	segui	3	stronger working inference
+s173	sei?	1	tentative/speculative
+s174	seicento?	1	tentative/speculative
+s177	sempre?	7	tentative/speculative
+s187	sent?	3	tentative/speculative
+s191	senza	10	stronger working inference
+s205	seguito?	4	tentative/speculative
+s212	serv?	3	tentative/speculative
+s214	sigill?	1	tentative/speculative
+s215	servit?	2	tentative/speculative
+s217	servitio	3	stronger working inference
+s219	sforzo?	2	tentative/speculative
+s229	seicento?	1	tentative/speculative
+s230	sei	2	stronger working inference
+s231	sette?	1	tentative/speculative
+s233	si	67	stronger working inference
+s234	sia	12	stronger working inference
+s235	sia?	4	tentative/speculative
+s239	secur?	2	tentative/speculative
+s242	signor	3	stronger working inference
+s243	signori	2	stronger working inference
+s245	Signoria?	1	tentative/speculative
+s247	simil	4	stronger working inference
+s251	sufficient?	2	tentative/speculative
+s267	so	7	stronger working inference
+s268	soa	6	stronger working inference
+s269	sue	2	stronger working inference
+s270	suoi	5	stronger working inference
+s271	soa Maesta	27	stronger working inference
+s272	soa signoria?	4	tentative/speculative
+s273	soa excellentia?	19	tentative/speculative
+s279	solit	3	stronger working inference
+s287	solo?	3	tentative/speculative
+s288	sol	5	stronger working inference
+s290	son?	3	tentative/speculative
+s291	sono?	6	tentative/speculative
+s292	sopra	13	stronger working inference
+s293	se?	1	tentative/speculative
+s299	sotto	7	stronger working inference
+s305	spie?	1	tentative/speculative
+s320	spero	7	stronger working inference
+s322	speranz?	2	tentative/speculative
+s323	stat	8	stronger working inference
+s325	sta	12	stronger working inference
+s326	sto	7	stronger working inference
+s330	sustenta?	1	tentative/speculative
+s337	stimul?	1	tentative/speculative
+s344	sollicit?	1	tentative/speculative
+s345	studi?	1	tentative/speculative
+s346	su	14	stronger working inference
+s347	subito?	6	tentative/speculative
+s348	summa?	1	tentative/speculative
+s364	superflu?	1	tentative/speculative
+s375	studios?	1	tentative/speculative
+s387	supera?	1	tentative/speculative
+t7	d	3	stronger working inference
+t8	d	2	stronger working inference
+t9	d	2	stronger working inference
+t10	ta	25	stronger working inference
+t16	tal	10	stronger working inference
+t17	talmente	4	stronger working inference
+t19	tanto	10	stronger working inference
+t20	tante	2	stronger working inference
+t30	te	54	stronger working inference
+t36	tempo	3	stronger working inference
+t41	re?	3	tentative/speculative
+t49	tene	4	stronger working inference
+t50	teng?	1	tentative/speculative
+t54	terra	3	stronger working inference
+t58	termin	2	stronger working inference
+t74	ti	46	stronger working inference
+t76	tione	3	stronger working inference
+t89	to	83	stronger working inference
+t90	tua	4	stronger working inference
+t92	tre	5	stronger working inference
+t105	totale?	2	tentative/speculative
+t116	torne	1	stronger working inference
+t118	tra	7	stronger working inference
+t133	tre	2	stronger working inference
+t135	trenta?	1	tentative/speculative
+t152	trova	3	stronger working inference
+t153	trov	1	stronger working inference
+t157	tro	2	stronger working inference
+t163	tu	16	stronger working inference
+t164	tutto	15	stronger working inference
+t165	tutta	3	stronger working inference
+t166	tutte	7	stronger working inference
+t167	tutti	3	stronger working inference
+t205	tenet?	1	tentative/speculative
+v6	c	3	stronger working inference
+v7	c	3	stronger working inference
+v8	c	2	stronger working inference
+v9	c	4	stronger working inference
+v10	va	12	stronger working inference
+v11	vardia?	1	tentative/speculative
+v13	vale	9	stronger working inference
+v15	Valentia?	3	tentative/speculative
+v26	van?	1	tentative/speculative
+v35	vascelli?	2	tentative/speculative
+v38	ve	4	stronger working inference
+v41	vede	11	stronger working inference
+v42	vedi	1	stronger working inference
+v66	venir	2	stronger working inference
+v67	venut?	1	tentative/speculative
+v70	Venetia?	1	tentative/speculative
+v71	Venetiani	4	stronger working inference
+v79	ver?	1	tentative/speculative
+v85	vero?	1	tentative/speculative
+v90	verso	3	stronger working inference
+v114	vi	16	stronger working inference
+v116	via?	3	tentative/speculative
+v136	vie	2	stronger working inference
+v137	vien	3	stronger working inference
+v152	venti	6	stronger working inference
+v166	vita	6	stronger working inference
+v169	vittualie?	1	tentative/speculative
+v176	vive?	1	tentative/speculative
+v189	uno?	2	tentative/speculative
+v190	una	8	stronger working inference
+v191	uno	7	stronger working inference
+v192	venuta?	3	tentative/speculative
+v205	vo	5	stronger working inference
+v206	voi	3	stronger working inference
+v208	voglia?	4	tentative/speculative
+v210	volunta	2	stronger working inference
+v211	volta	4	stronger working inference
+v212	volte	4	stronger working inference
+v216	vostri?	1	tentative/speculative
+v217	vostre	3	stronger working inference
+v224	vole	6	stronger working inference
+v234	usa	2	stronger working inference
+v245	venut?	1	tentative/speculative
+v246	utile?	4	tentative/speculative
+v247	utili	2	stronger working inference
+v280	voglia?	1	tentative/speculative
+x8	b?	1	tentative/speculative
+y6	et?	5	tentative/speculative
+y7	et?	5	tentative/speculative
+y8	et?	10	tentative/speculative
+y9	et?	4	tentative/speculative
+y10	et?	4	tentative/speculative
+y11	et?	4	tentative/speculative
+y12	et?	4	tentative/speculative
+y13	et?	7	tentative/speculative
+y14	et?	1	tentative/speculative
+y15	et?	10	tentative/speculative
+y16	e?	14	tentative/speculative
+y17	et?	6	tentative/speculative
+y18	et	17	stronger working inference
+y19	et?	8	tentative/speculative
+y20	et?	11	tentative/speculative
+y21	et?	14	tentative/speculative
+y22	et?	3	tentative/speculative
+y23	et?	3	tentative/speculative
+y24	o	2	stronger working inference
+y25	poi	10	stronger working inference
+y26	et?	3	tentative/speculative
+y27	et?	6	tentative/speculative
+y28	et?	6	tentative/speculative
+y29	et?	3	tentative/speculative
+y30	et?	3	tentative/speculative
+y31	et?	6	tentative/speculative
+y32	et?	1	tentative/speculative
+y33	et?	2	tentative/speculative
+y34	et?	2	tentative/speculative
+y35	et?	1	tentative/speculative
+y40	et?	1	tentative/speculative
+y41	et?	1	tentative/speculative
+y42	et?	1	tentative/speculative
+y43	et?	2	tentative/speculative
+y44	et?	1	tentative/speculative
+y47	et?	1	tentative/speculative
+y50	et?	1	tentative/speculative
+y51	et?	1	tentative/speculative
+y52	et?	1	tentative/speculative
+y53	et?	1	tentative/speculative
+y100	et?	1	tentative/speculative
+z6	a	71	stronger working inference
+z7	a	59	stronger working inference
+z8	a	109	stronger working inference
+z9	a	78	stronger working inference
+z10	za?	3	tentative/speculative
+z12	zi	1	stronger working inference
+z13	zo	2	stronger working inference
+z15	zifra	19	stronger working inference
+z16	zifrato?	2	tentative/speculative

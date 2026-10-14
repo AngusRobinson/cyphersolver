@@ -163,7 +163,7 @@
  "conditions": {
   "prior_solution": {
    "exists": "online",
-   "where": "cryptiana GL.htm: Lasry 2023 / Tomokiyo 2026 reading of no. 10; Lasry 2026 preliminary letter-level decryption of no. 6 (Cipher 2). Nothing for no. 20. Rosson (with Claude) 6 Oct 2026, centurione-1528 page: a key for Ranzo's code (no. 20 and fr. 2988 ff. 9-10), found 14 Oct 2026 by a Cryptoole alert, after this project had closed no. 20 as unread.",
+   "where": "cryptiana GL.htm: Lasry 2023 / Tomokiyo 2026 reading of no. 10; Lasry 2026 preliminary letter-level decryption of no. 6 (Cipher 2). Nothing for no. 20. Rosson (with Claude) 6 Oct 2026, centurione-1528 page: a key for Ranzo's code (no. 20 and fr. 2988 ff. 9-10), found 14 Oct 2026 by a Cryptoole alert, after this project had closed no. 20 as unread. Lasry reports independent contemporaneous recovery with Claude Opus 5.5 and GPT-6 Astra, based on Norbert Biermann’s transcription. Cryptiana ranzo.htm (6 Oct 2026) records his report arriving hours after Rosson’s email; the two keys are not merged in this contribution.",
    "found": "during attempt",
    "used": true
   },
@@ -317,6 +317,24 @@
    ],
    "what": "Applied Rosson's 779-value key (with his transcription corrections) to n20/f44r-f46v and ranzo_c006-c020. Groups with a value (sure, probable, null): no. 20 93.8%, R1894 (c017-c020) 97.2%; in runs of six or more sure/probable values: no. 20 79.8%, R1894 93.1%. Spot check: c017 and c020 decode as coherent 1528 Italian. Below the 95% bar on the connected-stretch measure; 84 groups of 3,903 have no value. Did not rerun their blind controls.",
    "result": "partial"
+  },
+  {
+   "date": "2026-10-06",
+   "kind": "reading",
+   "technique": [
+    "crib testing",
+    "repeat/pattern analysis",
+    "key-structure hypothesis",
+    "contextual inference"
+   ],
+   "what": "Contributed research history: George Lasry, collaborating with Claude Opus 5.5 and GPT-6 Astra, reconstructed a working Ranzo key from Norbert Biermann’s five-letter transcription. Selected values were checked against the historical addition. The Codex consolidation retains tentative proposals; this is dated source history, not work newly done on 14 October.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-14",
+   "kind": "verification",
+   "what": "Prepared the Codex consolidation for contribution: reproduced 541 line-aligned readings, 6,428 cipher occurrences, all 871 key frequencies and two precisely bounded excerpts with translations. Checked the Cryptiana contemporaneous reports. Coverage includes hypotheses and is not measured plaintext correctness.",
+   "result": "worked"
   }
  ],
  "outcome": {
@@ -351,7 +369,7 @@
    "notes": "claimed per-occurrence score -1.888; polyphony 0.04; 49 unread tokens left out; annealer on the real text from random keys reached -1.921"
   },
   "method": "read with known key",
-  "method_basis": "No. 6 was read with Lasry's 2026 preliminary decryption and key for 'Gasto-Charles V Cipher 2' (cryptiana GL.htm), extended with about 40 code groups from context and glyph checks (92.6% to 98.0%); no. 10 is Lasry and Tomokiyo's reading, not reworked; no. 20 (Ranzo to Garbino) was not solved.",
+  "method_basis": "No. 6 was read with Lasry's 2026 preliminary decryption and key for 'Gasto-Charles V Cipher 2' (cryptiana GL.htm), extended with about 40 code groups from context and glyph checks (92.6% to 98.0%); no. 10 is Lasry and Tomokiyo's reading, not reworked; the original solver did not decipher no. 20. Independent contemporaneous Ranzo reconstructions by Rosson and Lasry are documented separately below.",
   "contribution": [
    "transcription",
    "key extended or corrected",
@@ -395,7 +413,8 @@
     "detail": "Rosson's key leaves 86 groups unvalued by his count; stems and numbers 6-9 spelling signs remain. Needs a comparison of their readings with the images, and the other Ranzo letters (fr. 2988 ff. 2r-v, fr. 3019 f. 73 duplicate) transcribed."
    }
   ],
-  "notes": "Per document: no. 6 read (98.0% measured, 22 Sept 2026; was 'read' unmeasured on 18 Sept); no. 10 read in part by Lasry/Tomokiyo, not measured; no. 20 not read. The target stays read in part because no. 20 is unread. Grades: 34 values inferred from context (24 code groups, 8 syllable signs, 2 switch markers); Lasry's letter key is taken as it stands. NOTES.md has '## Remaining gaps' and '## Escalation'. 14 Oct 2026: no. 20 is no longer unread: Rosson's key (6 Oct 2026) reads it in part; see parts. fraction_read still counts only this project's own reading (no. 6).",
+  "notes": "Per document: no. 6 read (98.0% measured, 22 Sept 2026; was 'read' unmeasured on 18 Sept); no. 10 read in part by Lasry/Tomokiyo, not measured; no. 20 not read. The target stays read in part because no. 20 is unread. Grades: 34 values inferred from context (24 code groups, 8 syllable signs, 2 switch markers); Lasry's letter key is taken as it stands. NOTES.md has '## Remaining gaps' and '## Escalation'. 14 Oct 2026: no. 20 is no longer unread: Rosson's key (6 Oct 2026) reads it in part; see parts. fraction_read still counts only this project's own reading (no. 6). Lasry’s separate Biermann-based five-letter edition is now contributed in lasry/: 6,428 cipher occurrences, 871 observed proposed mappings, 5,967/6,221 non-null occurrences assigned including hypotheses. This coverage is not a plaintext accuracy estimate. Existing statistical validation is for no. 6, not the new Ranzo edition.",
+  "provenance": "mixed",
   "credits": [
    {
     "who": "lasry",
@@ -417,6 +436,28 @@
     "note": "edited text of no. 10",
     "date": "2026",
     "source": "https://cryptiana.web.fc2.com/code/GL.htm"
+   },
+   {
+    "who": "lasry",
+    "role": "solution",
+    "note": "Independent contemporaneous Ranzo decipherment in collaboration with Claude Opus 5.5 and GPT-6 Astra, from Norbert Biermann’s transcription; five-letter Codex consolidation, visual key and translated excerpts.",
+    "date": "2026-10-06",
+    "source": "https://github.com/GeorgeLasry/cyphersolver/tree/writeup-ranzo/targets/vasto1527/lasry",
+    "published": true
+   },
+   {
+    "who": "biermann",
+    "role": "transcription",
+    "note": "Ranzo transcript.docx (2021), five letters, supplied by George Lasry; basis of the contributed key and decipherment.",
+    "source": "https://github.com/GeorgeLasry/cyphersolver/tree/writeup-ranzo/targets/vasto1527/lasry"
+   },
+   {
+    "who": "rosson",
+    "role": "prior solution",
+    "note": "Independent contemporaneous solution with Claude, reported alongside Lasry’s by Tomokiyo on 6 October 2026; the existing project section applies Rosson’s key separately.",
+    "date": "2026-10-06",
+    "source": "https://pangoleen.github.io/cipher-readings/centurione-1528.html",
+    "published": true
    }
   ],
   "parts": [

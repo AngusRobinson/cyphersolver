@@ -1,0 +1,601 @@
+﻿RANZO — CODEX WORKING DECRYPTIONS
+Updated: 2026-10-06T02:46:17
+Key version SHA-256: 7d9bd3319bb84809a0e8b00f545440359269a030ffa5f14e37fbf513181cb59f
+All five messages; existing clear text is retained.
+A trailing ? marks a tentative/speculative reading. {code} is still unresolved.
+Spaces separate cipher groups, not necessarily words. Groups 1–5 are omitted as presumed nulls.
+The cipher is not completely solved. Readings without ? are stronger inferences, not an authenticated historical key.
+Transcription: Norbert Biermann, Ranzo transcript.docx (2021), supplied by George Lasry.
+Decipherment: George Lasry in collaboration with Claude Opus 5.5 and GPT-6 Astra.
+Important corrections: f75=fi; d120=dis; t16=tal; s288=sol. Thus disfidamenti della guerra, not fondamenti.
+
+=== MESSAGE 1 ===
+
+1:2r:1	per le altre script e {h58} ho fatta risposta a le
+1:2r:2	tre in esse menti o na te una altre ne ho re ce
+1:2r:3	pu to ancora per via? de Lione? {d23} a {L78} {d251} de febraro?
+1:2r:4	con? al quante? li ne e script e con la c te sopra la materia
+1:2r:5	de Milano? ma la maggior parte di esse non si e poss u
+1:2r:6	ta lege re perche non hai advert? i to a scribe r le con
+1:2r:7	la penna talmente pien? a de la c te et? che lass? a se
+1:2r:8	che l resto se ben in corp o ra to nel papero? pero de
+1:2r:9	qui avanti li advert? i ra i meglio et? far a i le li ne
+1:2r:10	e de la script? a con in chi o s tro piu larghe l'una
+1:2r:11	da l'altra perche meglio si poss ano poi lege re quelle script e con
+1:2r:12	la c t e et? quanto a la detta materia de Milano? io non
+1:2r:13	la poss o quasi? cred e re et? mi maravigli? o che per
+1:2r:14	le piu re ce n te tre non ne ha? detto altro
+1:2r:15	cerca ra i bona mente de sap e r ne piu oltre et?
+1:2r:16	dar ne aviso perche e cos a incert? a di fatto de l
+1:2r:17	officio affirm? o quanto ho script o per le altre e? non cos che
+1:2r:18	la opera fatta o per fa re pe r s te fa no de {g171}
+1:2r:19	poss i {p196} e cesarea? maesta? et? {L39} no in {v24} io
+1:2r:20	spero che non mi manca ra no li officii deput? a ti in Napoli
+1:2r:21	pur che le cos e de quello regno si spie? g hi
+1:2r:22	no per soa Maesta si como spero attento? quanto tu e? Iacomo? me ne
+1:2r:23	have ti script o et? ancora non di fi do che se la
+1:2r:24	morte di Sor? pe re a? in Roma? deput? a ta da {n83} {s72}
+1:2r:25	stat a {v81} forse? soa Maesta se serv? a di in esso loco e?
+1:2r:26	che subito? me li mand era per sta r li in suoi {n47}
+1:2r:27	con bon {t121} o et? con? {g121} e etiam? di utile? de li detti
+1:2r:28	officii in esse absentia? da essi per che questi signori ne ha? parla
+1:2r:29	to et? il gran cancelliero? lo desider a et? procura? il che con havere
+1:2r:30	etiam? detti officii saria? cos a che piu ne pot esse rende? re
+1:2r:31	de quante? al present e have r po t esse maxime? per exalt a
+1:2v:1	cion de {a126} nostro et? de tutto spero havere resolution? avanti {p74} la qual
+1:2v:2	ti notific a ro subito? e? perche penso de vale r mi forse? de
+1:2v:3	uno {d147} per passa re in ogni evento piu cert a menti che
+1:2v:4	e de mostra r parti? r mi di qua dis conte n to
+1:2v:5	per re patria re ha ria grande mente a car che have si in pron to
+1:2v:6	el salvo? con du c t o {r261} o di che aspett? o con?
+1:2v:7	desider io aviso ma advert? i si sopra tutto per quanto ti e
+1:2v:8	cara la vita mia de non comunic a r questo con? persona di mo
+1:2v:9	n do altre che con? tua madre? che gia vedi quanto import a
+1:2v:10	il secreto {p141} piu {r194} Dio elegga? de tutto il meglio et? me
+1:2v:11	{g208} et? con? {d286} a {s26} /.
+[42]	
+1:2v:12	affirm? o havere dato a ca ta ne o nostro uno altro pa
+1:2v:13	che to grande de lettere che receve? ra i securo? et persever? a
+1:2v:14	in scribe re continu a mente tutte le occurrentie sotto li
+1:2v:15	nomi deput? a ti per {f91} che sap i mia effectu al partenza?
+1:2v:16	da questa parte perche giova ra a piu proposit i et? le lettere
+1:2v:17	che ti scribe ro per terra et? adriz a ro ad a da no
+1:2v:18	{c142} saranno breve? como lui? ha recor? da to /.
+[50]	
+1:2v:19	altro non mi accad e che dire al present e remett en do mi a
+1:2v:20	quanto ho script o per le altre de ma d r d a venti
+1:2v:21	sei de marzo mille cinquecento venti otto /.
+[54]	
+1:2v:22	sono? a di trenta? uno? dapoi ho re ce t to una altre tua
+1:2v:23	in zifra dat? a li quatro? di present e per risposta de la qual
+1:2v:24	basta dir ti che ho vi sto quanto hai passa to con? messer
+1:2v:25	{s266} circa el fatto de la venuta? che mi e piac u to intende
+1:2v:26	re et? sopra esso mi s forza ro a far impetra? re qua quello
+1:2v:27	che per tal effecto ne con? vien si como piu ampl? a mente
+1:2v:28	scribe ro dapoi non have n do mo tempo de extend e r mi
+1:2v:29	piu oltre i te ru m vale tu o padre ti sa lu
+1:2v:30	ta /.
+[64]	
+[65]	Vo Hieronimo Ranzo
+
+
+=== MESSAGE 2 ===
+
+2:9r:1	como gia piu volte ti ho script o tu te passi? molto d u r
+2:9r:2	ta mente in li avis i de le occurrentie che se non ne fusse stat
+2:9r:3	o piu a pien? a avis a to da Iacomo? per una soa de
+2:9r:4	dieci? de febraro? re ce pu? ta con? le tre ma e de otto have
+2:9r:5	ria poss u to dar e poca? information? di esse a soa Maesta et? maxime?
+2:9r:6	de le cos e seguit? e in Savoia? de le qual niuno altro aviso
+2:9r:7	era allegato? ne altre lettere capi? to r no con? esse dove re
+2:9r:8	si dar ti loco de intende re giorno? per giorno? il tutto et? nel
+2:9r:9	medemo? instant? e far ne record? o accio? quando poi tu me scribe pot e
+2:9r:10	si de ogni cos o dar particular? et? distinct? o aviso sap en do tu
+2:9r:11	quanto simil e discors? i e poss ia no giova re a me et? a te
+2:9r:12	si che fa ra i lo nel advenir? e con? grande studi? o con?
+2:9r:13	tutto che mi ha ve ra i a scribe re di novo che sia da
+2:9r:14	mostra re a soa Maesta scribe ra i lo per lettere a parte in canceller? e
+2:9r:15	s co et? ben ordinat a mente con zifra grande nostro present e sotto
+2:9r:16	el modo io fa cio sotto scribe n do le in nome de {h51} o
+2:9r:17	de messer car lo ga zi no et? adriz at o le qua a Hiero
+2:9r:18	ra n zo con lettera contra fatta che non se per tua non faci?
+2:9r:19	o de ta le lettere alcuna men cion in le altre tre lettere perche in
+2:9r:20	ogni evento pot essi nega re di sap e r ne cos a? alcuna mand at
+2:9r:21	o de qui avanti tutte le lettere che mi scribe ra i adriz a te in mia?
+2:9r:22	absentia? a messer ba r to lo me man no {m150} li lass? a ro ordine?
+2:9r:23	in mia che di a al secretario quelle che saranno adriz a te al detto Hiero
+2:9r:24	ra n zo de {z18} che io niuno have ro da lass? a re copia
+2:9r:25	di zifra et? consider a che le tal e lettere have ra no da
+2:9r:26	esser vi s te da imperatore? et? da tutti questi signori di consiglio? con? li
+2:9r:27	quali ti ho po sto in bona opinion et? pero s forza
+2:9r:28	ti tanto piu a far le ben o r na te e? con? prudentia? accio?
+2:9r:29	piu pres? to si augmenti? che si ha? a s mi nu i re
+2:9r:30	la bona opinion di te in pres? sa et? non mi pare? che
+2:9r:31	sia inconvenient e a scribe re tu in zifra sotto el pre detto modo
+2:9r:32	perche sempre? have ra i form? de da re o far dar e le lettere che mand
+2:9r:33	era i per mare? ad alcun amico? securo? che le porti? cert a mente de modo
+2:9v:1	che non te ha? non da esser to l te in preda? et? per assicur? a r li
+2:9v:2	piu fa ra i ne alcuna altre fogli? a che mand par? i {p383} a
+2:9v:3	sotto lettere de alcuno? et? le {s153} adriz era i in Barcellona? a {b25} {t66}
+2:9v:4	o in Valentia? a be r na be g ri mal do o in carta ge
+2:9v:5	ni a a ni co lo de Fornari? et compagnia con? ordine? che le
+2:9v:6	mand i no subito? a me e? et? mia absentia? al detto ba r
+2:9v:7	to lo me ma n no et? alcuna volta se dubitar? a i che le
+2:9v:8	lettere in zifra debbiano? esser vi s te et? non lass? a te pa sa re
+2:9v:9	maxime? quelle che mand era i per terra ti potr a i vale re
+2:9v:10	de uno altro novo zifra che ti mand? con detto ca ta ne o con lo
+2:9v:11	qual pot ra i scribe re breve? mente in picciol? o et? per meglio ordina r
+2:9v:12	ogni cos a po tra i comunic a re con? Iacomo? cos i la pratica di
+2:9v:13	zifra como li avis i che have ra i a da re per giornata perche faci? o
+2:9v:14	a questo modo piu presto et? meglio te ad e s tre ra i in tutto
+2:9v:15	maggior inconvenient e incontr o io in quello che a te scribe se
+2:9v:16	in zifra perche le lettere a te script e poss a no piu facil? mente
+2:9v:17	cader? e in preda? a mano de governa n ti che quelle che tu
+2:9v:18	scribe ra i sotto il modo ante detto et? pero io non ti scribe
+2:9v:19	ro in zifra senza grande necessita et? modo cert o et alcuna volta mi
+2:9v:20	vale ro di la c te et? quando lo fa ro te ne a co
+2:9v:21	r ge ra i nel princip io de le lettere qual comince? ra no fi
+2:9v:22	li dilect? i si me si como so gli o fa re a man ti
+2:9v:23	si me fi li et? mi vale ro su n la via? de Lione? di
+2:9v:24	mezzo? de po lo {s316} a to con? pa g no advert? i ra
+2:9v:25	i etiam? a tene re sempre? li zifra et? le lettere mie? in zifra script e
+2:9v:26	et le co pe e de quelle che tu etiam? in zifra scribe tanto cert
+2:9v:27	a mente a s co se che quando le tre script? e fusse no cerca
+2:9v:28	te non sia? mai? esse trova te et? con li detti modi tu poss i
+2:9v:29	con? bona audac? ia et? fermezza? nega re il tutto /.
+[62]	
+2:9v:30	ho intes o quanto hai script o havere passa to te co {n84} sopra el fatto de
+2:9v:31	la venuta? et? perche per me non fa al present e esser in tro mi so
+2:9v:32	in questo ne altro da la corte dove n do occupa? r mi in servitio
+2:9v:33	di imperatore? et? satisfa ce n do mi piu exercitar me in officii per pe tu
+2:10r:1	i e? utili con? li quali poss ia sustenta? re la vita mia honest a et? exalt
+2:10r:2	a re casa nostra? che in cos e mo menta ne e et? per consequent? e
+2:10r:3	in grato di che oltre el t l ga r pro? ver? bi o ne
+2:10r:4	sono? gia como sa i ben s ca r menta to pero se intende
+2:10r:5	si che me ne vole se no da re alcuna cura dir a i
+2:10r:6	che sa i de certo che non mi trova ra no piu qua et? che
+2:10r:7	debb? o senza dubio esser partito per re patria re accio? con? {h65} ne po sia
+2:10r:8	esser excusat? o et avis a ra i me di seguito? /.
+2:10r:9	di officio de {g61} di sta to de {m210} non e da far se piu
+2:10r:10	cas? o perche non e dubio che poi la morte de Bo r bon ha conosc
+2:10r:11	i u to soa Maesta conveni re che in ogni evento restitui a in quello stat o
+2:10r:12	el {d289} et? a niuno modo pot e r lo {r232} e per se
+2:10r:13	vole n do quieta? re Italia como desider a et? si s forza a
+2:10r:14	fa re de modo che e resolu to in questo ne altro po far
+2:10r:15	e per il che e? perche dura n te le guerre non si po exercitar
+2:10r:16	e esso officio qual non si po {c27} a re sta bi le io son?
+2:10r:17	consigli a to et? persuas? o da {c146} et? da altri intim i amici? che non
+2:10r:18	fa ci? per me perde? r mi dietro? a speranz? e van? e et? che
+2:10r:19	piu presto procura? alcun altro officio honest o et? utile? per tutta vita mia
+2:10r:20	perche have n do gia cos a sta bi le per il manteniment? o mio et?
+2:10r:21	de casa mia mi procura? ra soa signoria? sempre? a la giornata altri exercitii? e? c u
+2:10r:22	re ex tra ordina rie tal e che con? esse po sia exalt armi? pero essendo?
+2:10r:23	mi resolut? o in questo procura? soa signoria? de far mi proved e re de una
+2:10r:24	president? ia in la ca me ra de la su maria? de Napoli che ha va ca
+2:10r:25	to e? di officio che have va il {q81} Sor? et? ri se g no
+2:10r:26	in detto loco essendo? a m bi officii molto princip a li honest i et?
+2:10r:27	utili ad vita m et? se non lo preiudich? a una {d183} di esser stat
+2:10r:28	o {d266} e quello per chi e va ca ta detta president? i a spero have
+2:10r:29	r la perche il favor? che mi fa il detto gran cancelliero? con? fi do
+2:10r:30	che supera? ra li molti? compet? i to ri che al detto officio de
+2:10r:31	president? ia sono? abenche? li sia chi per esso solo? offre? quatro? milia ducati
+2:10r:32	attent? a la bona volunta che soa Maesta mi di mostra et? la deliberatione?
+2:10r:33	de vole r si serv? e di me in cos e importante? di che si
+2:10r:34	vede ra presto la resolution? {v27} ne {g73} {a63} o to ma so de
+2:10v:1	Fornari? qual e partito per Italia {i221} {i318} a {p270} re su ma de denari
+2:10v:2	per pagament? o de camb i che lui? et? {s327} ha? fatto da paga re
+2:10v:3	al {e145} ha fatto grande opera con mezzo? di detto {i318} per esser proved
+2:10v:4	u to di officio de re ce p to re nel detto {e145} et?
+2:10v:5	non vole va altre mente far el camb o et? {c321} perche {s213}
+2:10v:6	se in quella necessita como ha fatto con danno et? risico su o grande
+2:10v:7	lo ha? {r140} o a li {m188} con? lettere de re co men da
+2:10v:8	cion t l ga re de soa Maesta chi che e uno {p256} de {a89} et?
+2:10v:9	lui? si e pa s ci? u to de questo {f196} et? fa cio mal
+2:10v:10	{i306} de {f16} suoi ma il tutto rest i se pu l to in te
+2:10v:11	et? tua madre? et? di me sempre? dir a i che ho da re patria
+2:10v:12	re non lass? at o de procura? re il salvo? con? du c to {r61}
+2:10v:13	o per ogni bon {r193} con? dar me ne aviso /.
+[114]	
+2:10v:14	mand? ti una altre ad i cion di zifra present e con qual la {r70} era i
+2:10v:15	et aggiung? era i in esso ordinat a mente quello che li manca ra et? dapoi la
+2:10v:16	mand era i a {h51} et? da ra i me ne aviso /.
+[118]	
+2:10v:17	nel resto affirm? o quanto per l'altra ho script o vale ex ma d i d
+2:10v:18	a di de marzo mille cinquecento venti otto {m66}
+2:10v:19	
+[122]	
+[123]	Vo Hiero Ranzo
+
+
+=== MESSAGE 3 ===
+
+[0]	Lettre non signée escripte au seigneur Garbino du xi. d’Auril.
+[1]	Cette Lettre est partie en chiffre, partie non ./.
+[2]	
+3:44r:1	Reverende tanquam frater. dapoi de hauervi scripto per piu Lettere adrizate
+3:44r:2	a Genova? per mano de Hieronimo? ho receputo le vostre de 23. de no-
+3:44r:3	uembre 3. 28. de decembre & iiij de febraio grat.me, alequale
+3:44r:4	non ho fatto pa particular risposta et? ho {s386} o con? quello
+3:44r:5	che ho script o de continu o a Hieronimo? al qual ho ordina
+3:44r:6	to che sempre? vi man di cert a mente copia di {t64} che
+3:44r:7	trov at o mi senza alcun aiut o et non ostante? de occupationi?
+3:44r:8	che qua se mi danno continu a mente ho {s386} to ad a
+3:44r:9	m bi con uno scribe re et? mo non ho pero vo lu
+3:44r:10	to manca re de far vi la present e piu particular? risposta a
+3:44r:11	tutte dette vostre senza pero replica? re le {a64} {d27} de le occurrentie
+3:44r:12	de qua poi che per mezzo? di detti Hiero have re te intes
+3:44r:13	o ogni cos a el qual ancora mi aviso have r vi man
+3:44r:14	dato copia di zifra nostro di qual vi pot re te
+3:44r:15	vale re /.
+[18]	
+3:44r:16	Ho continuamente persuaso al Sor gran Cancelliero la vostra
+3:44r:17	venuta qua, con farli intender el desiderio vostro,
+3:44r:18	& il Conto che di esso et de tutte le altre parte vostre
+3:44r:19	deue tener, ma licet conosca il tutto et li corresponda
+3:44r:20	anche nonmeno la mente soa si troua fin a qui anchora
+3:44r:21	tanto streto, che non solum non po extendersi a quello
+3:44r:22	che vorria et bisognaria, anzi gli e conuenuto acur-
+3:44r:23	zar la spesa, intanto che soa Maesta non li prouede
+3:44r:24	secondo che soe authorita, qualita, & meriti
+3:44r:25	de tanta seruita, & le promesse de soa Maesta
+3:44v:1	rechiedano il che pur spera non debia molto diferir se li,
+3:44v:2	& perho mi(?) ha concluso poi de molte platiche despiacerli
+3:44v:3	assai non poterui al presente recoglier & intratener,
+3:44v:4	& mancho collocarui de altro modo como saria
+3:44v:5	ragione, ma che hauendo alcuna comodita
+3:44v:6	de poterlo fare, sarete subito da lui rechiesto,
+3:44v:7	hauendovi in special memoria & opinione, &
+3:44v:8	per tanto io non saperia consigliarui la venuta
+3:44v:9	vostra qua, dubitando que stantibus rebus a
+3:44v:10	questo modo, non douesti trouar quello che
+3:44v:11	vi persuadessi, & fusse il bisogno vostro, ne
+3:44v:12	si ha hauuto modo a poter introdure la andata
+3:44v:13	vostra in campo soto el modo, & con lo agiuto recor-
+3:44v:14	dati, che vi prometo lo ho procurato non poco, ma
+3:44v:15	le cose qua procedeno tanto distantemente
+3:44v:16	da quello que la si fabrica, licet in facto, como
+3:44v:17	alcun giorno piu amplamente vi faro intendere,
+3:44v:18	che non si po far alcun fundamento sopra
+3:44v:19	proprij concepti, con tuto questo non mancaro
+3:44v:20	mai de procurare per voi, si como faria per me stesso
+3:44v:21	et? se have ro da venir in Italia con {q24} bon {c98} como spero
+3:44v:22	{d46} pres? to segui re {p50} a re te ad ogni voglia? vostre in
+3:44v:23	ogni mia fortuna? si como sempre? vi ho detto di che piace n
+3:44v:24	do a Dio spero esser ad ogni modo resolu to and?
+3:44v:25	at o in Valentia? per dove soa Maesta part? a a li venti di
+3:44v:26	present e & del sequente sarete auisato ./.
+[55]	
+3:45r:1	Ho dato sempre le vostre lettere al predetto S. Gran Cancelliero, & communicatoli
+3:45r:2	de continuo quanto mi hauete etiam scripto, e tuto
+3:45r:3	li è stato grato, et? vi inform? a il continu a re
+3:45r:4	poiche? have te copia? di detto zifra, lui e al presente ferito de
+3:45r:5	la solita podagra soa, voglia dio che sia guarito
+3:45r:6	auanti la partenza de soa Maesta ./.
+[62]	
+3:45r:7	{q118} a {L57} le {p58} che ha ve te deput? a to di
+3:45r:8	signor duca li e etiam? sta to molto grato intende re vostri? avis i
+3:45r:9	poi {d227} i et? desider a grande mente soa signoria? che soa excellentia? secur? conservat? i
+3:45r:10	in bona gratia de soa Maesta si como la e al present e in
+3:45r:11	modo che soa Maesta ha? a certific a r si car lo {a191}
+3:45r:12	su o inten? to a soa sol i ta devotion? et? servitio de soa Maesta et?
+3:45r:13	che le contra rie {o129} sue {f18} non sia? volunta rie salvo? {v157} e
+3:45r:14	perche non dubit a quella esser la {v81} et? {v197} via? a con? {d300}
+3:45r:15	lo a {p271} di che soa excellentia? ne have ra po su to conosc e re
+3:45r:16	bon {s167} quando soa Maesta {d135} e a li ambasciadori? de la lega? a la
+3:45r:17	totale? poi summa? restaur atio? ne de soa excellentia? faci? o ancora conosc e r li
+3:45r:18	non esser questo novo in soa mente secondo che etiam? ho {a63} o soa excellentia? per
+3:45r:19	de Hiero de ordine? di cavalier bi li a su o amico el qual {L87}
+3:45r:20	par? a {d161} o in compagnia de li altri ambasciadori? n ti e {g7} malicio?
+3:45r:21	il signor gran cancelliero? li e in vero? bon amico? et sforzo? ne io di
+3:45r:22	esse r lo tanto studios? o in quello che so et? poss o como se
+3:45r:23	tutta mia vita have se man gia to el pane de soa excellentia? si como ne
+3:45r:24	po tra e bon {t64} el propri o orator su o tutto
+3:45r:25	questo res te in voi se non have ti modo de far lo intende
+3:45r:26	re cert i si ma mente a soa excellentia? solo? ./.
+[83]	
+3:45r:27	Per il Sor Prior de Barleta ho procurato & procuro quanto posso
+3:45r:28	como ne potra esser certificato da li soi agenti qua
+3:45r:29	essendo li seruitor di Cor: havete credo(?) receputo
+3:45v:1	le lettere de soa Maesta per soi ministri che vi ho mandato
+3:45v:2	sopra il bisogno del dicto Sor Prior, et se in
+3:45v:3	altra cosa me vorra adoperare me trouera
+3:45v:4	semper promptissimo ad ogni suo seruicio, et
+3:45v:5	cosi li potrete far intendere, che dubitando
+3:45v:6	del recapito de le lettere non li scriuo in resposta
+3:45v:7	de una soa, et in soa bona gratia mi racomandarete ./.
+[94]	
+3:45v:8	soa Maesta ha proved u to in Italia de quasi? seicento? milia ducati et paga
+3:45v:9	ra altri sette? cento? che {a201} ha pigli a to {n121} mente in {m210}
+3:45v:10	da mess? aspett? a {s68} quello sia segui to de li exerciti? nel regno
+3:45v:11	et? {p138} che ha? no fatto giornata et? ne {s321} a bene attento? li
+3:45v:12	avis i i da Genova? In la fabrica et armamento
+3:45v:13	de le 50 Galer si procede con dilligencia, et soa
+3:45v:14	Maesta ha gia racolto in questo regno de Castillia
+3:45v:15	un millione de ducati, et altri 500 millia
+3:45v:16	ne cauara de la Corto de li tre Regni de Aragon
+3:45v:17	che va a tenere, et da le Indie ne aspeta
+3:45v:18	etiam bona summa. ./ li e stat o propo sto
+3:45v:19	et? recor? dato de vale r si di oro et? a r ge
+3:45v:20	n ti superflu? i de le giesie? per {a138} {a196} in presto di
+3:45v:21	ce n do esser cos a a niuno preiudici? al e et che ne
+3:45v:22	cave? ria di subito? una infinit? a de denari essendo? ri chi si
+3:45v:23	me ma non lo ha ancor? vo lu to fa re reserv? at o
+3:45v:24	questo tal {s378} o a maggior necessita pur se la guerra persever? a ra
+3:45v:25	cred o me te ra mano ad ogni cos a perche e {d81} o {g103}
+3:45v:26	ca r li di resto ma in {v24} e {p138} re de mette li in {c50}
+3:46r:1	el record? o di consiglio? {c164} in Italia non obstante quante? ragion se li poss ano
+3:46r:2	allegar? e et? quante? se po sia? imagina? a re che non ne {o208} no sent?
+3:46r:3	i r parla re et? pero bisogna? lass? si r quella consider a cion da
+3:46r:4	can to la piu pericolos? a cos a che {r102} in {c321}
+3:46r:5	e la in resolution? che mai? o tanto {t22} si resolu en no in tutte
+3:46r:6	che ogni effecto loro e le piu volte {f154} di tempo che se
+3:46r:7	Dio non li have se aiut a ti questi? ministr? i sta riano f res
+3:46r:8	chi ne {f291} qui se sono? ancor? resolu ti de li provision? che ha?
+3:46r:9	da mand a re in Italia si pigli la restitution? de Roma? como
+3:46r:10	per il governo? di regno de Napoli alcuna volta si e parla to di gran cancelliero?
+3:46r:11	et alcuna de {d306} et? alcuna di {a257} de to le do poi
+3:46r:12	de altri secund? et? mo de niuno se parla piu aspett? at o intende
+3:46r:13	re prim a alcun {s358} o de detti exerciti? si che vede te como se
+3:46r:14	governa no qua le cos e et? se cos i facil? mente se resolu
+3:46r:15	{e68} in simil materia como quella di sopra detto consiglio? et? non vede n
+3:46r:16	do che alcun? ba s ti a remedi? a re tal i inconvenient
+3:46r:17	i resto tal menti {a303} che ogni {c21} {p156} ho vi vo lu
+3:46r:18	to far questa {b215} perche conosc en do quanto differe? no questi giudici? da
+3:46r:19	le consider a cion vostre non vi {h36} te piu a {f219} re? in
+3:46r:20	li sol i ti dis si g ni salvo? {g207} r li de qui
+3:46r:21	avanti secund? u m su et? i e c ta m materia m ben vi
+3:46r:22	prego che poi mi allarg o con? voi con fi dente menti de
+3:46r:23	simil e cos e tenet? i il tutto in voi che gia vede te quanto
+3:46r:24	import a po ne re? o s in ce lu m & per giornata
+3:46r:25	vi raguaglerò etiam de quanto piu oltra sucedera
+3:46v:1	qua si conosc e o p ti ma mente quanto con vien a soa Maesta la amicitia?
+3:46v:2	con? Venetiani et? ne ha? qua molto te n ta to in secreto lo orator
+3:46v:3	su o ma lui? non ha vo lu to prest? ar? o re chi
+3:46v:4	e di c en do non pot e r lo fa re senza ordine? de
+3:46v:5	la Signoria? et? pero ha? dato commission? chiar? a a suoi ministri? in
+3:46v:6	Italia? che la procura? no per quante? vie potr ano etiam? con? mand
+3:46v:7	ar? persona accord? a ta a recor? da n do li il {c92}
+3:46v:8	ma mi dubi to che li dis fi di poi segui ti non?
+3:46v:9	preiudich? i no quella inclina? cion voglia? Dio che ne rie s ca
+3:46v:10	alcun frutto? et? {g138} detti Venetiani si vole se no accord? a re a
+3:46v:11	la pratica ho per certo che have riano da soa Maesta tutte le honeste
+3:46v:12	conditioni che sap e si no demand? a re? et? senza alcun dubio
+3:46v:13	de in observantia? perche oltre che soa Maesta e observa to re di fede conosc
+3:46v:14	e perfett a mente gia conveni r li piu la dis avantaggi? o sa
+3:46v:15	pace con? loro che qui si voglia? utile? {d226} di a lo amico
+3:46v:16	{s44} che s de ve gia esser venut? o da Venetia? accio? el na qua
+3:46v:17	gie? e ro poss ia etiam? lev? a r se di qua ./.
+[156]	
+3:46v:18	Qua restava la Imperatrice con il Consiglio de Castilla,
+3:46v:19	perche la e gia nel setimo mese de la soa graui-
+3:46v:20	danza, el Principe primo genito sara jurato qua
+3:46v:21	la prima septimana da tutti questi regni,
+3:46v:22	& heredo et legitimo successor di essa,
+3:46v:23	altro non mi acade che dire al presente, a voi de core
+3:46v:24	mi offero, (?) de Madrid xj de aprili 1528.
+3:46v:25	Vro.
+[165]	
+3:47r:1	Post datum non e poi innouato altro, hogi
+3:47r:2	hano jurato el prencipe, & lo Imperatore partira
+3:47r:3	per Valencia a li xxij datum, ut supra die 19.
+
+
+=== MESSAGE 4 ===
+
+4:79r:1	ha ra i vi sto per le {a203} e adriz a te si a te
+4:79r:2	como al ga r bi no quanto circa le occurrentie ho script o
+4:79r:3	il che basta {a103} e et? quanto sopra la mia venut? a
+4:79r:4	qua da Burgo s et? cesarea? maesta? per l'altra ho detto
+4:79r:5	el cavalier bi li a amico di signor duca no
+4:79r:6	fi da n do se con? ragion de altri che di me per
+4:79r:7	pote? raguagli? a re cert a mente soa excellentia? de le cos e in
+4:79r:8	{f158} script e quando da Burgo s se parti? te per andar a
+4:79r:9	po za? a sta re con? li altri ambasciadori? lega? n ti mi ha
+4:79r:10	inform? a to de questo effecto e? io con? fi de n do
+4:79r:11	mi de la {s159} et? copia? di mezzo? tu o et? nel zifra nostro
+4:79r:12	ho accept? a to tal cura con? el desideri? o che in
+4:79r:13	me sa i de mostra re con? effecti? la servit? u et? devotion?
+4:79r:14	mi verso soa excellentia? per tanto sotto quella piu cert a e? {m120}
+4:79r:15	form? che al mo n do sia possibil e te in ge
+4:79r:16	g ne ra i de far li intende re quanto di novo ti ho
+4:79r:17	script o dapoi li dis fi da menti de la guerra mand a
+4:79r:18	n do li ancora una copia de detti dis fi da menti
+4:79r:19	sta m pa ti et? riman? do li como el propri o amico
+4:79r:20	malicio? sa mente e stat o mi ha detto che certific hi soa excellentia?
+4:79r:21	che malicio? sa mente e stat o mand? o a po za? per leva?
+4:79r:22	re ogni {s370} a detti ambasciadori? li ga n ti de la intention?
+4:79r:23	de soa Maesta qual senza dubio e de restitui re il sta to a
+4:79r:24	soa excellentia? in breve? et? che per effectu a cion di questo soa Maesta ha
+4:79r:25	proved u to che ad ogni modo si procura? accordo con Venetiani et?
+4:79r:26	li altri {p288} a ti per il qual ha deliber a to far
+4:79r:27	e ogni {e196} et? de piu che advert? a soa excellentia? de che
+4:79r:28	{d46} {i235} e bona mente in demand? a re el {c265} to de
+4:79r:29	{a293} perche li {s72} {c294} o {s33} con? {q24} {c275} cion a li
+4:79v:1	{h44} de l {v124} et? che {e161} soa excellentia? a {c304} e r se
+4:79v:2	in modo che non {c179} a {c120} de alcuna {a146} a la
+4:79v:3	mente de soa Maesta esso amico fa conto de venir se ne per
+4:79v:4	terra con? detti altri ambasciadori? {L90} n ti et? pero tanto piu
+4:79v:5	li con? vien {d212} a re con? detti ambasciadori? el gran cancelliero?
+4:79v:6	ha fatto e? fa continu a mente tutti li {b116} officii che
+4:79v:7	l po {i00} servitio de soa excellentia? a la qual {o98} a i da parte
+4:79v:8	mia {g49} medemo? mezzo? et? mia servit? u {d271} sia per quanto
+4:79v:9	va gli o poi poss o et? vole n do serv? se
+4:79v:10	ne te potr a soa excellentia? mand a re alcun zifra per quello che
+4:79v:11	accad era lei? scribe r a te et? tu a lei? et?
+4:79v:12	potr a i con solit o nostro {r91} me lo accio? cert a
+4:79v:13	menti si poss ia {p350} e re in tutto et {e100} re ogni
+4:79v:14	inconvenient e ma advert? i per quanto ti e cara la vita et?
+4:79v:15	me che l tutto rest i talmente in te se pu l to
+4:79v:16	che mai? da persona vive? n te ne sia sent? i ta alcuna
+4:79v:17	sent? i la {t14} n do etiam? quella materia a {h51} et {b144}
+4:79v:18	n do sempre? ogni lettera che sopra questo accad era scribe re subito?
+4:79v:19	poi de {L52} a et? di seguito? me avis era i fa ra
+4:79v:20	i etiam? tra le altre cos e intende re a soa excellentia? quello che ti
+4:79v:21	s ri si de la offerta? che soa Maesta fe ce a li
+4:79v:22	ambasciadori? lega? n ti de restitui re soa excellentia? di subito? nel stat o
+4:79v:23	con? totale? remission? de ogni imput? a tione ma non ba sto offerta?
+4:79v:24	alcuna a satisfa r li ne {r134} r li da loro intention? la
+4:79v:25	qual non {i247} o ne cred o secondo li {a188} che ho vi
+4:79v:26	sto quella de Franza? esser re c ta verso soa excellentia? {a205} {t72} e
+4:79v:27	re sol a menti a {p334} i di se g ni molto differe?
+4:79v:28	n ti da quello che {d89} a no et pero tanto piu ha
+4:79v:29	soa excellentia? da sta re sopra lo aviso per a ta ca r se
+4:80r:1	a la parte piu secur? a poi {s84} o ria al {p312} si
+4:80r:2	to su o qual incontr o con {g88} a quello de Venetiani chi
+4:80r:3	{r20} mente se {d276} ia no {a53} a re ad accordo con? lo imperatore?
+4:80r:4	attent? a detta restaur a cion de soa excellentia? et altre honeste conditioni che
+4:80r:5	li saranno offerta? perche in effecto conosc en do soa Maesta como per
+4:80r:6	{L122} a {e183} conosc e quanto per lei? fa {i251} tene r si
+4:80r:7	in ogni tempo et? fortuna? con? Italia per {a166} et? non con? {v156}
+4:80r:8	non e da dubit a re chi mai? piu de se g ni
+4:80r:9	cos a che a Italia dis piac a poi che sol a
+4:80r:10	mente {a307} era a {s388} a re {q46} con? li quali ha la {c233}
+4:80r:11	ia et? de quanto {s357} era avis a ro etiam? di continu o
+4:80r:12	/.
+[70]	
+4:80r:13	de {f155} son? a la morte di {r42} che se cos i
+4:80r:14	fusse se potr ia pur tene re per opera divin? a non vede
+4:80r:15	n do al present e altro mezzo? a {p13} re la {x12} ta
+4:80r:16	Dio elegga? di tutto il meglio /.
+[75]	
+4:80r:17	in Biscaglia? poi la intim a tione de la guerra se sono? armate?
+4:80r:18	divers? e za? b? re le qual ha? pre so gia nel canal? e
+4:80r:19	de Bo r de o s quaranta? sei vascelli? de Franza? carc? hi de
+4:80r:20	gran? i altre vittualie? et? mess? e in bona vardia? la gente? de li
+4:80r:21	quali destin? a no al arma? mento? de le galere? et? si arma? no
+4:80r:22	di novo infinit? i vascelli? a danneggi? a re /.
+[82]	
+4:80r:23	vede ra i quanto per l'altra ti ho script o sopra el negotio? de do
+4:80r:24	na g hi o ma r de u {M9} e a et? perche mi dubi
+4:80r:25	to forte? de le solit e astutie? de messer Iacomo? chi per sta
+4:80r:26	re in {g123} a de li denari che ha in se non obstante che
+4:80r:27	sia obliga? to a {v233} {f184} va a r li sopra camb i
+4:80r:28	a su o et? mio utile? per mezo? no vede ra vo lu
+4:80v:1	n {t78} ri la resolution? de questo negotio? have n do tra lui? et?
+4:80v:2	me intelligent? ia de parti? r se per mezo? etiam? quello che si
+4:80v:3	pot ra adoper? a re nel accordo che ho da pigli a r ne
+4:80v:4	con? detta dona? a g vi o ma r qual spero non potr
+4:80v:5	ia esser meno de seicento? ducati o forse? piu per tanto se tu
+4:80v:6	conosc era i che l detto messer Iacomo? {v23} tra m pe at
+4:80v:7	o in questo sollicit? era i tu la effectu a tione de la {c277}
+4:80v:8	ia de dette de dette lettere cos i a la corte como al consol?
+4:80v:9	o {d208} e di ce n do al detto messer Iacomo? che io
+4:80v:10	sono? talmente stimul? a to qua de la resolution? che ti ho ordina
+4:80v:11	to {e173} a {m156} che quando non si pot esse {e172} e il
+4:80v:12	negotio? secondo soa Maesta lo scribe et? non si poss i havere altre
+4:80v:13	fede de la {r69} a cion o {d195} tu fa ci? et? mand
+4:80v:14	i quella medem? a fede como uno? de consol? i che tu sei?
+4:80v:15	e? cos i in tal caso fa ra i accio? l detto messer Iacomo?
+4:80v:16	perder? ogni speranz? a {d28} pote? piu imped? e re quella resolution? la
+4:80v:17	qual lui? a posta? ha in t ri ca to et? di
+4:80v:18	seguito? mi dar a i aviso per piu modi /.
+[107]	
+4:80v:19	al ga r bi no scribe ra i raguagli? at o lo {d16} ogni cos
+4:80v:20	a et? notific at o li che a li {d53} di passa to ho
+4:80v:21	re ce pu to la soa du p li ca ta de venti
+4:80v:22	otto de {d56} et? che ho comunic a to suoi avis i dove
+4:80v:23	et? como con {v68} va {p357} at o lo voglia? continu a re
+4:80v:24	senza in t e r mi si o ne el solit o officio poi
+4:80v:25	che con prim o li respond? e ro al tutto {r145} en do
+4:80v:26	mi certo che li have ra i mandat o copia di zifra? perche poss
+4:80v:27	a scribe re cert a mente il tutto /.
+[117]	
+4:80v:28	have ra i re ce pu to {c150} a di cion a
+4:80v:29	questo {v178} zifra che ti ho mandat o {z81} p li ca te le
+4:81r:1	qual ha ra i {n111} to como con vie ne il simil e fa
+4:81r:2	ra i de le al lega? te et? avis a me de la
+4:81r:3	re ce pu ta de tutte perche me ne poss a vale
+4:81r:4	re nel resto me remett o a quanto per l'altra ho
+4:81r:5	script o de ma d ri d dieci? de marzo
+4:81r:6	mille cinquecento venti otto {m66}
+[126]	
+[127]	Vo Hiero Ranzo
+
+
+=== MESSAGE 5 ===
+
+5:67:1	vede ra i per al qua ti ho script
+5:67:2	o circa cesarea? maesta? et? aviso te de piu che vede n
+5:67:3	do el gran cancelliero? non po te r andar da imperatore? avanti
+5:67:4	la partenza? soa de qua mand? a dire a soa Maesta per il
+5:67:5	secretario quanto era a proposit o non differir? piu la expedition? mia
+5:67:6	maxime? se {d80} {a326} mand armi? a Roma? a la cura deput?
+5:67:7	a ta et? molte? cos e per dispon e r la al effecto
+5:67:8	et? lei? respos? e che si po te va resolu e re
+5:67:9	quella expedition? senza reved? e r si prim a de present ia con?
+5:67:10	lui? et? che poi dove va ad ogni modo andar ad imbarca?
+5:67:11	r me in Valentia? che senza fallo? mi expedir? ia esso loco
+5:67:12	et? che cos i me ne certific a se il che
+5:67:13	attento? e par? so a soa signoria? lo pigli in bene non dubit
+5:67:14	at o di effecto che quando altro fusse {a205} me {L89}
+5:67:15	ria che {p349} re piu in {s374} et? sap era
+5:67:16	i ne el seguito? /.
+[16]	
+5:67:17	quanto al fatto de la venuta? ha ra i vi sto
+5:67:18	quello che ti ho script o et? lo have raguagli? i comunic
+5:67:19	a to con? {f190} et? {s266} {a121} ge n do li
+5:67:20	che poi ho modo ma r te la to sopra el
+5:67:21	negotio? o non trova r form? a pote? far di ge s
+5:67:22	ti re a soa Maesta il nome de messer {a189} par? en do
+5:67:23	li che oltre non potendo? si mai? fi dar de lui?
+5:67:24	ha? talmente s {p302} a to soa Maesta et? le cos e sue
+5:68:1	in tutti suoi a c ti che non saria? {h69} su(?) o
+5:68:2	accett? a r lo in cos a alcuna et? par? teng? hi
+5:68:3	piu conto de questo che de qui si voglia? {d123} che li
+5:68:4	{h36} fatto como sforzo? di {i206} o ne li quali pero non li
+5:68:5	pare? li fusse licit? o usa re termin i disconven
+5:68:6	i en ti ad uno par? su o verso uno tal
+5:68:7	princip e poi non e dubio che {L44} {s256} e information?
+5:68:8	ha? modo piu scald? a to la mente soa de {q41}
+5:68:9	che la ragion import a conclud? en do che no
+5:68:10	dubi to si con? dur ria soa Maesta ad ogni
+5:68:11	a c en so et? co respond? cia a {n108}
+5:68:12	de si g ni {v231} at con? lei? li termin i record?
+5:68:13	a ti a me dis piace grande menti vede soa Maesta cos
+5:68:14	i {p312} sa in la {m36} {i87} di detto messer {a189}
+5:68:15	poi Dio sa quello expedition? mi son? in du s t
+5:68:16	ria to a remedi? a r questo inconvenient e
+5:68:17	ne manca ro in questo et? nel resto di continu
+5:68:18	a re ogni possibil opera che conosc e ro pote? re
+5:68:19	a dispon e re le cos e al proposit o
+5:68:20	di desider a to fine? di qual Dio ne conced?
+5:68:21	a gratia /.
+[46]	
+5:68:22	dapoi che have ra i de zifrato? quella lettera metti la tutta in
+5:68:23	acqua et lass? a la a mo gli o tanto che la
+5:68:24	sia ben mo g li a ta poi vede ra i nel
+5:69:1	bianco di esse lettere {b87} script e(?) asco? sa mente con? acqua
+5:69:2	al u mi nat? a lege n do le al in de la
+5:69:3	{L134} o sopra panno? nero? dove meglio co respond? era che
+5:69:4	si lege ra no molto bene tanto quanto dura ra la carta
+5:69:5	bagn a ta perche come? se? va si can do? cos i
+5:69:6	se va perde? n do la apparent? ia di ognun? o et? resto
+5:69:7	como prim a et? tante volte quante? si torne ra a mo g
+5:69:8	li a re tante volte si pot ra re lege re
+5:69:9	pero per assicur? a r si de no s tra cia r
+5:69:10	la si de ve a copia re la prim a volta che si
+5:69:11	lege la detta acqua a lume na ta far a
+5:69:12	i in questo modo cio e pigli a a lume sufficient? e
+5:69:13	di piu bianco che poss i havere et? pe sta lo bene
+5:69:14	dapoi metti lo in acqua che? sufficient? e bast e a la quantita
+5:69:15	di a lume et? poiche? sia repos? a ta la qua con?
+5:69:16	lo a lume per tre hore o piu potr a i ne
+5:69:17	scribe re et?(?) per assicur? a r si se fa bon effecto
+5:69:18	prim a che se scribi? lo importante? fa ra i ne prova? in
+5:69:19	{e85} {b85} lass? at o ben si care? el(?) script o et? dapoi
+5:69:20	mette lo in acqua como di sopra usa
+5:69:21	ra i questo modo de scribe re in secreto quando incontr a ra
+5:69:22	i risico di esser le lettere intercepte? perche e cert o et?
+5:69:23	bono? et? advert? i si che la pen na lass? i ben
+5:69:24	pien? o et certo et? perche si conosc ano le lettere in
+5:70:1	le qual have ra tal script? a sia? co {t71} {s223} te con? firm?
+5:70:2	a la mercante? s ca che il medemo? fa ro io sigill? at
+5:70:3	o tutte le altre con carta al modo nostro sol i to et?
+5:70:4	respond? era i me havere re ce {z773} to la lettera de cred
+5:70:5	i to re tene n do questo secreto in te solo? /.
+[79]	
+5:70:6	va script a la lettera a lume na ta nel fo gli o
+5:70:7	bianco de la copert(?) a de la present e perche non li preiudich?
+5:70:8	i el zifrato? /. De Madrid xv de Aprile 1528 /.
+5:70:9	Vo Hiero Ranzo
+
