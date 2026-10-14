@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DECODE R4282: a Latin diplomatic letter — Key recovered from ciphertext-only</title>
+<meta name="description" content="George Lasry's CTTS solution of a two-page Latin diplomatic cipher in Riksarkivet, Stockholm, Chifferklaver låda II 113 (DECODE R4282). Full Latin and English, with 800 of 805 non-null cipher tokens mapped, three unidentified word signs and five marked contextual restorations. The catalogue supplies only the broad date range 1600–1699; the correspondents remain unidentified.">
+<link rel="stylesheet" href="style.css?v=20261014c">
+<style>
+.decode4282-reading{table-layout:fixed}
+.decode4282-reading th,.decode4282-reading td{width:50%;vertical-align:top;overflow-wrap:anywhere}
+.decode4282-reading .line-ref{display:block;font-size:.76rem;color:var(--muted);margin-bottom:.4rem}
+.decode4282-reading p{margin:0}
+.decode4282-reading td[lang="la"]{font-family:var(--period);font-size:1.06rem;line-height:1.65}
+@media(max-width:650px){.decode4282-reading,.decode4282-reading tbody,.decode4282-reading tr,.decode4282-reading td{display:block;width:100%;box-sizing:border-box}.decode4282-reading thead{display:none}.decode4282-reading td::before{content:attr(data-label);display:block;font:600 .75rem var(--mono);color:var(--muted);margin-bottom:.5rem}.decode4282-reading tr{border-bottom:1px solid var(--rule)}}
+</style>
+<meta name="date" content="2026-10-14">
+<meta name="last-modified" content="2026-10-14">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body id="top">
+<header class="nav"><div class="in">
+  <a class="brand" href="index.html"><span class="glyph">972</span><span>Cyphersolver</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitemenu"><span></span><span></span><span></span><i>Menu</i></button>
+  <nav id="sitemenu" class="links" aria-label="Site">
+    <details class="menu"><summary class="active">Write-ups <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel wp"><div class="grp latest"><h4>Latest</h4><ul><li><a href="decode4282.html" aria-current="page"><span class="st solved">ciphertext-only break</span><b>Riksarkivet R4282</b><span class="yr">undated (catalogue 1600&ndash;1699)</span></a></li><li><a href="siena1431.html"><span class="st partial">ciphertext-only break &middot; partial</span><b>Cristofano to Siena c. 1431&ndash;38</b><span class="yr">c. 1431&ndash;1438</span></a></li><li><a href="eugenie1859.html"><span class="st solved">ciphertext-only break</span><b>Napoleon III / Empress Eugénie</b><span class="yr">1859</span></a></li><li><a href="mondesir1769.html"><span class="st solved">ciphertext-only break</span><b>Writer in Mondesir, Isle de France</b><span class="yr">1769</span></a></li><li><a href="villeneuve1737.html"><span class="st solved">ciphertext-only break</span><b>Louis-Sauveur, marquis de Villeneuve to&hellip;</b><span class="yr">1737</span></a></li><li><a href="villardeau.html"><span class="st solved">key from adjacent plaintext</span><b>De Villardeau</b><span class="yr">1725</span></a></li></ul></div><div class="grp"><h4>By outcome</h4><ul><li><a href="writeups.html#kind=ct"><span class="st solved">44</span><b>Ciphertext-only break</b></a></li><li><a href="writeups.html#kind=extpt"><span class="st solved">12</span><b>Key from external plaintext</b></a></li><li><a href="writeups.html#kind=adjpt"><span class="st solved">72</span><b>Key from adjacent plaintext</b></a></li><li><a href="writeups.html#kind=extkey"><span class="st solved">20</span><b>External key matched</b></a></li><li><a href="writeups.html#kind=known"><span class="st solved">80</span><b>Known key applied</b></a></li><li><a href="writeups.html#kind=deciph"><span class="st solved">36</span><b>Existing decipherment</b></a></li><li><a href="writeups.html#kind=notsolved"><span class="st stuck">38</span><b>Not solved</b></a></li><li><a href="writeups.html#kind=na"><span class="st found">14</span><b>Not applicable</b></a></li><li><a href="writeups.html#kind=survey"><span class="st todo">2</span><b>Surveys</b></a></li></ul></div><div class="foot"><a href="writeups.html">All 318 write-ups, with filters &rarr;</a><a href="writeups.html#src=notes">Results only in the notes</a></div></div></details>
+    <details class="menu"><summary>Explore <svg width="10" height="7" viewBox="0 0 10 7" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></summary>
+      <div class="panel ex"><ul><li><a href="highlights.html"><b>Highlights</b><span class="d">Thirty favourites: the funny, the historic, the ingenious</span></a></li><li><a href="glossary.html"><b>Glossary</b><span class="d">How each cipher was solved, and the terms used</span></a></li><li><a href="famous.html"><b>The famous ones</b><span class="d">Why Voynich, Kryptos, Beale and Dorabella resist</span></a></li><li><a href="atlas.html"><b>Atlas</b><span class="d">Every letter drawn on the map, five centuries of it</span></a></li><li><a href="keys.html"><b>Key web</b><span class="d">Which key read which letter</span></a></li><li><a href="secret.html"><b>Secret letter</b><span class="d">Seal a message in a real historical cipher</span></a></li></ul><div class="foot"><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">The code and the working notes on GitHub &#8599;</a></div></div></details>
+    <a href="catalogue.html">Catalogue</a>
+    <a href="contributors.html">Contributors</a>
+    <button class="searchbtn" type="button" aria-label="Search the site" aria-keyshortcuts="/ Control+K"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Search</span><kbd>/</kbd></button>
+    <button class="theme" type="button" aria-label="Switch between dark and light" title="Dark / light"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg></button>
+  </nav>
+</div></header>
+<div class="search" id="search" hidden>
+  <div class="sbox" role="dialog" aria-modal="true" aria-label="Search the site">
+    <form class="sform" role="search" onsubmit="return false">
+      <svg width="18" height="18" viewBox="0 0 16 16" aria-hidden="true"><circle cx="6.8" cy="6.8" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 10.5L15 15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="sq" placeholder="Search names, places, shelfmarks, words of the cipher&hellip;" autocomplete="off" spellcheck="false" aria-label="Search" aria-controls="sres">
+      <button type="button" class="sclose" aria-label="Close search">Esc</button>
+    </form>
+    <div class="sres" id="sres" role="listbox" aria-label="Results"></div>
+    <div class="shint"><span><kbd>&uarr;</kbd><kbd>&darr;</kbd> move</span><span><kbd>&crarr;</kbd> open</span><span><kbd>Esc</kbd> close</span><span class="sn" id="sn"></span></div>
+  </div>
+</div>
+
+<section class="hero">
+  <p class="kicker">Riksarkivet, Stockholm &middot; Latin homophonic cipher &middot; catalogue date 1600–1699</p>
+  <h1>DECODE R4282: a Latin diplomatic letter</h1>
+  <p class="sub">George Lasry recovered the key to a Latin letter about an English marriage, religion, coronation expenses and money; three word signs remain unidentified.</p>
+  <p class="meta">George Lasry &middot; posted <time datetime="2026-10-14">14 October 2026</time></p>
+<p class="outcome">Method: <a href="glossary.html#ct">key recovered from ciphertext-only</a> &middot; Extent: complete</p><!-- /outcome -->
+<p class="credits">Contributed by <a href="contributors.html#lasry">George Lasry</a> (solution)</p><!-- /credits -->
+<div class="seal solved" aria-hidden="true"><span class="long">ciphertext-only</span></div>
+</section>
+
+<main>
+<nav class="toc" aria-label="On this page"><span>On this page</span><a href="#document">The manuscript and its catalogue record</a><a href="#key">The recovered key</a><a href="#reading">Full Latin and English</a><a href="#method">Method and contribution</a><a href="#uncertainty">What remains uncertain</a><a href="#sources">Sources</a></nav>
+<div class="callout glance">
+  <p class="gl-top"><strong>At a glance</strong><span class="gl-res">Key recovered from ciphertext-only &middot; 800 of 805 non-null tokens mapped</span></p>
+  <dl>
+    <dt>The letter</dt><dd>Two text pages in Latin, with 32 manuscript lines and short passages in cleartext. Sender, recipient, place of writing and exact date are not established.</dd>
+    <dt>Where</dt><dd>Riksarkivet, The National Archives of Sweden, Stockholm: <em>Chifferklaver låda II 113</em>, DECODE R4282. The catalogue gives 1600–1699 as a broad date range.</dd>
+    <dt>The cipher</dt><dd>39 encoded symbol types: 24 letter forms, one QU sign, 11 nulls and three unidentified word signs. The transcription contains 1,084 cipher occurrences, including 279 nulls.</dd>
+    <dt>How the key was recovered</dt><dd>George Lasry transcribed the cipher in CTTS and recovered its key with the built-in homophonic solver. GPT-6 Astra subsequently improved and finalized the key and decryption, checking the manuscript and its inline cleartext.</dd>
+    <dt>What it says</dt><dd>The writer discusses a marriage in England, opposition to a foreign husband, religious uncertainty and coronation expenses, then asks urgently for a reply and money.</dd>
+    <dt>Still open</dt><dd>Three word signs account for five unidentified occurrences. Five bracketed restorations are contextual; the correspondents and document date remain unconfirmed.</dd>
+    <dt>Credit</dt><dd><strong>Solved by George Lasry.</strong> Contributed by George Lasry; cipher transcribed with CTTS (CrypTool Transcriber and Solver), key recovered with CTTS built-in homophonic solver, key/decryption improved and finalized by GPT-6 Astra.</dd>
+  </dl>
+</div>
+
+<h2 id="document"><span class="num">01</span> The manuscript and its catalogue record</h2>
+<p><a href="https://www.de-crypt.org/decrypt-web/RecordsView/4282?showdetail=" rel="noopener">DECODE R4282</a> identifies the item as <em>Chifferklaver_låda_II_113</em> at Riksarkivet, Stockholm. Its three attachments are a <a href="https://www.de-crypt.org/decrypt-custom/filesrv/?file=IMG_R4282_I25745_P.pdf" rel="noopener">wrapper, 25745</a>, and <a href="https://www.de-crypt.org/decrypt-custom/filesrv/?file=IMG_R4282_I25746_P.pdf" rel="noopener">text page 1, 25746</a>, followed by <a href="https://www.de-crypt.org/decrypt-custom/filesrv/?file=IMG_R4282_I25747_P.pdf" rel="noopener">text page 2, 25747</a>. The two text pages contain 25 and seven cipher lines respectively. The second text page is the left-page view selected by the source PDF.</p>
+<p>The catalogue's 1600–1699 range supplies no authenticated year, and its sender and recipient fields are blank. A collection note mentions Oxenstierna correspondence, but does not identify this letter's author or recipient. Ferdinand and the dukes of Alba and Savoy appear in the reading; those mentions do not establish the correspondents or a precise date.</p>
+<p data-term-ok>The record was labelled “Non-decrypted” and “Inline Cleartext: No” when consulted on 14 October 2026. Four cleartext passages are visible in the manuscript and are retained below. The database label records its cataloguing state; it does not establish that no earlier decipherment existed.</p>
+<figure data-credit="Riksarkivet, Stockholm, Chifferklaver l&aring;da II 113, text page 1, via DECODE R4282 attachment 25746">
+  <img src="decode4282_lead.jpg" alt="A passage of the Latin letter's graphic cipher on the first text page" loading="lazy">
+  <figcaption>A passage of the cipher. The full manuscript images remain available through the DECODE attachments linked above. <span class="credit">Image: Riksarkivet, Stockholm, Chifferklaver l&aring;da II 113, text page 1, via DECODE R4282 attachment 25746.</span></figcaption>
+</figure>
+<p>R4282 was previously included in the grouped <a href="riksarkivet1628.html">Riksarkivet survey</a>. That survey's September 2026 attempt did not obtain a Latin reading from R4282. This page records George Lasry's subsequent contribution for this letter alone; the earlier attempt remains part of the research history.</p>
+
+<h2 id="key"><span class="num">02</span> The recovered key</h2>
+<p>The key is homophonic: several letter values have more than one written form. A separate symbol stands for <em>qu</em>, and 11 symbol types are nulls. Identifying the nulls and separating similar written forms were essential to the decryption.</p>
+<figure data-credit="George Lasry, CTTS key reconstructed from Riksarkivet, Stockholm, Chifferklaver l&aring;da II 113, text pages 1–2, via DECODE R4282 attachments 25746–25747; refined with GPT-6 Astra">
+  <img src="decode4282_key.jpg" alt="Recovered CTTS key showing letter forms, QU, unidentified word signs and eleven null symbols" loading="lazy">
+  <figcaption>The recovered key, exported from CTTS. Letter values and nulls are shown separately. <span class="credit">Image: George Lasry, CTTS key reconstructed from Riksarkivet, Stockholm, Chifferklaver l&aring;da II 113, text pages 1–2, via DECODE R4282 attachments 25746–25747; refined with GPT-6 Astra.</span></figcaption>
+</figure>
+<table>
+  <thead><tr><th scope="col">Token accounting</th><th scope="col">Count</th></tr></thead>
+  <tbody>
+    <tr><td>All cipher occurrences</td><td>1,084</td></tr>
+    <tr><td>Null occurrences</td><td>279</td></tr>
+    <tr><td>Mapped non-null occurrences</td><td>800</td></tr>
+    <tr><td>Unidentified occurrences, across three word-sign types</td><td>5</td></tr>
+  </tbody>
+</table>
+<p>Non-null assignment coverage is 800/805, or 99.38%. Including assigned nulls, coverage is 1,079/1,084, or 99.54%. These figures measure symbol assignments, not certainty about every word or historical interpretation. Cleartext and 115 separator or punctuation entries are excluded from the cipher-token count.</p>
+<p>A conservative coherence count also excludes all 27 mapped symbol occurrences in the five contextually restored words. That leaves 773/805 non-null occurrences, or 96.02%. The literal transcription and the editorial reading are kept distinct, and the three unidentified word signs remain open.</p>
+
+<h2 id="reading"><span class="num">03</span> Full Latin and English</h2>
+<figure class="creveal" data-src="reveal/decode4282.json"></figure>
+<p class="legend">Deciphered text is <strong>bold</strong>; original cleartext is regular and stays in its manuscript position. Spelling, punctuation and word division are normalized. The pencil heading is reproduced separately as a heading to the letter.</p>
+<div class="callout">
+<p><strong>Key and source matching.</strong> The displayed key was recovered from this manuscript; it is not a separately surviving historical key. The paired passages below cover both text pages and all 32 cipher lines, with the four cleartext passages inserted where they occur.</p>
+<p><strong>Unidentified signs.</strong> [37], [38] and [39] label three distinct symbols, not historical names. [37] occurs twice on page 1, lines 1 and 4; [38] twice on page 1, lines 5 and 12; [39] once on page 2, line 5. Their five occurrences remain visible in both languages. The pronouns <em>ei</em> and <em>eius</em> are preserved without assigning a guessed identity.</p>
+</div>
+
+<h3 id="page1">Text page 1</h3>
+<table class="decode4282-reading">
+<thead><tr><th scope="col">Latin</th><th scope="col">English</th></tr></thead>
+<tbody>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Pencil heading</span><p><i>Chiffer-skrift.</i></p></td><td data-label="English"><p>Cipher writing.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 1–2</span><p><b>[37] nihil habet hic agere, et passim nomen eius conviciis laceratur.</b></p></td><td data-label="English"><p>[37] has nothing to do here, and that person's name is assailed everywhere with insults.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, line 3</span><p><b>Hispani abitum hinc meditantur.</b></p></td><td data-label="English"><p>The Spaniards are contemplating departure from here.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 4–5</span><p><b>[37] sibi vel filio Ferdinandi [38] ambit.</b></p></td><td data-label="English"><p>[37] seeks [38] for himself, or for Ferdinand's son.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 5–7</span><p><b>Atqui ei misit monile, quod dicitur valere sexaginta milibus librarum.</b></p></td><td data-label="English"><p>Yet he sent that person a necklace, which is said to be worth sixty thousand pounds.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 7–8</span><p><b>Hoc bello grandem hinc accepit pecuniam et subsidium.</b></p></td><td data-label="English"><p>During this war he received a large sum of money and assistance from here.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 9–10</span><p><b>Papistica religio est adhuc in suo vigore,</b> et qualis sit eius futurus status dubitatur.</p></td><td data-label="English"><p>The papist religion still retains its vigour, and there is uncertainty about what its future condition will be.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, line 11</span><p><b>Quid nobis futurum sit dubito.</b></p></td><td data-label="English"><p>I am unsure what will become of us.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 11–14</span><p><b>Nam tota Anglia [38] [semper] supplicat, ut [Anglo] nubat. Ab externo coniugio [prorsus] abhorrent.</b></p></td><td data-label="English"><p>For all England continually begs [38] to marry an Englishman. They utterly reject a foreign marriage.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 14–17</span><p><b>Numquam admittent virum, nisi huc ipse veniat atque se hic perpetuo mansurum sancte [promittat]. Ut hoc faciatis numquam consulerem.</b></p></td><td data-label="English"><p>They will never accept a husband unless he comes here himself and solemnly promises that he will remain here permanently. I would never advise you to do this.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 18–19</span><p><b>Gens arrogans, superba, omnes prae contemnit.</b></p></td><td data-label="English"><p>An arrogant, proud people, they look down on everyone.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 19–21</span><p><b>Nullam sumus praetermissuri occasionem,</b> sed tamen ut res <b>maneat in vestro arbitrio.</b></p></td><td data-label="English"><p>We shall let no opportunity pass, but nevertheless in such a way that the matter may remain at your discretion.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 21–24</span><p><b>Non audemus rem proponere manifeste ante coronationem: nam ei multum forte noceremus.</b></p></td><td data-label="English"><p>We dare not put the matter forward openly before the coronation, for we might perhaps cause that person considerable harm.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 1, lines 24–25</span><p>Facimus magnas admodum expensas, <b>maximas in coronatione facturi.</b></p></td><td data-label="English"><p>We are incurring very great expenses, and are going to incur enormous ones at the coronation.</p></td></tr>
+</tbody>
+</table>
+
+<h3 id="page2">Text page 2</h3>
+<table class="decode4282-reading">
+<thead><tr><th scope="col">Latin</th><th scope="col">English</th></tr></thead>
+<tbody>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 2, lines 1–2</span><p>Mittatur nobis responsum <b>et grandis pecunia, cito, cito.</b></p></td><td data-label="English"><p>Let a reply and a large sum of money be sent to us - quickly, quickly.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 2, lines 2–3</span><p><b>Non enim sine maxima largitione quicquam promovebimus.</b></p></td><td data-label="English"><p>For we shall make no progress at all without very great largesse.</p></td></tr>
+<tr><td lang="la" data-label="Latin"><span class="line-ref">Page 2, lines 4–7</span><p><b>Dicuntur duces Albanus [et] Sabaudus huc venturi pro [39], ut quod causae bonitate diffidit, hoc conficiat eorum autoritate.</b></p></td><td data-label="English"><p>The dukes of Alba and Savoy are said to be about to come here on behalf of [39], so that what [that person] has no confidence of achieving through the merits of the case, [that person] may accomplish through their authority.</p></td></tr>
+</tbody>
+</table>
+
+<h2 id="method"><span class="num">04</span> Method and contribution</h2>
+<p><strong>Solved by George Lasry.</strong> He transcribed the graphic cipher using CTTS (CrypTool Transcriber and Solver), and recovered the key using CTTS's built-in homophonic solver. The primary key recovery was ciphertext-derived. GPT-6 Astra then improved and finalized the key and decryption through manuscript checks, corrections to symbol assignments and examination of repeated Latin patterns. The inline cleartext supplied context during this later refinement.</p>
+<p>The work separated letter forms from nulls, established the QU and X values and checked similar symbols across their occurrences. The resulting transcription and key preserve source positions so that the mappings can be checked against the images. The displayed Latin adds word division and punctuation; its five substantive contextual restorations are bracketed and itemized below.</p>
+<p>Both text pages are covered. The contribution does not authenticate the catalogue date, identify the correspondents, or claim that every phrase has an independently verified historical interpretation. Its relationship to the earlier grouped attempt is documented in the target notes.</p>
+
+<p>The submitted key also passed the repository statistical validation: the literal Latin score was −2.170 per letter, compared with a random-key mean of −4.847 and a best shuffled-ciphertext refit of −3.479. This tests the substitution reading; it does not identify the three open word signs or turn the five contextual restorations into proven mappings.</p>
+
+<h2 id="uncertainty"><span class="num">05</span> What remains uncertain</h2>
+<ul>
+  <li><strong>Unidentified word signs [37], [38] and [39]: M (uncertain).</strong> There are five occurrences across three types. Their grammatical positions support word or name functions, but their meanings have not been established. No historical identity is substituted for them.</li>
+  <li><strong>Five contextual restorations: I (inferred from context).</strong> They are displayed in brackets and are not additional verified key values.</li>
+  <li><strong>Cleartext ending <em>facimus</em>: I.</strong> The damaged ending is supplied from the visible word and its construction. The rest of each cleartext passage is retained inline in regular type.</li>
+  <li><strong>Correspondents, place and date: M.</strong> The broad catalogue range is retained. Ferdinand and the dukes of Alba and Savoy are people mentioned in the text; they are not identified here as its sender or recipient.</li>
+</ul>
+<table>
+<thead><tr><th scope="col">Displayed restoration</th><th scope="col">Underlying reading</th><th scope="col">Location</th></tr></thead>
+<tbody>
+<tr><td>[semper]</td><td><code>SIMPIR</code></td><td>Page 1, line 12</td></tr>
+<tr><td>[Anglo]</td><td><code>A_GLO</code></td><td>Page 1, line 12</td></tr>
+<tr><td>[prorsus]</td><td><code>PRSRSVS</code></td><td>Page 1, line 13</td></tr>
+<tr><td>[promittat]</td><td><code>PRSMITAT</code></td><td>Page 1, line 16</td></tr>
+<tr><td>[et]</td><td><code>IT</code></td><td>Page 2, line 4</td></tr>
+</tbody>
+</table>
+<p>In the final sentence, “that person” preserves the unidentified singular subject of <em>diffidit</em> and <em>conficiat</em>; “their” refers to the two dukes. The translation leaves that distinction visible. The token-assignment percentages above should not be substituted for these editorial qualifications.</p>
+
+<!-- replay:start -->
+<figure class="sreplay" data-src="steps/decode4282.json"></figure>
+<!-- replay:end -->
+<h2 id="sources"><span class="num">06</span> Sources</h2>
+<ul>
+  <li>Riksarkivet, The National Archives of Sweden, Stockholm, <em>Chifferklaver låda II 113</em>: <a href="https://www.de-crypt.org/decrypt-web/RecordsView/4282?showdetail=" rel="noopener">DECODE record R4282</a>, consulted 14 October 2026.</li>
+  <li>DECODE attachments: <a href="https://www.de-crypt.org/decrypt-custom/filesrv/?file=IMG_R4282_I25745_P.pdf" rel="noopener">25745, wrapper</a>; <a href="https://www.de-crypt.org/decrypt-custom/filesrv/?file=IMG_R4282_I25746_P.pdf" rel="noopener">25746, first text page</a>; <a href="https://www.de-crypt.org/decrypt-custom/filesrv/?file=IMG_R4282_I25747_P.pdf" rel="noopener">25747, second text page</a>.</li>
+  <li>George Lasry's CTTS transcription, recovered key and decryption, improved and finalized with GPT-6 Astra, 14 October 2026. The contribution includes the auditable transcription and key used for the token accounting.</li>
+  <li><a href="riksarkivet1628.html">Earlier Riksarkivet group write-up</a> and its target notes, preserving the September 2026 attempt on R4282 alongside the separate results for other records.</li>
+</ul>
+<p class="muted">The transcription, key, line references, reading and research record are in the repository folder <a href="https://github.com/dbourdeau/cyphersolver/tree/main/targets/decode4282" rel="noopener"><code>targets/decode4282/</code></a>. Full manuscript images are not committed; the DECODE links above provide the source pages.</p>
+</main>
+
+<footer><div class="in">
+  <span>George Lasry, October 2026 &middot; Text released under CC BY 4.0 &middot; Manuscript rights: Riksarkivet, Stockholm, Chifferklaver l&aring;da II:113, via DECODE R4282</span>
+  <nav aria-label="Footer"><a href="index.html">Overview</a><a href="conti1649.html" rel="prev">&larr; Conti 1649 1649</a><a href="sp106r927.html" rel="next">SP 106/10 pigpen letter 17th c. &rarr;</a><a href="https://github.com/dbourdeau/cyphersolver" rel="noopener">Code &#8599;</a><a href="mailto:dnbourdeau@gmail.com" title="dnbourdeau@gmail.com">Contact &#9993;</a><a href="#top">Top &uarr;</a></nav>
+</div></footer>
+<script src="cipher-reveal.js?v=f00596e5" defer></script>
+<script src="solve-replay.js?v=20261014c" defer></script>
+<script src="zoom.js?v=20261014c" defer></script>
+<script src="site.js?v=20261014c"></script>
+</body>
+</html>

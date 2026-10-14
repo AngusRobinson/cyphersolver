@@ -38,7 +38,8 @@
   "sieniawski1708": "Several correspondences on one page; the principal one (the Vienna letters) is from an unidentified agent signing with a cover name ('Sidon') to a Baron Schenck, chamberlain of Augustus II, who has no identified portrait (no Wikidata item or Commons image found).",
   "ottobon": "No trustworthy public-domain portrait on Commons or Wikidata (searched 9 Oct 2026) of the subscribing secretary Marco Ottobon (1554-1649) or of the ambassador Giovanni Mocenigo (not the doge of that name); the sender proper is the Doge and Senate as a body.",
   "voynich": "Not a letter between people: an anonymous early-15th-century codex with no named author or recipient.",
-  "siena1431": "Sender Cristofano (surname damaged, perhaps Montucci) is not identified and has no known portrait; the recipients are the Signori of Siena as a body."
+  "siena1431": "Sender Cristofano (surname damaged, perhaps Montucci) is not identified and has no known portrait; the recipients are the Signori of Siena as a body.",
+  "decode4282": "Sender and recipient are unidentified; no verified person can be portrayed."
  },
  "reveal": {
   "florence1429": "Graphic-sign cipher: the sign-by-sign table is targets/florence1429/cipher171.tsv, but there are no per-token crops of the signs, so a replay would show labels, not the letter's signs.",
@@ -112,6 +113,7 @@
   "waldeck1744": "Destination known (the Prince of Waldeck, who served with the Austrian army in 1744), but the writer's place is not named; left out rather than guessed.",
   "aerssen1601": "Paris origin established; Oldenbarnevelt recipient location not established in supplied evidence. No guessed route.",
   "esterhazy1744": "Origin Moscow, but the recipient and destination of the visible letter are not established.",
-  "siena1431": "Neither letter names its place of writing; the writer reports from the Milanese side of the war over Lucca but his location is not established."
+  "siena1431": "Neither letter names its place of writing; the writer reports from the Milanese side of the war over Lucca but his location is not established.",
+  "decode4282": "Origin and destination are unknown; the catalogue range 1600–1699 does not establish a route or document date."
  }
 }

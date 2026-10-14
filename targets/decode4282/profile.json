@@ -1,0 +1,260 @@
+{
+ "schema_version": 1,
+ "target": "decode4282",
+ "title": "George Lasry’s decipherment of a Latin diplomatic letter (DECODE R4282, Chifferklaver låda II:113)",
+ "documents": [
+  {
+   "id": "R4282",
+   "read": "read",
+   "shelfmark": "Riksarkivet, Stockholm, Chifferklaver låda II:113; DECODE R4282",
+   "date": "Undated; DECODE catalogue range 1600–1699 is not an independently established date",
+   "year": "unknown",
+   "country": "unknown",
+   "route": "Unknown sender and recipient; report concerns England",
+   "language": "Latin",
+   "pages": 2,
+   "cleartext_in_document": "interspersed",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No separate or interlinear decipherment used. Four original cleartext passages occur within the letter.",
+    "partial": false
+   },
+   "length": {
+    "tokens": 1084,
+    "distinct": 39,
+    "unit": "symbols",
+    "measured": true,
+    "file": "cipher_tokens.txt"
+   },
+   "transcription": {
+    "by": "mixed",
+    "source": "George Lasry using CTTS (CrypTool Transcriber and Solver), from DECODE R4282 manuscript images; symbol classifications refined with GPT-6 Astra.",
+    "image_quality": "good",
+    "notes": "25 lines on page 1 and 7 on page 2. Counts exclude 104 separator marks and 11 punctuation marks. Positions and icons preserve CTTS identifiers; no other document is counted."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "A Latin graphical homophonic substitution with vowel homophones, a QU sign, eleven null signs and three unresolved apparent word signs.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": 39,
+  "diacritics": {
+   "used": "unknown",
+   "note": "Distinct graphical signs are preserved by their CTTS classes; no separate modifier rule is claimed."
+  },
+  "homophones": {
+   "used": true,
+   "max_per_vowel": 2,
+   "max_per_consonant": 1,
+   "per_letter": {
+    "a": 2,
+    "b": 1,
+    "c": 1,
+    "d": 1,
+    "e": 2,
+    "f": 1,
+    "g": 1,
+    "h": 1,
+    "i": 2,
+    "l": 1,
+    "m": 1,
+    "n": 1,
+    "o": 2,
+    "p": 1,
+    "r": 1,
+    "s": 1,
+    "t": 1,
+    "v": 2,
+    "x": 1
+   }
+  },
+  "nomenclator": {
+   "present": true,
+   "entries": 3,
+   "kinds": [
+    "names",
+    "titles"
+   ],
+   "unread_groups": 3
+  },
+  "nulls": {
+   "present": true,
+   "count": 11
+  },
+  "key_order": "unknown",
+  "word_division": "kept",
+  "doubled_letters": "Usually written twice; the readable edition retains explicit orthographic normalization.",
+  "sibling_key": "none used",
+  "notes": "The three apparent word signs are distinct and unidentified. The CTTS solver name describes the recovery tool, not an unsupported claim about word-sign values."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "unknown",
+   "where": "No earlier decipherment was used. The 2026-09-21 repository survey records a failed attempt. DECODE was marked Non-decrypted on 2026-10-14; this is not proof that no prior reading exists.",
+   "found": "not found",
+   "used": false
+  },
+  "inputs": [
+   "images",
+   "transcription",
+   "cleartext context"
+  ],
+  "attack": "ciphertext-only",
+  "human_role": "Solved by George Lasry, who transcribed the cipher in CTTS, used its built-in homophonic solver for initial key recovery, directed refinement, corrected sign readings and supplied the result for contribution. GPT-6 Astra assisted in improving and finalizing the key and decryption.",
+  "tools": [
+   "CTTS (CrypTool Transcriber and Solver)",
+   "CTTS built-in homophonic solver",
+   "GPT-6 Astra",
+   "decode.py (reproducible key application and counts)"
+  ],
+  "models": [
+   "GPT-6 Astra"
+  ],
+  "sessions": "unknown",
+  "first_date": "unknown",
+  "last_date": "2026-10-14"
+ },
+ "solution": [
+  {
+   "kind": "transcription",
+   "what": "George Lasry transcribed the two manuscript pages with CTTS, preserving graphic sign classes, separators and page/line positions. The solver origin is also recorded in key.txt. Exact initial session date is not reconstructed.",
+   "result": "worked"
+  },
+  {
+   "kind": "solver",
+   "technique": [
+    "automated search (unspecified)"
+   ],
+   "what": "George Lasry recovered the initial key using the CTTS built-in homophonic solver, as expressly confirmed by him. No run log survives in this package, so restart counts, scores, timing and implementation details are not invented.",
+   "result": "worked"
+  },
+  {
+   "kind": "reading",
+   "technique": [
+    "contextual inference",
+    "manual reconstruction"
+   ],
+   "what": "GPT-6 Astra assisted Lasry with Latin analysis and image checks to improve and finalize the key and reading: (31) changed from O to D, several apparent letters became nulls, and (37)/(38)/(39) remained separate unknown word signs rather than L/P/C. These are superseded assignments, not documented failed solver runs.",
+   "result": "worked"
+  },
+  {
+   "kind": "verification",
+   "what": "Compared both pages and the four original cleartext spans; integrated them in manuscript order, preserving five editorial restorations separately from literal cipher output.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-14",
+   "kind": "access",
+   "what": "Checked the live DECODE record and its three attachments: wrapper plus two displayed text-page views. Recorded Riksarkivet shelfmark and catalogue range without assigning an exact date or correspondents.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-14",
+   "kind": "verification",
+   "what": "Reapplied the current CTTS key to every transcribed sign and reproduced the literal decryption. Counted 1084 signs: 800 mapped non-null, 279 nulls, 5 occurrences of 3 unresolved signs. Excluded 27 token positions within five editorially restored words from the conservative coherence floor.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-14",
+   "kind": "literature search",
+   "what": "Read the existing riksarkivet1628 repository notes: the 21 September attempt reported no Latin from earlier transcription/annealing. No prior decipherment found in the inspected materials; an exhaustive publication search is not claimed.",
+   "result": "partial"
+  },
+  {
+   "date": "2026-10-14",
+   "kind": "verification",
+   "technique": [
+    "statistical test",
+    "language-model scoring"
+   ],
+   "what": "Statistical validation (docs/_validate.py): 1079 tokens, 36 types, la order 4: reading -2.17 per letter; random keys -4.847 (z 9.5); key annealed onto shuffled ciphertext best -3.479 (mean -3.506, z 87.6); annealer on the real text -2.17. Verdict: pass.",
+   "result": "worked"
+  }
+ ],
+ "outcome": {
+  "validation": {
+   "date": "2026-10-14",
+   "model": "la",
+   "file": "validation.tsv",
+   "tokens": 1079,
+   "types": 36,
+   "tokens_per_type": 29.97,
+   "score": -2.17,
+   "nulls": {
+    "random keys": {
+     "n": 200,
+     "mean": -4.847,
+     "sd": 0.283,
+     "max": -4.052,
+     "z": 9.5,
+     "p": 0.005
+    },
+    "shuffled refit": {
+     "n": 6,
+     "mean": -3.506,
+     "sd": 0.015,
+     "max": -3.479,
+     "z": 87.6,
+     "p": 0.1429
+    }
+   },
+   "power": -2.17,
+   "verdict": "pass",
+   "notes": "claimed per-occurrence score -2.17; polyphony 0.0; 5 unread tokens left out; annealer on the real text from random keys reached -2.17"
+  },
+  "class": "read",
+  "key": "partial",
+  "method": "key recovered from ciphertext-only",
+  "method_basis": "Primary achievement: George Lasry recovered the key with CTTS’s built-in homophonic solver from the ciphertext; GPT-6 Astra helped refine the key and reading, with original cleartext context incorporated later and no historical decipherment or external key used.",
+  "contribution": [
+   "transcription",
+   "key recovered",
+   "key extended or corrected",
+   "catalogue correction"
+  ],
+  "fraction_read": 0.9937888198757764,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "token_readings.tsv: 800 mapped of 805 non-null cipher occurrences; 279 nulls counted separately. Full key assignment is 1079/1084. This measures assignments, not independently verified accuracy.",
+  "fraction_coherent": 0.9602484472049689,
+  "codes_open": {
+   "open": 3,
+   "total": 3,
+   "tokens_open": 5
+  },
+  "grades": "unknown",
+  "verification": [
+   "key confirms",
+   "statistical test"
+  ],
+  "provenance": "contributed",
+  "credits": [
+   {
+    "who": "lasry",
+    "role": "solution",
+    "note": "Solved by George Lasry: CTTS transcription and built-in homophonic solver; key and decryption improved and finalized with GPT-6 Astra.",
+    "date": "2026-10-14",
+    "source": "https://github.com/GeorgeLasry/cyphersolver/tree/writeup-decode4282/targets/decode4282",
+    "published": true
+   }
+  ],
+  "gaps": [
+   {
+    "item": "Signs 37, 38, 39 (five occurrences)",
+    "blocker": "open-codes",
+    "detail": "Names or titles remain unidentified; no identity is supplied from speculation."
+   },
+   {
+    "item": "Five editorially restored words",
+    "blocker": "open-codes",
+    "detail": "SIMPIR, AGLO, PRSRSVS, PRSMITAT and IT are retained in literal output; readable Latin marks contextual restoration, not proven new mappings."
+   }
+  ],
+  "notes": "Both text pages covered in full. The conservative coherence floor 773/805 excludes all 27 tokens in five restored words plus 5 open word tokens. This is not an LLM-only break or a first-publication claim."
+ }
+}

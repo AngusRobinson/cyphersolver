@@ -1,0 +1,158 @@
+{
+ "(13)": {
+  "value": "a",
+  "icon": "icons/0x00ffffff.png"
+ },
+ "(17)": {
+  "value": "a",
+  "icon": "icons/0x7f7f55ff.png"
+ },
+ "(25)": {
+  "value": "b",
+  "icon": "icons/0x00ff55ff.png"
+ },
+ "(14)": {
+  "value": "c",
+  "icon": "icons/0x007f00ff.png"
+ },
+ "(31)": {
+  "value": "d",
+  "icon": "icons/0xaad4f3ff.png"
+ },
+ "(12)": {
+  "value": "e",
+  "icon": "icons/0x005500ff.png"
+ },
+ "(18)": {
+  "value": "e",
+  "icon": "icons/0x0000d4ff.png"
+ },
+ "(32)": {
+  "value": "f",
+  "icon": "icons/0x55aad4ff.png"
+ },
+ "(30)": {
+  "value": "g",
+  "icon": "icons/0x00d4ffff.png"
+ },
+ "(28)": {
+  "value": "h",
+  "icon": "icons/0x0000aaff.png"
+ },
+ "(3)": {
+  "value": "i",
+  "icon": "icons/0x00557fff.png"
+ },
+ "(8)": {
+  "value": "i",
+  "icon": "icons/0x00aa55ff.png"
+ },
+ "(22)": {
+  "value": "l",
+  "icon": "icons/0x0055ffff.png"
+ },
+ "(6)": {
+  "value": "m",
+  "icon": "icons/0x00d4aaff.png"
+ },
+ "(2)": {
+  "value": "n",
+  "icon": "icons/0x007f7fff.png"
+ },
+ "(27)": {
+  "value": "o",
+  "icon": "icons/0x55d47fff.png"
+ },
+ "(7)": {
+  "value": "o",
+  "icon": "icons/0x00d47fff.png"
+ },
+ "(24)": {
+  "value": "p",
+  "icon": "icons/0x00d4d4ff.png"
+ },
+ "(35)": {
+  "value": "qu",
+  "icon": "icons/0x0055aaff.png"
+ },
+ "(5)": {
+  "value": "r",
+  "icon": "icons/0x00007fff.png"
+ },
+ "(4)": {
+  "value": "s",
+  "icon": "icons/0x00ffaaff.png"
+ },
+ "(1)": {
+  "value": "t",
+  "icon": "icons/0x000055ff.png"
+ },
+ "(10)": {
+  "value": "v",
+  "icon": "icons/0x5500aaff.png"
+ },
+ "(23)": {
+  "value": "v",
+  "icon": "icons/0x00d455ff.png"
+ },
+ "(36)": {
+  "value": "x",
+  "icon": "icons/0x55aa7fff.png"
+ },
+ "(37)": {
+  "value": null,
+  "icon": "icons/0x55aaaaff.png"
+ },
+ "(38)": {
+  "value": null,
+  "icon": "icons/0x55d4d4ff.png"
+ },
+ "(39)": {
+  "value": null,
+  "icon": "icons/0x557f55ff.png"
+ },
+ "(11)": {
+  "value": "",
+  "icon": "icons/0x005555ff.png"
+ },
+ "(15)": {
+  "value": "",
+  "icon": "icons/0x550055ff.png"
+ },
+ "(16)": {
+  "value": "",
+  "icon": "icons/0x555555ff.png"
+ },
+ "(19)": {
+  "value": "",
+  "icon": "icons/0x007f55ff.png"
+ },
+ "(20)": {
+  "value": "",
+  "icon": "icons/0x55ff55ff.png"
+ },
+ "(21)": {
+  "value": "",
+  "icon": "icons/0x0055d4ff.png"
+ },
+ "(26)": {
+  "value": "",
+  "icon": "icons/0x7f5500ff.png"
+ },
+ "(29)": {
+  "value": "",
+  "icon": "icons/0x00aaaaff.png"
+ },
+ "(33)": {
+  "value": "",
+  "icon": "icons/0x55d4ffff.png"
+ },
+ "(34)": {
+  "value": "",
+  "icon": "icons/0x00d400ff.png"
+ },
+ "(9)": {
+  "value": "",
+  "icon": "icons/0x00aa00ff.png"
+ }
+}

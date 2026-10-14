@@ -1,0 +1,19 @@
+{
+ "cipher_elements": 1084,
+ "distinct_signs": 39,
+ "pages": 2,
+ "lines_by_page": {
+  "1": 25,
+  "2": 7
+ },
+ "non_null_elements": 805,
+ "mapped_non_null": 800,
+ "null_elements": 279,
+ "unresolved_elements": 5,
+ "unresolved_types": 3,
+ "editorial_word_elements": 27,
+ "key_assignment_non_null": 0.9937888198757764,
+ "key_assignment_including_nulls": 0.9953874538745388,
+ "conservative_coherence_floor": 0.9602484472049689,
+ "coherence_rule": "Exclude all sign occurrences in five editorially restored words and all unresolved signs; this is a coverage lower bound, not probabilistic accuracy."
+}
