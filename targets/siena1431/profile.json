@@ -206,6 +206,12 @@
       "kind": "key from source",
       "what": "Key sheet R4755 re-read: z is the compound 'So' (plain S = o) and 4 = u. Checked on the DECODE image of no. 6 at all three z places (aduertenza, senza avere, Vincenzo). No. 6 rises from 879/941 (93.4%) to 896/939 (95.4%) understood; no. 6 now meets the read bar.",
       "result": "worked"
+    },
+    {
+      "date": "2026-10-14",
+      "kind": "reading",
+      "what": "No. 24: each <...> run of the submitted reading retried, longest first, against our transcription's merged-label alternatives (t=o/q/f, c=h/n, 0=a/i, t 0=+o=i, PHI=m/Duca, So=z, 4=u), the it-cinquecento model and the DECODE image of R4812. 23 changes (7 image-checked, 3 z/u key corrections, 13 constrained by context): ghiacciate, dirizare, usciti, Chamerino, famiglio, facto re d'Ongnaria, a Ferrara, two dropped Viniziani word signs and a Duca di Milano. 1,663/2,286 (72.7%) to 1,815/2,279 (79.6%); image-checked and z/u changes alone give 75.2%. The longest runs (carpelaelo..., vannoafonatificas, stanaeecasiscroie) stay unread.",
+      "result": "partial"
     }
   ],
   "outcome": {
@@ -230,9 +236,9 @@
       "sender or date identified",
       "catalogue correction"
     ],
-    "fraction_read": 0.793,
+    "fraction_read": 0.842,
     "fraction_read_method": "measured",
-    "fraction_read_source": "reading_no06_rev.txt (896/939, after the 14 Oct z/u correction) + reading_no24.txt (1,663/2,286): decrypted letters outside <...>/{...}; the no. 24 dorse (637 tokens) is not counted",
+    "fraction_read_source": "reading_no06_rev.txt (896/939, after the 14 Oct z/u correction) + reading_no24_rev.txt (1,815/2,279, revised 14 Oct from the submitted 1,663/2,286): decrypted letters outside <...>/{...}; the no. 24 dorse (637 tokens) is not counted",
     "fraction_coherent": 0.776,
     "codes_open": {
       "open": 0,
@@ -241,7 +247,7 @@
     },
     "gaps": [
       {
-        "item": "no. 24 P2, the <...> runs (623 of 2,286 decrypted letters)",
+        "item": "no. 24 P2, the <...> runs left after the 14 Oct revision (464 of 2,279 decrypted letters)",
         "blocker": "illegible"
       },
       {
@@ -279,6 +285,6 @@
       }
     ],
     "first_break": true,
-    "notes": "Result by George Lasry (with Claude and ChatGPT Astra), verified here. No. 6 93.4% of decrypted letters understood, no. 24 P2 72.7%; dorse of no. 24 decoded here in part. Verification by this project: blind transcription of 24 Sept decoded with the key, 69% (key read by eye) to 88-91% agreement."
+    "notes": "Result by George Lasry (with Claude and ChatGPT Astra), verified here. No. 6 93.4% of decrypted letters understood, no. 24 P2 72.7%, revised here to 79.6% (14 Oct); dorse of no. 24 decoded here in part. Verification by this project: blind transcription of 24 Sept decoded with the key, 69% (key read by eye) to 88-91% agreement."
   }
 }

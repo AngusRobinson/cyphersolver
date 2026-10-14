@@ -90,6 +90,7 @@ Counted on their reading (letters inside ‹...› or {...} = decrypted but not 
   (‹b·›, ‹teaite›, ‹kanaa·not›, ‹adiertenaa›, ‹nilalado›, the surname ‹vccia›).
 - **no. 24 (P2)**: 623 of 2,286 not understood: **72.7% understood**. Many runs: ‹chaaeiisai›, ‹lnifesstt›,
   ‹tromel··aeraomiliaetc·oa›, ‹carpelaelotecednelgnnpei›, ‹vannoafonatificas›, ‹eqnleodiaferraerapeo› ...
+  Revised 14 Oct (below): 1,815 of 2,279 = **79.6%** (`reading_no24_rev.txt`).
 - **no. 24 dorse (P1)**: not in the submitted reading at all (below).
 Both letters: **read in part**.
 
@@ -140,9 +141,68 @@ Readings changed (reading_no06_rev.txt; the submitted reading is kept unchanged 
 Measured with the same rule (verify.py `understood`): 896 of 939 decrypted letters understood = **95.4%** (was 879/941 = 93.4%). Without the *nula* change: 95.0% (the margin is thin). The signature "Montuccia" would add five letters but is not legible enough on the image and is not counted.
 No. 6 now meets the read bar; no. 24 stays read in part, so the target as a whole stays read in part.
 
+## No. 24 revised: 72.7% to 79.6% (14 Oct 2026)
+
+The ‹...› runs of the submitted reading were taken one at a time, longest first (`revise24.py`, which writes
+`reading_no24_rev.txt`; the submitted reading stays unchanged in `reading_no24.txt`). For each run: the signs of our
+transcription aligned with it, the alternative values of our merged labels (t = o/q/f, c = h/n, 0 = a/i,
+"t 0" = the i-sign +o, PHI = m/Duca, the So compound = z, 4 = u), the it-cinquecento model with spaces to
+segment the candidates, and the DECODE photograph of R4812 (fetched with the cookie, git-ignored; 2248 x 4000,
+signs about 20 px) for the doubtful signs.
+
+Measure (verify.py `understood`, same rule as before): submitted 1,663/2,286 = **72.7%**; z/4 corrections only
+1,666/2,286 = 72.9%; plus the image-checked runs 1,718/2,284 = 75.2%; plus the runs constrained by context
+1,815/2,279 = **79.6%**. 23 changes: 7 image-checked (I), 3 key corrections (Z), 13 constrained by context
+and the language model (C). Changes:
+
+| line | submitted | revised | | evidence |
+|---|---|---|---|---|
+| 7 | n[o]ie ‹vict› sonno | n[o]ie vi sonno | Z | 4 = u (key column); "per le molte noie vi sonno ogni dì" |
+| 8 | grann ‹digniacciatie› e | grandi ghiacciatie e | I | c = h (plain c on the image, not the e-like n); +o = i; E, h nulls: "e grandi ghiacciate" (great frosts; a February letter) |
+| 8 | gl[i] ‹chamino› le | gl[i] chamino le | C | letters as read; "e gli chamino le convien fare" (the roads he has to take) |
+| 8 | ‹easprepensoo› pochi | ‹easpro› penso pochi | C | "penso pochi dì" (I think, in a few days); the first five letters stay open |
+| 9 | perché ‹aorlteaposi› cominca a diria ‹aaree› perché | perché e or 'l tenpo si cominca a dirizare; perché | I | So-compound = z (image: S with the small o attached after x); "perché e' or 'l tenpo si cominca a dirizare" (the weather begins to mend) |
+| 12 | a{a} Lucca ‹evscet› di Fiorentini | a{a} Lucca e uscit[i] di Fiorentini | C | g = i (key); "ambassadors ... and exiles of the Florentines" (the fuorusciti) |
+| 14 | e ‹fanto›, q[u]anto | e fano, q[u]anto | C | t = f, B and a nulls: "e fanno, quanto l'è posibile" |
+| 19 | continuo ‹alvrechie›; | continuo a l'vrechie; | C | "io li so continuo a l'orecchie" (I keep at his ear) |
+| 28 | ‹dvctdisterli› (duca d'Osterlich?) | duc[a] d'Isterlic (duca d'Osterlich) | C | Albert V of Austria; Osterlich/Isterlich |
+| 28 | che è a ‹qacto› re | che è a facto re | C | t = f: "che è [stato] facto re d'Ongnaria" (made King of Hungary, Dec 1437) |
+| 24 | uno ‹svvfai›‹iglioatire› a Lucca | uno ‹svv›fa[m]iglio a dire a Lucca | C | "à mandato uno [suo] famiglio a dire a Lucca" (sent a servant to say) |
+| 20 | ‹lnpossa› conprendare ‹lvivera› Lucca | le possa conprendare lui verà Lucca | C | "per questa le possa comprendere: lui verrà [a] Lucca" |
+| 37 | gar[z]{a}one | gar{a}zone | Z | So-compound = z: "garzone" |
+| 2 | ‹prerdom› ‹·› sare' | ‹prerao› Duca di Milano sare' | I | image: the line-end Φ is point-framed (·Φ·), the word sign Duca di Milano, not m: "... il Duca di Milano sare' disposto di soccorrere Lucca" |
+| 15 | ‹loachamenaqano› assai | lo a Chamerino; assai | I | image: our "t W" is "+o" (the i-sign); "fanno, quanto l'è posibile, a e cond[urlo] lo a Chamerino", parallel to "di condurlo a Lucca" |
+| 6 | sol‹nparqiirdicid› ‹roe› | sol‹n› per quind{g}ci d ‹roe› | C | 4 = u, t = q: "per quindici d[ì]"; the sign after d (η or ʒ) not certain on the image |
+| 31 | per lo ‹qnala› soto | per lo q‹n›ale soto | C | "per lo quale sono morti quatordici gente nel camino" |
+| 30 | no[n] ‹avinga› [a]dvegna | no[n] avinga [a]dvegna | C | "se questa [gu]era non avinga" (avvenga) |
+| 37 | ritorni a q[u]a ‹asalr› per | ritorni a casa ‹l› per | C | d+ = c: "il garzone ritorni a casa per solecitare" |
+| 17 | licen[t]ia ‹·epaga·› | licen[t]ia [de'] Viniziani ‹epaga·› | I | image: point-framed ℞ = Viniziani (word sign the reading had dropped) |
+| 19 | ‹··› io li so | [a'] Viniziani; io li so | I | image: point-framed ℞ = Viniziani; x THETA = "io" |
+| 30 | ‹eqnleodiaferraerapeo› pro‹·›ente | ‹eqnleodi› a Fer‹la›era pe[r] lo pro‹·›ente | I | image: f e r, nulls h F, then l a e r a, p e l o: "a Fer[r]ara pe[r] lo presente" (the Council at Ferrara, Jan. 1438); the -la- stays open |
+| 26 | se n'à a {a}fa[r]lo | senza {a}fal{a}[l]o | Z | So-compound = z: "e che senza fallo il marchese di Mantova è acordato col Duca di Milano" |
+
+What the new readings add:
+- **Dating.** "il ducha Alberto, duca d'Isterlic, che è a facto re d'Ongnaria" (*made* King of Hungary: Albert of
+  Austria, December 1437) and "a Fer[r]ara pe[r] lo presente" (the Council, moved from Basel to Ferrara in January
+  1438) put no. 24 in **early 1438**, which the dating section above had argued from the Mantua title.
+- **Word signs the reading had dropped.** Two point-framed ℞ = Viniziani (lines 17, 19 of our transcription) and
+  the point-framed Φ at the end of line 2 = Duca di Milano: "[il] Duca di Milano sare' disposto di soccorrere Lucca".
+- **Camerino.** "fanno, quanto l'è posibile, ... lo a Chamerino": our "t W" is the i-sign +o on the image, so
+  ‹loachamenaqano› is "lo a Chamerino", parallel to "di condurlo a Lucca" a line earlier.
+- **Weather and roads.** "per le molte noie vi sonno ogni dì e grandi ghiacciate, e gli chamino le convien fare
+  ... penso pochi dì ... perché e' or 'l tenpo si cominca a dirizare" (great frosts; the weather begins to mend):
+  c = h on the image, and z is the So compound after "diri-".
+
+What stays open (464 letters, 20.4%): ‹carpelaelotecednelgnnpei›, ‹vannoafonatificas›,
+‹stanaeecasiscroie›, ‹aeraomiliaetc·oa›, ‹nroaraavtalprq›, ‹adenanfaalag›, ‹escodrovaeto›, ‹ecesacoerta›,
+‹dolelbspasa›, ‹piiinnanaai› and some 60 shorter runs. Our transcription decodes them to the same non-words as the
+submitted reading; on the image the signs are as transcribed, or the doubtful ones (c/e-like n, ʒ = e or i, η)
+cannot be told apart at this resolution. Lines 33-35 (the Petrucci passage) are the worst. Not forced: a run that
+does not read stays in ‹...›.
+
 ## Remaining gaps
 
-- no. 24 P2, the ‹...› runs (623 of 2,286 decrypted letters) - blocker: illegible; the runs decode but do not make sense, which points to sign misreadings at this photograph's resolution (20-25 px per sign, half of no. 6's) or to errors of the encipherer; a sign-level re-check needs a better image than DECODE's (ASSi reading room).
+- no. 24 P2, the ‹...› runs left after the 14 Oct revision (464 of 2,279 decrypted letters, 20.4%) - blocker: illegible; the runs decode but do not make sense, which points to sign misreadings at this photograph's resolution (20-25 px per sign, half of no. 6's) or to errors of the encipherer; a sign-level re-check needs a better image than DECODE's (ASSi reading room).
 - no. 6, 43 letters in ‹...› (4.6%) after the 14 Oct correction - blocker: illegible; scattered single words (‹teaite›, ‹kanaa·not›, ‹rver›mo, the surname Mont‹vccia›), not legible enough at the DECODE resolution
 - no. 24 dorse P1 (637 tokens), beyond the closing formula and signature - blocker: illegible; the dorse is cramped and partly lost at the fold (first-pass transcription marked "draft"); needs a better image.
 - the writer's surname (Mont‹vccia›; key heading "[M?]tucci") - blocker: illegible; the signature and the key heading are both damaged or cursive.
@@ -154,4 +214,4 @@ No. 6 now meets the read bar; no. 24 stays read in part, so the target as a whol
 - [x] known-keys: R4755 applied (the solver's match, confirmed here on the DECODE photograph); the other fasc. 1 keys were tried on these letters in siena1421 and do not fit.
 - [x] print: Meister 1902 (pp. 50-53, three Sienese keys of the 1430s, other values), the 1952 inventory, Treccani DBI (Petrucci); no printed decipherment of either letter found.
 - [x] key-rebuild: the key is complete for every letter sign that occurs (36 signs, 7 nulls); the gaps are not key gaps.
-- [x] retry: both letters decoded again from our own blind transcription (verify.py), and the dorse of no. 24 decoded for the first time (dorse24.py); the ‹...› runs stay unread under both transcriptions.
+- [x] retry: both letters decoded again from our own blind transcription (verify.py), and the dorse of no. 24 decoded for the first time (dorse24.py); the ‹...› runs stay unread under both transcriptions; 14 Oct: each run of no. 24 retried against the merged-label alternatives and the R4812 image (72.7% to 79.6%).
