@@ -1,0 +1,24 @@
+# Concistoro 2308 no. 6 (DECODE R4795): the outside reading, as submitted (bold text of the PDF "Siena, two ciphered letters to the Signori").
+# Solution by George Lasry, with Claude and with the help of ChatGPT Astra; sent to Daniel Bourdeau on 14 Oct 2026.
+# Conventions (theirs): [x] letter changed or added by the editor; {x} decrypted letter left out; <abc> rendered as ‹abc› =
+# decrypted letters not understood; (...) a gloss; · a null/dot. Word signs printed as words.
+# REVISED 14 Oct 2026 (this repo): S+o compound = z (key 'So'), 4 = u (key); four passages changed, see NOTES. Original:
+# Copied verbatim from the PDF text layer, line breaks as in the PDF. Verified here against our own transcription: see NOTES.md.
+
+No. 6
+Magnifici et potentes domini domini mei singularissimi, doppo humili recomandatione. ‹b·› per Biageo
+scr[i]se, sì quanto fu de bisognio. Pensolare ‹teaite› li nvovo a vi‹iao› come i signiori da la
+Mirandola, e ànno scricto a{a} Lucca che p{g}erò da ‹kanaa·not› chancelliere e di Petrolino
+da ‹rver›mo è stato co' Viniziani e saldate le sue ragioni; e{e} resta avere ducati tre[m]ilia da
+qual q[u]ali danno al presente la metà, e rendoli t{m}[u]cte le sue{e} cose; e dato, la sperava
+‹aa› di quelle del conte Luigi; e crede di certo lui s[t]a aconcio co' Viniziani, il perc[h]é è
+d'avere buona aduertenza a prese; [se] avete bis[o]gnio di gente d'arme, qua se n'
+trovarebbe degli uomeni valenti, e ven[i]r{d}e a dì quatordici di questo Piccinino cominc[i]ò
+a mandare {eo} quatrocento per fare [e] [a]prire la via per andare a Lucca; e à mandato i
+tronbetti per le brigate, {v} che sieno q[u]i per questa semana; e se 'l tenpo sarà mai più
+buono, se partiranno per tucto questo mese. Pe' q[u]al chancel{e}liere di misere Antonio
+Petruci tornò da Milano senza avere fact[o] nula ‹lado› e Bartalomeo, e i[l] perché f[u]i
+{·}con Piccinino e scrisse di nvovo; per lo modo [s]i doma[n]da ieri manda. Mo' e il
+chanceliere a Milano e Piccinino vi scrive per facti di Vincenzo da Camerino; è a mi
+inposto, ve l'ora comandi. E data a dì dicenove di Febrai[o]. Cristofano de Mont‹vccia› ‹·› si
+rac[o]manda. E il ea non s'achordarà col Duca di Milano, perché vuole troppe cose.

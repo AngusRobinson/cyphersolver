@@ -5,7 +5,7 @@
   "documents": [
     {
       "id": "no06",
-      "read": "read in part",
+      "read": "read",
       "shelfmark": "ASSi, Concistoro 2308, fasc. 2 \"Lettere in cifra\", no. 6 (DECODE R4795)",
       "date": "19 February, year not given (c. 1431-38)",
       "year": 1431,
@@ -191,9 +191,36 @@
       "what": "Dating checked: Mantua marquisate Sept 1433, Gonzaga to Milan 1438, Albert of Austria King of Hungary Dec 1437: no. 24 fits 1437-38 at least as well as the PDF's 1431-32.",
       "result": "partial"
     },
-    {"date": "2026-10-14", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 3689 tokens, 73 types, it-cinquecento order 4: reading -2.818 per letter; polyphonic: 23% of read tokens differ from their type's commonest value. Verdict: not applicable.", "result": "partial"}
-   ],
-  "outcome": {"validation": {"date": "2026-10-14", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 3689, "types": 73, "tokens_per_type": 50.53, "score": -2.818, "nulls": {}, "verdict": "not applicable", "notes": "polyphonic: 23% of read tokens differ from their type's commonest value"}, 
+    {
+      "date": "2026-10-14",
+      "kind": "verification",
+      "technique": [
+        "statistical test",
+        "language-model scoring"
+      ],
+      "what": "Statistical validation (docs/_validate.py): 3689 tokens, 73 types, it-cinquecento order 4: reading -2.818 per letter; polyphonic: 23% of read tokens differ from their type's commonest value. Verdict: not applicable.",
+      "result": "partial"
+    },
+    {
+      "date": "2026-10-14",
+      "kind": "key from source",
+      "what": "Key sheet R4755 re-read: z is the compound 'So' (plain S = o) and 4 = u. Checked on the DECODE image of no. 6 at all three z places (aduertenza, senza avere, Vincenzo). No. 6 rises from 879/941 (93.4%) to 896/939 (95.4%) understood; no. 6 now meets the read bar.",
+      "result": "worked"
+    }
+  ],
+  "outcome": {
+    "validation": {
+      "date": "2026-10-14",
+      "model": "it-cinquecento",
+      "file": "validation.tsv",
+      "tokens": 3689,
+      "types": 73,
+      "tokens_per_type": 50.53,
+      "score": -2.818,
+      "nulls": {},
+      "verdict": "not applicable",
+      "notes": "polyphonic: 23% of read tokens differ from their type's commonest value"
+    },
     "class": "read in part",
     "key": "recovered",
     "method": "key recovered from ciphertext-only",
@@ -203,9 +230,9 @@
       "sender or date identified",
       "catalogue correction"
     ],
-    "fraction_read": 0.776,
+    "fraction_read": 0.793,
     "fraction_read_method": "measured",
-    "fraction_read_source": "reading_no06.txt + reading_no24.txt: decrypted letters outside <...>/{...} over all decrypted letters (879/941 + 1,663/2,286 = 2,542/3,227); the no. 24 dorse (637 tokens) is not counted",
+    "fraction_read_source": "reading_no06_rev.txt (896/939, after the 14 Oct z/u correction) + reading_no24.txt (1,663/2,286): decrypted letters outside <...>/{...}; the no. 24 dorse (637 tokens) is not counted",
     "fraction_coherent": 0.776,
     "codes_open": {
       "open": 0,
@@ -218,7 +245,7 @@
         "blocker": "illegible"
       },
       {
-        "item": "no. 6, 62 letters in <...> (6.6%)",
+        "item": "no. 6, 43 letters in ‹...› (4.6%) after the 14 Oct correction",
         "blocker": "illegible"
       },
       {
@@ -230,7 +257,12 @@
         "blocker": "illegible"
       }
     ],
-    "verification": ["independent verification", "key confirms", "matched control", "historical consistency"],
+    "verification": [
+      "independent verification",
+      "key confirms",
+      "matched control",
+      "historical consistency"
+    ],
     "provenance": "contributed",
     "credits": [
       {

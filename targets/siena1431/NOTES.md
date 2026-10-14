@@ -1,7 +1,7 @@
 # Siena, Concistoro 2308 nos. 6 and 24: Cristofano's letters to the Signori, key R4755 (c. 1431-38)
 
 Status: read in part (outside solution, verified here). Key recovered ciphertext-only by the solver, then matched
-to the filed key DECODE R4755. No. 6 93.4% of its decrypted letters understood; no. 24 72.7%, and its dorse
+to the filed key DECODE R4755. No. 6 93.4% of its decrypted letters understood as submitted, **95.4% after the 14 Oct key correction (below)**; no. 24 72.7%, and its dorse
 (8 run-over lines) is not in the submitted reading.
 
 Split off from `targets/siena1421/` (the whole busta, catalogue 336), where nos. 6 and 24 were listed as one open
@@ -126,10 +126,24 @@ No. 6 (19 February; Piccinino's men opening the road to Lucca; Antonio Petrucci'
 February 1431 or February 1437/38 (Sienese style 1430 or 1436/37). Recorded as c. 1431-38; the PDF's 1431-32 is
 not adopted. This is reasoning from the decrypted content, graded M; the archive does not date either letter.
 
+## No. 6 pushed past 95% (14 Oct 2026)
+
+Two key values were misapplied in both the submitted reading and our check, and are settled on the key sheet R4755:
+- **z is the compound "So"** (an S with a small o attached), drawn so in the z column; plain S is o. Our transcription had split it into S + u/0. Seen on the DECODE image of no. 6 in all three places: line 7 "c So d" (aduert-en-z-a), line 11 "s e n So 5 o H pp" (senz-a auere), line 13 "c So 7" (Vincen-z-o). At "bi-S-gnio" (line 7) the S stands alone and is o: *bisognio*.
+- **4 = u** (the u column reads 9, H, 4, ϵ); our check had mapped 4 to i.
+
+Readings changed (reading_no06_rev.txt; the submitted reading is kept unchanged in reading_no06.txt):
+- "buona ‹adiertenaa›" → "buona **aduertenza**" (*avvertenza*)
+- "tornò da Milano [a] Sena ‹aaa›vere" → "tornò da Milano **senza avere** fact[o] **nula** ‹lado›": the chancellor came back from Milan *without having done anything*, not "to Siena"; no editorial insertion needed
+- "facti di Vincena{ao} da Camerino" → "facti di **Vincenzo** da Camerino"
+
+Measured with the same rule (verify.py `understood`): 896 of 939 decrypted letters understood = **95.4%** (was 879/941 = 93.4%). Without the *nula* change: 95.0% (the margin is thin). The signature "Montuccia" would add five letters but is not legible enough on the image and is not counted.
+No. 6 now meets the read bar; no. 24 stays read in part, so the target as a whole stays read in part.
+
 ## Remaining gaps
 
 - no. 24 P2, the ‹...› runs (623 of 2,286 decrypted letters) - blocker: illegible; the runs decode but do not make sense, which points to sign misreadings at this photograph's resolution (20-25 px per sign, half of no. 6's) or to errors of the encipherer; a sign-level re-check needs a better image than DECODE's (ASSi reading room).
-- no. 6, 62 letters in ‹...› (6.6%) - blocker: illegible; scattered single words (a surname, two verbs), same cause, already re-tried with both transcriptions (theirs and ours).
+- no. 6, 43 letters in ‹...› (4.6%) after the 14 Oct correction - blocker: illegible; scattered single words (‹teaite›, ‹kanaa·not›, ‹rver›mo, the surname Mont‹vccia›), not legible enough at the DECODE resolution
 - no. 24 dorse P1 (637 tokens), beyond the closing formula and signature - blocker: illegible; the dorse is cramped and partly lost at the fold (first-pass transcription marked "draft"); needs a better image.
 - the writer's surname (Mont‹vccia›; key heading "[M?]tucci") - blocker: illegible; the signature and the key heading are both damaged or cursive.
 
