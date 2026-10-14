@@ -66,7 +66,7 @@ STRONG = ['catalogue.json', 'SOLVED_CATALOGUE.md', 'SOLVED_RANKING.md', 'README.
           'targets/**/NOTES.md', 'targets/**/profile.json', 'targets/**/*.md']
 HARVEST = ['research/**/*.md', 'research/**/*.json']
 R_RE = re.compile(r'\bR ?(\d{1,5})\b')
-CID_RE = re.compile(r'\b[A-Z]{2}1[3-9][0-9X]{2}-\d+\b')
+CID_RE = re.compile(r'\b[A-Z]{2}[0-9X]{4}-\d+\b')
 
 
 def fetch_all():
@@ -170,7 +170,7 @@ def draft(row):
         'folio_note': '',
         'cls': None,
         'seen': 'catalogue',
-        'source': source_label(row),
+        'source': 'Cryptoole',
         'status': f"Cryptoole {row['cid']} ({status}): {row.get('details_en', '')}",
         'why': '',
         'importance': None, 'solvability': None, 'difficulty': None,
@@ -291,7 +291,7 @@ def write_md(kept, alerts, dropped, today):
             here += (' · ' if here else '') + 'harvested: ' + ', '.join(m['harvested'])
         title = (d['title'] or '').replace('|', '/')
         L.append(f"| [{c['cid']}]({c['case_page']}) | {d['year'] or '?'} | [{title}]({c['url']}) | "
-                 f"{d['source'][11:-1]} | {d['shelfmark'].replace('|', '/')[:60]} | {r} | {here[:120]} |")
+                 f"{source_label({'sources': c['sources']})[11:-1]} | {d['shelfmark'].replace('|', '/')[:60]} | {r} | {here[:120]} |")
     (HERE / 'candidates.md').write_text('\n'.join(L) + '\n', encoding='utf-8')
 
 

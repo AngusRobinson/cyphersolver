@@ -1,0 +1,1751 @@
+[
+ {
+  "id": null,
+  "counted": false,
+  "year": 1483,
+  "date": "16 Mar 1483",
+  "title": "Nicolo Sadoleto to Ferdinand I",
+  "correspondents": "",
+  "place": "",
+  "language": "Italian",
+  "region": "Germany",
+  "period": "15th century",
+  "shelfmark": "Modena, State Archives of Modena, Ambasciatori b. 1/10, 9a, Envoy reports, Ferrara",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (DECODE)",
+  "status": "Cryptoole HU1483-2 (partly solved): Modena, State Archives of Modena, Ambasciatori b. 1/10, 9a, Envoy reports, Ferrara · Italian · Germany & Central Europe",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://de-crypt.org/decrypt-web/RecordsView/1108 (Cryptoole https://cryptoole.satoru.net/case.html?id=HU1483-2).",
+  "cryptoole": {
+   "cid": "HU1483-2",
+   "id": "decode:1108",
+   "url": "https://de-crypt.org/decrypt-web/RecordsView/1108",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=HU1483-2",
+   "sources": [
+    "decode"
+   ],
+   "r_numbers": [
+    "R1108"
+   ],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 1
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1483,
+  "date": "11 May 1483",
+  "title": "Nicolo Sadoleto to Ercole I d’Este",
+  "correspondents": "",
+  "place": "",
+  "language": "Italian",
+  "region": "Germany",
+  "period": "15th century",
+  "shelfmark": "Modena, State Archives of Modena, Ambasciatori b. 1/10, 19a, Envoy reports, Ferrara",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (DECODE)",
+  "status": "Cryptoole HU1483-5 (partly solved): Modena, State Archives of Modena, Ambasciatori b. 1/10, 19a, Envoy reports, Ferrara · Italian · Germany & Central Europe",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://de-crypt.org/decrypt-web/RecordsView/1111 (Cryptoole https://cryptoole.satoru.net/case.html?id=HU1483-5).",
+  "cryptoole": {
+   "cid": "HU1483-5",
+   "id": "decode:1111",
+   "url": "https://de-crypt.org/decrypt-web/RecordsView/1111",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=HU1483-5",
+   "sources": [
+    "decode"
+   ],
+   "r_numbers": [
+    "R1111",
+    "R1113",
+    "R1115"
+   ],
+   "members": 2
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 2
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1491,
+  "date": "27 Feb 1492",
+  "title": "SAMo Amb Ung b",
+  "correspondents": "",
+  "place": "",
+  "language": "Italian",
+  "region": "Germany",
+  "period": "15th century",
+  "shelfmark": "Modena, State Archives of Modena, Amb. Ung. b. 2/20, 6, Envoy reports, Ferrara",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (DECODE)",
+  "status": "Cryptoole HU1492-2 (partly solved): Modena, State Archives of Modena, Amb. Ung. b. 2/20, 6, Envoy reports, Ferrara · Italian · Germany & Central Europe",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://de-crypt.org/decrypt-web/RecordsView/1162 (Cryptoole https://cryptoole.satoru.net/case.html?id=HU1492-2).",
+  "cryptoole": {
+   "cid": "HU1492-2",
+   "id": "decode:1162",
+   "url": "https://de-crypt.org/decrypt-web/RecordsView/1162",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=HU1492-2",
+   "sources": [
+    "decode"
+   ],
+   "r_numbers": [
+    "R1095",
+    "R1096",
+    "R1097",
+    "R1162",
+    "R1163",
+    "R1164",
+    "R1165",
+    "R1166",
+    "R1167",
+    "R1168"
+   ],
+   "members": 9
+  },
+  "match": {
+   "known": {},
+   "harvested": {
+    "R1095": [
+     "research/oldest/CANDIDATES.md"
+    ],
+    "R1097": [
+     "research/oldest/CANDIDATES.md"
+    ],
+    "R1162": [
+     "research/oldest/CANDIDATES.md"
+    ],
+    "R1168": [
+     "research/oldest/CANDIDATES.md"
+    ]
+   }
+  },
+  "n": 3
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1495,
+  "date": "11 May 1495",
+  "title": "ACA Diversos Sástago (Lío B)",
+  "correspondents": "",
+  "place": "",
+  "language": "Spanish",
+  "region": "Spain",
+  "period": "15th century",
+  "shelfmark": "Barcelona, Archivo de la Corona de Aragón, Diversos, Sástago, 193 (Lío B), nº 79/58.",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (DECODE)",
+  "status": "Cryptoole XX1495-9 (open): Barcelona, Archivo de la Corona de Aragón, Diversos, Sástago, 193 (Lío B), nº 79/58. · Spain",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://de-crypt.org/decrypt-web/RecordsView/10172 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1495-9).",
+  "cryptoole": {
+   "cid": "XX1495-9",
+   "id": "decode:10172",
+   "url": "https://de-crypt.org/decrypt-web/RecordsView/10172",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1495-9",
+   "sources": [
+    "decode"
+   ],
+   "r_numbers": [
+    "R10172",
+    "R10173",
+    "R10174",
+    "R10175",
+    "R10176",
+    "R10177",
+    "R10178",
+    "R10179",
+    "R10180"
+   ],
+   "members": 8
+  },
+  "match": {
+   "known": {},
+   "harvested": {
+    "R10172": [
+     "research/oldest/CANDIDATES.md"
+    ],
+    "R10175": [
+     "research/oldest/CANDIDATES.md"
+    ]
+   }
+  },
+  "n": 4
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1498,
+  "date": "1498",
+  "title": "Postscript to King Ferdinand's Letter to his Ambassador in Rome",
+  "correspondents": "",
+  "place": "",
+  "language": "Spanish",
+  "region": "Spain",
+  "period": "1497-1559",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole IT1498-1 (open): Spanish (inferred from the section) · Spain · Spanish",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Postscript%20to%20King%20Ferdinand%27s%20Letter%20to%20his%20Ambassador%20in%20R (Cryptoole https://cryptoole.satoru.net/case.html?id=IT1498-1).",
+  "cryptoole": {
+   "cid": "IT1498-1",
+   "id": "cryptiana:Postscript to King Ferdinand's Letter to his Ambassador in Rome (1498)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Postscript%20to%20King%20Ferdinand%27s%20Letter%20to%20his%20Ambassador%20in%20R",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=IT1498-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 5
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1503,
+  "date": "27 Apr 1503",
+  "title": "The viceroy of Sicily to King Ferdinand, Messina",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "1497-1559",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Rosson cipher-readings)",
+  "status": "Cryptoole IT1503-8 (partly solved): Partly solved: Oct 2026, Paolo Rosson · BnF, Espagnol 318, no. 94 · Other / several",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://pangoleen.github.io/cipher-readings/espagnol-318.html (Cryptoole https://cryptoole.satoru.net/case.html?id=IT1503-8).",
+  "cryptoole": {
+   "cid": "IT1503-8",
+   "id": "rosson:espagnol-318",
+   "url": "https://pangoleen.github.io/cipher-readings/espagnol-318.html",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=IT1503-8",
+   "sources": [
+    "rosson"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 6
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1504,
+  "date": "24 Feb 1504",
+  "title": "The Spanish ambassador at Venice to Ferdinand and Isabella",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "1497-1559",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Rosson cipher-readings)",
+  "status": "Cryptoole IT1504-12 (partly solved): Partly solved: Oct 2026, Paolo Rosson · BnF, Espagnol 318, no. 93 · Other / several",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://pangoleen.github.io/cipher-readings/espagnol-318-no93.html (Cryptoole https://cryptoole.satoru.net/case.html?id=IT1504-12).",
+  "cryptoole": {
+   "cid": "IT1504-12",
+   "id": "rosson:espagnol-318-no93",
+   "url": "https://pangoleen.github.io/cipher-readings/espagnol-318-no93.html",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=IT1504-12",
+   "sources": [
+    "rosson"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 7
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1509,
+  "date": "3 Nov 1509",
+  "title": "Catherine of Aragon",
+  "correspondents": "",
+  "place": "",
+  "language": "Spanish",
+  "region": "Spain",
+  "period": "1497-1559",
+  "shelfmark": "Valladolid, Archivo General de Simancas, España",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (DECODE)",
+  "status": "Cryptoole ES1509-2 (open): Valladolid, Archivo General de Simancas, España · Spanish · Spain",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://de-crypt.org/decrypt-web/RecordsView/361 (Cryptoole https://cryptoole.satoru.net/case.html?id=ES1509-2).",
+  "cryptoole": {
+   "cid": "ES1509-2",
+   "id": "decode:361",
+   "url": "https://de-crypt.org/decrypt-web/RecordsView/361",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=ES1509-2",
+   "sources": [
+    "decode"
+   ],
+   "r_numbers": [
+    "R361"
+   ],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 8
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1567,
+  "date": "1567",
+  "title": "Catherine de Medicis to Philibert du Croc",
+  "correspondents": "",
+  "place": "",
+  "language": "French",
+  "region": "France",
+  "period": "1560-1589",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana, DECODE)",
+  "status": "Cryptoole XX1567-1 (partly solved): Partly solved: satorunet · French (inferred from the section) · France · French (up to 1610)",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Catherine%20de%20Medicis%20to%20Philibert%20du%20Croc%20%281567%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1567-1).",
+  "cryptoole": {
+   "cid": "XX1567-1",
+   "id": "cryptiana:Catherine de Medicis to Philibert du Croc (1567)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Catherine%20de%20Medicis%20to%20Philibert%20du%20Croc%20%281567%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1567-1",
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "r_numbers": [
+    "R2788"
+   ],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 9
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1577,
+  "date": "8 Sep 1577",
+  "title": "Nicolas de Neufville, Seigneur de Villeroi to Henry III of France",
+  "correspondents": "",
+  "place": "",
+  "language": "French",
+  "region": "France",
+  "period": "1560-1589",
+  "shelfmark": "private?",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (DECODE)",
+  "status": "Cryptoole FR1577-2 (partly solved): private? · French · France",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://de-crypt.org/decrypt-web/RecordsView/2787 (Cryptoole https://cryptoole.satoru.net/case.html?id=FR1577-2).",
+  "cryptoole": {
+   "cid": "FR1577-2",
+   "id": "decode:2787",
+   "url": "https://de-crypt.org/decrypt-web/RecordsView/2787",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=FR1577-2",
+   "sources": [
+    "decode"
+   ],
+   "r_numbers": [
+    "R2787"
+   ],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 10
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1586,
+  "date": "1586",
+  "title": "Cardinal Scipione Gonzaga to the Duke of Nevers, 1586 to 1590",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "1560-1589",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Rosson cipher-readings)",
+  "status": "Cryptoole FR1586-3 (partly solved): Partly solved: Oct 2026, Paolo Rosson · BnF, fr. 4698, fr. 4702 and fr. 4696 · Other / several",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://pangoleen.github.io/cipher-readings/gonzaga-1590.html (Cryptoole https://cryptoole.satoru.net/case.html?id=FR1586-3).",
+  "cryptoole": {
+   "cid": "FR1586-3",
+   "id": "rosson:gonzaga-1590",
+   "url": "https://pangoleen.github.io/cipher-readings/gonzaga-1590.html",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=FR1586-3",
+   "sources": [
+    "rosson"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 11
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1590,
+  "date": "c. 1590",
+  "title": "French (or Italian) Ciphers",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "1589-1598",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole IT1590-1 (partly solved): Partly solved: 2020, George Lasry · Other / several · French, Italian, Spanish",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=French%20%28or%20Italian%29%20Ciphers%20%28c.1590%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=IT1590-1).",
+  "cryptoole": {
+   "cid": "IT1590-1",
+   "id": "cryptiana:French (or Italian) Ciphers (c.1590)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=French%20%28or%20Italian%29%20Ciphers%20%28c.1590%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=IT1590-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 12
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1592,
+  "date": "11 Dec 1592",
+  "title": "Three cipher letters of Vincenzo Badalocchio, agent in Rome of the Duke of Nevers, of 5 and 11 December 1592 and 9(?) January 1593, in Italian",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "1589-1598",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Rosson cipher-readings)",
+  "status": "Cryptoole IT1593-24 (partly solved): Partly solved: Oct 2026, Paolo Rosson · BnF, fr. 4700, ff. 85r, 65r and 80r · Other / several",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://pangoleen.github.io/cipher-readings/badalocchio-1593.html (Cryptoole https://cryptoole.satoru.net/case.html?id=IT1593-24).",
+  "cryptoole": {
+   "cid": "IT1593-24",
+   "id": "rosson:badalocchio-1593",
+   "url": "https://pangoleen.github.io/cipher-readings/badalocchio-1593.html",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=IT1593-24",
+   "sources": [
+    "rosson"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 13
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1593,
+  "date": "1593 – 1594",
+  "title": "Ciphertexts Left Undeciphered by François Viète",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "1589-1598",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX159X-1 (partly solved): Partly solved: 2020, George Lasry · Other / several · French, Italian, Spanish",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Ciphertexts%20Left%20Undeciphered%20by%20Fran%C3%A7ois%20Vi%C3%A8te%20%281593-1594%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX159X-1).",
+  "cryptoole": {
+   "cid": "XX159X-1",
+   "id": "cryptiana:Ciphertexts Left Undeciphered by François Viète (1593-1594)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Ciphertexts%20Left%20Undeciphered%20by%20Fran%C3%A7ois%20Vi%C3%A8te%20%281593-1594%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX159X-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 14
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1593,
+  "date": "1 May 1593",
+  "title": "The Duke of Nevers to the Oratorian Tommaso Bozio in Rome, minute of 1 May 1593, in Italian",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "1589-1598",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Rosson cipher-readings)",
+  "status": "Cryptoole IT1593-25 (partly solved): Partly solved: Oct 2026, Paolo Rosson · BnF, fr. 4700, no. 38, f. 72r · Other / several",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://pangoleen.github.io/cipher-readings/nevers-1593.html (Cryptoole https://cryptoole.satoru.net/case.html?id=IT1593-25).",
+  "cryptoole": {
+   "cid": "IT1593-25",
+   "id": "rosson:nevers-1593",
+   "url": "https://pangoleen.github.io/cipher-readings/nevers-1593.html",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=IT1593-25",
+   "sources": [
+    "rosson"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 15
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1610,
+  "date": "1610",
+  "title": "Blancmesnil to Duke of Nevers",
+  "correspondents": "",
+  "place": "",
+  "language": "French",
+  "region": "France",
+  "period": "1598-1610",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole FR1610-1 (open): French (inferred from the section) · France · French (up to 1610)",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Blancmesnil%20to%20Duke%20of%20Nevers (Cryptoole https://cryptoole.satoru.net/case.html?id=FR1610-1).",
+  "cryptoole": {
+   "cid": "FR1610-1",
+   "id": "cryptiana:Blancmesnil to Duke of Nevers",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Blancmesnil%20to%20Duke%20of%20Nevers",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=FR1610-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 16
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1631,
+  "date": "1631 – 1635",
+  "title": "Melchior de Sabran",
+  "correspondents": "",
+  "place": "",
+  "language": "French",
+  "region": "France",
+  "period": "1611-1650",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX163X-3 (partly solved): Partly solved: 2022, George Lasry · French (inferred from the section) · France · French (17th Century)",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Melchior%20de%20Sabran%20%281631-1635%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX163X-3).",
+  "cryptoole": {
+   "cid": "XX163X-3",
+   "id": "cryptiana:Melchior de Sabran (1631-1635)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Melchior%20de%20Sabran%20%281631-1635%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX163X-3",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 17
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1645,
+  "date": "1645",
+  "title": "Prince Rupert's Cipher with His Brother Maurice",
+  "correspondents": "",
+  "place": "",
+  "language": "English",
+  "region": "England",
+  "period": "1611-1650",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX1645-2 (open): English (inferred from the section) · England & Britain · English Civil War",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Prince%20Rupert%27s%20Cipher%20with%20His%20Brother%20Maurice%20%281645%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1645-2).",
+  "cryptoole": {
+   "cid": "XX1645-2",
+   "id": "cryptiana:Prince Rupert's Cipher with His Brother Maurice (1645)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Prince%20Rupert%27s%20Cipher%20with%20His%20Brother%20Maurice%20%281645%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1645-2",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 18
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1648,
+  "date": "1648",
+  "title": "A Letter to Prince Rupert",
+  "correspondents": "",
+  "place": "",
+  "language": "English",
+  "region": "England",
+  "period": "1611-1650",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana, DECODE)",
+  "status": "Cryptoole XX1648-1 (open): English (inferred from the section) · England & Britain · English Civil War",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=A%20Letter%20to%20Prince%20Rupert%20%281648%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1648-1).",
+  "cryptoole": {
+   "cid": "XX1648-1",
+   "id": "cryptiana:A Letter to Prince Rupert (1648)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=A%20Letter%20to%20Prince%20Rupert%20%281648%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1648-1",
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "r_numbers": [
+    "R8447"
+   ],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 19
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1650,
+  "date": "1650",
+  "title": "Charles II to Duke of Hamilton",
+  "correspondents": "",
+  "place": "",
+  "language": "English",
+  "region": "England",
+  "period": "1611-1650",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX1650-1 (open): English (inferred from the section) · England & Britain · English Civil War",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Charles%20II%20to%20Duke%20of%20Hamilton%20%281650%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1650-1).",
+  "cryptoole": {
+   "cid": "XX1650-1",
+   "id": "cryptiana:Charles II to Duke of Hamilton (1650)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Charles%20II%20to%20Duke%20of%20Hamilton%20%281650%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1650-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 20
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1654,
+  "date": "1654",
+  "title": "Prince of Condé",
+  "correspondents": "",
+  "place": "",
+  "language": "French",
+  "region": "France",
+  "period": "1651-1700",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana, DECODE)",
+  "status": "Cryptoole XX1654-1 (open): French (inferred from the section) · France · French (17th Century)",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Prince%20of%20Cond%C3%A9%20%281654%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1654-1).",
+  "cryptoole": {
+   "cid": "XX1654-1",
+   "id": "cryptiana:Prince of Condé (1654)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Prince%20of%20Cond%C3%A9%20%281654%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1654-1",
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "r_numbers": [
+    "R8395",
+    "R8398"
+   ],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 21
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1656,
+  "date": "1656",
+  "title": "Intercepted Letters",
+  "correspondents": "",
+  "place": "",
+  "language": "English",
+  "region": "England",
+  "period": "1651-1700",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX1656-1 (open): English (inferred from the section) · England & Britain · Intercepts by Commonwealth",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Intercepted%20Letters%20%281656%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1656-1).",
+  "cryptoole": {
+   "cid": "XX1656-1",
+   "id": "cryptiana:Intercepted Letters (1656)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Intercepted%20Letters%20%281656%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1656-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 22
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1659,
+  "date": "1659",
+  "title": "An Intercepted Letter of Hyde",
+  "correspondents": "",
+  "place": "",
+  "language": "English",
+  "region": "England",
+  "period": "1651-1700",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana, DECODE)",
+  "status": "Cryptoole XX1659-1 (open): English (inferred from the section) · England & Britain · English Civil War",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=An%20Intercepted%20Letter%20of%20Hyde%20%281659%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1659-1).",
+  "cryptoole": {
+   "cid": "XX1659-1",
+   "id": "cryptiana:An Intercepted Letter of Hyde (1659)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=An%20Intercepted%20Letter%20of%20Hyde%20%281659%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1659-1",
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "r_numbers": [
+    "R4886"
+   ],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 23
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1665,
+  "date": "1665, 1673, 1674",
+  "title": "Colbert Correspondence",
+  "correspondents": "",
+  "place": "",
+  "language": "French",
+  "region": "France",
+  "period": "1651-1700",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX16XX-549 (open): French (inferred from the section) · France · French (17th Century)",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Colbert%20Correspondence%20%281665%2C%201673%2C%201674%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX16XX-549).",
+  "cryptoole": {
+   "cid": "XX16XX-549",
+   "id": "cryptiana:Colbert Correspondence (1665, 1673, 1674)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Colbert%20Correspondence%20%281665%2C%201673%2C%201674%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX16XX-549",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 24
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1678,
+  "date": "1678",
+  "title": "An Unidentified Ormond-Arran Cipher",
+  "correspondents": "",
+  "place": "",
+  "language": "English",
+  "region": "England",
+  "period": "1651-1700",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX1678-1 (open): English (inferred from the section) · England & Britain · English Civil War",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=An%20Unidentified%20Ormond-Arran%20Cipher%20%281678%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1678-1).",
+  "cryptoole": {
+   "cid": "XX1678-1",
+   "id": "cryptiana:An Unidentified Ormond-Arran Cipher (1678)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=An%20Unidentified%20Ormond-Arran%20Cipher%20%281678%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1678-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 25
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1690,
+  "date": "1690",
+  "title": "French Cipher to Ambassador in Rome",
+  "correspondents": "",
+  "place": "",
+  "language": "French",
+  "region": "France",
+  "period": "1651-1700",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole IT1690-1 (open): French (inferred from the section) · France · French",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=French%20Cipher%20to%20Ambassador%20in%20Rome%20%281690%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=IT1690-1).",
+  "cryptoole": {
+   "cid": "IT1690-1",
+   "id": "cryptiana:French Cipher to Ambassador in Rome (1690)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=French%20Cipher%20to%20Ambassador%20in%20Rome%20%281690%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=IT1690-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 26
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1702,
+  "date": "1702",
+  "title": "French Cipher Despatch of General Catinat",
+  "correspondents": "",
+  "place": "",
+  "language": "French",
+  "region": "France",
+  "period": "1701-1800",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX1702-1 (open): French (inferred from the section) · France · French",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=French%20Cipher%20Despatch%20of%20General%20Catinat%20%281702%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1702-1).",
+  "cryptoole": {
+   "cid": "XX1702-1",
+   "id": "cryptiana:French Cipher Despatch of General Catinat (1702)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=French%20Cipher%20Despatch%20of%20General%20Catinat%20%281702%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1702-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 27
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1718,
+  "date": "1718",
+  "title": "ACA_Diversos_Cajón_1_leg.22_doc.67.",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Spain",
+  "period": "1701-1800",
+  "shelfmark": "Barcelona, Archivo de la Corona de Aragón, Diversos,Legación en Génova y Turín, Cajón 1, leg. 22, doc. 67.",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (DECODE)",
+  "status": "Cryptoole XX1718-2 (open): Barcelona, Archivo de la Corona de Aragón, Diversos,Legación en Génova y Turín, Cajón 1, leg. 22, doc. 67. · Spain",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://de-crypt.org/decrypt-web/RecordsView/10181 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1718-2).",
+  "cryptoole": {
+   "cid": "XX1718-2",
+   "id": "decode:10181",
+   "url": "https://de-crypt.org/decrypt-web/RecordsView/10181",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1718-2",
+   "sources": [
+    "decode"
+   ],
+   "r_numbers": [
+    "R10181"
+   ],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 28
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1779,
+  "date": "1779",
+  "title": "French Code during the American Revolutionary War",
+  "correspondents": "",
+  "place": "",
+  "language": "French",
+  "region": "France",
+  "period": "1701-1800",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole US1779-1 (open): French (inferred from the section) · France · French",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=French%20Code%20during%20the%20American%20Revolutionary%20War%20%281779%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=US1779-1).",
+  "cryptoole": {
+   "cid": "US1779-1",
+   "id": "cryptiana:French Code during the American Revolutionary War (1779)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=French%20Code%20during%20the%20American%20Revolutionary%20War%20%281779%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=US1779-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 29
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1911,
+  "date": "1911",
+  "title": "A Diplomatic Telegram from British Consulate in Africa",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "unknown",
+  "shelfmark": "Other / several",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX1911-1 (open): Other / several · Telegraphic Age",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=A%20Diplomatic%20Telegram%20from%20British%20Consulate%20in%20Africa%20%281911 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1911-1).",
+  "cryptoole": {
+   "cid": "XX1911-1",
+   "id": "cryptiana:A Diplomatic Telegram from British Consulate in Africa (1911)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=A%20Diplomatic%20Telegram%20from%20British%20Consulate%20in%20Africa%20%281911",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1911-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 30
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1917,
+  "date": "Jun 1917",
+  "title": "Telegrams between Sun Yat-sen and Dai Jitao (June 1917)",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "unknown",
+  "shelfmark": "Other / several",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX1917-4 (open): Other / several · Telegraphic Age",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Telegrams%20between%20Sun%20Yat-sen%20and%20Dai%20Jitao%20%28June%201917%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1917-4).",
+  "cryptoole": {
+   "cid": "XX1917-4",
+   "id": "cryptiana:Telegrams between Sun Yat-sen and Dai Jitao (June 1917)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Telegrams%20between%20Sun%20Yat-sen%20and%20Dai%20Jitao%20%28June%201917%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1917-4",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 31
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1920,
+  "date": "c. 1920",
+  "title": "Japanese Coded Telegram Decoded by Yardley",
+  "correspondents": "",
+  "place": "",
+  "language": "Japanese",
+  "region": "Other",
+  "period": "unknown",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole JP1920-1 (open): Japanese (inferred from the section) · Asia · Telegraphic Age",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Japanese%20Coded%20Telegram%20Decoded%20by%20Yardley%20%28c.%201920%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=JP1920-1).",
+  "cryptoole": {
+   "cid": "JP1920-1",
+   "id": "cryptiana:Japanese Coded Telegram Decoded by Yardley (c. 1920)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Japanese%20Coded%20Telegram%20Decoded%20by%20Yardley%20%28c.%201920%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=JP1920-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 32
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1937,
+  "date": "1937",
+  "title": "A Telegram from Switzerland",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "unknown",
+  "shelfmark": "Other / several",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole CH1937-1 (open): Other / several · Telegraphic Age",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=A%20Telegram%20from%20Switzerland%20%281937%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=CH1937-1).",
+  "cryptoole": {
+   "cid": "CH1937-1",
+   "id": "cryptiana:A Telegram from Switzerland (1937)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=A%20Telegram%20from%20Switzerland%20%281937%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=CH1937-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 33
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": 1938,
+  "date": "c. 1938",
+  "title": "Telegrams Found in a Sunken Ship Zhongshan",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "unknown",
+  "shelfmark": "Other / several",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XX1938-1 (open): Other / several · Telegraphic Age",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Telegrams%20Found%20in%20a%20Sunken%20Ship%20Zhongshan%20%28ca.1938%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=XX1938-1).",
+  "cryptoole": {
+   "cid": "XX1938-1",
+   "id": "cryptiana:Telegrams Found in a Sunken Ship Zhongshan (ca.1938)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Telegrams%20Found%20in%20a%20Sunken%20Ship%20Zhongshan%20%28ca.1938%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XX1938-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 34
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": null,
+  "date": "—",
+  "title": "An Intercepted Letter",
+  "correspondents": "",
+  "place": "",
+  "language": "English",
+  "region": "England",
+  "period": "unknown",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XXXXXX-1 (open): English (inferred from the section) · England & Britain · English Civil War",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=An%20Intercepted%20Letter (Cryptoole https://cryptoole.satoru.net/case.html?id=XXXXXX-1).",
+  "cryptoole": {
+   "cid": "XXXXXX-1",
+   "id": "cryptiana:An Intercepted Letter",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=An%20Intercepted%20Letter",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XXXXXX-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 35
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": null,
+  "date": "—",
+  "title": "Ciphers related to Sir Francis Walsingham",
+  "correspondents": "",
+  "place": "",
+  "language": "English",
+  "region": "England",
+  "period": "unknown",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XXXXXX-4 (partly solved): Partly solved: 24 Sep 2026, Ryan Turner · English (inferred from the section) · England & Britain · English",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Ciphers%20related%20to%20Sir%20Francis%20Walsingham (Cryptoole https://cryptoole.satoru.net/case.html?id=XXXXXX-4).",
+  "cryptoole": {
+   "cid": "XXXXXX-4",
+   "id": "cryptiana:Ciphers related to Sir Francis Walsingham",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Ciphers%20related%20to%20Sir%20Francis%20Walsingham",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XXXXXX-4",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 36
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": null,
+  "date": "—",
+  "title": "Fragments in Novel Cipher Invented by a Milanese",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "unknown",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole ITXXXX-1 (partly solved): Partly solved: Luis Valle de la Cerda · Other / several · French, Italian, Spanish",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Fragments%20in%20Novel%20Cipher%20Invented%20by%20a%20Milanese (Cryptoole https://cryptoole.satoru.net/case.html?id=ITXXXX-1).",
+  "cryptoole": {
+   "cid": "ITXXXX-1",
+   "id": "cryptiana:Fragments in Novel Cipher Invented by a Milanese",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Fragments%20in%20Novel%20Cipher%20Invented%20by%20a%20Milanese",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=ITXXXX-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 37
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": null,
+  "date": "—",
+  "title": "German Diplomatic Codes during WWI",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Other",
+  "period": "unknown",
+  "shelfmark": "Other / several",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole DEXXXX-2 (open): Other / several · Telegraphic Age · no longer listed (2026-10-11)",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=German%20Diplomatic%20Codes%20during%20WWI (Cryptoole https://cryptoole.satoru.net/case.html?id=DEXXXX-2).",
+  "cryptoole": {
+   "cid": "DEXXXX-2",
+   "id": "cryptiana:German Diplomatic Codes during WWI",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=German%20Diplomatic%20Codes%20during%20WWI",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=DEXXXX-2",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 38
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": null,
+  "date": "—",
+  "title": "King of Hungary and Bohemia (Future Ferdinand III)",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Germany",
+  "period": "unknown",
+  "shelfmark": "Germany & Central Europe",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole HUXXXX-1 (open): Germany & Central Europe · German",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=King%20of%20Hungary%20and%20Bohemia%20%28Future%20Ferdinand%20III%29 (Cryptoole https://cryptoole.satoru.net/case.html?id=HUXXXX-1).",
+  "cryptoole": {
+   "cid": "HUXXXX-1",
+   "id": "cryptiana:King of Hungary and Bohemia (Future Ferdinand III)",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=King%20of%20Hungary%20and%20Bohemia%20%28Future%20Ferdinand%20III%29",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=HUXXXX-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 39
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": null,
+  "date": "—",
+  "title": "More Ciphers of Ferdinand III?",
+  "correspondents": "",
+  "place": "",
+  "language": "unknown",
+  "region": "Germany",
+  "period": "unknown",
+  "shelfmark": "Germany & Central Europe",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana, DECODE)",
+  "status": "Cryptoole AT1640-1 (open): Germany & Central Europe · German",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=More%20Ciphers%20of%20Ferdinand%20III%3F (Cryptoole https://cryptoole.satoru.net/case.html?id=AT1640-1).",
+  "cryptoole": {
+   "cid": "AT1640-1",
+   "id": "cryptiana:More Ciphers of Ferdinand III?",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=More%20Ciphers%20of%20Ferdinand%20III%3F",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=AT1640-1",
+   "sources": [
+    "cryptiana",
+    "decode"
+   ],
+   "r_numbers": [
+    "R1579"
+   ],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 40
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": null,
+  "date": "—",
+  "title": "Papal Ciphers from the 16th to the 18th Century",
+  "correspondents": "",
+  "place": "",
+  "language": "Italian",
+  "region": "Papacy",
+  "period": "unknown",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole VAXXXX-1 (partly solved): Partly solved: 2020, George Lasry · Italian (inferred from the section) · Italy & Papacy · Italian (Vatican)",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Papal%20Ciphers%20from%20the%2016th%20to%20the%2018th%20Century (Cryptoole https://cryptoole.satoru.net/case.html?id=VAXXXX-1).",
+  "cryptoole": {
+   "cid": "VAXXXX-1",
+   "id": "cryptiana:Papal Ciphers from the 16th to the 18th Century",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Papal%20Ciphers%20from%20the%2016th%20to%20the%2018th%20Century",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=VAXXXX-1",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 41
+ },
+ {
+  "id": null,
+  "counted": false,
+  "year": null,
+  "date": "—",
+  "title": "The \"Decoding the Civil War\" Project",
+  "correspondents": "",
+  "place": "",
+  "language": "English",
+  "region": "Other",
+  "period": "unknown",
+  "shelfmark": "",
+  "ark": "",
+  "folio_note": "",
+  "cls": null,
+  "seen": "catalogue",
+  "source": "Cryptoole (Cryptiana)",
+  "status": "Cryptoole XXXXXX-8 (open): English (inferred from the section) · Americas · American",
+  "why": "",
+  "importance": null,
+  "solvability": null,
+  "difficulty": null,
+  "verify": "View the leaves at https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=The%20%22Decoding%20the%20Civil%20War%22%20Project (Cryptoole https://cryptoole.satoru.net/case.html?id=XXXXXX-8).",
+  "cryptoole": {
+   "cid": "XXXXXX-8",
+   "id": "cryptiana:The \"Decoding the Civil War\" Project",
+   "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=The%20%22Decoding%20the%20Civil%20War%22%20Project",
+   "case_page": "https://cryptoole.satoru.net/case.html?id=XXXXXX-8",
+   "sources": [
+    "cryptiana"
+   ],
+   "r_numbers": [],
+   "members": 0
+  },
+  "match": {
+   "known": {},
+   "harvested": {}
+  },
+  "n": 42
+ }
+]

@@ -1,0 +1,300 @@
+[
+ {
+  "n": 1,
+  "cid": "HU1483-2",
+  "title": "Nicolò Sadoleto to Ferdinand I, 16 Mar 1483 (DECODE R1108)",
+  "verdict": "duplicate",
+  "reason": "Sadoleto's 1483 Buda letters (DECODE R1107-R1118) were all checked on 19 Sept 2026 in targets/sadoleto1482/ (metadata and images downloaded, decode/rec1108.htm): every 1483 letter has a contemporary decipherment (filed copies or clear slips on the leaf). research/oldest/CANDIDATES.md B2 records it as closed. DECODE's 'Partially decrypted' reflects those period decipherments.",
+  "duplicate_of": "targets/sadoleto1482 (and research/oldest/CANDIDATES.md B2)"
+ },
+ {
+  "n": 2,
+  "cid": "HU1483-5",
+  "title": "Nicolò Sadoleto to Ercole I d'Este, 11 May 1483 (DECODE R1111, R1113, R1115)",
+  "verdict": "duplicate",
+  "reason": "Same 1483 Sadoleto series (R1107-R1118), checked in targets/sadoleto1482/ on 19 Sept 2026 (decode/rec1111.htm, rec1113.htm, rec1115.htm): read at the time, with contemporary decipherments.",
+  "duplicate_of": "targets/sadoleto1482 (and research/oldest/CANDIDATES.md B2)"
+ },
+ {
+  "n": 3,
+  "cid": "HU1492-2",
+  "title": "Beltrame Costabili, Esztergom, to Eleonora d'Aragona and Ercole I d'Este, 1491-93 (DECODE R1095-R1097, R1162-R1168)",
+  "verdict": "add",
+  "reason": "Not a target or a catalogue entry. research/oldest/CANDIDATES.md B2 names the Costabili letters but says 'Valentini and Costabili not checked'. There are ten DECODE records, 33 pp. in all, marked 'Partially decrypted'. Images need a login. No published decipherment was found (web search; Cryptiana has no section).",
+  "entry": {
+   "counted": true,
+   "ark": "",
+   "folio_note": "R1163/R1164 (17 Mar 1491) 4+4 pp.; R1165 (15 Jun 1491) 5 pp.; R1166 (21 Jun 1491) 4 pp.; R1167 (22 Dec 1491) 7 pp.; R1162 (27 Feb 1492) 2 pp.; R1168 (20 Mar 1492) 4 pp.; R1095–R1097 (13 Mar, 22 Apr, 18 Jul 1493) 1 p. each",
+   "seen": "catalogue",
+   "prior_art": "open (checked 14 Oct 2026)",
+   "score_note": "Scored from the Cryptoole/source page on 14 Oct 2026 (research/cryptoole/)",
+   "links": [
+    "https://de-crypt.org/decrypt-web/RecordsView/1162",
+    "https://cryptoole.satoru.net/case.html?id=HU1492-2"
+   ],
+   "year": 1491,
+   "date": "17 Mar 1491 – 18 Jul 1493",
+   "title": "Beltrame Costabili, governor of the see of Esztergom, to Eleonora d'Aragona and Ercole I d'Este: ten partly ciphered despatches",
+   "correspondents": "Beltrame Costabili → Eleonora d'Aragona, Duchess of Ferrara (1491–92); → Ercole I d'Este (1493)",
+   "place": "Esztergom (Hungary) → Ferrara",
+   "language": "Italian",
+   "region": "Central Europe",
+   "period": "15th century",
+   "shelfmark": "Modena, Archivio di Stato, Ambasciatori Ungheria b. 2/20 nos. 6, 7, 12, 16, 44; b. 2/21 no. 8; b. 2/22 nos. 5, 6, 9 (DECODE R1162–R1168, R1095–R1097)",
+   "cls": "B",
+   "source": "Cryptoole (DECODE)",
+   "status": "Cryptoole HU1492-2 (DECODE 'Partially decrypted', 10 records). DECODE: Italian clear text with cipher passages, 'homophonic or simple substitution', graphic signs; images need a login and DECODE notes Vestigia (vestigia.hu) holds related items. research/oldest/CANDIDATES.md B2 lists these letters but they were not checked (only Sadoleto 1482–83 was, in targets/sadoleto1482/). Whether 'partially decrypted' means interlinear or filed contemporary decipherments, as it did for Sadoleto, is not known.",
+   "why": "Ferrara's man at the Hungarian court during the succession crisis after Matthias Corvinus's death (1490–91), the fate of Queen Beatrice of Aragon, Eleonora's sister, and Ippolito d'Este's Esztergom archbishopric.",
+   "importance": 3,
+   "solvability": 3,
+   "difficulty": 3,
+   "verify": "Log in to DECODE and download R1162–R1168 and R1095–R1097. Check each leaf for interlinear or filed decipherments as in the Sadoleto series. Search Vestigia for 'Costabili' clear copies. Then test the Ferrarese Hungary keys from targets/sadoleto1482/ (key_working.md) against the unread passages.",
+   "cryptoole": {
+    "cid": "HU1492-2",
+    "url": "https://de-crypt.org/decrypt-web/RecordsView/1162"
+   }
+  }
+ },
+ {
+  "n": 4,
+  "cid": "XX1495-9",
+  "title": "Ferdinand II to the ambassador in Naples (Escrivà), ACA Diversos Sástago 193 Lío B nº 79 (DECODE R10172-R10180)",
+  "verdict": "solved elsewhere",
+  "reason": "Ferdinand–Joan Escrivà letters of 1495–98 were read by Ivan Parisi, 'La correspondencia cifrada entre el rey Fernando el Católico y el embajador Joan Escrivà de Romaní i Ram', Pedralbes 24 (2004). This is recorded in research/oldest/CANDIDATES.md under 'Ruled out or already read'. DECODE's 'Non-decrypted' is stale. The only residue, the second-cipher postscript of R10180 (31 Aug 1498), is item 5.",
+  "duplicate_of": "research/oldest/CANDIDATES.md (Ruled out: ACA Diversos Sástago 193 Lío B nº 79)"
+ },
+ {
+  "n": 5,
+  "cid": "IT1498-1",
+  "title": "Postscript to King Ferdinand's letter to his ambassador in Rome, 31 Aug 1498",
+  "verdict": "add",
+  "reason": "Cryptiana: Parisi (2004) deciphered the letter to Garcilaso de la Vega of 31 Aug 1498, but its last ten lines are in a different cipher and remain unread. This is DECODE R10180, ACA Diversos Sástago 193 (Lío B) nº 79/83, 7 pp., record 'public'. research/oldest/CANDIDATES.md calls it 'not digitised', which is wrong: DECODE has 7 page images, though without a login the full images return 'insufficient permissions'. Not a target or a catalogue entry.",
+  "entry": {
+   "counted": true,
+   "ark": "",
+   "folio_note": "Only the last ten lines are unread; the rest of the letter is printed deciphered in Parisi 2004 (Pedralbes 24, p. 115 of the PDF per Tomokiyo).",
+   "seen": "catalogue",
+   "prior_art": "open (checked 14 Oct 2026)",
+   "score_note": "Scored from the Cryptoole/source page on 14 Oct 2026 (research/cryptoole/)",
+   "links": [
+    "https://de-crypt.org/decrypt-web/RecordsView/10180",
+    "https://cryptiana.web.fc2.com/code/unsolved.htm",
+    "https://www.raco.cat/index.php/Pedralbes/article/viewFile/101764/170134"
+   ],
+   "year": 1498,
+   "date": "31 Aug 1498",
+   "title": "Ferdinand II to Garcilaso de la Vega, ambassador in Rome: the ten-line postscript in a second cipher",
+   "correspondents": "Ferdinand II of Aragon → Garcilaso de la Vega, ambassador in Rome (letter also inserts one to the ambassador in Naples, Joan Escrivà)",
+   "place": "unknown (Spain) → Rome",
+   "language": "Spanish",
+   "region": "Spain",
+   "period": "1497-1559",
+   "shelfmark": "Barcelona, ACA, Diversos, Sástago 193 (Lío B), nº 79/83 (DECODE R10180, 7 pp.)",
+   "cls": "B",
+   "source": "Cryptoole (Cryptiana)",
+   "status": "Cryptoole IT1498-1 (open). Cryptiana unsolved.htm: the letter was deciphered by Parisi (2004), 'but the last ten lines are in a different cipher and is left undeciphered'; Galende Díaz (1994) mentions a cipher of Garcilaso de la Vega preserved in the archives. DECODE R10180 (Mikael Hammarlind's note): Parisi doc. 83, two hands and two cryptographic systems, the inserted Escrivà/Naples section in Parisi's published corpus. DECODE marks it Non-decrypted.",
+   "why": "Ferdinand's instructions to his Rome ambassador in summer 1498, under Alexander VI and on the eve of the French invasion of Italy.",
+   "importance": 3,
+   "solvability": 2,
+   "difficulty": 4,
+   "verify": "Download R10180 pp. 6–7 with a DECODE login and transcribe the ten lines. Get Parisi 2004 (RACO viewFile/101764/170134; the site is Cloudflare-protected, so fetch it in a browser) for his note on the second cipher. Test Galende's Garcilaso cipher and the Catholic Monarchs' general cipher (targets/esp318, targets/estrada1503) before any ciphertext-only attack.",
+   "cryptoole": {
+    "cid": "IT1498-1",
+    "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Postscript%20to%20King%20Ferdinand%27s%20Letter%20to%20his%20Ambassador%20in%20R"
+   }
+  }
+ },
+ {
+  "n": 6,
+  "cid": "IT1503-8",
+  "title": "Viceroy of Sicily (Juan de Lanuza) to Ferdinand, Messina, 27 Apr 1503 (BnF Espagnol 318 no. 94)",
+  "verdict": "duplicate",
+  "reason": "Already target targets/esp318 (catalogue no. 9; write-up docs/esp318.html), where no. 94 is still unread. Paolo Rosson (with Claude), October 2026, rebuilt the key from the letter and read it 'in large part', with 64 code words unvalued (pangoleen.github.io/cipher-readings/espagnol-318.html). esp318 NOTES and the write-up need that prior art added.",
+  "duplicate_of": "targets/esp318"
+ },
+ {
+  "n": 7,
+  "cid": "IT1504-12",
+  "title": "Lorenzo Suárez de Figueroa, Venice, to Ferdinand and Isabella, 24 Feb 1504 (BnF Espagnol 318 no. 93)",
+  "verdict": "duplicate",
+  "reason": "Already target targets/esp318. Rosson, Oct 2026, rebuilt the key and read it: 1,094 of 1,202 tokens firm (91.0%), 97.3% with probable values, 8 code words open (pangoleen.github.io/cipher-readings/espagnol-318-no93.html). esp318 needs this recorded as an outside reading.",
+  "duplicate_of": "targets/esp318"
+ },
+ {
+  "n": 8,
+  "cid": "ES1509-2",
+  "title": "Catherine of Aragon to Ferdinand, 3 Nov 1509 (AGS PTR leg. 54 doc. 51; DECODE R361)",
+  "verdict": "solved elsewhere",
+  "reason": "Solved by Victor and Thomas Bosbach for MTC3 in Dec 2018. Tomokiyo published Thomas Bosbach's text and key in 'Solution of Ciphertext of Catherine of Aragon to King Ferdinand (1509)', cryptiana catherine.htm, 2022. Already excluded from the catalogue (research/catalogue_harvest/decode/excluded.json; SOLVED_CATALOGUE.md narrowing of catalogue 326). DECODE's 'Non-decrypted' and Cryptoole's 'open' are stale.",
+  "duplicate_of": "excluded.json (DECODE 361); catalogue 326 narrowing in SOLVED_CATALOGUE.md"
+ },
+ {
+  "n": 9,
+  "cid": "XX1567-1",
+  "title": "Catherine de Médicis to Philibert du Croc, 27 Apr 1567 (DECODE R2788)",
+  "verdict": "duplicate",
+  "reason": "Already target targets/ducroc, whose NOTES say 'attempted, not solved'. Cryptiana now reports that Satorunet (with Claude) found the key, SP 53/23 no. 27 ('Alphabeth betwene the frenche king and Verac or du Croc his agent in Scotland'), and read about 84%; Tomokiyo agrees it is the right key (satoru.net/crypt/ducroc1567/). targets/ducroc should be updated.",
+  "duplicate_of": "targets/ducroc"
+ },
+ {
+  "n": 10,
+  "cid": "FR1577-2",
+  "title": "Villeroi to Henry III, Bergerac, 8 Sept 1577 (DECODE R2787)",
+  "verdict": "solved elsewhere",
+  "reason": "Cryptiana unsolved.htm marks it Solved: 'In 2022, George Lasry solved it'. The letter was sold at auction. It is already excluded from the catalogue (excluded.json), but that file and CATALOGUE.md credit Sergey Ryabov. That looks like a mix-up with Danzay 1574 (Ryabov 2025), the entry next to it on Tomokiyo's page.",
+  "duplicate_of": "research/catalogue_harvest/decode/excluded.json (DECODE 2787)"
+ },
+ {
+  "n": 11,
+  "cid": "FR1586-3",
+  "title": "Cardinal Scipione Gonzaga to the Duke of Nevers, 1586-1590 (BnF fr. 4698, 4702, 4696)",
+  "verdict": "duplicate",
+  "reason": "Already in the repo as targets/scipion1585: Lasry's 'BnF cipher research' (10 Oct 2026), fr. 4696/4698, read in part. Catalogue 331 (fr. 4698 nos. 2–5, 47, 92) is on CATALOGUE.md's key-lookup list. Rosson (Oct 2026, pangoleen gonzaga-1590.html) independently rebuilt the three-layer code (448-word code in 14 lists plus symbol alphabet). He reproduced the period decipherments of 21 Jan and 16 Feb 1590 from fr. 4702 and read the letters of 24 and 31 Mar 1590 with gaps.",
+  "duplicate_of": "targets/scipion1585; catalogue 331 (CATALOGUE.md key-lookup list); targets/gonzaga1590 (sibling)"
+ },
+ {
+  "n": 12,
+  "cid": "IT1590-1",
+  "title": "French (or Italian) Ciphers c. 1590 (BnF fr. 4715, fr. 4712)",
+  "verdict": "duplicate",
+  "reason": "This is a Cryptiana section pointer, not one document. Its specific items are already here. fr. 4715 nos. 59 (f. 82) and 61 (f. 84) were solved by Lasry (2020, 2022), and no. 62 (f. 85) has his interim result. They are covered by catalogue 317 (Montholon and Vieuville to Nevers, fr. 4715; removed as partly read, SOLVED_CATALOGUE.md) and by research/gallica_sweep (fr. 4715 f. 61 open). fr. 4712's undeciphered letters are catalogue 282 (Nevers to the Duchess, fr. 4712 f. 10).",
+  "duplicate_of": "catalogue 317 (SOLVED_CATALOGUE.md); catalogue 282; research/gallica_sweep/NOTES.md"
+ },
+ {
+  "n": 13,
+  "cid": "IT1593-24",
+  "title": "Vincenzo Badalocchio to Nevers, Rome, 5 and 11 Dec 1592 and 9(?) Jan 1593 (BnF fr. 4700 ff. 85r, 65r, 80r)",
+  "verdict": "solved elsewhere",
+  "reason": "Read by Paolo Rosson (with Claude), Oct 2026: one rebuilt key reads all three, with gaps (f. 85r 361/383 groups = 94%, f. 80r 717/778 = 92%, f. 65r both runs). Name groups are not read (pangoleen.github.io/cipher-readings/badalocchio-1593.html). In the repo the letters fall under catalogue 331 ('Badalocchio to Nevers, fr. 4700 nos. 38–46', on the key-lookup list with Nevers key no. 35). Rosson found no key sheet and rebuilt his own, so the no. 35 claim needs checking.",
+  "duplicate_of": "catalogue 331 (CATALOGUE.md key-lookup list)"
+ },
+ {
+  "n": 14,
+  "cid": "XX159X-1",
+  "title": "Ciphertexts left undeciphered by François Viète, 1593-94 (500 Colbert 33)",
+  "verdict": "duplicate",
+  "reason": "The section has two items. f. 539, Cardinal de Joyeuse to Villars, Rome, 15 Feb 1594, is already targets/joyeuse (attempted, not solved). f. 555, Senecey to the Archbishop of Lyon, was solved by Lasry in 2020.",
+  "duplicate_of": "targets/joyeuse"
+ },
+ {
+  "n": 15,
+  "cid": "IT1593-25",
+  "title": "Nevers to the Oratorian Tommaso Bozio, minute, La Guierche, 1 May 1593 (BnF fr. 4700 no. 38 f. 72r)",
+  "verdict": "solved elsewhere",
+  "reason": "Read by Rosson, Oct 2026: 148 of 149 groups valued with a key rebuilt from the text, a digit-pair alphabet (pangoleen.github.io/cipher-readings/nevers-1593.html). Cassiani (2014) had described the minute without a reading. In the repo it is fr. 4700 no. 38, part of catalogue 331 (key-lookup list).",
+  "duplicate_of": "catalogue 331 (CATALOGUE.md key-lookup list)"
+ },
+ {
+  "n": 16,
+  "cid": "FR1610-1",
+  "title": "Blancmesnil to the Duke of Nevers, 'ce dernier juin' (BnF fr. 3633 f. 24, no. 15)",
+  "verdict": "duplicate",
+  "reason": "Already targets/blancmesnil. It is blocked at the ciphertext because fr. 3633 is not on Gallica.",
+  "duplicate_of": "targets/blancmesnil"
+ },
+ {
+  "n": 17,
+  "cid": "XX163X-3",
+  "title": "Melchior de Sabran, 1631-1635",
+  "verdict": "duplicate",
+  "reason": "Every item in the Cryptiana section is accounted for. Louis XIII→Sabran 1631 (R2748, Lasry 2022) is targets/louis1615 (catalogue 191). Sabran→Bouthillier 1633/1635 short passages (Lasry's key) are catalogue 310 on the key-lookup list. Farnese 1637 (R2753, Lasry 2022) is catalogue 192. The 1636 letter to 'Mr de ch.g r' (Baluze 156 f. 157, DECODE R2754) is recorded in excluded.json as solved by Daniel Bourdeau on 15 Sept 2026, per Tomokiyo's DECODE note. Servien–Sabran 1632 was solved by Tomokiyo. Caveat: no target folder or write-up for the 1636 solution was found in this repo.",
+  "duplicate_of": "targets/louis1615; catalogue 191, 192, 310; excluded.json (R2754)"
+ },
+ {
+  "n": 18,
+  "cid": "XX1645-2",
+  "title": "Prince Maurice to Prince Rupert, Worcester, 7 July 1645",
+  "verdict": "duplicate",
+  "reason": "Already targets/rupert (cryptiana unsolved item #5): attempted, no key fits, written up as docs/rupert.html.",
+  "duplicate_of": "targets/rupert"
+ },
+ {
+  "n": 19,
+  "cid": "XX1648-1",
+  "title": "William, Baron Craven, to Prince Rupert, The Hague, 6 Nov 1648 (BL Add MS 18982 ff. 134-135; DECODE R8447)",
+  "verdict": "add",
+  "reason": "Not worked anywhere in the repo. targets/rupert only lists R8447 among the 27 Add MS 18982 ciphertexts and downloaded its record page (decode/rec8447.htm). Tomokiyo says it uses a different cipher from the rest of the volume. No decipherment was found (web search). DECODE images need a login, and the BL images have been offline since the 2023 cyber-attack.",
+  "entry": {
+   "counted": true,
+   "ark": "",
+   "folio_note": "",
+   "seen": "catalogue",
+   "prior_art": "open (checked 14 Oct 2026)",
+   "score_note": "Scored from the Cryptoole/source page on 14 Oct 2026 (research/cryptoole/)",
+   "links": [
+    "https://de-crypt.org/decrypt-web/RecordsView/8447",
+    "https://cryptiana.web.fc2.com/code/unsolved.htm"
+   ],
+   "year": 1648,
+   "date": "6 Nov 1648",
+   "title": "William, Baron Craven, to Prince Rupert, The Hague",
+   "correspondents": "William Craven, 1st Baron Craven → Prince Rupert",
+   "place": "The Hague → Prince Rupert (with the royalist fleet)",
+   "language": "English",
+   "region": "England",
+   "period": "1611-1650",
+   "shelfmark": "BL Add MS 18982 ff. 134–135 (DECODE R8447, 3 pp.)",
+   "cls": "C",
+   "source": "Cryptoole (Cryptiana, DECODE)",
+   "status": "Cryptoole XX1648-1 (open). Cryptiana unsolved.htm: 'While most of the undeciphered ciphertexts in this volume can be read by using deciphered letters or with known keys, this seems to use some different cipher.' DECODE R8447: English clear text, numerical symbols, Non-decrypted, images by login. targets/rupert screened the Add MS 72438 keys against the 1645–46 letters only; R8447 was not transcribed.",
+   "why": "Craven was the exiled royal family's chief financial backer and Elizabeth of Bohemia's confidant; the letter dates from the months Rupert took command of the revolted royalist fleet.",
+   "importance": 2,
+   "solvability": 2,
+   "difficulty": 4,
+   "verify": "Download R8447 with the DECODE cookie (targets/bordeaux route) and transcribe it. Then screen it by group range against the 73 Add MS 72438 keys and the 1648–49 royalist keys in Tomokiyo's charlesii.htm before trying ciphertext-only.",
+   "cryptoole": {
+    "cid": "XX1648-1",
+    "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=A%20Letter%20to%20Prince%20Rupert%20%281648%29"
+   }
+  }
+ },
+ {
+  "n": 20,
+  "cid": "XX1650-1",
+  "title": "Charles II to the Duke of Hamilton, 1650",
+  "verdict": "duplicate",
+  "reason": "Already targets/hamilton (cryptiana unsolved item #3): four letters of Aug–Sept 1650, printed in 1766 and in HMC Hamilton 393–396, with the key lead in the Lanark correspondence.",
+  "duplicate_of": "targets/hamilton"
+ },
+ {
+  "n": 21,
+  "cid": "XX1654-1",
+  "title": "Prince of Condé to Barrière, his agent in London, 15 Sept 1654 NS (BL Add MS 4200 f. 98, DECODE R8395; f. 101, R8398)",
+  "verdict": "add",
+  "reason": "Not a target or a catalogue entry. targets/bordeaux works the same volume (Add MS 4200) and holds the DECODE cookie route. Tomokiyo (louisxiv0.htm): the 1655 Condé–Barrière letters use the cipher of f. 108 (R8405+R8406), but the 1654 letter (f. 98) seems to be in a different cipher with no hacek, and f. 101 may be in yet another. No decipherment was found (web search, GL.htm).",
+  "entry": {
+   "counted": true,
+   "ark": "",
+   "folio_note": "Add MS 4200 holds eleven Condé–Barrière letters of 1654–55; the 1655 ones use the f. 108 cipher (R8405+R8406), incl. undated f. 96 (R8394).",
+   "seen": "catalogue",
+   "prior_art": "open (checked 14 Oct 2026)",
+   "score_note": "Scored from the Cryptoole/source page on 14 Oct 2026 (research/cryptoole/)",
+   "links": [
+    "https://de-crypt.org/decrypt-web/RecordsView/8395",
+    "https://de-crypt.org/decrypt-web/RecordsView/8398",
+    "https://cryptiana.web.fc2.com/code/louisxiv0.htm"
+   ],
+   "year": 1654,
+   "date": "15 Sept 1654 NS",
+   "title": "Louis II de Bourbon, Prince of Condé, to Barrière, his agent in London (intercepted)",
+   "correspondents": "Louis II de Bourbon, Prince of Condé → Henri de Taillefer, sieur de Barrière",
+   "place": "Condé's camp (Spanish Netherlands) → London",
+   "language": "French (some clear text translated into English)",
+   "region": "France",
+   "period": "1651-1700",
+   "shelfmark": "BL Add MS 4200 f. 98 (DECODE R8395, 1 p.); short ciphertext f. 101 (DECODE R8398, 1 p.)",
+   "cls": "B",
+   "source": "Cryptoole (Cryptiana, DECODE)",
+   "status": "Cryptoole XX1654-1 (open). Cryptiana unsolved.htm and louisxiv0.htm ('Prince of Condé (1654-1655)'): the 1654 letter f. 98 seems undeciphered and in a different cipher from the known 1655 Condé–Barrière cipher (f. 108); whether f. 101 reads with the 1655 key is untested. DECODE R8395/R8398: Thurloe papers volume, clear text in English and French, images by login. Copies of Condé–Barrière letters (partly cipher) are also in Bodleian MS. Rawl. A (Thurloe papers).",
+   "why": "Condé, in Spanish service after the Fronde, courting Cromwell through his London agent in the year of the Anglo-French rapprochement; Thurloe intercepted the letter.",
+   "importance": 3,
+   "solvability": 3,
+   "difficulty": 3,
+   "verify": "Download R8395 and R8398 with the DECODE cookie (targets/bordeaux) and transcribe them. Test f. 101 against the 1655 key (R8405/R8406). Look for a deciphered or clear copy of the 15 Sept 1654 letter in Thurloe State Papers vol. ii and Bodleian MS. Rawl. A (Thurloe) before attacking f. 98 ciphertext-only.",
+   "cryptoole": {
+    "cid": "XX1654-1",
+    "url": "https://cryptiana.web.fc2.com/code/unsolved.htm#:~:text=Prince%20of%20Cond%C3%A9%20%281654%29"
+   }
+  }
+ }
+]

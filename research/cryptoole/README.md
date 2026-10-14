@@ -42,10 +42,18 @@ because on merged rows that status is usually our own partial reading reflected 
 
 Candidates never go into `catalogue.json` automatically. For each one: view the leaves (`verify` holds the source
 link), give it the next unused `id`, set `cls`, `seen` and the three scores, write `why`, delete the `cryptoole` and
-`match` blocks, keep `source: "Cryptoole (…)"` and the Cryptoole ID in `status`, then regenerate the page.
+`match` blocks, set `source: "Cryptoole"` and `cryptoole` to the Cryptoole ID, then regenerate the page.
 
 ## Terms
 
 The API is free, needs no key and allows cross-origin calls. Cite each item's own source (the `url`, DECODE, Cryptiana …)
 and credit "Cryptoole (satoru.net)". The script fetches 200 rows per page with a pause between pages. DECODE images
 are not part of the API.
+
+## Triage of 14 Oct 2026
+
+The 42 unmatched candidates of the first pull (`unmatched42.json`) were checked against the repository, their source
+pages and, where public, their images (`triage_A.json`, `triage_B.json`: verdict, reason, draft entry). 13 were added
+to `catalogue.json` as ids 348–360 (source `Cryptoole`, Cryptoole ID in `cryptoole`; 357 as a noted fragment); the
+rest were duplicates of existing targets, already solved elsewhere, umbrella pointers or out of scope. The triage
+notes are not read by `pull.py`, so a candidate dropped as a duplicate under another name still shows as unmatched.
