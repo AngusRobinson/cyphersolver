@@ -296,6 +296,7 @@
   "torcy to the plenipotentiaries at geertruidenberg, 3 april 1710, and villars to ": "2026-10-09",
   "toulon 1803": "2026-09-23",
   "toulon to van hogendorp, 30 july 1803": "2026-09-22",
+  "undated latin diplomatic letter, riksarkivet, decode r4282": "2026-10-14",
   "unknown sender (constantinople) to ferenc rákóczi ii, 1707": "2026-09-21",
   "unknown to unknown, 1728 (add ms 32287)": "2026-09-22",
   "unknown writer to hesse-kassel, thirty years’ war (marburg, decode r4500)": "2026-09-22",
@@ -559,8 +560,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "e3d274d49858",
-   "updated": "2026-10-13"
+   "hash": "58310ba054b1",
+   "updated": "2026-10-14"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -644,7 +645,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "7ee7f8c81992",
+   "hash": "cbc001bbf033",
    "updated": "2026-10-14"
   },
   "copenhagen": {
@@ -666,6 +667,11 @@
    "first": "2026-09-15",
    "hash": "272220b38ef0",
    "updated": "2026-09-24"
+  },
+  "decode4282": {
+   "first": "2026-10-14",
+   "hash": "d17c1f3266f7",
+   "updated": "2026-10-14"
   },
   "dedem1788": {
    "first": "2026-09-21",
@@ -829,7 +835,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "1775a67ce8a2",
+   "hash": "ffcedeb146bb",
    "updated": "2026-10-14"
   },
   "goldbar": {
@@ -994,7 +1000,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "99f6d65c6f24",
+   "hash": "54c05433ecb8",
    "updated": "2026-10-14"
   },
   "indus": {
@@ -1839,8 +1845,8 @@
   },
   "vasto1527": {
    "first": "2026-09-18",
-   "hash": "31c2842768b6",
-   "updated": "2026-09-24"
+   "hash": "7f724ac72ebd",
+   "updated": "2026-10-14"
   },
   "vatican": {
    "first": "2026-09-15",
@@ -1954,7 +1960,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "6b8348b929d8",
+   "hash": "01ea2801445c",
    "updated": "2026-10-14"
   },
   "yard1699": {

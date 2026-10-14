@@ -1941,7 +1941,22 @@
    }
   },
   {"id": "k-schenck1706", "label": "Vienna agent's letter table, 1706 (7-79 in alphabetical blocks of three)", "kind": "rebuilt here", "by": "this project", "year": 1706, "note": "Homophonic letter table of the Vienna letters to Baron Schenck: a = 7 8 9, b = 10 11 12 ... alphabetical, no j or v, 70 = w, 76-78 = y, 79 = z. Recovered from the ciphertext alone by annealing the block boundaries; the 3-digit nomenclator is not rebuilt."},
-  {"id": "k-brancoveanu-polish", "label": "Brancoveanu chancellery key for Polish letters (a=19, b=60 ...)", "kind": "scholar's key", "by": "A. Mares 1987; M. W. Kaczka 2012", "year": 1709, "found": 1987, "note": "Simple numerical substitution with a few word codes (900 = August, 800 = Turcy), used by Constantin Brancoveanu's and Constantin Cantacuzino's chancellery for letters to Sieniawski, 1709-1714; printed by Kaczka, Danubius XXX (2012), n. 21."}
+  {"id": "k-brancoveanu-polish", "label": "Brancoveanu chancellery key for Polish letters (a=19, b=60 ...)", "kind": "scholar's key", "by": "A. Mares 1987; M. W. Kaczka 2012", "year": 1709, "found": 1987, "note": "Simple numerical substitution with a few word codes (900 = August, 800 = Turcy), used by Constantin Brancoveanu's and Constantin Cantacuzino's chancellery for letters to Sieniawski, 1709-1714; printed by Kaczka, Danubius XXX (2012), n. 21."},
+  {
+   "id": "k-lasry-decode4282",
+   "label": "George Lasry, key for DECODE R4282",
+   "kind": "scholar's key",
+   "by": "George Lasry",
+   "year": null,
+   "found": 2026,
+   "note": "Undated Latin homophonic cipher with nulls. Key recovered from ciphertext-only with the CTTS built-in homophonic solver; key and decryption improved and finalized by GPT-6 Astra against the images and four cleartext passages. No historical decipherment or external key used; three name/title signs remain unidentified.",
+   "image": {
+    "src": "decode4282_key.jpg",
+    "credit": "Reconstructed key by George Lasry with CTTS, improved by GPT-6 Astra; manuscript glyphs from Riksarkivet, Stockholm, Chifferklaver låda II:113, via DECODE R4282",
+    "caption": "The reconstructed key; three name/title signs remain unidentified.",
+    "page": "decode4282"
+   }
+  }
  ],
  "links": [
   {"key": "k-r4755", "target": "siena1431", "how": "read unchanged", "note": "nos. 6 and 24; key first recovered ciphertext-only by the solver"},
@@ -2984,7 +2999,13 @@
   },
   {"key": "k-schenck1706", "target": "sieniawski1708", "how": "rebuilt from", "note": "recovered from the 106 runs of DECODE R7486-R7500; reads 93% of the letter-cipher numbers"},
   {"key": "k-brancoveanu-polish", "target": "sieniawski1708", "how": "partial", "note": "checked on ten lines of R7473 against the interlinear decipherment and Kaczka's printed text"},
-  {"key": "k-tomokiyo-desmarets1710", "target": "desmarets1710", "how": "read unchanged", "note": "applied to the 471 groups read as one stream; 456 attested (issue #28)"}
+  {"key": "k-tomokiyo-desmarets1710", "target": "desmarets1710", "how": "read unchanged", "note": "applied to the 471 groups read as one stream; 456 attested (issue #28)"},
+  {
+   "key": "k-lasry-decode4282",
+   "target": "decode4282",
+   "how": "rebuilt from",
+   "note": "Ciphertext-only key recovery in CTTS, followed by manuscript and cleartext-context refinement; both pages deciphered, three code signs still open."
+  }
  ],
  "sources": [
   {
@@ -3426,7 +3447,11 @@
    "source": "s-cyphersolver",
    "key": "k-beuningen1676"
   },
-  {"source": "s-cyphersolver", "key": "k-schenck1706"}
+  {"source": "s-cyphersolver", "key": "k-schenck1706"},
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-decode4282"
+  }
  ],
  "unlinked": {
   "geertruidenberg": "not deciphered: no key fits either code; nothing read, no values rebuilt",

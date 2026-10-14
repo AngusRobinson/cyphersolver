@@ -9364,6 +9364,37 @@
   },
   "vasto1527": {
    "skip": "DECODE edits for R1894/R4450 are queued under ranzo1528; nos. 6, 10 and 20 are Gallica items with no other DECODE record"
+  },
+  "decode4282": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/decode4282.html",
+   "key": {
+    "file": "targets/decode4282/key_decode.txt",
+    "lang": "LA",
+    "how": "Solved by George Lasry: transcribed with CTTS (CrypTool Transcriber and Solver), key recovered with the CTTS built-in homophonic solver, key and decryption improved and finalized by GPT-6 Astra."
+   },
+   "cite": "George Lasry, contributed solution dated 14 October 2026. See the dedicated write-up and target NOTES.md. The earlier September repository attempt was unsuccessful.",
+   "fields": {
+    "plaintext_lang": "Latin",
+    "cleartext_lang": "Latin",
+    "inline_cleartext": "Yes",
+    "cipher_type": "Homophonic substitution with nulls and three unresolved word signs"
+   },
+   "records": {
+    "R4282": {
+     "decode_status": "Non-decrypted",
+     "proposed": "Decrypted",
+     "note": "Solved by George Lasry using CTTS transcription and its built-in homophonic solver; key and decryption improved and finalized by GPT-6 Astra. Both text pages covered (32 lines). 1,084 cipher elements: 800 assigned non-null, 279 nulls, five occurrences of three unidentified word signs. Five contextual restorations remain explicit. Undated: catalogue range 1600–1699 is not an independently established date. Four original cleartext spans are present.",
+     "reading": [
+      {
+       "file": "targets/decode4282/readable.txt"
+      }
+     ],
+     "transcription": [
+      "targets/decode4282/transcription.txt"
+     ],
+     "sent": false
+    }
+   }
   }
  },
  "rechteren1785": {

@@ -1,0 +1,53 @@
+{
+ "record": "https://www.de-crypt.org/decrypt-web/RecordsView/4282?showdetail=",
+ "record_id": 4282,
+ "name": "Chifferklaver_låda_II_113",
+ "holder": "Riksarkivet, The National Archives of Sweden",
+ "holder_city": "Stockholm",
+ "shelfmark": "Chifferklaver låda II:113",
+ "catalogue_date": "1600–1699",
+ "document_date": "unknown",
+ "sender": "unknown",
+ "recipient": "unknown",
+ "checked": "2026-10-14",
+ "catalogue_status": "Non-decrypted",
+ "catalogue_inline_cleartext": false,
+ "observed_inline_cleartext": true,
+ "scope": "Two displayed text-page views (25 and 7 lines), one letter. The third record page is a wrapper. A hidden facing sheet in the raw embedded image of attachment 25747 is outside the selected PDF view and contribution scope; its relationship to the letter is not established.",
+ "attachments": [
+  {
+   "id": 25745,
+   "role": "wrapper",
+   "url": "https://www.de-crypt.org/decrypt-custom/filesrv/?file=IMG_R4282_I25745_P.pdf"
+  },
+  {
+   "id": 25746,
+   "role": "first text page",
+   "url": "https://www.de-crypt.org/decrypt-custom/filesrv/?file=IMG_R4282_I25746_P.pdf"
+  },
+  {
+   "id": 25747,
+   "role": "second text page, displayed left page only",
+   "url": "https://www.de-crypt.org/decrypt-custom/filesrv/?file=IMG_R4282_I25747_P.pdf"
+  }
+ ],
+ "input_sha256": {
+  "key.txt": "e2f1b054d513aeffdea9d2594c7a4ee1387529a3faa7b8b1543f971761868045",
+  "colors.txt": "2a8b0ec8a26dd960f86d86d011b5cded17887c374c0b228fb867a7920ba60a81",
+  "transcription/all.txt": "64a9bfa673b2d1b14805f11189ae12016f3843da7eb1af45d35c9768a83145b6",
+  "decryption/all.txt": "bb1220da6aa68171f1d099aff32ff5bf9c972b4c53fd59e2d54a0a706d40c5f1",
+  "snapshots/decryption key.png": "378927471938015c2b4dd5c1c93c078f1297ebc277033dfce82b05ca35403b6b"
+ },
+ "ctts_image_sizes": {
+  "1.png": [
+   1621,
+   2773
+  ],
+  "2.png": [
+   1825,
+   865
+  ]
+ },
+ "prior_repository_attempt": "../riksarkivet1628/NOTES.md, dated 2026-09-21; failed substitution/homophonic annealing on an earlier transcription. This is not a prior decipherment.",
+ "submission_normalization": "Trailing whitespace and terminal blank lines were removed from the copied CTTS transcription, literal decryption and positions exports. Signs, coordinates, line order and readings are unchanged. Input hashes above refer to the original files."
+}
