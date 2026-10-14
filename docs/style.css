@@ -893,3 +893,14 @@ ul.list.cattop .pr{font-family:var(--display);font-size:1.15rem;color:var(--gold
 .cs-all{margin:.6rem 0 0;font-size:.9rem}
 .noted.by{color:var(--blue);border-color:color-mix(in srgb,var(--blue) 45%,transparent);text-decoration:none}
 @media (max-width:760px){.cs-grid{grid-template-columns:1fr}}
+
+/* ---- contributed item pages (tools/lasry_bnf_pages.py) ---- */
+figure img{height:auto}
+figure.keytab img{filter:none;background:#fff}
+figure.keytab img:hover{transform:none}
+table.facts th{width:11rem;text-transform:none;letter-spacing:.02em;font-size:.8rem}
+p.exwhere{font-family:var(--mono);font-size:.78rem;color:var(--muted);margin:1.4rem 0 -.6rem}
+blockquote.plain{font-style:italic}
+p.trans{color:var(--ink2)}
+@media (max-width:620px){table.facts th{width:auto}}
+main li a,table.facts td{overflow-wrap:anywhere}

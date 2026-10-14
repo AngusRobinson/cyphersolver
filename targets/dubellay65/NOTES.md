@@ -1,8 +1,8 @@
 # Jean, cardinal Du Bellay → The Constable, Undated, BnF Français 3142 — Du Bellay, ff65–66
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/dubellay65.html)
 
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html). Report slug: `dubellay1555b`.
+Report slug: `dubellay1555b`.
 
 ## Source
 

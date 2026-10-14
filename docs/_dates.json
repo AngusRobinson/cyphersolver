@@ -437,15 +437,40 @@
    "hash": "b5ce573099e6",
    "updated": "2026-09-24"
   },
+  "berny1607": {
+   "first": "2026-10-13",
+   "hash": "4009b75e7a99",
+   "updated": "2026-10-14"
+  },
+  "bertelot": {
+   "first": "2026-10-13",
+   "hash": "c08ddc8f3418",
+   "updated": "2026-10-14"
+  },
   "bethune": {
    "first": "2026-09-17",
    "hash": "115fbaa14660",
    "updated": "2026-09-24"
   },
+  "bethune1629": {
+   "first": "2026-10-13",
+   "hash": "017eb0dae227",
+   "updated": "2026-10-14"
+  },
   "beuningen1676": {
    "first": "2026-10-07",
    "hash": "a81ffd2dfd60",
    "updated": "2026-10-07"
+  },
+  "bianchi": {
+   "first": "2026-10-13",
+   "hash": "8fae31a6bd20",
+   "updated": "2026-10-14"
+  },
+  "birago1571": {
+   "first": "2026-10-13",
+   "hash": "d5af806ad5e2",
+   "updated": "2026-10-14"
   },
   "bizozola1520": {
    "first": "2026-09-21",
@@ -457,10 +482,20 @@
    "hash": "e337f01664f9",
    "updated": "2026-09-24"
   },
+  "blasco1597": {
+   "first": "2026-10-13",
+   "hash": "d9ce17356eab",
+   "updated": "2026-10-14"
+  },
   "bordeaux1653": {
    "first": "2026-09-18",
    "hash": "c561dad364c3",
    "updated": "2026-09-30"
+  },
+  "bossuet": {
+   "first": "2026-10-13",
+   "hash": "5257ff57d569",
+   "updated": "2026-10-14"
   },
   "boswell": {
    "first": "2026-09-15",
@@ -472,10 +507,25 @@
    "hash": "ee8ce2c162f2",
    "updated": "2026-09-24"
   },
+  "bouillon1650": {
+   "first": "2026-10-13",
+   "hash": "ae2507f100ff",
+   "updated": "2026-10-14"
+  },
   "breves1603": {
    "first": "2026-09-18",
    "hash": "f8f7a41c3464",
    "updated": "2026-09-24"
+  },
+  "brienne1067": {
+   "first": "2026-10-13",
+   "hash": "0b4b74d76b52",
+   "updated": "2026-10-14"
+  },
+  "brienne5160": {
+   "first": "2026-10-13",
+   "hash": "2a26b55df6a4",
+   "updated": "2026-10-14"
   },
   "buda1489": {
    "first": "2026-09-19",
@@ -509,8 +559,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "84210c85559c",
-   "updated": "2026-10-14"
+   "hash": "e3d274d49858",
+   "updated": "2026-10-13"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -532,10 +582,40 @@
    "hash": "b5286c3c2805",
    "updated": "2026-09-24"
   },
+  "chatillon1635": {
+   "first": "2026-10-13",
+   "hash": "57a973eccd51",
+   "updated": "2026-10-14"
+  },
+  "clair1161": {
+   "first": "2026-10-13",
+   "hash": "3f3a18475fda",
+   "updated": "2026-10-14"
+  },
+  "clair1225": {
+   "first": "2026-10-13",
+   "hash": "3372e96cbe05",
+   "updated": "2026-10-14"
+  },
   "clair357": {
    "first": "2026-09-18",
    "hash": "0dc31eb66546",
    "updated": "2026-09-24"
+  },
+  "clair460alpha": {
+   "first": "2026-10-13",
+   "hash": "4dc4f05256e1",
+   "updated": "2026-10-14"
+  },
+  "clair460bar": {
+   "first": "2026-10-13",
+   "hash": "93211b88249a",
+   "updated": "2026-10-14"
+  },
+  "clair460num": {
+   "first": "2026-10-13",
+   "hash": "f986bc73be4f",
+   "updated": "2026-10-14"
   },
   "cobham1588": {
    "first": "2026-09-21",
@@ -564,13 +644,18 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "2884ff8c8aba",
+   "hash": "7fdcdae3ae49",
    "updated": "2026-10-14"
   },
   "copenhagen": {
    "first": "2026-09-15",
    "hash": "429294cb0076",
    "updated": "2026-09-24"
+  },
+  "dampierre1589": {
+   "first": "2026-10-13",
+   "hash": "564caf08139c",
+   "updated": "2026-10-14"
   },
   "dandini1580": {
    "first": "2026-09-21",
@@ -607,6 +692,31 @@
    "hash": "7c332d7ca636",
    "updated": "2026-10-09"
   },
+  "dubellay1555": {
+   "first": "2026-10-13",
+   "hash": "51cdc15ecda2",
+   "updated": "2026-10-14"
+  },
+  "dubellay65": {
+   "first": "2026-10-13",
+   "hash": "3e4b51de4658",
+   "updated": "2026-10-14"
+  },
+  "dupuy155": {
+   "first": "2026-10-13",
+   "hash": "402f995ced60",
+   "updated": "2026-10-14"
+  },
+  "dupuy468": {
+   "first": "2026-10-13",
+   "hash": "402489b30bda",
+   "updated": "2026-10-14"
+  },
+  "duquesne1681": {
+   "first": "2026-10-13",
+   "hash": "23211fb760ac",
+   "updated": "2026-10-14"
+  },
   "egmond": {
    "first": "2026-09-20",
    "hash": "45e6ac7b6199",
@@ -616,6 +726,11 @@
    "first": "2026-09-21",
    "hash": "24749ef222b6",
    "updated": "2026-09-24"
+  },
+  "entragues1581": {
+   "first": "2026-10-13",
+   "hash": "0c0dd07af483",
+   "updated": "2026-10-14"
   },
   "erving1807aug": {
    "first": "2026-10-07",
@@ -636,6 +751,11 @@
    "first": "2026-09-22",
    "hash": "f962e5890661",
    "updated": "2026-09-24"
+  },
+  "eugenie1859": {
+   "first": "2026-10-13",
+   "hash": "bf30bcda76f0",
+   "updated": "2026-10-14"
   },
   "fagel1804": {
    "first": "2026-09-21",
@@ -662,15 +782,45 @@
    "hash": "f035017ef556",
    "updated": "2026-09-24"
   },
+  "feuquieres1678": {
+   "first": "2026-10-13",
+   "hash": "ff9c3eda3e2e",
+   "updated": "2026-10-14"
+  },
   "florence1429": {
    "first": "2026-09-18",
    "hash": "2ff028902736",
    "updated": "2026-09-24"
   },
+  "fogliani1568": {
+   "first": "2026-10-13",
+   "hash": "2fc8b9bb0936",
+   "updated": "2026-10-14"
+  },
   "forster": {
    "first": "2026-09-15",
    "hash": "c6d396ba6c01",
    "updated": "2026-09-24"
+  },
+  "fr14765p351": {
+   "first": "2026-10-13",
+   "hash": "5bddcb87f36d",
+   "updated": "2026-10-14"
+  },
+  "fr3321dc": {
+   "first": "2026-10-13",
+   "hash": "0f986336ae20",
+   "updated": "2026-10-14"
+  },
+  "fr3575f56": {
+   "first": "2026-10-13",
+   "hash": "7af7c8f2fda5",
+   "updated": "2026-10-14"
+  },
+  "fr4696num": {
+   "first": "2026-10-13",
+   "hash": "986ea888c011",
+   "updated": "2026-10-14"
   },
   "geertruidenberg": {
    "first": "2026-10-09",
@@ -679,13 +829,18 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "ca85f3f8b99c",
+   "hash": "1775a67ce8a2",
    "updated": "2026-10-14"
   },
   "goldbar": {
    "first": "2026-09-15",
    "hash": "8010061fb31c",
    "updated": "2026-09-24"
+  },
+  "gondi1594": {
+   "first": "2026-10-13",
+   "hash": "0cc68348a073",
+   "updated": "2026-10-14"
   },
   "gonzaga1590": {
    "first": "2026-09-21",
@@ -767,6 +922,11 @@
    "hash": "df5543b065e4",
    "updated": "2026-09-24"
   },
+  "herbault1625": {
+   "first": "2026-10-13",
+   "hash": "077483d341ce",
+   "updated": "2026-10-14"
+  },
   "herbault1626": {
    "first": "2026-09-18",
    "hash": "717754a20973",
@@ -834,7 +994,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "59dac2ac2ddf",
+   "hash": "441de851a781",
    "updated": "2026-10-14"
   },
   "indus": {
@@ -851,6 +1011,11 @@
    "first": "2026-09-22",
    "hash": "514848af7afe",
    "updated": "2026-09-24"
+  },
+  "jeannin1607": {
+   "first": "2026-10-13",
+   "hash": "4b98cab477a9",
+   "updated": "2026-10-14"
   },
   "joachim1530": {
    "first": "2026-09-23",
@@ -889,18 +1054,18 @@
   },
   "labbe1582": {
    "first": "2026-09-23",
-   "hash": "b6e609c309d8",
-   "updated": "2026-10-13"
+   "hash": "232e5f63527c",
+   "updated": "2026-10-14"
+  },
+  "laboderie1608": {
+   "first": "2026-10-13",
+   "hash": "9206f756f005",
+   "updated": "2026-10-14"
   },
   "lanssac": {
    "first": "2026-09-17",
    "hash": "f261434f7d18",
    "updated": "2026-10-03"
-  },
-  "lasry-bnf": {
-   "first": "2026-10-13",
-   "hash": "6094b01ac526",
-   "updated": "2026-10-13"
   },
   "lebel1593": {
    "first": "2026-09-21",
@@ -911,6 +1076,11 @@
    "first": "2026-09-18",
    "hash": "0fb6d8b1287f",
    "updated": "2026-09-24"
+  },
+  "lerouge": {
+   "first": "2026-10-13",
+   "hash": "2389d1542034",
+   "updated": "2026-10-14"
   },
   "lineara": {
    "first": "2026-09-24",
@@ -937,10 +1107,20 @@
    "hash": "bb1bc255cb9b",
    "updated": "2026-10-05"
   },
+  "louis1635": {
+   "first": "2026-10-13",
+   "hash": "f909c1d5af61",
+   "updated": "2026-10-14"
+  },
   "lucca": {
    "first": "2026-09-16",
    "hash": "7f115d6bccc0",
    "updated": "2026-09-24"
+  },
+  "lucinge1588": {
+   "first": "2026-10-13",
+   "hash": "0b0f0c68a7b1",
+   "updated": "2026-10-14"
   },
   "lucini1767": {
    "first": "2026-09-21",
@@ -1017,6 +1197,11 @@
    "hash": "c11ab7afd21c",
    "updated": "2026-10-01"
   },
+  "meryvic1589": {
+   "first": "2026-10-13",
+   "hash": "d296684cc662",
+   "updated": "2026-10-14"
+  },
   "michell1751": {
    "first": "2026-09-19",
    "hash": "73e99a71eff0",
@@ -1026,6 +1211,11 @@
    "first": "2026-09-22",
    "hash": "9e19d0fc80fe",
    "updated": "2026-09-30"
+  },
+  "mondesir1769": {
+   "first": "2026-10-13",
+   "hash": "f2f1646c5c57",
+   "updated": "2026-10-14"
   },
   "mondoucet": {
    "first": "2026-09-17",
@@ -1066,6 +1256,11 @@
    "first": "2026-09-17",
    "hash": "ad947d8e942c",
    "updated": "2026-10-12"
+  },
+  "nevers1594gondi": {
+   "first": "2026-10-13",
+   "hash": "ea1f32b8b95f",
+   "updated": "2026-10-14"
   },
   "nevers1595": {
    "first": "2026-09-22",
@@ -1127,6 +1322,11 @@
    "hash": "696716afa0b3",
    "updated": "2026-10-09"
   },
+  "paleologue1562": {
+   "first": "2026-10-13",
+   "hash": "b6057211b279",
+   "updated": "2026-10-14"
+  },
   "pallotto1629": {
    "first": "2026-09-20",
    "hash": "cceff2457606",
@@ -1151,6 +1351,11 @@
    "first": "2026-09-21",
    "hash": "daacfb116d53",
    "updated": "2026-09-24"
+  },
+  "portugal1667": {
+   "first": "2026-10-13",
+   "hash": "048a897473f3",
+   "updated": "2026-10-14"
   },
   "potocka1714": {
    "first": "2026-09-23",
@@ -1317,6 +1522,11 @@
    "hash": "426c136119c9",
    "updated": "2026-09-24"
   },
+  "renard1556": {
+   "first": "2026-10-13",
+   "hash": "4a33a763e049",
+   "updated": "2026-10-14"
+  },
   "rennes1563": {
    "first": "2026-09-20",
    "hash": "121ccb985ce7",
@@ -1352,6 +1562,11 @@
    "hash": "7e018c70602e",
    "updated": "2026-09-24"
   },
+  "rondinelli1590": {
+   "first": "2026-10-13",
+   "hash": "5a5dcad27f68",
+   "updated": "2026-10-14"
+  },
   "ronquillo1676": {
    "first": "2026-09-21",
    "hash": "b80732df824e",
@@ -1376,6 +1591,11 @@
    "first": "2026-09-19",
    "hash": "20c203ffcea4",
    "updated": "2026-09-24"
+  },
+  "salviati1525": {
+   "first": "2026-10-13",
+   "hash": "1982045a2c83",
+   "updated": "2026-10-14"
   },
   "sanchez1522": {
    "first": "2026-09-20",
@@ -1402,6 +1622,11 @@
    "hash": "fe8139baa05a",
    "updated": "2026-09-24"
   },
+  "scipion1585": {
+   "first": "2026-10-13",
+   "hash": "80140944f9d8",
+   "updated": "2026-10-14"
+  },
   "scorpion": {
    "first": "2026-09-15",
    "hash": "fdc2d8be08de",
@@ -1411,6 +1636,11 @@
    "first": "2026-09-21",
    "hash": "e24766f9374e",
    "updated": "2026-09-21"
+  },
+  "sega1591": {
+   "first": "2026-10-13",
+   "hash": "f3edb6c52731",
+   "updated": "2026-10-14"
   },
   "segur": {
    "first": "2026-09-16",
@@ -1441,6 +1671,11 @@
    "first": "2026-09-19",
    "hash": "976066dc68dd",
    "updated": "2026-10-05"
+  },
+  "sessa1597": {
+   "first": "2026-10-13",
+   "hash": "787713c851eb",
+   "updated": "2026-10-14"
   },
   "siena1421": {
    "first": "2026-09-25",
@@ -1577,6 +1812,16 @@
    "hash": "e1614aa4d5fb",
    "updated": "2026-09-24"
   },
+  "tranchedini1452": {
+   "first": "2026-10-13",
+   "hash": "b5d6522565c0",
+   "updated": "2026-10-14"
+  },
+  "turenne1528": {
+   "first": "2026-10-13",
+   "hash": "195a3b36b68b",
+   "updated": "2026-10-14"
+  },
   "urquhart": {
    "first": "2026-09-16",
    "hash": "2292c3bed5a8",
@@ -1602,6 +1847,11 @@
    "hash": "fd82fc217023",
    "updated": "2026-09-24"
   },
+  "vergier1696": {
+   "first": "2026-10-13",
+   "hash": "54a609b00102",
+   "updated": "2026-10-14"
+  },
   "vich1511": {
    "first": "2026-09-18",
    "hash": "21249e86c859",
@@ -1611,6 +1861,21 @@
    "first": "2026-09-22",
    "hash": "e65bca865006",
    "updated": "2026-09-24"
+  },
+  "villardeau": {
+   "first": "2026-10-13",
+   "hash": "4f779de8aa30",
+   "updated": "2026-10-14"
+  },
+  "villeneuve1737": {
+   "first": "2026-10-13",
+   "hash": "f4019af17736",
+   "updated": "2026-10-14"
+  },
+  "villeroy258": {
+   "first": "2026-10-13",
+   "hash": "74b72638ed20",
+   "updated": "2026-10-14"
   },
   "visconti1528": {
    "first": "2026-09-22",
@@ -1636,6 +1901,11 @@
    "first": "2026-09-15",
    "hash": "91ed367c198a",
    "updated": "2026-10-11"
+  },
+  "vulcob1573": {
+   "first": "2026-10-13",
+   "hash": "2f5dfbe31393",
+   "updated": "2026-10-14"
   },
   "waldeck1744": {
    "first": "2026-09-28",
@@ -1684,7 +1954,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "114e4ea20623",
+   "hash": "f038bac747a6",
    "updated": "2026-10-14"
   },
   "yard1699": {

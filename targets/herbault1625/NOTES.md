@@ -1,8 +1,6 @@
 # Raimond Phélypeaux d’Herbault → Bullion, 29 July 1625, BnF Français 3944
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/herbault1625.html)
 
 ## Source
 

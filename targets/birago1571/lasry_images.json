@@ -1,0 +1,66 @@
+[
+ {
+  "file": "birago1571_lasry_p132_1.jpg",
+  "page": 132,
+  "n": 1,
+  "key": false,
+  "w": 1023,
+  "h": 227
+ },
+ {
+  "file": "birago1571_lasry_p132_2.png",
+  "page": 132,
+  "n": 2,
+  "key": true,
+  "w": 1400,
+  "h": 444
+ },
+ {
+  "file": "birago1571_lasry_p133_3.jpg",
+  "page": 133,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 239
+ },
+ {
+  "file": "birago1571_lasry_p133_4.jpg",
+  "page": 133,
+  "n": 4,
+  "key": false,
+  "w": 1400,
+  "h": 514
+ },
+ {
+  "file": "birago1571_lasry_p133_5.jpg",
+  "page": 133,
+  "n": 5,
+  "key": false,
+  "w": 1400,
+  "h": 395
+ },
+ {
+  "file": "birago1571_lasry_p133_6.jpg",
+  "page": 133,
+  "n": 6,
+  "key": false,
+  "w": 1400,
+  "h": 352
+ },
+ {
+  "file": "birago1571_lasry_p134_7.jpg",
+  "page": 134,
+  "n": 7,
+  "key": false,
+  "w": 1400,
+  "h": 140
+ },
+ {
+  "file": "birago1571_lasry_p134_8.jpg",
+  "page": 134,
+  "n": 8,
+  "key": false,
+  "w": 1400,
+  "h": 177
+ }
+]

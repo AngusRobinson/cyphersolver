@@ -1,8 +1,6 @@
 # Vicomte de Turenne → The Grand Master, 1 June 1528, BnF Français 2999 — Turenne, ff13r–13v
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/turenne1528.html)
 
 ## Source
 

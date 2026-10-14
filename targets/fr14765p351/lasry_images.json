@@ -1,0 +1,26 @@
+[
+ {
+  "file": "fr14765p351_lasry_p018_1.png",
+  "page": 18,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 444
+ },
+ {
+  "file": "fr14765p351_lasry_p018_2.jpg",
+  "page": 18,
+  "n": 2,
+  "key": false,
+  "w": 485,
+  "h": 162
+ },
+ {
+  "file": "fr14765p351_lasry_p019_3.jpg",
+  "page": 19,
+  "n": 3,
+  "key": false,
+  "w": 452,
+  "h": 163
+ }
+]

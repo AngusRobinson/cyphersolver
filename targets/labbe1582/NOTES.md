@@ -53,7 +53,7 @@ George Lasry, working with ChatGPT Astra 6 and Anthropic Opus 5.5, deciphered th
 pleureroient s'il n'i [r]etourno[i]t iamais", as in the reading above. Spot-check 13 Oct 2026 (f75r, Gallica
 btv1b9060073v/f77): "33 02 13 45 6" = m-a-i-s + separator and "43 1 25 23 1 9 35 1 35 15 13 1 43 55" =
 *ne pleureroient*, confirmed. The two solutions agree; AngusRobinson's (PR #20, 7 Oct) came first.
-Summary of all his BnF results: [docs/lasry-bnf.html](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Each of his other BnF results has its own page; see his card on [contributors.html](https://dbourdeau.github.io/cyphersolver/contributors.html#lasry).
 
 ## Remaining gaps
 - f64r03 and f64r08, one figure each under a blot - blocker: illegible; restored from context as *orgueil* and *reaulme*, grade C

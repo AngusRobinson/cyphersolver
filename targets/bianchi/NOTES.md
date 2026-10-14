@@ -1,8 +1,6 @@
 # Antonio Bianchi (XXIII); Piero Lusco (XXXI), as written in the visible subscriptions → Signor Castrino / Castrini, as written, XXIII: Venice, 3 February 1610; XXXI: Ferrara, 3 August 1610, BnF Italien 2061 — ff72v–73r, 95v–96r, 97v–98r
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/bianchi.html)
 
 ## Source
 

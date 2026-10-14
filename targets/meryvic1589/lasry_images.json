@@ -1,0 +1,26 @@
+[
+ {
+  "file": "meryvic1589_lasry_p004_1.png",
+  "page": 4,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 610
+ },
+ {
+  "file": "meryvic1589_lasry_p005_2.jpg",
+  "page": 5,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 230
+ },
+ {
+  "file": "meryvic1589_lasry_p005_3.jpg",
+  "page": 5,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 226
+ }
+]

@@ -1,0 +1,58 @@
+[
+ {
+  "file": "villeneuve1737_lasry_p012_1.png",
+  "page": 12,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 1347
+ },
+ {
+  "file": "villeneuve1737_lasry_p013_2.png",
+  "page": 13,
+  "n": 2,
+  "key": true,
+  "w": 1400,
+  "h": 1184
+ },
+ {
+  "file": "villeneuve1737_lasry_p014_3.png",
+  "page": 14,
+  "n": 3,
+  "key": true,
+  "w": 1400,
+  "h": 915
+ },
+ {
+  "file": "villeneuve1737_lasry_p015_4.jpg",
+  "page": 15,
+  "n": 4,
+  "key": false,
+  "w": 1400,
+  "h": 184
+ },
+ {
+  "file": "villeneuve1737_lasry_p015_5.jpg",
+  "page": 15,
+  "n": 5,
+  "key": false,
+  "w": 1400,
+  "h": 941
+ },
+ {
+  "file": "villeneuve1737_lasry_p016_6.jpg",
+  "page": 16,
+  "n": 6,
+  "key": false,
+  "w": 1400,
+  "h": 1256
+ },
+ {
+  "file": "villeneuve1737_lasry_p017_7.jpg",
+  "page": 17,
+  "n": 7,
+  "key": false,
+  "w": 1400,
+  "h": 472
+ }
+]

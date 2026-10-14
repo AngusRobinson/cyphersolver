@@ -1,0 +1,58 @@
+[
+ {
+  "file": "lucinge1588_lasry_p020_1.png",
+  "page": 20,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 386
+ },
+ {
+  "file": "lucinge1588_lasry_p021_2.jpg",
+  "page": 21,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 369
+ },
+ {
+  "file": "lucinge1588_lasry_p022_3.jpg",
+  "page": 22,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 257
+ },
+ {
+  "file": "lucinge1588_lasry_p022_4.jpg",
+  "page": 22,
+  "n": 4,
+  "key": false,
+  "w": 1400,
+  "h": 198
+ },
+ {
+  "file": "lucinge1588_lasry_p023_5.jpg",
+  "page": 23,
+  "n": 5,
+  "key": false,
+  "w": 1400,
+  "h": 231
+ },
+ {
+  "file": "lucinge1588_lasry_p023_6.jpg",
+  "page": 23,
+  "n": 6,
+  "key": false,
+  "w": 1400,
+  "h": 181
+ },
+ {
+  "file": "lucinge1588_lasry_p024_7.jpg",
+  "page": 24,
+  "n": 7,
+  "key": false,
+  "w": 1400,
+  "h": 128
+ }
+]

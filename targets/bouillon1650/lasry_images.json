@@ -1,0 +1,18 @@
+[
+ {
+  "file": "bouillon1650_lasry_p069_1.png",
+  "page": 69,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 432
+ },
+ {
+  "file": "bouillon1650_lasry_p069_2.jpg",
+  "page": 69,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 216
+ }
+]

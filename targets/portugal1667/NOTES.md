@@ -1,8 +1,6 @@
 # King of Portugal (Eu El Rey) → The Conde, Viceroy of India, 20April1667, BnF Portugais 33 — Letter of20April1667
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/portugal1667.html)
 
 ## Source
 

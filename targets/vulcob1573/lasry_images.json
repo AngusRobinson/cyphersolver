@@ -1,0 +1,26 @@
+[
+ {
+  "file": "vulcob1573_lasry_p065_1.png",
+  "page": 65,
+  "n": 1,
+  "key": true,
+  "w": 1174,
+  "h": 1145
+ },
+ {
+  "file": "vulcob1573_lasry_p065_2.png",
+  "page": 65,
+  "n": 2,
+  "key": true,
+  "w": 1400,
+  "h": 444
+ },
+ {
+  "file": "vulcob1573_lasry_p066_3.jpg",
+  "page": 66,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 213
+ }
+]

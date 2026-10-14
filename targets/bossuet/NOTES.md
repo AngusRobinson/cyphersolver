@@ -1,8 +1,6 @@
 # Bossuet correspondence → Includes letters to the abbé Bossuet, Selected letters from1697–1698, BnF NAF 28227(9)
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/bossuet.html)
 
 ## Source
 

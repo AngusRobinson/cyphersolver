@@ -1,0 +1,18 @@
+[
+ {
+  "file": "clair460bar_lasry_p114_1.png",
+  "page": 114,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 1025
+ },
+ {
+  "file": "clair460bar_lasry_p115_2.jpg",
+  "page": 115,
+  "n": 2,
+  "key": false,
+  "w": 610,
+  "h": 123
+ }
+]

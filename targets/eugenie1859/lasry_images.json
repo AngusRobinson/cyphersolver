@@ -1,0 +1,42 @@
+[
+ {
+  "file": "eugenie1859_lasry_p026_1.png",
+  "page": 26,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 1503
+ },
+ {
+  "file": "eugenie1859_lasry_p027_2.png",
+  "page": 27,
+  "n": 2,
+  "key": true,
+  "w": 1400,
+  "h": 1237
+ },
+ {
+  "file": "eugenie1859_lasry_p028_3.jpg",
+  "page": 28,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 514
+ },
+ {
+  "file": "eugenie1859_lasry_p029_4.jpg",
+  "page": 29,
+  "n": 4,
+  "key": false,
+  "w": 1400,
+  "h": 1050
+ },
+ {
+  "file": "eugenie1859_lasry_p030_5.jpg",
+  "page": 30,
+  "n": 5,
+  "key": false,
+  "w": 1400,
+  "h": 601
+ }
+]

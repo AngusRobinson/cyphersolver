@@ -1,0 +1,18 @@
+[
+ {
+  "file": "bertelot_lasry_p088_1.png",
+  "page": 88,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 1356
+ },
+ {
+  "file": "bertelot_lasry_p089_2.jpg",
+  "page": 89,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 295
+ }
+]

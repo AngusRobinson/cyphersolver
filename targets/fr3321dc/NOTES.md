@@ -1,8 +1,6 @@
 # Signed DC → Not established, 20 May; year not established, BnF Français 3321
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/fr3321dc.html)
 
 ## Source
 

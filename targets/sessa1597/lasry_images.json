@@ -1,0 +1,42 @@
+[
+ {
+  "file": "sessa1597_lasry_p061_1.jpg",
+  "page": 61,
+  "n": 1,
+  "key": false,
+  "w": 1069,
+  "h": 745
+ },
+ {
+  "file": "sessa1597_lasry_p062_2.png",
+  "page": 62,
+  "n": 2,
+  "key": true,
+  "w": 1400,
+  "h": 873
+ },
+ {
+  "file": "sessa1597_lasry_p062_3.png",
+  "page": 62,
+  "n": 3,
+  "key": true,
+  "w": 1400,
+  "h": 754
+ },
+ {
+  "file": "sessa1597_lasry_p063_4.png",
+  "page": 63,
+  "n": 4,
+  "key": true,
+  "w": 1400,
+  "h": 701
+ },
+ {
+  "file": "sessa1597_lasry_p063_5.jpg",
+  "page": 63,
+  "n": 5,
+  "key": false,
+  "w": 1400,
+  "h": 201
+ }
+]

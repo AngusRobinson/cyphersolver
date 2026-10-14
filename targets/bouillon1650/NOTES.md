@@ -1,8 +1,6 @@
 # Not established → Duke of Bouillon, 6–8 August 1650, Madrid, BnF Clairambault 460 — graphic cipher, pp53–55
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/bouillon1650.html)
 
 ## Source
 

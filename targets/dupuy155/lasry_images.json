@@ -1,0 +1,26 @@
+[
+ {
+  "file": "dupuy155_lasry_p055_1.jpg",
+  "page": 55,
+  "n": 1,
+  "key": false,
+  "w": 687,
+  "h": 146
+ },
+ {
+  "file": "dupuy155_lasry_p055_2.png",
+  "page": 55,
+  "n": 2,
+  "key": true,
+  "w": 1400,
+  "h": 484
+ },
+ {
+  "file": "dupuy155_lasry_p056_3.jpg",
+  "page": 56,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 428
+ }
+]

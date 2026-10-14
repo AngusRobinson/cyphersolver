@@ -1,8 +1,6 @@
 # Louis XIII → Philippe de Béthune, 30 June 1629, BnF Français 3675 — Louis XIII à Béthune, 30 juin 1629
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/bethune1629.html)
 
 ## Source
 

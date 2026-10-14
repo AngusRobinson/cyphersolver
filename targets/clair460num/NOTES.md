@@ -1,8 +1,6 @@
 # Not established → Not established, 1650–1653 volume; individual dates unchecked, BnF Clairambault 460 — numerical cipher, pp289–303
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/clair460num.html)
 
 ## Source
 

@@ -1,8 +1,6 @@
 # Ernestus dux and Joachimus; probably Ernst of Brunswick-Lüneburg and Joachim von Maltzan → Francis I, King of France, Eve of Saint Paul, at five in the morning; no year. Context suggests c.1518–1520;1519 remains, BnF Dupuy 468
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/dupuy468.html)
 
 ## Source
 

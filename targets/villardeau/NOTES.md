@@ -1,8 +1,6 @@
 # De Villardeau (Holstein letter, signed on p125); testament memorandum anonymous → Unestablished, Undated selected sheets; Russian-correspondence dossier, 1725–1730, BnF Clairambault 531 — testament and Holstein marriage
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/villardeau.html)
 
 ## Source
 

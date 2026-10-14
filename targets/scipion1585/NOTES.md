@@ -1,8 +1,6 @@
 # Scipion de Gonzague (Français 4696); not established for Français 4698 → Duke of Nevers (Français 4696); not established for Français 4698, 1585–1589 (Français 4696); 1590 (Français 4698), BnF Français 4696 / 4698 — graphical cipher, ff5r/62r–v, ff30r– 31r and f104r
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/scipion1585.html)
 
 ## Source
 

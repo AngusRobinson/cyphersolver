@@ -1,8 +1,6 @@
 # Several correspondents; Chamilly and Barrière named in headings → The Prince in several headings; another damaged heading names a duke, 18, 19 and 26 August; year not visible in this source extract, BnF Clairambault 460 — barred letters and numerals, pp285– 287
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/clair460bar.html)
 
 ## Source
 

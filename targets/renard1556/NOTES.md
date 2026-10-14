@@ -1,8 +1,6 @@
 # Renard → King of Spain, 14 December 1556, BnF Français 20991 — Renard, ff217v–218r
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/renard1556.html)
 
 ## Source
 

@@ -1,0 +1,26 @@
+[
+ {
+  "file": "dampierre1589_lasry_p082_1.png",
+  "page": 82,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 498
+ },
+ {
+  "file": "dampierre1589_lasry_p083_2.jpg",
+  "page": 83,
+  "n": 2,
+  "key": false,
+  "w": 695,
+  "h": 350
+ },
+ {
+  "file": "dampierre1589_lasry_p083_3.jpg",
+  "page": 83,
+  "n": 3,
+  "key": false,
+  "w": 695,
+  "h": 275
+ }
+]

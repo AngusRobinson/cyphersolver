@@ -1,8 +1,6 @@
 # Brienne → Queen of Poland, Compiègne, 19 May 1646, BnF Clairambault 1067
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/brienne1067.html)
 
 ## Source
 
