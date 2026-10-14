@@ -442,14 +442,14 @@
     "role": "solution",
     "note": "Independent contemporaneous Ranzo decipherment in collaboration with Claude Opus 5.5 and GPT-6 Astra, from Norbert Biermann’s transcription; five-letter Codex consolidation, visual key and translated excerpts.",
     "date": "2026-10-06",
-    "source": "https://github.com/GeorgeLasry/cyphersolver/tree/writeup-ranzo/targets/vasto1527/lasry",
+    "source": "https://github.com/dbourdeau/cyphersolver/tree/main/targets/vasto1527/lasry",
     "published": true
    },
    {
     "who": "biermann",
     "role": "transcription",
     "note": "Ranzo transcript.docx (2021), five letters, supplied by George Lasry; basis of the contributed key and decipherment.",
-    "source": "https://github.com/GeorgeLasry/cyphersolver/tree/writeup-ranzo/targets/vasto1527/lasry"
+    "source": "https://github.com/dbourdeau/cyphersolver/tree/main/targets/vasto1527/lasry"
    },
    {
     "who": "rosson",

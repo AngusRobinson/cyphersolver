@@ -239,7 +239,7 @@
     "role": "solution",
     "note": "Solved by George Lasry: CTTS transcription and built-in homophonic solver; key and decryption improved and finalized with GPT-6 Astra.",
     "date": "2026-10-14",
-    "source": "https://github.com/GeorgeLasry/cyphersolver/tree/writeup-decode4282/targets/decode4282",
+    "source": "https://github.com/dbourdeau/cyphersolver/tree/main/targets/decode4282",
     "published": true
    }
   ],

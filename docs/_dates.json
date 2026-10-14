@@ -225,6 +225,7 @@
   "pál bornemisza to ferdinand i, transylvania, c. 1556": "2026-09-22",
   "queen anne to the earl of peterborough, 22 february 1712": "2026-09-21",
   "queen maría to alfonso v, valencia, 5 august 1435": "2026-09-18",
+  "ranzo correspondence, 1528": "2026-10-14",
   "rechteren to the griffier, st petersburg, 4 oct 1785": "2026-09-21",
   "richard forster, 1644": "2026-09-16",
   "robert fagel to william v, 18 june 1804": "2026-09-21",
@@ -297,6 +298,7 @@
   "torcy to the plenipotentiaries at geertruidenberg, 3 april 1710, and villars to ": "2026-10-09",
   "toulon 1803": "2026-09-23",
   "toulon to van hogendorp, 30 july 1803": "2026-09-22",
+  "undated latin diplomatic letter, riksarkivet, decode r4282": "2026-10-14",
   "unknown sender (constantinople) to ferenc rákóczi ii, 1707": "2026-09-21",
   "unknown to unknown, 1728 (add ms 32287)": "2026-09-22",
   "unknown writer to hesse-kassel, thirty years’ war (marburg, decode r4500)": "2026-09-22",
@@ -560,8 +562,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "e3d274d49858",
-   "updated": "2026-10-13"
+   "hash": "409728e8239f",
+   "updated": "2026-10-14"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -645,7 +647,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "caed61f3a385",
+   "hash": "7136bd657f17",
    "updated": "2026-10-14"
   },
   "copenhagen": {
@@ -667,6 +669,11 @@
    "first": "2026-09-15",
    "hash": "272220b38ef0",
    "updated": "2026-09-24"
+  },
+  "decode4282": {
+   "first": "2026-10-14",
+   "hash": "d17c1f3266f7",
+   "updated": "2026-10-14"
   },
   "dedem1788": {
    "first": "2026-09-21",
@@ -830,7 +837,7 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "1775a67ce8a2",
+   "hash": "ffcedeb146bb",
    "updated": "2026-10-14"
   },
   "goldbar": {
@@ -995,7 +1002,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "fa055b29f784",
+   "hash": "7ccd8551a154",
    "updated": "2026-10-14"
   },
   "indus": {
@@ -1780,7 +1787,7 @@
   },
   "superscript": {
    "first": "2026-10-09",
-   "hash": "8139114d0982",
+   "hash": "1006db58799b",
    "updated": "2026-10-14"
   },
   "swieten1757": {
@@ -1840,8 +1847,8 @@
   },
   "vasto1527": {
    "first": "2026-09-18",
-   "hash": "31c2842768b6",
-   "updated": "2026-09-24"
+   "hash": "4f1f4d89adf2",
+   "updated": "2026-10-14"
   },
   "vatican": {
    "first": "2026-09-15",
@@ -1955,7 +1962,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "499c1c1ca230",
+   "hash": "9953fbbade3e",
    "updated": "2026-10-14"
   },
   "yard1699": {

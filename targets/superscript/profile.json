@@ -425,7 +425,7 @@
     "role": "solution",
     "note": "Contributed Gilino R8572 edition: reconstructed key, nine-page transcription, literal alignment and full Italian reading, with Codex assistance. Research notes are dated 7 October 2026 and describe crib/pattern recovery without an external key; the existing R5258-based project reconstruction is retained separately.",
     "date": "2026-10-14",
-    "source": "https://github.com/GeorgeLasry/cyphersolver/tree/writeup-gilino/targets/superscript/gilino/lasry",
+    "source": "https://github.com/dbourdeau/cyphersolver/tree/main/targets/superscript/gilino/lasry",
     "published": true
    }
   ]
