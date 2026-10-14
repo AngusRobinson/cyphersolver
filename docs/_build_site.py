@@ -2438,7 +2438,8 @@ def process(path):
     s = re.sub(r'\n?<div class="seal [a-z]+" aria-hidden="true">.*?</div>', '', s)
     if page and page['slug'] not in SURVEYS and '<section class="hero">' in s:
         word = M.INFO[page['method']][2] if page.get('method') else plain(page['stt']) if len(plain(page['stt'])) <= 14 else verb_of(page)
-        seal = f'\n<div class="seal {page["st"]}" aria-hidden="true"><span>{html.escape(word)}</span></div>'
+        long = ' class="long"' if max(len(w) for w in re.split(r'[\s-]+', word)) > 8 else ''   # smaller type, see style.css
+        seal = f'\n<div class="seal {page["st"]}" aria-hidden="true"><span{long}>{html.escape(word)}</span></div>'
         s = re.sub(r'(<section class="hero">.*?)(\n</section>)', lambda m: m.group(1) + seal + m.group(2), s, count=1, flags=re.S)
     # "Watch it decipher": a page with docs/reveal/<slug>.json and no reveal of its own gets one, once, right after the h2
     # the data names as its "anchor" (else before the sources); from then on it is ordinary page content

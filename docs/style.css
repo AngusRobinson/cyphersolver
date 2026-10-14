@@ -703,11 +703,14 @@ blockquote.reading,blockquote.big{font-family:var(--period);font-size:1.3rem;lin
   background:radial-gradient(circle at 36% 30%,color-mix(in srgb,var(--wx) 55%,#fff) 0 10%,var(--wx) 42%,color-mix(in srgb,var(--wx) 60%,#000) 100%);
   box-shadow:inset 0 0 0 .45rem color-mix(in srgb,var(--wx) 80%,#000),inset 0 0 0 .54rem color-mix(in srgb,var(--wx) 60%,#fff),inset .2rem .25rem .5rem var(--wax-hi)}
 .hero .seal::after{content:"";position:absolute;inset:1.25rem;border-radius:50%;border:1px dashed color-mix(in srgb,var(--wx) 45%,#000)}
-.hero .seal span{position:relative;z-index:1;font:600 .92rem/1.1 var(--display);letter-spacing:.14em;text-transform:uppercase;text-align:center;max-width:5.4rem;
+/* the words are sized off the seal itself (cqw), so they stay inside the dashed ring at either seal size; .long is a word over eight letters */
+.hero .seal{container-type:size}
+.hero .seal span{position:relative;z-index:1;font:600 9.2cqw/1.12 var(--display);letter-spacing:.08em;text-transform:uppercase;text-align:center;max-width:66cqw;
   color:color-mix(in srgb,var(--wx) 35%,#000);text-shadow:0 1px 0 color-mix(in srgb,var(--wx) 40%,#fff)}
+.hero .seal span.long{font-size:7cqw}
 .hero .seal{background:none;border:0}
 .hero .seal.solved{--wx:#9b2a22} .hero .seal.partial{--wx:#a4651c} .hero .seal.found{--wx:#2f4d7a} .hero .seal.stuck{--wx:#4a4640}
-@media (max-width:760px){.hero .seal{right:.9rem;top:.8rem;bottom:auto;width:4.6rem;height:4.6rem}.hero .seal::after{inset:.65rem}.hero .seal span{font-size:.56rem;letter-spacing:.1em;max-width:3.4rem}.hero:has(> .seal) > .kicker{margin-right:4.6rem}}
+@media (max-width:760px){.hero .seal{right:.9rem;top:.8rem;bottom:auto;width:4.6rem;height:4.6rem}.hero .seal::after{inset:.65rem}.hero:has(> .seal) > .kicker{margin-right:4.6rem}}
 @media print{body::before,.hero .seal{display:none}}
 
 /* ---------------------------------------------------------------- deep-zoom viewer (zoom.js) */
