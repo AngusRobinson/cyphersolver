@@ -1,0 +1,140 @@
+{
+  "scope": "Assignment and transcription counts, not plaintext accuracy. Uncertainty categories may overlap.",
+  "cipher_line_count": 161,
+  "total_transcribed_tokens": 3107,
+  "cipher_tokens": 3105,
+  "canonical_transcription_labels": 138,
+  "cipher_labels": 136,
+  "inline_cleartext": {
+    "label_count": 2,
+    "token_count": 2,
+    "labels": {
+      "vva": 1,
+      "xha": 1
+    }
+  },
+  "presumed_nulls": {
+    "label_count": 12,
+    "token_count": 133,
+    "labels": {
+      "22": 24,
+      "40": 3,
+      "a+": 25,
+      "a89": 1,
+      "g5000": 1,
+      "h22": 19,
+      "h39": 1,
+      "p25": 21,
+      "q": 22,
+      "r22": 7,
+      "r28": 4,
+      "x22": 5
+    }
+  },
+  "tentative_values": {
+    "label_count": 5,
+    "token_count": 26,
+    "labels": {
+      "b50": 1,
+      "b55": 13,
+      "b56": 10,
+      "g65": 1,
+      "h26": 1
+    }
+  },
+  "possible_separators": {
+    "label_count": 1,
+    "token_count": 2,
+    "labels": {
+      "ooo": 2
+    }
+  },
+  "doubtful_glyphs": {
+    "token_count": 20,
+    "labels": {
+      "b+": 2,
+      "b37": 1,
+      "b42": 1,
+      "b48": 1,
+      "b56": 1,
+      "d64": 1,
+      "d65": 1,
+      "g49": 3,
+      "g53": 1,
+      "g58": 1,
+      "g68": 1,
+      "g79": 3,
+      "np": 1,
+      "o+o": 1,
+      "o27": 1
+    }
+  },
+  "unassigned_cipher_labels": [],
+  "reading_order": [
+    1,
+    2,
+    7,
+    3,
+    5,
+    4,
+    6,
+    8,
+    9
+  ],
+  "pages": {
+    "1": {
+      "lines": 10,
+      "transcribed_tokens": 219,
+      "cipher_tokens": 219,
+      "inline_cleartext_tokens": 0
+    },
+    "2": {
+      "lines": 23,
+      "transcribed_tokens": 412,
+      "cipher_tokens": 410,
+      "inline_cleartext_tokens": 2
+    },
+    "7": {
+      "lines": 20,
+      "transcribed_tokens": 373,
+      "cipher_tokens": 373,
+      "inline_cleartext_tokens": 0
+    },
+    "3": {
+      "lines": 22,
+      "transcribed_tokens": 418,
+      "cipher_tokens": 418,
+      "inline_cleartext_tokens": 0
+    },
+    "5": {
+      "lines": 14,
+      "transcribed_tokens": 274,
+      "cipher_tokens": 274,
+      "inline_cleartext_tokens": 0
+    },
+    "4": {
+      "lines": 23,
+      "transcribed_tokens": 416,
+      "cipher_tokens": 416,
+      "inline_cleartext_tokens": 0
+    },
+    "6": {
+      "lines": 22,
+      "transcribed_tokens": 464,
+      "cipher_tokens": 464,
+      "inline_cleartext_tokens": 0
+    },
+    "8": {
+      "lines": 17,
+      "transcribed_tokens": 324,
+      "cipher_tokens": 324,
+      "inline_cleartext_tokens": 0
+    },
+    "9": {
+      "lines": 10,
+      "transcribed_tokens": 207,
+      "cipher_tokens": 207,
+      "inline_cleartext_tokens": 0
+    }
+  }
+}

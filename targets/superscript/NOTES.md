@@ -202,3 +202,14 @@ Open: P1 l1-8 (the opening: Imperialists, separation of England from France, con
   leaf P10); origin Paredes [de Nava] (not "Daredos"); language Italian; key = DECODE R5258 (ASMi Carteggio
   Sforzesco cart. 1591 no. 24); image order vs folio order as above; reading in `gilino/reading_r8572.txt`.
 - R5258: link to R8572 as the key that reads it (docket "Cum equite Bilie / extracta ex cifris").
+
+
+## 14 October 2026: George Lasry’s Gilino edition contributed
+
+Contributed by George Lasry. The separate edition in `gilino/lasry/` preserves his reconstructed key, nine-page transcription, literal alignment and Italian reading with original cleartext inserted. Its dated research record (7 October 2026) describes Italian crib testing, repeated patterns and syllabary structure with Codex assistance, without an archival key. Do not attribute a CTTS homophonic-solver run to this contribution: none is documented in its records. The existing project work with R5258 and the Ghinucci material remain unchanged.
+
+The contribution adds 161 cipher lines, 3,105 cipher occurrences and two original cleartext abbreviations, with 136 cipher labels. These are an alternative transcription of the same nine text pages, not additional pages or tokens to add to the earlier totals. Every aligned assignment reproduces from its key; this does not make tentative values or anomalous words secure. The supplied PDF is an older presentation of this edition; subsequent corrections in the accompanying files are retained.
+
+The headline 96.1% and existing statistical test continue to describe the earlier project transcription. No combined or replacement accuracy is claimed. The current page now includes the full contributed Italian reading and its key, with technical evidence and disagreements retained in the contribution directory.
+
+Two explanatory examples on the page were corrected to its already-existing working key: B.51–54 = fa…fo, with B.55/B.56 title codes; D.40 = i in this letter. They do not alter either key table.

@@ -8657,7 +8657,7 @@
     "R8572": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "'El Gilino' to Francesco II Sforza, Duke of Milan, at Cremona (address leaf), Paredes de Nava, 15 Sept 1527. Deciphered with the Sforza key R5258 plus a few context values: 2,872 of 2,989 significant signs (96.1%); 9 signs and 45 doubtful words open. Folio order 214r-218r = images P1, P2, P7, P3, P5, P4, P6, P8, P9. No decipherment on the MS or in L&P.",
+     "note": "'El Gilino' to Francesco II Sforza, Duke of Milan, at Cremona (address leaf), Paredes de Nava, 15 Sept 1527. Deciphered with the Sforza key R5258 plus a few context values: 2,872 of 2,989 significant signs (96.1%); 9 signs and 45 doubtful words open. Folio order 214r-218r = images P1, P2, P7, P3, P5, P4, P6, P8, P9. No decipherment on the MS or in L&P. A separate edition contributed by George Lasry supplies 3,105 cipher occurrences plus two original clear abbreviations, an auditable recovered key and full Italian reading; see the write-up contribution section. Existing R5258-based measurements are retained separately.",
      "reading": [
       {
        "file": "targets/superscript/gilino/reading_r8572.txt"
@@ -8669,7 +8669,8 @@
       "lang": "IT"
      },
      "transcription": [
-      "targets/superscript/r8572_tokens.txt"
+      "targets/superscript/r8572_tokens.txt",
+      "targets/superscript/gilino/lasry/transcription.txt"
      ],
      "fields": {
       "author": "Gilino (signs 'Servo el Gilino'), Sforza agent at the imperial court",

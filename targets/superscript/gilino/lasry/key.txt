@@ -1,0 +1,146 @@
+GILINO — RECOVERED WORKING KEY
+Sorted by symbol label, ignoring case, with numerical suffixes in numerical order.
+Labels are transcription aliases: b36 means the glyph classified as b with superscript 36.
+Empty value = presumed null; ? = tentative value; doubtful glyph counts are separate.
+Only groups observed in the nine transcribed photographs are included.
+The supplied glyph atlas belongs to the prior source package and is not bundled here.
+
+GROUP	VALUE	COUNT	DOUBTFUL GLYPHS	STATUS	NOTE
++	e	99	0	working inference
+.._	h	22	0	working inference
+19	a	33	0	working inference
+20	b	22	0	working inference
+22	[null]	24	0	presumed null
+36	n	19	0	working inference
+39	o	1	0	working inference
+40	[null]	3	0	presumed null
+44	r	21	0	working inference
+45	s	2	0	working inference
+46	s	1	0	working inference
+55	et	32	0	working inference
+^	b	21	0	working inference
+a30	a	21	0	working inference
+a31	b	5	0	working inference	B validated in AMBASSATORE, SUB FIDE and PUBLICAMENTE.
+a32	c	5	0	working inference
+a33	d	1	0	working inference	A33 visibly present in P8.C11 token18; extends A30=A, A31=B, A32=C, and gives IN PREDA AD ALEMENI. The image establishes glyph; ordered alphabet and independent syntactic fit establish value.
+a89	[null]	1	0	presumed null	Single occurrence between SCRIV and E. A89 is clearly written in the original (P3_A89_original.png); TI was unsupported. Reading SCRIVE needs a dispensable group; retain as presumed, not proven.
+a+	[null]	25	0	presumed null
+b	n	67	0	working inference
+b25	e	33	0	working inference
+b27	g	1	0	working inference
+b28	h	5	0	working inference
+b36	ca	18	0	working inference
+b37	ce	24	1	working inference
+b38	ci	22	0	working inference
+b39	co	23	0	working inference
+b40	cu	3	0	working inference
+b41	da	14	0	working inference
+b42	de	65	1	working inference
+b43	di	70	0	working inference
+b44	do	11	0	working inference
+b45	du	3	0	working inference
+b46	ga	4	0	working inference
+b47	ge	5	0	working inference
+b48	gi	5	1	working inference
+b49	go	2	0	working inference
+b50	gu?	1	0	structural extrapolation; unconfirmed	GU follows the visible GA GE GI GO row but its sole observed occurrence is P3's unexplained terminal sequence. The value is therefore marked tentative.
+b51	fa	5	0	working inference
+b52	fe	8	0	working inference
+b53	fi	7	0	working inference
+b54	fo	5	0	working inference
+b55	imperatore?	13	0	tentative	Imperial referent strongly supported. IMPERATORE? is an interpretive expansion; CESARE or an equivalent historical title could have been the original key entry.
+b56	sua maesta?	10	1	tentative	SUA MAESTA? is an interpretive expansion supported by multiple grammatical contexts, not a surviving historical key.
+b+	u	20	2	working inference
+bp	l	87	0	working inference
+c	d	11	0	working inference
+d29	u	1	0	working inference	U fits CA-U-SA; limited independent evidence.
+d40	i	15	0	working inference
+d41	l	23	0	working inference
+d42	m	4	0	working inference
+d43	n	45	0	working inference
+d51	la	31	0	working inference
+d52	le	31	0	working inference
+d53	li	46	0	working inference
+d54	lo	32	0	working inference
+d55	lu	4	0	working inference
+d56	ma	28	0	working inference
+d57	me	24	0	working inference
+d58	mi	14	0	working inference
+d59	mo	22	0	working inference
+d61	na	23	0	working inference
+d62	ne	32	0	working inference
+d63	ni	11	0	working inference
+d64	no	73	1	working inference
+d65	nu	11	1	working inference
+e	p	1	0	working inference
+e-	i	2	0	working inference
+g49	go	3	3	working inference	GO: independently supported by LONGO, PREGO and ANDREA BORGO; the G base was checked in the image. Do not force N from a presumed alphabet.
+g50	o	9	0	working inference
+g51	p	5	0	working inference
+g53	r	2	1	working inference
+g56	pa	16	0	working inference
+g57	pe	53	0	working inference
+g58	pi	5	1	working inference
+g59	po	16	0	working inference
+g60	pu	3	0	working inference
+g61	qua	6	0	working inference
+g62	que	15	0	working inference
+g63	qui	4	0	working inference
+g65	qu?	1	0	structural extrapolation; unconfirmed	The alleged second occurrence in P8 was corrected from G65? to image-confirmed D65=NU. G65 now occurs only in P3's unexplained TO TO QU GU tail. QU is a structural conjecture, not a linguistically verified value.
+g66	ra	53	0	working inference
+g67	re	89	0	working inference
+g68	ri	40	1	working inference
+g69	ro	23	0	working inference
+g70	ru	3	0	working inference	P6.C20 is visibly G70, yielding RU-I-NA across the line break in l'una ruina segui l'altra del reino di Napoli. This independently confirms the syllabary value. P1 CENTRU and P2 RUE remain local textual or enciphering anomalies and do not justify changing a fixed value.
+g71	sa	27	0	working inference
+g72	se	43	0	working inference
+g73	si	51	0	working inference
+g74	so	32	0	working inference
+g75	su	18	0	working inference
+g76	ta	48	0	working inference
+g77	te	29	0	working inference
+g78	ti	36	0	working inference
+g79	to	83	3	working inference
+g80	tu	9	0	working inference
+g5000	[null]	1	0	presumed null	Read literally as G with 5000. I-N-TE-R-CE-T-[G5000]-T-E gives INTERCETTE if null. P7 clear opening independently says a copy of the predette letre intercette, referring to these same letters. Do not keep obsolete g2000=A merely because that was the previous guessed reading.
+gp	f	25	0	working inference
+h22	[null]	19	0	presumed null
+h26	cosa?	1	0	tentative	COSA? from per una sola ... che li e imputata; one occurrence.
+h27	che	63	0	working inference
+h28	et	7	0	working inference
+h39	[null]	1	0	presumed null
+h+	o	62	0	working inference	O supported in many words. Some supplied placements need L; this is a residual transcription/allography issue, not authorization to switch values contextually.
+m	t	61	0	working inference
+mp	g	49	0	working inference
+np	i	35	1	working inference
+o	o	24	0	working inference
+o27	s	19	1	working inference
+o28	t	31	0	working inference
+o29	v	46	0	working inference
+o30	x	7	0	working inference
+o+o	c	25	1	working inference
+o--	a	9	0	working inference
+o^	p	23	0	working inference
+oo	z	8	0	working inference
+ooo	[separator?]	2	0	possible separator	Possible divider or null. Also appears between DI and MONACO, so not automatically a sentence-ending mark.
+p25	[null]	21	0	presumed null
+p+	i	63	0	working inference
+pi	m	13	0	working inference
+q	[null]	22	0	presumed null
+q+	con	22	0	working inference	CON is strongly supported in the older transcription. Several P6/P7 placements are incompatible and may conflate distinct glyphs. A fixed CON value is retained in the literal decode, never selectively deleted.
+r22	[null]	7	0	presumed null
+r23	con	6	0	working inference
+r28	[null]	4	0	presumed null
+rp	e	7	0	working inference	E supported by PER ESSO, ME REMETTO, MILANO EL CHE and INFANTE E QUELLO.
+s	r	82	0	working inference
+t	x	5	0	working inference
+t+	i	1	0	working inference
+ut	a	100	0	working inference
+uy	a	17	0	working inference
+vp	v	28	0	working inference
+vva	V[ost]ra	1	0	cleartext abbreviation	The first form is a cursive vra with an abbreviation arc, and the second an ex-form with elevated continuation. Their position between CONFORTARE and CHE supplies the addressee. Treat this occurrence as an ordinary clear manuscript honorific, not two null cipher signs; the precise abbreviation ending should remain expanded in brackets.
+x22	[null]	5	0	presumed null
+x26	quanto	4	0	working inference	Now independently supported by HA CONCESSO QUANTO HA SAPUTO DESIDERARE, DI QUANTO MOMENTO SONO (D57 verified), and P8 QUANTO POTENTI. P6 still needs its own local transcription audit.
+xha	Ex[tia]	1	0	cleartext abbreviation	The first form is a cursive vra with an abbreviation arc, and the second an ex-form with elevated continuation. Their position between CONFORTARE and CHE supplies the addressee. Treat this occurrence as an ordinary clear manuscript honorific, not two null cipher signs; the precise abbreviation ending should remain expanded in brackets.
+xo	s	79	0	working inference
+xp	v	6	0	working inference

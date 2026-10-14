@@ -1,0 +1,907 @@
+{
+  "title": "Gilino working key",
+  "updated": "2026-10-07T03:55:11",
+  "manuscript": "British Library, Cotton MS Vespasian C IV, ff.214r-218v",
+  "reading_order": [
+    1,
+    2,
+    7,
+    3,
+    5,
+    4,
+    6,
+    8,
+    9
+  ],
+  "scope": "Observed transcription groups only. A mapping coverage count is not a plaintext accuracy estimate. Values are recovered hypotheses, not an archival key.",
+  "statistics": {
+    "total_cipher_tokens": 3105,
+    "observed_canonical_groups": 138,
+    "raw_transcription_labels_including_question_mark_variants": 152,
+    "assigned_canonical_groups": 138,
+    "unassigned_canonical_groups": [],
+    "transcription_tokens_with_doubtful_glyph_mark": 20,
+    "presumed_null_groups": 12,
+    "tentative_value_groups": 5,
+    "page_token_counts": {
+      "1": 219,
+      "2": 412,
+      "3": 418,
+      "4": 416,
+      "5": 274,
+      "6": 464,
+      "7": 373,
+      "8": 324,
+      "9": 207
+    },
+    "total_transcribed_tokens": 3107,
+    "inline_cleartext_tokens": 2,
+    "observed_cipher_groups": 136,
+    "inline_cleartext_labels": [
+      "vva",
+      "xha"
+    ],
+    "page_cipher_token_counts": {
+      "1": 219,
+      "2": 410,
+      "3": 418,
+      "4": 416,
+      "5": 274,
+      "6": 464,
+      "7": 373,
+      "8": 324,
+      "9": 207
+    }
+  },
+  "key": {
+    "+": {
+      "value": "e",
+      "count": 99,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    ".._": {
+      "value": "h",
+      "count": 22,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "19": {
+      "value": "a",
+      "count": 33,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "20": {
+      "value": "b",
+      "count": 22,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "22": {
+      "value": "",
+      "count": 24,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "36": {
+      "value": "n",
+      "count": 19,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "39": {
+      "value": "o",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "40": {
+      "value": "",
+      "count": 3,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "44": {
+      "value": "r",
+      "count": 21,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "45": {
+      "value": "s",
+      "count": 2,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "46": {
+      "value": "s",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "55": {
+      "value": "et",
+      "count": 32,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "^": {
+      "value": "b",
+      "count": 21,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "a30": {
+      "value": "a",
+      "count": 21,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "a31": {
+      "value": "b",
+      "count": 5,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference",
+      "note": "B validated in AMBASSATORE, SUB FIDE and PUBLICAMENTE."
+    },
+    "a32": {
+      "value": "c",
+      "count": 5,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "a33": {
+      "value": "d",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference",
+      "note": "A33 visibly present in P8.C11 token18; extends A30=A, A31=B, A32=C, and gives IN PREDA AD ALEMENI. The image establishes glyph; ordered alphabet and independent syntactic fit establish value."
+    },
+    "a89": {
+      "value": "",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null",
+      "note": "Single occurrence between SCRIV and E. A89 is clearly written in the original (P3_A89_original.png); TI was unsupported. Reading SCRIVE needs a dispensable group; retain as presumed, not proven."
+    },
+    "a+": {
+      "value": "",
+      "count": 25,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "b": {
+      "value": "n",
+      "count": 67,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b25": {
+      "value": "e",
+      "count": 33,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b27": {
+      "value": "g",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b28": {
+      "value": "h",
+      "count": 5,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b36": {
+      "value": "ca",
+      "count": 18,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b37": {
+      "value": "ce",
+      "count": 24,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "b38": {
+      "value": "ci",
+      "count": 22,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b39": {
+      "value": "co",
+      "count": 23,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b40": {
+      "value": "cu",
+      "count": 3,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b41": {
+      "value": "da",
+      "count": 14,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b42": {
+      "value": "de",
+      "count": 65,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "b43": {
+      "value": "di",
+      "count": 70,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b44": {
+      "value": "do",
+      "count": 11,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b45": {
+      "value": "du",
+      "count": 3,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b46": {
+      "value": "ga",
+      "count": 4,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b47": {
+      "value": "ge",
+      "count": 5,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b48": {
+      "value": "gi",
+      "count": 5,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "b49": {
+      "value": "go",
+      "count": 2,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b50": {
+      "value": "gu?",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "structural extrapolation; unconfirmed",
+      "note": "GU follows the visible GA GE GI GO row but its sole observed occurrence is P3's unexplained terminal sequence. The value is therefore marked tentative."
+    },
+    "b51": {
+      "value": "fa",
+      "count": 5,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b52": {
+      "value": "fe",
+      "count": 8,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b53": {
+      "value": "fi",
+      "count": 7,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b54": {
+      "value": "fo",
+      "count": 5,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "b55": {
+      "value": "imperatore?",
+      "count": 13,
+      "doubtful_glyph_occurrences": 0,
+      "status": "tentative",
+      "note": "Imperial referent strongly supported. IMPERATORE? is an interpretive expansion; CESARE or an equivalent historical title could have been the original key entry."
+    },
+    "b56": {
+      "value": "sua maesta?",
+      "count": 10,
+      "doubtful_glyph_occurrences": 1,
+      "status": "tentative",
+      "note": "SUA MAESTA? is an interpretive expansion supported by multiple grammatical contexts, not a surviving historical key."
+    },
+    "b+": {
+      "value": "u",
+      "count": 20,
+      "doubtful_glyph_occurrences": 2,
+      "status": "working inference"
+    },
+    "bp": {
+      "value": "l",
+      "count": 87,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "c": {
+      "value": "d",
+      "count": 11,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d29": {
+      "value": "u",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference",
+      "note": "U fits CA-U-SA; limited independent evidence."
+    },
+    "d40": {
+      "value": "i",
+      "count": 15,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d41": {
+      "value": "l",
+      "count": 23,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d42": {
+      "value": "m",
+      "count": 4,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d43": {
+      "value": "n",
+      "count": 45,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d51": {
+      "value": "la",
+      "count": 31,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d52": {
+      "value": "le",
+      "count": 31,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d53": {
+      "value": "li",
+      "count": 46,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d54": {
+      "value": "lo",
+      "count": 32,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d55": {
+      "value": "lu",
+      "count": 4,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d56": {
+      "value": "ma",
+      "count": 28,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d57": {
+      "value": "me",
+      "count": 24,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d58": {
+      "value": "mi",
+      "count": 14,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d59": {
+      "value": "mo",
+      "count": 22,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d61": {
+      "value": "na",
+      "count": 23,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d62": {
+      "value": "ne",
+      "count": 32,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d63": {
+      "value": "ni",
+      "count": 11,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "d64": {
+      "value": "no",
+      "count": 73,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "d65": {
+      "value": "nu",
+      "count": 11,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "e": {
+      "value": "p",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "e-": {
+      "value": "i",
+      "count": 2,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g49": {
+      "value": "go",
+      "count": 3,
+      "doubtful_glyph_occurrences": 3,
+      "status": "working inference",
+      "note": "GO: independently supported by LONGO, PREGO and ANDREA BORGO; the G base was checked in the image. Do not force N from a presumed alphabet."
+    },
+    "g50": {
+      "value": "o",
+      "count": 9,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g51": {
+      "value": "p",
+      "count": 5,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g53": {
+      "value": "r",
+      "count": 2,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "g56": {
+      "value": "pa",
+      "count": 16,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g57": {
+      "value": "pe",
+      "count": 53,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g58": {
+      "value": "pi",
+      "count": 5,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "g59": {
+      "value": "po",
+      "count": 16,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g60": {
+      "value": "pu",
+      "count": 3,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g61": {
+      "value": "qua",
+      "count": 6,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g62": {
+      "value": "que",
+      "count": 15,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g63": {
+      "value": "qui",
+      "count": 4,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g65": {
+      "value": "qu?",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "structural extrapolation; unconfirmed",
+      "note": "The alleged second occurrence in P8 was corrected from G65? to image-confirmed D65=NU. G65 now occurs only in P3's unexplained TO TO QU GU tail. QU is a structural conjecture, not a linguistically verified value."
+    },
+    "g66": {
+      "value": "ra",
+      "count": 53,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g67": {
+      "value": "re",
+      "count": 89,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g68": {
+      "value": "ri",
+      "count": 40,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "g69": {
+      "value": "ro",
+      "count": 23,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g70": {
+      "value": "ru",
+      "count": 3,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference",
+      "note": "P6.C20 is visibly G70, yielding RU-I-NA across the line break in l'una ruina segui l'altra del reino di Napoli. This independently confirms the syllabary value. P1 CENTRU and P2 RUE remain local textual or enciphering anomalies and do not justify changing a fixed value."
+    },
+    "g71": {
+      "value": "sa",
+      "count": 27,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g72": {
+      "value": "se",
+      "count": 43,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g73": {
+      "value": "si",
+      "count": 51,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g74": {
+      "value": "so",
+      "count": 32,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g75": {
+      "value": "su",
+      "count": 18,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g76": {
+      "value": "ta",
+      "count": 48,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g77": {
+      "value": "te",
+      "count": 29,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g78": {
+      "value": "ti",
+      "count": 36,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g79": {
+      "value": "to",
+      "count": 83,
+      "doubtful_glyph_occurrences": 3,
+      "status": "working inference"
+    },
+    "g80": {
+      "value": "tu",
+      "count": 9,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "g5000": {
+      "value": "",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null",
+      "note": "Read literally as G with 5000. I-N-TE-R-CE-T-[G5000]-T-E gives INTERCETTE if null. P7 clear opening independently says a copy of the predette letre intercette, referring to these same letters. Do not keep obsolete g2000=A merely because that was the previous guessed reading."
+    },
+    "gp": {
+      "value": "f",
+      "count": 25,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "h22": {
+      "value": "",
+      "count": 19,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "h26": {
+      "value": "cosa?",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "tentative",
+      "note": "COSA? from per una sola ... che li e imputata; one occurrence."
+    },
+    "h27": {
+      "value": "che",
+      "count": 63,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "h28": {
+      "value": "et",
+      "count": 7,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "h39": {
+      "value": "",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "h+": {
+      "value": "o",
+      "count": 62,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference",
+      "note": "O supported in many words. Some supplied placements need L; this is a residual transcription/allography issue, not authorization to switch values contextually."
+    },
+    "m": {
+      "value": "t",
+      "count": 61,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "mp": {
+      "value": "g",
+      "count": 49,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "np": {
+      "value": "i",
+      "count": 35,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "o": {
+      "value": "o",
+      "count": 24,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "o27": {
+      "value": "s",
+      "count": 19,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "o28": {
+      "value": "t",
+      "count": 31,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "o29": {
+      "value": "v",
+      "count": 46,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "o30": {
+      "value": "x",
+      "count": 7,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "o+o": {
+      "value": "c",
+      "count": 25,
+      "doubtful_glyph_occurrences": 1,
+      "status": "working inference"
+    },
+    "o--": {
+      "value": "a",
+      "count": 9,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "o^": {
+      "value": "p",
+      "count": 23,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "oo": {
+      "value": "z",
+      "count": 8,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "ooo": {
+      "value": "[separator?]",
+      "count": 2,
+      "doubtful_glyph_occurrences": 0,
+      "status": "possible separator",
+      "note": "Possible divider or null. Also appears between DI and MONACO, so not automatically a sentence-ending mark."
+    },
+    "p25": {
+      "value": "",
+      "count": 21,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "p+": {
+      "value": "i",
+      "count": 63,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "pi": {
+      "value": "m",
+      "count": 13,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "q": {
+      "value": "",
+      "count": 22,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "q+": {
+      "value": "con",
+      "count": 22,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference",
+      "note": "CON is strongly supported in the older transcription. Several P6/P7 placements are incompatible and may conflate distinct glyphs. A fixed CON value is retained in the literal decode, never selectively deleted."
+    },
+    "r22": {
+      "value": "",
+      "count": 7,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "r23": {
+      "value": "con",
+      "count": 6,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "r28": {
+      "value": "",
+      "count": 4,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "rp": {
+      "value": "e",
+      "count": 7,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference",
+      "note": "E supported by PER ESSO, ME REMETTO, MILANO EL CHE and INFANTE E QUELLO."
+    },
+    "s": {
+      "value": "r",
+      "count": 82,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "t": {
+      "value": "x",
+      "count": 5,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "t+": {
+      "value": "i",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "ut": {
+      "value": "a",
+      "count": 100,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "uy": {
+      "value": "a",
+      "count": 17,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "vp": {
+      "value": "v",
+      "count": 28,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "vva": {
+      "value": "V[ost]ra",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "cleartext abbreviation",
+      "note": "The first form is a cursive vra with an abbreviation arc, and the second an ex-form with elevated continuation. Their position between CONFORTARE and CHE supplies the addressee. Treat this occurrence as an ordinary clear manuscript honorific, not two null cipher signs; the precise abbreviation ending should remain expanded in brackets.",
+      "kind": "cleartext"
+    },
+    "x22": {
+      "value": "",
+      "count": 5,
+      "doubtful_glyph_occurrences": 0,
+      "status": "presumed null"
+    },
+    "x26": {
+      "value": "quanto",
+      "count": 4,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference",
+      "note": "Now independently supported by HA CONCESSO QUANTO HA SAPUTO DESIDERARE, DI QUANTO MOMENTO SONO (D57 verified), and P8 QUANTO POTENTI. P6 still needs its own local transcription audit."
+    },
+    "xha": {
+      "value": "Ex[tia]",
+      "count": 1,
+      "doubtful_glyph_occurrences": 0,
+      "status": "cleartext abbreviation",
+      "note": "The first form is a cursive vra with an abbreviation arc, and the second an ex-form with elevated continuation. Their position between CONFORTARE and CHE supplies the addressee. Treat this occurrence as an ordinary clear manuscript honorific, not two null cipher signs; the precise abbreviation ending should remain expanded in brackets.",
+      "kind": "cleartext"
+    },
+    "xo": {
+      "value": "s",
+      "count": 79,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    },
+    "xp": {
+      "value": "v",
+      "count": 6,
+      "doubtful_glyph_occurrences": 0,
+      "status": "working inference"
+    }
+  }
+}

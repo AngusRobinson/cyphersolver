@@ -1,0 +1,201 @@
+{
+ "title": "Gilino working decipherment: compact contribution",
+ "contributor": "George Lasry",
+ "assistance": "Codex-assisted transcription, key recovery, image checking, and preparation; no specific model is asserted.",
+ "edition_updated": "2026-10-07T03:55:11",
+ "source_package": "Gilino/Codex",
+ "prior_manifest": {
+  "name": "source_manifest.json",
+  "sha256": "090047363e1485863266e2fcdee741a1b9d452abef77526d31fb34a5c34a1d0b"
+ },
+ "manuscript": "British Library, Cotton MS Vespasian C IV, ff. 214r-218v",
+ "supplied_image_scope": "Nine photographed faces, 214r through 218r; no supplied 218v image.",
+ "date": "1527-09-15",
+ "place": "Paredes (Paredos in the closing date)",
+ "language": "Italian with occasional Latin",
+ "catalogue_url": "https://searcharchives.bl.uk/catalog/040-001103269",
+ "decode_record_url": "https://de-crypt.org/decrypt-web/RecordsView/8572",
+ "reading_order": [
+  {
+   "photo": 1,
+   "folio": "214r"
+  },
+  {
+   "photo": 2,
+   "folio": "214v"
+  },
+  {
+   "photo": 7,
+   "folio": "215r"
+  },
+  {
+   "photo": 3,
+   "folio": "215v"
+  },
+  {
+   "photo": 5,
+   "folio": "216r"
+  },
+  {
+   "photo": 4,
+   "folio": "216v"
+  },
+  {
+   "photo": 6,
+   "folio": "217r"
+  },
+  {
+   "photo": 8,
+   "folio": "217v"
+  },
+  {
+   "photo": 9,
+   "folio": "218r"
+  }
+ ],
+ "artifact_sources": [
+  {
+   "original_name": "Codex_gilino_key.json",
+   "original_sha256": "37cbe3f999b395f6b93d148cd531a53f32c217769da3fba024167936fb121295",
+   "bundled_name": "key.json",
+   "bundled_sha256": "71aa70b0ea81e0bb77cabbef3f2351279efb986d4f21f42ded84b64731091aad"
+  },
+  {
+   "original_name": "Codex_gilino_key.txt",
+   "original_sha256": "9b806de6ed7173ab012cff6543d2ec2de47e0d677da3f5349051a01c17069da5",
+   "bundled_name": "key.txt",
+   "bundled_sha256": "c4285cf6602a4eb5bccecab48ba4c100475981acd96bbdef1ca22a25f7e9062a"
+  },
+  {
+   "original_name": "Codex_gilino_transcription.txt",
+   "original_sha256": "0db42da6ed27c7d1e061a992289ef00bf8e8dc63707e1076274d2613a16b1510",
+   "bundled_name": "transcription.txt",
+   "bundled_sha256": "16b432f9850585a75558cdef3723a82cf0d2569e1b32634b3ffb800569205622"
+  },
+  {
+   "original_name": "Codex_gilino_decode.txt",
+   "original_sha256": "c91cd6802817b93f5574c6d07186512c25c46aad874112df49c65f6d43f396bd",
+   "bundled_name": "literal_decode.txt",
+   "bundled_sha256": "38b7e0b55845224be4751a4cb6f48a819c150ff065a677eb736a4b29442b7b22"
+  },
+  {
+   "original_name": "Codex_gilino_solution.txt",
+   "original_sha256": "3dcdf38f901bcd0ecf7e9b35a35b0fffd254034c61dde654c5b46fa6f4aa8799",
+   "bundled_name": "plaintext_reading.txt",
+   "bundled_sha256": "78b5d021b6a8251e08f44b84741743644780baf1255b161e53a8c30c98f54439"
+  },
+  {
+   "original_name": "Codex_gilino_alignment.tsv",
+   "original_sha256": "b892c2421d8b6bb52755abbdacd25497b0a0495fa22f0752a28f772279db03e2",
+   "bundled_name": "alignment.tsv",
+   "bundled_sha256": "b3269065798f2486518adf833f24ffbaed657c5e0f78edc7cc42a8f35eb3e05f"
+  }
+ ],
+ "manuscript_images": [
+  {
+   "name": "IMG_R8572_I39539_P1.jpg",
+   "bytes": 13038959,
+   "sha256": "3c6a71d566a8f147913ecf22698cdca3cdb304b740d2be0c50cbfc792e6ae833"
+  },
+  {
+   "name": "IMG_R8572_I39539_P2.jpg",
+   "bytes": 13235626,
+   "sha256": "9e229c008f623c16a141a57af8b34771386b6c086b59d65d7a0a242b7f10a1b9"
+  },
+  {
+   "name": "IMG_R8572_I39539_P3.jpg",
+   "bytes": 13145233,
+   "sha256": "1ee2580ff58f6b29a4769179563c6215dbf03f5b661f0614fa6c895049e4d6cd"
+  },
+  {
+   "name": "IMG_R8572_I39539_P4.jpg",
+   "bytes": 13004462,
+   "sha256": "0524b53bcd7d68eed074ae16486c02ceadd14c826c501525b776a6bb6cb6fc1c"
+  },
+  {
+   "name": "IMG_R8572_I39539_P5.jpg",
+   "bytes": 13690669,
+   "sha256": "b22fe5089036b586372d350d77a405e39bba120fa1faa98dd12881632efb47bf"
+  },
+  {
+   "name": "IMG_R8572_I39539_P6.jpg",
+   "bytes": 14150268,
+   "sha256": "560664075255f19b18926c7dd36e2cf35a8288810d3f91ebb73933397e2ec6e1"
+  },
+  {
+   "name": "IMG_R8572_I39539_P7.jpg",
+   "bytes": 13460051,
+   "sha256": "faa415f435ee4665b1cc8399570ea8aa5118345ea6a0efa8124ea915118d2239"
+  },
+  {
+   "name": "IMG_R8572_I39539_P8.jpg",
+   "bytes": 12831455,
+   "sha256": "be29d5a96159401d8f17a1566eef553bc738e22da3d975ca438e877c2b676b49"
+  },
+  {
+   "name": "IMG_R8572_I39539_P9.jpg",
+   "bytes": 12984650,
+   "sha256": "e13194a818b6fbbe302736688338f85e1593379cfef620d884c2b464c66e2b02"
+  }
+ ],
+ "transcription_inputs": [
+  {
+   "photo": 1,
+   "name": "P1.txt",
+   "sha256": "730e268b2fb913ebdcf893d60b4d9f74d88d2e1eafb4a7f39a71858ec439da80",
+   "tokens": 219
+  },
+  {
+   "photo": 2,
+   "name": "P2.txt",
+   "sha256": "1e2e5754e481065e593b7c47c90c8e19c20a6ecf495a57f445045c0843e0f2d5",
+   "tokens": 412
+  },
+  {
+   "photo": 3,
+   "name": "P3.txt",
+   "sha256": "44376738e49bea501916915b3dcbe67a5c01314ab5bb1112a00f9dd14919e6bb",
+   "tokens": 418
+  },
+  {
+   "photo": 4,
+   "name": "P4.txt",
+   "sha256": "ad9b2ac83949ad47a587d45b0b910d95e228a3971ce37cbeb74f83bd84f990de",
+   "tokens": 416
+  },
+  {
+   "photo": 5,
+   "name": "P5.txt",
+   "sha256": "e6fb5127a40a629d1a7cddc97e25ac901da2afc96454f72def6bd15f06e604aa",
+   "tokens": 274
+  },
+  {
+   "photo": 6,
+   "name": "P6.txt",
+   "sha256": "39445c50400231da02220404d876ec6ee777819c62a4bd755fcca433037cb4e9",
+   "tokens": 464
+  },
+  {
+   "photo": 7,
+   "name": "P7.txt",
+   "sha256": "843d4f07237a9f03116a7c0bf527cd99228f738ae0a11a38ff7b47fa95ce3752",
+   "tokens": 373
+  },
+  {
+   "photo": 8,
+   "name": "P8.txt",
+   "sha256": "4eb7159d5c6bc500490cc382bd7a7e0355738708dba74d786103d434a309a6d5",
+   "tokens": 324
+  },
+  {
+   "photo": 9,
+   "name": "P9.txt",
+   "sha256": "9ce90de1b8e16731f05bb08e43823394bff517db9636d0a303adb45abfc3829e",
+   "tokens": 207
+  }
+ ],
+ "hash_scope": "Original core artifact hashes were computed during preparation. Image and prior transcription hashes are carried from the 7 October source manifest; those unbundled inputs are not checked by verify.py.",
+ "normalization": "UTF-8 without BOM, LF newlines, trailing whitespace removed; local absolute paths and unbundled local evidence references replaced with portable provenance notes. Cipher signs and aligned values are retained.",
+ "recipient": "Francesco II Sforza, Duke of Milan, at Cremona",
+ "recipient_evidence": "Address leaf documented in the existing docs/superscript.html edition; metadata reconciled 14 October 2026."
+}

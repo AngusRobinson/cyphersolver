@@ -122,6 +122,7 @@
   "ghinucci to wolsey, 22 july 1527, and gilino to francesco ii sforza, 15 septembe": "2026-10-09",
   "ghinucci, lee and poyntz to cardinal wolsey, valladolid, 17 july 1527": "2026-09-21",
   "gilbert bayard to montmorency, 5 january 1526": "2026-09-22",
+  "gilino to francesco ii sforza, 15 september 1527": "2026-10-14",
   "giuliano caprile and alfonso cistarelli (eger) to ferrara, 1519–21": "2026-09-21",
   "giuliano caprile to alfonso i d’este, esztergom, 25 february 1521": "2026-10-02",
   "gonzalo fernández de córdoba to lorenzo suárez, 17 august 1500 (bnf espagnol 318": "2026-09-21",
@@ -644,7 +645,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "7ee7f8c81992",
+   "hash": "caed61f3a385",
    "updated": "2026-10-14"
   },
   "copenhagen": {
@@ -994,7 +995,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "99f6d65c6f24",
+   "hash": "fa055b29f784",
    "updated": "2026-10-14"
   },
   "indus": {
@@ -1779,8 +1780,8 @@
   },
   "superscript": {
    "first": "2026-10-09",
-   "hash": "1d71d28930c3",
-   "updated": "2026-10-09"
+   "hash": "8139114d0982",
+   "updated": "2026-10-14"
   },
   "swieten1757": {
    "first": "2026-09-22",
@@ -1954,7 +1955,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "6b8348b929d8",
+   "hash": "499c1c1ca230",
    "updated": "2026-10-14"
   },
   "yard1699": {

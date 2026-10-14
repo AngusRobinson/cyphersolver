@@ -1,0 +1,194 @@
+GILINO — ASSEMBLED CIPHER TRANSCRIPTION
+Reading order is 1,2,7,3,5,4,6,8,9, established from physical foliation and joins.
+All tokens are retained, including presumed nulls and uncertain glyphs.
+P1-5 derive from supplied transcription, revised by indexed checks against the photographs.
+P6-9 were transcribed from the manuscript images; subsequent image-audit corrections are recorded in the prior source package (audit files not bundled here).
+Clear passages are transcribed separately in the solution and supporting notes.
+
+=== PHOTO P1 — f.214r — IMG_R8572_I39539_P1.jpg ===
+Source: P1.txt (prior transcription input; SHA-256 in source.json).
+P1.C1	h22;a+;p25;22;q;d58;+;ut;gp;b53;s;d56;g79;b41;d59;bp;g78;h27;xo;o29;19;g73;mp
+P1.C2	d64;g68;o--;g73;m;g69;b+;ut;p25;e-;d43;g59;b36;20;h+;d61;22;h22;b27;g66;g78;a30
+P1.C3	b42;bp;b55;g57;s;b+;d61;g74;d51;h26;a+;h27;d53;+;np;d43;g60;g76;m;19;h27;b25;h27;q
+P1.C4	g57;s;b36;d29;g71;b43;b45;b25;g75;+;d52;o28;g67;e-;b;g77;s;b37;m;g5000;o28;b25
+P1.C5	ut;d41;b+;np;b37;g67;22;a+;h27;ut;bp;h22;p25;xo;b+;20;g73;b43;h+;b43;b47;d65?;19
+P1.C6	p+;b;xp;np;ut;xo;g72;d52;mp;19;d52;g67;b43;d61;g59;d53;55;o;s;b43;d61;46;g72;a+
+P1.C7	a30;d54;g57;b43;g74;g68;ut;h27;b42;d41;g67;xo;g79;b42;d53;b37;d43;g70;h22
+P1.C8	d58;bp;d51;b45;b36;g78;b42;d41;b36;pi;^;np;h+;d62;b+;g71;g72;a+;p25;a30
+P1.C9	20;+;d62;b53;b38;o;b43;g62;bp;d51;b38;o28;g76;a+;h22;q;g73;g57;s;e;g69
+P1.C10	b+;d40;g73;h+;d62;b43;gp;ut;b;g78;h28;b43;xp;p+;o+o;g80;ut;mp;d53;b25;ooo
+
+=== PHOTO P2 — f.214v — IMG_R8572_I39539_P2.jpg ===
+Source: P2.txt (prior transcription input; SHA-256 in source.json).
+P2.C1	g72;d64;b;h27;ut;bp;m;g66;d57;d43;g77;b25;bp;g80;o28;g79;g73;q
+P2.C2	g57;s;b42;g67;^;20;+;o29;mp;d53;o;d64;d53;g74;p+;b42;o+o;m
+P2.C3	g66;a32;g79;g68;h27;g74;d64;ut;bp;d51;xo;b39;g57;44;g76;+;d41
+P2.C4	q+;b52;o27;g74;g67;55;g72;o+o;g67;g76;g68;h+;a30;d52;d56;d43;o28
+P2.C5	h27;d51;o29;m;g67;b39;g57;s;g76;d52;p+;b;b54;s;d56;b38;h+;d43;+
+P2.C6	.._;ut;mp;b48;ut;np;36;b+;d40;19;g79;g57;s;m;+;b42;bp;d52;mp
+P2.C7	b25;b;m;p+;g70;rp;ut;bp;d51;o;^;g73;b43;h+;d62;b43;mp;+;b
+P2.C8	o29;o--;d52;g61;d53;p+;b;19;bp;m;g69;d54;b39;+;g66;d64;b42;xo
+P2.C9	g78;d61;m;+;a+;h22;p25;q;22;55;h27;g57;s;g62;xo;m;g50
+P2.C10	b42;o28;g76;b38;m;g76;d64;d43;g73;g73;ut;g58;o29;b43;gp
+P2.C11	b52;g71;p+;h+;g57;+;bp;mp;g66;d43;^;p+;g74;mp;d64;h27;b+;+;mp;b49
+P2.C12	h27;b56;d62;g77;d62;d64;b;g59;xo;g74;g57;b;xo;ut;g67;g72;d64;b
+P2.C13	h27;+;mp;d53;g73;q+;g72;s;o29;p+;d40;d43;^;h+;d61;mp;g66;g78;ut
+P2.C14	b42;bp;b55;55;g57;s;g62;xo;g79;d64;b;b37;xo;g71;g69;b43;40;r23
+P2.C15	b54;s;g76;g67;22;p25;vva;xha;h27;h+;44;b43;d63;g57;s;g75;b25
+P2.C16	d52;o28;g67;ut;bp;20;d40;d53;ut;h27;g72;p+;b;m;+;s;g77;36;mp;.._;p+
+P2.C17	^;+;d62;q+;+;o27;g74;x22;.._;h+;g66;d64;b;g59;xo;g72;d59;xo
+P2.C18	g57;g66;g67;g72;d64;b;20;o;d63;h+;gp;b53;p+;b41;g75;ut;g73;mp
+P2.C19	d64;g68?;ut;r22;d56;t;p+;d57;q+;d51;d59;s;m;+;b43;^;h+;s;20
+P2.C20	h+;d62;.._;h+;b42;d53;^;+;g66;g79;p+;g67;ut;c;p+;b;q+;m;g66;s;bp;h+
+P2.C21	g73;d64;ut;m;g67;b48;h+;s;d61;m;+;55;g74;h27;g57;s;g62;o27
+P2.C22	g79;d64;d43;g72;g69;g77;d65;g79;g57;s;g74;o27;g57;m
+P2.C23	g79;b41;bp;d53;o;g66;g79;g68;q+;b52;b42;g66;g78
+
+=== PHOTO P7 — f.215r — IMG_R8572_I39539_P7.jpg ===
+Source: P7.txt (prior transcription input; SHA-256 in source.json).
+P7.C1	d51;pi;a31;ut;o27;g71;g79;g67;b42;bp;g67;b43;g59;s;m;h+;b46;d41
+P7.C2	d54;d64;o29;uy;d57;d43;m;+;vp;b25;d65;g79?;ut;d64;d57;b42;bp;o^;uy;g56
+P7.C3	d64;d43;b25;d56;36;b41;g79;o^;g68;b;b38;g56;d41;d57;b;m;+;b41
+P7.C4	g75;a30;a+;h22;g71;d43;p25;g78;22;g76;q;h22;g77;g73;h28;o27?;o+o;g68
+P7.C5	o29;rp;+;bp;b41;g76;g68;g50;uy;d41;g73;mp;d64;g67;d65;b;b38;h+;22
+P7.C6	d56;+;xo;g72;d43;c;o;b25;mp;d53;g57;s;g56;xo;g71;g67;ut;bp;g75;g50
+P7.C7	g67;o^;g67;g49?;d64;xo;m;g69;g73;mp;d64;g67;h27;d53;g51;b37;xo;g72;q
+P7.C8	.._;h+;d64;g67;b42;o29;d64;^;g67;vp;+;p+;b;g75;ut;g57;s;g74
+P7.C9	d61;ut;bp;b55;q+;ut;vp;o+o;g79;g68;g76;m;+;b42?;o28;g66;a32;g76;s
+P7.C10	b25;g75;h+;r23;b37;44;g79;o^;g69;d57;o28;g77;b;b44;b43;b51;s;d54
+P7.C11	g75;20;p+;g79;g67;d51;o30;ut;g67;22;a+;p25;55;g67;o27;o28;d40
+P7.C12	g80;np;44;d54;d62;d51;o^;g68;xo;g78;d61;ut;d58;xo;m;uy;q+;b56;q
+P7.C13	55;d62;bp;uy;b;g78;b39;o27;g76;g79;b42;d52;o+o;.._;p+;+;g71;22
+P7.C14	+;bp;h27;d64;36;mp;d53;+;g74;o+o;b37;o27;g74;h28;.._;ut;o29;+;uy
+P7.C15	g51;g69;d57;45;g74;r22;b42;o28;g79;d64;b;g74;d54;np;b;p+;g66;d54;a30
+P7.C16	d56;+;g78;ut;pi;b43;h+;np;b;d40;xo;g56;mp;d61;g63;+;xo;g76;g79
+P7.C17	b39;mp;d64;xo;b38;o29;g79;g57;s;.._;h+;d59;d52;b48;+;g69;55;q+;a+
+P7.C18	g62;xo;g76;^;h+;d61;o;g58?;d63;h+;d62;b43;g72;b44;d56;d62;b43;b39;s
+P7.C19	g77;b37;g71;g67;ut;g73;g56;s;m;+;g57;s;g59;44;g80;b46;bp;d54;q
+P7.C20	b25;o27;g74;ut;pi;20;uy;xo;g71;g79;g67;b28;a30;g59;s;g76;g79;h22
+
+=== PHOTO P3 — f.215v — IMG_R8572_I39539_P3.jpg ===
+Source: P3.txt (prior transcription input; SHA-256 in source.json).
+P3.C1	o29;d61;d52;m;g66;b43;o^;g69;40;g68;ut;d56;d64;b42;bp;g56;o^;19;a30;d41
+P3.C2	d65;d43;b38;h+;p+;b;o+o;g67;b42;b;oo;19;b43;g71;g59;g68;g79;b36;d57;g67;s
+P3.C3	g50;b43;g75;ut;g71;36;g78;g76;o28;b25;g61;d41;d59;g68;h+;p+;b;b47;36
+P3.C4	o29;ut;a+;h27
+P3.C5	b25;t;b28;g50;44;g76;d43;b44;d54
+P3.C6	19;d64;36;d56;d43;o+o;19;g67;o--;bp;b42;o29;g79;g72;s;b+;p+;b38;b+
+P3.C7	b39;g73;c;o29;p+;20;g67;o29;p+;ut;bp;b55;g58;+;d63;b43;d59;bp;m;+
+P3.C8	^;+;bp;d52;g72;b;m;+;d43;oo;b25;55;q+;20;+;bp;d52;g66;mp;p+;h+;d63
+P3.C9	g57;s;g75;ut;b42;ut;b56;19;g79;g67;+;bp;g56;o28;g69;b38;d63;g50;q
+P3.C10	b42;d51;o+o;.._;p+;+;g71;55;d64;b;o;o^;g68;d57;s;d51;r22;d56;o30;p+
+P3.C11	d42;b25;g75;a31;b53;b42;r28;h27;p+;b;b44;o+o;g76;d57;d43;g77;xo;o+o;g68;m;g78;q
+P3.C12	d51;^;20;ut;o28;d40;d64;g72;d62;g68;g79;s;d61;+;o30;g57;b43;g79;h28;b42;xo
+P3.C13	p+;b42;g66;55;bp;b55;mp;d53;b28;19;q+;b37;xo;g74;x26;.._;a30;g71;g60;g79;b42;g73
+P3.C14	b42;g66;g67;55;o+o;.._;p+;+;b42;g67;o29;+;g69;b25;h27;np;36;d59;bp;g78;b36
+P3.C15	g58;g57;s;d64;b;xo;ut;g57;g67;b56;b43;x26;d59;d57;d43;g79;g74;d64;xo;o+o
+P3.C16	g68;o29;a89;b25;ut;bp;b+;np;b37;g67;b43;d61;g59;d53;h28;d57;mp;d53;h+;np;b
+P3.C17	b54;s;d56;g79;b42;bp;d52;b39;g72;b42;np;g76;d53;ut;h27;gp;ut;o+o;b38;a30
+P3.C18	r23;g77;d43;g79;+;d41;g71;s;b42;o28;g79;d56;44;h27;g72;g57;s;b38;g50
+P3.C19	h27;g73;g59;g77;h27;b39;g73;+;g75;ut;d57;d43;g77;p25;22;g79;g79;g65;b50
+P3.C20	a+;h22;h27;d41;q+;b37;44;g79;p25;22;q;b25;g72;mp;o29;p+;g79;q+;g62;xo;g76
+P3.C21	d56;np;+;xo;g76;g77;r28;h27;+;mp;d53;g73;b54;xo;g72;ut;xo;g72;g76;g79
+P3.C22	q+;gp;g66;b;oo;ut;h28;g63;g77;d62;d59;d64;o29;ut;h27;d54;o^;g66;g78
+
+=== PHOTO P5 — f.216r — IMG_R8572_I39539_P5.jpg ===
+Source: P5.txt (prior transcription input; SHA-256 in source.json).
+P5.C1	b36;o29;ut;g57;s;d57;oo;r22;o;b42;bp;b36;xp;ut;d52;g69;b36;g71;d41;b25;p25
+P5.C2	bp;b55;.._;ut;p+;b;g77;g74;np;36;g62;xo;g79;r23;b37;s;g79;g57;s;d53;g68;b39
+P5.C3	44;b43;b42;bp;c;xp;b36;b43;b52;s;g66;44;ut;55;o;g57;g66;b42;d41;q
+P5.C4	d65;b;b38;h+;o+o;g67;b44;g57;g69;h27;bp;d56;s;h27;g72;g57;s;+;xo;g72;g67;22
+P5.C5	o;^;d53;b46;g79;ut;gp;p+;h+;g67;b;g78;d63;h27;d64;b;g73;d59;xo;m;g66
+P5.C6	44;a30;np;36;b51;o29;h+;g67;g79;g76;d41;d57;b;g77;b42;bp;b55;a+
+P5.C7	d56;h27;gp;ut;g66;h27;g56;b49;d54;d55;oo;19;xo;b39;q+;m;g67;b37
+P5.C8	d43;g79;b36;xp;ut;bp;d53;d52;mp;np;+;g68;g56;xo;g71;g66;ut;bp
+P5.C9	g72;s;o29;t+;b38;h+;b42;b56;22;a+;h22;p25;q;h28;b25;g53;d40;+;bp
+P5.C10	o^;g67;gp;ut;g79;19;20;^;o--;g78;d64;b44;xp;+;a30;g56;44;g78;g67;a+;g57;s
+P5.C11	b39;o27;g76;np;d43;g80;o28;g76;b43;d53;b47;d43;o28;d40;o--;22
+P5.C12	55;g57;s;rp;xo;g74;.._;h+;45;a32;g68;m;g79;ut;o29;h+;xo;o28;g66;q;p25
+P5.C13	b25;o30;b37;d41;d52;36;g78;a30;g74;m;g79;b39;g57;s;g76;d42;d51;a+
+P5.C14	g73;mp;d64;g66;d56;s;h27;g71;d61;b43;d56;d43;g80;19;h22;a+;h39;g75
+
+=== PHOTO P4 — f.216v — IMG_R8572_I39539_P4.jpg ===
+Source: P4.txt (prior transcription input; SHA-256 in source.json).
+P4.C1	a30;pi;20;p+;b44;np;r28;d58;.._;ut;d64;mp;p+;o29;g66;g79;h27;d41;o+o
+P4.C2	b28;g68;xo;g78;ut;d63;o28;g73;d59;vp;bp;g78;d56;pi;+;36;g77;d53;o27
+P4.C3	o+o;44;d40;o29;+;h27;o;d42;d63;d64;b+;39;d52;h27;d62;bp;q+;b37;44
+P4.C4	g79;o29;h+;xo;m;g66;+;t;b37;bp;d52;d43;g78;a30;g67;xo;o28;np
+P4.C5	d62;bp;xo;g76;g79;b43;d58;d51;d64;rp;bp;h27;d64;b;q+;vp;+;d62
+P4.C6	r23;g62;bp;d54;h27;a+;h22;g51;g69;o30;np;d56;d57;b;m;+;d52;p25;q
+P4.C7	xo;o+o;g68;xo;g72;d64;d43;b43;d57;d64;pi;rp;g67;d57;m;g79;ut;bp
+P4.C8	d51;o29;+;g68;g76;o28;b25;22;a+;h22;+;bp;g73;mp;d64;g67;a30;pi
+P4.C9	^;o--;o27;g71;g79;g67;o29;d62;g79;55;np;h+;g74;d53;19;b;g78;.._;+;g68
+P4.C10	b54;xo;g72;d59;b41;bp;g73;mp;d64;g67;d65;d43;b38;g50;o--;g59
+P4.C11	xo;g79;d53;b39;19;o29;g73;mp;d53;h+;xo;55;d54;o^;g67;b46;o27;g72
+P4.C12	d59;h27;vp;h+;d52;o27;g72;uy;d43;b41;g67;o--;g56;d53;b;oo;19
+P4.C13	55;p+;o29;np;b43;d59;g66;g67;d57;b;m;g67;h27;d53;h+;g66
+P4.C14	g79;g68;gp;g66;b37;g73;b+;p+;xo;g76;g66;d64;55;h27;o29;g73
+P4.C15	b43;d53;b47;d43;g78;ut;b43;g71;g57;g67;d51;vp;+;g68;g76;g77
+P4.C16	b43;g62;d41;d54;o^;g66;g78;b36;g66;d64;55;d56;o30;np;pi;b25
+P4.C17	b38;s;b36;+;bp;gp;ut;o28;g79;b43;+;xo;g71;b38;.._;19
+P4.C18	o^;g69;d57;xo;g74;b43;gp;ut;s;d54;b+;h+;d54;d43;g78;+;g68;55;b39;g73
+P4.C19	p+;b;g77;b;b42;d59;h27;g75;ut;g73;mp;d64;g68;19;b+;p+;+;p+;m;a30
+P4.C20	r22;g74;d64;g61;g73;b37;44;g79;h27;b38;g72;s;vp;np;g66;a+
+P4.C21	55;g57;s;g68;xo;g57;m;g79;b43;vp;h+;xo;m;g66;+;o30;b37;bp;d52;b
+P4.C22	g78;uy;r22;g57;s;g62;bp;d54;b42;o29;+;uy;c;np;g76;d53;o--;g80;m
+P4.C23	g76;55;g57;44;bp;19;d58;xo;g76;g77;g77;d62;q+;+;bp;b42;o28;g79;o;g66;g79;g67
+
+=== PHOTO P6 — f.217r — IMG_R8572_I39539_P6.jpg ===
+Source: P6.txt (prior transcription input; SHA-256 in source.json).
+P6.C1	b+;+;d62;g79;a+;p25;p+;d43;g77;36;b44;r28;h27;d41;b55;g75;20;np;g79;p+;b;g77;g71;q
+P6.C2	d51;b42;b43;g78;h+;d62;b43;mp;+;d65;uy;pi;ut;d56;b;b41;g79;o29;d64?;d64;vp;o
+P6.C3	b42;xo;g56;o+o;a32;.._;p+;h+;ut;d59;36;g73;mp;d64;g67;b43;d58;d53;ut;h+;h27;gp;p+
+P6.C4	b43;ut;g62;bp;g77;pi;g59;d64;36;+;g66;p+;36;^;uy;s;o+o;.._;ut;g79;g57;s;22
+P6.C5	g69;d56;55;d58;+;uy;a32;b37;b;d61;g79;h27;b56;g67;vp;o;b36;d51;d53;20;b25
+P6.C6	g66;g78;h+;d62;b42;bp;g56;g51;a30;g57;s;d53;d64;o29;p+;g74;o+o;b37;xo;g73
+P6.C7	b43;d54;pi;20;ut;44;b43;uy;a30;g62;xo;g79;o+o;g67;b42;g67;g57;p+;b;c;b+;b39;d64;22
+P6.C8	d53;d56;d53;o;gp;b53;b38;p+;h27;d53;h+;g66;g79;s;p+;b52;s;g66;44;b25;g73;55;d53;ut
+P6.C9	b47;d43;g78;b43;b39;d54;d62;g73;g60;a31;d53;b36;d57;b;m;+;gp;ut;d64;q+;m;g66
+P6.C10	g75;ut;g71;d43;g73;g76;m;+;o^;g67;xo;g74;bp;b55;d42;d51;g61;d52;x26;d62;g66
+P6.C11	b48;h+;d61;d64;d64;b;d51;g71;d43;o;d64;d58;d61;g67;g72;d64;b;g57;s;m;g66;b43;q
+P6.C12	g79;g67;b51;bp;g74;g56;g56;a31;uy;xo;g76;s;b44;b51;20;g68;b36;g79;g67;b43;vp;+
+P6.C13	d52;d63;55;q;d58;bp;d52;uy;bp;m;g68;o;20;^;g69;g79?;a31;g68;h27;d54;b;g49?;g72;g67;20
+P6.C14	^;b25;xo;o+o;g53?;d40;o29;b25;44;d41;np;22;p25;a+;h22;o29;vp;b+
+P6.C15	r23;+;o27;g74;d55;d40;d58;b25;b42;o28;g79;h27;b25;t;g57;b43;g66;d64
+P6.C16	o28;g69;p+;d54;d62;mp;g69;d64;r22;h27;ut;d53;g73;mp;d64;g68;b39;d54;d62
+P6.C17	g73;b56;b43;b37?;.._;h+;g66;b43;vp;h+;d52;g67;b51;g67;d59;d41;g77;mp;g66
+P6.C18	b38;b25;g72;g62;xo;g79;+;d51;o^;g67;g72;b;m;+;b43;gp;b53;b40;bp
+P6.C19	g76;m;+;b42;d52;b39;g72;d54;pi;20;ut;s;c;+;d54;b28;+;b36;o29
+P6.C20	g71;g79;x22;b45;^;np;g76;d64;h27;o^;g67;xo;g74;bp;vp;d61;g70;p+;d61
+P6.C21	g72;mp;vp;p+;bp;ut;d41;m;g66;b42;d41;g67;np;d64;b43;d61;g59;bp;d40
+P6.C22	g74;d64;g63;d53;o28;g67;b43;d57;xo;g72;g67;ut;b;c;g67;uy;^;h+;44;g49?
+
+=== PHOTO P8 — f.217v — IMG_R8572_I39539_P8.jpg ===
+Source: P8.txt (prior transcription input; SHA-256 in source.json).
+P8.C1	d62;bp;b55;55;vp;ut;bp;b42;g73;h+;mp;p+;ut;g75;o;g72;s;b+?;np?;g79;g67;g58;b25
+P8.C2	d62;b42;q+;g73;mp;d53;o^;g69;o;40;g51;g68;d57;b;c;ut;p+;g76;d53;19;55;d54
+P8.C3	d43;mp;.._;p+;b43;xo;b39;s;g73;g57;s;q;g72;s;vp;19;g67;+;bp;xo;g76
+P8.C4	g79;b43;d58;d51;d64;ut;bp;d51;b42;vp;h+;g78;h+;d62;b43;b56;d62;bp;o29
+P8.C5	bp;g78;d59;g73;g68;g74;d41;b+?;+;d64;h27;bp;p+;b;gp;ut;b;m;+;rp;g62
+P8.C6	d54;o29;d64;h27;d54;g59;g77;g77;d62;g67;55;b42;gp;b52;b;b42;g67
+P8.C7	b41;g61;d55;d43;h27;o29;p+;h+;d52;d43;g78;19;h27;b42;xo;g72;d43;q
+P8.C8	b42;o27;g72;g57;s;h+;oo;b40;g56;44;d54;b44;g59;o^;g67;g71;mp
+P8.C9	+;d65;ut;g73;+;b42;m;g79;h27;bp;b55;.._;ut;+;t;g57;b43;g79;22
+P8.C10	g57;s;gp;ut;g67;b42;xo;b37;d43;b42;g67;d54;np;b;gp;ut;36;m;rp
+P8.C11	55;b41;g67;o28;vp;m;g76;p+;g76;d53;ut;p+;b;o^;g67;b41;ut;a33;19
+P8.C12	d52;d57;d63;p25;h27;b56?;b43;d59;xo;m;g66;d56;mp;b48?;h+;g67;b39;g67
+P8.C13	h27;d56;p+;55;h27;b41;bp;q+;gp;+;xo;h+;g67;+;o29;xo;b38;g79;h27;d51
+P8.C14	g57;s;b43;g76;b43;mp;+;d65;19;+;xo;g76;m;19;h+;d64;o27;g78
+P8.C15	d59;d54;mp;o;d53;ut;s;b44;19;bp;b55;x22;b42;bp;g80;o28;g79;g73
+P8.C16	b43;d59;xo;m;g68;ut;bp;d51;mp;o29;s;g66;55;x26;g59;g77;b;m;p+
+P8.C17	g73;ut;d64;d52;d54;s;gp;gp;oo;+;d55;o29;d40;22;h22;p25
+
+=== PHOTO P9 — f.218r — IMG_R8572_I39539_P9.jpg ===
+Source: P9.txt (prior transcription input; SHA-256 in source.json).
+P9.C1	xo;o+o?;g68;o28;g79;a+;h22;p25;22;b53;d43;g63;g57;s;o^;np;vp;o29;p+;+;g73;b40;g67
+P9.C2	g74;d64;o27;g76;g79;ut;o29;np;g71;g79;p25;a+;h27;bp;b55;.._;19;d56;b;c;19
+P9.C3	m;o;g57;s;m;g67;b39;s;g67;g68;22;h22;q;d51;np;36;vp;+;xo;g78;g80;g66;22
+P9.C4	b42;bp;xo;o28;a30;m;g50;b43;d58;d51;d64;ut;bp;d40;d43;gp;ut;36;o28
+P9.C5	b25;x22;ut;20;^;19;xo;g73;19;bp;d51;b42;gp;b52;d43;g73;h+;d43;b43;g62;bp
+P9.C6	d54;xo;g76;g79;55;h27;b43;o^;g67;xo;+;b;g77;mp;d53;o^;g69;vp;+;b42
+P9.C7	b43;b37;b;m;o;d58;bp;d51;c;vp;b36;g78;d51;g57;s;b43;g76;b43;mp;+;d65;19
+P9.C8	g73;+;g66;b52;s;d56;g76;g57;s;vp;p+;ut;b42;bp;g73;mp;d64;g67;b43;ooo
+P9.C9	d59;d61;b39;ut;bp;g61;d52;b56;o^;g69;vp;+;b42;b42;b41;d61;g68;x22
+P9.C10	g72;q+;g72;s;vp;np;ut;g75;a30;b42;vp;h+;b38;h+;d62;a+;22;h22;p25;g79?

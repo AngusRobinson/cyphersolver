@@ -1,0 +1,213 @@
+GILINO — WORKING DECIPHERMENT AND ITALIAN READING
+7 October 2026
+
+The cipher system has been recovered: an Italian syllabary combined with
+single-letter signs, presumed nulls, and a small nomenclator. The surviving
+transcriptions and some manuscript signs remain ambiguous. This is a
+complete working reading of all nine supplied photographs, with gaps and
+conjectures exposed; it is not a claim that every word is settled.
+
+Identification: British Library, Cotton MS Vespasian C IV, ff.214r–218v.
+The supplied photographs cover the nine faces 214r through 218r; no photograph
+identified as 218v is supplied. The clear date is 15 September 1527, Paredes.
+Publication metadata update, 14 October 2026: the address leaf documented
+by the existing repository edition identifies the recipient as Francesco II
+Sforza, Duke of Milan, at Cremona. This supersedes the earlier tentative
+identification in the local reading; the cipher text below is unchanged.
+Catalogue: https://searcharchives.bl.uk/catalog/040-001103269
+
+The text is Italian, with occasional Latin, including pro opprimenda Italia.
+The subscription is 'Servo el Gilino'; 'Servo' is not a demonstrated forename.
+The author's exact first name remains unestablished.
+
+CONTENT
+The report discusses the grand chancellor's standing at the imperial court;
+intercepted letters and assistance to Genoa; French and English negotiations
+over Milan; papal diplomacy; the hostility of some Ferrara/Colonna agents;
+the Infante and the state of Milan; money, troops, and the loss of Genoa.
+It includes already-clear paragraphs about the French ambassadors, Ludovico
+Catto, a sale in the kingdom of Naples, and Marco Pio. Those passages are
+identified as cleartext, not counted as cryptanalytic discoveries.
+
+READING CONVENTIONS
+The following Italian edition introduces word boundaries and punctuation,
+and regularizes u/v when clear. Historical forms are otherwise retained.
+[Word?] = editorial conjecture; [literal: ...] or [letterale: ...] preserves
+unresolved output. 'Imperatore?' and 'Sua Maestà?' are interpretations of
+word codes; their precise original expansions remain unproved.
+Square brackets also expand ordinary manuscript abbreviations; surrounding
+labels distinguish cleartext from deciphered text. Local notes explain
+substantive conjectures. The literal decode and alignment preserve the
+underlying evidence, including the readings that resist interpretation.
+
+RESTORED PHYSICAL ORDER
+P1 214r → P2 214v → P7 215r → P3 215v → P5 216r → P4 216v
+→ P6 217r → P8 217v → P9 218r.
+This is supported by recto foliation, visible versos, and actual joins:
+P7 ha portato / P3 una letra; P3 prati- / P5 cava;
+P4 detto oratore / P6 veneto. P5's clear paragraph supplies the antecedent
+to P4's Ambidoi. Photograph filenames are retained for traceability.
+
+ITALIAN WORKING READING
+
+
+========================================================================
+FOTO P1 — FOGLIO 214r
+========================================================================
+Parte in chiaro:
+
+Ill[ustrissi]mo et Ex[cellentissi]mo, unico mio Sig[nor], Sig[nor] mio sempre col[endissi]mo.
+Baciate le mani di V[ostra] Ex[tia].
+
+Dopo visitati questi lochi contorni a Valladolid sono venuto a Paredes alli viiii del presente, ove in parte mi e stata data cognitione di cio che sequentemente le scrivo, del che V[ostra] Ex[tia] ne potra far quel giuditio che per sua natia prudentia sole.
+
+El Sig[nor] gran Cancello, per letre sue di xxvii del passato, giunse in Barcellona con Messer Gio. Barto. di Gattinara, Martino Centurio[ne?], [generale in herba?] di M[onseigneu]r di Borbon, et certi pochi de sua famiglia. Li piu restaro in Genoa per mancamento di navigli. Hebbe sua signoria navigation assai contraria, si per maritima tempestate come per esser stato seguito d'alcune galere dell'armata francese. Si attende alla fine di questo alla corte Ces[are]a.
+
+Parte cifrata:
+
+Mi e affirmato da molti che sua signoria si trova in poca bona gratia del [imperatore?] per una sola [cosa?] che li e inputata: che e che, per causa di due sue letre intercette al vicere, che al subsidio di Genua inviasse le galere di Napoli, et ordinasse a Lope di Soria che del resto de li [cento?; letterale cenru con G70] milla ducati del cambio ne usase a beneficio di quella citta, si per provisione di fanti et di victuaglie.
+
+Controllo aggiornato: correzioni puntuali e incertezze documentate nei file di audit del pacchetto originale (non inclusi qui). Le integrazioni editoriali restano segnalate nel testo.
+
+========================================================================
+FOTO P2 — FOGLIO 214v
+========================================================================
+Parte cifrata:
+
+Se non che altramente el tutto si perderebbe. V[o]gliono li soi dectractori, che sono alla scoperta el confessore et secretario alemant, che Lautreco per tale informacione haggia inviato [parte?] delle genti [sue?] alla obsidione di Genua, le quali in altro loco erano destinate, et che per questo detta città non si sia più diffesa.
+
+Io pe[r] el gran bisogno che veggo che Sua Maestà? ne tene non posso pensare se non che egli si conservi in bona gratia del imperatore?, et per questo non cessarò di confortare V[ost]ra Ex[tia] che ordini per sue letre al Bilia che se intertenghi bene con esso. Hora non possemo sperare se non boni offi[c]i da sua signoria?, maxime con la morte di Borbone.
+
+Ho deliberato ire ad incontrarlo sino a tre giornate, et so che per questo non serò tenuto per sospetto dalli oratori confederati.
+
+Controllo aggiornato: correzioni puntuali e incertezze documentate nei file di audit del pacchetto originale (non inclusi qui). Le integrazioni editoriali restano segnalate nel testo.
+
+========================================================================
+FOTO P7 — FOGLIO 215r
+========================================================================
+Parte in chiaro:
+
+Mons.r di Tarba mi ha dato una copia delle p[redet]te letre intercette, le quali harei inviato a V.ra Ex.tia se'l portator presente non si fosse mostrato tanto difficile.
+
+Parte cifrata:
+
+L'ambassatore del re di Portogallo, novamente venu[to?] a nome del papa, non e mandato principalmente da sua santitate. Si [et: passo incerto] [s?]crive el datario al signore nuncio. Ma essendo egli per passare al suo re, prego nostro signore che li [facesse?; letterale: p-ce-sse] honore de uno breve, in sua persona al [imperatore?], con auctoritate de tractare suo concerto, promettendo di farlo subito relaxare et restituirlo ne la pristina amista con [Sua Maesta?] et nel antico stato de le chiesa. El che non gli e soccesso, et havea promesso detto non solo in [Italia?; letterale: i-ra-lo-a], ma etiamdio in Ispagna.
+
+Qui e stato cognosciuto per homo legiero, et con questa bona op[i?]nione di se, domane di corte cesarea si parte per Portugallo. Esso ambassatore ha portato
+
+Controllo aggiornato: correzioni puntuali e incertezze documentate nei file di audit del pacchetto originale (non inclusi qui). Le integrazioni editoriali restano segnalate nel testo.
+
+========================================================================
+FOTO P3 — FOGLIO 215v
+========================================================================
+Parte cifrata:
+
+Una letra di [proria: propria?] mano del papa al nuncio in credenza di Saporito, camerero di sua Santitate, qual morìo in Genua, che
+
+Parte in chiaro:
+
+tanto savia et prudentemente scritta che poco più a pena si potrebbe desiderar,
+
+Parte cifrata:
+
+Exhortandolo a non mancare al devuto serviciu. Così dui brevi al [imperatore?], pieni di molte belle sentenze, et con belle ragioni persuade a [Sua Maestà?] a tore el patrocinio de la chiesa et non opprimerla, maxime sub fide, che [indoctamente: passo incerto] scritti.
+
+L'abbatino se ne ritorna expedito et desidera […] et l'[imperatore?] gli ha concesso quanto ha saputo desiderare et chiedere. Vero è che in molti capi, per non sapere [Sua Maestà?] di quanto momento sono, scrive al vicere di Napoli, et meglio informato delle cose de Italia, che faccia contento el [sardetto: sopradetto?] marchese, perciò che si pote, che così è sua mente. [to to qu gu: sequenza irrisolta.]
+
+Parte in chiaro:
+
+[Nissuno?] particolar ho possuto intender più del già scritto; intendendone [...: termine al margine destro non letto con sicurezza], la prima opportunitate n'avisaro V.ra Ex.tia. Questo tenga per certo,
+
+Parte cifrata:
+
+Che 'l concerto è seguito con questa maiestate; che egli si fosse assettato con Franza, et qui tenemo nova che lo prati-
+
+Controllo aggiornato: correzioni puntuali e incertezze documentate nei file di audit del pacchetto originale (non inclusi qui). Le integrazioni editoriali restano segnalate nel testo.
+
+========================================================================
+FOTO P5 — FOGLIO 216r
+========================================================================
+Parte cifrata:
+
+cava per mezo del cavalero Casale.
+
+L'imperatore? ha inteso in questo concerto, per li ricordi del duca di Ferrara et opera del nuncio. Credo però che 'l marchese, per essere obligato a Fiorentini, che non si mostrarà in favore totalmente del imperatore?, ma che farà che Pagolo Luzasco, con trecento cavalli legieri, passarà al servicio de Sua Maestà?.
+
+Et eri el prefato abbatino dovea partire per costà in tutta diligentia, et per esso ho scritto a vostra excellentia sotto coperta [de?; letterale: m] la signora marchesana di Mantua. [Su: frammento finale irrisolto.]
+
+Parte in chiaro:
+
+Li Mag.ci S.ri Ambasciatori francesi tengono letre dal Re Chr.mo di XXIX di agosto, per le quali gli è significato la [clade?] di Portofino, deditione di Genoa, et speranza di presto ottenere Alex.[andria?]. Giuntamente mi dicono haver commissione dal re loro che la tractatione della pace si pratichi sopra el contenuto delli capitoli fatti per [Madril?], cosa che fin qui el prefato Chr.mo non haveva voluto assentire, et che per questo hano quasi certa speranza [de venir?; correzione interlineare non interamente risolta] seguire appontamento. Eglino con li S.ri oratori inglesi sono stati a Pallenza [et costà stano?] per discuter ciò che 'l re loro pote o non pote giurar delli soprascritti capitoli.
+
+Controllo aggiornato: correzioni puntuali e incertezze documentate nei file di audit del pacchetto originale (non inclusi qui). Le integrazioni editoriali restano segnalate nel testo.
+
+========================================================================
+FOTO P4 — FOGLIO 216v
+========================================================================
+Parte cifrata:
+
+Ambidoi mi hano giurato che 'l Christianissimo [letterale: Christianitsimo] ultimamente li scrive che omnino vole che nel concerto vostra excellentia resti nel stato di Milano, el che non convene con quello che proximamente le scrisse. Non di meno me remetto alla veritate.
+
+El signore ambassatore V[e]neto et io soli, antiheri, fossemo dal signore nuncio apostolico a Usiglios, et lo pregassemo che volesse andare a Palinza et ivi dimorare mentre che li oratori fra[n]cesi vi starano, et che usi diligentia di sapere la veritate di quello practicarano, et maxime circa el fatto di essa. Ci ha promesso di farlo volontieri, et così intendemo che sua signoria vi è ita.
+
+Sono quasi certo che ci servirà, et per rispetto di vostra excellentia, per quello deve ad Italia tutta, et per l'amistate tene con el detto oratore
+
+Controllo aggiornato: correzioni puntuali e incertezze documentate nei file di audit del pacchetto originale (non inclusi qui). Le integrazioni editoriali restano segnalate nel testo.
+
+========================================================================
+FOTO P6 — FOGLIO 217r
+========================================================================
+Parte cifrata:
+
+veneto. Intendo che l'[imperatore?], subito intesa la deditione di Genua, m'a mandato vno novo despacchio a monsignore di Miliao, che [fino?; letterale fi-di] a quel tempo non era inbarchato per Roma. Et mi e accennato che [Sua Maesta?] revoca la liberatione del papa per li novi soccessi di Lombardia.
+
+A questo credere [me?; letterale pe] inducono li mali officii che li oratori ferraresi et li agenti di Colonesi publicamente fano contra sua [santitate?; letterale sansitate] presso l'[imperatore?], [de?; letterale m] la quale [quanto?] ne ragionano, non la sano nominare se non per traditore, falso papa, bastardo, fabricatore di veleni et mille altri [obbrobri?; letterale obbro-to?-bri], che longo serebbe scriverli. [The cipher block then has three remaining symbols o29;vp;b+, letteralely v-v-u. Their function is unresolved.]
+
+Parte in chiaro:
+
+Hoggi el mag.co M[esser] Ludovico Catto Dottor di leggi vecchio ambassator del Ill.mo Sig.r Duca di Ferrara e andato a Valladolid per tor congiedo dalla Ces.a M.ta [parola cancellata] ritornarsene alla patria. Io lo ho trovato sempre molto inclinato al beneficio di V.ra Ex.tia, et pero Essa gli [n’è?] in carico.
+
+Parte cifrata:
+
+Con esso lui mi e detto che expedirano Troilo Negrono; che a li signori Colonesi [Sua Maesta?] di[ce?] hora di volere fare molte gracie. Se questo è, la presente difficultate de le cose lombarde lo he causato; dubitano che presso l'una ruina segui l'altra del reino di Napoli.
+
+Sono qui litre di messere Andrea Borgo
+
+Controllo aggiornato: correzioni puntuali e incertezze documentate nei file di audit del pacchetto originale (non inclusi qui). Le integrazioni editoriali restano segnalate nel testo.
+
+========================================================================
+FOTO P8 — FOGLIO 217v
+========================================================================
+Parte cifrata:
+
+[ne?] l'[imperatore?] et Valdesio, gia suo servitore, piene de consigli pro opprimenda Italia et longhi discorsi per servare el stato di Milano alla devotione di [Sua Maesta?]. Nel ultimo si risolveno che l'infante e quello uno che lo pote tenere et deffendere da qualunche violentia che dessendesse per o[c?]cuparlo.
+
+Dopo presa Genua si e detto che l'[imperatore?] ha expedito per fare descendere lo infante et dare tutta Italia in preda ad Alemeni; che [Sua Maesta?] dimostra maggiore core che mai, et che dal confessore e uscito che la perdita di Genua e stata ono stimolo goliardo a l'[imperatore?], del tutto si dimostri alla [guerra?; letterale gvrra] et [quanto?] potenti siano le lor [forze?; letterale ffze]. [Seguono i gruppi finali LU-V-I, non risolti.]
+
+Parte in chiaro:
+
+Si e detto anchora che la Ces[ar]ea M[ajes]ta ha venduto el stato del Co[n]te di Caiaza nel regno per XXVIII [migliaia di] ducati al figliolo del conte di Monteleone vice re di Sicilia;
+
+Nel S[ignor] Marco Pio ogni giorno cognosco accrescerli bona voluntate verso V[ost]ra Ex[tia] et desiderio di farle servitio: il che in me ha causato una certa no[n] vulgar osserva[n]tia co[n] sua Sig[noria] che mi constringe al spesso volte esser co[n] essalui; et molto honorarla.
+
+Controllo aggiornato: correzioni puntuali e incertezze documentate nei file di audit del pacchetto originale (non inclusi qui). Le integrazioni editoriali restano segnalate nel testo.
+
+========================================================================
+FOTO P9 — FOGLIO 218r
+========================================================================
+Parte cifrata:
+
+Scritto fin qui, per piu vie sicure sono stato avisato che l'[imperatore?] ha mandato per tre correri la investitura del stato di Milano al infante [abbassi: parola ancora non risolta nel contesto] alla deffension di quello stato, et che di presente gli provede di cento milla ducati.
+
+La perdita di Genua si e rafermata per via del signore di Monaco, al quale [Sua Maesta?] provede de danari se conservi a sua devocione. [Segno finale sovrascritto/corretto, non sciolto.]
+
+Parte in chiaro:
+
+No[n] piu per hora saprei che scriverle, se no[n] che in sua bona gra[tia] quanto piu posso humil[men]te mi raccomando, pregando N. S. Iddio che le doni quella felicita che p[er] se stessa desidera. Di Paredos el XV di Settembre MDXXVII.
+
+Di V[ostra] Ill[ustrissi]ma et Ex[cellentissi]ma S[igno]ria
+
+humilissimo et perpetuo
+Servo el Gilino
+
+Controllo aggiornato: correzioni puntuali e incertezze documentate nei file di audit del pacchetto originale (non inclusi qui). Le integrazioni editoriali restano segnalate nel testo.

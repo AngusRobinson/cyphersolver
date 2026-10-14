@@ -1,0 +1,185 @@
+GILINO — LITERAL GROUP DECODE
+Spaces separate cipher groups, not words. This is not the edited Italian reading.
+Line IDs Pn.Cm identify photo n, cipher-line m in that photo; supplied source-file line is also shown.
+Presumed nulls are omitted here but retained in the alignment and raw transcription.
+A ? marks a tentative value or doubtful input glyph; [code] is unresolved.
+Clear manuscript passages are in plaintext_reading.txt, not counted as deciphered cipher.
+
+=== PHOTO P1 — f.214r — IMG_R8572_I39539_P1.jpg ===
+P1.C1 [source line 2]	mi e a f fi r ma to da mo l ti che s v a si g
+P1.C2 [source line 3]	no ri a si t ro u a i n po ca b o na g ra ti a
+P1.C3 [source line 4]	de l imperatore? pe r u na so la cosa? che li e i n pu ta t a che e che
+P1.C4 [source line 5]	pe r ca u sa di du e su e le t re i n te r ce t t e
+P1.C5 [source line 6]	a l u i ce re che a l s u b si di o di ge nu? a
+P1.C6 [source line 7]	i n v i a s se le g a le re di na po li et o r di na s se
+P1.C7 [source line 8]	a lo pe di so ri a che de l re s to de li ce n ru
+P1.C8 [source line 9]	mi l la du ca ti de l ca m b i o ne u sa se a
+P1.C9 [source line 10]	b e ne fi ci o di que l la ci t ta si pe r p ro
+P1.C10 [source line 11]	u i si o ne di f a n ti et di v i c tu a g li e [separator?]
+
+=== PHOTO P2 — f.214v — IMG_R8572_I39539_P2.jpg ===
+P2.C1 [source line 2]	se no n che a l t ra me n te e l tu t to si
+P2.C2 [source line 3]	pe r de re b b e v g li o no li so i de c t
+P2.C3 [source line 4]	ra c to ri che so no a l la s co pe r ta e l
+P2.C4 [source line 5]	con fe s so re et se c re ta ri o a le ma n t
+P2.C5 [source line 6]	che la v t re co pe r ta le i n fo r ma ci o n e
+P2.C6 [source line 7]	h a g gi a i n u i a to pe r t e de l le g
+P2.C7 [source line 8]	e n t i ru e a l la o b si di o ne di g e n
+P2.C8 [source line 9]	v a le qua li i n a l t ro lo co e ra no de s
+P2.C9 [source line 10]	ti na t e et che pe r que s t o
+P2.C10 [source line 11]	de t ta ci t ta no n si si a pi v di f
+P2.C11 [source line 12]	fe sa i o pe e l g ra n b i so g no che u e g go
+P2.C12 [source line 13]	che sua maesta? ne te ne no n po s so pe n s a re se no n
+P2.C13 [source line 14]	che e g li si con se r v i i n b o na g ra ti a
+P2.C14 [source line 15]	de l imperatore? et pe r que s to no n ce s sa ro di con
+P2.C15 [source line 16]	fo r ta re V[ost]ra Ex[tia] che o r di ni pe r su e
+P2.C16 [source line 17]	le t re a l b i li a che se i n t e r te n g h i
+P2.C17 [source line 18]	b e ne con e s so h o ra no n po s se mo s
+P2.C18 [source line 19]	pe ra re se no n b o ni o f fi i da su a si g
+P2.C19 [source line 20]	no ri? a ma x i me con la mo r t e di b o r b
+P2.C20 [source line 21]	o ne h o de li b e ra to i re a d i n con t ra r l o
+P2.C21 [source line 22]	si no a t re gi o r na t e et so che pe r que s
+P2.C22 [source line 23]	to no n se ro te nu to pe r so s pe t
+P2.C23 [source line 24]	to da l li o ra to ri con fe de ra ti
+
+=== PHOTO P7 — f.215r — IMG_R8572_I39539_P7.jpg ===
+P7.C1 [source line 2]	la m b a s sa to re de l re di po r t o ga l
+P7.C2 [source line 3]	lo no v a me n t e v e nu to? a no me de l p a pa
+P7.C3 [source line 4]	no n e ma n da to p ri n ci pa l me n t e da
+P7.C4 [source line 5]	su a sa n ti ta te si et s? c ri
+P7.C5 [source line 6]	v e e l da ta ri o a l si g no re nu n ci o
+P7.C6 [source line 7]	ma e s se n d o e g li pe r pa s sa re a l su o
+P7.C7 [source line 8]	re p re go? no s t ro si g no re che li p ce s se
+P7.C8 [source line 9]	h o no re de v no b re v e i n su a pe r so
+P7.C9 [source line 10]	na a l imperatore? con a v c to ri ta t e de? t ra c ta r
+P7.C10 [source line 11]	e su o con ce r to p ro me t te n do di fa r lo
+P7.C11 [source line 12]	su b i to re la x a re et re s t i
+P7.C12 [source line 13]	tu i r lo ne la p ri s ti na a mi s t a con sua maesta?
+P7.C13 [source line 14]	et ne l a n ti co s ta to de le c h i e sa
+P7.C14 [source line 15]	e l che no n g li e so c ce s so et h a v e a
+P7.C15 [source line 16]	p ro me s so de t to no n so lo i n i ra lo a
+P7.C16 [source line 17]	ma e ti a m di o i n i s pa g na qui e s ta to
+P7.C17 [source line 18]	co g no s ci v to pe r h o mo le gi e ro et con
+P7.C18 [source line 19]	que s ta b o na o pi? ni o ne di se do ma ne di co r
+P7.C19 [source line 20]	te ce sa re a si pa r t e pe r po r tu ga l lo
+P7.C20 [source line 21]	e s so a m b a s sa to re h a po r ta to
+
+=== PHOTO P3 — f.215v — IMG_R8572_I39539_P3.jpg ===
+P3.C1 [source line 2]	v na le t ra di p ro ri a ma no de l pa p a a l
+P3.C2 [source line 3]	nu n ci o i n c re de n z a di sa po ri to ca me re r
+P3.C3 [source line 4]	o di su a sa n ti ta t e qua l mo ri o i n ge n
+P3.C4 [source line 5]	v a che
+P3.C5 [source line 6]	e x h o r ta n do lo
+P3.C6 [source line 7]	a no n ma n c a re a l de v to se r u i ci u
+P3.C7 [source line 8]	co si d v i b re v i a l imperatore? pi e ni di mo l t e
+P3.C8 [source line 9]	b e l le se n t e n z e et con b e l le ra g i o ni
+P3.C9 [source line 10]	pe r su a de a sua maesta? a to re e l pa t ro ci ni o
+P3.C10 [source line 11]	de la c h i e sa et no n o p ri me r la ma x i
+P3.C11 [source line 12]	m e su b fi de che i n do c ta me n te s c ri t ti
+P3.C12 [source line 13]	la b b a t i no se ne ri to r na e x pe di to et de s
+P3.C13 [source line 14]	i de ra et l imperatore? g li h a con ce s so quanto h a sa pu to de si
+P3.C14 [source line 15]	de ra re et c h i e de re v e ro e che i n mo l ti ca
+P3.C15 [source line 16]	pi pe r no n s a pe re sua maesta? di quanto mo me n to so no s c
+P3.C16 [source line 17]	ri v e a l u i ce re di na po li et me g li o i n
+P3.C17 [source line 18]	fo r ma to de l le co se de i ta li a che f a c ci a
+P3.C18 [source line 19]	con te n to e l sa r de t to ma r che se pe r ci o
+P3.C19 [source line 20]	che si po te che co si e su a me n te to to qu? gu?
+P3.C20 [source line 21]	che l con ce r to e se g v i to con que s ta
+P3.C21 [source line 22]	ma i e s ta te che e g li si fo s se a s se ta to
+P3.C22 [source line 23]	con f ra n z a et qui te ne mo no v a che lo p ra ti
+
+=== PHOTO P5 — f.216r — IMG_R8572_I39539_P5.jpg ===
+P5.C1 [source line 2]	ca v a pe r me z o de l ca v a le ro ca sa l e
+P5.C2 [source line 3]	l imperatore? h a i n te so i n que s to con ce r to pe r li ri co
+P5.C3 [source line 4]	r di de l d v ca di fe r ra r a et o pe ra de l
+P5.C4 [source line 5]	nu n ci o c re do pe ro che l ma r che se pe r e s se re
+P5.C5 [source line 6]	o b li ga to a f i o re n ti ni che no n si mo s t ra
+P5.C6 [source line 7]	r a i n fa v o re to ta l me n te de l imperatore?
+P5.C7 [source line 8]	ma che f a ra che pa go lo lu z a s co con t re ce
+P5.C8 [source line 9]	n to ca v a l li le g i e ri pa s sa ra a l
+P5.C9 [source line 10]	se r v i ci o de sua maesta? et e r i e l
+P5.C10 [source line 11]	p re f a to a b b a ti no do v e a pa r ti re pe r
+P5.C11 [source line 12]	co s ta i n tu t ta di li ge n t i a
+P5.C12 [source line 13]	et pe r e s so h o s c ri t to a v o s t ra
+P5.C13 [source line 14]	e x ce l le n ti a so t to co pe r ta m la
+P5.C14 [source line 15]	si g no ra ma r che sa na di ma n tu a su
+
+=== PHOTO P4 — f.216v — IMG_R8572_I39539_P4.jpg ===
+P4.C1 [source line 2]	a m b i do i mi h a no g i v ra to che l c
+P4.C2 [source line 3]	h ri s ti a ni t si mo v l ti ma m e n te li s
+P4.C3 [source line 4]	c r i v e che o m ni no u o le che ne l con ce r
+P4.C4 [source line 5]	to v o s t ra e x ce l le n ti a re s t i
+P4.C5 [source line 6]	ne l s ta to di mi la no e l che no n con v e ne
+P4.C6 [source line 7]	con que l lo che p ro x i ma me n t e le
+P4.C7 [source line 8]	s c ri s se no n di me no m e re me t to a l
+P4.C8 [source line 9]	la v e ri ta t e e l si g no re a m
+P4.C9 [source line 10]	b a s sa to re v ne to et i o so li a n ti h e ri
+P4.C10 [source line 11]	fo s se mo da l si g no re nu n ci o a po
+P4.C11 [source line 12]	s to li co a v si g li o s et lo p re ga s se
+P4.C12 [source line 13]	mo che v o le s se a n da re a pa li n z a
+P4.C13 [source line 14]	et i v i di mo ra re me n t re che li o ra
+P4.C14 [source line 15]	to ri f ra ce si u i s ta ra no et che v si
+P4.C15 [source line 16]	di li ge n ti a di sa pe re la v e ri ta te
+P4.C16 [source line 17]	di que l lo p ra ti ca ra no et ma x i m e
+P4.C17 [source line 18]	ci r ca e l f a t to di e s sa ci h a
+P4.C18 [source line 19]	p ro me s so di f a r lo u o lo n ti e ri et co si
+P4.C19 [source line 20]	i n te n de mo che su a si g no ri a u i e i t a
+P4.C20 [source line 21]	so no qua si ce r to che ci se r v i ra
+P4.C21 [source line 22]	et pe r ri s pe t to di v o s t ra e x ce l le n
+P4.C22 [source line 23]	ti a pe r que l lo de v e a d i ta li a tu t
+P4.C23 [source line 24]	ta et pe r l a mi s ta te te ne con e l de t to o ra to re
+
+=== PHOTO P6 — f.217r — IMG_R8572_I39539_P6.jpg ===
+P6.C1 [source line 2]	u e ne to i n te n do che l imperatore? su b i to i n te sa
+P6.C2 [source line 3]	la de di ti o ne di g e nu a m a ma n da to v no? no v o
+P6.C3 [source line 4]	de s pa c c h i o a mo n si g no re di mi li a o che f i
+P6.C4 [source line 5]	di a que l te m po no n e ra i n b a r c h a to pe r
+P6.C5 [source line 6]	ro ma et mi e a c ce n na to che sua maesta? re v o ca la li b e
+P6.C6 [source line 7]	ra ti o ne de l pa p a pe r li no v i so c ce s si
+P6.C7 [source line 8]	di lo m b a r di a a que s to c re de re pe i n d u co no
+P6.C8 [source line 9]	li ma li o f fi ci i che li o ra to r i fe r ra r e si et li a
+P6.C9 [source line 10]	ge n ti di co lo ne si pu b li ca me n t e f a no con t ra
+P6.C10 [source line 11]	su a sa n si ta t e p re s so l imperatore? m la qua le quanto ne ra
+P6.C11 [source line 12]	gi o na no no n la sa n o no mi na re se no n pe r t ra di
+P6.C12 [source line 13]	to re fa l so pa pa b a s ta r do fa b ri ca to re di v e
+P6.C13 [source line 14]	le ni et mi l le a l t ri o b b ro to? b ri che lo n go? se re b
+P6.C14 [source line 15]	b e s c r? i v e r l i v v u
+P6.C15 [source line 16]	con e s so lu i mi e de t to che e x pe di ra no
+P6.C16 [source line 17]	t ro i lo ne g ro no che a li si g no ri co lo ne
+P6.C17 [source line 18]	si sua maesta? di ce? h o ra di v o le re fa re mo l te g ra
+P6.C18 [source line 19]	ci e se que s to e la p re se n t e di f fi cu l
+P6.C19 [source line 20]	ta t e de le co se lo m b a r d e lo h e ca v
+P6.C20 [source line 21]	sa to du b i ta no che p re s so l v na ru i na
+P6.C21 [source line 22]	se g v i l a l t ra de l re i no di na po l i
+P6.C22 [source line 23]	so no qui li t re di me s se re a n d re a b o r go?
+
+=== PHOTO P8 — f.217v — IMG_R8572_I39539_P8.jpg ===
+P8.C1 [source line 2]	ne l imperatore? et v a l de si o g i a su o se r u? i? to re pi e
+P8.C2 [source line 3]	ne de con si g li p ro o p ri me n d a i ta li a et lo
+P8.C3 [source line 4]	n g h i di s co r si pe r se r v a re e l s ta
+P8.C4 [source line 5]	to di mi la no a l la de v o ti o ne di sua maesta? ne l v
+P8.C5 [source line 6]	l ti mo si ri so l u? e no che l i n f a n t e e que
+P8.C6 [source line 7]	lo v no che lo po te te ne re et de f fe n de re
+P8.C7 [source line 8]	da qua lu n che v i o le n ti a che de s se n
+P8.C8 [source line 9]	de s se pe r o z cu pa r lo do po p re sa g
+P8.C9 [source line 10]	e nu a si e de t to che l imperatore? h a e x pe di to
+P8.C10 [source line 11]	pe r f a re de s ce n de re lo i n f a n t e
+P8.C11 [source line 12]	et da re t v t ta i ta li a i n p re da a d a
+P8.C12 [source line 13]	le me ni che sua maesta? di mo s t ra ma g gi? o re co re
+P8.C13 [source line 14]	che ma i et che da l con f e s o re e v s ci to che la
+P8.C14 [source line 15]	pe r di ta di g e nu a e s ta t a o no s ti
+P8.C15 [source line 16]	mo lo g o li a r do a l imperatore? de l tu t to si
+P8.C16 [source line 17]	di mo s t ri a l la g v r ra et quanto po te n t i
+P8.C17 [source line 18]	si a no le lo r f f z e lu v i
+
+=== PHOTO P9 — f.218r — IMG_R8572_I39539_P9.jpg ===
+P9.C1 [source line 2]	s c? ri t to fi n qui pe r p i v v i e si cu re
+P9.C2 [source line 3]	so no s ta to a v i sa to che l imperatore? h a ma n d a
+P9.C3 [source line 4]	t o pe r t re co r re ri la i n v e s ti tu ra
+P9.C4 [source line 5]	de l s t a t o di mi la no a l i n f a n t
+P9.C5 [source line 6]	e a b b a s si a l la de f fe n si o n di que l
+P9.C6 [source line 7]	lo s ta to et che di p re s e n te g li p ro v e de
+P9.C7 [source line 8]	di ce n t o mi l la d v ca ti la pe r di ta di g e nu a
+P9.C8 [source line 9]	si e ra fe r ma ta pe r v i a de l si g no re di [separator?]
+P9.C9 [source line 10]	mo na co a l qua le sua maesta? p ro v e de de da na ri
+P9.C10 [source line 11]	se con se r v i a su a de v o ci o ne to?
