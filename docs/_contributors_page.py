@@ -43,16 +43,32 @@ def own_targets(profiles):
     return [f for f, p in profiles.items() if CR.provenance_of(p) == 'project']
 
 
-def lead_row(c, n_own):
-    cells = ''.join('<td class="n">&middot;</td>' for _ in COLUMNS)
+READINGS = M.KEY_RECOVERED | {M.EXT_KEY, M.KNOWN, M.DECIPH}
+
+
+def lead_counts(profiles):
+    """The lead's columns, counted from the project's own work: targets per COLUMNS label (absent = not applicable).
+    Solutions: own targets with a reading of any method; Verifications: outside solutions checked and filed here
+    (provenance contributed); Keys corrected and Transcriptions, identifications: outcome.contribution."""
+    own = [profiles[f] for f in own_targets(profiles)]
+    contrib = lambda p: set(((p.get('outcome') or {}).get('contribution')) or [])
+    return {'Solutions': sum((p.get('outcome') or {}).get('method') in READINGS for p in own),
+            'Verifications': sum(CR.provenance_of(p) == 'contributed' for p in profiles.values()),
+            'Keys corrected': sum('key extended or corrected' in contrib(p) for p in own),
+            'Transcriptions, identifications': sum(bool(contrib(p) & {'transcription', 'sender or date identified', 'catalogue correction'}) for p in own)}
+
+
+def lead_row(c, n_own, lc):
+    cells = ''.join(f'<td class="n">{lc.get(l) or "&middot;"}</td>' for l, _ in COLUMNS)
     return (f'<tr id="row-{c["id"]}"><td><a href="#{c["id"]}">{e(c["name"])}</a> <span class="cmuted">project lead</span></td>'
             f'<td class="n"><a href="writeups.html" title="the project&rsquo;s own targets">{n_own}</a></td>{cells}</tr>')
 
 
-def lead_card(c, n_own):
+def lead_card(c, n_own, lc):
+    bits = ''.join(f'{l.lower()} &times;{n} &middot; ' for l, n in lc.items() if n)
     return (f'<article class="ccard" id="{c["id"]}">\n<h3>{name_html(c)}</h3>\n'
             + (f'<p class="cnote">{e(c["note"])}</p>\n' if c.get('note') else '')
-            + f'<p class="ckinds">project lead &middot; {n_own} of the project&rsquo;s own targets &middot; '
+            + f'<p class="ckinds">project lead &middot; {n_own} of the project&rsquo;s own targets &middot; {bits}'
               f'<a href="writeups.html">all write-ups &rarr;</a> &middot; <a href="#project">the project&rsquo;s share</a></p>\n</article>')
 
 
@@ -121,6 +137,7 @@ def page(pages, profiles, reg, dates, version, today):
     # the project's share
     real = {f: p for f, p in profiles.items()}
     own = own_targets(real)
+    lc = lead_counts(real)
     own_keys = sum(1 for f in own if (real[f].get('outcome') or {}).get('method') in M.KEY_RECOVERED)
     contrib = sorted(f for f, p in real.items() if CR.provenance_of(p) in ('contributed', 'mixed'))
     models = collections.Counter(m for p in real.values() for m in ((p.get('conditions') or {}).get('models') or []) if isinstance(m, str) and m != 'unknown')
@@ -144,7 +161,7 @@ def page(pages, profiles, reg, dates, version, today):
     queue_rows = ''.join(
         f'<li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span>'
         f'<span class="yr">{p["year"]}</span></a></li>' for p in q)
-    cards = '\n'.join([lead_card(c, len(own)) for c in lead] + [card_html(w, ent, reg, pages_by_folder, profiles) for w, ent in ranked])
+    cards = '\n'.join([lead_card(c, len(own), lc) for c in lead] + [card_html(w, ent, reg, pages_by_folder, profiles) for w, ent in ranked])
     builds_rows = ''.join(
         f'<tr id="{w}"><td>{name_html(reg[w])}<span class="cmuted"> {e(reg[w].get("note", ""))}</span></td>'
         f'<td class="n"><a href="writeups.html#by={w}">{len(ent["targets"])}</a></td></tr>' for w, ent in builds)
@@ -175,7 +192,7 @@ def page(pages, profiles, reg, dates, version, today):
 
 <h2 id="who"><span class="num">01</span> Who has contributed</h2>
 <p>{"".join(e(c["name"]) + " runs the project (" + str(len(own)) + " of its own targets). " for c in lead)}{len(ranked)} people are credited on {len({f for w, ent in ranked for f in ent["targets"]})} targets. {n_direct} of the credits are direct contributions (a solution, a new cipher, a verification, a key correction, a transcription, an identification or a pointer to a source); the rest record whose key, decipherment or earlier solution a reading used. A count is the number of targets; click it for the write-ups.</p>
-{table_html(ranked, reg, ''.join(lead_row(c, len(own)) for c in lead))}
+{table_html(ranked, reg, ''.join(lead_row(c, len(own), lc) for c in lead))}
 {('<h3 class="listhead">Direct contributions by month</h3>' + hist) if hist else ''}
 
 <h2 id="people"><span class="num">02</span> Contributions in detail</h2>
