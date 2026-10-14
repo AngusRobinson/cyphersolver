@@ -546,7 +546,7 @@ PAGES = [
          rights='Manuscript: British Library, Cotton MS Vespasian C IV (images on DECODE; details reproduced with credit)'),
     dict(slug='vasto1527', label='Del Vasto 1527', year='1527&ndash;28', y=1527.8, place='Rome and Madrid &rarr; Charles V', st='partial', stt='read in part',
          title='Del Vasto to Charles V, and a letter to &ldquo;Garbino&rdquo;, 1527&ndash;28',
-         blurb='Three imperial ciphers in BnF fr. 3022. No. 10 had been deciphered by Lasry and Tomokiyo; no. 6, del Vasto&rsquo;s letter of December 1527, was deciphered here with Lasry&rsquo;s preliminary key extended with code groups from context, 98% of its cipher signs giving sense. No. 20 is in Hieronimo Ranzo&rsquo;s initial-letter code, whose numbering is not alphabetical; without the key only its function words were recovered.',
+         blurb='Three imperial ciphers in BnF fr. 3022. No. 10 had been deciphered by Lasry and Tomokiyo; no. 6, del Vasto&rsquo;s letter of December 1527, was deciphered here with Lasry&rsquo;s preliminary key extended with code groups from context, 98% of its cipher signs giving sense. No. 20 is in Hieronimo Ranzo&rsquo;s initial-letter code, whose numbering is not alphabetical; our solver recovered only its function words, and Paolo Rosson&rsquo;s key (6 October 2026) reads it in part (80% in connected stretches on our transcription).',
          quote='&ldquo;el ex&eacute;rcito por lo de advenir no se puede sostener desta manera&rdquo; &middot; del Vasto, December 1527',
          rights='Manuscript images: Biblioth&egrave;que nationale de France'),
     dict(slug='bayard1526', label='Bayard 1526', year='1526', y=1526.01, place='Toledo &rarr; Montmorency', st='stuck', stt='key not found',

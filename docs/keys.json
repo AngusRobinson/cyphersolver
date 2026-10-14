@@ -12,6 +12,7 @@
   {"id": "k-brussels1635", "label": "Cardinal-Infante's Latin alphabet of 1635, rebuilt here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1635, "note": "Homophonic Latin alphabet of numbers 0-39 and letters, two to five signs per letter; recovered by aligning DECODE R1889 with the Cardinal-Infante's draft R954 (Brussels SEA 540). targets/ferdinand3/work/key1889.json."},
   {"id": "k-vienna1640", "label": "Ferdinand III's syllabary of 1640, rebuilt here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1640, "note": "The 1635 alphabet plus syllables in AEIOU order (40-54 = l/n/r + vowel, letter groups showing the vowel: pla-plu = ta-tu, ap-up = ca-cu ...); recovered from the ciphertext of DECODE R1890 by a family anneal. targets/ferdinand3/work/key1890_extra.json."},
   {"id": "k-stuttgart1634", "label": "King of Hungary's vowel-series nomenclator of 1634, rebuilt here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1634, "note": "Letter groups in vowel series (xar-xur = ta-tu, ob-ub = mo-mu ...), numbers and drawn signs; rebuilt from the crib 'promovere haud dedignetur' repeated in DECODE R1887, crib-seeded anneal and context; partial. targets/ferdinand3/work/key1887.json."},
+  {"id": "k-rosson-ranzo-1528", "label": "Rosson, Ranzo's initial-letter code (fr. 3022 no. 20, fr. 2988 ff. 9-10)", "kind": "scholar's key", "by": "Paolo Rosson (with Claude)", "year": 1528, "found": 2026, "note": "779-value key table, 6 Oct 2026, built on this project's transcription; numbers 0-5 nulls, 6-9 single letters, 10+ stems under the initial."},
   {"id": "k-ernst-piccolomini", "label": "Zifra Piccolominea (Ferdinand III to Leopold Wilhelm), Thomas Ernst", "kind": "scholar's key", "by": "Thomas Ernst", "year": 1640, "found": 2017, "note": "Number pairs on the AEIOU motto, non-numeric signs = their stroke counts; Ernst's 2017 solution of Schmeh's Top 50 no. 27, letters of 1640/41 to Archduke Leopold Wilhelm."},
   {"id": "k-bayonne1529", "label": "Bayonne's cipher of 1529 (Jean du Bellay), re-derived here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1529, "note": "Homophonic symbol alphabet with word signs (roy, madame, bien, fault/faict, paix, vous); re-derived from the 22 June 1529 interlinear decipherment (BnF fr. 3078 pp. 23-27, DECODE R3689) and Le Grand 1688, extending Tomokiyo's table. targets/dubellay/NOTES.md section 2."},
   {"id": "k-tomokiyo-bayonne1529", "label": "Tomokiyo's table of Bayonne's cipher (1529)", "kind": "scholar's key", "by": "Satoshi Tomokiyo", "year": 1529, "note": "Cryptiana francis.htm, reconstructed from Clair. 333 ff. 24, 27 (June 1530)."},
@@ -2164,6 +2165,12 @@
    "target": "sormano1529",
    "how": "read unchanged",
    "note": ""
+  },
+  {
+   "key": "k-rosson-ranzo-1528",
+   "target": "vasto1527",
+   "how": "partial",
+   "note": "applied to our transcription 14 Oct 2026: 94% of no. 20 and 97% of R1894 valued"
   },
   {
    "key": "k-lasry-gl",

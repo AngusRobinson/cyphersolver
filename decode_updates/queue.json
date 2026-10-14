@@ -3041,17 +3041,17 @@
   "ranzo1528": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/vasto1527.html",
    "key": {
-    "none": "no key, clear copy or decipherment found; the numbering is not alphabetical"
+    "none": "no key on DECODE; an outside key table for this code by P. Rosson (779 values, 6 Oct 2026) is linked in the sources"
    },
-   "cite": "S. Tomokiyo, 'Venetian Ciphers with Superscripts', cryptiana",
+   "cite": "P. Rosson (with Claude), 'The Venetian? cipher with superscript digits of 1528', https://pangoleen.github.io/cipher-readings/centurione-1528.html; S. Tomokiyo, 'Venetian Ciphers with Superscripts', cryptiana",
    "fields": {
     "origin_city": "unknown (not Venice: Ranzo, Gattinara's secretary, wrote from the imperial court; the superscript style is not evidence of origin)"
    },
    "records": {
     "R1894": {
      "decode_status": "Non-decrypted",
-     "proposed": "Non-decrypted",
-     "note": "Not read. The date 1 Jan 1520 is a placeholder for BnF's 1520-29 range; the same code is used in the letter to 'Garbino', Madrid 11 Apr 1528 (BnF fr. 3022 no. 20), so the late 1520s is likelier. R4450 (BnF fr. 20506 f. 136) is a copy of f. 9. A full transcription of ff. 9r-10v (initial letter + number groups) is attached; about 3,900 groups of this code are transcribed in all (targets/vasto1527/n20/).",
+     "proposed": "Partially decrypted",
+     "note": "Read in part by Paolo Rosson with Claude (6 Oct 2026; link in the sources): his key applied to the attached transcription values 97.2% of the groups and 93.1% lie in connected stretches (measured 14 Oct 2026); not read here. The date 1 Jan 1520 is a placeholder for BnF's 1520-29 range; the same code is used in the letter to 'Garbino', Madrid 11 Apr 1528 (BnF fr. 3022 no. 20), so the late 1520s is likelier. R4450 (BnF fr. 20506 f. 136) is a copy of f. 9. A full transcription of ff. 9r-10v (initial letter + number groups) is attached; about 3,900 groups of this code are transcribed in all (targets/vasto1527/n20/).",
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
@@ -3064,8 +3064,8 @@
     },
     "R4450": {
      "decode_status": "Non-decrypted",
-     "proposed": "Non-decrypted",
-     "note": "Not read. A copy of BnF fr. 2988 f. 9 (DECODE R1894), whose transcription is attached there; same code as the 'Garbino' letter, BnF fr. 3022 no. 20 (Madrid, 11 Apr 1528).",
+     "proposed": "Partially decrypted",
+     "note": "Read in part through its original: Rosson's key (see R1894). A copy of BnF fr. 2988 f. 9 (DECODE R1894), whose transcription is attached there; same code as the 'Garbino' letter, BnF fr. 3022 no. 20 (Madrid, 11 Apr 1528).",
      "reading": null,
      "reading_not_needed": true,
      "sent": false
@@ -9361,6 +9361,9 @@
      }
     }
    }
+  },
+  "vasto1527": {
+   "skip": "DECODE edits for R1894/R4450 are queued under ranzo1528; nos. 6, 10 and 20 are Gallica items with no other DECODE record"
   }
  },
  "rechteren1785": {
