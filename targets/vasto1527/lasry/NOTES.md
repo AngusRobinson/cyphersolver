@@ -1,6 +1,20 @@
 # Ranzo correspondence: George Lasry’s contributed working key
 
-Contributed by **George Lasry**, based on **Norbert Biermann’s transcription (2021)**. The decipherment was achieved in collaboration between **Claude Opus 5.5 and GPT-6 Astra**, as attributed by Lasry. This packet preserves the Codex consolidation of 6 October 2026; it does not substitute Rosson’s or a newer Claude key.
+**Deciphered by George Lasry, using Claude Opus 5.5 and GPT-6 Astra, from Norbert Biermann’s transcription (2021).** Daniel Bourdeau made initial observations on the cipher; George Lasry did not use those observations in this decipherment. This packet preserves the Codex consolidation of 6 October 2026.
+
+## Manuscript sources
+
+All references are from Biermann’s ciphertext transcription; all documents are in the Bibliothèque nationale de France. The first source in each row supplies the transcribed line layout.
+
+| Letter | Ciphertext source | Parallel copy |
+|---|---|---|
+| 1 | [Français 2988, f. 2](https://gallica.bnf.fr/ark:/12148/btv1b9059908w/f6) | [Français 3019, ff. 73–74](https://gallica.bnf.fr/ark:/12148/btv1b9059994n/f114) |
+| 2 | [Français 2988, ff. 9–10](https://gallica.bnf.fr/ark:/12148/btv1b9059908w/f17) | [Français 20506, ff. 136–138](https://gallica.bnf.fr/ark:/12148/btv1b525047581/f275.item) |
+| 3 | [Français 3022, ff. 44–47](https://gallica.bnf.fr/ark:/12148/btv1b90601558/f86) | [Clairambault 327, ff. 279–280](https://gallica.bnf.fr/ark:/12148/btv1b9000764n/f263) |
+| 4 | Français 4050, ff. 79–81 | — |
+| 5 | Français 6638, pp. 67–70 | — |
+
+No Gallica link for Français 4050 or 6638 is supplied in the transcription.
 
 ## Scope and method
 

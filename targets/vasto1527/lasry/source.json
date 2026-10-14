@@ -42,5 +42,44 @@
   "alignment.tsv": "d60944c11e8a96baf2efa4ff2ae1ed1dadcf8fb7f1d018292dee9a26a97cdd69",
   "counts.json": "a2c2f3243c5ae5da44da54e828a12d29d9ccdaf405b91c8ef16112728a64fd9e",
   "excerpts.json": "4634b77d716766dc005136e7ec990846d204aa7269d0983705db48b3d5a077c4"
- }
+ },
+ "solution_by": "George Lasry",
+ "initial_observations": "Daniel Bourdeau made initial observations on the cipher; George Lasry did not use those observations in this decipherment.",
+ "manuscript_sources": [
+  {
+   "letter": 1,
+   "ciphertext_source": "Français 2988, f. 2",
+   "source_url": "https://gallica.bnf.fr/ark:/12148/btv1b9059908w/f6",
+   "parallel_copy": "Français 3019, ff. 73–74",
+   "parallel_url": "https://gallica.bnf.fr/ark:/12148/btv1b9059994n/f114"
+  },
+  {
+   "letter": 2,
+   "ciphertext_source": "Français 2988, ff. 9–10",
+   "source_url": "https://gallica.bnf.fr/ark:/12148/btv1b9059908w/f17",
+   "parallel_copy": "Français 20506, ff. 136–138",
+   "parallel_url": "https://gallica.bnf.fr/ark:/12148/btv1b525047581/f275.item"
+  },
+  {
+   "letter": 3,
+   "ciphertext_source": "Français 3022, ff. 44–47",
+   "source_url": "https://gallica.bnf.fr/ark:/12148/btv1b90601558/f86",
+   "parallel_copy": "Clairambault 327, ff. 279–280",
+   "parallel_url": "https://gallica.bnf.fr/ark:/12148/btv1b9000764n/f263"
+  },
+  {
+   "letter": 4,
+   "ciphertext_source": "Français 4050, ff. 79–81",
+   "source_url": null,
+   "parallel_copy": null,
+   "parallel_url": null
+  },
+  {
+   "letter": 5,
+   "ciphertext_source": "Français 6638, pp. 67–70",
+   "source_url": null,
+   "parallel_copy": null,
+   "parallel_url": null
+  }
+ ]
 }
