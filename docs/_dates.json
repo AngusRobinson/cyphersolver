@@ -224,6 +224,7 @@
   "pál bornemisza to ferdinand i, transylvania, c. 1556": "2026-09-22",
   "queen anne to the earl of peterborough, 22 february 1712": "2026-09-21",
   "queen maría to alfonso v, valencia, 5 august 1435": "2026-09-18",
+  "ranzo correspondence, 1528": "2026-10-14",
   "rechteren to the griffier, st petersburg, 4 oct 1785": "2026-09-21",
   "richard forster, 1644": "2026-09-16",
   "robert fagel to william v, 18 june 1804": "2026-09-21",
@@ -644,7 +645,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "7ee7f8c81992",
+   "hash": "59547a2a3aeb",
    "updated": "2026-10-14"
   },
   "copenhagen": {
@@ -994,7 +995,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "99f6d65c6f24",
+   "hash": "5bd2c716d357",
    "updated": "2026-10-14"
   },
   "indus": {
@@ -1839,8 +1840,8 @@
   },
   "vasto1527": {
    "first": "2026-09-18",
-   "hash": "31c2842768b6",
-   "updated": "2026-09-24"
+   "hash": "b9f3dca87a10",
+   "updated": "2026-10-14"
   },
   "vatican": {
    "first": "2026-09-15",
@@ -1954,7 +1955,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "6b8348b929d8",
+   "hash": "17cc6069252f",
    "updated": "2026-10-14"
   },
   "yard1699": {

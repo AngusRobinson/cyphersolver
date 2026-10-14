@@ -1,0 +1,4370 @@
+{
+ "meta": {
+  "contributor": "George Lasry",
+  "transcription_by": "Norbert Biermann",
+  "collaboration": [
+   "Claude Opus 5.5",
+   "GPT-6 Astra"
+  ],
+  "research_updated": "2026-10-06T02:46:17",
+  "source_key_sha256": "7ab6ee7b42a1b891ef60f68f3793fc0a484b826056ff6be624d5e8c2698416a0",
+  "note": "Codex consolidated working key; question marks retained. Labels without ? are stronger working inferences, not an authenticated historical key."
+ },
+ "key": {
+  "a8": {
+   "value": "a?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "a13": {
+   "value": "abenche?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a17": {
+   "value": "absentia?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "a23": {
+   "value": "accad",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "a28": {
+   "value": "accept?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a35": {
+   "value": "accord?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "a37": {
+   "value": "accordo",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "a47": {
+   "value": "atio?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a48": {
+   "value": "accio?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "a51": {
+   "value": "ad",
+   "count": 15,
+   "status": "stronger working inference"
+  },
+  "a60": {
+   "value": "adriz",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "a61": {
+   "value": "aviso",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "a62": {
+   "value": "avis",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "a84": {
+   "value": "advert?",
+   "count": 7,
+   "status": "tentative/speculative"
+  },
+  "a87": {
+   "value": "advenir?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a104": {
+   "value": "affirm?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "a116": {
+   "value": "aiut",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "a120": {
+   "value": "aggiung?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a127": {
+   "value": "al",
+   "count": 30,
+   "status": "stronger working inference"
+  },
+  "a135": {
+   "value": "alcun",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "a136": {
+   "value": "alcuno?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a137": {
+   "value": "alcuna",
+   "count": 13,
+   "status": "stronger working inference"
+  },
+  "a139": {
+   "value": "alcun?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a143": {
+   "value": "allegato?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a152": {
+   "value": "altro",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "a153": {
+   "value": "altre",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "a154": {
+   "value": "altre",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "a155": {
+   "value": "altri",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "a156": {
+   "value": "allarg",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "a159": {
+   "value": "allegar?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a170": {
+   "value": "amico",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "a171": {
+   "value": "ambasciadori?",
+   "count": 7,
+   "status": "tentative/speculative"
+  },
+  "a174": {
+   "value": "amico?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "a176": {
+   "value": "amici?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a180": {
+   "value": "ampl?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a185": {
+   "value": "amicitia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a186": {
+   "value": "ancora",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "a187": {
+   "value": "ancor?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "a195": {
+   "value": "ano",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "a204": {
+   "value": "ante",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "a208": {
+   "value": "andar",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "a209": {
+   "value": "at",
+   "count": 15,
+   "status": "stronger working inference"
+  },
+  "a217": {
+   "value": "apparent?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a246": {
+   "value": "acqua",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "a272": {
+   "value": "ar?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "a273": {
+   "value": "armi?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "a275": {
+   "value": "armate?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a278": {
+   "value": "astutie?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a279": {
+   "value": "asco?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a282": {
+   "value": "arma?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "a283": {
+   "value": "and?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a299": {
+   "value": "assicur?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "a302": {
+   "value": "aspett?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "a304": {
+   "value": "attento?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "a305": {
+   "value": "attent?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "a311": {
+   "value": "avanti",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "a313": {
+   "value": "adoper?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a314": {
+   "value": "audac?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a315": {
+   "value": "augmenti?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a317": {
+   "value": "accett?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "a323": {
+   "value": "avantaggi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "b10": {
+   "value": "ba",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "b20": {
+   "value": "Barcellona?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "b26": {
+   "value": "basta",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "b28": {
+   "value": "bast",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "b43": {
+   "value": "bagn",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "b49": {
+   "value": "be",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "b57": {
+   "value": "ben",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "b58": {
+   "value": "bene",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "b80": {
+   "value": "bi",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "b84": {
+   "value": "bianco",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "b96": {
+   "value": "Biscaglia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "b101": {
+   "value": "bisogna?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "b103": {
+   "value": "Bo",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "b113": {
+   "value": "bon",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "b114": {
+   "value": "bona",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "b115": {
+   "value": "bon",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "b117": {
+   "value": "bono?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "b129": {
+   "value": "Burgo",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "b147": {
+   "value": "breve?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "b148": {
+   "value": "breve?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "b246": {
+   "value": "do?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c7": {
+   "value": "u",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "c8": {
+   "value": "u",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "c9": {
+   "value": "u",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c10": {
+   "value": "ca",
+   "count": 13,
+   "status": "stronger working inference"
+  },
+  "c32": {
+   "value": "camb",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "c42": {
+   "value": "can",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c46": {
+   "value": "canal?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c48": {
+   "value": "canceller?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c51": {
+   "value": "capi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c65": {
+   "value": "cader?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c75": {
+   "value": "car",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "c76": {
+   "value": "cara",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c77": {
+   "value": "care?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c85": {
+   "value": "carta",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "c99": {
+   "value": "carc?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c107": {
+   "value": "caso",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "c108": {
+   "value": "cesarea?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "c109": {
+   "value": "casa",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c125": {
+   "value": "cert",
+   "count": 11,
+   "status": "stronger working inference"
+  },
+  "c127": {
+   "value": "come?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c129": {
+   "value": "cavalier",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c132": {
+   "value": "cave?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c136": {
+   "value": "ce",
+   "count": 14,
+   "status": "stronger working inference"
+  },
+  "c148": {
+   "value": "certo",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "c151": {
+   "value": "certific",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "c153": {
+   "value": "cerca",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c170": {
+   "value": "che",
+   "count": 174,
+   "status": "stronger working inference"
+  },
+  "c171": {
+   "value": "chi",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "c173": {
+   "value": "chiar?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c174": {
+   "value": "che?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c183": {
+   "value": "ci?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "c184": {
+   "value": "cia",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c185": {
+   "value": "cio",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "c187": {
+   "value": "cion",
+   "count": 12,
+   "status": "stronger working inference"
+  },
+  "c191": {
+   "value": "cento?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c193": {
+   "value": "cinquecento",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "c194": {
+   "value": "circa",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "c208": {
+   "value": "co",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "c211": {
+   "value": "conosc",
+   "count": 11,
+   "status": "stronger working inference"
+  },
+  "c216": {
+   "value": "con",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "c227": {
+   "value": "como",
+   "count": 27,
+   "status": "stronger working inference"
+  },
+  "c234": {
+   "value": "consequent?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c235": {
+   "value": "corte",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c236": {
+   "value": "copia?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "c239": {
+   "value": "compagnia",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c242": {
+   "value": "comince?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c246": {
+   "value": "comunic",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "c248": {
+   "value": "commission?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c258": {
+   "value": "compet?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c262": {
+   "value": "conto",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c263": {
+   "value": "conte",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "c267": {
+   "value": "consiglio?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "c268": {
+   "value": "consigli",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "c272": {
+   "value": "contra",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c281": {
+   "value": "conservat?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c282": {
+   "value": "consol?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "c287": {
+   "value": "conditioni",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c288": {
+   "value": "conveni",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "c289": {
+   "value": "conclud?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c291": {
+   "value": "consider",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "c292": {
+   "value": "continu",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "c293": {
+   "value": "conced?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c296": {
+   "value": "cas?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "c310": {
+   "value": "copert",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "c312": {
+   "value": "copia",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "c315": {
+   "value": "corp",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "c320": {
+   "value": "cos",
+   "count": 33,
+   "status": "stronger working inference"
+  },
+  "c322": {
+   "value": "cred",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "c325": {
+   "value": "cura",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "d8": {
+   "value": "t",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "D9": {
+   "value": "t",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "d9": {
+   "value": "t",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "d10": {
+   "value": "da",
+   "count": 43,
+   "status": "stronger working inference"
+  },
+  "d13": {
+   "value": "da",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "d15": {
+   "value": "danno",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "d17": {
+   "value": "danneggi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d18": {
+   "value": "dapoi",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "d24": {
+   "value": "dato",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "d25": {
+   "value": "dat?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d30": {
+   "value": "dar",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "d34": {
+   "value": "de",
+   "count": 27,
+   "status": "stronger working inference"
+  },
+  "d35": {
+   "value": "de",
+   "count": 81,
+   "status": "stronger working inference"
+  },
+  "d36": {
+   "value": "de",
+   "count": 48,
+   "status": "stronger working inference"
+  },
+  "d37": {
+   "value": "de",
+   "count": 27,
+   "status": "stronger working inference"
+  },
+  "d47": {
+   "value": "debb?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d48": {
+   "value": "debbiano?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d52": {
+   "value": "dieci?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "d78": {
+   "value": "di",
+   "count": 54,
+   "status": "stronger working inference"
+  },
+  "d84": {
+   "value": "deliberatione?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d96": {
+   "value": "denari",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "d100": {
+   "value": "deput?",
+   "count": 5,
+   "status": "tentative/speculative"
+  },
+  "d102": {
+   "value": "dente",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "d105": {
+   "value": "destin?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d120": {
+   "value": "dis",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "d127": {
+   "value": "desider",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "d128": {
+   "value": "desideri?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d150": {
+   "value": "disconven",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "d156": {
+   "value": "detto",
+   "count": 20,
+   "status": "stronger working inference"
+  },
+  "d157": {
+   "value": "detta",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "d158": {
+   "value": "detti",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "d159": {
+   "value": "dette",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "d163": {
+   "value": "deliber",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "d168": {
+   "value": "devotion?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "d170": {
+   "value": "di",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "d178": {
+   "value": "di",
+   "count": 15,
+   "status": "stronger working inference"
+  },
+  "d179": {
+   "value": "di",
+   "count": 12,
+   "status": "stronger working inference"
+  },
+  "d180": {
+   "value": "di",
+   "count": 11,
+   "status": "stronger working inference"
+  },
+  "d188": {
+   "value": "differir?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d198": {
+   "value": "discors?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d201": {
+   "value": "dilect?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d202": {
+   "value": "Dio",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "d204": {
+   "value": "dire",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "d205": {
+   "value": "dir",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "d211": {
+   "value": "dispon",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "d216": {
+   "value": "distinct?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d236": {
+   "value": "differe?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "d237": {
+   "value": "divers?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d240": {
+   "value": "divin?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d245": {
+   "value": "do",
+   "count": 17,
+   "status": "stronger working inference"
+  },
+  "d246": {
+   "value": "do",
+   "count": 23,
+   "status": "stronger working inference"
+  },
+  "d264": {
+   "value": "dona?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d270": {
+   "value": "dove",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "d272": {
+   "value": "demand?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "d280": {
+   "value": "dietro?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d281": {
+   "value": "du",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "d282": {
+   "value": "dubio",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "d283": {
+   "value": "dubi",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "d285": {
+   "value": "ducati",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "d288": {
+   "value": "duca",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "d292": {
+   "value": "dur",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "d299": {
+   "value": "dura",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "d303": {
+   "value": "dubitar?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "d304": {
+   "value": "dubit",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "e6": {
+   "value": "s",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "e7": {
+   "value": "s",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "e8": {
+   "value": "s",
+   "count": 11,
+   "status": "stronger working inference"
+  },
+  "e9": {
+   "value": "s",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "e16": {
+   "value": "effecto",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "e17": {
+   "value": "effecti?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "e19": {
+   "value": "effectu",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "e25": {
+   "value": "el",
+   "count": 26,
+   "status": "stronger working inference"
+  },
+  "e39": {
+   "value": "elegga?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "e49": {
+   "value": "en",
+   "count": 11,
+   "status": "stronger working inference"
+  },
+  "e67": {
+   "value": "era",
+   "count": 19,
+   "status": "stronger working inference"
+  },
+  "e71": {
+   "value": "esse",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "e72": {
+   "value": "esse",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "e73": {
+   "value": "esso",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "e74": {
+   "value": "essi",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "e75": {
+   "value": "esser",
+   "count": 16,
+   "status": "stronger working inference"
+  },
+  "e76": {
+   "value": "essendo?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "e82": {
+   "value": "etiam?",
+   "count": 11,
+   "status": "tentative/speculative"
+  },
+  "e92": {
+   "value": "etiam?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "e96": {
+   "value": "evento",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "e106": {
+   "value": "ex",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "e118": {
+   "value": "exalt",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "e124": {
+   "value": "excusat?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "e142": {
+   "value": "exercitii?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "e143": {
+   "value": "exercitar",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "e146": {
+   "value": "exerciti?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "e170": {
+   "value": "expedition?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "e171": {
+   "value": "expedir?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "e205": {
+   "value": "extend",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "f6": {
+   "value": "r",
+   "count": 13,
+   "status": "stronger working inference"
+  },
+  "f7": {
+   "value": "r",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "f8": {
+   "value": "r",
+   "count": 29,
+   "status": "stronger working inference"
+  },
+  "f9": {
+   "value": "r",
+   "count": 20,
+   "status": "stronger working inference"
+  },
+  "f10": {
+   "value": "fa",
+   "count": 24,
+   "status": "stronger working inference"
+  },
+  "f12": {
+   "value": "faci?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "f13": {
+   "value": "far",
+   "count": 16,
+   "status": "stronger working inference"
+  },
+  "f15": {
+   "value": "fatto",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "f17": {
+   "value": "fatta",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "f19": {
+   "value": "facil?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "f21": {
+   "value": "fallo?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "f44": {
+   "value": "favor?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "f46": {
+   "value": "fe",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "f47": {
+   "value": "fede",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "f48": {
+   "value": "febraro?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "f57": {
+   "value": "fermezza?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "f75": {
+   "value": "fi",
+   "count": 11,
+   "status": "stronger working inference"
+  },
+  "f78": {
+   "value": "fogli?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "f92": {
+   "value": "fine?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "f106": {
+   "value": "firm?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "f117": {
+   "value": "fo",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "f131": {
+   "value": "Fornari?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "f133": {
+   "value": "forte?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "f138": {
+   "value": "forza",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "f140": {
+   "value": "fortuna?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "f141": {
+   "value": "form?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "f145": {
+   "value": "forse?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "f157": {
+   "value": "Franza?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "f183": {
+   "value": "frutto?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "f213": {
+   "value": "fusse",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "g10": {
+   "value": "ga",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "g15": {
+   "value": "galere?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "g44": {
+   "value": "ge",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "g55": {
+   "value": "gente?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "g64": {
+   "value": "Genova?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "g71": {
+   "value": "gie?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "g72": {
+   "value": "gia",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "g74": {
+   "value": "giesie?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "g82": {
+   "value": "giorno?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "g84": {
+   "value": "giornata",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "g94": {
+   "value": "giova",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "g106": {
+   "value": "gli",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "g126": {
+   "value": "governo?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "g127": {
+   "value": "governa",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "g129": {
+   "value": "giudici?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "g140": {
+   "value": "grande",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "g141": {
+   "value": "gran?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "g146": {
+   "value": "gran cancelliero?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "g154": {
+   "value": "gratia",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "g159": {
+   "value": "grato",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "g197": {
+   "value": "guerra",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "g198": {
+   "value": "guerre",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "h6": {
+   "value": "n",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "h7": {
+   "value": "n",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "h8": {
+   "value": "n",
+   "count": 25,
+   "status": "stronger working inference"
+  },
+  "h9": {
+   "value": "n",
+   "count": 12,
+   "status": "stronger working inference"
+  },
+  "h10": {
+   "value": "ha",
+   "count": 24,
+   "status": "stronger working inference"
+  },
+  "h27": {
+   "value": "ha?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "h29": {
+   "value": "havere",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "h30": {
+   "value": "have",
+   "count": 27,
+   "status": "stronger working inference"
+  },
+  "h32": {
+   "value": "hai",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "h34": {
+   "value": "ha?",
+   "count": 8,
+   "status": "tentative/speculative"
+  },
+  "h47": {
+   "value": "hi",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "h49": {
+   "value": "Hiero",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "h50": {
+   "value": "Hieronimo?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "h57": {
+   "value": "ho",
+   "count": 35,
+   "status": "stronger working inference"
+  },
+  "h66": {
+   "value": "honeste",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "h73": {
+   "value": "honest",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "h79": {
+   "value": "hore",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "i6": {
+   "value": "p",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "i7": {
+   "value": "p",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "i8": {
+   "value": "p",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "i10": {
+   "value": "ia",
+   "count": 16,
+   "status": "stronger working inference"
+  },
+  "i11": {
+   "value": "Iacomo?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "i29": {
+   "value": "il",
+   "count": 30,
+   "status": "stronger working inference"
+  },
+  "i43": {
+   "value": "imagina?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i44": {
+   "value": "imbarca?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i58": {
+   "value": "imperatore?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "i73": {
+   "value": "importante?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "i76": {
+   "value": "incert?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i88": {
+   "value": "impetra?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i99": {
+   "value": "import",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "i100": {
+   "value": "in",
+   "count": 114,
+   "status": "stronger working inference"
+  },
+  "i101": {
+   "value": "in",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "i105": {
+   "value": "inten?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i108": {
+   "value": "inconvenient",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "i124": {
+   "value": "inform?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "i125": {
+   "value": "imput?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i156": {
+   "value": "infinit?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "i165": {
+   "value": "information?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "i223": {
+   "value": "instant?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i246": {
+   "value": "intende",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "i248": {
+   "value": "intelligent?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i249": {
+   "value": "intes",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "i254": {
+   "value": "intention?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "i259": {
+   "value": "intim",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "i265": {
+   "value": "intercepte?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i269": {
+   "value": "imped?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i272": {
+   "value": "inclina?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i275": {
+   "value": "Italia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "i286": {
+   "value": "io",
+   "count": 13,
+   "status": "stronger working inference"
+  },
+  "i295": {
+   "value": "Italia",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "i307": {
+   "value": "incontr",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "i321": {
+   "value": "Iacomo?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "L6": {
+   "value": "m",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "L8": {
+   "value": "m",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "L9": {
+   "value": "m",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "L10": {
+   "value": "la",
+   "count": 99,
+   "status": "stronger working inference"
+  },
+  "L17": {
+   "value": "l'altra",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "L30": {
+   "value": "larghe",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "L43": {
+   "value": "lass?",
+   "count": 9,
+   "status": "tentative/speculative"
+  },
+  "L47": {
+   "value": "le",
+   "count": 60,
+   "status": "stronger working inference"
+  },
+  "L56": {
+   "value": "lege",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "L61": {
+   "value": "lei?",
+   "count": 5,
+   "status": "tentative/speculative"
+  },
+  "L74": {
+   "value": "leva?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "L77": {
+   "value": "li",
+   "count": 81,
+   "status": "stronger working inference"
+  },
+  "L85": {
+   "value": "lev?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "L88": {
+   "value": "licit?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "L92": {
+   "value": "lega?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "L97": {
+   "value": "Lione?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "L98": {
+   "value": "lettera",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "L99": {
+   "value": "lettere",
+   "count": 19,
+   "status": "stronger working inference"
+  },
+  "L106": {
+   "value": "lo",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "L107": {
+   "value": "lo",
+   "count": 15,
+   "status": "stronger working inference"
+  },
+  "L108": {
+   "value": "lo",
+   "count": 13,
+   "status": "stronger working inference"
+  },
+  "L109": {
+   "value": "loco",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "L128": {
+   "value": "loro",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "L130": {
+   "value": "lu",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "L131": {
+   "value": "lui?",
+   "count": 8,
+   "status": "tentative/speculative"
+  },
+  "L135": {
+   "value": "lume",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "L143": {
+   "value": "l'una",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "m6": {
+   "value": "o",
+   "count": 34,
+   "status": "stronger working inference"
+  },
+  "m7": {
+   "value": "o",
+   "count": 36,
+   "status": "stronger working inference"
+  },
+  "m8": {
+   "value": "o",
+   "count": 41,
+   "status": "stronger working inference"
+  },
+  "m9": {
+   "value": "o",
+   "count": 35,
+   "status": "stronger working inference"
+  },
+  "m10": {
+   "value": "ma",
+   "count": 21,
+   "status": "stronger working inference"
+  },
+  "m11": {
+   "value": "madre?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "m19": {
+   "value": "maggior",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "m29": {
+   "value": "mai?",
+   "count": 5,
+   "status": "tentative/speculative"
+  },
+  "m34": {
+   "value": "mal",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "m46": {
+   "value": "man",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "m47": {
+   "value": "mano",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "m50": {
+   "value": "manca",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "m56": {
+   "value": "mand?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "m57": {
+   "value": "mand",
+   "count": 13,
+   "status": "stronger working inference"
+  },
+  "m58": {
+   "value": "mandat",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "m61": {
+   "value": "manteniment?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m75": {
+   "value": "mare?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m80": {
+   "value": "maravigli?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m82": {
+   "value": "marzo",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "m87": {
+   "value": "maria?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m99": {
+   "value": "materia",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "m104": {
+   "value": "maxime?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "m107": {
+   "value": "me",
+   "count": 36,
+   "status": "stronger working inference"
+  },
+  "m109": {
+   "value": "medemo?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "m110": {
+   "value": "medem?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m119": {
+   "value": "meglio",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "m121": {
+   "value": "mezo?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "m122": {
+   "value": "maesta?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "m131": {
+   "value": "men",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "m132": {
+   "value": "meno",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "m136": {
+   "value": "mente",
+   "count": 32,
+   "status": "stronger working inference"
+  },
+  "m137": {
+   "value": "menti",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "m138": {
+   "value": "mento?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m140": {
+   "value": "menta",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "m147": {
+   "value": "mercante?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m148": {
+   "value": "mess?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "m157": {
+   "value": "messer",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "m160": {
+   "value": "mi",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "m162": {
+   "value": "mia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m166": {
+   "value": "mette",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "m167": {
+   "value": "metti",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "m168": {
+   "value": "mezzo?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "m170": {
+   "value": "mi",
+   "count": 40,
+   "status": "stronger working inference"
+  },
+  "m171": {
+   "value": "mio",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "m172": {
+   "value": "mia",
+   "count": 13,
+   "status": "stronger working inference"
+  },
+  "m173": {
+   "value": "mie?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m176": {
+   "value": "mille",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "m177": {
+   "value": "milia",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "m187": {
+   "value": "ministri?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m191": {
+   "value": "ministr?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m198": {
+   "value": "malicio?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "m211": {
+   "value": "mo",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "m212": {
+   "value": "modo",
+   "count": 19,
+   "status": "stronger working inference"
+  },
+  "m213": {
+   "value": "modi",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "m223": {
+   "value": "molto",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "m225": {
+   "value": "molte?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m226": {
+   "value": "molti?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "m236": {
+   "value": "Milano?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "m241": {
+   "value": "morte",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "m247": {
+   "value": "mostra",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "n6": {
+   "value": "i",
+   "count": 31,
+   "status": "stronger working inference"
+  },
+  "n7": {
+   "value": "i",
+   "count": 24,
+   "status": "stronger working inference"
+  },
+  "n8": {
+   "value": "i",
+   "count": 53,
+   "status": "stronger working inference"
+  },
+  "n9": {
+   "value": "i",
+   "count": 23,
+   "status": "stronger working inference"
+  },
+  "n10": {
+   "value": "na",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "n11": {
+   "value": "Napoli",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "n24": {
+   "value": "nat?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "n38": {
+   "value": "ne",
+   "count": 55,
+   "status": "stronger working inference"
+  },
+  "n40": {
+   "value": "necessita",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "n44": {
+   "value": "nero?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "n46": {
+   "value": "negotio?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "n57": {
+   "value": "nega",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "n60": {
+   "value": "nel",
+   "count": 15,
+   "status": "stronger working inference"
+  },
+  "n71": {
+   "value": "ni",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "n77": {
+   "value": "niuno",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "n80": {
+   "value": "non?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "n85": {
+   "value": "no",
+   "count": 20,
+   "status": "stronger working inference"
+  },
+  "n86": {
+   "value": "no",
+   "count": 14,
+   "status": "stronger working inference"
+  },
+  "n87": {
+   "value": "no",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "n88": {
+   "value": "non",
+   "count": 13,
+   "status": "stronger working inference"
+  },
+  "n89": {
+   "value": "non",
+   "count": 19,
+   "status": "stronger working inference"
+  },
+  "n90": {
+   "value": "non",
+   "count": 30,
+   "status": "stronger working inference"
+  },
+  "n97": {
+   "value": "nome",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "n105": {
+   "value": "nostro",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "n106": {
+   "value": "nostra?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "n115": {
+   "value": "notific",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "n124": {
+   "value": "novo",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "n134": {
+   "value": "nu",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "n213": {
+   "value": "nomi",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "o6": {
+   "value": "l",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "o7": {
+   "value": "l",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "o8": {
+   "value": "l",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "o9": {
+   "value": "l",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "o18": {
+   "value": "obliga?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "o27": {
+   "value": "observantia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "o31": {
+   "value": "observa",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "o33": {
+   "value": "obstante",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "o57": {
+   "value": "ostante?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "o65": {
+   "value": "occurrentie",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "o66": {
+   "value": "otto",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "o72": {
+   "value": "occupa?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "o75": {
+   "value": "occupationi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "o89": {
+   "value": "offerta?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "o99": {
+   "value": "offre?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "o105": {
+   "value": "officio",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "o106": {
+   "value": "officii",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "o113": {
+   "value": "ogni",
+   "count": 25,
+   "status": "stronger working inference"
+  },
+  "o116": {
+   "value": "ognun?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "o119": {
+   "value": "oltre",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "o126": {
+   "value": "opera",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "o130": {
+   "value": "opinion",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "o148": {
+   "value": "orator",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "o152": {
+   "value": "ordine?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "o156": {
+   "value": "ordinat",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "o157": {
+   "value": "ordina",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "o165": {
+   "value": "oro",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p10": {
+   "value": "pa",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "p11": {
+   "value": "pace",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p22": {
+   "value": "padre",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p29": {
+   "value": "paga",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "p32": {
+   "value": "pagament?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p34": {
+   "value": "preda?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "p41": {
+   "value": "pane",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p43": {
+   "value": "panno?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p45": {
+   "value": "papero?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p47": {
+   "value": "parte",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "p49": {
+   "value": "parti?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "p53": {
+   "value": "partito",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "p57": {
+   "value": "particular?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "p59": {
+   "value": "partenza?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "p61": {
+   "value": "parla",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "p66": {
+   "value": "pare?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "p67": {
+   "value": "par?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "p76": {
+   "value": "passa",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "p78": {
+   "value": "passi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p89": {
+   "value": "part?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p97": {
+   "value": "patria",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "p102": {
+   "value": "pe",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "p137": {
+   "value": "penso",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p142": {
+   "value": "penna",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p143": {
+   "value": "pen",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p149": {
+   "value": "per",
+   "count": 80,
+   "status": "stronger working inference"
+  },
+  "p150": {
+   "value": "perche",
+   "count": 28,
+   "status": "stronger working inference"
+  },
+  "p152": {
+   "value": "pero",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "p153": {
+   "value": "pero",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "p155": {
+   "value": "perde?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "p157": {
+   "value": "perder?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p161": {
+   "value": "persuas?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p168": {
+   "value": "persona",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "p170": {
+   "value": "provision?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p179": {
+   "value": "potendo?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p180": {
+   "value": "perfett",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p188": {
+   "value": "persever?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "p194": {
+   "value": "preiudich?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "p206": {
+   "value": "pericolos?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p217": {
+   "value": "pron",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p222": {
+   "value": "propo",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p228": {
+   "value": "pe",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "p232": {
+   "value": "picciol?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p234": {
+   "value": "piace",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "p235": {
+   "value": "piac",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "p238": {
+   "value": "pien?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "p242": {
+   "value": "poss",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p246": {
+   "value": "piu",
+   "count": 42,
+   "status": "stronger working inference"
+  },
+  "p249": {
+   "value": "pigli",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "p251": {
+   "value": "pratica",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "p255": {
+   "value": "po",
+   "count": 18,
+   "status": "stronger working inference"
+  },
+  "p257": {
+   "value": "poca?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p260": {
+   "value": "poi",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "p261": {
+   "value": "poiche?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "p273": {
+   "value": "porti?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p279": {
+   "value": "pote?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "p280": {
+   "value": "potr",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "p281": {
+   "value": "pot",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "p282": {
+   "value": "poss",
+   "count": 17,
+   "status": "stronger working inference"
+  },
+  "p283": {
+   "value": "possibil",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "p285": {
+   "value": "posta?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p291": {
+   "value": "pre",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "p292": {
+   "value": "pro?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p293": {
+   "value": "propri",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "p296": {
+   "value": "president?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "p300": {
+   "value": "preiudici?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p304": {
+   "value": "presto",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "p305": {
+   "value": "prest?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p308": {
+   "value": "present",
+   "count": 12,
+   "status": "stronger working inference"
+  },
+  "p311": {
+   "value": "prim",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "p313": {
+   "value": "princip",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "p321": {
+   "value": "proposit",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "p325": {
+   "value": "proved",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "p337": {
+   "value": "prova?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p342": {
+   "value": "procura?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "p344": {
+   "value": "procura?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "p353": {
+   "value": "prudentia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p356": {
+   "value": "prego",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "p361": {
+   "value": "pres?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "p363": {
+   "value": "pu?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "p373": {
+   "value": "pu",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "p374": {
+   "value": "pur",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "Q6": {
+   "value": "con?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "q6": {
+   "value": "g",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "q7": {
+   "value": "g",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "Q8": {
+   "value": "con?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "q8": {
+   "value": "g",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "Q9": {
+   "value": "con?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "Q10": {
+   "value": "con",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "q10": {
+   "value": "qua",
+   "count": 16,
+   "status": "stronger working inference"
+  },
+  "q11": {
+   "value": "qui",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "Q12": {
+   "value": "con?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "q12": {
+   "value": "qual",
+   "count": 23,
+   "status": "stronger working inference"
+  },
+  "Q13": {
+   "value": "con",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "q13": {
+   "value": "quali",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "Q15": {
+   "value": "con?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "Q16": {
+   "value": "con?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "Q17": {
+   "value": "con?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "q17": {
+   "value": "quante?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "Q18": {
+   "value": "con?",
+   "count": 16,
+   "status": "tentative/speculative"
+  },
+  "q18": {
+   "value": "quanto",
+   "count": 25,
+   "status": "stronger working inference"
+  },
+  "Q19": {
+   "value": "con?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "Q20": {
+   "value": "con",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "q20": {
+   "value": "quantita",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "Q21": {
+   "value": "con?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "q21": {
+   "value": "quando",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "Q22": {
+   "value": "con?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "Q23": {
+   "value": "con?",
+   "count": 5,
+   "status": "tentative/speculative"
+  },
+  "Q24": {
+   "value": "con?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "Q25": {
+   "value": "con?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "Q26": {
+   "value": "con?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "Q27": {
+   "value": "con?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "q27": {
+   "value": "quasi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "Q30": {
+   "value": "con",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "q30": {
+   "value": "questi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "q34": {
+   "value": "quatro?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "q36": {
+   "value": "quaranta?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "q37": {
+   "value": "quasi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "Q41": {
+   "value": "con?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "q43": {
+   "value": "quella",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "q44": {
+   "value": "quelle",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "q45": {
+   "value": "quello",
+   "count": 16,
+   "status": "stronger working inference"
+  },
+  "q47": {
+   "value": "quella",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "q48": {
+   "value": "questa",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "q49": {
+   "value": "questo",
+   "count": 21,
+   "status": "stronger working inference"
+  },
+  "Q50": {
+   "value": "con?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "q50": {
+   "value": "questi",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "q61": {
+   "value": "qui",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "q65": {
+   "value": "quieta?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r7": {
+   "value": "f",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "r10": {
+   "value": "ra",
+   "count": 58,
+   "status": "stronger working inference"
+  },
+  "r17": {
+   "value": "ragion",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "r19": {
+   "value": "raguagli?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "r41": {
+   "value": "re",
+   "count": 125,
+   "status": "stronger working inference"
+  },
+  "r64": {
+   "value": "recor?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "r66": {
+   "value": "receve?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r71": {
+   "value": "record?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "r93": {
+   "value": "riman?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r101": {
+   "value": "regno",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "r123": {
+   "value": "restaur",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "r126": {
+   "value": "rende?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r137": {
+   "value": "remett",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "r138": {
+   "value": "remission?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r142": {
+   "value": "remedi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r158": {
+   "value": "replica?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r165": {
+   "value": "remedi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r168": {
+   "value": "repos?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r190": {
+   "value": "res",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "r196": {
+   "value": "resolution?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "r197": {
+   "value": "resolut?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r198": {
+   "value": "resolu",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "r201": {
+   "value": "restitui",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "r203": {
+   "value": "resto",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "r204": {
+   "value": "resto",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "r205": {
+   "value": "rest",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "r211": {
+   "value": "reserv?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r215": {
+   "value": "restitution?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r221": {
+   "value": "respond?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "r222": {
+   "value": "risposta",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "r224": {
+   "value": "respos?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r250": {
+   "value": "reved?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "r268": {
+   "value": "ri",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "r269": {
+   "value": "ria",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "r271": {
+   "value": "rie",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "r272": {
+   "value": "riano",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "r278": {
+   "value": "risico",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "r296": {
+   "value": "ro",
+   "count": 18,
+   "status": "stronger working inference"
+  },
+  "r309": {
+   "value": "Roma?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "r327": {
+   "value": "ru",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "s6": {
+   "value": "e",
+   "count": 28,
+   "status": "stronger working inference"
+  },
+  "s7": {
+   "value": "e",
+   "count": 25,
+   "status": "stronger working inference"
+  },
+  "s8": {
+   "value": "e",
+   "count": 63,
+   "status": "stronger working inference"
+  },
+  "s9": {
+   "value": "e",
+   "count": 32,
+   "status": "stronger working inference"
+  },
+  "s10": {
+   "value": "sa",
+   "count": 12,
+   "status": "stronger working inference"
+  },
+  "s22": {
+   "value": "salvo?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "s69": {
+   "value": "sap",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "s70": {
+   "value": "Savoia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s77": {
+   "value": "saranno",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "s78": {
+   "value": "saria?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "s80": {
+   "value": "satisfa",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "s93": {
+   "value": "scald?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s113": {
+   "value": "scribe",
+   "count": 23,
+   "status": "stronger working inference"
+  },
+  "s115": {
+   "value": "scribi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s116": {
+   "value": "script",
+   "count": 22,
+   "status": "stronger working inference"
+  },
+  "s117": {
+   "value": "script?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "s138": {
+   "value": "se",
+   "count": 21,
+   "status": "stronger working inference"
+  },
+  "s139": {
+   "value": "se",
+   "count": 34,
+   "status": "stronger working inference"
+  },
+  "s141": {
+   "value": "secondo",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "s143": {
+   "value": "secund?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "s144": {
+   "value": "Sor?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "s147": {
+   "value": "secretario",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "s151": {
+   "value": "secreto",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "s155": {
+   "value": "securo?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "s170": {
+   "value": "seguit?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s171": {
+   "value": "segui",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "s173": {
+   "value": "sei?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s174": {
+   "value": "seicento?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s177": {
+   "value": "sempre?",
+   "count": 7,
+   "status": "tentative/speculative"
+  },
+  "s187": {
+   "value": "sent?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "s191": {
+   "value": "senza",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "s205": {
+   "value": "seguito?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "s212": {
+   "value": "serv?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "s214": {
+   "value": "sigill?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s215": {
+   "value": "servit?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "s217": {
+   "value": "servitio",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "s219": {
+   "value": "sforzo?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "s229": {
+   "value": "seicento?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s230": {
+   "value": "sei",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "s231": {
+   "value": "sette?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s233": {
+   "value": "si",
+   "count": 67,
+   "status": "stronger working inference"
+  },
+  "s234": {
+   "value": "sia",
+   "count": 12,
+   "status": "stronger working inference"
+  },
+  "s235": {
+   "value": "sia?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "s239": {
+   "value": "secur?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "s242": {
+   "value": "signor",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "s243": {
+   "value": "signori",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "s245": {
+   "value": "Signoria?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s247": {
+   "value": "simil",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "s251": {
+   "value": "sufficient?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "s267": {
+   "value": "so",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "s268": {
+   "value": "soa",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "s269": {
+   "value": "sue",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "s270": {
+   "value": "suoi",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "s271": {
+   "value": "soa Maesta",
+   "count": 27,
+   "status": "stronger working inference"
+  },
+  "s272": {
+   "value": "soa signoria?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "s273": {
+   "value": "soa excellentia?",
+   "count": 19,
+   "status": "tentative/speculative"
+  },
+  "s279": {
+   "value": "solit",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "s287": {
+   "value": "solo?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "s288": {
+   "value": "sol",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "s290": {
+   "value": "son?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "s291": {
+   "value": "sono?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "s292": {
+   "value": "sopra",
+   "count": 13,
+   "status": "stronger working inference"
+  },
+  "s293": {
+   "value": "se?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s299": {
+   "value": "sotto",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "s305": {
+   "value": "spie?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s320": {
+   "value": "spero",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "s322": {
+   "value": "speranz?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "s323": {
+   "value": "stat",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "s325": {
+   "value": "sta",
+   "count": 12,
+   "status": "stronger working inference"
+  },
+  "s326": {
+   "value": "sto",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "s330": {
+   "value": "sustenta?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s337": {
+   "value": "stimul?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s344": {
+   "value": "sollicit?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s345": {
+   "value": "studi?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s346": {
+   "value": "su",
+   "count": 14,
+   "status": "stronger working inference"
+  },
+  "s347": {
+   "value": "subito?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "s348": {
+   "value": "summa?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s364": {
+   "value": "superflu?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s375": {
+   "value": "studios?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "s387": {
+   "value": "supera?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "t7": {
+   "value": "d",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "t8": {
+   "value": "d",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "t9": {
+   "value": "d",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "t10": {
+   "value": "ta",
+   "count": 25,
+   "status": "stronger working inference"
+  },
+  "t16": {
+   "value": "tal",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "t17": {
+   "value": "talmente",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "t19": {
+   "value": "tanto",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "t20": {
+   "value": "tante",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "t30": {
+   "value": "te",
+   "count": 54,
+   "status": "stronger working inference"
+  },
+  "t36": {
+   "value": "tempo",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "t41": {
+   "value": "re?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "t49": {
+   "value": "tene",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "t50": {
+   "value": "teng?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "t54": {
+   "value": "terra",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "t58": {
+   "value": "termin",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "t74": {
+   "value": "ti",
+   "count": 46,
+   "status": "stronger working inference"
+  },
+  "t76": {
+   "value": "tione",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "t89": {
+   "value": "to",
+   "count": 83,
+   "status": "stronger working inference"
+  },
+  "t90": {
+   "value": "tua",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "t92": {
+   "value": "tre",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "t105": {
+   "value": "totale?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "t116": {
+   "value": "torne",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "t118": {
+   "value": "tra",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "t133": {
+   "value": "tre",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "t135": {
+   "value": "trenta?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "t152": {
+   "value": "trova",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "t153": {
+   "value": "trov",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "t157": {
+   "value": "tro",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "t163": {
+   "value": "tu",
+   "count": 16,
+   "status": "stronger working inference"
+  },
+  "t164": {
+   "value": "tutto",
+   "count": 15,
+   "status": "stronger working inference"
+  },
+  "t165": {
+   "value": "tutta",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "t166": {
+   "value": "tutte",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "t167": {
+   "value": "tutti",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "t205": {
+   "value": "tenet?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v6": {
+   "value": "c",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "v7": {
+   "value": "c",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "v8": {
+   "value": "c",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "v9": {
+   "value": "c",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "v10": {
+   "value": "va",
+   "count": 12,
+   "status": "stronger working inference"
+  },
+  "v11": {
+   "value": "vardia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v13": {
+   "value": "vale",
+   "count": 9,
+   "status": "stronger working inference"
+  },
+  "v15": {
+   "value": "Valentia?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "v26": {
+   "value": "van?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v35": {
+   "value": "vascelli?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "v38": {
+   "value": "ve",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "v41": {
+   "value": "vede",
+   "count": 11,
+   "status": "stronger working inference"
+  },
+  "v42": {
+   "value": "vedi",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "v66": {
+   "value": "venir",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "v67": {
+   "value": "venut?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v70": {
+   "value": "Venetia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v71": {
+   "value": "Venetiani",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "v79": {
+   "value": "ver?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v85": {
+   "value": "vero?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v90": {
+   "value": "verso",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "v114": {
+   "value": "vi",
+   "count": 16,
+   "status": "stronger working inference"
+  },
+  "v116": {
+   "value": "via?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "v136": {
+   "value": "vie",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "v137": {
+   "value": "vien",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "v152": {
+   "value": "venti",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "v166": {
+   "value": "vita",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "v169": {
+   "value": "vittualie?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v176": {
+   "value": "vive?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v189": {
+   "value": "uno?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "v190": {
+   "value": "una",
+   "count": 8,
+   "status": "stronger working inference"
+  },
+  "v191": {
+   "value": "uno",
+   "count": 7,
+   "status": "stronger working inference"
+  },
+  "v192": {
+   "value": "venuta?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "v205": {
+   "value": "vo",
+   "count": 5,
+   "status": "stronger working inference"
+  },
+  "v206": {
+   "value": "voi",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "v208": {
+   "value": "voglia?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "v210": {
+   "value": "volunta",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "v211": {
+   "value": "volta",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "v212": {
+   "value": "volte",
+   "count": 4,
+   "status": "stronger working inference"
+  },
+  "v216": {
+   "value": "vostri?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v217": {
+   "value": "vostre",
+   "count": 3,
+   "status": "stronger working inference"
+  },
+  "v224": {
+   "value": "vole",
+   "count": 6,
+   "status": "stronger working inference"
+  },
+  "v234": {
+   "value": "usa",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "v245": {
+   "value": "venut?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "v246": {
+   "value": "utile?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "v247": {
+   "value": "utili",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "v280": {
+   "value": "voglia?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "x8": {
+   "value": "b?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y6": {
+   "value": "et?",
+   "count": 5,
+   "status": "tentative/speculative"
+  },
+  "y7": {
+   "value": "et?",
+   "count": 5,
+   "status": "tentative/speculative"
+  },
+  "y8": {
+   "value": "et?",
+   "count": 10,
+   "status": "tentative/speculative"
+  },
+  "y9": {
+   "value": "et?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "y10": {
+   "value": "et?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "y11": {
+   "value": "et?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "y12": {
+   "value": "et?",
+   "count": 4,
+   "status": "tentative/speculative"
+  },
+  "y13": {
+   "value": "et?",
+   "count": 7,
+   "status": "tentative/speculative"
+  },
+  "y14": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y15": {
+   "value": "et?",
+   "count": 10,
+   "status": "tentative/speculative"
+  },
+  "y16": {
+   "value": "e?",
+   "count": 14,
+   "status": "tentative/speculative"
+  },
+  "y17": {
+   "value": "et?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "y18": {
+   "value": "et",
+   "count": 17,
+   "status": "stronger working inference"
+  },
+  "y19": {
+   "value": "et?",
+   "count": 8,
+   "status": "tentative/speculative"
+  },
+  "y20": {
+   "value": "et?",
+   "count": 11,
+   "status": "tentative/speculative"
+  },
+  "y21": {
+   "value": "et?",
+   "count": 14,
+   "status": "tentative/speculative"
+  },
+  "y22": {
+   "value": "et?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "y23": {
+   "value": "et?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "y24": {
+   "value": "o",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "y25": {
+   "value": "poi",
+   "count": 10,
+   "status": "stronger working inference"
+  },
+  "y26": {
+   "value": "et?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "y27": {
+   "value": "et?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "y28": {
+   "value": "et?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "y29": {
+   "value": "et?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "y30": {
+   "value": "et?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "y31": {
+   "value": "et?",
+   "count": 6,
+   "status": "tentative/speculative"
+  },
+  "y32": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y33": {
+   "value": "et?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "y34": {
+   "value": "et?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "y35": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y40": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y41": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y42": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y43": {
+   "value": "et?",
+   "count": 2,
+   "status": "tentative/speculative"
+  },
+  "y44": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y47": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y50": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y51": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y52": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y53": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "y100": {
+   "value": "et?",
+   "count": 1,
+   "status": "tentative/speculative"
+  },
+  "z6": {
+   "value": "a",
+   "count": 71,
+   "status": "stronger working inference"
+  },
+  "z7": {
+   "value": "a",
+   "count": 59,
+   "status": "stronger working inference"
+  },
+  "z8": {
+   "value": "a",
+   "count": 109,
+   "status": "stronger working inference"
+  },
+  "z9": {
+   "value": "a",
+   "count": 78,
+   "status": "stronger working inference"
+  },
+  "z10": {
+   "value": "za?",
+   "count": 3,
+   "status": "tentative/speculative"
+  },
+  "z12": {
+   "value": "zi",
+   "count": 1,
+   "status": "stronger working inference"
+  },
+  "z13": {
+   "value": "zo",
+   "count": 2,
+   "status": "stronger working inference"
+  },
+  "z15": {
+   "value": "zifra",
+   "count": 19,
+   "status": "stronger working inference"
+  },
+  "z16": {
+   "value": "zifrato?",
+   "count": 2,
+   "status": "tentative/speculative"
+  }
+ }
+}

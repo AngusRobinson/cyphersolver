@@ -184,3 +184,14 @@ outcome.method (read from existing decipherment, not our own). Until then the st
 - Below the 95% read bar on every measure, so: **read in part, by Rosson with Claude**. R4450 is a copy of fr. 2988 f. 9, so it is covered as far as f. 9 is (views 17-18); no separate transcription.
 - Outcome method for no. 20 and R1894: read from existing decipherment (others', 6 Oct 2026). Our own contribution is the transcription, now partly corrected by his image check.
 - Not rerun: his blind controls (`evidence/controls.md`, 87.6% and 93.4% on made-up codes).
+
+
+## George Lasry’s independent Ranzo contribution — 14 October 2026
+
+Contributed by George Lasry, based on Norbert Biermann’s 2021 transcription, with the decipherment achieved in collaboration between Claude Opus 5.5 and GPT-6 Astra. The Codex consolidation is dated 6 October 2026. See `lasry/NOTES.md` for the five-letter scope, documented crib/structural recovery, limited historical-addition checks, 871-entry working key, exact counts and open issues. The preceding project/Rosson measurements are not replaced.
+
+Tomokiyo’s Cryptiana article, https://cryptiana.web.fc2.com/code/ranzo.htm (6 Oct 2026), records Lasry’s solution report arriving hours after Rosson’s email. Rosson’s solution was independent and contemporaneous, as Lasry reports; no public-priority claim is made. The contributions use different transcriptions: Biermann’s here, Bourdeau’s for Rosson.
+
+Validation of the new packet reproduces 541 line-aligned readings, 6,428 cipher occurrences and every key frequency. Of 6,221 non-null occurrences, 5,967 receive a proposed value, including 841 tentative occurrences; 254 remain unassigned. The 95.9% is assignment coverage, not measured plaintext accuracy. Two continuous three-sentence excerpts have exact token boundaries, readable Italian and complete English translations. The visual key contains all 871 proposed mappings, preserving case and uncertainty.
+
+This is publication of existing results, not a renewed solving run. The user ended the key-comparison exercise and requested this contribution. Original files remain untouched.

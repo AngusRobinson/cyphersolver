@@ -1,0 +1,46 @@
+{
+ "contributor": "George Lasry",
+ "transcription_by": "Norbert Biermann (2021)",
+ "collaboration": [
+  "Claude Opus 5.5",
+  "GPT-6 Astra"
+ ],
+ "attribution_basis": "George Lasry’s explicit instructions for this contribution, 14 October 2026",
+ "independent_contemporaneous_solution": {
+  "by": "Paolo Rosson directing Claude",
+  "cryptiana_url": "https://cryptiana.web.fc2.com/code/ranzo.htm",
+  "solution_url": "https://pangoleen.github.io/cipher-readings/centurione-1528.html",
+  "chronology": "Tomokiyo’s account is dated 6 October 2026 and says Lasry’s solution report arrived a few hours after Rosson’s email. Independence is reported by Lasry; no priority claim."
+ },
+ "original_inputs": [
+  {
+   "name": "Codex_ranzo_key.json",
+   "sha256": "7ab6ee7b42a1b891ef60f68f3793fc0a484b826056ff6be624d5e8c2698416a0"
+  },
+  {
+   "name": "Codex_ranzo_key.tsv",
+   "sha256": "b3c1b95e0361f62f1fd61c4ec8002d4c784851418ba7c9cedb396f23dcef86a8"
+  },
+  {
+   "name": "Codex_ranzo_decode.txt",
+   "sha256": "7ff8b98cc01f0cef44b93d7e7c7b9f992fe901df8e2b1f43cc52bc261f39f768"
+  },
+  {
+   "name": "corpus.json",
+   "sha256": "d708e0f8b5016ba367db0f2032ea04f8fff85a43062880afda8050049d748bdc"
+  },
+  {
+   "name": "Ranzo transcript.docx",
+   "sha256": "809754625c65a14e8edaa121ad99c2f7bbd7425b59059a95baa0946f3f3185fd"
+  }
+ ],
+ "bundled_sha256": {
+  "key.json": "360141224e5b0ac441830d553ff1e8c1e87e2d60749dfdfaf7eea852219d4731",
+  "key.tsv": "1fc7673206b1d1eba8f8fbaa905b4a479a6a7e0fd542827635ecff8cd592b6a7",
+  "transcription.json": "f7478bd3827d02f0aca762d9de452f8a0c665844765d2109b74bd32dbb51c4f2",
+  "decode.txt": "a447733e25dfbb5891f967ec927ef6c235853d3b0461c8245050174d3ac5fc66",
+  "alignment.tsv": "d60944c11e8a96baf2efa4ff2ae1ed1dadcf8fb7f1d018292dee9a26a97cdd69",
+  "counts.json": "a2c2f3243c5ae5da44da54e828a12d29d9ccdaf405b91c8ef16112728a64fd9e",
+  "excerpts.json": "4634b77d716766dc005136e7ec990846d204aa7269d0983705db48b3d5a077c4"
+ }
+}

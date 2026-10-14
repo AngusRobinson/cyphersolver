@@ -1,0 +1,54 @@
+{
+ "cipher_occurrences": 6428,
+ "presumed_null_occurrences": 207,
+ "non_null_occurrences": 6221,
+ "mapped_occurrences_including_hypotheses": 5967,
+ "tentative_mapped_occurrences": 841,
+ "unmapped_non_null_occurrences": 254,
+ "observed_mapped_codes": 871,
+ "tentative_mapped_codes": 381,
+ "assignment_coverage_including_hypotheses": 0.9591705513583025,
+ "plaintext_accuracy": "not established",
+ "messages": [
+  {
+   "id": 1,
+   "shelfmark": "BnF Français 2988 f. 2; duplicate Français 3019 ff. 73–74",
+   "cipher_occurrences": 818,
+   "presumed_null_occurrences": 28,
+   "mapped_occurrences": 764,
+   "unmapped_non_null_occurrences": 26
+  },
+  {
+   "id": 2,
+   "shelfmark": "BnF Français 2988 ff. 9–10; duplicate Français 20506 ff. 136–138",
+   "cipher_occurrences": 1781,
+   "presumed_null_occurrences": 35,
+   "mapped_occurrences": 1703,
+   "unmapped_non_null_occurrences": 43
+  },
+  {
+   "id": 3,
+   "shelfmark": "BnF Français 3022 ff. 44–47; copy Clairambault 327 ff. 279–280",
+   "cipher_occurrences": 1314,
+   "presumed_null_occurrences": 65,
+   "mapped_occurrences": 1185,
+   "unmapped_non_null_occurrences": 64
+  },
+  {
+   "id": 4,
+   "shelfmark": "BnF Français 4050 ff. 79–81",
+   "cipher_occurrences": 1559,
+   "presumed_null_occurrences": 29,
+   "mapped_occurrences": 1440,
+   "unmapped_non_null_occurrences": 90
+  },
+  {
+   "id": 5,
+   "shelfmark": "BnF Français 6638 pp. 67–70",
+   "cipher_occurrences": 956,
+   "presumed_null_occurrences": 50,
+   "mapped_occurrences": 875,
+   "unmapped_non_null_occurrences": 31
+  }
+ ]
+}

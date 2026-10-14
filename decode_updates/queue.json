@@ -3041,9 +3041,9 @@
   "ranzo1528": {
    "writeup": "https://dbourdeau.github.io/cyphersolver/vasto1527.html",
    "key": {
-    "none": "no key on DECODE; an outside key table for this code by P. Rosson (779 values, 6 Oct 2026) is linked in the sources"
+    "none": "no key on DECODE; an outside key table for this code by P. Rosson (779 values, 6 Oct 2026) is linked in the sources; Lasry’s independently reconstructed 871-entry working key is linked from the write-up, with tentative mappings marked."
    },
-   "cite": "P. Rosson (with Claude), 'The Venetian? cipher with superscript digits of 1528', https://pangoleen.github.io/cipher-readings/centurione-1528.html; S. Tomokiyo, 'Venetian Ciphers with Superscripts', cryptiana",
+   "cite": "P. Rosson (with Claude), 'The Venetian? cipher with superscript digits of 1528', https://pangoleen.github.io/cipher-readings/centurione-1528.html; S. Tomokiyo, 'Venetian Ciphers with Superscripts', cryptiana; George Lasry, with Claude Opus 5.5 and GPT-6 Astra, independent contemporaneous reconstruction based on Norbert Biermann’s transcription, Codex consolidation 6 Oct 2026. https://cryptiana.web.fc2.com/code/ranzo.htm",
    "fields": {
     "origin_city": "unknown (not Venice: Ranzo, Gattinara's secretary, wrote from the imperial court; the superscript style is not evidence of origin)"
    },
@@ -3051,14 +3051,15 @@
     "R1894": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Read in part by Paolo Rosson with Claude (6 Oct 2026; link in the sources): his key applied to the attached transcription values 97.2% of the groups and 93.1% lie in connected stretches (measured 14 Oct 2026); not read here. The date 1 Jan 1520 is a placeholder for BnF's 1520-29 range; the same code is used in the letter to 'Garbino', Madrid 11 Apr 1528 (BnF fr. 3022 no. 20), so the late 1520s is likelier. R4450 (BnF fr. 20506 f. 136) is a copy of f. 9. A full transcription of ff. 9r-10v (initial letter + number groups) is attached; about 3,900 groups of this code are transcribed in all (targets/vasto1527/n20/).",
+     "note": "Read in part by Paolo Rosson with Claude (6 Oct 2026; link in the sources): his key applied to the attached transcription values 97.2% of the groups and 93.1% lie in connected stretches (measured 14 Oct 2026); not read here. The date 1 Jan 1520 is a placeholder for BnF's 1520-29 range; the same code is used in the letter to 'Garbino', Madrid 11 Apr 1528 (BnF fr. 3022 no. 20), so the late 1520s is likelier. R4450 (BnF fr. 20506 f. 136) is a copy of f. 9. A full transcription of ff. 9r-10v (initial letter + number groups) is attached; about 3,900 groups of this code are transcribed in all (targets/vasto1527/n20/). A separate Biermann-based transcription and Lasry working decipherment are contributed: 1,781 cipher occurrences, 35 presumed nulls, 1,703 proposed readings including tentative ones, 43 unassigned non-null occurrences. These counts do not replace Rosson’s separate measurements.",
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
       "targets/vasto1527/n20/ranzo_c017.txt",
       "targets/vasto1527/n20/ranzo_c018.txt",
       "targets/vasto1527/n20/ranzo_c019.txt",
-      "targets/vasto1527/n20/ranzo_c020.txt"
+      "targets/vasto1527/n20/ranzo_c020.txt",
+      "targets/vasto1527/lasry/transcription.json"
      ],
      "sent": false
     },

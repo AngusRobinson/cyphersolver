@@ -855,6 +855,13 @@
         "D. Scheers"
       ],
       "note": "Author of Zealous with Language and Ciphers (2021); traced the surviving copies of Urquhart's octastich and distich leaves."
-    }
+    },
+   {
+    "id": "rosson",
+    "name": "Paolo Rosson",
+    "kind": "person",
+    "url": "https://pangoleen.github.io/cipher-readings/centurione-1528.html",
+    "note": "Directed Claude in the independent Ranzo / Centurione 1528 cipher solution reported 6 October 2026."
+   }
   ]
 }

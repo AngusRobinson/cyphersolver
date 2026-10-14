@@ -1,0 +1,313 @@
+[
+ {
+  "id": "small-cipher",
+  "title": "A compact cipher for letters that might be seized",
+  "source": "BnF Français 2988 f. 9v",
+  "source_url": "https://gallica.bnf.fr/ark:/12148/btv1b9059908w/f18.item",
+  "lines": [
+   {
+    "line_id": "2:9v:7",
+    "start_token": 7,
+    "end_token": 15,
+    "codes": [
+     "y8",
+     "a137",
+     "v211",
+     "s138",
+     "d303",
+     "z7",
+     "n9",
+     "c170",
+     "L47"
+    ],
+    "literal_reading": "et? alcuna volta se dubitar? a i che le"
+   },
+   {
+    "line_id": "2:9v:8",
+    "start_token": 1,
+    "end_token": 16,
+    "codes": [
+     "L99",
+     "i100",
+     "z15",
+     "d48",
+     "e75",
+     "v114",
+     "e7",
+     "t30",
+     "y19",
+     "n90",
+     "L43",
+     "z8",
+     "t30",
+     "p10",
+     "s10",
+     "r41"
+    ],
+    "literal_reading": "lettere in zifra debbiano? esser vi s te et? non lass? a te pa sa re"
+   },
+   {
+    "line_id": "2:9v:9",
+    "start_token": 1,
+    "end_token": 15,
+    "codes": [
+     "m104",
+     "q44",
+     "c170",
+     "m57",
+     "e67",
+     "n8",
+     "p149",
+     "t54",
+     "t74",
+     "p280",
+     "f2",
+     "z9",
+     "n8",
+     "v13",
+     "r41"
+    ],
+    "literal_reading": "maxime? quelle che mand era i per terra ti potr a i vale re"
+   },
+   {
+    "line_id": "2:9v:10",
+    "start_token": 1,
+    "end_token": 16,
+    "codes": [
+     "d36",
+     "v191",
+     "a152",
+     "n124",
+     "z15",
+     "c170",
+     "t74",
+     "m56",
+     "c216",
+     "d156",
+     "c10",
+     "t10",
+     "n38",
+     "m9",
+     "Q13",
+     "L108"
+    ],
+    "literal_reading": "de uno altro novo zifra che ti mand? con detto ca ta ne o con lo"
+   },
+   {
+    "line_id": "2:9v:11",
+    "start_token": 1,
+    "end_token": 16,
+    "codes": [
+     "q12",
+     "p281",
+     "r10",
+     "n8",
+     "s113",
+     "r41",
+     "b147",
+     "m136",
+     "i100",
+     "p232",
+     "m7",
+     "y11",
+     "p149",
+     "m119",
+     "o157",
+     "f8"
+    ],
+    "literal_reading": "qual pot ra i scribe re breve? mente in picciol? o et? per meglio ordina r"
+   },
+   {
+    "line_id": "2:9v:12",
+    "start_token": 1,
+    "end_token": 16,
+    "codes": [
+     "o113",
+     "c320",
+     "z9",
+     "p255",
+     "t118",
+     "n6",
+     "c246",
+     "z7",
+     "r41",
+     "Q18",
+     "i11",
+     "c320",
+     "n7",
+     "L10",
+     "p251",
+     "d78"
+    ],
+    "literal_reading": "ogni cos a po tra i comunic a re con? Iacomo? cos i la pratica di"
+   },
+   {
+    "line_id": "2:9v:13",
+    "start_token": 1,
+    "end_token": 14,
+    "codes": [
+     "z15",
+     "c227",
+     "L77",
+     "a62",
+     "n8",
+     "c170",
+     "h30",
+     "r10",
+     "n9",
+     "z8",
+     "d10",
+     "r41",
+     "p149",
+     "g84"
+    ],
+    "literal_reading": "zifra como li avis i che have ra i a da re per giornata"
+   }
+  ],
+  "italian": "Et? alcuna volta, se dubitarai? che le lettere in zifra debbiano? esser viste et? non lassate? passare, maxime? quelle che manderai per terra, ti potrai valere de uno altro novo zifra che ti mand? con detto Cataneo. Con lo qual potrai scribere brevemente? in picciolo?. Et? per meglio ordinar ogni cosa potrai comunicare con? Iacomo? così la pratica di zifra como li avisi che haverai a dare per giornata.",
+  "english": "And? if at any time you suspect? that the ciphered letters may? be inspected and? not allowed? through, especially? those you send overland, you may use another new cipher that I send? you with the said Cataneo. With it you will be able to write briefly? and in small writing?. And? to arrange everything better, you may discuss with? Iacomo? both the use of the cipher and the reports you will have to give from day to day.",
+  "editorial_note": "Word division, punctuation and accents supplied; mand? remains an incomplete reading, rendered contextually as I send? in English.",
+  "cipher_occurrences": 102
+ },
+ {
+  "id": "alum-water",
+  "title": "The recipe for alum-water secret writing",
+  "source": "BnF Français 6638 p. 69",
+  "source_url": null,
+  "lines": [
+   {
+    "line_id": "5:69:11",
+    "start_token": 5,
+    "end_token": 13,
+    "codes": [
+     "L10",
+     "d157",
+     "a246",
+     "z6",
+     "L135",
+     "n10",
+     "t10",
+     "f13",
+     "z6"
+    ],
+    "literal_reading": "la detta acqua a lume na ta far a"
+   },
+   {
+    "line_id": "5:69:12",
+    "start_token": 1,
+    "end_token": 13,
+    "codes": [
+     "n9",
+     "i100",
+     "q49",
+     "m212",
+     "c185",
+     "s8",
+     "p249",
+     "z8",
+     "z9",
+     "p3",
+     "L135",
+     "s251",
+     "s7"
+    ],
+    "literal_reading": "i in questo modo cio e pigli a a lume sufficient? e"
+   },
+   {
+    "line_id": "5:69:13",
+    "start_token": 1,
+    "end_token": 12,
+    "codes": [
+     "d78",
+     "p246",
+     "b84",
+     "c170",
+     "p242",
+     "n8",
+     "h29",
+     "y31",
+     "p228",
+     "s325",
+     "L108",
+     "b58"
+    ],
+    "literal_reading": "di piu bianco che poss i havere et? pe sta lo bene"
+   },
+   {
+    "line_id": "5:69:14",
+    "start_token": 1,
+    "end_token": 13,
+    "codes": [
+     "d18",
+     "m167",
+     "L106",
+     "i100",
+     "a246",
+     "c174",
+     "s251",
+     "s9",
+     "b28",
+     "s6",
+     "z6",
+     "L10",
+     "q20"
+    ],
+    "literal_reading": "dapoi metti lo in acqua che? sufficient? e bast e a la quantita"
+   },
+   {
+    "line_id": "5:69:15",
+    "start_token": 1,
+    "end_token": 12,
+    "codes": [
+     "d78",
+     "z8",
+     "L135",
+     "y28",
+     "p261",
+     "s234",
+     "r168",
+     "z7",
+     "t10",
+     "L10",
+     "q10",
+     "Q23"
+    ],
+    "literal_reading": "di a lume et? poiche? sia repos? a ta la qua con?"
+   },
+   {
+    "line_id": "5:69:16",
+    "start_token": 1,
+    "end_token": 12,
+    "codes": [
+     "L107",
+     "z9",
+     "L135",
+     "p149",
+     "t133",
+     "h79",
+     "y24",
+     "p246",
+     "p280",
+     "z7",
+     "n8",
+     "n38"
+    ],
+    "literal_reading": "lo a lume per tre hore o piu potr a i ne"
+   },
+   {
+    "line_id": "5:69:17",
+    "start_token": 1,
+    "end_token": 2,
+    "codes": [
+     "s113",
+     "r41"
+    ],
+    "literal_reading": "scribe re"
+   }
+  ],
+  "italian": "La detta acqua alumenata farai in questo modo: cioè piglia alume sufficiente? di più bianco che possi havere et? pestalo bene. Dapoi mettilo in acqua che? sufficiente? baste a la quantità di alume. Et? poiché? sia reposata? l’aqua con? lo alume per tre hore o più, potrai ne scribere.",
+  "english": "Prepare the said alum water in this manner: take a sufficient? quantity of the whitest alum you can obtain and? pound it well. Then put it into water that? is sufficient? for the quantity of alum. And?, after? the water with? the alum has rested? for three hours or more, you will be able to write with it.",
+  "editorial_note": "Word division, punctuation and accents supplied. Questions retain tentative assignments from the working key.",
+  "cipher_occurrences": 73
+ }
+]
