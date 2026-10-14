@@ -1,8 +1,6 @@
 # Filippo Sega → Cardinal Caetano, 9 January 1591, BnF Français 3613 — Sega, ff148r–v
 
-Status: no write-up of our own (result by George Lasry, presented on docs/sega1591.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/sega1591.html)
 
 ## Source
 

@@ -1,8 +1,6 @@
 # Lodovico Birago → Duke of Nevers, 5 April 1571, BnF Français 3252 — ff36r–37r
 
-Status: no write-up of our own (result by George Lasry, presented on docs/birago1571.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/birago1571.html)
 
 ## Source
 

@@ -1,8 +1,6 @@
 # Louis-Sauveur, marquis de Villeneuve → Jean Otter, 29 June and 19 August 1737, BnF Français 22225
 
-Status: no write-up of our own (result by George Lasry, presented on docs/villeneuve1737.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/villeneuve1737.html)
 
 ## Source
 

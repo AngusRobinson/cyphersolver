@@ -1,8 +1,6 @@
 # Darnétal (catalogue attribution for manuscript p103; not every unsigned letter established) → Unestablished for the checked selections, Bordeaux, 8 September 1650 for p103; dates of the other selected letters unestablished, BnF Clairambault 460 — reciprocal alphabet
 
-Status: no write-up of our own (result by George Lasry, presented on docs/clair460alpha.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/clair460alpha.html)
 
 ## Source
 

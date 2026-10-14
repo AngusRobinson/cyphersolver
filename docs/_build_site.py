@@ -1695,10 +1695,6 @@ PAGES = [
          quote="…election l'archiduc Erneste, sont semblables a ceu? que le sieur de Tanneberg a tenuz a l",
          author='George Lasry'),
     # lasry-bnf:end
-    dict(slug='lasry-bnf', label='Lasry: BnF ciphers', year='survey', y=9997, place='Survey', st='partial', stt='fifty-six BnF ciphers',
-         title='George Lasry&rsquo;s BnF cipher research, October 2026',
-         blurb='Fifty-six enciphered letters in the Biblioth&egrave;que nationale de France, from 1452 to 1859, deciphered by George Lasry with ChatGPT Astra 6 and Anthropic Opus 5.5 and reported on 10 October 2026: thirteen keys recovered from the ciphertext alone, three matched to surviving keys, forty with plaintext available, mostly contemporary decipherments. Each was spot-checked here against the Gallica image; none was contradicted.',
-         quote='his results, our sample check'),
     # Unpublished 18 Sept 2026; the page is kept in unpublished/solved.html. To republish, move it back to
     # docs/ and uncomment this entry.
     # dict(slug='solved', label='What has been read', year='catalogue', y=9998, place='Catalogue', st='partial', stt='solved catalogue',
@@ -1827,7 +1823,7 @@ IMAGES['villeroy258'] = None
 IMAGES['vulcob1573'] = None
 # lasry-bnf images:end
 
-SURVEYS = ('famous', 'solved', 'highlights', 'lasry-bnf')
+SURVEYS = ('famous', 'solved', 'highlights')
 # Outcome method (George Lasry's categories, _methods.py): a page whose target has a profile with outcome.method
 # takes its badge, colour, seal and byline verb from the profile, so the hand-typed st/stt above only stand for
 # surveys, famous targets and pages without a classified profile.  p['method'] / p['extent'] drive the filters.
@@ -1924,7 +1920,6 @@ GROUPS = [(M.KEY[m], M.LABEL[m][0].upper() + M.LABEL[m][1:], M.status_class(m, '
 EXPLORE = [('highlights', 'Highlights', 'Thirty favourites: the funny, the historic, the ingenious'),
            ('glossary', 'Glossary', 'How each cipher was solved, and the terms used'),
            ('famous', 'The famous ones', 'Why Voynich, Kryptos, Beale and Dorabella resist'),
-           ('lasry-bnf', 'Lasry: BnF ciphers', 'George Lasry&rsquo;s fifty-six BnF ciphers, October 2026'),
            ('atlas', 'Atlas', 'Every letter drawn on the map, five centuries of it'),
            ('keys', 'Key web', 'Which key read which letter'),
            ('secret', 'Secret letter', 'Seal a message in a real historical cipher')]

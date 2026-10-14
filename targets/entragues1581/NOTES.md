@@ -1,8 +1,6 @@
 # [François ?] d'Entragues → Comte de Saint-Aignan, auprès du duc d’Anjou, 1581–1582 (catalogue), BnF Français 15906 — ff759r–760v, ff780r–781v
 
-Status: no write-up of our own (result by George Lasry, presented on docs/entragues1581.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/entragues1581.html)
 
 ## Source
 

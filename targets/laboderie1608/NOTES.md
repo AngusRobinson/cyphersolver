@@ -1,8 +1,6 @@
 # La Boderie → Pierre Jeannin, 7 June1608, BnF Français 3516 — La Boderie, f59r–60v
 
-Status: no write-up of our own (result by George Lasry, presented on docs/laboderie1608.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/laboderie1608.html)
 
 ## Source
 

@@ -1,8 +1,6 @@
 # de Loménie Brienne → Servien, 10 January and 1 August 1653; letter B undated in selected cipher pages, BnF Français 5160
 
-Status: no write-up of our own (result by George Lasry, presented on docs/brienne5160.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/brienne5160.html)
 
 ## Source
 

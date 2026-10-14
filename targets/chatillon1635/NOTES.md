@@ -1,8 +1,6 @@
 # Châtillon → Servien, 3 août 1635, BnF Français 3758 — Châtillon, 3 August 1635
 
-Status: no write-up of our own (result by George Lasry, presented on docs/chatillon1635.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/chatillon1635.html)
 
 ## Source
 

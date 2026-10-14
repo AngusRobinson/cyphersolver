@@ -1,8 +1,6 @@
 # Unidentified → Unidentified, Unestablished;1554/1555 remains a hypothesis, BnF Clairambault 1161
 
-Status: no write-up of our own (result by George Lasry, presented on docs/clair1161.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/clair1161.html)
 
 ## Source
 

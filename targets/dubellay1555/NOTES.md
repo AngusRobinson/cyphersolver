@@ -1,8 +1,6 @@
 # Jean, cardinal Du Bellay → The Constable, 1555, BnF Français 3142 — Du Bellay, ff60–61
 
-Status: no write-up of our own (result by George Lasry, presented on docs/dubellay1555.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/dubellay1555.html)
 
 ## Source
 

@@ -1,8 +1,6 @@
 # Nicodemo Tranchedini → Francesco Sforza, 28 June 1452, BnF Italien 2242 — Tranchedini, 1452
 
-Status: no write-up of our own (result by George Lasry, presented on docs/tranchedini1452.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/tranchedini1452.html)
 
 ## Source
 

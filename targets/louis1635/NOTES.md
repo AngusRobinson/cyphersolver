@@ -1,8 +1,6 @@
 # Louis XIII → Châtillon and Brézé, 30 June 1635, BnF Français 3758 — Louis XIII, 30 juin 1635
 
-Status: no write-up of our own (result by George Lasry, presented on docs/louis1635.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/louis1635.html)
 
 ## Source
 

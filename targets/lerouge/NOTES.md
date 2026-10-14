@@ -1,8 +1,6 @@
 # F. Le Rouge → the Chancellor, 11 July, year unestablished, BnF Français 2971
 
-Status: no write-up of our own (result by George Lasry, presented on docs/lerouge.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/lerouge.html)
 
 ## Source
 

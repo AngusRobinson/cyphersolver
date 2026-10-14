@@ -1,8 +1,8 @@
 # Jacques Vergier → Monseigneur, probably Jérôme de Pontchartrain, 10, 20, 26, 29 and 30 March 1696; 6 April 1696?, BnF Clairambault 1108
 
-Status: no write-up of our own (result by George Lasry, presented on docs/vergier1696.html and summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/vergier1696.html)
 
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html). Report slug: `vergier1690`.
+Report slug: `vergier1690`.
 
 ## Source
 

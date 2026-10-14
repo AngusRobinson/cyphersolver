@@ -1,8 +1,6 @@
 # Not established → Not established, 1589?, BnF Français 4696 — numerical cipher, ff54r–55r
 
-Status: no write-up of our own (result by George Lasry, presented on docs/fr4696num.html and summarised on docs/lasry-bnf.html)
-
-Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
+Status: no write-up of our own (result by George Lasry, presented on docs/fr4696num.html)
 
 ## Source
 
