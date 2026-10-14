@@ -2758,5 +2758,447 @@
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Peter Lely - Prince Rupert of the Rhine - Google Art Project.jpg"
   }
+ ],
+ "berny1607": [
+  {
+   "role": "recipient",
+   "name": "Pierre Jeannin",
+   "img": "portrait_pierre-jeannin.jpg",
+   "what": "Engraving by Jacques Lubin, 1696",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Jeannin, Pierre.jpg"
+  }
+ ],
+ "bethune1629": [
+  {
+   "role": "sender",
+   "name": "Louis XIII",
+   "img": "portrait_louis-xiii.jpg",
+   "what": "Portrait by Philippe de Champaigne",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Luis XIII, rey de Francia (Philippe de Champaigne).jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Philippe de Béthune",
+   "img": "portrait_philippe-de-bethune.jpg",
+   "what": "Anonymous portrait, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Philippe de Béthune (1566-1649).jpg"
+  }
+ ],
+ "birago1571": [
+  {
+   "role": "sender",
+   "name": "Lodovico Birago",
+   "img": "portrait_lodovico-birago.jpg",
+   "what": "Portrait, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis de Birague.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "bouillon1650": [
+  {
+   "role": "recipient",
+   "name": "Frédéric-Maurice de La Tour d'Auvergne, duc de Bouillon",
+   "img": "portrait_frederic-maurice-de-la-tour-d-auvergne-duc-de-bouillon.jpg",
+   "what": "Portrait by Michiel van Mierevelt, 1626",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Michiel van Mierevelt, hertog van Bouillon (1626).jpg"
+  }
+ ],
+ "brienne1067": [
+  {
+   "role": "sender",
+   "name": "Henri-Auguste de Loménie de Brienne",
+   "img": "portrait_henri-auguste-de-lomenie-de-brienne.jpg",
+   "what": "Portrait, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henri-Auguste de Loménie de Brienne.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Marie Louise Gonzaga, Queen of Poland",
+   "img": "portrait_marie-louise-gonzaga-queen-of-poland.jpg",
+   "what": "Portrait by Justus van Egmont",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Egmont Marie Louise Gonzaga.png"
+  }
+ ],
+ "brienne5160": [
+  {
+   "role": "sender",
+   "name": "Henri-Auguste de Loménie de Brienne",
+   "img": "portrait_henri-auguste-de-lomenie-de-brienne.jpg",
+   "what": "Portrait, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henri-Auguste de Loménie de Brienne.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Abel Servien",
+   "img": "portrait_abel-servien.jpg",
+   "what": "Portrait after Anselm van Hulle, Hommes illustres, 1648",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anselmus-van-Hulle-Hommes-illustres MG 0472.tif"
+  }
+ ],
+ "chatillon1635": [
+  {
+   "role": "sender",
+   "name": "Gaspard III de Coligny, maréchal de Châtillon",
+   "img": "portrait_gaspard-iii-de-coligny-marechal-de-chatillon.jpg",
+   "what": "Portrait, Rijksmuseum SK-A-546",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portret van Gaspard de Coligny III (1584-1646), graaf van Châtillon sur Loing Rijksmuseum SK-A-546.jpeg"
+  },
+  {
+   "role": "recipient",
+   "name": "Abel Servien",
+   "img": "portrait_abel-servien.jpg",
+   "what": "Portrait after Anselm van Hulle, Hommes illustres, 1648",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anselmus-van-Hulle-Hommes-illustres MG 0472.tif"
+  }
+ ],
+ "dampierre1589": [
+  {
+   "role": "recipient",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "dubellay1555": [
+  {
+   "role": "sender",
+   "name": "Jean du Bellay",
+   "img": "portrait_jean-du-bellay.jpg",
+   "what": "Portrait, 16th century (reproduced in Revue historique et archéologique du Maine, 1894)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:JeanDuBellay.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Anne de Montmorency",
+   "img": "portrait_anne-de-montmorency.jpg",
+   "what": "Portrait by Jean Clouet, c. 1530",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anne de Montmorency (1530).jpg"
+  }
+ ],
+ "dubellay65": [
+  {
+   "role": "sender",
+   "name": "Jean du Bellay",
+   "img": "portrait_jean-du-bellay.jpg",
+   "what": "Portrait, 16th century (reproduced in Revue historique et archéologique du Maine, 1894)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:JeanDuBellay.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Anne de Montmorency",
+   "img": "portrait_anne-de-montmorency.jpg",
+   "what": "Portrait by Jean Clouet, c. 1530",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anne de Montmorency (1530).jpg"
+  }
+ ],
+ "dupuy155": [
+  {
+   "role": "recipient",
+   "name": "Ferdinando I de' Medici",
+   "img": "portrait_ferdinando-i-de-medici.jpg",
+   "what": "Portrait by Scipione Pulzone, 1590",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Pulzone, Scipione - Ferdinando I de' Medici, granduca di Toscana - 1590.jpg"
+  }
+ ],
+ "dupuy468": [
+  {
+   "role": "recipient",
+   "name": "Francis I",
+   "img": "portrait_francis-i.jpg",
+   "what": "Portrait by Jean Clouet, c. 1527-30",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:François Ier Louvre.jpg"
+  }
+ ],
+ "duquesne1681": [
+  {
+   "role": "sender",
+   "name": "Abraham Duquesne",
+   "img": "portrait_abraham-duquesne.jpg",
+   "what": "Portrait, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Marquis Abraham Duquesne (1610-1688).jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Marquis de Seignelay",
+   "img": "portrait_marquis-de-seignelay.jpg",
+   "what": "Marc Nattier after Claude Lefèbvre, 1676",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Marc Nattier d'après Claude Lefèbvre, Jean-Baptiste Colbert, marquis de Seignelay (1676).jpg"
+  }
+ ],
+ "eugenie1859": [
+  {
+   "role": "sender",
+   "name": "Napoleon III",
+   "img": "portrait_napoleon-iii.jpg",
+   "what": "Portrait by Alexandre Cabanel",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Alexandre Cabanel 002.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Empress Eugénie",
+   "img": "portrait_empress-eugenie.jpg",
+   "what": "Portrait, Nationalmuseum Stockholm",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Eugénie de Montijo, Kejsarinna av Frankrike.jpg"
+  }
+ ],
+ "feuquieres1678": [
+  {
+   "role": "sender",
+   "name": "Louis XIV",
+   "img": "portrait_louis-xiv.jpg",
+   "what": "Portrait by Hyacinthe Rigaud, 1701",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis XIV of France.jpg"
+  }
+ ],
+ "gondi1594": [
+  {
+   "role": "recipient",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "herbault1625": [
+  {
+   "role": "recipient",
+   "name": "Claude de Bullion",
+   "img": "portrait_claude-de-bullion.jpg",
+   "what": "Portrait, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Claude de Bullion.jpg"
+  }
+ ],
+ "jeannin1607": [
+  {
+   "role": "sender",
+   "name": "Nicolas de Neufville, seigneur de Villeroy",
+   "img": "portrait_nicolas-de-neufville-seigneur-de-villeroy.jpg",
+   "what": "Portrait drawing, c. 1568",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Nicolas de Neufville, seigneur de Villeroy, ca. 1568.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Pierre Jeannin",
+   "img": "portrait_pierre-jeannin.jpg",
+   "what": "Engraving by Jacques Lubin, 1696",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Jeannin, Pierre.jpg"
+  }
+ ],
+ "laboderie1608": [
+  {
+   "role": "recipient",
+   "name": "Pierre Jeannin",
+   "img": "portrait_pierre-jeannin.jpg",
+   "what": "Engraving by Jacques Lubin, 1696",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Jeannin, Pierre.jpg"
+  }
+ ],
+ "louis1635": [
+  {
+   "role": "sender",
+   "name": "Louis XIII",
+   "img": "portrait_louis-xiii.jpg",
+   "what": "Portrait by Philippe de Champaigne",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Luis XIII, rey de Francia (Philippe de Champaigne).jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Gaspard III de Coligny, maréchal de Châtillon",
+   "img": "portrait_gaspard-iii-de-coligny-marechal-de-chatillon.jpg",
+   "what": "Portrait, Rijksmuseum SK-A-546",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portret van Gaspard de Coligny III (1584-1646), graaf van Châtillon sur Loing Rijksmuseum SK-A-546.jpeg"
+  }
+ ],
+ "lucinge1588": [
+  {
+   "role": "recipient",
+   "name": "Charles Emmanuel I of Savoy",
+   "img": "portrait_charles-emmanuel-i-of-savoy.jpg",
+   "what": "Portrait by Jan Kraeck, c. 1590s",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Jan Kraeck - Ritratto Di Carlo Emanuele I Di Savoia (1562-1630).jpg"
+  }
+ ],
+ "meryvic1589": [
+  {
+   "role": "recipient",
+   "name": "Henri IV",
+   "img": "portrait_henri-iv.jpg",
+   "what": "Portrait by Frans Pourbus the Younger, 1610",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Henry IV of france by pourbous younger.jpg"
+  }
+ ],
+ "nevers1594gondi": [
+  {
+   "role": "sender",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "portugal1667": [
+  {
+   "role": "sender",
+   "name": "Afonso VI of Portugal",
+   "img": "portrait_afonso-vi-of-portugal.jpg",
+   "what": "Portrait, 17th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:AfonsoVIpt.jpg"
+  }
+ ],
+ "renard1556": [
+  {
+   "role": "sender",
+   "name": "Simon Renard",
+   "img": "portrait_simon-renard.jpg",
+   "what": "Portrait, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Simon Renard.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Philip II",
+   "img": "portrait_philip-ii.jpg",
+   "what": "Portrait, Sofonisba Anguissola",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Philip II of Spain by Sofonisba Anguissola - 002b.jpg"
+  }
+ ],
+ "rondinelli1590": [
+  {
+   "role": "recipient",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "scipion1585": [
+  {
+   "role": "sender",
+   "name": "Cardinal Scipione Gonzaga",
+   "img": "portrait_cardinal-scipione-gonzaga.jpg",
+   "what": "Portrait, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:CardinaleSGonzaga.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Duke of Nevers",
+   "img": "portrait_duke-of-nevers.jpg",
+   "what": "Portrait, second half of 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Louis IV de Gonzague-Nevers.jpg"
+  }
+ ],
+ "sega1591": [
+  {
+   "role": "sender",
+   "name": "Filippo Sega",
+   "img": "portrait_filippo-sega.jpg",
+   "what": "Portrait, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Filippo Sega.jpg"
+  },
+  {
+   "role": "recipient",
+   "name": "Cardinal Enrico Caetani",
+   "img": "portrait_cardinal-enrico-caetani.jpg",
+   "what": "Portrait, 16th century",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Ritratto del Cardinale Enrico Caetani.jpg"
+  }
+ ],
+ "tranchedini1452": [
+  {
+   "role": "recipient",
+   "name": "Francesco Sforza",
+   "img": "portrait_francesco-sforza.jpg",
+   "what": "Portrait, School of Lombardy",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Francesco Sforza.jpg"
+  }
+ ],
+ "turenne1528": [
+  {
+   "role": "recipient",
+   "name": "Anne de Montmorency",
+   "img": "portrait_anne-de-montmorency.jpg",
+   "what": "Portrait by Jean Clouet, c. 1530",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Anne de Montmorency (1530).jpg"
+  }
+ ],
+ "vergier1696": [
+  {
+   "role": "sender",
+   "name": "Jacques Vergier",
+   "img": "portrait_jacques-vergier.jpg",
+   "what": "Frontispiece portrait, Œuvres de Vergier (Cazin edition)",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Oeuvres de Vergier Cazin 4 1006771 (vergier).jpg"
+  }
+ ],
+ "villeroy258": [
+  {
+   "role": "sender",
+   "name": "Nicolas de Neufville, seigneur de Villeroy",
+   "img": "portrait_nicolas-de-neufville-seigneur-de-villeroy.jpg",
+   "what": "Portrait drawing, c. 1568",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Nicolas de Neufville, seigneur de Villeroy, ca. 1568.jpg"
+  }
+ ],
+ "vulcob1573": [
+  {
+   "role": "sender",
+   "name": "Charles IX",
+   "img": "portrait_charles-ix.jpg",
+   "what": "Portrait by François Clouet",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg"
+  }
  ]
 }
