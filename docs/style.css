@@ -101,6 +101,41 @@ img{max-width:100%}
 .hero .outcome a{color:var(--gold);text-decoration:underline dotted;text-underline-offset:3px}
 .hero .cipherstrip{position:absolute;right:1.2rem;top:1.4rem;font-family:var(--mono);font-size:.7rem;color:color-mix(in srgb,var(--gold) 40%,transparent);letter-spacing:.35em;user-select:none;pointer-events:none;text-align:right;line-height:1.9}
 @media (max-width:760px){.hero .cipherstrip{display:none}}
+/* the CYPHERSOLVER wordmark on the home page: each letter deciphers out of a glyph, a gold sheen sweeps across, and
+   under each letter sits its cipher number, the way a clerk wrote the reading over the groups (E and R have two). */
+:root{--wm-hi:#fff6dc}
+:root[data-theme="light"]{--wm-hi:#e8bd62}
+.hero h1.wordmark{font-family:var(--display);font-weight:700;font-variation-settings:"opsz" 144;font-size:clamp(2rem,9.1vw,5.4rem);
+  line-height:1;letter-spacing:.045em;margin:.15rem 0 .6rem;padding-bottom:.42em;color:var(--gold)}
+.wm{display:inline-flex;align-items:center;position:relative;animation:wmIn .7s ease-out both;
+  filter:drop-shadow(0 0 .28em color-mix(in srgb,var(--gold) 30%,transparent))}
+.wm::before{content:"";position:absolute;inset:-35% -8% -55%;z-index:-1;pointer-events:none;
+  background:radial-gradient(closest-side,color-mix(in srgb,var(--gold) 16%,transparent),transparent);animation:wmBreathe 6s ease-in-out infinite}
+.wm .l{position:relative;display:inline-block;transition:filter .5s ease-out,transform .5s ease-out;
+  background:linear-gradient(100deg,var(--gold) 0 38%,var(--gold2) 46%,var(--wm-hi) 50%,var(--gold2) 54%,var(--gold) 62% 100%);
+  background-size:500% 100%;background-position:100% 0;-webkit-background-clip:text;background-clip:text;
+  color:transparent;-webkit-text-fill-color:transparent;animation:wmSheen 7s ease-in-out infinite;animation-delay:calc(var(--i) * .07s)}
+.wm .l::after{content:attr(data-n);position:absolute;left:0;right:0;top:calc(100% + .14em);text-align:center;
+  font:600 max(.55rem,.13em)/1 var(--mono);letter-spacing:.06em;color:var(--muted);-webkit-text-fill-color:var(--muted);transition:color .4s}
+.wm .l.enc{background:none}
+.wm .l.enc::before{content:attr(data-g);position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font:400 .6em/1 var(--mono);color:var(--gold);-webkit-text-fill-color:var(--gold);text-shadow:0 0 .4em color-mix(in srgb,var(--gold) 70%,transparent);opacity:.85}
+.wm .l.enc::after{color:var(--gold2);-webkit-text-fill-color:var(--gold2)}
+.wm .l.flash{filter:brightness(1.9);transform:translateY(-.03em);transition:none}
+.wm .caret{display:inline-block;width:.07em;height:.74em;margin-left:.14em;background:var(--gold);border-radius:1px;
+  box-shadow:0 0 .3em var(--gold);animation:wmBlink 1.1s steps(1) infinite}
+@keyframes wmSheen{0%{background-position:100% 0}35%,100%{background-position:0 0}}
+@keyframes wmBlink{50%{opacity:0}}
+@keyframes wmBreathe{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes wmIn{from{opacity:0;transform:translateY(.08em);filter:blur(6px)}}
+.hero .tagline{font-family:var(--display);font-style:italic;font-weight:400;font-size:clamp(1.15rem,2.6vw,1.6rem);color:var(--head);margin:0 0 1rem;letter-spacing:.01em}
+@media (prefers-reduced-motion: reduce){.wm,.wm::before,.wm .l,.wm .caret{animation:none}.wm .l{background-position:0 0}}
+/* with the wordmark across the top, the live cipher strip moves down beside the introduction, or into the flow when narrow */
+.hero:has(.wordmark) .cipherstrip{top:calc(5.4rem + clamp(2rem,9.1vw,5.4rem) * 1.5)}
+.hero:has(.wordmark) > h1.wordmark,.hero:has(.wordmark) > .kicker{margin-right:0}
+@media (max-width:1060px){.hero:has(.wordmark) .cipherstrip{display:block;position:static;text-align:left;margin:0 0 1.1rem;min-height:9.5rem}
+  .hero:has(h1.wordmark):has(.cipherstrip.live) > .sub{margin-right:0}}
+.nav .brand > span:not(.glyph){text-transform:uppercase;letter-spacing:.17em;font-size:.88rem;font-weight:700}
 .hero .parties{display:flex;align-items:center;gap:1.1rem;margin:.2rem 0 1rem;flex-wrap:wrap}
 .hero .party{margin:0;display:flex;align-items:center;gap:.65rem}
 .hero .party img{width:84px;height:84px;border-radius:50%;object-fit:cover;border:1px solid color-mix(in srgb,var(--gold) 55%,transparent);box-shadow:0 0 0 3px var(--bg),0 0 0 4px var(--rule);filter:sepia(.18) saturate(.9);background:var(--panel2)}

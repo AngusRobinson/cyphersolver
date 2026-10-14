@@ -10,6 +10,23 @@
   if(rb) rb.addEventListener('click',async()=>{ try{ const ps=await (await fetch('pages.json')).json();
     location.href=ps[Math.floor(Math.random()*ps.length)].slug+'.html'; }catch(e){ location.href='writeups.html'; } });
 
+  // the wordmark: every letter deciphers out of a run of glyphs, left to right; afterwards one letter now and then
+  // slips back into cipher and is read again
+  const wm=document.querySelector('.wordmark .wm');
+  if(wm && !still){
+    const Ls=[...wm.querySelectorAll('.l')], WG='0123456789§¶†‡∴⊕ABDFGKMNQTXZ';
+    const g=()=>WG[Math.random()*WG.length|0];
+    const flip=(l,ms)=>new Promise(res=>{ l.classList.add('enc'); const t0=performance.now(); let last=0;
+      const f=now=>{ if(now-last>55){ l.dataset.g=g(); last=now; }
+        if(now-t0<ms) return requestAnimationFrame(f);
+        l.classList.remove('enc'); l.classList.add('flash'); requestAnimationFrame(()=>requestAnimationFrame(()=>l.classList.remove('flash'))); res(); };
+      requestAnimationFrame(f); });
+    Ls.forEach(l=>{ l.dataset.g=g(); l.classList.add('enc'); });
+    Ls.forEach((l,i)=>setTimeout(()=>flip(l,380+Math.random()*260),300+i*90));
+    (async()=>{ await wait(3000); for(;;){ await wait(3500+Math.random()*4500); if(document.hidden) continue;
+      await flip(Ls[Math.random()*Ls.length|0],300+Math.random()*300); } })();
+  }
+
   // the live strip
   const strip=document.querySelector('.hero .cipherstrip'); if(!strip) return;
   const GL='0123456789abcdefghilmnopqrstuxyz§†∴';
