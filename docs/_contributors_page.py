@@ -34,13 +34,35 @@ def name_html(c):
     return f'<a href="{e(c["url"])}" rel="noopener">{n}</a>' if c.get('url') else n
 
 
+def leads(reg):
+    """Who runs the project (kind "lead"): shown first, with the project's own targets, not ranked from credits."""
+    return [c for c in reg.values() if c.get('kind') == 'lead']
+
+
+def own_targets(profiles):
+    return [f for f, p in profiles.items() if CR.provenance_of(p) == 'project']
+
+
+def lead_row(c, n_own):
+    cells = ''.join('<td class="n">&middot;</td>' for _ in COLUMNS)
+    return (f'<tr id="row-{c["id"]}"><td><a href="#{c["id"]}">{e(c["name"])}</a> <span class="cmuted">project lead</span></td>'
+            f'<td class="n"><a href="writeups.html" title="the project&rsquo;s own targets">{n_own}</a></td>{cells}</tr>')
+
+
+def lead_card(c, n_own):
+    return (f'<article class="ccard" id="{c["id"]}">\n<h3>{name_html(c)}</h3>\n'
+            + (f'<p class="cnote">{e(c["note"])}</p>\n' if c.get('note') else '')
+            + f'<p class="ckinds">project lead &middot; {n_own} of the project&rsquo;s own targets &middot; '
+              f'<a href="writeups.html">all write-ups &rarr;</a> &middot; <a href="#project">the project&rsquo;s share</a></p>\n</article>')
+
+
 def counts(entry, roles):
     return sum(1 for f in entry['targets'] if any(c['role'] in roles for ff, c in entry['items'] if ff == f))
 
 
-def table_html(rows, reg):
+def table_html(rows, reg, first=''):
     head = '<tr><th>Contributor</th><th class="n">Targets</th>' + ''.join(f'<th class="n">{l}</th>' for l, _ in COLUMNS) + '</tr>'
-    body = []
+    body = [first] if first else []
     for w, ent in rows:
         cells = ''.join(f'<td class="n">{counts(ent, roles) or "&middot;"}</td>' for _, roles in COLUMNS)
         body.append(f'<tr id="row-{w}"><td><a href="#{w}">{e(reg[w]["name"])}</a></td>'
@@ -92,12 +114,13 @@ def page(pages, profiles, reg, dates, version, today):
     pages_by_folder = {f: p for p in pages for f in p.get('folders', [])}
     ranked = CR.ranked(t, reg)
     direct = [(w, ent) for w, ent in ranked if CR.direct_score(ent)]
-    n_people = len(ranked)
+    lead = leads(reg)
+    n_people = len(ranked) + len(lead)
     n_credits = sum(len(ent['items']) for w, ent in t.items())
     n_direct = sum(CR.direct_score(ent) for w, ent in ranked)
     # the project's share
     real = {f: p for f, p in profiles.items()}
-    own = [f for f, p in real.items() if CR.provenance_of(p) == 'project']
+    own = own_targets(real)
     own_keys = sum(1 for f in own if (real[f].get('outcome') or {}).get('method') in M.KEY_RECOVERED)
     contrib = sorted(f for f, p in real.items() if CR.provenance_of(p) in ('contributed', 'mixed'))
     models = collections.Counter(m for p in real.values() for m in ((p.get('conditions') or {}).get('models') or []) if isinstance(m, str) and m != 'unknown')
@@ -121,7 +144,7 @@ def page(pages, profiles, reg, dates, version, today):
     queue_rows = ''.join(
         f'<li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span>'
         f'<span class="yr">{p["year"]}</span></a></li>' for p in q)
-    cards = '\n'.join(card_html(w, ent, reg, pages_by_folder, profiles) for w, ent in ranked)
+    cards = '\n'.join([lead_card(c, len(own)) for c in lead] + [card_html(w, ent, reg, pages_by_folder, profiles) for w, ent in ranked])
     builds_rows = ''.join(
         f'<tr id="{w}"><td>{name_html(reg[w])}<span class="cmuted"> {e(reg[w].get("note", ""))}</span></td>'
         f'<td class="n"><a href="writeups.html#by={w}">{len(ent["targets"])}</a></td></tr>' for w, ent in builds)
@@ -151,8 +174,8 @@ def page(pages, profiles, reg, dates, version, today):
 <main>
 
 <h2 id="who"><span class="num">01</span> Who has contributed</h2>
-<p>{n_people} people are credited on {len({f for w, ent in ranked for f in ent["targets"]})} targets. {n_direct} of the credits are direct contributions (a solution, a new cipher, a verification, a key correction, a transcription, an identification or a pointer to a source); the rest record whose key, decipherment or earlier solution a reading used. A count is the number of targets; click it for the write-ups.</p>
-{table_html(ranked, reg)}
+<p>{"".join(e(c["name"]) + " runs the project (" + str(len(own)) + " of its own targets). " for c in lead)}{len(ranked)} people are credited on {len({f for w, ent in ranked for f in ent["targets"]})} targets. {n_direct} of the credits are direct contributions (a solution, a new cipher, a verification, a key correction, a transcription, an identification or a pointer to a source); the rest record whose key, decipherment or earlier solution a reading used. A count is the number of targets; click it for the write-ups.</p>
+{table_html(ranked, reg, ''.join(lead_row(c, len(own)) for c in lead))}
 {('<h3 class="listhead">Direct contributions by month</h3>' + hist) if hist else ''}
 
 <h2 id="people"><span class="num">02</span> Contributions in detail</h2>
@@ -188,6 +211,10 @@ def strip(pages, profiles, reg, n=8):
     chips = ''.join(
         f'<li><a href="contributors.html#{w}"><b>{e(reg[w]["name"])}</b><span>{len(ent["targets"])} target{"s" if len(ent["targets"]) != 1 else ""}'
         + (f' &middot; {CR.direct_score(ent)} direct' if CR.direct_score(ent) else '') + '</span></a></li>' for w, ent in ranked)
+    n_own = len(own_targets(profiles))
+    chips = ''.join(
+        f'<li><a href="contributors.html#{c["id"]}"><b>{e(c["name"])}</b><span>project lead &middot; {n_own} targets</span></a></li>'
+        for c in leads(reg)) + chips
     q = len(queue(pages, profiles))
     return f'''<!-- contrib:start -->
 <section class="contribstrip" id="contributors" aria-labelledby="cs-h">

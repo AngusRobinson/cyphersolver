@@ -1,5 +1,5 @@
 {
-  "_about": "Everyone credited on a target (profile.json outcome.credits[].who is an id here). kind: project = this project; person = a living or modern contributor, scholar or organisation (ranked on the Contributors page); historical = earlier scholarship whose keys or editions are used (listed, not ranked); archive = contemporary keys and decipherments, chanceries, deciphering offices; database = DECODE and similar. github: logins, for matching pull requests and issues. aliases: other spellings found in the notes. Add a contributor here before crediting them; docs/_check_profile.py rejects an unknown id.",
+  "_about": "Everyone credited on a target (profile.json outcome.credits[].who is an id here). kind: project = this project; lead = the person who runs it (shown first on the Contributors page and the landing strip, not counted from credits); person = a living or modern contributor, scholar or organisation (ranked on the Contributors page); historical = earlier scholarship whose keys or editions are used (listed, not ranked); archive = contemporary keys and decipherments, chanceries, deciphering offices; database = DECODE and similar. github: logins, for matching pull requests and issues. aliases: other spellings found in the notes. Add a contributor here before crediting them; docs/_check_profile.py rejects an unknown id.",
   "contributors": [
     {
       "id": "project",
@@ -10,6 +10,13 @@
         "dbourdeau"
       ],
       "note": "The project itself: targets chosen and checked by Daniel Bourdeau, the cryptanalysis, transcription and write-ups done with Anthropic's Claude models (Opus, Fable) in Claude Code."
+    },
+    {
+      "id": "bourdeau",
+      "name": "Daniel Bourdeau",
+      "kind": "lead",
+      "url": "https://github.com/dbourdeau",
+      "note": "Runs the project: chose and checked the targets, directed the work with Claude, and built and maintains the website and the ledger."
     },
     {
       "id": "lasry",
