@@ -98,6 +98,7 @@
   }
  ],
  "outcome": {
+  "method": "not applicable",
   "class": "not a cipher",
   "verification": [
    "historical consistency"

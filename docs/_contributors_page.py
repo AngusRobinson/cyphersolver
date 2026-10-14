@@ -10,6 +10,7 @@ independent check (the verification queue).
 import html, collections, datetime
 import _credits as CR
 import _methods as M
+from _check_writeup import FAMOUS  # no profile data: kept out of every count here
 
 REPO = 'https://github.com/dbourdeau/cyphersolver'
 e = lambda s: html.escape(str(s), quote=True)
@@ -43,32 +44,34 @@ def own_targets(profiles):
     return [f for f, p in profiles.items() if CR.provenance_of(p) == 'project']
 
 
-READINGS = M.KEY_RECOVERED | {M.EXT_KEY, M.KNOWN, M.DECIPH}
+# The lead's row splits the project's own targets by outcome, so its cells add up to the Targets count.
+OWN_GROUPS = [('Key recovered here', M.KEY_RECOVERED), ('Read with an outside key or decipherment', {M.EXT_KEY, M.KNOWN, M.DECIPH}),
+              ('Not solved', {M.NOT}), ('Not applicable', {M.NA})]
 
 
 def lead_counts(profiles):
-    """The lead's columns, counted from the project's own work: targets per COLUMNS label (absent = not applicable).
-    Solutions: own targets with a reading of any method; Verifications: outside solutions checked and filed here
-    (provenance contributed); Keys corrected and Transcriptions, identifications: outcome.contribution."""
+    """The project's own targets per OWN_GROUPS label (outcome.method); a missing method shows as 'No outcome yet'."""
     own = [profiles[f] for f in own_targets(profiles)]
-    contrib = lambda p: set(((p.get('outcome') or {}).get('contribution')) or [])
-    return {'Solutions': sum((p.get('outcome') or {}).get('method') in READINGS for p in own),
-            'Verifications': sum(CR.provenance_of(p) == 'contributed' for p in profiles.values()),
-            'Keys corrected': sum('key extended or corrected' in contrib(p) for p in own),
-            'Transcriptions, identifications': sum(bool(contrib(p) & {'transcription', 'sender or date identified', 'catalogue correction'}) for p in own)}
+    meth = collections.Counter((p.get('outcome') or {}).get('method') for p in own)
+    out = {l: sum(meth[m] for m in ms) for l, ms in OWN_GROUPS}
+    rest = len(own) - sum(out.values())
+    if rest: out['No outcome yet'] = rest
+    return out
 
 
 def lead_row(c, n_own, lc):
-    cells = ''.join(f'<td class="n">{lc.get(l) or "&middot;"}</td>' for l, _ in COLUMNS)
+    bits = ' &middot; '.join(f'{l.lower()} <b>{n}</b>' for l, n in lc.items() if n)
     return (f'<tr id="row-{c["id"]}"><td><a href="#{c["id"]}">{e(c["name"])}</a> <span class="cmuted">project lead</span></td>'
-            f'<td class="n"><a href="writeups.html" title="the project&rsquo;s own targets">{n_own}</a></td>{cells}</tr>')
+            f'<td class="n"><a href="writeups.html" title="the project&rsquo;s own targets">{n_own}</a></td>'
+            f'<td colspan="{len(COLUMNS)}" class="cmuted">own targets by outcome: {bits}</td></tr>')
 
 
-def lead_card(c, n_own, lc):
+def lead_card(c, n_own, lc, n_verified):
     bits = ''.join(f'{l.lower()} &times;{n} &middot; ' for l, n in lc.items() if n)
     return (f'<article class="ccard" id="{c["id"]}">\n<h3>{name_html(c)}</h3>\n'
             + (f'<p class="cnote">{e(c["note"])}</p>\n' if c.get('note') else '')
-            + f'<p class="ckinds">project lead &middot; {n_own} of the project&rsquo;s own targets &middot; {bits}'
+            + f'<p class="ckinds">project lead &middot; {n_own} of the project&rsquo;s own targets: {bits}'
+              f'besides these, {n_verified} outside solutions checked and filed &middot; '
               f'<a href="writeups.html">all write-ups &rarr;</a> &middot; <a href="#project">the project&rsquo;s share</a></p>\n</article>')
 
 
@@ -135,7 +138,7 @@ def page(pages, profiles, reg, dates, version, today):
     n_credits = sum(len(ent['items']) for w, ent in t.items())
     n_direct = sum(CR.direct_score(ent) for w, ent in ranked)
     # the project's share
-    real = {f: p for f, p in profiles.items()}
+    real = {f: p for f, p in profiles.items() if f not in FAMOUS}
     own = own_targets(real)
     lc = lead_counts(real)
     own_keys = sum(1 for f in own if (real[f].get('outcome') or {}).get('method') in M.KEY_RECOVERED)
@@ -161,7 +164,10 @@ def page(pages, profiles, reg, dates, version, today):
     queue_rows = ''.join(
         f'<li><a href="{p["slug"]}.html"><span class="st {p["st"]}">{p["stt"]}</span><span class="t">{p["title"]}</span>'
         f'<span class="yr">{p["year"]}</span></a></li>' for p in q)
-    cards = '\n'.join([lead_card(c, len(own), lc) for c in lead] + [card_html(w, ent, reg, pages_by_folder, profiles) for w, ent in ranked])
+    n_verified = sum(CR.provenance_of(p) == 'contributed' for p in real.values())
+    credited = {f for w, ent in ranked for f in ent['targets']}
+    n_overlap = len(credited & set(own))
+    cards = '\n'.join([lead_card(c, len(own), lc, n_verified) for c in lead] + [card_html(w, ent, reg, pages_by_folder, profiles) for w, ent in ranked])
     builds_rows = ''.join(
         f'<tr id="{w}"><td>{name_html(reg[w])}<span class="cmuted"> {e(reg[w].get("note", ""))}</span></td>'
         f'<td class="n"><a href="writeups.html#by={w}">{len(ent["targets"])}</a></td></tr>' for w, ent in builds)
@@ -191,8 +197,9 @@ def page(pages, profiles, reg, dates, version, today):
 <main>
 
 <h2 id="who"><span class="num">01</span> Who has contributed</h2>
-<p>{"".join(e(c["name"]) + " runs the project (" + str(len(own)) + " of its own targets). " for c in lead)}{len(ranked)} people are credited on {len({f for w, ent in ranked for f in ent["targets"]})} targets. {n_direct} of the credits are direct contributions (a solution, a new cipher, a verification, a key correction, a transcription, an identification or a pointer to a source); the rest record whose key, decipherment or earlier solution a reading used. A count is the number of targets; click it for the write-ups.</p>
+<p>{"".join(e(c["name"]) + " runs the project (" + str(len(own)) + " of its own targets). " for c in lead)}{len(ranked)} people are credited on {len(credited)} targets; {n_overlap} of those are also among the project&rsquo;s own, credited because a reading there used their key, decipherment or pointer, so the two figures overlap and do not add up to the total. {n_direct} of the credits are direct contributions (a solution, a new cipher, a verification, a key correction, a transcription, an identification or a pointer to a source); the rest record whose key, decipherment or earlier solution a reading used. A count is the number of targets; click it for the write-ups.</p>
 {table_html(ranked, reg, ''.join(lead_row(c, len(own), lc) for c in lead))}
+<p class="cmuted">The project lead&rsquo;s row splits the {len(own)} own targets by outcome. The {n_verified} outside solutions checked and filed here are counted under their contributors, not in that row.</p>
 {('<h3 class="listhead">Direct contributions by month</h3>' + hist) if hist else ''}
 
 <h2 id="people"><span class="num">02</span> Contributions in detail</h2>
@@ -228,7 +235,7 @@ def strip(pages, profiles, reg, n=8):
     chips = ''.join(
         f'<li><a href="contributors.html#{w}"><b>{e(reg[w]["name"])}</b><span>{len(ent["targets"])} target{"s" if len(ent["targets"]) != 1 else ""}'
         + (f' &middot; {CR.direct_score(ent)} direct' if CR.direct_score(ent) else '') + '</span></a></li>' for w, ent in ranked)
-    n_own = len(own_targets(profiles))
+    n_own = len(own_targets({f: p for f, p in profiles.items() if f not in FAMOUS}))
     chips = ''.join(
         f'<li><a href="contributors.html#{c["id"]}"><b>{e(c["name"])}</b><span>project lead &middot; {n_own} targets</span></a></li>'
         for c in leads(reg)) + chips
