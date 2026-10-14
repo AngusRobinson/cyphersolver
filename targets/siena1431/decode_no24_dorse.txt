@@ -1,0 +1,11 @@
+# No. 24 (DECODE R4812) dorse P1, 8 run-over lines, decoded here with key R4755 from our first-pass transcription
+# (agent E, targets/siena1421/transcripts/no24.txt). Not covered by the submitted reading. "." = no value; "pp"
+# counted as one e. No word division. Readable stretches are marked in NOTES.md.
+L01 .ooua.iraoineaatarto.siaagiaaato..ouel.lnabiaaoareeeoian.osaroduiaaatousegn
+L02 irop.lecosesonorate.neresegrete.prgmaetecomec.aanretesirebubipeabidte
+L03 .ienrtenaaauaaoact.ierepetrlno.penrocneosenn.oato.napmrsoralagnnea.roiaoeoeucn
+L04 eelui..maeconcoao.coninitian.orp.iopnrest.at.g.aboaagieo.aportatre.oiongestra..linre
+L05 anoiciuroatolinritenenre.n...plgpmroiest.aesennocnese.pnrenumilementeumiracoma.oo
+L06 ..alauost.raaagiroica.sig.oaria.laoiale.ault.gse.soconse.ruiinisaatoroeli
+L07 ce....ata.ii.aorincgnogeooaaoebnraio.m.rl.leouatroaocaentout.renntasectepoilsinriioo
+L08 renrel.o.auostrrauaagor.oicasignioriacristnoaoanbo.oemonrtnec..cisgnracomanoa

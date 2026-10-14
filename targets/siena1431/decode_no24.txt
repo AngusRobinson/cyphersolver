@@ -1,0 +1,36 @@
+# Our transcription of no24 (targets/siena1421/transcripts/no06_24all.tok) decoded with key R4755 as mapped
+# onto our sign labels by verify.py. "." = label with no key value (nulls, rare or merged signs); capitals =
+# word signs (L Lucca, P Piccinino, D Duca di Milano, V Viniziani, F Fiorentini). No word division.
+.perb.r.c.cnoacnaaeiisa..launs.tr.a.srgioria.iart...er..na.oraato.mania.es..s.nc
+.npreraomsared.asp.e.sto.disoc.nra.reeLeeesim.leLpercneeeu.egn.da.denrna.a.alnue
+aarm.eetuct.simeet..ten.inpomto.eepena.nl..lop.s.esauedereliiner.re.e.t.r.m.l.aa
+..eea.omg.liretc.t..desimecteinpunto.perueee..are.ecomando.als.ond.t.ree.adid.a.
+tg.ndueedelpasa.o.cneprduedese.dib.rada.s.lnper....ndgcidroee.cneeseudles..epart
+.ree.alp.eaent.n..npotrebee.perlem.leten.aee.i.seno..gn.d.egrandi.gn.aac..ciatie
+eegl.cnam.and.l.c.nuiena.areeaspro.peenso.cnidleiie.sacd.c.aran.n..percne..rlten
+po.sicomgnca.ad.riaaareepercnesrt..lauostnra.sign.orie.eed.asider.sa.dise.t.reeb
+ouel..lee.epeer.potr.u..eared..ua.neeansac.enrta.oriteenu.t.nes.stda.antee..l.ie
+le.apresete.manao.peraui.eanre.di.uante.soe.na.onamato.e.rs.neanbasciadori.a.L.e
+e.sc.tdi.ee.al.esco.dnru.et..ecias.cnun..a.asuopnteerid.c.nd.rloaaLedal.lat.aeea
+rte.c.rsonoeanbasiad.nai.danrmenaind.eea.an..o.dant.leposibiled.condl.acnamer.rn
+d.as..sa..deesuogc.npagniudnrberoandarenelamar.cnalercneepiu.nrse.sdpaeseeeeogn.
+runosing.adia.anaeegla.actosudepireln.dicealtuctouolianinaeL.ee.el.lia.baasciado
+r.d.acamerino..an.ndconlicen.eua.eeege.perdolel.spasa.dia.rancieesco.pecin.ed.ra
+.antiesn.atecert.icneeLuuolegrannbene.idlisocont.nu.alunrmcn.aee.et.uceelercaguo
+n.rlimostr.dieb.bainaeLl..tuc.eemeleec.nce.e.eper.ue.lepos.saco.prendareluiueera
+L.eeso.oc.mandate.tuct.eeleeca.a...ledelpaesmperpertarele.ect.uaglee..es.i.anbas
+c.addrilucnees..a.lan.noc.nprate.aspectas.ceertie.pera.nrlea..sicond.ilsun.erlar
+elcarpelaelo.eedednelgndpen.a.idato.abieaeeand.tomeLtiened.cert.iler.sacn.rdara.
+conldi.ee..aamandato.un.s..a.aiigl.ao.adireaLcnen..basogniara.lu.ananaasdcnonaar
+eL.peee..cneluilauo.ees.cnonra.rel.gperlom.eeiu..ce.Le.nesenaaaa.ala.ld.al.manrc
+neese.d.mant..naeac.rdatoco..m.cneinbreueetenp.cdse.u..l.a.perlasga..s.agnionria
+.eandeda..nodeeie.alducnralbertd.d.c.d.s.erlic..cneeea.act..redongnariae.c.nc.la
+uo.d.abra.laeapa..spera.eem.lt.aai.uestdp.eseeeiluan.noa..dnatia.ica.e.nlelodea.
+er..laerapelop.o..entes.s.aeeranoauinga.duegnaleeedegrecgnabr.e.peerlo.nal.son.m
+drti.iatonad.r.i.gentneludmin.r.ecertosit.enelonpe.anon.een.nuereralL.icecne.tal
+.ano.eeac.ncidcolm.ueumisereeantoni.petrucaado.uaaLund.sdocanceeliere.apregnarlo
+d.rasee.ila.negliudlo.a.us.seees.amas....coued.epriias.anaeecasi.sc..aeeenolpana
+epeenaonraa.arepii.an.nana.ma.uandoaraagtalapr.ama.gratiaceenrcanralasiconndapn.
+eneenectodaadraeaedi.a.n.d.a.ennd.abtamiglia.deceLcneelac.npag..raorimaoseea.bee
+rnardino.mennaaac.nsea.ein.an.asuopl.teere.ilgaraaaone.rit.rneacasal.pers.lecita
+ree.lasenenitaa.eper..eedere.geel..lddea.an.a.eauiaa.ane.lanostra.segni.ria.nn

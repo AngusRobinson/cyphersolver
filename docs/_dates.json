@@ -82,6 +82,7 @@
   "copenhagen cryptogram": "2026-09-15",
   "cornelis haga at constantinople to the states general, february–may 1620": "2026-09-21",
   "count visconti (brussels) with marquis visconti (london), 1727": "2026-09-21",
+  "cristofano to the signori of siena, c. 1431–38": "2026-10-14",
   "debosnys, 1882–83": "2026-09-15",
   "desmarets to an unnamed correspondent, 4 june 1710": "2026-09-21",
   "diego lópez de ayala to cardinal cisneros, 30 august 1516": "2026-09-21",
@@ -508,8 +509,8 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "e3d274d49858",
-   "updated": "2026-10-13"
+   "hash": "84210c85559c",
+   "updated": "2026-10-14"
   },
   "catinat1691": {
    "first": "2026-09-16",
@@ -563,8 +564,8 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "78c047085416",
-   "updated": "2026-10-13"
+   "hash": "2884ff8c8aba",
+   "updated": "2026-10-14"
   },
   "copenhagen": {
    "first": "2026-09-15",
@@ -678,8 +679,8 @@
   },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "fffbb1a41eea",
-   "updated": "2026-10-09"
+   "hash": "ca85f3f8b99c",
+   "updated": "2026-10-14"
   },
   "goldbar": {
    "first": "2026-09-15",
@@ -833,8 +834,8 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "3a05a3201727",
-   "updated": "2026-10-13"
+   "hash": "59dac2ac2ddf",
+   "updated": "2026-10-14"
   },
   "indus": {
    "first": "2026-09-24",
@@ -1446,6 +1447,11 @@
    "hash": "afabf235fa57",
    "updated": "2026-09-25"
   },
+  "siena1431": {
+   "first": "2026-10-14",
+   "hash": "bf7c936e5e67",
+   "updated": "2026-10-14"
+  },
   "sieniawski1708": {
    "first": "2026-10-09",
    "hash": "1e19e675e32f",
@@ -1678,8 +1684,8 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "6d9a9df0b760",
-   "updated": "2026-10-13"
+   "hash": "114e4ea20623",
+   "updated": "2026-10-14"
   },
   "yard1699": {
    "first": "2026-09-18",

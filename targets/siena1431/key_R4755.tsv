@@ -1,0 +1,63 @@
+# Key DECODE R4755 (ASSi Concistoro 2308, fasc. 1, "Concistoro_2308_10"), heading "Cifra cum Christofano [...]".
+# Read here from the DECODE photograph IMG_R4755_I27827_P (fetched 14 Oct 2026; same sheet as the image in the submitted PDF).
+# Columns: plain = value; key_sign = the sign as drawn on the key sheet; our_labels = the labels of OUR transcription
+# (targets/siena1421/transcripts/no06.txt sign legend) that the EM alignment with the outside reading puts on it,
+# with aligned counts over nos. 6 + 24 (count/total occurrences of that label). '-' = does not occur.
+plain	key_sign	our_labels
+a	5-like (ϛ)	5 (97/106)
+a	o	0 (77/123; 23 more align with i: our 0 also covers the i-sign '+o' with its cross unseen)
+a	b	b (51/59)
+a	reversed c / ɔ with tail	d (76/87), u (41/57): one key sign, transcribed under two labels
+b	z	2 (29/31)
+c	b-bowl with crossed stem (ƀ)	d+ (152/154)
+d	θ	THETA (114/156; 25 align with o)
+e	♀	VENUS (40/41), YCROSS (62/64): one key sign, two labels
+e	3 (ʒ)	3 (110/117)
+e	pp	p p (92 pairs aligned on one p; SP 9/14 is a p written onto SS)
+e	6	6 (123/137)
+f	o + t ligature	t (29 of 162: merged in our 't' with o and q)
+g	η	ETA (40/48)
+h	c	c (30 of 111; the rest are n)
+i	+o	0 (part), y (21/33)
+i	x	x (101/102)
+i	9-bowl with straight stem	q (41/47)
+i	ʒ-like g	g (32/55; 16 align with e)
+k	m	- (plain m 5 occurrences, unaligned)
+l	ƒɔ	A (142/146)
+m	φ (small)	PHI (56/63), PHI+ (3/3)
+n	e-like	c^ (74/80), e (52/71), c (79/111)
+o	S	- (no clear match; our S 5 occurrences align with a)
+o	+	t (82 of 162)
+o	T	T (47/47)
+o	7	7 (100/101), 8 (7/7)
+p	ʃʃ	SS (85/90)
+q	t	t (36 of 162)
+r	ꝏ (ω-like)	W (195/215)
+s	m with cross (ꝶ)	m+ (141/141)
+t	□	BOX (129/131)
+u	9 with hook	9 (43/53)
+u	H	H (42/42)
+u	4	4 (11/20; 9 align with i)
+u	ϵ	E (9/21; the null E of the key is the same letter shape)
+x	ꭓ with dot	- (not met)
+y	-	(no sign drawn)
+z	So	- (not met)
+null	"Nichil importantes": ŋ, a, f, B, E, G, h	a (aligned 20 t, 12 r: unclear), F, B, E (part), h, AP (a + tall paren), INT, Q
+word	Papa (A with cross)	-
+word	Fiorentini (X)	BIGX (1)
+word	Viniziani (℞-like)	RX (3), RX+ (2)
+word	Duca di Milano (large Φ)	PHI (2 of the 63: merged with m in our labels)
+word	Nicholo Piccinino (D in circle)	CIRC (4 of 20: merged with Lucca in our labels)
+word	Conte Francesco (Go)	-
+word	Luccha (⊙)	CIRC (16/20)
+word	Pisa	-
+word	Pistoia	-
+word	Siena	-
+word	Pontremoli	-
+word	Parma	-
+word	Pietrasanta	-
+word	Genova	-
+word	Bologna	-
+word	Messer Thomaso	-
+word	Cavagli (Cavalli)	-
+word	Fanti	-

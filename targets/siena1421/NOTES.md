@@ -6,6 +6,12 @@ Session of 24 September 2026. Goal set by Daniel: decipher the 29 cipher letters
 ("Lettere in cifra"), oldest dated 1421 per Meister 1902 pp. 50-51, "solo parzialmente decifrate" per the 1952
 inventory; first try the filed keys (fasc. 1) on every letter.
 
+**14 Oct 2026: nos. 6 and 24 deciphered** with key R4755 ("Cifra cum Christofano ...", fasc. 1) by George Lasry,
+with Claude and the help of ChatGPT Astra (key first recovered from the ciphertext, then matched to R4755); verified
+here on our own transcription and written up as a separate target: [`targets/siena1431/`](../siena1431/NOTES.md).
+R4755 was in the key index below (24 Sept) but was never tried on these two letters. Their entry under Remaining
+gaps, moved here: "nos. 6 + 24 (one system, ~4,300 tokens) - blocker: no-key-material; no filed key matches; ciphertext-only homophonic, null-aware and bigram solvers all fail (solver validated on a synthetic cipher of the same size); next step is a single-hand re-transcription with a fixed sign inventory."
+
 ## Access: the whole filza is on DECODE (found this session)
 
 The 23 Sept scan (`research/oldest/scan_2026-09-23/italy.md`) had only the Yale Ilardi reel 1503 (13 key frames). DECODE
@@ -180,6 +186,8 @@ Nos. 1, 2, 26, 27, 28 are not among the 25 pieces photographed. The fascicle cov
 
 ## No. 24 (R4812): same system as no. 6 (probable)
 
+(14 Oct 2026: confirmed; both deciphered with key R4755, see `targets/siena1431/`.)
+
 - Text side is P2 (~40 lines, continuous cipher); P1 = dorse with 8 run-over lines and the address "Magnifici et
   potenti signiori e ... Capitano di popolo della citta di Siena". Opens in clear "Magnifici et potentes domini
   domini mei singularissimi ... Recomendatione premissa //" like no. 6 ("Magnifici et potentes .d. .d. mei
@@ -228,6 +236,8 @@ Nos. 1, 2, 26, 27, 28 are not among the 25 pieces photographed. The fascicle cov
   signature group in cipher + "vostro". Too short alone.
 
 ## No. 24 P2 transcribed (agents H, I): same system as no. 6
+
+(14 Oct 2026: this transcription, decoded with key R4755, agrees with the outside reading at 69-88%; see `targets/siena1431/`.)
 
 - P2 = 38 lines, 2,720 tokens (m.01-20: 1,414; m.21-38: 1,306), every sign in the no. 6 legend; "a PAREN" 25x,
   "p p" ~66x, point-framed single signs (CIRC, RX+, BIGX, PHI, x) = probable name codes. With no. 6: 3,689 tokens
@@ -280,7 +290,6 @@ code signs (nomenclator), polyphony, or look-alike signs merged/split by the tra
 ## Remaining gaps
 
 - no. 1 (1421), nos. 2, 26, 27, 28 - blocker: needs-physical-access; not among the DECODE photographs of the busta (R4790-R4814); only ASSi can supply them.
-- nos. 6 + 24 (one system, ~4,300 tokens) - blocker: no-key-material; no filed key matches; ciphertext-only homophonic, null-aware and bigram solvers all fail (solver validated on a synthetic cipher of the same size); next step is a single-hand re-transcription with a fixed sign inventory.
 - nos. 20 + 23 (one system, ~4,900 tokens) - blocker: no-key-material; same situation; 'f' + o^n / a / o groups behave as units, probably a syllabic or nomenclator element.
 - no. 11 (Acciaiuoli 1478, 409 tokens) - blocker: no-key-material; Florentine cipher; Gabbrielli's key index has no key for Donato Acciaiuoli.
 - no. 17 (1528, 282 tokens) - blocker: too-short; 'cifra di Balia' not identified among the filed keys; ciphertext-only fails at this length.
@@ -295,7 +304,7 @@ code signs (nomenclator), polyphony, or look-alike signs merged/split by the tra
 
 - [x] siblings: every record of the busta opened (keys R4746-R4789, letters R4790-R4814, R1858); systems pooled (nos. 6+24, 20+23); no. 13/16 pair found.
 - [x] clear-pages: no. 16 = decipherment of no. 13; decipherment on no. 8's sheet; glosses on nos. 4, 7, 10 used; no. 22 clear drafts paired with numbered drafts; no. 24 P1 = dorse, not decipherment.
-- [x] known-keys: fasc. 1 alphabets compared by eye with every letter; R4750, R4753, R4754, R4756, R4757, R4762 transcribed and tested on nos. 4 and 7; R4760, R4768, R4778 on nos. 17 and 20; R4764 on no. 15; Gabbrielli vol. I index (Ilardi reel 58) for no. 11.
+- [x] known-keys: fasc. 1 alphabets compared by eye with every letter (R4755 missed for nos. 6/24; found by George Lasry, 14 Oct 2026, see siena1431); R4750, R4753, R4754, R4756, R4757, R4762 transcribed and tested on nos. 4 and 7; R4760, R4768, R4778 on nos. 17 and 20; R4764 on no. 15; Gabbrielli vol. I index (Ilardi reel 58) for no. 11.
 - [x] print: Senatore 2009 (identifies no. 4), Meister 1902, Cecchini 1952 inventory, Treccani DBI (Borghese, Benvoglienti); no printed decipherment of any piece found. (CSP, Bain, Forbes, Fraknoi, Nuntiaturberichte, Politische Correspondenz, Parke, Lasry GL.htm, Tomokiyo do not cover Sienese chancery letters.)
 - [x] key-rebuild: nos. 14, 18, 25 keys rebuilt by staged annealing + hand pinning on the images; no. 4 from its fragment and glosses; homsolve2/homsolve3 (nulls)/sylsolve (bigrams) on the open systems.
 - [x] retry: nos. 14 and 18 re-read sign by sign on the images with the extended keys (two passes each); no. 25 re-checked word by word; doubtful words regraded in the reading files.

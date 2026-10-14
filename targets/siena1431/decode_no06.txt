@@ -1,0 +1,17 @@
+# Our transcription of no06 (targets/siena1421/transcripts/no06_24all.tok) decoded with key R4755 as mapped
+# onto our sign labels by verify.py. "." = label with no key value (nulls, rare or merged signs); capitals =
+# word signs (L Lucca, P Piccinino, D Duca di Milano, V Viniziani, F Fiorentini). No word division.
+a..pe.b.ageo.sc.as.es.a..iant..a.udeb.mogna..penso.aanaatee.a.ae.din.ou.a..a.eo.
+.nmeuasugne..i.dalam.a.ando.aea..no.scriatoaaLcneep.erd.aasaanaain...cnancel..li
+eeraed.apitrolinoda.ueerm...es.ato.o.esaldrte.lesuer.gionieerestaaueereduca...tr
+ieilua.a...al.alidan.nealpsresentelameeta.erendolut.ctelesreeecose.eaat.lispera.
+aaadi.nuel.ledelcdnteluig.eecrede.icertol..as.aaconca.co..ilperceeeda.erebu.naad
+.erteenaaae.eseaueteebi.agnuod.agen.adarme.iasentro.areb.badeegliuom.n.aualeenti
+.e.enard.adi..atordoic.adi.uest.Lcominc.amandareee..uatr.cento.peera.are..pr.rel
+auiaperandareanL..eeamandato.itronbe..toiperlebr.gateicnesieeno.iper..estasemana
+.eseltenpdsarama.piibuon.separtiran.nopert.cto..estomeseee.alcnanceleliere.dim.s
+greant.niopetruc..torndd.milano.senaaaaueerea.actn.lalade.rtal.medeilprcnea..ac.
+nLeescris..sedin.ouoperldm.dolidomandai.erimandamoeilcnanceliereeam.lanoeLuiscr.
+uepera.ac..dig.ncenaao.dacameerin..eami.npnstouelorac.mandiedataad.dicennugedia.
+ebra.aacr..stoa.ano.deem.nt.c..cia.siracmandaeilean.nsacnordarac.lmpeercneuuolet
+rop..pecose

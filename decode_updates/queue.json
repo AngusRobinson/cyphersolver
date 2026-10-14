@@ -9297,6 +9297,70 @@
    "records": {},
    "note": "No DECODE record for the Revol letters or key no. 60 is known yet (DECODE not searched). If a record exists for fr. 3995 ff. 108-111 or fr. 3985 f. 88, attach key60.txt with these corrections: b = o- (ring, tail right), tu = -o-; c 4th = flag on a stem; d = ‡ (one stem, two bars) and ·x; i adds hook+cross; o 5th = \\\\; m 4th = m with loop below; u 4th = 2+, 5th = ‡ with loop; table f. 111: loop-on-stem with one bar = u, n+ = p, 2+ = u/J, closed 4+ = bien. fr. 3985 f. 88r read in part: '... de absolution', le Roy, qu'il (transcription targets/nevers1593/f88/ct_3985_f88.txt).",
    "sent": false
+  },
+  "siena1431": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/siena1431.html",
+   "key": {
+    "decode": "R4755 (Concistoro_2308_10, 'Cifra cum Christoforo Ghinucci[?]'), the key sheet filed in fasc. 1 of the same busta",
+    "lang": "IT"
+   },
+   "cite": "George Lasry (with Claude and ChatGPT Astra), 'Siena, two ciphered letters to the Signori (Concistoro 2308, nos. 6 and 24)', 14 Oct 2026; verified by D. Bourdeau, https://dbourdeau.github.io/cyphersolver/siena1431.html",
+   "fields": {
+    "plaintext_lang": "Italian",
+    "cleartext_lang": "Italian",
+    "cipher_types": "homophonic, nomenclator, nulls"
+   },
+   "records": {
+    "R4795": {
+     "decode_status": "N/A",
+     "proposed": "Partially",
+     "note": "Deciphered with key R4755 (Lasry, with Claude and ChatGPT Astra; key first recovered from the ciphertext); 93% of decrypted letters understood. Dated 19 February, c. 1431-38 (not 1500-1599), signed Cristofano de Mont[...], to the Signori of Siena.",
+     "reading": [
+      {
+       "file": "targets/siena1431/reading_no06.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "start_year": "1431",
+      "end_year": "1438",
+      "author": "Cristofano de Mont[...]",
+      "receiver": "Signori of Siena"
+     }
+    },
+    "R4812": {
+     "decode_status": "N/A",
+     "proposed": "Partially",
+     "note": "Deciphered with key R4755 (Lasry, with Claude and ChatGPT Astra); text side 73% of decrypted letters understood, dorse (8 run-over lines) only in part. Same writer as no. 6 (signed Crist[ofa]no on the dorse); c. 1431-38 (1437-38 fits best), not 1500-1599; to the Signori and Capitano di popolo of Siena.",
+     "reading": [
+      {
+       "file": "targets/siena1431/reading_no24.txt"
+      },
+      {
+       "file": "targets/siena1431/decode_no24_dorse.txt"
+      }
+     ],
+     "sent": false,
+     "fields": {
+      "start_year": "1431",
+      "end_year": "1438",
+      "author": "Cristofano",
+      "receiver": "Signori and Capitano di popolo of Siena"
+     }
+    },
+    "R4755": {
+     "decode_status": "N/A",
+     "proposed": "N/A",
+     "note": "Key record: no change of status proposed. It is the key of Concistoro 2308 fasc. 2 nos. 6 and 24 (R4795, R4812); the surname in the heading may be Montucci (cf. the signature 'Cristofano de Mont[...]' of no. 6) rather than Ghinucci. Dated c. 1431-38 by the letters it deciphers.",
+     "reading": null,
+     "reading_not_needed": true,
+     "sent": false,
+     "fields": {
+      "start_year": "1431",
+      "end_year": "1438"
+     }
+    }
+   }
   }
  },
  "rechteren1785": {

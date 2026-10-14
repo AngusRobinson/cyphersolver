@@ -1,5 +1,6 @@
 {
  "keys": [
+  {"id": "k-r4755", "label": "Cifra cum Christofano, Siena (DECODE R4755, Concistoro 2308 fasc. 1)", "kind": "DECODE key record", "by": "Sienese chancery", "year": 1431, "note": "Homophonic alphabet (36 signs), 7 nulls, 18 word signs. Recovered ciphertext-only by George Lasry with Claude and ChatGPT Astra, then matched to this sheet; deciphers Concistoro 2308 nos. 6 and 24. Year approximate (1431-38).", "image": {"src": "siena1431_key.jpg", "credit": "Archivio di Stato di Siena, Concistoro 2308 fasc. 1, via DECODE R4755", "caption": "The alphabet of R4755: four homophones under a, e, i, o, u; the nulls below", "page": "siena1431"}},
   {"id": "k-r8727-f106", "label": "Add MS 72438 f. 106 lower graphic alphabet (DECODE R8727)", "kind": "DECODE key record", "by": "Contemporary royalist key sheet", "year": 1645, "note": "Filed among the keys taken in Digby's coach (Oct 1645); its lower alphabet is the key of f. 107 (R8728). Year approximate.", "image": {"src": "rupert_f106.jpg", "credit": "British Library, Add MS 72438 f. 106r, via DECODE R8727", "caption": "The two graphic alphabets of f. 106; the lower one deciphers f. 107", "page": "rupert.html#f107"}},
   {"id": "k-r8655-118", "label": "Key 118, Ormond and Prince Rupert (DECODE R8655, Add MS 72438 ff. 59-60)", "kind": "DECODE key record", "by": "Royalist (Digby's coach)", "year": 1645, "note": "Letters 1-80, nulls 81-90, one-part words 91-434, letter+digit small words."},
   {"id": "k-r8687-123", "label": "Key 123, the King with the Queen (DECODE R8687, Add MS 72438 ff. 67-68)", "kind": "DECODE key record", "by": "Royalist (Digby's coach)", "year": 1645, "note": "Letters 1-79, words to 575; R8723 is a decipherer's worksheet of it."},
@@ -1942,6 +1943,7 @@
   {"id": "k-brancoveanu-polish", "label": "Brancoveanu chancellery key for Polish letters (a=19, b=60 ...)", "kind": "scholar's key", "by": "A. Mares 1987; M. W. Kaczka 2012", "year": 1709, "found": 1987, "note": "Simple numerical substitution with a few word codes (900 = August, 800 = Turcy), used by Constantin Brancoveanu's and Constantin Cantacuzino's chancellery for letters to Sieniawski, 1709-1714; printed by Kaczka, Danubius XXX (2012), n. 21."}
  ],
  "links": [
+  {"key": "k-r4755", "target": "siena1431", "how": "read unchanged", "note": "nos. 6 and 24; key first recovered ciphertext-only by the solver"},
   {"key": "k-r8727-f106", "target": "rupert", "how": "adapted", "note": "f. 107 (R8728): lower alphabet unchanged, five unlisted homophones added; 122 of 128 words"},
   {"key": "k-zifra-prima-1578", "target": "ottobon", "how": "adapted", "note": "applied to the corrected transcription with two homophones the sheet lacks (d83 = a, c86 = o); 981 of 1,565 groups deciphered"},
   {"key": "k-brussels1635", "target": "ferdinand3", "how": "rebuilt from", "note": "recovered from the draft R954 aligned with R1889; 450 of 463 tokens give the draft's letter"},
@@ -3004,6 +3006,7 @@
   }
  ],
  "source_links": [
+  {"source": "s-lasry", "key": "k-r4755"},
   {"source": "s-cyphersolver", "key": "k-brussels1635"},
   {"source": "s-cyphersolver", "key": "k-vienna1640"},
   {"source": "s-cyphersolver", "key": "k-stuttgart1634"},
@@ -3939,7 +3942,7 @@
   {
    "key": "k-siena-fasc1",
    "target": "siena1421",
-   "note": "Filed keys of fasc. 1 (R4746–R4789) compared; R4750, R4753-57, R4762, R4760, R4768, R4778, R4764 tested: no fit"
+   "note": "Filed keys of fasc. 1 (R4746–R4789) compared; R4750, R4753-57, R4762, R4760, R4768, R4778, R4764 tested: no fit (R4755 was indexed but not tried on nos. 6/24; it fits them: see siena1431)"
   },
   {
    "key": "k-brah915-keybook",

@@ -36,7 +36,7 @@
       "shelfmark": "ASSi, Concistoro 2308, fasc. 2 \"Lettere in cifra\", no. 6 (DECODE R4795)",
       "year": 1450,
       "country": "Siena",
-      "language": "unknown",
+      "language": "Italian",
       "cleartext_in_document": "separate passages",
       "plaintext": {
         "location": [
@@ -54,9 +54,9 @@
       "transcription": {
         "by": "llm from images",
         "image_quality": "good",
-        "notes": "same system as no. 24; year unknown (15th c. hand), 1450 is a placeholder decade estimate"
+        "notes": "same system as no. 24; year unknown (15th c. hand), 1450 is a placeholder decade estimate; 14 Oct 2026: deciphered with key R4755 by George Lasry (with Claude and ChatGPT Astra), verified and written up in targets/siena1431"
       },
-      "read": "not read",
+      "read": "read in part",
       "route": "? -> Siena (Signori)"
     },
     {
@@ -235,7 +235,7 @@
       "shelfmark": "ASSi, Concistoro 2308, fasc. 2 \"Lettere in cifra\", no. 24 (DECODE R4812)",
       "year": 1450,
       "country": "Siena",
-      "language": "unknown",
+      "language": "Italian",
       "cleartext_in_document": "separate passages",
       "plaintext": {
         "location": [
@@ -253,9 +253,9 @@
       "transcription": {
         "by": "llm from images",
         "image_quality": "fair",
-        "notes": "P2 only measured (P1 dorse 637 tokens in transcripts/no24.txt); same system as no. 6"
+        "notes": "P2 only measured (P1 dorse 637 tokens in transcripts/no24.txt); same system as no. 6; 14 Oct 2026: deciphered with key R4755 by George Lasry (with Claude and ChatGPT Astra), verified and written up in targets/siena1431"
       },
-      "read": "not read",
+      "read": "read in part",
       "route": "? -> Siena (Signori, Capitano di popolo)"
     },
     {
@@ -587,7 +587,8 @@
       "what": "No. 25 L03 'presa' re-checked on the DECODE image for the quotation list: second sign X (r) certain, excluding 'spesa'; blotted first sign has the looped-cross shape of Q (p), not PHI. 'senza altra presa fare' kept (p M, rest H); the opening through 'sarano a Radichondoli' reads continuously.",
       "result": "worked"
     },
-    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1316 tokens, 55 types, it-cinquecento order 4: reading -2.13 per letter; random keys -4.39 (z 7.4); key annealed onto shuffled ciphertext best -2.905 (mean -2.928, z 69.1); annealer on the real text -2.52. Verdict: pass.", "result": "worked"}
+    {"date": "2026-10-11", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 1316 tokens, 55 types, it-cinquecento order 4: reading -2.13 per letter; random keys -4.39 (z 7.4); key annealed onto shuffled ciphertext best -2.905 (mean -2.928, z 69.1); annealer on the real text -2.52. Verdict: pass.", "result": "worked"},
+    {"date": "2026-10-14", "kind": "key from source", "technique": ["key matching"], "what": "Nos. 6 and 24 deciphered with fasc. 1 key R4755 by George Lasry (with Claude and ChatGPT Astra; key first recovered ciphertext-only); verified here on our transcription and moved to targets/siena1431.", "result": "worked"}
    ],
   "outcome": {"validation": {"date": "2026-10-11", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 1316, "types": 55, "tokens_per_type": 23.93, "score": -2.13, "nulls": {"random keys": {"n": 200, "mean": -4.39, "sd": 0.307, "max": -3.767, "z": 7.4, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.928, "sd": 0.012, "max": -2.905, "z": 69.1, "p": 0.1429}}, "power": -2.52, "verdict": "pass", "notes": "claimed per-occurrence score -2.039; polyphony 0.027; 661 unread tokens left out; annealer on the real text from random keys reached -2.52"}, 
     "method": "key recovered from ciphertext-only",
@@ -608,10 +609,6 @@
       {
         "item": "no. 1 (1421), nos. 2, 26, 27, 28",
         "blocker": "needs-physical-access"
-      },
-      {
-        "item": "nos. 6 + 24 (one system, ~4,300 tokens)",
-        "blocker": "no-key-material"
       },
       {
         "item": "nos. 20 + 23 (one system, ~4,900 tokens)",
