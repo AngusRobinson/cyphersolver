@@ -154,10 +154,16 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
   sentences, `quote` one line from the reading, `rights` the archive's credit line.
 - Add the slug to `IMAGES`: `('<slug>_lead.jpg', 'caption', 'credit')`, or `None`. Every page needs the key.
 - Portraits of the correspondents (required; `_check_writeup.py` fails without one): for the principal sender and the principal recipient (named
-  people only), look for a public-domain portrait on Wikimedia Commons (Wikidata P18 is a good start; a painting,
-  drawing, engraving, medal or miniature; no photos of busts or tombs, no CC-BY files). Check the file's
-  description and dates match the person, not a namesake or relative. Reuse the image of anyone already in
-  `docs/_portraits.json`. Then
+  people only), research a public-domain portrait on Wikimedia Commons for each side separately; reusing one side
+  is not a reason to skip the other. Search in this order, and try each before giving up: the person's image
+  already in `docs/_portraits.json` (reuse it with the same `File:`); Wikidata P18; the lead image of their
+  Wikipedia article in every language that has one (en, fr, it, es, de, pt, nl: the API
+  `action=query&prop=pageimages&piprop=name&titles=<title>` returns it; pause a few seconds between calls, Wikimedia
+  answers HTTP 429 to bursts); their Commons category. Identify the person first: a title ("the Constable",
+  "the Grand Master", "the Duke of Nevers", "the King of Portugal") names a definite person at the letter's date,
+  so resolve it and look them up. Accept a painting, drawing, engraving, medal or miniature; no photos of busts or
+  tombs, no CC-BY or CC-BY-SA files, no coats of arms, signatures or street signs (a lead image is not always a
+  portrait). Check the file's description and dates match the person, not a namesake or relative. Then
   `python docs/_add_portrait.py <slug> sender|recipient "<name>" "File:<Commons file>" "<Portrait by X, 1590>"`,
   which checks the licence, crops the face and updates the manifest; the build puts the from/to strip under the
   title. Look at the crop (profiles are often missed). A figure cropped from a public-domain group scene is acceptable
@@ -167,6 +173,11 @@ in attribute and manifest strings (`&eacute;`, `&rsquo;`, `&mdash;`), plain UTF-
   date>". If the figure cannot be identified with confidence, do not crop. Leave a side out when the person is anonymous, an office,
   or has no trustworthy portrait. Skipping is allowed only when it is impossible: both sides anonymous or offices, not a letter
   between people, or nothing trustworthy on Commons after a real search. Then record why in `docs/_explore_skip.json` under `"portrait"`; the checker accepts that instead.
+  The same pass applies to pages that do not go through this skill: contributed results, batch imports and pages
+  built by a generator (e.g. `tools/lasry_bnf_pages.py` for George Lasry's BnF items). A generator writes the page,
+  not the portraits; run `_add_portrait.py` for every named correspondent afterwards. When adding several, make a
+  contact sheet of the new `docs/portrait_*.jpg` and look at every crop; recrop a missed face with `--box` (it saves
+  `portrait_<name>-2.jpg`; move it over the bad file and fix the name in `docs/_portraits.json`).
 - If the page is solved or partly read, update the `solved` survey entry's blurb and quote counts.
 
 ## 2a. The explore features: reveal, atlas, key web
