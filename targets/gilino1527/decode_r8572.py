@@ -12,7 +12,7 @@ Word division and doubtful marks are in reading_words.txt (hand-divided), merged
 """
 import re, sys, os, collections
 HERE = os.path.dirname(os.path.abspath(__file__))
-TOK = os.path.join(HERE, '..', 'r8572_tokens.txt')
+TOK = os.path.join(HERE, 'r8572_tokens.txt')
 
 KEY = {}
 def put(tok, val, src):

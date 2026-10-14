@@ -95,7 +95,7 @@
    2293
   ],
   "action": "exclude",
-  "reason": "Hieronimo Ranzo, fr. 2988 and 3019: the Ranzo/Garbino code, already tracked in TARGETS.md (targets/superscript/, targets/vasto1527/)."
+  "reason": "Hieronimo Ranzo, fr. 2988 and 3019: the Ranzo/Garbino code, already tracked in TARGETS.md (targets/ranzo1528/)."
  },
  {
   "ids": [
@@ -296,7 +296,7 @@
   ],
   "action": "patch",
   "on_list": "Tomokiyo",
-  "note": "On Tomokiyo's list (Hieronimo Ranzo); the same code as the Ranzo letters tracked in TARGETS.md (targets/superscript/)."
+  "note": "On Tomokiyo's list (Hieronimo Ranzo); the same code as the Ranzo letters tracked in TARGETS.md (targets/ranzo1528/)."
  },
  {
   "ids": [

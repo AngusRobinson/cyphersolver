@@ -1,37 +1,8 @@
 {
  "schema_version": 1,
  "target": "vasto1527",
- "title": "Marquis del Vasto to Charles V and the letter to \"Garbino\", 1527-28, BnF fr. 3022 nos. 6, 10, 20 (catalogue item 7)",
+ "title": "Marquis del Vasto to Charles V, Rome, early December 1527, BnF fr. 3022 no. 6 (Cipher 2; catalogue item 7)",
  "documents": [
-  {
-   "id": "no10",
-   "read": "read in part",
-   "shelfmark": "BnF fr. 3022 no. 10, ff. 26-28 + f. 39 (Gallica btv1b90601558 views 51-55, 76-77)",
-   "date": "27 Sep 1527",
-   "year": 1527,
-   "country": "Spain (Charles V)",
-   "route": "Ischia -> Charles V",
-   "language": "Spanish",
-   "cleartext_in_document": "unknown",
-   "plaintext": {
-    "location": [
-     "unrelated source"
-    ],
-    "source": "George Lasry's decryption (2023) with Satoshi Tomokiyo's edited text (2026), cryptiana GL.htm 'Gasto-Charles V Cipher 1'; copy in prior/BnF_fr3022_f26_decryption.txt. Some groups still marked '?'.",
-    "partial": true
-   },
-   "length": {
-    "tokens": "unknown",
-    "unit": "mixed",
-    "measured": false
-   },
-   "transcription": {
-    "by": "published",
-    "source": "Lasry/Tomokiyo decryption file (prior/)",
-    "image_quality": "unknown",
-    "notes": "Found already read by others; no work of this project on the text. The file is an edited plaintext (1,146 words, 47 carrying a '?', 19 of them a bare '?' for an unread group), not a sign transcription, so no cipher-token fraction is measured. Recorded as read in part (was 'read' until 22 Sept 2026) because the edited text still has queried words and garbled stretches and Tomokiyo asks for it to be completed."
-   }
-  },
   {
    "id": "no6",
    "read": "read",
@@ -62,77 +33,14 @@
     "image_quality": "good",
     "notes": "1,680 tokens = Lasry's 1,675 for ff. 16v-17v ('_' and <plaintext> dropped) + 5 from the image; counted by n6_measure.py, which also checks the token stream against Lasry's file. _check_profile.py --measure does not apply (the file is a reading table, not a bare ciphertext)."
    }
-  },
-  {
-   "id": "no20",
-   "read": "read in part",
-   "shelfmark": "BnF fr. 3022 no. 20, ff. 44r-46v (views 86-91); 18th-c. copy Clair. 327 ff. 279-280",
-   "date": "11 Apr 1528",
-   "year": 1528,
-   "country": "Spain (Charles V)",
-   "route": "Madrid -> Garbino",
-   "language": "Italian",
-   "pages": 6,
-   "cleartext_in_document": "interspersed",
-   "plaintext": {
-    "location": [
-     "unrelated source"
-    ],
-    "source": "Paolo Rosson, with Claude, 'The Venetian? cipher with superscript digits of 1528' (https://pangoleen.github.io/cipher-readings/centurione-1528.html, listed 6 Oct 2026; Cryptoole IT1520-1 marks it solved, Rosson and Lasry): key table of 779 values, found 14 Oct 2026. Applied to this project's transcription of f. 44r-46v it values 1,230 of 1,311 parsed groups (93.8%: sure, probable or null), 37 are guesses and 44 have no value; 1,046 (79.8%) lie in runs of six or more sure/probable values. Their own estimate: 86% of the cipher text in connected stretches, about 85% of tokens right, f. 46v weakest (66%). Not checked by a palaeographer."
-   },
-   "length": {
-    "tokens": 1321,
-    "distinct": "unknown",
-    "unit": "code groups",
-    "measured": true,
-    "file": "n20"
-   },
-   "transcription": {
-    "by": "llm from images",
-    "source": "Full-resolution Gallica scans of ff. 44r-46v; plus ~2,600 groups of Ranzo's signed letters in BnF fr. 2988 (n20/ranzo_c0*.txt) transcribed by subagents",
-    "image_quality": "unknown",
-    "notes": "Sum of --measure over n20/f44r, f44v, f45r, f45v, f46r, f46v.txt with --skip '^\\|' (155+73+316+171+366+240); includes one '·' separator and bracketed doubt marks. NOTES give 1,315 groups (546 types) after load.py drops those. 14 Oct 2026: Rosson's image check corrected 84 tokens by hypothesis, of which the images confirmed 76, and found that in fr. 2988 57 'g' are s and 63 't' are r (two hands); the corrections are applied in measure_rosson.py."
-   }
-  },
-  {
-   "id": "r1894",
-   "read": "read in part",
-   "shelfmark": "BnF fr. 2988 ff. 9r-10v (views 17-20; DECODE R1894), signed Hieronimo Ranzo, Madrid, March 1528; copy fr. 20506 f. 136 (DECODE R4450)",
-   "date": "March 1528",
-   "year": 1528,
-   "country": "Spain (Charles V)",
-   "route": "Madrid -> Ranzo's son",
-   "language": "Italian",
-   "pages": 4,
-   "cleartext_in_document": "none",
-   "plaintext": {
-    "location": [
-     "unrelated source"
-    ],
-    "source": "Rosson's key (see no20) applied to this transcription: 1,776 groups parsed; 1,727 (97.2%) valued sure, probable or null, 25 guesses, 24 without value; 1,654 (93.1%) in runs of six or more sure/probable values. The letter reads as Italian instructions about copying a cipher and addressing letters through Hieronimo Ranzo. Measured with measure_rosson.py."
-   },
-   "length": {
-    "tokens": 1789,
-    "distinct": "unknown",
-    "unit": "code groups",
-    "measured": true,
-    "file": "n20"
-   },
-   "transcription": {
-    "by": "llm from images",
-    "source": "Full-resolution Gallica scans of fr. 2988 ff. 9r-10v (views 17-20), transcribed by subagents (n20/ranzo_c017-c020.txt)",
-    "image_quality": "unknown",
-    "notes": "Sum of --measure over ranzo_c017 to c020 (499+510+514+266 tokens, counting '/' separators and doubt marks). Rosson's check of the images corrected some g/t tokens (see no20)."
-   }
   }
  ],
  "system": {
   "types": [
    "homophonic",
-   "nomenclator",
-   "code"
+   "nomenclator"
   ],
-  "summary": "Nos. 6/10: Caesar-shifted substitution over a 21-letter alphabet with homophones and three-letter b-/c-/d- code groups; no. 20: Ranzo's code of initial letter plus a non-alphabetical number.",
+  "summary": "Caesar-shifted substitution (+1) over a 21-letter alphabet with homophones, three-letter b-/c-/d- code groups, and two-per-syllable code signs (Lasry's 'Gasto-Charles V Cipher 2').",
   "symbol_kind": "letters and symbols",
   "distinct_symbols": "unknown",
   "diacritics": {
@@ -157,13 +65,13 @@
   "key_order": "random",
   "word_division": "none",
   "doubled_letters": "unknown",
-  "sibling_key": "No. 6 shares Lasry's Cipher 2 key with no. 19 (ff. 40-43, 6 Nov 1527), used for code contexts. No. 20 shares its code with Ranzo's signed letters in fr. 2988 and fr. 3019 no. 27; no key found.",
-  "notes": "No. 20 base lists per letter (a1-326 … z1-35) from the addition sheet (additione.json); numbering tested not alphabetical (n20/alphatest.py, z = -0.5 vs +6.5 on an alphabetical control), hence key_order random for no. 20. z-groups behave as nulls or punctuation."
+  "sibling_key": "No. 6 shares Lasry's Cipher 2 key with no. 19 (ff. 40-43, 6 Nov 1527), used for code contexts.",
+  "notes": "Split 14 Oct 2026: no. 20 and the Ranzo letters (a different, initial-letter code) are targets/ranzo1528/; no. 10 is in Cipher 1, a third system, read by Lasry and Tomokiyo and not reworked."
  },
  "conditions": {
   "prior_solution": {
    "exists": "online",
-   "where": "cryptiana GL.htm: Lasry 2023 / Tomokiyo 2026 reading of no. 10; Lasry 2026 preliminary letter-level decryption of no. 6 (Cipher 2). Nothing for no. 20. Rosson (with Claude) 6 Oct 2026, centurione-1528 page: a key for Ranzo's code (no. 20 and fr. 2988 ff. 9-10), found 14 Oct 2026 by a Cryptoole alert, after this project had closed no. 20 as unread. Lasry reports independent contemporaneous recovery with Claude Opus 5.5 and GPT-6 Astra, based on Norbert Biermann’s transcription. Cryptiana ranzo.htm (6 Oct 2026) records his report arriving hours after Rosson’s email; the two keys are not merged in this contribution.",
+   "where": "cryptiana GL.htm: Lasry 2026 preliminary letter-level decryption of no. 6 (Cipher 2), with its key; Lasry 2023 / Tomokiyo 2026 reading of no. 10 (Cipher 1, a different cipher, not part of this target).",
    "found": "during attempt",
    "used": true
   },
@@ -176,10 +84,6 @@
   "attack": "published key",
   "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
   "tools": [
-   "word-substitution annealer with Kneser-Ney word-bigram Italian LM (n20/solve2.py)",
-   "alphabetical-order test with power check (n20/alphatest.py)",
-   "annealers assuming alphabetical order (n20/solve.py, anchor.py, free.py)",
-   "calibration on encoded Castiglione control (n20/calib.py)",
    "sign-level reading file and measure (n6_signs.tsv, n6_measure.py)"
   ],
   "models": [
@@ -213,48 +117,6 @@
    "kind": "reading",
    "what": "Identified about 40 b-/c-/d- code groups of no. 6 from context across nos. 6 and 19 (doz = Lautreque, deh = la Marca, dnb = dinero …) and made an edited reading (n6_reading.md); about 15 codes and some stretches open.",
    "result": "partial"
-  },
-  {
-   "date": "2026-09-18",
-   "kind": "transcription",
-   "what": "Transcribed no. 20 (1,315 groups) and ~2,600 groups of Ranzo's signed letters in fr. 2988; addition sheet transcribed (additione.json).",
-   "result": "worked"
-  },
-  {
-   "date": "2026-09-18",
-   "kind": "hypothesis",
-   "technique": [
-    "key-structure hypothesis"
-   ],
-   "what": "No. 20 code is initial letter + number, the number running in alphabetical order within each letter (solve.py, anchor.py).",
-   "result": "ruled out"
-  },
-  {
-   "date": "2026-09-18",
-   "kind": "control",
-   "what": "Word annealer (solve2.py) on a held-out 3,900-word Castiglione control encoded the same way: ~46 % token, ~9 % type accuracy.",
-   "result": "partial"
-  },
-  {
-   "date": "2026-09-18",
-   "kind": "solver",
-   "technique": [
-    "automated search (unspecified)"
-   ],
-   "what": "solve2.py on no. 20 + Ranzo: a stable function-word skeleton (che, il, per, non …) across six restarts; no content words.",
-   "result": "failed"
-  },
-  {
-   "date": "2026-09-18",
-   "kind": "literature search",
-   "what": "Sought cribs: Clair. 327 and Clair. 314 copies (undeciphered), fr. 2988 other cipher pieces (a different French cipher), fr. 3019 no. 27 Ranzo letter (no decipherment), no duplicate text between no. 20 and Ranzo letters.",
-   "result": "failed"
-  },
-  {
-   "date": "2026-09-21",
-   "kind": "access",
-   "what": "DECODE R1894 (catalogue 170) identified as the fr. 2988 Ranzo letter already transcribed; no key or decipherment on the record.",
-   "result": "failed"
   },
   {
    "date": "2026-09-22",
@@ -304,37 +166,9 @@
   },
   {
    "date": "2026-10-14",
-   "kind": "literature search",
-   "what": "A Cryptoole alert (IT1520-1, solved 6 Oct 2026 by Paolo Rosson and George Lasry) led to Rosson's page and files (key/table.tsv, reading/islands.md, decode.py). Their reading uses this project's transcription for fr. 3022 no. 20 and fr. 2988, and a new transcription of the duplicate fr. 3019 ff. 73-74. No. 20 was not unread for lack of a key after all.",
-   "result": "worked"
-  },
-  {
-   "date": "2026-10-14",
    "kind": "verification",
-   "technique": [
-    "key matching",
-    "contextual inference"
-   ],
-   "what": "Applied Rosson's 779-value key (with his transcription corrections) to n20/f44r-f46v and ranzo_c006-c020. Groups with a value (sure, probable, null): no. 20 93.8%, R1894 (c017-c020) 97.2%; in runs of six or more sure/probable values: no. 20 79.8%, R1894 93.1%. Spot check: c017 and c020 decode as coherent 1528 Italian. Below the 95% bar on the connected-stretch measure; 84 groups of 3,903 have no value. Did not rerun their blind controls.",
-   "result": "partial"
-  },
-  {
-   "date": "2026-10-06",
-   "kind": "reading",
-   "technique": [
-    "crib testing",
-    "repeat/pattern analysis",
-    "key-structure hypothesis",
-    "contextual inference"
-   ],
-   "what": "Contributed research history: George Lasry, collaborating with Claude Opus 5.5 and GPT-6 Astra, reconstructed a working Ranzo key from Norbert Biermann’s five-letter transcription. Selected values were checked against the historical addition. The Codex consolidation retains tentative proposals; this is dated source history, not work newly done on 14 October.",
-   "result": "worked"
-  },
-  {
-   "date": "2026-10-14",
-   "kind": "verification",
-   "what": "Prepared the Codex consolidation for contribution: reproduced 541 line-aligned readings, 6,428 cipher occurrences, all 871 key frequencies and two precisely bounded excerpts with translations. Checked the Cryptiana contemporaneous reports. Coverage includes hypotheses and is not measured plaintext correctness.",
-   "result": "worked"
+   "result": "worked",
+   "what": "Split the combined catalogue item 7 target after George Lasry pointed out that it mixed different ciphers: del Vasto's no. 6 (Cipher 2, shifted letters with code groups; sibling no. 19) stays in vasto1527; no. 20 and the Ranzo letters (initial-letter code with numbered word lists) moved to ranzo1528; no. 10 (Cipher 1, read by Lasry and Tomokiyo, not reworked) is a cross-reference only."
   }
  ],
  "outcome": {
@@ -369,17 +203,17 @@
    "notes": "claimed per-occurrence score -1.888; polyphony 0.04; 49 unread tokens left out; annealer on the real text from random keys reached -1.921"
   },
   "method": "read with known key",
-  "method_basis": "No. 6 was read with Lasry's 2026 preliminary decryption and key for 'Gasto-Charles V Cipher 2' (cryptiana GL.htm), extended with about 40 code groups from context and glyph checks (92.6% to 98.0%); no. 10 is Lasry and Tomokiyo's reading, not reworked; the original solver did not decipher no. 20. Independent contemporaneous Ranzo reconstructions by Rosson and Lasry are documented separately below.",
+  "method_basis": "No. 6 was read with Lasry's 2026 preliminary decryption and key for 'Gasto-Charles V Cipher 2' (cryptiana GL.htm), extended with about 40 code groups from context and glyph checks (92.6% to 98.0%).",
   "contribution": [
    "transcription",
    "key extended or corrected",
    "sender or date identified"
   ],
-  "class": "read in part",
+  "class": "read",
   "key": "partial",
-  "fraction_read": 0.5485,
+  "fraction_read": 0.98,
   "fraction_read_method": "measured",
-  "fraction_read_source": "Nos. 6 and 20 (no. 10 excluded: read by others, not reworked). No. 6: 1,646 of 1,680 cipher tokens read (n6_signs.tsv via n6_measure.py, 98.0%); no. 20: 0 of 1,321 groups (n20/f44r-f46v.txt). (1,646)/(1,680+1,321) = 0.5485. No. 6 alone meets the 95% bar; no. 20 is blocked (no key material).",
+  "fraction_read_source": "No. 6: 1,646 of 1,680 cipher tokens read (n6_signs.tsv via n6_measure.py, 98.0%).",
   "codes_open": {
    "open": 10,
    "tokens_open": 11
@@ -401,20 +235,10 @@
     "item": "No. 6 nine short stretches (23 tokens): 'y y por [mq]', 'es [en de las los]', '[es de] otro exercito', 'servira [que de con]', 'ira [que l] camino', '[der de] pais', 'en [cnt] parte', 'esperar [es]', 'apuntamiento [es]'",
     "blocker": "open-codes",
     "detail": "Signs transcribed but the syllable-sign values do not make sense there; Lasry's labels probably merge different glyphs. Needs glyph-level retranscription."
-   },
-   {
-    "item": "No. 10: 47 queried words in Lasry/Tomokiyo's edited text",
-    "blocker": "open-codes",
-    "detail": "Found read by others, not reworked, no sign transcription to measure."
-   },
-   {
-    "item": "No. 20 and R1894 (fr. 2988 ff. 9-10): 84 groups without a value and 76 guesses in 3,903 parsed groups",
-    "blocker": "open-codes",
-    "detail": "Rosson's key leaves 86 groups unvalued by his count; stems and numbers 6-9 spelling signs remain. Needs a comparison of their readings with the images, and the other Ranzo letters (fr. 2988 ff. 2r-v, fr. 3019 f. 73 duplicate) transcribed."
    }
   ],
-  "notes": "Per document: no. 6 read (98.0% measured, 22 Sept 2026; was 'read' unmeasured on 18 Sept); no. 10 read in part by Lasry/Tomokiyo, not measured; no. 20 not read. The target stays read in part because no. 20 is unread. Grades: 34 values inferred from context (24 code groups, 8 syllable signs, 2 switch markers); Lasry's letter key is taken as it stands. NOTES.md has '## Remaining gaps' and '## Escalation'. 14 Oct 2026: no. 20 is no longer unread: Rosson's key (6 Oct 2026) reads it in part; see parts. fraction_read still counts only this project's own reading (no. 6). Lasry’s separate Biermann-based five-letter edition is now contributed in lasry/: 6,428 cipher occurrences, 871 observed proposed mappings, 5,967/6,221 non-null occurrences assigned including hypotheses. This coverage is not a plaintext accuracy estimate. Existing statistical validation is for no. 6, not the new Ranzo edition.",
-  "provenance": "mixed",
+  "notes": "No. 6 read (98.0% measured, 22 Sept 2026; was 'read' unmeasured on 18 Sept). Grades: 34 values inferred from context (24 code groups, 8 syllable signs, 2 switch markers); Lasry's letter key is taken as it stands. Until 14 Oct 2026 this target also held no. 10 (Cipher 1) and no. 20 with the Ranzo letters (now targets/ranzo1528/).",
+  "provenance": "project",
   "credits": [
    {
     "who": "lasry",
@@ -422,65 +246,6 @@
     "note": "Gasto-Charles V Cipher 2 key and preliminary decryption of no. 6 (and f. 40), cryptiana GL.htm",
     "date": "2026",
     "source": "https://cryptiana.web.fc2.com/code/GL.htm"
-   },
-   {
-    "who": "lasry",
-    "role": "prior solution",
-    "note": "no. 10 read (Cipher 1), not reworked here",
-    "date": "2023",
-    "source": "https://cryptiana.web.fc2.com/code/GL.htm"
-   },
-   {
-    "who": "tomokiyo",
-    "role": "prior solution",
-    "note": "edited text of no. 10",
-    "date": "2026",
-    "source": "https://cryptiana.web.fc2.com/code/GL.htm"
-   },
-   {
-    "who": "lasry",
-    "role": "solution",
-    "note": "Independent contemporaneous Ranzo decipherment in collaboration with Claude Opus 5.5 and GPT-6 Astra, from Norbert Biermann’s transcription; five-letter Codex consolidation, visual key and translated excerpts.",
-    "date": "2026-10-06",
-    "source": "https://github.com/dbourdeau/cyphersolver/tree/main/targets/vasto1527/lasry",
-    "published": true
-   },
-   {
-    "who": "biermann",
-    "role": "transcription",
-    "note": "Ranzo transcript.docx (2021), five letters, supplied by George Lasry; basis of the contributed key and decipherment.",
-    "source": "https://github.com/dbourdeau/cyphersolver/tree/main/targets/vasto1527/lasry"
-   },
-   {
-    "who": "rosson",
-    "role": "prior solution",
-    "note": "Independent contemporaneous solution with Claude, reported alongside Lasry’s by Tomokiyo on 6 October 2026; the existing project section applies Rosson’s key separately.",
-    "date": "2026-10-06",
-    "source": "https://pangoleen.github.io/cipher-readings/centurione-1528.html",
-    "published": true
-   }
-  ],
-  "parts": [
-   {
-    "label": "No. 6 (del Vasto to Charles V, Dec 1527)",
-    "records": "BnF fr. 3022 no. 6",
-    "method": "read with known key",
-    "extent": "complete",
-    "basis": "Lasry's Cipher 2 key extended; 98.0% measured"
-   },
-   {
-    "label": "No. 10",
-    "records": "BnF fr. 3022 no. 10",
-    "method": "read from existing decipherment",
-    "extent": "partial",
-    "basis": "Lasry and Tomokiyo, not reworked"
-   },
-   {
-    "label": "No. 20 and the Ranzo letters",
-    "records": "BnF fr. 3022 no. 20; fr. 2988 ff. 9-10 (DECODE R1894, R4450)",
-    "method": "read from existing decipherment",
-    "extent": "partial",
-    "basis": "Paolo Rosson with Claude, 6 Oct 2026; 79.8% (no. 20) and 93.1% (R1894) in connected stretches here, 14 Oct 2026"
    }
   ]
  }

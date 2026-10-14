@@ -22,6 +22,16 @@ not from memory. The slug is the folder name unless a page already exists under 
 - `git fetch origin` and read `origin/main:docs/_build_site.py`, not the branch copy, if they differ: main's is newer.
 - Read one recent page for tone and structure: `docs/gramont1529.html` (solved), `docs/lorraine1592.html`
   (partly read), `docs/orpo1942.html` (attempted, not solved).
+- **One key, one entry.** Solutions are presented by key or cipher system (George Lasry, 14 Oct 2026). Never
+  combine in one target, page or ledger row documents that use different ciphers just because they share
+  something else: the same collection or volume, sender, recipient, embassy, date, or a feature such as
+  superscript digits. That is confusing and error-prone (`superscript` mixed Ghinucci's Worcester syllabary with
+  Gilino's Sforza key; `vasto1527` mixed del Vasto's letter cipher with Ranzo's initial-letter code; both were
+  split on 14 Oct 2026 into ghinucci1527/gilino1527 and vasto1527/ranzo1528). Several letters in the same key
+  belong together; a letter in another key gets its own folder and page, and the pages link each other in one
+  sentence ("a different cipher, with its own page"). A sibling key that was tried and ruled out, or another
+  cipher mentioned as context, is fine. Before writing, check that every document in the profile shares the key;
+  if `outcome.parts` would carry two different keys or systems, split the target instead.
 - Decide the outcome method (George Lasry's categories, `docs/_methods.py`, `docs/glossary.html`) and write it
   into the profile: `outcome.method`, `outcome.method_basis` (one sentence of evidence), `outcome.contribution`.
   `python docs/_classify_outcomes.py` proposes one from the profile's fields; decide from NOTES. The extent

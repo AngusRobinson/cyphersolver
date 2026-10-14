@@ -1,623 +1,857 @@
 {
  "slug": "vasto1527",
- "anchor": "n20x",
- "title": "Madrid, March 1528: the end of Ranzo's letter, read with Rosson's key",
- "caption": "The first 150 groups of the last page of the letter signed Hieronimo Ranzo (BnF fr. 2988 ff. 9r-10v, view 20), in this project's transcription, each group replaced by its value in Paolo Rosson's key (6 Oct 2026). Stems and spelling signs are separate groups, so words are split; grey-marked values are his guesses.",
- "unit": "code groups",
- "key_note": "Key: Rosson, key/table.tsv, with his transcription corrections. Sure and probable values are shown alike.",
+ "anchor": "n6",
+ "title": "Del Vasto to Charles V, December 1527: the first cipher lines",
+ "caption": "BnF fr. 3022 no. 6, f. 16v, lines 2-6 of the cipher, in Lasry's sign labels (n6_signs.tsv), each sign replaced by its value in his Cipher 2 key as extended here. Grey-marked values are inferred from context (grade I); bracketed groups are code.",
+ "unit": "signs",
+ "key_note": "Letters are shifted one place over a 21-letter alphabet with homophones; three-letter groups beginning b, c, d are code words; a few signs stand for syllables or words (Lasry's labels por, qve, con, la, de).",
  "tokens": [
   {
-   "g": "f131",
-   "p": "fornari"
+   "g": "<12>",
+   "p": "?",
+   "cls": "unk"
   },
   {
-   "g": "q12",
-   "p": "qual"
+   "g": "p",
+   "p": "?",
+   "cls": "unk"
   },
   {
-   "g": "s7",
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "c",
+   "p": "c"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "e",
    "p": "e"
   },
   {
-   "g": "p53",
-   "p": "partito"
+   "g": "o",
+   "p": "o"
   },
   {
-   "g": "p149",
-   "p": "per"
+   "g": "",
+   "p": " ",
+   "cls": "plain"
   },
   {
-   "g": "i295",
-   "p": "italia"
+   "g": "m",
+   "p": "m"
   },
   {
-   "g": "i221",
-   "p": "insieme",
-   "cls": "unc"
-  },
-  {
-   "g": "i318",
-   "p": "iulian",
-   "cls": "unc"
-  },
-  {
-   "g": "z8",
+   "g": "a",
    "p": "a"
   },
   {
-   "g": "p270",
-   "p": "porta"
-  },
-  {
-   "g": "r41",
-   "p": "re"
-  },
-  {
-   "g": "s346",
-   "p": "su"
-  },
-  {
-   "g": "m10",
-   "p": "ma"
-  },
-  {
-   "g": "d36",
-   "p": "de"
-  },
-  {
-   "g": "d96",
-   "p": "denari"
-  },
-  {
-   "g": "p149",
-   "p": "per"
-  },
-  {
-   "g": "p32",
-   "p": "pagament"
-  },
-  {
-   "g": "m7",
-   "p": "o"
-  },
-  {
-   "g": "d35",
-   "p": "de"
-  },
-  {
-   "g": "c32",
-   "p": "cambi"
-  },
-  {
-   "g": "n7",
-   "p": "i"
-  },
-  {
-   "g": "c170",
-   "p": "che"
-  },
-  {
-   "g": "l131",
-   "p": "lui"
-  },
-  {
-   "g": "y34",
-   "p": "et"
-  },
-  {
-   "g": "s327",
-   "p": "?",
-   "cls": "unk"
-  },
-  {
-   "g": "h34",
-   "p": "hano"
-  },
-  {
-   "g": "f15",
-   "p": "fato"
-  },
-  {
-   "g": "d10",
-   "p": "da"
-  },
-  {
-   "g": "p29",
-   "p": "paga"
-  },
-  {
-   "g": "r41",
-   "p": "re"
-  },
-  {
-   "g": "a127",
-   "p": "al"
-  },
-  {
-   "g": "e145",
-   "p": "exercito"
-  },
-  {
-   "g": "h10",
-   "p": "ha"
-  },
-  {
-   "g": "f15",
-   "p": "fato"
-  },
-  {
-   "g": "g140",
-   "p": "grande"
-  },
-  {
-   "g": "o126",
-   "p": "opera"
-  },
-  {
-   "g": "c216",
-   "p": "col"
-  },
-  {
-   "g": "m108",
-   "p": "medio",
-   "cls": "unc"
-  },
-  {
-   "g": "d78",
-   "p": "del"
-  },
-  {
-   "g": "d156",
-   "p": "detto"
-  },
-  {
-   "g": "i318",
-   "p": "iulian",
-   "cls": "unc"
-  },
-  {
-   "g": "p149",
-   "p": "per"
-  },
-  {
-   "g": "e75",
-   "p": "esser"
-  },
-  {
-   "g": "p32",
-   "p": "pagament"
-  },
-  {
-   "g": "c7",
-   "p": "u"
-  },
-  {
-   "g": "t89",
-   "p": "to"
-  },
-  {
-   "g": "d78",
-   "p": "del"
-  },
-  {
-   "g": "o105",
-   "p": "officio"
-  },
-  {
-   "g": "d35",
-   "p": "de"
-  },
-  {
-   "g": "r41",
-   "p": "re"
-  },
-  {
-   "g": "c136",
-   "p": "ce"
-  },
-  {
-   "g": "i7",
-   "p": "p"
-  },
-  {
-   "g": "t89",
-   "p": "to"
-  },
-  {
-   "g": "r41",
-   "p": "re"
-  },
-  {
-   "g": "n60",
-   "p": "nel"
-  },
-  {
-   "g": "d156",
-   "p": "detto"
-  },
-  {
-   "g": "e145",
-   "p": "exercito"
-  },
-  {
-   "g": "y20",
-   "p": "et"
-  },
-  {
-   "g": "n90",
-   "p": "non"
-  },
-  {
-   "g": "v224",
-   "p": "vole"
-  },
-  {
-   "g": "v10",
-   "p": "va"
-  },
-  {
-   "g": "a153",
-   "p": "altra"
-  },
-  {
-   "g": "m136",
-   "p": "mente"
-  },
-  {
-   "g": "f13",
-   "p": "far"
-  },
-  {
-   "g": "e25",
-   "p": "el"
-  },
-  {
-   "g": "c32",
-   "p": "cambi"
-  },
-  {
-   "g": "m8",
-   "p": "o"
-  },
-  {
-   "g": "y21",
-   "p": "et"
-  },
-  {
-   "g": "c321",
-   "p": "cort",
-   "cls": "unc"
-  },
-  {
-   "g": "p150",
-   "p": "perche"
-  },
-  {
-   "g": "g21",
-   "p": "?",
-   "cls": "unk"
-  },
-  {
-   "g": "s138",
-   "p": "se"
-  },
-  {
-   "g": "i100",
-   "p": "in"
-  },
-  {
-   "g": "q47",
-   "p": "quelle"
-  },
-  {
-   "g": "n40",
-   "p": "necessita"
-  },
-  {
-   "g": "c227",
-   "p": "como"
-  },
-  {
-   "g": "h10",
-   "p": "ha"
-  },
-  {
-   "g": "f15",
-   "p": "fato"
-  },
-  {
-   "g": "Q20",
-   "p": "con"
-  },
-  {
-   "g": "d15",
-   "p": "dano"
-  },
-  {
-   "g": "y13",
-   "p": "et"
-  },
-  {
-   "g": "r278",
-   "p": "risico",
-   "cls": "unc"
-  },
-  {
-   "g": "s346",
-   "p": "su"
-  },
-  {
-   "g": "m8",
-   "p": "o"
-  },
-  {
-   "g": "g1",
-   "p": "_",
-   "cls": "null"
-  },
-  {
-   "g": "l107",
-   "p": "lo"
-  },
-  {
-   "g": "h34",
-   "p": "hano"
-  },
-  {
-   "g": "r140",
-   "p": "remes"
-  },
-  {
-   "g": "m8",
-   "p": "o"
-  },
-  {
-   "g": "z8",
-   "p": "a"
-  },
-  {
-   "g": "l77",
-   "p": "li"
-  },
-  {
-   "g": "m188",
-   "p": "ministri",
-   "cls": "unc"
-  },
-  {
-   "g": "q2",
-   "p": "_",
-   "cls": "null"
-  },
-  {
-   "g": "Q23",
-   "p": "con"
-  },
-  {
-   "g": "l99",
-   "p": "littere"
-  },
-  {
-   "g": "d36",
-   "p": "de"
-  },
-  {
-   "g": "r41",
-   "p": "re"
-  },
-  {
-   "g": "c208",
-   "p": "co"
-  },
-  {
-   "g": "m131",
-   "p": "men"
-  },
-  {
-   "g": "d10",
-   "p": "da"
-  },
-  {
-   "g": "c187",
-   "p": "cione"
-  },
-  {
-   "g": "D9",
-   "p": "vu"
-  },
-  {
-   "g": "o9",
-   "p": "l"
-  },
-  {
-   "g": "g10",
-   "p": "ga"
-  },
-  {
-   "g": "r41",
-   "p": "re"
-  },
-  {
-   "g": "d35",
-   "p": "de"
-  },
-  {
-   "g": "s271",
-   "p": "soa maesta"
-  },
-  {
-   "g": "c171",
-   "p": "chi"
-  },
-  {
-   "g": "c170",
-   "p": "che"
-  },
-  {
-   "g": "s9",
-   "p": "e"
-  },
-  {
-   "g": "v191",
-   "p": "uno"
-  },
-  {
-   "g": "p256",
-   "p": "poco"
-  },
-  {
-   "g": "d37",
-   "p": "de"
-  },
-  {
-   "g": "a89",
-   "p": "?",
-   "cls": "unk"
-  },
-  {
-   "g": "l131",
-   "p": "lui"
-  },
-  {
-   "g": "s233",
-   "p": "si"
-  },
-  {
-   "g": "s8",
-   "p": "e"
-  },
-  {
-   "g": "p10",
-   "p": "pa"
-  },
-  {
-   "g": "e7",
+   "g": "s",
    "p": "s"
   },
   {
-   "g": "c183",
-   "p": "ci"
+   "g": "",
+   "p": " ",
+   "cls": "plain"
   },
   {
-   "g": "c8",
+   "g": "p",
+   "p": "p"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "s",
+   "p": "s"
+  },
+  {
+   "g": "t",
+   "p": "t"
+  },
+  {
+   "g": "o",
+   "p": "o"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "s",
+   "p": "s"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "fin",
+   "p": "esto",
+   "cls": "unc"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "por",
+   "p": "por"
+  },
+  {
+   "g": "qve",
+   "p": "que"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "s",
+   "p": "s"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "g",
+   "p": "g"
+  },
+  {
+   "g": "v",
    "p": "u"
   },
   {
-   "g": "t89",
-   "p": "to"
+   "g": "n",
+   "p": "n"
   },
   {
-   "g": "d36",
-   "p": "de"
+   "g": "",
+   "p": " ",
+   "cls": "plain"
   },
   {
-   "g": "q49",
-   "p": "questo"
+   "g": "la",
+   "p": "la"
   },
   {
-   "g": "f196",
-   "p": "fumo"
+   "g": "",
+   "p": " ",
+   "cls": "plain"
   },
   {
-   "g": "y31",
-   "p": "et"
+   "g": "[dnh]",
+   "p": "?",
+   "cls": "unk"
   },
   {
-   "g": "f10",
-   "p": "fa"
+   "g": "",
+   "p": " ",
+   "cls": "plain"
   },
   {
-   "g": "c185",
-   "p": "cia"
+   "g": "no",
+   "p": "no"
   },
   {
-   "g": "m3",
-   "p": "_",
-   "cls": "null"
+   "g": "",
+   "p": " ",
+   "cls": "plain"
   },
   {
-   "g": "i306",
-   "p": "iudicio"
+   "g": "la",
+   "p": "la"
   },
   {
-   "g": "d34",
-   "p": "de"
+   "g": "",
+   "p": " ",
+   "cls": "plain"
   },
   {
-   "g": "f16",
-   "p": "fati"
+   "g": "s",
+   "p": "s"
   },
   {
-   "g": "s270",
-   "p": "soi"
+   "g": "e",
+   "p": "e"
   },
   {
-   "g": "m10",
-   "p": "ma"
+   "g": "g",
+   "p": "g"
   },
   {
-   "g": "i29",
-   "p": "il"
+   "g": "v",
+   "p": "u"
   },
   {
-   "g": "t164",
-   "p": "tuto"
-  },
-  {
-   "g": "r205",
-   "p": "rest"
-  },
-  {
-   "g": "n8",
+   "g": "i",
    "p": "i"
   },
   {
-   "g": "s139",
-   "p": "se"
+   "g": "r",
+   "p": "r"
   },
   {
-   "g": "p373",
-   "p": "pu"
+   "g": "a",
+   "p": "a"
   },
   {
-   "g": "o7",
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "en",
+   "p": "en"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "v",
+   "p": "u"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "t",
+   "p": "t"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "a",
+   "p": "?"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "<33>",
+   "p": "del"
+  },
+  {
+   "g": "i",
+   "p": "a"
+  },
+  {
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "t",
+   "p": "t"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "no",
+   "p": "no"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "qve",
+   "p": "que"
+  },
+  {
+   "g": "d",
+   "p": "d"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "d",
+   "p": "d"
+  },
+  {
+   "g": "o",
+   "p": "o"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "en",
+   "p": "en"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "lo",
+   "p": "lo"
+  },
+  {
+   "g": "b",
+   "p": "mb"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "d",
+   "p": "d"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "x",
+   "p": "x"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "c",
+   "p": "c"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "t",
+   "p": "t"
+  },
+  {
+   "g": "o",
+   "p": "o"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "[bet]",
+   "p": "dello",
+   "cls": "code"
+  },
+  {
+   "g": "s",
+   "p": "s",
+   "cls": "unc"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "t",
+   "p": "t"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "p",
+   "p": "p"
+  },
+  {
+   "g": "v",
+   "p": "u"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "t",
+   "p": "t"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "qve",
+   "p": "que"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "p",
+   "p": "p"
+  },
+  {
+   "g": "v",
+   "p": "u"
+  },
+  {
+   "g": "d",
+   "p": "d"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "s",
+   "p": "s"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "s",
+   "p": "s"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "s",
+   "p": "s"
+  },
+  {
+   "g": "t",
+   "p": "t"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "v",
+   "p": "u"
+  },
+  {
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "g",
+   "p": "g"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "v",
+   "p": "u"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "s",
+   "p": "s"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "b",
+   "p": "b"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "d",
+   "p": "d"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "al",
+   "p": "de",
+   "cls": "unc"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "l",
    "p": "l"
   },
   {
-   "g": "t89",
-   "p": "to"
+   "g": "e",
+   "p": "e"
   },
   {
-   "g": "i10",
-   "p": "ia"
+   "g": "m",
+   "p": "m"
   },
   {
-   "g": "y27",
-   "p": "et"
+   "g": "a",
+   "p": "a"
   },
   {
-   "g": "t90",
-   "p": "toa"
+   "g": "n",
+   "p": "n"
   },
   {
-   "g": "m11",
-   "p": "madre"
+   "g": "e",
+   "p": "e"
   },
   {
-   "g": "y10",
-   "p": "et"
+   "g": "s",
+   "p": "s"
   },
   {
-   "g": "d179",
-   "p": "di"
+   "g": "",
+   "p": " ",
+   "cls": "plain"
   },
   {
-   "g": "m107",
-   "p": "me"
+   "g": "qve",
+   "p": "que"
   },
   {
-   "g": "s177",
-   "p": "sempre"
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "p",
+   "p": "p"
+  },
+  {
+   "g": "o",
+   "p": "o"
+  },
+  {
+   "g": "d",
+   "p": "d"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "al",
+   "p": "el",
+   "cls": "unc"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "e",
+   "p": "e"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "de",
+   "p": "de"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "v",
+   "p": "u"
+  },
+  {
+   "g": "n",
+   "p": "n"
+  },
+  {
+   "g": "g",
+   "p": "g"
+  },
+  {
+   "g": "r",
+   "p": "r"
+  },
+  {
+   "g": "i",
+   "p": "i"
+  },
+  {
+   "g": "a",
+   "p": "a"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "por",
+   "p": "por"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "[di]",
+   "p": "mandado",
+   "cls": "code"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "de",
+   "p": "de"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "[title1]",
+   "p": "u"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "[title2]",
+   "p": "m"
+  },
+  {
+   "g": "",
+   "p": " ",
+   "cls": "plain"
+  },
+  {
+   "g": "",
+   "p": ". ",
+   "cls": "plain"
   }
  ]
 }

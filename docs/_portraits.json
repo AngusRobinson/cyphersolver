@@ -2687,7 +2687,7 @@
    "file": "File:Melchior de Polignac - JF Cars sculp after Hyacinthe Rigaud.jpg"
   }
  ],
- "superscript": [
+ "ghinucci1527": [
   {
    "role": "sender",
    "name": "Girolamo Ghinucci",
@@ -3199,6 +3199,16 @@
    "what": "Portrait by François Clouet",
    "credit": "Wikimedia Commons, public domain",
    "file": "File:Bemberg Fondation Toulouse - Portrait de Charles IX - François Clouet - Inv.1012.jpg"
+  }
+ ],
+ "gilino1527": [
+  {
+   "role": "recipient",
+   "name": "Francesco II Sforza",
+   "img": "portrait_francesco-ii-sforza.jpg",
+   "what": "Copy after Titian's portrait",
+   "credit": "Wikimedia Commons, public domain",
+   "file": "File:Portrait of Francesco II Sforza - copy from Titian.jpg"
   }
  ]
 }

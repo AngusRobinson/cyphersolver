@@ -17,7 +17,7 @@ for t in list(K):
     if t[0]=='D': K.setdefault('d'+t[1:],K[t])
 n=int(sys.argv[1]) if len(sys.argv)>1 else 20
 out=[]
-for line in open(r'C:\Users\dbour\cypher\targets\superscript\r8572_tokens.txt',encoding='utf-8'):
+for line in open('r8572_tokens.txt',encoding='utf-8'):
     if line.startswith('#') or not line.strip(): continue
     toks=line.split(); s=''
     for t in toks:
@@ -27,7 +27,7 @@ for line in open(r'C:\Users\dbour\cypher\targets\superscript\r8572_tokens.txt',e
 for s in out[:n]: print(s)
 if len(sys.argv)>2:
     i=0
-    for line in open(r'C:\Users\dbour\cypher\targets\superscript\r8572_tokens.txt',encoding='utf-8'):
+    for line in open('r8572_tokens.txt',encoding='utf-8'):
         if line.startswith('#') or not line.strip(): continue
         i+=1
         if i>n: break

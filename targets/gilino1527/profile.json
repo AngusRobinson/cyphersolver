@@ -1,0 +1,207 @@
+{
+ "schema_version": 1,
+ "target": "gilino1527",
+ "title": "'El Gilino' to Francesco II Sforza, Duke of Milan, Paredes de Nava, 15 September 1527 (BL Cotton MS Vespasian C IV ff.214-218, DECODE R8572)",
+ "documents": [
+  {
+   "id": "gilino-R8572",
+   "read": "read",
+   "shelfmark": "BL Cotton MS Vespasian C IV ff.214-218 (old ff.199-203), DECODE R8572",
+   "date": "15 Sep 1527",
+   "year": 1527,
+   "country": "Milan",
+   "route": "Paredes de Nava -> Francesco II Sforza at Cremona",
+   "language": "Italian",
+   "pages": 9,
+   "cleartext_in_document": "separate passages",
+   "plaintext": {
+    "location": [
+     "none"
+    ],
+    "source": "No decipherment on the MS; not found in L&P iv. Key found on DECODE R5258 (ASMi Carteggio Sforzesco cart. 1591 no. 24, 'Cum equite Bilie / extracta ex cifris')."
+   },
+   "length": {
+    "tokens": 3111,
+    "unit": "symbols",
+    "measured": false,
+    "file": "r8572_tokens.txt"
+   },
+   "transcription": {
+    "by": "llm from images",
+    "source": "DECODE full-size JPEGs (~6700x9300 px), line crops",
+    "image_quality": "good",
+    "corrections": 24,
+    "notes": "Count from decode_r8572.py after the 24 corrections in transcription_corrections.txt, writer's deletions excluded; --measure on r8572_tokens.txt counts 3208 because it includes the clear words. Separate contributed edition: lasry/alignment.tsv has 161 lines, 3,105 cipher occurrences and two clear abbreviations. Counts are not pooled with this original transcription."
+   }
+  }
+ ],
+ "system": {
+  "types": [
+   "syllabic",
+   "homophonic",
+   "nomenclator"
+  ],
+  "summary": "Sforza chancery cipher: barred base signs (G written like 6, B, D, d, o, H, A, P, R) with two-digit numbers for syllables in ordered rows (B.31-50 ba..gu, B.51-54 fa..fo, D.51-65 la..nu, 6.56-80 pa..tu, o.33-47 va..zu), about forty unnumbered signs for letters with homophones, a few code words and titles (B.55, B.56), and nulls.",
+  "symbol_kind": "letters and symbols",
+  "distinct_symbols": "unknown",
+  "diacritics": {
+   "used": true,
+   "note": "two-digit numbers written with barred base letters select the syllable"
+  },
+  "homophones": {
+   "used": true
+  },
+  "nomenclator": {
+   "present": true,
+   "kinds": [
+    "titles",
+    "common words"
+   ]
+  },
+  "nulls": {
+   "present": true
+  },
+  "key_order": "random",
+  "word_division": "none",
+  "sibling_key": "DECODE R5258 (ASMi Carteggio Sforzesco cart. 1591 no. 24, 'Cum equite Bilie / extracta ex cifris'), the key of the Cavaliere Bilia; R5256 is of the same family with different syllables.",
+  "notes": "Split 14 Oct 2026 from the former 'superscript' target, which grouped this letter with Ghinucci's unrelated Worcester cipher because both use superscript numbers. George Lasry's independent reconstruction of the same key (7 Oct 2026, with Codex) is in lasry/."
+ },
+ "conditions": {
+  "prior_solution": {
+   "exists": "partial",
+   "where": "No decipherment on the MS or in print (not in L&P iv). The key existed on DECODE as R5258, filed under the Cavaliere Bilia and unlinked to R8572. George Lasry had reconstructed the key from the ciphertext with Codex assistance by 7 Oct 2026; this session did not know of it until his PR of 14 Oct.",
+   "found": "during attempt",
+   "used": true
+  },
+  "inputs": [
+   "images",
+   "known plaintext",
+   "published reading",
+   "cleartext context"
+  ],
+  "attack": "known plaintext",
+  "human_role": "Project-level: obtained a DECODE login with privileges and passed its session cookie (from the browser developer tools) to the model, set up Claude Code with Fable 5.1 or Opus 5, and posed the problem with /goal; occasionally offered encouragement or chose which of the model-identified leads to pursue. No target-specific intervention recorded.",
+  "models": [
+   "claude-fable-5-1",
+   "claude-opus-5-5"
+  ],
+  "sessions": 1,
+  "first_date": "2026-10-09",
+  "last_date": "2026-10-14",
+  "tools": [
+   "decode_r8572.py (key application)",
+   "PIL line crops"
+  ]
+ },
+ "solution": [
+  {
+   "date": "2026-10-07",
+   "kind": "reading",
+   "technique": [
+    "crib testing",
+    "repeat/pattern analysis",
+    "key-structure hypothesis",
+    "contextual inference"
+   ],
+   "what": "George Lasry’s contributed edition records a separate reconstruction with Codex assistance using Italian cribs and the ordered syllable rows. It includes all nine photographs, original cleartext and indexed image checks. Its own notes did not identify an external historical key. This entry records the dated contribution history, not new work performed on 14 October.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-09",
+   "kind": "access",
+   "what": "Fetched full-size DECODE images of R8476, R8589, R8590, R8613, R8572 with the login cookie; no DOC transcriptions on the records.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-09",
+   "kind": "transcription",
+   "what": "Sub-agent transcribed Gilino R8572 (about 3,150 tokens, 9 pages) and its clear passages; the address leaf names Francesco II Sforza, Duke of Milan.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-09",
+   "kind": "solver",
+   "technique": [
+    "simulated annealing",
+    "language-model scoring"
+   ],
+   "what": "One-token-one-letter homophonic anneal on R8572 with the it-cinquecento 4-gram model: no Italian (-2.9/char, restarts disagree).",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-09",
+   "kind": "key from source",
+   "what": "Sub-agent scanned the DECODE Sforza key files (ASMi cart. 1591 R5235-R5300, R5301-R5309) and found R5258 ('Cum equite Bilie'), whose barred G/B/D/o syllable rows match R8572's numbers.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-09",
+   "kind": "reading",
+   "what": "R8572 deciphered with R5258 plus context values: 2,872 of 2,989 significant tokens (96.1%) read as sense; LM check -1.52/char.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-09",
+   "kind": "access",
+   "what": "Opened the DECODE neighbours of R8572 and R8613 by API (R8566-R8579, R8604-R8619) and listed every Ghinucci/Wigorn record; checked R8540, R8558, R8573, R8582, R8607 by eye. Result: all are Lee/Poyntz/Worcester despatches in the English letter cipher; no further letter in the superscript key on DECODE.",
+   "result": "failed"
+  },
+  {
+   "date": "2026-10-14",
+   "kind": "verification",
+   "what": "Imported the contributed transcription, key, literal decoding and full reading as a separate Gilino edition. Reproduced all 3,107 aligned values, comprising 3,105 cipher occurrences and two original clear abbreviations; retained tentative assignments, presumed nulls and differences from the R5258-based edition. No new accuracy percentage is inferred from assignment coverage.",
+   "result": "worked"
+  },
+  {
+   "date": "2026-10-14",
+   "kind": "verification",
+   "what": "Split from the former combined target 'superscript' (Ghinucci R8613 with Gilino R8572), after George Lasry pointed out that the two letters share only superscript numbering: different writers, languages and keys (the Worcester syllabary vs the Sforza key R5258). Folder, profile, page and ledgers separated; earlier steps are kept as recorded. Compared the two Gilino keys on the numbered syllable signs both label: George Lasry's recovered values agree with R5258 on 101 of 106 (nulls and tentative marks normalised); the other five are H.28, R.22, R.28, x.22 (words in R5258, his et or nulls) and 6.65 (his tentative qu?, a null here). The two editions use the same key.",
+   "result": "worked"
+  },
+  {"date": "2026-10-14", "kind": "verification", "technique": ["statistical test", "language-model scoring"], "what": "Statistical validation (docs/_validate.py): 3102 tokens, 184 types, it-cinquecento order 4: reading -2.012 per letter; random keys -3.39 (z 11.5); key annealed onto shuffled ciphertext best -2.527 (mean -2.541, z 48.2); annealer on the real text -2.463. Verdict: pass.", "result": "worked"}
+ ],
+ "outcome": {"validation": {"date": "2026-10-14", "model": "it-cinquecento", "file": "validation.tsv", "tokens": 3102, "types": 184, "tokens_per_type": 16.86, "score": -2.012, "nulls": {"random keys": {"n": 200, "mean": -3.39, "sd": 0.12, "max": -3.108, "z": 11.5, "p": 0.005}, "shuffled refit": {"n": 6, "mean": -2.541, "sd": 0.011, "max": -2.527, "z": 48.2, "p": 0.1429}}, "power": -2.463, "verdict": "pass", "notes": "claimed per-occurrence score -2.001; polyphony 0.026; 9 unread tokens left out; annealer on the real text from random keys reached -2.463"}, 
+  "method": "read after matching with key from external sources",
+  "method_basis": "R8572 had no decipherment; a scan of the Sforza key sheets on DECODE found R5258 (ASMi Carteggio Sforzesco cart. 1591 no. 24), whose syllable rows match the letter's numbers; applied with a few context values. George Lasry had independently reconstructed the same key from the ciphertext (7 Oct 2026).",
+  "first_break": true,
+  "contribution": [
+   "catalogue correction",
+   "key recovered",
+   "sender or date identified",
+   "transcription"
+  ],
+  "class": "read",
+  "key": "partial",
+  "fraction_read": 0.961,
+  "fraction_read_method": "measured",
+  "fraction_read_source": "reading_r8572.txt, 2,989 significant tokens, 9 unread + ~108 in doubtful words -> 2,872 (96.1%).",
+  "verification": ["historical consistency", "key confirms", "statistical test"],
+  "gaps": [
+   {
+    "item": "Gilino R8572: 9 unread tokens and ~108 tokens in 45 doubtful words",
+    "blocker": "illegible",
+    "detail": "writer's a/o and i/e confusions and glyphs the image does not separate; no second copy"
+   }
+  ],
+  "notes": "R8572 96.1% of significant tokens with R5258. George Lasry's separate edition is preserved in lasry/: 3,105 cipher tokens plus two clear abbreviations, 136 cipher labels, 161 lines; his key agrees with R5258 on 101 of 106 shared numbered signs. Its assignment coverage is not a new plaintext accuracy estimate. Until 14 Oct 2026 this letter sat in the 'superscript' target with Ghinucci R8613 (now targets/ghinucci1527/).",
+  "codes_open": {
+   "tokens_open": 9
+  },
+  "provenance": "mixed",
+  "credits": [
+   {
+    "who": "contemporary",
+    "role": "key or decipherment used",
+    "note": "Sforza key sheet DECODE R5258 (ASMi Carteggio Sforzesco cart. 1591 no. 24)"
+   },
+   {
+    "who": "lasry",
+    "role": "solution",
+    "note": "Independent reconstruction of the Gilino key from the ciphertext (Italian cribs, ordered syllable rows), nine-page transcription, literal alignment and full Italian reading, with Codex assistance; research notes dated 7 October 2026, contributed by PR #34 on 14 October 2026.",
+    "date": "2026-10-14",
+    "source": "https://github.com/dbourdeau/cyphersolver/tree/main/targets/gilino1527/lasry",
+    "published": true
+   }
+  ]
+ }
+}

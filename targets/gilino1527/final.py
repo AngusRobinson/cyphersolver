@@ -4,7 +4,7 @@ K.update({'bf':'l','m':'t','S':'r','o.28':'t','b+':'o','np':'i','ut':'a','th':'a
  '6.2w':'to','SS':'e','xp':'v','44':'r','R':'p','dots':'h','gf':'f','36':'n','20':'b','lam':'b','pi':'m','oto':'c',
  'a++':'','Hvv':'','vv':'','P.25':'','x':''})
 lines=[]
-for line in open(r'C:\Users\dbour\cypher\targets\superscript\r8572_tokens.txt',encoding='utf-8'):
+for line in open('r8572_tokens.txt',encoding='utf-8'):
     if line.startswith('#') or not line.strip(): continue
     lines.append(re.sub(r'\bo t o\b','oto',line.strip()))
 out=[]

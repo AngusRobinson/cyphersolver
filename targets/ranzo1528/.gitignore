@@ -1,0 +1,24 @@
+# scans, crops, fetched pages, corpora, logs (split from targets/vasto1527/.gitignore, 14 Oct 2026)
+ranzo/
+ranzohi/
+ranzo2988/
+clair327/
+clair327hi/
+clair314/
+f3019/
+ita/*.txt
+ita/*.log
+*.jpg
+*.log
+*.html
+clair327_manifest.json
+clair_sru.xml
+n20/run*.txt
+n20/arun*.txt
+n20/frun*.txt
+n20/s2run*.txt
+n20/key_*.json
+n20/akey_*.json
+n20/fkey_*.json
+n20/s2key_*.json
+__pycache__/

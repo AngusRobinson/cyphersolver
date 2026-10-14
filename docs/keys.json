@@ -1,6 +1,6 @@
 {
  "keys": [
-  {"id": "k-ranzo-lasry-2026", "label": "Ranzo code, reconstructed working key (871 observed mappings)", "kind": "scholar's key", "by": "George Lasry with Claude Opus 5.5 and GPT-6 Astra", "year": 1528, "found": 2026, "note": "Based on Norbert Biermann’s five-letter transcription; Codex consolidation of 6 October 2026. Tentative mappings retain ?, and assignment coverage is not plaintext accuracy. Independent contemporaneous reconstruction alongside Rosson.", "image": {"src": "ranzo_lasry_key/ranzo_lasry_key_preview.png", "credit": "George Lasry, from Norbert Biermann’s transcription of the Ranzo correspondence, with Claude Opus 5.5 and GPT-6 Astra", "caption": "First of four pages of the reconstructed key; full table in the Ranzo contribution.", "page": "vasto1527"}},
+  {"id": "k-ranzo-lasry-2026", "label": "Ranzo code, reconstructed working key (871 observed mappings)", "kind": "scholar's key", "by": "George Lasry with Claude Opus 5.5 and GPT-6 Astra", "year": 1528, "found": 2026, "note": "Based on Norbert Biermann’s five-letter transcription; Codex consolidation of 6 October 2026. Tentative mappings retain ?, and assignment coverage is not plaintext accuracy. Independent contemporaneous reconstruction alongside Rosson.", "image": {"src": "ranzo_lasry_key/ranzo_lasry_key_preview.png", "credit": "George Lasry, from Norbert Biermann’s transcription of the Ranzo correspondence, with Claude Opus 5.5 and GPT-6 Astra", "caption": "First of four pages of the reconstructed key; full table in the Ranzo contribution.", "page": "ranzo1528"}},
   {"id": "k-r4755", "label": "Cifra cum Christofano, Siena (DECODE R4755, Concistoro 2308 fasc. 1)", "kind": "DECODE key record", "by": "Sienese chancery", "year": 1431, "note": "Homophonic alphabet (36 signs), 7 nulls, 18 word signs. Recovered ciphertext-only by George Lasry with Claude and ChatGPT Astra, then matched to this sheet; deciphers Concistoro 2308 nos. 6 and 24. Year approximate (1431-38).", "image": {"src": "siena1431_key.jpg", "credit": "Archivio di Stato di Siena, Concistoro 2308 fasc. 1, via DECODE R4755", "caption": "The alphabet of R4755: four homophones under a, e, i, o, u; the nulls below", "page": "siena1431"}},
   {"id": "k-r8727-f106", "label": "Add MS 72438 f. 106 lower graphic alphabet (DECODE R8727)", "kind": "DECODE key record", "by": "Contemporary royalist key sheet", "year": 1645, "note": "Filed among the keys taken in Digby's coach (Oct 1645); its lower alphabet is the key of f. 107 (R8728). Year approximate.", "image": {"src": "rupert_f106.jpg", "credit": "British Library, Add MS 72438 f. 106r, via DECODE R8727", "caption": "The two graphic alphabets of f. 106; the lower one deciphers f. 107", "page": "rupert.html#f107"}},
   {"id": "k-r8655-118", "label": "Key 118, Ormond and Prince Rupert (DECODE R8655, Add MS 72438 ff. 59-60)", "kind": "DECODE key record", "by": "Royalist (Digby's coach)", "year": 1645, "note": "Letters 1-80, nulls 81-90, one-part words 91-434, letter+digit small words."},
@@ -17,8 +17,9 @@
   {"id": "k-ernst-piccolomini", "label": "Zifra Piccolominea (Ferdinand III to Leopold Wilhelm), Thomas Ernst", "kind": "scholar's key", "by": "Thomas Ernst", "year": 1640, "found": 2017, "note": "Number pairs on the AEIOU motto, non-numeric signs = their stroke counts; Ernst's 2017 solution of Schmeh's Top 50 no. 27, letters of 1640/41 to Archduke Leopold Wilhelm."},
   {"id": "k-bayonne1529", "label": "Bayonne's cipher of 1529 (Jean du Bellay), re-derived here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1529, "note": "Homophonic symbol alphabet with word signs (roy, madame, bien, fault/faict, paix, vous); re-derived from the 22 June 1529 interlinear decipherment (BnF fr. 3078 pp. 23-27, DECODE R3689) and Le Grand 1688, extending Tomokiyo's table. targets/dubellay/NOTES.md section 2."},
   {"id": "k-tomokiyo-bayonne1529", "label": "Tomokiyo's table of Bayonne's cipher (1529)", "kind": "scholar's key", "by": "Satoshi Tomokiyo", "year": 1529, "note": "Cryptiana francis.htm, reconstructed from Clair. 333 ff. 24, 27 (June 1530)."},
-  {"id": "k-worcester1527", "label": "Ghinucci (Bishop of Worcester) superscript syllabic key, rebuilt here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1527, "note": "Consonant-row signs with superscript syllable digits, code words and nulls; rebuilt from R8589 (L&P iv 5282), R8590 (interlinear) and R8476 (State Papers VI 552-556), extended in R8613. targets/superscript/key.tsv."},
+  {"id": "k-worcester1527", "label": "Ghinucci (Bishop of Worcester) superscript syllabic key, rebuilt here", "kind": "rebuilt here", "by": "cyphersolver", "year": 1527, "note": "Consonant-row signs with superscript syllable digits, code words and nulls; rebuilt from R8589 (L&P iv 5282), R8590 (interlinear) and R8476 (State Papers VI 552-556), extended in R8613. targets/ghinucci1527/key.tsv."},
   {"id": "k-tomokiyo-worcester", "label": "Tomokiyo's partial table for the Bishop of Worcester", "kind": "scholar's key", "by": "Satoshi Tomokiyo", "year": 1529, "note": "Cryptiana henryviii.htm; partial syllable table, merged into the rebuilt key."},
+  {"id": "k-lasry-gilino1527", "label": "George Lasry, reconstructed Gilino key (R8572)", "kind": "scholar's key", "by": "George Lasry", "year": 1527, "found": 2026, "note": "Rebuilt from the ciphertext of R8572 with Italian cribs, repeated patterns and the ordered syllable rows, with Codex assistance; research notes of 7 Oct 2026. The same key as the Sforza sheet R5258: 101 of 106 shared numbered signs agree. targets/gilino1527/lasry/key.json."},
   {"id": "k-r5258", "label": "DECODE R5258 Sforza key 'Cum equite Bilie'", "kind": "DECODE key record", "by": "Sforza chancery (ASMi Carteggio Sforzesco cart. 1591 no. 24)", "year": 1527, "note": "Barred G/B/D/o signs with two-digit syllable numbers, letters, words and nulls; filed under the Cavaliere Bilia, used by Gilino in 1527."},
   {"id": "k-r5256", "label": "DECODE R5256 Sforza key (cart. 1591 no. 22)", "kind": "DECODE key record", "by": "Sforza chancery", "year": 1525, "note": "Same family as R5258 (barred B/D with numbers for names), different syllable table."},
   {"id": "k-r8766-torcy-petkum1709", "label": "DECODE R8766 Torcy-Petkum code 1709", "kind": "DECODE key record", "by": "French Foreign Office (Torcy)", "year": 1709, "note": "Two-part code, 1-774, deciphering grid ruled to 850; BL Add MS 61575. Reads the Petkum letters R8748-R8752."},
@@ -1960,7 +1961,7 @@
   }
  ],
  "links": [
-  {"key": "k-ranzo-lasry-2026", "target": "vasto1527", "how": "partial", "note": "Separate contributed key for the five-letter Ranzo corpus, including no. 20; gaps and tentative values remain explicit."},
+  {"key": "k-ranzo-lasry-2026", "target": "ranzo1528", "how": "partial", "note": "Separate contributed key for the five-letter Ranzo corpus, including no. 20; gaps and tentative values remain explicit."},
   {"key": "k-r4755", "target": "siena1431", "how": "read unchanged", "note": "nos. 6 and 24; key first recovered ciphertext-only by the solver"},
   {"key": "k-r8727-f106", "target": "rupert", "how": "adapted", "note": "f. 107 (R8728): lower alphabet unchanged, five unlisted homophones added; 122 of 128 words"},
   {"key": "k-zifra-prima-1578", "target": "ottobon", "how": "adapted", "note": "applied to the corrected transcription with two homophones the sheet lacks (d83 = a, c86 = o); 981 of 1,565 groups deciphered"},
@@ -1970,9 +1971,10 @@
   {"key": "k-stuttgart1634", "target": "ferdinand3", "how": "rebuilt from", "note": "rebuilt from R1887's repeated clear phrase as crib; 88.4% of tokens read as sense"},
   {"key": "k-bayonne1529", "target": "dubellay", "how": "rebuilt from", "note": "key re-derived from the 22 June 1529 interlinear; deciphered lines 0-6 of the 16 June 1529 block (fr. 3078 p. 21) before Scheurer's printed text was found, and checked on the 17 Oct letter"},
   {"key": "k-tomokiyo-bayonne1529", "target": "dubellay", "how": "partial", "note": "starting table; extended with B = o, word signs bien, fault, paix"},
-  {"key": "k-worcester1527", "target": "superscript", "how": "rebuilt from", "note": "R8613 (22 July 1527) deciphered 797/814 signs with the key rebuilt from the three sibling decipherments"},
-  {"key": "k-tomokiyo-worcester", "target": "superscript", "how": "partial", "note": "first syllables; merged into the rebuilt key"},
-  {"key": "k-r5258", "target": "superscript", "how": "adapted", "note": "Gilino R8572 deciphered 96.1% with R5258 plus a few context values"},
+  {"key": "k-worcester1527", "target": "ghinucci1527", "how": "rebuilt from", "note": "R8613 (22 July 1527) deciphered 797/814 signs with the key rebuilt from the three sibling decipherments"},
+  {"key": "k-tomokiyo-worcester", "target": "ghinucci1527", "how": "partial", "note": "first syllables; merged into the rebuilt key"},
+  {"key": "k-lasry-gilino1527", "target": "gilino1527", "how": "rebuilt from", "note": "George Lasry's edition: full transcription and Italian reading of the nine pages with his recovered key"},
+  {"key": "k-r5258", "target": "gilino1527", "how": "adapted", "note": "Gilino R8572 deciphered 96.1% with R5258 plus a few context values"},
   {
    "key": "k-battier1686",
    "target": "battier1686",
@@ -2185,15 +2187,15 @@
   },
   {
    "key": "k-rosson-ranzo-1528",
-   "target": "vasto1527",
+   "target": "ranzo1528",
    "how": "partial",
    "note": "applied to our transcription 14 Oct 2026: 94% of no. 20 and 97% of R1894 valued"
   },
   {
    "key": "k-lasry-gl",
    "target": "vasto1527",
-   "how": "read unchanged",
-   "note": "solved by Lasry 2023"
+   "how": "adapted",
+   "note": "Lasry's Cipher 2 key and preliminary decryption of no. 6, extended here with code groups and corrected syllable signs (98.0%)"
   },
   {
    "key": "k-lasry-gl",
@@ -3453,6 +3455,10 @@
   {
    "source": "s-lasry",
    "key": "k-lasry-decode4282"
+  },
+  {
+   "source": "s-lasry",
+   "key": "k-lasry-gilino1527"
   }
  ],
  "unlinked": {
@@ -3496,7 +3502,7 @@
   {"key": "k-tomokiyo-royalist-1645", "target": "rupert", "note": "Ranges do not fit Maurice 1645; the Nicholas-Rupert May 1645 fragment gives no sense on Maurice or f. 9"},
   {"key": "k-r1790-golfo", "target": "ottobon", "note": "different base letters (c f m r) and range; not the key of the 1589 letter"},
   {"key": "k-ernst-piccolomini", "target": "ferdinand3", "note": "does not fit R1889/R1890: their numbers run 0-54 with single letters and letter groups, a different system"},
-  {"key": "k-r5256", "target": "superscript", "note": "Gilino R8572: same barred-letter family, but the syllable rows do not match"},
+  {"key": "k-r5256", "target": "gilino1527", "note": "Gilino R8572: same barred-letter family, but the syllable rows do not match"},
   {"key": "k-r8766-torcy-petkum1709", "target": "geertruidenberg", "note": "Torcy 3 Apr 1710: de = 43/140 in R8766, the letter has 43 once and 140 never; 42 (second commonest) = correspondance. Not the same assignment"},
   {"key": "k-r8767", "target": "geertruidenberg", "note": "de = 215 absent from Torcy's letter; English-court nomenclature; one-part design does not fit"},
   {"key": "k-r8768-rose", "target": "geertruidenberg", "note": "Villars 1 Jun 1710 has no 12 (de); names post-1714. Ruled out"},

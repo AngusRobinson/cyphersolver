@@ -1,40 +1,16 @@
-"""Build validation.tsv for both letters of this target, each with its own key (tokens prefixed W: / G:).
-
-W: R8613 (Ghinucci, Latin): r8613_tokens.txt with key.tsv, as decode.py applies it (the reading r8613_reading.txt
-   is that output with word division); unknown tokens '?', '-' nulls.
-G: Gilino R8572 (Italian): the token stream of gilino/decode_r8572.py (transcription + corrections, deletions
-   skipped, interlined replacements taken) aligned to the hand reading gilino/reading_words.txt by a small DP per
-   line: each token emits one of its key alternatives ('a/o', 'con/null' ...), or a null, or one other letter at a
-   cost; reading letters with no token (supplied <x>) are skipped at a cost. [tok] in the reading = unread token;
-   [word] normalisations and {clear text} are dropped; doubtful words '(?)' are kept as read.
+"""Build validation.tsv for Gilino R8572 (Italian): the token stream of decode_r8572.py (transcription + corrections,
+deletions skipped, interlined replacements taken) aligned to the hand reading reading_words.txt by a small DP per line:
+each token emits one of its key alternatives ('a/o', 'con/null' ...), or a null, or one other letter at a cost; reading
+letters with no token (supplied <x>) are skipped at a cost. [tok] in the reading = unread token; [word] normalisations
+and {clear text} are dropped; doubtful words '(?)' are kept as read.
+Split from the former targets/superscript/ (14 Oct 2026); Ghinucci R8613 has its own file in targets/ghinucci1527/.
 """
 import os, re, sys
 H = os.path.dirname(os.path.abspath(__file__))
 out = ['# model: it-cinquecento',
-       '# source: W: r8613_tokens.txt + key.tsv (decode.py); G: gilino/decode_r8572.py token stream aligned to gilino/reading_words.txt (mk_validation.py)',
-       '# note: Italian (Gilino, ~3100 tokens) dominant; the Latin R8613 (~800 tokens) is scored with the Italian model; separate keys, tokens prefixed W:/G:']
+       '# source: decode_r8572.py token stream aligned to reading_words.txt (mk_validation.py)']
 
-# ---- R8613 (Worcester)
-key = {}
-for l in open(os.path.join(H, 'key.tsv'), encoding='utf-8'):
-    l = l.rstrip('\n')
-    if not l or l.startswith('%%'): continue
-    t, v = l.split('\t')[:2]; key[t] = v
-for l in open(os.path.join(H, 'r8613_tokens.txt'), encoding='utf-8'):
-    if l.startswith('#'): continue
-    for m in re.finditer(r'\{[^}]*\}|\S+', l):
-        t = m.group(0)
-        if t.startswith('{'): continue
-        v = key.get(t)
-        if v is None: out.append(f'W:{t}\t?')
-        elif v == '-': out.append(f'W:{t}\t-')
-        else:
-            v = re.sub(r'[^a-z]', '', v.lower())
-            out.append(f'W:{t}\t{v or "?"}')
-nW = len(out) - 3
-
-# ---- Gilino R8572
-G = os.path.join(H, 'gilino'); sys.path.insert(0, G)
+G = H; sys.path.insert(0, G)
 cwd = os.getcwd(); os.chdir(G)
 src = open('decode_r8572.py', encoding='utf-8').read().split('if __name__')[0]
 ns = {'__file__': os.path.join(G, 'decode_r8572.py'), '__name__': 'dec'}
@@ -104,6 +80,6 @@ for lid, toks in L.items():
     body = body.replace('(?)', '')
     chars = [c for c in body.lower() if c.isalpha() or c == UNK]
     for t, v in align(ct, chars):
-        out.append(f'G:{t.rstrip("?")}\t{v}')
+        out.append(f'{t.rstrip("?")}\t{v}')
 open(os.path.join(H, 'validation.tsv'), 'w', encoding='utf-8').write('\n'.join(out) + '\n')
-print('W', nW, 'G', len(out) - 3 - nW)
+print('tokens', len(out) - 2)

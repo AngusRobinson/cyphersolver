@@ -3039,7 +3039,7 @@
    }
   },
   "ranzo1528": {
-   "writeup": "https://dbourdeau.github.io/cyphersolver/vasto1527.html",
+   "writeup": "https://dbourdeau.github.io/cyphersolver/ranzo1528.html",
    "key": {
     "none": "no key on DECODE; an outside key table for this code by P. Rosson (779 values, 6 Oct 2026) is linked in the sources; Lasry’s independently reconstructed 871-entry working key is linked from the write-up, with tentative mappings marked."
    },
@@ -3051,15 +3051,15 @@
     "R1894": {
      "decode_status": "Non-decrypted",
      "proposed": "Partially decrypted",
-     "note": "Read in part by Paolo Rosson with Claude (6 Oct 2026; link in the sources): his key applied to the attached transcription values 97.2% of the groups and 93.1% lie in connected stretches (measured 14 Oct 2026); not read here. The date 1 Jan 1520 is a placeholder for BnF's 1520-29 range; the same code is used in the letter to 'Garbino', Madrid 11 Apr 1528 (BnF fr. 3022 no. 20), so the late 1520s is likelier. R4450 (BnF fr. 20506 f. 136) is a copy of f. 9. A full transcription of ff. 9r-10v (initial letter + number groups) is attached; about 3,900 groups of this code are transcribed in all (targets/vasto1527/n20/). A separate Biermann-based transcription and Lasry working decipherment are contributed: 1,781 cipher occurrences, 35 presumed nulls, 1,703 proposed readings including tentative ones, 43 unassigned non-null occurrences. These counts do not replace Rosson’s separate measurements.",
+     "note": "Read in part by Paolo Rosson with Claude (6 Oct 2026; link in the sources): his key applied to the attached transcription values 97.2% of the groups and 93.1% lie in connected stretches (measured 14 Oct 2026); not read here. The date 1 Jan 1520 is a placeholder for BnF's 1520-29 range; the same code is used in the letter to 'Garbino', Madrid 11 Apr 1528 (BnF fr. 3022 no. 20), so the late 1520s is likelier. R4450 (BnF fr. 20506 f. 136) is a copy of f. 9. A full transcription of ff. 9r-10v (initial letter + number groups) is attached; about 3,900 groups of this code are transcribed in all (targets/ranzo1528/n20/). A separate Biermann-based transcription and Lasry working decipherment are contributed: 1,781 cipher occurrences, 35 presumed nulls, 1,703 proposed readings including tentative ones, 43 unassigned non-null occurrences. These counts do not replace Rosson’s separate measurements.",
      "reading": null,
      "reading_not_needed": true,
      "transcription": [
-      "targets/vasto1527/n20/ranzo_c017.txt",
-      "targets/vasto1527/n20/ranzo_c018.txt",
-      "targets/vasto1527/n20/ranzo_c019.txt",
-      "targets/vasto1527/n20/ranzo_c020.txt",
-      "targets/vasto1527/lasry/transcription.json"
+      "targets/ranzo1528/n20/ranzo_c017.txt",
+      "targets/ranzo1528/n20/ranzo_c018.txt",
+      "targets/ranzo1528/n20/ranzo_c019.txt",
+      "targets/ranzo1528/n20/ranzo_c020.txt",
+      "targets/ranzo1528/lasry/transcription.json"
      ],
      "sent": false
     },
@@ -8566,10 +8566,10 @@
     }
    }
   },
-  "superscript": {
-   "writeup": "https://dbourdeau.github.io/cyphersolver/superscript.html",
+  "ghinucci1527": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/ghinucci1527.html",
    "key": {
-    "file": "targets/superscript/key.tsv",
+    "file": "targets/ghinucci1527/key.tsv",
     "lang": "LA",
     "how": "rebuilt from the contemporary decipherments of R8589 (printed in L&P iv 5282), R8590 (interlinear) and R8476 (printed in State Papers VI 552-556), extended by context in R8613"
    },
@@ -8582,12 +8582,12 @@
      "note": "Ghinucci (Bishop of Worcester) to Wolsey, duplicate of 22 July 1527 ('Dupplicata sub die xxii Julii 1527'; the '1529' is the binder's heading); L&P iv 3291 no. 2 calls it 'undeciphered'; the original is Cotton Vitellius B IX f. 127 (damaged). Deciphered with the Worcester key rebuilt from the sibling letters R8589, R8590, R8476: 797 of 814 cipher signs (97.9%); 17 single signs open. Old foliation f. 332.",
      "reading": [
       {
-       "file": "targets/superscript/r8613_reading.txt"
+       "file": "targets/ghinucci1527/r8613_reading.txt"
       }
      ],
      "sent": false,
      "transcription": [
-      "targets/superscript/r8613_tokens.txt"
+      "targets/ghinucci1527/r8613_tokens.txt"
      ],
      "fields": {
       "author": "Girolamo Ghinucci, Bishop of Worcester",
@@ -8609,7 +8609,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "targets/superscript/r8589_tokens.txt"
+      "targets/ghinucci1527/r8589_tokens.txt"
      ],
      "fields": {
       "author": "Girolamo Ghinucci, Bishop of Worcester",
@@ -8643,7 +8643,7 @@
      "sent": false,
      "reading_not_needed": true,
      "transcription": [
-      "targets/superscript/r8476_tokens.txt"
+      "targets/ghinucci1527/r8476_tokens.txt"
      ],
      "fields": {
       "receiver": "Cardinal Thomas Wolsey",
@@ -8654,14 +8654,26 @@
       "cleartext_lang": "Latin",
       "plaintext_lang": "Latin"
      }
-    },
+    }
+   }
+  },
+  "gilino1527": {
+   "writeup": "https://dbourdeau.github.io/cyphersolver/gilino1527.html",
+   "key": {
+    "decode": "R5258",
+    "lang": "IT",
+    "how": "Sforza key sheet DECODE R5258 (ASMi Carteggio Sforzesco cart. 1591 no. 24, 'Cum equite Bilie / extracta ex cifris'), applied with a few context values; George Lasry's independently recovered key agrees on 101 of 106 shared numbered signs"
+   },
+   "cite": "DECODE R5258; George Lasry, Gilino edition (research notes 7 Oct 2026, contributed 14 Oct 2026), targets/gilino1527/lasry/",
+   "fields": {},
+   "records": {
     "R8572": {
      "decode_status": "Non-decrypted",
      "proposed": "Decrypted",
-     "note": "'El Gilino' to Francesco II Sforza, Duke of Milan, at Cremona (address leaf), Paredes de Nava, 15 Sept 1527. Deciphered with the Sforza key R5258 plus a few context values: 2,872 of 2,989 significant signs (96.1%); 9 signs and 45 doubtful words open. Folio order 214r-218r = images P1, P2, P7, P3, P5, P4, P6, P8, P9. No decipherment on the MS or in L&P. A separate edition contributed by George Lasry supplies 3,105 cipher occurrences plus two original clear abbreviations, an auditable recovered key and full Italian reading; see the write-up contribution section. Existing R5258-based measurements are retained separately.",
+     "note": "'El Gilino' to Francesco II Sforza, Duke of Milan, at Cremona (address leaf), Paredes de Nava, 15 Sept 1527. Deciphered with the Sforza key R5258 plus a few context values: 2,872 of 2,989 significant signs (96.1%); 9 signs and 45 doubtful words open. Folio order 214r-218r = images P1, P2, P7, P3, P5, P4, P6, P8, P9. No decipherment on the MS or in L&P. A separate edition contributed by George Lasry supplies 3,105 cipher occurrences plus two original clear abbreviations, an auditable recovered key and full Italian reading; its key agrees with R5258 on 101 of 106 shared numbered signs (the same key, reached independently). Unrelated to the Worcester cipher of R8613 in the same volume. Existing R5258-based measurements are retained separately.",
      "reading": [
       {
-       "file": "targets/superscript/gilino/reading_r8572.txt"
+       "file": "targets/gilino1527/reading_r8572.txt"
       }
      ],
      "sent": false,
@@ -8670,8 +8682,8 @@
       "lang": "IT"
      },
      "transcription": [
-      "targets/superscript/r8572_tokens.txt",
-      "targets/superscript/gilino/lasry/transcription.txt"
+      "targets/gilino1527/r8572_tokens.txt",
+      "targets/gilino1527/lasry/transcription.txt"
      ],
      "fields": {
       "author": "Gilino (signs 'Servo el Gilino'), Sforza agent at the imperial court",

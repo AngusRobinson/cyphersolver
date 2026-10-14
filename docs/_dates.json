@@ -119,6 +119,7 @@
   "george lasry’s bnf cipher research: fifty-six ciphers, 1452–1859": "2026-10-13",
   "georges de selve at venice to francis i, 1535–1536": "2026-09-22",
   "german police double-box radiograms, 27 february and 16 june 1942": "2026-09-18",
+  "ghinucci to wolsey, 22 july 1527": "2026-10-09",
   "ghinucci to wolsey, 22 july 1527, and gilino to francesco ii sforza, 15 septembe": "2026-10-09",
   "ghinucci, lee and poyntz to cardinal wolsey, valladolid, 17 july 1527": "2026-09-21",
   "gilbert bayard to montmorency, 5 january 1526": "2026-09-22",
@@ -279,6 +280,7 @@
   "the hereditary prince to prince frederik, berlin, 12 march 1796": "2026-09-21",
   "the indus script, c. 2600–1900 bce": "2026-09-24",
   "the marquis del vasto to charles v, and a letter to “garbino”, 1527–28": "2026-09-18",
+  "the marquis del vasto to charles v, rome, december 1527": "2026-09-18",
   "the marqués de los balbases to baltasar de fuenmayor, nijmegen, 1677–78": "2026-09-19",
   "the marqués del carpio to baltasar de fuenmayor, rome, 1677": "2026-09-19",
   "the paris informant to the duc de nevers, 4 june 1588 (bnf fr. 3976 f. 131)": "2026-10-02",
@@ -562,7 +564,7 @@
   },
   "catalogue": {
    "first": "2026-09-17",
-   "hash": "409728e8239f",
+   "hash": "da3eb38e1fe8",
    "updated": "2026-10-14"
   },
   "catinat1691": {
@@ -647,7 +649,7 @@
   },
   "contributors": {
    "first": "2026-10-13",
-   "hash": "7136bd657f17",
+   "hash": "728ec44945c6",
    "updated": "2026-10-14"
   },
   "copenhagen": {
@@ -835,9 +837,19 @@
    "hash": "400a0d1a8f85",
    "updated": "2026-10-09"
   },
+  "ghinucci1527": {
+   "first": "2026-10-09",
+   "hash": "00cbafb2dec0",
+   "updated": "2026-10-14"
+  },
+  "gilino1527": {
+   "first": "2026-10-09",
+   "hash": "bd27f1cce22a",
+   "updated": "2026-10-14"
+  },
   "glossary": {
    "first": "2026-09-24",
-   "hash": "ffcedeb146bb",
+   "hash": "91767dd38847",
    "updated": "2026-10-14"
   },
   "goldbar": {
@@ -1002,7 +1014,7 @@
   },
   "index": {
    "first": "2026-09-14",
-   "hash": "7ccd8551a154",
+   "hash": "b52255df8de7",
    "updated": "2026-10-14"
   },
   "indus": {
@@ -1525,6 +1537,11 @@
    "hash": "a2730d456621",
    "updated": "2026-10-05"
   },
+  "ranzo1528": {
+   "first": "2026-09-18",
+   "hash": "f4b855c4ebfa",
+   "updated": "2026-10-14"
+  },
   "rechteren1785": {
    "first": "2026-09-21",
    "hash": "426c136119c9",
@@ -1786,8 +1803,8 @@
    "updated": "2026-09-30"
   },
   "superscript": {
-   "first": "2026-10-09",
-   "hash": "1006db58799b",
+   "first": "2026-10-14",
+   "hash": "eece10f9e1db",
    "updated": "2026-10-14"
   },
   "swieten1757": {
@@ -1847,7 +1864,7 @@
   },
   "vasto1527": {
    "first": "2026-09-18",
-   "hash": "4f1f4d89adf2",
+   "hash": "a7760c7cc7af",
    "updated": "2026-10-14"
   },
   "vatican": {
@@ -1962,7 +1979,7 @@
   },
   "writeups": {
    "first": "2026-09-18",
-   "hash": "9953fbbade3e",
+   "hash": "ec0b5bffaf6b",
    "updated": "2026-10-14"
   },
   "yard1699": {

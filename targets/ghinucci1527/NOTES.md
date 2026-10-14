@@ -1,6 +1,6 @@
-# 1520s superscript-digit ciphers (Worcester 1526/1527/1529, Gilino 1527, Garbino 1528) — tracker item #13
+# Ghinucci (Bishop of Worcester) to Wolsey, 22 July 1527 (BL Cotton MS Vespasian C IV f. 363, DECODE R8613) — tracker item #13
 
-Status: read (9 Oct 2026). R8613, the "undeciphered" Worcester duplicate of 22 July 1527 (Ghinucci to Wolsey), deciphered to 97.9% (797 of 814 tokens) with a key recovered from the three sibling letters' contemporary decipherments (R8476, R8589, R8590, all in print); Gilino R8572 (to Francesco II Sforza, 15 Sept 1527) deciphered to 96.1% with the Sforza key DECODE R5258. Garbino belongs to catalogue entry 7 (vasto1527), not this target. Written up as docs/superscript.html.
+Status: read (9 Oct 2026). R8613, the "undeciphered" Worcester duplicate of 22 July 1527 (Ghinucci to Wolsey), deciphered to 97.9% (797 of 814 tokens) with a key recovered from the three sibling letters' contemporary decipherments (R8476, R8589, R8590, all in print). Written up as docs/ghinucci1527.html. Gilino R8572 (15 Sept 1527), formerly in this folder, is a different cipher: targets/gilino1527/. Garbino belongs to the Ranzo code (targets/ranzo1528/), not this target.
 
 ## 9 Oct 2026: access restored, identifications
 
@@ -15,7 +15,7 @@ Letters and Papers iv (BHO, fetched 9 Oct 2026; L&P cites the OLD Cotton foliati
 | R8589 | Vesp. C IV 313 | 291 | 5282 | Ghinucci to Wolsey, Valladolid, 12 Feb 1529 | "Hol., part cipher"; L&P PRINTS the deciphered Latin of the whole cipher passage ("Cum animadvertissemus ... plus brevitatis quam moræ hec mors afferet"); item 2 = Vesp. C VII 40, endorsed "1529, translata e cifris" |
 | R8590 | Vesp. C IV 315 | (315) | 5300 | Ghinucci to [Wolsey], Valladolid, 15 Feb 1529 | quotes the interlinear decipherment ("Legeram enim quod in meis particularibus literis cifris additum fuerat ... perbecta essent") |
 | R8613 | Vesp. C IV 363 | 332 | 3291 item 2 | Ghinucci to Wolsey, 22 July **1527** (heading "Dupplicata sub die 22 Julii 1527") | "Duplicate of the preceding, partly in cipher, undeciphered." Item 1 = Vit. B IX 127, Lat., mutilated, summarised in English (Imperialists want to split England from France; Avemaria offered 3,000,000; Tarbes; 1,000,000 for the children; envoy to free the Pope; rumour Wolsey goes to France to split the English and French Church from Rome) |
-| R8572 | Vesp. C IV 214-218 | 199 | not found | Serno Gilino, Paredes [de Nava], 15 Sept 1527, Italian, to an "Illmo et Exmo unico mio Signore" | different system (B/D/6 bases + two-digit superscripts); DECODE city "Daredos" = Paredes |
+| R8572 | Vesp. C IV 214-218 | 199 | not found | Gilino, Paredes [de Nava], 15 Sept 1527, Italian, to Francesco II Sforza | different system (Sforza key R5258); now `targets/gilino1527/` |
 
 So: R8589 and R8590 are a known-plaintext pair each (decipherment printed / interlined); R8476 has a contemporary
 decipher (R.O.) and is printed in State Papers VI (1849) 552; R8613 is the only Worcester letter that nobody
@@ -29,7 +29,7 @@ Tomokiyo's note "Sylvester Darius ... f.260, DECODE R8589" uses R8589 for a diff
 - Bishop of Worcester (Ghinucci): BL Cotton MS Vespasian C III f.304 (DECODE R8476); C IV f.313 (R8589),
   f.315 (R8590, deciphered — the key source), f.363 (R8613). Latin. cryptiana's partial syllable table:
   henryviii_worcester.png.
-- Serno Gilino: Cotton MS Vespasian C IV f.214 (R8572). Latin, mostly two-digit superscripts.
+- Serno Gilino: Cotton MS Vespasian C IV f.214 (R8572). Different cipher, now `targets/gilino1527/`.
 - Garbino letter: BnF Clair. 327 ff.279-280 (+ fr.2988, 3019, 3022). Italian/Latin.
 
 Blocker (2026-09-15): DECODE records exist but images are "Authentication required / Private Ciphertext";
@@ -90,9 +90,7 @@ Open: P1 l1-8 (the opening: Imperialists, separation of England from France, con
   "1529" is the binder's heading), not 1529; sender Ghinucci, to Wolsey; L&P iv 3291 item 2 ("partly in cipher,
   undeciphered"); the original is Cotton Vitellius B IX f.127 (mutilated). Reading and key from this project:
   `r8613_reading.txt`, `key.tsv`, token transcription `r8613_tokens.txt`.
-- R8572 (Vesp. C IV ff.214-218, old f.199): city "Daredos" is Paredes [de Nava]; language Italian; letter of
-  15 Sept 1527 to an Italian prince ("Illmo et Exmo unico mio Signore"); a different cipher (two-digit code numbers
-  on barred base letters), not the Worcester superscript cipher.
+- R8572 (Vesp. C IV ff.214-218): a different cipher, queued under `targets/gilino1527/`.
 - The four Worcester records could be linked as one key family; R8581 (Darius, Vesp. C IV f.289) is the record
   Tomokiyo cites as "R8589".
 
@@ -123,16 +121,15 @@ Open: P1 l1-8 (the opening: Imperialists, separation of England from France, con
 - R8613 P1 l8 "[..3] ad venirent" (W14 K h) - blocker: open-codes; three tokens in one place, W14 probably a null, K/h have conflicting values between letters.
 - R8613 P2 l7, l13, l16 single tokens (bn, d8, b6) - blocker: open-codes; single occurrences, no second instance in R8476, R8589, R8590 or R8613.
 - R8613 P2 l19 "disseminari [..3] is(tos?)" and l22 "[..3] sed ad perpetuam" (mm19 u r; n7 c1 d4) - blocker: open-codes; single occurrences in unusual combinations, no sibling with them.
-- Gilino R8572: 9 unread tokens (Bp, "q o", a small o, "b o" in a struck group, o.29 xp b+) and ~108 tokens in 45 doubtful words, listed in gilino/reading_r8572.txt - blocker: illegible; the writer's own a/o and i/e confusions and glyphs that the image does not separate (struck groups, cramped superscripts); no second copy of the letter exists.
 
 ## Escalation
 
 - [x] siblings: all four Worcester records (R8476, R8589, R8590, R8613) used. 9 Oct 2026: the DECODE neighbours of R8572 and R8613 opened by API (R8566-R8579, R8604-R8619) and the Ghinucci/Wigorn records listed (R8552-R8616): all other Cotton Vesp. C IV records are Lee/Poyntz/Worcester despatches in the English letter cipher (images of R8540, R8558, R8573, R8582, R8607 checked by eye), not this key; R8617 onward is Add MS 20443. Ghinucci's other July 1527 letters with decipherments (L&P 3273, 3321) are Record Office items, not on DECODE.
-- [x] clear-pages: R8613 has no decipherment, gloss or clear copy on either page (clerk's "Dupplicata"); R8572's only extra page is the address leaf (P10), which named the recipient; no "clear" or "postscript" pages on the neighbouring records.
-- [x] known-keys: Tomokiyo's partial Worcester table (cryptiana henryviii.htm) and the three deciphered siblings merged into key.tsv; for Gilino the DECODE Sforza key files (ASMi cart. 1591 R5235-R5309) scanned, R5258 fits; R5256, R5237, R5248, R5287 checked and do not.
-- [x] print: L&P iv (BHO) for every letter, State Papers VI and VII (archive.org), Tomokiyo; R8613's original (Vit. B IX f.127) is only summarised in L&P 3291; R8572 not in L&P.
-- [x] key-rebuild: Worcester key rebuilt from three known-plaintext letters (R8589 via L&P 5282, R8590 interlinear, R8476 via St.P. VI) and extended by context in R8613; Gilino key R5258 extended from context (gilino/key_r8572.tsv).
-- [x] retry: every open R8613 token re-read on zoomed crops (pass of 9 Oct, P1 l1-11, l17; P2 l13, l17; second pass P1 l4, l6) and re-run with the extended key: "pinguiores eis" (P1 l4) and "spes nutriret" (P1 l6-7) settled, 16 tokens; 17 tokens remain. Gilino unread tokens re-checked on crops by the transcribing sub-agent (24 corrections).
+- [x] clear-pages: R8613 has no decipherment, gloss or clear copy on either page (clerk's "Dupplicata"); no "clear" or "postscript" pages on the neighbouring records.
+- [x] known-keys: Tomokiyo's partial Worcester table (cryptiana henryviii.htm) and the three deciphered siblings merged into key.tsv.
+- [x] print: L&P iv (BHO) for every letter, State Papers VI and VII (archive.org), Tomokiyo; R8613's original (Vit. B IX f.127) is only summarised in L&P 3291.
+- [x] key-rebuild: Worcester key rebuilt from three known-plaintext letters (R8589 via L&P 5282, R8590 interlinear, R8476 via St.P. VI) and extended by context in R8613.
+- [x] retry: every open R8613 token re-read on zoomed crops (pass of 9 Oct, P1 l1-11, l17; P2 l13, l17; second pass P1 l4, l6) and re-run with the extended key: "pinguiores eis" (P1 l4) and "spes nutriret" (P1 l6-7) settled, 16 tokens; 17 tokens remain.
 
 ## 9 Oct 2026: second image pass on R8613, sibling check, close
 
@@ -143,73 +140,17 @@ Open: P1 l1-8 (the opening: Imperialists, separation of England from France, con
   "nisi hec eos spes nutriret" (h = s again; xi14 and Z2 nulls).
 - Measure: 814 cipher tokens, 17 unread -> 797 (97.9%) given a value that reads as sense (`r8613_reading.txt`).
 - Siblings opened by the DECODE API (above); nothing in this key besides the four Worcester records.
-- Garbino (BnF Clair. 327 ff.279-280; fr. 3022 no. 20) is not this cipher: it is the Ranzo initial-letter + number code,
-  catalogue entry 7 (`targets/vasto1527/`), and stays open there. It is out of scope for this target.
+- Garbino (BnF Clair. 327 ff.279-280; fr. 3022 no. 20) is not this cipher: it is the Ranzo initial-letter + number code
+  (`targets/ranzo1528/`, split from `targets/vasto1527/` on 14 Oct 2026). It is out of scope for this target.
 - Outcome: R8613 key recovered based on plaintext from external sources (the siblings' printed and interlinear
-  decipherments), 97.9%; R8572 read after matching with key from external sources (DECODE R5258), 96.1%. Both letters
-  over the read bar; the remaining tokens are scattered single occurrences.
+  decipherments), 97.9%, over the read bar; the remaining tokens are scattered single occurrences.
 
-## 9 Oct 2026: Gilino (R8572) transcribed; key search in the Sforza key files
+## 14 Oct 2026: split from the combined 'superscript' target
 
-- Sub-agent transcription `r8572_tokens.txt` (~3,157 tokens, 198 distinct; 162 cipher lines on 9 pages) and the
-  clear passages `r8572_clear.txt`. Address leaf (P10): "Illmo et Exmo Dno Dno Mediolani Duci ... Cremone": the
-  letter is to **Francesco II Sforza, Duke of Milan, at Cremona**; "el Gilino" is a Sforza agent at the imperial
-  court; dated Paredes [de Nava] 15 Sept 1527. The clear text names Gattinara, Bourbon, the French and English
-  ambassadors, Ludovico Catti (Ferrara), the bishop of Tarbes (who gave him copies of intercepted letters),
-  Caiazzo, Monteleone, Marco Pio. No decipherment on the MS.
-- System: barred base glyphs (6, B, D, d, o, H, A, P, R) with two-digit numbers 20-80, plus ~40 unnumbered signs.
-  A one-token-one-letter homophonic anneal (Italian 'it-cinquecento' 4-gram, frequency penalty) gave no Italian
-  (-2.9/char, restarts disagree): the numbered groups are syllables/words, not single letters.
-- Key search: DECODE holds ~377 Sforza key records (ASMi Carteggio Sforzesco cart. 1591/1597/1598, PDFs). R5256
-  (cart. 1591 no. 22) is the same family (barred B/D with numbers for names: Papa B20, Imperatore D20, Gran
-  Cancelliere D22, Antonio Leyva D26, Duca di Milano B28 ...), 1520s, but its syllable table differs. A full scan of
-  the key files for Gilino's table is running.
-- **Key found: DECODE R5258** (ASMi Carteggio Sforzesco cart. 1591 no. 24, docket "Cum equite Bilie / extracta ex
-  cifris"), by a sub-agent scanning the contact sheets of cart. 1591 (R5235-R5300) and R5301-R5309 (cart. 1597/1598
-  R5310-R5611 not examined after the match). Its barred "G" = Gilino's "6"; rows B.31-50 ba..gu, B.51-55 fa..fu,
-  D.51-65 la..nu, 6.56-80 pa..tu, o.33-47 va..zu; words H.26 cosa, H.27 che, H.28 come, R.23 con, R.28 ancora,
-  D.40 sara; letters and nulls (a++ etc.) also on the sheet. First application gives Italian throughout ("firmato
-  da molti", "le galere di Napoli", "cento milla ducati del cambio", "la morte di Borbone", "dalli oratori
-  confederati", "nuncio in credenza", "camerero di Sua Santita"). Notes: `gilino/key_R5258.md`, first decoder
-  `gilino/dec.py`, `gilino/final.py`, output `gilino/r8572_test_decrypt.txt`. Key renders in `img/` (git-ignored).
-- Name question: the key is "with the Cavaliere Bilia", the letter is signed "Servo el Gilino" (checked on the
-  image); R5287 (cart. 1591 no. 53, 7 Nov 1525) lists "Cavallero billia" and "Ghilino" as two people. Open.
-- Other Sforza keys for the same men: R5237 (Bilia, plain numeric alphabet), R5248 ("Cum Camillo Gilino in
-  Fiandra", digraph-to-digit key), R5236 and R5287 (nomenclators naming Gilino).
-
-## 9 Oct 2026: Gilino R8572 deciphered with R5258
-
-- Sub-agent reading `gilino/reading_r8572.txt` (decoder `gilino/decode_r8572.py`, `gilino/build_reading.py`; key
-  `gilino/key_r8572.tsv`, 183 rows with source sheet/context; 24 transcription corrections in
-  `gilino/transcription_corrections.txt`; English summary `gilino/summary_r8572.txt`). Measure: 3,111 cipher tokens,
-  122 nulls, 2,989 significant, 9 unread, ~108 in doubtful words -> 2,872 read as sense = 96.1%; it-cinquecento
-  LM -1.52/char on the word-divided text.
-- Folio order differs from DECODE image order: P1 > P2 > P7 > P3 > P5 > P4 > P6 > P8 > P9 (ff.214r-218r).
-- Content: Gattinara out of favour over two intercepted letters to the Viceroy of Naples about relieving Genoa (the
-  confessor and secretary Lalemand his enemies); the Duke should have "the Bilia" keep in with Gattinara now that
-  Bourbon is dead; the new Portuguese ambassador and a letter in the Pope's own hand; two papal briefs; the
-  Abbatino's mission and Gregorio Casale; Paolo Luzzasco to go over to the Emperor with 300 light horse; the French
-  ambassadors insist the Duke keep Milan; the Emperor said to revoke the Pope's liberation after the Lombard news;
-  Andrea da Burgo "pro opprimenda Italia"; investiture of Milan sent to the Infante with 100,000 ducats.
-- Bilia vs Gilino: the cipher names Bilia in the third person, and R5287's codes for Bilia (A28) and Ghilino (A29)
-  do not occur; R5258 is a key drawn from the Bilia correspondence that Gilino also used.
-- Prior solution: none found (no decipherment on the MS, not in L&P); the key was in the Milan archive, filed under
-  another correspondent, not previously tied to this letter.
-
-## DECODE queue (Gilino)
-
-- R8572: author "Gilino" (sign. "Servo el Gilino"), recipient Francesco II Sforza, Duke of Milan, at Cremona (address
-  leaf P10); origin Paredes [de Nava] (not "Daredos"); language Italian; key = DECODE R5258 (ASMi Carteggio
-  Sforzesco cart. 1591 no. 24); image order vs folio order as above; reading in `gilino/reading_r8572.txt`.
-- R5258: link to R8572 as the key that reads it (docket "Cum equite Bilie / extracta ex cifris").
-
-
-## 14 October 2026: George Lasry’s Gilino edition contributed
-
-Contributed by George Lasry. The separate edition in `gilino/lasry/` preserves his reconstructed key, nine-page transcription, literal alignment and Italian reading with original cleartext inserted. Its dated research record (7 October 2026) describes Italian crib testing, repeated patterns and syllabary structure with Codex assistance, without an archival key. Do not attribute a CTTS homophonic-solver run to this contribution: none is documented in its records. The existing project work with R5258 and the Ghinucci material remain unchanged.
-
-The contribution adds 161 cipher lines, 3,105 cipher occurrences and two original cleartext abbreviations, with 136 cipher labels. These are an alternative transcription of the same nine text pages, not additional pages or tokens to add to the earlier totals. Every aligned assignment reproduces from its key; this does not make tentative values or anomalous words secure. The supplied PDF is an older presentation of this edition; subsequent corrections in the accompanying files are retained.
-
-The headline 96.1% and existing statistical test continue to describe the earlier project transcription. No combined or replacement accuracy is claimed. The current page now includes the full contributed Italian reading and its key, with technical evidence and disagreements retained in the contribution directory.
-
-Two explanatory examples on the page were corrected to its already-existing working key: B.51–54 = fa…fo, with B.55/B.56 title codes; D.40 = i in this letter. They do not alter either key table.
+Until 14 Oct 2026 this folder was `targets/superscript/` and also held Gilino's letter to Francesco II Sforza
+(R8572), on a page "Ghinucci to Wolsey and Gilino to Sforza, 1527" (`docs/superscript.html`). George Lasry pointed
+out that the two have nothing in common but superscript numbers: different writers, languages, chanceries and keys
+(this Worcester syllabary, rebuilt here; the Sforza key DECODE R5258 for Gilino). Gilino's letter, its key files and
+George Lasry's contributed edition moved to `targets/gilino1527/` with their own page (`docs/gilino1527.html`); this
+folder became `targets/ghinucci1527/` (`docs/ghinucci1527.html`). `docs/superscript.html` now only points to both.
+`mk_validation.py` and `validation.tsv` were rebuilt for R8613 alone, scored with the Latin model `la`.
