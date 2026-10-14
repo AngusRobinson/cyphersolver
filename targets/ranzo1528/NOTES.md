@@ -15,10 +15,13 @@ Gallica: fr. 3022 ark `btv1b90601558` (view = canvas; ink folio ≈ (view+1)/2),
 
 ## No. 20 and the Ranzo letters (from the work of 18 Sept 2026)
 
-**System.** Each group is a base letter with a superscript number: c170, i100, p149 and so on. The addition
-sheet (f. 50) shows that the base letter is the initial of the word or syllable (a327 apresso, c327 Cartagenia,
-g215 Garbino, h106 havendo, s395 soa santita). It also shows that entries continue each letter's base list
-(a1–326, b1–156, c1–326, …, z1–35).
+**System.** Each group is a base letter with a superscript number: c170, i100, p149 and so on; the base letter is
+the initial of the word or syllable. The addition sheet (f. 50; a327 apresso, c327 Cartagenia, h106 havendo, s395
+soa santita) has the same design, **but it is not this code's key** (George Lasry, 14 Oct 2026; checked the same
+day): of its 113 groups only g217 (once) occurs in the 3,912 transcribed groups of no. 20 and Ranzo's letters, and
+its numbers overlap those the letters use (it starts b at 157, the letters run to b215; a323, c325, p383, s387).
+The 18 Sept reading that it "continues each base list (a1–326, b1–156 …)" was wrong. It is shown on the page for
+illustration only.
 
 **The numbering within a letter is not alphabetical.** Tested in `n20/alphatest.py`:
 - no. 20 scores z = −0.5 against a shuffled-order null.
@@ -120,7 +123,7 @@ This is publication of existing results, not a renewed solving run. The user end
 ## Files
 
 - `n20/`: transcriptions (no. 20 `f44r.txt`-`f46v.txt` and Ranzo `ranzo_c0*.txt`), `load.py`, solvers (`solve.py` and `anchor.py` assume alphabetical order, now refuted; `free.py`, `solve2.py`), `alphatest.py`, `calib.py`
-- `additione.json`: the addition sheet (fr. 3022 f. 50-50v)
+- `additione.json`: the addition sheet (fr. 3022 f. 50-50v), another code of the same design, not this code's key
 - `measure_rosson.py`: applies Rosson's key to the transcriptions
 - `lasry/`: George Lasry's contributed edition (Biermann transcription, 871-entry key, decode, excerpts, verify.py)
 - `ita/`: Italian corpus preparation for the annealer; the corpus texts are not committed

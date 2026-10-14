@@ -71,7 +71,7 @@
    "code",
    "nomenclator"
   ],
-  "summary": "Initial-letter code: each group is the initial of a word or syllable with a number (c170 che, i100 il, p149 per); base lists per letter (a1-326 ... z1-35) continued by an addition sheet; numbering within a letter not alphabetical; z-groups nulls or punctuation.",
+  "summary": "Initial-letter code: each group is the initial of a word or syllable with a number (c170 che, i100 il, p149 per); numbering within a letter not alphabetical; z-groups nulls or punctuation. The 'Aditione nel zifra' bound with no. 20 (fr. 3022 f. 50) is of the same design but belongs to another code: only 1 of its 113 groups occurs in these letters.",
   "symbol_kind": "letters and symbols",
   "distinct_symbols": "unknown",
   "diacritics": {
@@ -98,7 +98,7 @@
   "word_division": "none",
   "doubled_letters": "unknown",
   "sibling_key": "No. 20 shares its code with Ranzo's signed letters in fr. 2988 and fr. 3019 no. 27; no contemporary key found. Keys rebuilt by Rosson (6 Oct 2026) and George Lasry (6 Oct 2026).",
-  "notes": "No. 20 base lists per letter (a1-326 … z1-35) from the addition sheet (additione.json); numbering tested not alphabetical (n20/alphatest.py, z = -0.5 vs +6.5 on an alphabetical control), hence key_order random for no. 20. z-groups behave as nulls or punctuation. Split 14 Oct 2026 from targets/vasto1527 (del Vasto's letters are in different ciphers)."
+  "notes": "numbering tested not alphabetical (n20/alphatest.py, z = -0.5 vs +6.5 on an alphabetical control), hence key_order random for no. 20. z-groups behave as nulls or punctuation. Split 14 Oct 2026 from targets/vasto1527 (del Vasto's letters are in different ciphers)."
  },
  "conditions": {
   "prior_solution": {
@@ -221,6 +221,15 @@
    "kind": "verification",
    "result": "worked",
    "what": "Split the combined catalogue item 7 target after George Lasry pointed out that it mixed different ciphers: del Vasto's no. 6 (Cipher 2, shifted letters with code groups; sibling no. 19) stays in vasto1527; no. 20 and the Ranzo letters (initial-letter code with numbered word lists) moved to ranzo1528; no. 10 (Cipher 1, read by Lasry and Tomokiyo, not reworked) is a cross-reference only. This folder takes no. 20, the Ranzo transcriptions, Rosson's measure and Lasry's contributed edition."
+  },
+  {
+   "date": "2026-10-14",
+   "kind": "verification",
+   "technique": [
+    "repeat/pattern analysis"
+   ],
+   "what": "Tested George Lasry's correction that the addition sheet (fr. 3022 f. 50, additione.json) is not this code's key: of its 113 groups only g217 occurs (once) in the 3,912 transcribed groups of no. 20 and Ranzo's letters, and its numbers overlap the letters' own (b from 157 vs b up to 215 in the letters). The 18 Sept claim that it continues the base lists is withdrawn; page and NOTES corrected.",
+   "result": "worked"
   }
  ],
  "outcome": {
