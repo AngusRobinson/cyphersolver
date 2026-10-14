@@ -1,6 +1,6 @@
 # Ercole Rondinelli → Duke of Nevers, 11 November 1590, BnF Français 3613 — Rondinelli, ff62r–v
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/rondinelli1590.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

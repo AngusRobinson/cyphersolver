@@ -1,0 +1,18 @@
+[
+ {
+  "file": "clair1161_lasry_p073_1.png",
+  "page": 73,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 551
+ },
+ {
+  "file": "clair1161_lasry_p074_2.jpg",
+  "page": 74,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 490
+ }
+]

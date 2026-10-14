@@ -1,0 +1,34 @@
+[
+ {
+  "file": "fr3575f56_lasry_p010_1.png",
+  "page": 10,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 257
+ },
+ {
+  "file": "fr3575f56_lasry_p010_2.jpg",
+  "page": 10,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 131
+ },
+ {
+  "file": "fr3575f56_lasry_p011_3.jpg",
+  "page": 11,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 226
+ },
+ {
+  "file": "fr3575f56_lasry_p011_4.jpg",
+  "page": 11,
+  "n": 4,
+  "key": false,
+  "w": 1400,
+  "h": 198
+ }
+]

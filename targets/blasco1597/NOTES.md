@@ -1,6 +1,6 @@
 # Juan Blasco de Aragon → Not established, 2 May 1597, BnF Français 23054 — Blasco, 2 May 1597
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/blasco1597.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

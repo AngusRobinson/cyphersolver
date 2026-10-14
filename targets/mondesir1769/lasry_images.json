@@ -1,0 +1,34 @@
+[
+ {
+  "file": "mondesir1769_lasry_p035_1.png",
+  "page": 35,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 327
+ },
+ {
+  "file": "mondesir1769_lasry_p036_2.jpg",
+  "page": 36,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 368
+ },
+ {
+  "file": "mondesir1769_lasry_p036_3.jpg",
+  "page": 36,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 154
+ },
+ {
+  "file": "mondesir1769_lasry_p037_4.jpg",
+  "page": 37,
+  "n": 4,
+  "key": false,
+  "w": 1400,
+  "h": 190
+ }
+]

@@ -1,0 +1,18 @@
+[
+ {
+  "file": "herbault1625_lasry_p090_1.png",
+  "page": 90,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 712
+ },
+ {
+  "file": "herbault1625_lasry_p091_2.jpg",
+  "page": 91,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 277
+ }
+]

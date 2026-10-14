@@ -1,6 +1,6 @@
 # Francesco Guicciardini? → Ferdinando I de Medici, Grand Duke of Tuscany, 10 May 1597, BnF Dupuy 155
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/dupuy155.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

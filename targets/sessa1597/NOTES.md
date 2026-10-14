@@ -1,6 +1,6 @@
 # Philip II / Archduke Albert → Duke of Sessa / Philip II, 31 March 1597 / 25 August 1596, BnF Français 23054 — Spanish numerical correspondence
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/sessa1597.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

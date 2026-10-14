@@ -1,6 +1,6 @@
 # Girolamo Gondi → Duke of Nevers and Rethel, 15 May 1594, BnF Français 4700 — Gondi symbol cipher, ff9r–10r
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/gondi1594.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

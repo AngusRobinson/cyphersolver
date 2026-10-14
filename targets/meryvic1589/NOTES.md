@@ -1,6 +1,6 @@
 # Méry de Vic → Henri IV, 28 August 1589, BnF Dupuy 61 — Méry de Vic, f43r
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/meryvic1589.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

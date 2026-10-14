@@ -1,0 +1,26 @@
+[
+ {
+  "file": "blasco1597_lasry_p038_1.png",
+  "page": 38,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 199
+ },
+ {
+  "file": "blasco1597_lasry_p038_2.jpg",
+  "page": 38,
+  "n": 2,
+  "key": false,
+  "w": 760,
+  "h": 226
+ },
+ {
+  "file": "blasco1597_lasry_p039_3.jpg",
+  "page": 39,
+  "n": 3,
+  "key": false,
+  "w": 787,
+  "h": 220
+ }
+]

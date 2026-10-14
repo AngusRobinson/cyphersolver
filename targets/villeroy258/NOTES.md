@@ -1,6 +1,6 @@
 # M. de Villeroy → M. de La Verrière, 19 July; year not written, BnF Dupuy 61 — Villeroy, f258r
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/villeroy258.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

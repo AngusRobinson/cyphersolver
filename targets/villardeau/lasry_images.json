@@ -1,0 +1,18 @@
+[
+ {
+  "file": "villardeau_lasry_p124_1.png",
+  "page": 124,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 1844
+ },
+ {
+  "file": "villardeau_lasry_p125_2.jpg",
+  "page": 125,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 359
+ }
+]

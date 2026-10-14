@@ -1,6 +1,6 @@
 # Dampierre → Duke of Nevers, 5 November 1589, BnF Français 3414 — Dampierre, ff125r–125v
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/dampierre1589.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

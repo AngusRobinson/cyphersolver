@@ -1,6 +1,6 @@
 # Writer in Mondesir, Isle de France (name not established) → The writer’s wife, 20 November 1769, with later additions, BnF Français 5581 — Letter from Mondesir
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/mondesir1769.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

@@ -1,6 +1,6 @@
 # Villeroy; Henri IV → Pierre Jeannin and fellow envoys, 1607, BnF Français 3516 — Villeroy / royal cipher
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/jeannin1607.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

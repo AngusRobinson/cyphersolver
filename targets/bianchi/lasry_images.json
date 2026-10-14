@@ -1,0 +1,34 @@
+[
+ {
+  "file": "bianchi_lasry_p126_1.jpg",
+  "page": 126,
+  "n": 1,
+  "key": false,
+  "w": 1400,
+  "h": 1080
+ },
+ {
+  "file": "bianchi_lasry_p127_2.jpg",
+  "page": 127,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 1082
+ },
+ {
+  "file": "bianchi_lasry_p128_3.jpg",
+  "page": 128,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 1080
+ },
+ {
+  "file": "bianchi_lasry_p129_4.jpg",
+  "page": 129,
+  "n": 4,
+  "key": false,
+  "w": 1400,
+  "h": 786
+ }
+]

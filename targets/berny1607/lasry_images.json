@@ -1,0 +1,26 @@
+[
+ {
+  "file": "berny1607_lasry_p118_1.png",
+  "page": 118,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 878
+ },
+ {
+  "file": "berny1607_lasry_p119_2.jpg",
+  "page": 119,
+  "n": 2,
+  "key": false,
+  "w": 1400,
+  "h": 297
+ },
+ {
+  "file": "berny1607_lasry_p119_3.jpg",
+  "page": 119,
+  "n": 3,
+  "key": false,
+  "w": 1400,
+  "h": 297
+ }
+]

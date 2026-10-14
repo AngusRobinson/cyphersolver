@@ -1,6 +1,6 @@
 # René de Lucinge → Charles-Emmanuel I, Duke of Savoy, 9 June, 18 June and 3 August 1588, BnF Italien 2242 — Lucinge, 1588
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/lucinge1588.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 

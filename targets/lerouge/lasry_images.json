@@ -1,0 +1,18 @@
+[
+ {
+  "file": "lerouge_lasry_p079_1.png",
+  "page": 79,
+  "n": 1,
+  "key": true,
+  "w": 1400,
+  "h": 327
+ },
+ {
+  "file": "lerouge_lasry_p079_2.jpg",
+  "page": 79,
+  "n": 2,
+  "key": false,
+  "w": 768,
+  "h": 149
+ }
+]

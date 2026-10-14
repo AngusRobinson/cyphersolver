@@ -1,6 +1,6 @@
 # Abraham Duquesne → Seignelay, 25 September 1681; later letter in the same September correspondence, BnF NAF 22736 — Duquesne, ff137r–138r and144v
 
-Status: no write-up (result by George Lasry, summarised on docs/lasry-bnf.html)
+Status: no write-up of our own (result by George Lasry, presented on docs/duquesne1681.html and summarised on docs/lasry-bnf.html)
 
 Hub page: [George Lasry's BnF cipher research](https://dbourdeau.github.io/cyphersolver/lasry-bnf.html).
 
